@@ -1,0 +1,554 @@
+<sdf version="1.5">
+    <model name="legs_with_muscles_simplified">
+        <link name="halterung">
+            <pose>0 0 0 0 0 0</pose>
+            <inertial>
+                <pose>0 0 0 0 0 0</pose>
+                <mass>1000.0</mass>
+                <inertia>
+                    <ixx>10.0</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>10.0</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>10.0</izz>
+                </inertia>
+            </inertial>
+            <collision name="halterung_collision">
+                <pose>0 0 0 0 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <scale>1 1 1</scale>
+                        <uri>model://legs_with_muscles_simplified/cad/halterung.STL</uri>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="halterung_visual">
+                <pose>0 0 0 0 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <scale>1 1 1</scale>
+                        <uri>model://legs_with_muscles_simplified/cad/halterung.STL</uri>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+
+        <joint name="attachment" type="prismatic">
+            <child>hip</child>
+            <parent>halterung</parent>
+            <axis>
+                <xyz>0 0 1</xyz>
+                <limit>
+                    <lower>-0.2</lower>
+                    <upper>0.0</upper>
+                </limit>
+                <dynamics>
+                    <spring_reference>0</spring_reference>
+                    <spring_stiffness>0</spring_stiffness>
+                </dynamics>
+                <use_parent_model_frame>1</use_parent_model_frame>
+            </axis>
+        </joint>
+
+        <link name="hip">
+            <pose>0 0.039196 0.98928 0 -6.123e-17 -1.5708</pose>
+            <inertial>
+                <pose>0 0 0 0 0 0</pose>
+                <mass>1.51172839888082</mass>
+                <inertia>
+                    <ixx>0.0224032723592697</ixx>
+                    <ixy>-4.28257129982492E-05</ixy>
+                    <ixz>0.000170071266102906</ixz>
+                    <iyy>0.00636162441825887</iyy>
+                    <iyz>0.000429409919396519</iyz>
+                    <izz>0.0239035219883902</izz>
+                </inertia>
+            </inertial>
+            <collision name="hip_collision">
+                <pose>0 0 0 0 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <scale>1 1 1</scale>
+                        <uri>model://legs_with_muscles_simplified/cad/hip.STL</uri>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="hip_visual">
+                <pose>0 0 0 0 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <scale>1 1 1</scale>
+                        <uri>model://legs_with_muscles_simplified/cad/hip.STL</uri>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+
+        <link name="thigh_left">
+            <pose>0.1985 -7.29131e-07 0.945 -0.10152 -0.29158 -1.5708</pose>
+            <inertial>
+                <pose>0.0139334 0.00220512 -0.157333 0 0 0</pose>
+                <mass>0.370994</mass>
+                <inertia>
+                    <ixx>0.00935487</ixx>
+                    <ixy>-9.22877e-06</ixy>
+                    <ixz>-0.000446949</ixz>
+                    <iyy>0.00955568</iyy>
+                    <iyz>0.000108757</iyz>
+                    <izz>0.000375649</izz>
+                </inertia>
+            </inertial>
+            <collision name="thigh_left_collision">
+                <pose>0 0 0 0 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <scale>1 1 1</scale>
+                        <uri>model://legs_with_muscles_simplified/cad/thigh_left.STL</uri>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="thigh_left_visual">
+                <pose>0 0 0 0 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <scale>1 1 1</scale>
+                        <uri>model://legs_with_muscles_simplified/cad/thigh_left.STL</uri>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+
+        <joint name="groin_left" type="universal">
+            <child>thigh_left</child>
+            <parent>hip</parent>
+            <axis>
+                <xyz>-0.999998 5.26837e-06 5.31484e-06</xyz>
+                <limit>
+                    <lower>-0.5</lower>
+                    <upper>0.5</upper>
+                </limit>
+                <dynamics>
+                    <damping>0.0</damping>
+                    <friction>0.0</friction>
+                </dynamics>
+                <use_parent_model_frame>1</use_parent_model_frame>
+            </axis>
+        </joint>
+
+        <link name="shank_left">
+            <pose>0.13729 -0.0965735 0.544964 -0.115174 0.0972221 -0.029276</pose>
+            <inertial>
+                <pose>0.0205703 -0.0215447 -0.147737 0 0 0</pose>
+                <mass>0.577598</mass>
+                <inertia>
+                    <ixx>0.00491097</ixx>
+                    <ixy>2.22183e-06</ixy>
+                    <ixz>-5.14313e-06</ixz>
+                    <iyy>0.0044954</iyy>
+                    <iyz>7.55047e-05</iyz>
+                    <izz>0.000636158</izz>
+                </inertia>
+            </inertial>
+            <collision name="shank_left_collision">
+                <pose>0 0 0 0 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <scale>1 1 1</scale>
+                        <uri>model://legs_with_muscles_simplified/cad/shank_left.STL</uri>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="shank_left_visual">
+                <pose>0 0 0 0 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <scale>1 1 1</scale>
+                        <uri>model://legs_with_muscles_simplified/cad/shank_left.STL</uri>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+
+        <joint name="knee_left" type="revolute">
+            <child>shank_left</child>
+            <parent>thigh_left</parent>
+            <axis>
+                <xyz>-0.994851 0.0291336 0.097069</xyz>
+                <limit>
+                    <lower>-2.0</lower>
+                    <upper>0.0</upper>
+                </limit>
+                <dynamics>
+                    <damping>0.01</damping>
+                    <friction>0.1</friction>
+                </dynamics>
+                <use_parent_model_frame>1</use_parent_model_frame>
+            </axis>
+        </joint>
+
+        <link name="foot_left">
+            <pose>0.125661 -0.155039 0.232135 0.097747 -0.103474 1.5314</pose>
+            <inertial>
+                <pose>-0.0364985 0.0020375 -0.0767128 0 0 0</pose>
+                <mass>0.286522</mass>
+                <inertia>
+                    <ixx>0.000354226</ixx>
+                    <ixy>-4.01093e-05</ixy>
+                    <ixz>0.000184641</ixz>
+                    <iyy>0.00123644</iyy>
+                    <iyz>-8.15904e-06</iyz>
+                    <izz>0.00110135</izz>
+                </inertia>
+            </inertial>
+            <collision name="foot_left_collision">
+                <pose>0 0 0 0 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <scale>1 1 1</scale>
+                        <uri>model://legs_with_muscles_simplified/cad/foot_left.STL</uri>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="foot_left_visual">
+                <pose>0 0 0 0 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <scale>1 1 1</scale>
+                        <uri>model://legs_with_muscles_simplified/cad/foot_left.STL</uri>
+                    </mesh>
+                </geometry>
+            </visual>
+            <sensor name='contact_foot_left' type='contact'>
+                <plugin name="contact_foot_left" filename="libcontact_plugin.so"/>
+                <contact>
+                    <collision>foot_left_collision</collision>
+                </contact>
+                <update_rate>10</update_rate>
+            </sensor>
+        </link>
+
+        <joint name="ankle_left" type="revolute">
+            <child>foot_left</child>
+            <parent>shank_left</parent>
+            <axis>
+                <xyz>0.994851 -0.0291299 -0.0970695</xyz>
+                <limit>
+                    <lower>-1.0</lower>
+                    <upper>1.0</upper>
+                </limit>
+                <dynamics>
+                    <damping>0.01</damping>
+                    <friction>0.1</friction>
+                </dynamics>
+                <use_parent_model_frame>1</use_parent_model_frame>
+            </axis>
+        </joint>
+
+        <link name="thigh_right">
+            <pose>-0.1985 7.29131e-07 0.945 0.19207 0.31586 1.5708</pose>
+            <inertial>
+                <pose>0.00167568 -0.0104108 -0.183993 0 0 0</pose>
+                <mass>0.659699</mass>
+                <inertia>
+                    <ixx>0.0113357</ixx>
+                    <ixy>-1.83926e-05</ixy>
+                    <ixz>-9.10065e-05</ixz>
+                    <iyy>0.0115345</iyy>
+                    <iyz>0.000111995</iyz>
+                    <izz>0.00109037</izz>
+                </inertia>
+            </inertial>
+            <collision name="thigh_right_collision">
+                <pose>0 0 0 0 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <scale>1 1 1</scale>
+                        <uri>model://legs_with_muscles_simplified/cad/thigh_right.STL</uri>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="thigh_right_visual">
+                <pose>0 0 0 0 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <scale>1 1 1</scale>
+                        <uri>model://legs_with_muscles_simplified/cad/thigh_right.STL</uri>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+
+        <joint name="groin_right" type="universal">
+            <child>thigh_right</child>
+            <parent>hip</parent>
+            <axis>
+                <xyz>0.999999 3.36658e-06 -9.38235e-07</xyz>
+                <limit>
+                    <lower>-0.5</lower>
+                    <upper>0.5</upper>
+                </limit>
+                <dynamics>
+                    <damping>0.01</damping>
+                    <friction>0.1</friction>
+                </dynamics>
+                <use_parent_model_frame>1</use_parent_model_frame>
+            </axis>
+        </joint>
+
+        <link name="shank_right">
+            <pose>-0.296616 -0.104014 0.554288 0.155308 0.182457 -0.0603347</pose>
+            <inertial>
+                <pose>0.0205699 -0.0215467 -0.147735 0 0 0</pose>
+                <mass>0.577624</mass>
+                <inertia>
+                    <ixx>0.00491112</ixx>
+                    <ixy>2.22698e-06</ixy>
+                    <ixz>-5.15021e-06</ixz>
+                    <iyy>0.00449549</iyy>
+                    <iyz>7.55606e-05</iyz>
+                    <izz>0.000636215</izz>
+                </inertia>
+            </inertial>
+            <collision name="shank_right_collision">
+                <pose>0 0 0 0 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <scale>1 1 1</scale>
+                        <uri>model://legs_with_muscles_simplified/cad/shank_right.STL</uri>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="shank_right_visual">
+                <pose>0 0 0 0 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <scale>1 1 1</scale>
+                        <uri>model://legs_with_muscles_simplified/cad/shank_right.STL</uri>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+
+        <joint name="knee_right" type="revolute">
+            <child>shank_right</child>
+            <parent>thigh_right</parent>
+            <axis>
+                <xyz>-0.981611 0.0592972 0.181447</xyz>
+                <limit>
+                    <lower>-2.0</lower>
+                    <upper>0.0</upper>
+                </limit>
+                <dynamics>
+                    <spring_reference>0</spring_reference>
+                    <spring_stiffness>0</spring_stiffness>
+                </dynamics>
+                <use_parent_model_frame>1</use_parent_model_frame>
+            </axis>
+        </joint>
+
+        <link name="foot_right">
+            <pose>-0.33223 -0.0750078 0.239159 0.243324 -0.718027 1.34858</pose>
+            <inertial>
+                <pose>-0.0417746 -0.00142347 -0.0588649 0 0 0</pose>
+                <mass>0.137655</mass>
+                <inertia>
+                    <ixx>0.000176657</ixx>
+                    <ixy>3.25038e-05</ixy>
+                    <ixz>0.000214947</ixz>
+                    <iyy>0.000751524</iyy>
+                    <iyz>7.22654e-06</iyz>
+                    <izz>0.000642134</izz>
+                </inertia>
+            </inertial>
+            <collision name="foot_right_collision">
+                <pose>0 0 0 0 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <scale>1 1 1</scale>
+                        <uri>model://legs_with_muscles_simplified/cad/foot_right.STL</uri>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="foot_right_visual">
+                <pose>0 0 0 0 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <scale>1 1 1</scale>
+                        <uri>model://legs_with_muscles_simplified/cad/foot_right.STL</uri>
+                    </mesh>
+                </geometry>
+            </visual>
+            <sensor name='contact_foot_right' type='contact'>
+                <plugin name="contact_foot_right" filename="libcontact_plugin.so"/>
+                <contact>
+                    <collision>foot_right_collision</collision>
+                </contact>
+                <update_rate>10</update_rate>
+            </sensor>
+        </link>
+
+        <joint name="ankle_right" type="revolute">
+            <child>foot_right</child>
+            <parent>shank_right</parent>
+            <axis>
+                <xyz>0.981612 -0.0592936 -0.181446</xyz>
+                <limit>
+                    <lower>-1.0</lower>
+                    <upper>1.0</upper>
+                </limit>
+                <dynamics>
+                    <damping>0.0</damping>
+                    <friction>0.0</friction>
+                </dynamics>
+                <use_parent_model_frame>1</use_parent_model_frame>
+            </axis>
+        </joint>
+
+        <plugin filename="libroboySim.so" name="roboySim">
+            <myoMuscle name="motor0">
+                <link name="hip">
+                    <viaPoint>0.088021 0.184069 0.023328</viaPoint>
+                </link>
+                <link name="thigh_left">
+                    <viaPoint>0.002096 0.033929 -0.307000</viaPoint>
+                </link>
+            </myoMuscle>
+
+            <myoMuscle name="motor1">
+                <link name="hip">
+                    <viaPoint>0.038180 0.227416 0.041079</viaPoint>
+                </link>
+                <link name="thigh_left">
+                    <viaPoint>0.002096 0.033929 -0.307000</viaPoint>
+                </link>
+            </myoMuscle>
+
+            <myoMuscle name="motor2">
+                <link name="hip">
+                    <viaPoint>-0.010558 0.185085 0.009805</viaPoint>
+                </link>
+                <link name="thigh_left">
+                    <viaPoint>0.002096 0.033929 -0.307000</viaPoint>
+                </link>
+            </myoMuscle>
+
+            <myoMuscle name="motor3">
+                <link name="thigh_left">
+                    <viaPoint>-0.001469 -0.053012 -0.107943</viaPoint>
+                </link>
+                <link name="hip">
+                    <viaPoint>-0.005826 0.079150 -0.078940</viaPoint>
+                </link>
+            </myoMuscle>
+
+            <myoMuscle name="motor4">
+                <link name="thigh_left">
+                    <viaPoint>-0.033081 -0.000652 -0.328793</viaPoint>
+                </link>
+                <link name="shank_left">
+                    <viaPoint>0.019173 0.001305 -0.053000</viaPoint>
+                </link>
+            </myoMuscle>
+
+            <myoMuscle name="motor5">
+                <link name="thigh_left">
+                    <viaPoint>0.032773 0.000074 -0.329491</viaPoint>
+                </link>
+                <link name="shank_left">
+                    <viaPoint>0.017193 -0.043785 -0.053000</viaPoint>
+                </link>
+            </myoMuscle>
+
+            <myoMuscle name="motor6">
+                <link name="shank_left">
+                    <viaPoint>0.018940 -0.053314 -0.233449</viaPoint>
+                </link>
+                <link name="foot_left">
+                    <viaPoint>-0.042941 -0.001341 -0.024222</viaPoint>
+                </link>
+            </myoMuscle>
+
+            <myoMuscle name="motor7">
+                <link name="shank_left">
+                    <viaPoint>0.018918 0.008469 -0.232968</viaPoint>
+                </link>
+                <link name="foot_left">
+                    <viaPoint>0.040030 0.000076 -0.022690</viaPoint>
+                </link>
+            </myoMuscle>
+
+            <myoMuscle name="motor8">
+                <link name="hip">
+                    <viaPoint>-0.010432 -0.184310 0.010050</viaPoint>
+                </link>
+                <link name="thigh_right">
+                    <viaPoint>0.002096 0.033929 -0.307000</viaPoint>
+                </link>
+            </myoMuscle>
+
+            <myoMuscle name="motor9">
+                <link name="hip">
+                    <viaPoint>0.040763 -0.225496 0.041699</viaPoint>
+                </link>
+                <link name="thigh_right">
+                    <viaPoint>0.002096 0.033929 -0.307000</viaPoint>
+                </link>
+            </myoMuscle>
+
+            <myoMuscle name="motor10">
+                <link name="hip">
+                    <viaPoint>0.088709 -0.183516 0.023456</viaPoint>
+                </link>
+                <link name="thigh_right">
+                    <viaPoint>0.002096 0.033929 -0.307000</viaPoint>
+                </link>
+            </myoMuscle>
+
+            <myoMuscle name="motor11">
+                <link name="thigh_left">
+                    <viaPoint>-0.001469 -0.053012 -0.107943</viaPoint>
+                </link>
+                <link name="hip">
+                    <viaPoint>0.078886 -0.104261 0.008974</viaPoint>
+                </link>
+            </myoMuscle>
+
+            <myoMuscle name="motor12">
+                <link name="thigh_left">
+                    <viaPoint>-0.033081 -0.000652 -0.328793</viaPoint>
+                </link>
+                <link name="shank_left">
+                    <viaPoint>0.019173 0.001305 -0.053000</viaPoint>
+                </link>
+            </myoMuscle>
+
+            <myoMuscle name="motor13">
+                <link name="thigh_left">
+                    <viaPoint>0.032773 0.000074 -0.329491</viaPoint>
+                </link>
+                <link name="shank_left">
+                    <viaPoint>0.017193 -0.043785 -0.053000</viaPoint>
+                </link>
+            </myoMuscle>
+
+            <myoMuscle name="motor14">
+                <link name="shank_left">
+                    <viaPoint>0.018940 -0.053314 -0.233449</viaPoint>
+                </link>
+                <link name="foot_left">
+                    <viaPoint>-0.042941 -0.001341 -0.024222</viaPoint>
+                </link>
+            </myoMuscle>
+
+            <myoMuscle name="motor15">
+                <link name="shank_left">
+                    <viaPoint>0.018918 0.008469 -0.232968</viaPoint>
+                </link>
+                <link name="foot_left">
+                    <viaPoint>0.040030 0.000076 -0.022690</viaPoint>
+                </link>
+            </myoMuscle>
+        </plugin>
+    </model>
+</sdf>
