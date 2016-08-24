@@ -219,13 +219,6 @@
                     </mesh>
                 </geometry>
             </visual>
-            <sensor name='contact_foot_left' type='contact'>
-                <plugin name="contact_foot_left" filename="libcontact_plugin.so"/>
-                <contact>
-                    <collision>foot_left_collision</collision>
-                </contact>
-                <update_rate>10</update_rate>
-            </sensor>
         </link>
 
         <joint name="ankle_left" type="revolute">
@@ -243,6 +236,10 @@
                 </dynamics>
                 <use_parent_model_frame>1</use_parent_model_frame>
             </axis>
+            <sensor name='force_torque_ankle_left' type='force_torque'>
+                <plugin name="force_torque_ankle_left" filename="libforce_torque_plugin.so"/>
+                <update_rate>10</update_rate>
+            </sensor>
         </joint>
 
         <link name="thigh_right">
@@ -379,13 +376,6 @@
                     </mesh>
                 </geometry>
             </visual>
-            <sensor name='contact_foot_right' type='contact'>
-                <plugin name="contact_foot_right" filename="libcontact_plugin.so"/>
-                <contact>
-                    <collision>foot_right_collision</collision>
-                </contact>
-                <update_rate>10</update_rate>
-            </sensor>
         </link>
 
         <joint name="ankle_right" type="revolute">
@@ -403,6 +393,10 @@
                 </dynamics>
                 <use_parent_model_frame>1</use_parent_model_frame>
             </axis>
+            <sensor name='force_torque_ankle_right' type='force_torque'>
+                <plugin name="force_torque_ankle_right" filename="libforce_torque_plugin.so"/>
+                <update_rate>10</update_rate>
+            </sensor>
         </joint>
 
         <plugin filename="libroboySim.so" name="roboySim">
