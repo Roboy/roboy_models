@@ -236,8 +236,8 @@
                 </dynamics>
                 <use_parent_model_frame>1</use_parent_model_frame>
             </axis>
-            <sensor name='force_torque_ankle_left' type='force_torque'>
-                <plugin name="force_torque_ankle_left" filename="libforce_torque_plugin.so"/>
+            <sensor name="force_torque_ankle_left" type="force_torque">
+                <plugin filename="libforce_torque_plugin.so" name="force_torque_ankle_left" />
                 <update_rate>10</update_rate>
             </sensor>
         </joint>
@@ -393,8 +393,8 @@
                 </dynamics>
                 <use_parent_model_frame>1</use_parent_model_frame>
             </axis>
-            <sensor name='force_torque_ankle_right' type='force_torque'>
-                <plugin name="force_torque_ankle_right" filename="libforce_torque_plugin.so"/>
+            <sensor name="force_torque_ankle_right" type="force_torque">
+                <plugin filename="libforce_torque_plugin.so" name="force_torque_ankle_right" />
                 <update_rate>10</update_rate>
             </sensor>
         </joint>
@@ -429,7 +429,7 @@
 
             <myoMuscle name="motor3">
                 <link name="thigh_left">
-                    <viaPoint>-0.001469 -0.053012 -0.107943</viaPoint>
+                    <viaPoint>0.010004 -0.054439 -0.105028</viaPoint>
                 </link>
                 <link name="hip">
                     <viaPoint>-0.005826 0.079150 -0.078940</viaPoint>
@@ -500,7 +500,7 @@
             </myoMuscle>
 
             <myoMuscle name="motor11">
-                <link name="thigh_left">
+                <link name="thigh_right">
                     <viaPoint>-0.001469 -0.053012 -0.107943</viaPoint>
                 </link>
                 <link name="hip">
@@ -509,37 +509,37 @@
             </myoMuscle>
 
             <myoMuscle name="motor12">
-                <link name="thigh_left">
+                <link name="thigh_right">
                     <viaPoint>-0.033081 -0.000652 -0.328793</viaPoint>
                 </link>
-                <link name="shank_left">
-                    <viaPoint>0.019173 0.001305 -0.053000</viaPoint>
-                </link>
-            </myoMuscle>
-
-            <myoMuscle name="motor13">
-                <link name="thigh_left">
-                    <viaPoint>0.032773 0.000074 -0.329491</viaPoint>
-                </link>
-                <link name="shank_left">
+                <link name="shank_right">
                     <viaPoint>0.017193 -0.043785 -0.053000</viaPoint>
                 </link>
             </myoMuscle>
 
+            <myoMuscle name="motor13">
+                <link name="thigh_right">
+                    <viaPoint>0.032773 0.000074 -0.329491</viaPoint>
+                </link>
+                <link name="shank_right">
+                    <viaPoint>0.019173 0.001305 -0.053000</viaPoint>
+                </link>
+            </myoMuscle>
+
             <myoMuscle name="motor14">
-                <link name="shank_left">
+                <link name="shank_right">
                     <viaPoint>0.018940 -0.053314 -0.233449</viaPoint>
                 </link>
-                <link name="foot_left">
+                <link name="foot_right">
                     <viaPoint>-0.042941 -0.001341 -0.024222</viaPoint>
                 </link>
             </myoMuscle>
 
             <myoMuscle name="motor15">
-                <link name="shank_left">
+                <link name="shank_right">
                     <viaPoint>0.018918 0.008469 -0.232968</viaPoint>
                 </link>
-                <link name="foot_left">
+                <link name="foot_right">
                     <viaPoint>0.040030 0.000076 -0.022690</viaPoint>
                 </link>
             </myoMuscle>
