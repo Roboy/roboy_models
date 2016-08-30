@@ -89,6 +89,11 @@
             <myoMuscle name="motor0">
                 <link name="plate">
                     <viaPoint>0.072174 0.000030 0.512747</viaPoint>
+                </link>
+                <link name="sphere">
+                    <viaPoint>0.0605 0.0 0.0251</viaPoint>
+                </link>
+                <link name="plate">
                     <viaPoint>-0.068853 -0.000565 0.516309</viaPoint>
                 </link>
             </myoMuscle>
