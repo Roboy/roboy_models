@@ -402,160 +402,160 @@
         <plugin filename="libWalkController.so" name="WalkController">
             <myoMuscle name="motor0">
                 <link name="hip">
-                    <viaPoint>0.088021 0.184069 0.023328</viaPoint>
+                    <viaPoint type="FIXPOINT">0.088021 0.184069 0.023328</viaPoint>
                 </link>
                 <link name="thigh_left">
-                    <viaPoint>0.002096 0.033929 -0.307000</viaPoint>
+                    <viaPoint type="FIXPOINT">0.002096 0.033929 -0.307000</viaPoint>
                 </link>
                 <spans_joint name="groin_left">extensor</spans_joint>
             </myoMuscle>
 
             <myoMuscle name="motor1">
                 <link name="hip">
-                    <viaPoint>0.038180 0.227416 0.041079</viaPoint>
+                    <viaPoint type="FIXPOINT">0.038180 0.227416 0.041079</viaPoint>
                 </link>
                 <link name="thigh_left">
-                    <viaPoint>0.002096 0.033929 -0.307000</viaPoint>
+                    <viaPoint type="FIXPOINT">0.002096 0.033929 -0.307000</viaPoint>
                 </link>
                 <spans_joint name="groin_left">stabilizer</spans_joint>
             </myoMuscle>
 
             <myoMuscle name="motor2">
                 <link name="hip">
-                    <viaPoint>-0.010558 0.185085 0.009805</viaPoint>
+                    <viaPoint type="FIXPOINT">-0.010558 0.185085 0.009805</viaPoint>
                 </link>
                 <link name="thigh_left">
-                    <viaPoint>0.002096 0.033929 -0.307000</viaPoint>
+                    <viaPoint type="FIXPOINT">0.002096 0.033929 -0.307000</viaPoint>
                 </link>
                 <spans_joint name="groin_left">flexor</spans_joint>
             </myoMuscle>
 
             <myoMuscle name="motor3">
                 <link name="thigh_left">
-                    <viaPoint>0.010004 -0.054439 -0.105028</viaPoint>
+                    <viaPoint type="FIXPOINT">0.010004 -0.054439 -0.105028</viaPoint>
                 </link>
                 <link name="hip">
-                    <viaPoint>-0.005826 0.079150 -0.078940</viaPoint>
+                    <viaPoint type="FIXPOINT">-0.005826 0.079150 -0.078940</viaPoint>
                 </link>
                 <spans_joint name="groin_left">stabilizer</spans_joint>
             </myoMuscle>
 
             <myoMuscle name="motor4">
                 <link name="thigh_left">
-                    <viaPoint>-0.033081 -0.000652 -0.328793</viaPoint>
+                    <viaPoint type="FIXPOINT">-0.033081 -0.000652 -0.328793</viaPoint>
                 </link>
                 <link name="shank_left">
-                    <viaPoint>0.019173 0.001305 -0.053000</viaPoint>
+                    <viaPoint type="FIXPOINT">0.019173 0.001305 -0.053000</viaPoint>
                 </link>
                 <spans_joint name="knee_left">extensor</spans_joint>
             </myoMuscle>
 
             <myoMuscle name="motor5">
                 <link name="thigh_left">
-                    <viaPoint>0.032773 0.000074 -0.329491</viaPoint>
+                    <viaPoint type="FIXPOINT">0.032773 0.000074 -0.329491</viaPoint>
                 </link>
                 <link name="shank_left">
-                    <viaPoint>0.017193 -0.043785 -0.053000</viaPoint>
+                    <viaPoint type="FIXPOINT">0.017193 -0.043785 -0.053000</viaPoint>
                 </link>
                 <spans_joint name="knee_left">flexor</spans_joint>
             </myoMuscle>
 
             <myoMuscle name="motor6">
                 <link name="shank_left">
-                    <viaPoint>0.018940 -0.053314 -0.233449</viaPoint>
+                    <viaPoint type="FIXPOINT">0.018940 -0.053314 -0.233449</viaPoint>
                 </link>
                 <link name="foot_left">
-                    <viaPoint>-0.042941 -0.001341 -0.024222</viaPoint>
+                    <viaPoint type="FIXPOINT">-0.042941 -0.001341 -0.024222</viaPoint>
                 </link>
                 <spans_joint name="ankle_left">extensor</spans_joint>
             </myoMuscle>
 
             <myoMuscle name="motor7">
                 <link name="shank_left">
-                    <viaPoint>0.018918 0.008469 -0.232968</viaPoint>
+                    <viaPoint type="FIXPOINT">0.018918 0.008469 -0.232968</viaPoint>
                 </link>
                 <link name="foot_left">
-                    <viaPoint>0.040030 0.000076 -0.022690</viaPoint>
+                    <viaPoint type="FIXPOINT">0.040030 0.000076 -0.022690</viaPoint>
                 </link>
                 <spans_joint name="ankle_left">flexor</spans_joint>
             </myoMuscle>
 
             <myoMuscle name="motor8">
                 <link name="hip">
-                    <viaPoint>-0.010432 -0.184310 0.010050</viaPoint>
+                    <viaPoint type="FIXPOINT">-0.010432 -0.184310 0.010050</viaPoint>
                 </link>
                 <link name="thigh_right">
-                    <viaPoint>0.002096 0.033929 -0.307000</viaPoint>
+                    <viaPoint type="FIXPOINT">0.002096 0.033929 -0.307000</viaPoint>
                 </link>
                 <spans_joint name="groin_right">extensor</spans_joint>
             </myoMuscle>
 
             <myoMuscle name="motor9">
                 <link name="hip">
-                    <viaPoint>0.040763 -0.225496 0.041699</viaPoint>
+                    <viaPoint type="FIXPOINT">0.040763 -0.225496 0.041699</viaPoint>
                 </link>
                 <link name="thigh_right">
-                    <viaPoint>0.002096 0.033929 -0.307000</viaPoint>
+                    <viaPoint type="FIXPOINT">0.002096 0.033929 -0.307000</viaPoint>
                 </link>
                 <spans_joint name="groin_right">stabilizer</spans_joint>
             </myoMuscle>
 
             <myoMuscle name="motor10">
                 <link name="hip">
-                    <viaPoint>0.088709 -0.183516 0.023456</viaPoint>
+                    <viaPoint type="FIXPOINT">0.088709 -0.183516 0.023456</viaPoint>
                 </link>
                 <link name="thigh_right">
-                    <viaPoint>0.002096 0.033929 -0.307000</viaPoint>
+                    <viaPoint type="FIXPOINT">0.002096 0.033929 -0.307000</viaPoint>
                 </link>
                 <spans_joint name="groin_right">flexor</spans_joint>
             </myoMuscle>
 
             <myoMuscle name="motor11">
                 <link name="thigh_right">
-                    <viaPoint>-0.001469 -0.053012 -0.107943</viaPoint>
+                    <viaPoint type="FIXPOINT">-0.001469 -0.053012 -0.107943</viaPoint>
                 </link>
                 <link name="hip">
-                    <viaPoint>0.078886 -0.104261 0.008974</viaPoint>
+                    <viaPoint type="FIXPOINT">0.078886 -0.104261 0.008974</viaPoint>
                 </link>
                 <spans_joint name="groin_right">stabilizer</spans_joint>
             </myoMuscle>
 
             <myoMuscle name="motor12">
                 <link name="thigh_right">
-                    <viaPoint>-0.033081 -0.000652 -0.328793</viaPoint>
+                    <viaPoint type="FIXPOINT">-0.033081 -0.000652 -0.328793</viaPoint>
                 </link>
                 <link name="shank_right">
-                    <viaPoint>0.017193 -0.043785 -0.053000</viaPoint>
+                    <viaPoint type="FIXPOINT">0.017193 -0.043785 -0.053000</viaPoint>
                 </link>
                 <spans_joint name="knee_right">extensor</spans_joint>
             </myoMuscle>
 
             <myoMuscle name="motor13">
                 <link name="thigh_right">
-                    <viaPoint>0.032773 0.000074 -0.329491</viaPoint>
+                    <viaPoint type="FIXPOINT">0.032773 0.000074 -0.329491</viaPoint>
                 </link>
                 <link name="shank_right">
-                    <viaPoint>0.019173 0.001305 -0.053000</viaPoint>
+                    <viaPoint type="FIXPOINT">0.019173 0.001305 -0.053000</viaPoint>
                 </link>
                 <spans_joint name="knee_right">flexor</spans_joint>
             </myoMuscle>
 
             <myoMuscle name="motor14">
                 <link name="shank_right">
-                    <viaPoint>0.018940 -0.053314 -0.233449</viaPoint>
+                    <viaPoint type="FIXPOINT">0.018940 -0.053314 -0.233449</viaPoint>
                 </link>
                 <link name="foot_right">
-                    <viaPoint>-0.042941 -0.001341 -0.024222</viaPoint>
+                    <viaPoint type="FIXPOINT">-0.042941 -0.001341 -0.024222</viaPoint>
                 </link>
                 <spans_joint name="ankle_right">extensor</spans_joint>
             </myoMuscle>
 
             <myoMuscle name="motor15">
                 <link name="shank_right">
-                    <viaPoint>0.018918 0.008469 -0.232968</viaPoint>
+                    <viaPoint type="FIXPOINT">0.018918 0.008469 -0.232968</viaPoint>
                 </link>
                 <link name="foot_right">
-                    <viaPoint>0.040030 0.000076 -0.022690</viaPoint>
+                    <viaPoint type="FIXPOINT">0.040030 0.000076 -0.022690</viaPoint>
                 </link>
                 <spans_joint name="ankle_right">flexor</spans_joint>
             </myoMuscle>
