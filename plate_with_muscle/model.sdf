@@ -68,21 +68,9 @@
             </visual>
         </link>
 
-        <joint name="joint" type="revolute">
+        <joint name="joint" type="fixed">
             <child>sphere</child>
             <parent>plate</parent>
-            <axis>
-                <xyz>0 -1 0</xyz>
-                <limit>
-                    <lower>-1.5</lower>
-                    <upper>1.5</upper>
-                </limit>
-                <dynamics>
-                    <spring_reference>0</spring_reference>
-                    <spring_stiffness>0</spring_stiffness>
-                </dynamics>
-                <use_parent_model_frame>1</use_parent_model_frame>
-            </axis>
         </joint>
 
         <plugin filename="libroboySim.so" name="roboySim">
