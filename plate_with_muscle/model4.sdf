@@ -1,0 +1,97 @@
+<sdf version="1.5">
+    <model name="plate_with_muscle">
+        <link name="plate">
+            <pose>0 0 0 0 0 0</pose>
+            <inertial>
+                <pose>0 0 0 0 0 0</pose>
+                <mass>100.0</mass>
+                <inertia>
+                    <ixx>10.0</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>10.0</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>10.0</izz>
+                </inertia>
+            </inertial>
+            <collision name="plate_collision">
+                <pose>0 0 0 0 -0 0</pose>
+                <geometry>
+                    <mesh>
+                        <scale>1 1 1</scale>
+                        <uri>model://plate_with_muscle/cad/plate.STL</uri>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="plate_visual">
+                <pose>0 0 0 0 -0 0</pose>
+                <geometry>
+                    <mesh>
+                        <scale>1 1 1</scale>
+                        <uri>model://plate_with_muscle/cad/plate.STL</uri>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+<!--
+				<link name='cylinder'>
+					<pose>0	0	0.4 1.5708 0 0</pose>
+					<collision name='collision'>
+					  <geometry>
+					    <cylinder>
+					      <radius>0.02</radius>
+					      <length>0.1</length>
+					    </cylinder>
+					  </geometry>
+					</collision>
+					<visual name='visual'>
+					  <geometry>
+					    <cylinder>
+					      <radius>0.02</radius>
+					      <length>0.1</length>
+					    </cylinder>
+					  </geometry>
+					</visual>
+				</link>
+-->
+
+      <link name='cylinder'>
+        <pose>0 0 0.4 1.5708 0 0</pose>
+        <collision name='collision'>
+          <geometry>
+            <cylinder>
+              <radius>0.02</radius>
+              <length>0.05</length>
+            </cylinder>
+          </geometry>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <cylinder>
+              <radius>0.02</radius>
+              <length>0.05</length>
+            </cylinder>
+          </geometry>
+        </visual>
+      </link>
+
+        <joint name="joint" type="fixed">
+            <child>cylinder</child>
+            <parent>plate</parent>
+        </joint>
+
+        <plugin filename="libroboySim.so" name="roboySim">
+            <myoMuscle name="motor0">
+                <link name="plate">
+                    <viaPoint type="FIXPOINT">0.072174 0.000030 0.512747</viaPoint>
+                </link>
+                <link name="cylinder">
+                    <viaPoint type="CYLINDRICAL" state=0 revCounter=0 radius=0.02>0 0 0</viaPoint>
+                </link>
+                <link name="plate">
+                    <viaPoint type="FIXPOINT">-0.068853 -0.000565 0.516309</viaPoint>
+                </link>
+            </myoMuscle>
+        </plugin>
+    </model>
+</sdf>
