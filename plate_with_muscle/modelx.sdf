@@ -34,28 +34,42 @@
             </visual>
         </link>
 
-				<link name='cylinder'>
-						<pose>0	0	0.52 1.5708 0 0.8</pose>
-						<collision name='collision'>
-						  <geometry>
-						    <cylinder>
-						      <radius>0.02</radius>
-						      <length>0.1</length>
-						    </cylinder>
-						  </geometry>
-						</collision>
-						<visual name='visual'>
-						  <geometry>
-						    <cylinder>
-						      <radius>0.02</radius>
-						      <length>0.1</length>
-						    </cylinder>
-						  </geometry>
-						</visual>
-				</link>
+        <link name="sphere">
+            <pose>0 -0.06 0.505 -3.14159 -3.6656e-16 1.5708</pose>
+            <inertial>
+                <pose>0.06 -5.74878e-17 0 0 -0 0</pose>
+                <mass>0.0628319</mass>
+                <inertia>
+                    <ixx>1.25664e-05</ixx>
+                    <ixy>2.38766e-21</ixy>
+                    <ixz>3.67013e-21</ixz>
+                    <iyy>1.93732e-05</iyy>
+                    <iyz>7.49977e-22</iyz>
+                    <izz>1.93732e-05</izz>
+                </inertia>
+            </inertial>
+            <collision name="link_collision">
+                <pose>0 0 0 0 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <scale>1 1 1</scale>
+                        <uri>model://plate_with_muscle/cad/sphere.STL</uri>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="link_visual">
+                <pose>0 0 0 0 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <scale>1 1 1</scale>
+                        <uri>model://plate_with_muscle/cad/sphere.STL</uri>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
 
         <joint name="joint" type="fixed">
-            <child>cylinder</child>
+            <child>sphere</child>
             <parent>plate</parent>
         </joint>
 
@@ -64,8 +78,8 @@
                 <link name="plate">
                     <viaPoint type="FIXPOINT">0.072174 0.000030 0.512747</viaPoint>
                 </link>
-                <link name="cylinder">
-                    <viaPoint type="CYLINDRICAL" state=2 revCounter=0 radius=0.02>0 0 0</viaPoint>
+                <link name="sphere">
+                    <viaPoint type="SPHERICAL" state=1 revCounter=0 radius=0.02>0.0605 0.0 0.0251</viaPoint>
                 </link>
                 <link name="plate">
                     <viaPoint type="FIXPOINT">-0.068853 -0.000565 0.516309</viaPoint>

@@ -65,7 +65,7 @@
                     <viaPoint type="FIXPOINT">0.072174 0.000030 0.512747</viaPoint>
                 </link>
                 <link name="cylinder">
-                    <viaPoint type="SPHERICAL" state=1 revCounter=0 radius=0.02>0 0 0</viaPoint>
+                    <viaPoint type="CYLINDRICAL" state=1 revCounter=0 radius=0.02>0 0 0</viaPoint>
                 </link>
                 <link name="plate">
                     <viaPoint type="FIXPOINT">-0.068853 -0.000565 0.516309</viaPoint>
