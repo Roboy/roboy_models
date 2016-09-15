@@ -34,25 +34,25 @@
             </visual>
         </link>
 
-				<link name='cylinder'>
-						<pose>0	0	0.52 1.5708 0 0.8</pose>
-						<collision name='collision'>
-						  <geometry>
-						    <cylinder>
-						      <radius>0.02</radius>
-						      <length>0.1</length>
-						    </cylinder>
-						  </geometry>
-						</collision>
-						<visual name='visual'>
-						  <geometry>
-						    <cylinder>
-						      <radius>0.02</radius>
-						      <length>0.1</length>
-						    </cylinder>
-						  </geometry>
-						</visual>
-				</link>
+        <link name='cylinder'>
+            <pose>0 0 0.52 1.5708 0 0.8</pose>
+            <collision name='collision'>
+                <geometry>
+                    <cylinder>
+                        <radius>0.02</radius>
+                        <length>0.1</length>
+                    </cylinder>
+                </geometry>
+            </collision>
+            <visual name='visual'>
+                <geometry>
+                    <cylinder>
+                        <radius>0.02</radius>
+                        <length>0.1</length>
+                    </cylinder>
+                </geometry>
+            </visual>
+        </link>
 
         <joint name="joint" type="fixed">
             <child>cylinder</child>
@@ -65,7 +65,7 @@
                     <viaPoint type="FIXPOINT">0.072174 0.000030 0.512747</viaPoint>
                 </link>
                 <link name="cylinder">
-                    <viaPoint type="CYLINDRICAL" state=2 revCounter=0 radius=0.02>0 0 0</viaPoint>
+                    <viaPoint type="CYLINDRICAL" state="0" revCounter="0" radius="0.02">0 0 0</viaPoint>
                 </link>
                 <link name="plate">
                     <viaPoint type="FIXPOINT">-0.068853 -0.000565 0.516309</viaPoint>
