@@ -40,8 +40,8 @@
             <axis>
                 <xyz>0 0 1</xyz>
                 <limit>
-                    <lower>-0.2</lower>
-                    <upper>0.0</upper>
+                    <lower>-0.1</lower>
+                    <upper>-0.1</upper>
                 </limit>
                 <dynamics>
                     <spring_reference>0</spring_reference>
@@ -52,7 +52,8 @@
         </joint>
 
         <link name="hip">
-            <pose>0 0.039196 0.98928 0 -6.123e-17 -1.5708</pose>
+            <pose>0 0.039196 0.88928 0 -6.123e-17 -1.5708</pose>
+            <self_collide>true</self_collide>
             <inertial>
                 <pose>0 0 0 0 0 0</pose>
                 <mass>1.51172839888082</mass>
@@ -86,7 +87,8 @@
         </link>
 
         <link name="thigh_left">
-            <pose>0.1985 -7.29131e-07 0.945 -0.10152 -0.29158 -1.5708</pose>
+            <pose>0.1985 -7.29131e-07 0.845 -0.10152 -0.29158 -1.5708</pose>
+            <self_collide>true</self_collide>
             <inertial>
                 <pose>0.0139334 0.00220512 -0.157333 0 0 0</pose>
                 <mass>0.370994</mass>
@@ -137,7 +139,8 @@
         </joint>
 
         <link name="shank_left">
-            <pose>0.13729 -0.0965735 0.544964 -0.115174 0.0972221 -0.029276</pose>
+            <pose>0.13729 -0.0965735 0.444964 -0.115174 0.0972221 -0.029276</pose>
+            <self_collide>true</self_collide>
             <inertial>
                 <pose>0.0205703 -0.0215447 -0.147737 0 0 0</pose>
                 <mass>0.577598</mass>
@@ -188,7 +191,8 @@
         </joint>
 
         <link name="foot_left">
-            <pose>0.125661 -0.155039 0.232135 0.097747 -0.103474 1.5314</pose>
+            <pose>0.125661 -0.155039 0.132135 0.097747 -0.103474 1.5314</pose>
+            <self_collide>true</self_collide>
             <inertial>
                 <pose>-0.0364985 0.0020375 -0.0767128 0 0 0</pose>
                 <mass>0.286522</mass>
@@ -243,7 +247,8 @@
         </joint>
 
         <link name="thigh_right">
-            <pose>-0.1985 7.29131e-07 0.945 0.19207 0.31586 1.5708</pose>
+            <pose>-0.1985 7.29131e-07 0.845 0.19207 0.31586 1.5708</pose>
+            <self_collide>true</self_collide>
             <inertial>
                 <pose>0.00167568 -0.0104108 -0.183993 0 0 0</pose>
                 <mass>0.659699</mass>
@@ -294,7 +299,8 @@
         </joint>
 
         <link name="shank_right">
-            <pose>-0.296616 -0.104014 0.554288 0.155308 0.182457 -0.0603347</pose>
+            <pose>-0.296616 -0.104014 0.454288 0.155308 0.182457 -0.0603347</pose>
+            <self_collide>true</self_collide>
             <inertial>
                 <pose>0.0205699 -0.0215467 -0.147735 0 0 0</pose>
                 <mass>0.577624</mass>
@@ -345,7 +351,8 @@
         </joint>
 
         <link name="foot_right">
-            <pose>-0.33223 -0.0750078 0.239159 0.243324 -0.718027 1.34858</pose>
+            <pose>-0.33223 -0.0750078 0.139159 0.243324 -0.718027 1.34858</pose>
+            <self_collide>true</self_collide>
             <inertial>
                 <pose>-0.0417746 -0.00142347 -0.0588649 0 0 0</pose>
                 <mass>0.137655</mass>
@@ -399,7 +406,7 @@
             </sensor>
         </joint>
 
-        <plugin filename="libroboySim.so" name="roboySim">
+        <plugin filename="libWalkController.so" name="walkController">
             <myoMuscle name="motor0">
                 <link name="hip">
                     <viaPoint type="FIXPOINT">0.088021 0.184069 0.023328</viaPoint>
@@ -407,6 +414,7 @@
                 <link name="thigh_left">
                     <viaPoint type="FIXPOINT">0.002096 0.033929 -0.307000</viaPoint>
                 </link>
+                <spanningJoint name="groin_left">extensor</spanningJoint>
             </myoMuscle>
 
             <myoMuscle name="motor1">
@@ -416,6 +424,7 @@
                 <link name="thigh_left">
                     <viaPoint type="FIXPOINT">0.002096 0.033929 -0.307000</viaPoint>
                 </link>
+                <spanningJoint name="groin_left">extensor</spanningJoint>
             </myoMuscle>
 
             <myoMuscle name="motor2">
@@ -425,6 +434,7 @@
                 <link name="thigh_left">
                     <viaPoint type="FIXPOINT">0.002096 0.033929 -0.307000</viaPoint>
                 </link>
+                <spanningJoint name="groin_left">extensor</spanningJoint>
             </myoMuscle>
 
             <myoMuscle name="motor3">
@@ -434,6 +444,7 @@
                 <link name="hip">
                     <viaPoint type="FIXPOINT">-0.005826 0.079150 -0.078940</viaPoint>
                 </link>
+                <spanningJoint name="groin_left">flexor</spanningJoint>
             </myoMuscle>
 
             <myoMuscle name="motor4">
@@ -443,6 +454,7 @@
                 <link name="shank_left">
                     <viaPoint type="FIXPOINT">0.019173 0.001305 -0.053000</viaPoint>
                 </link>
+                <spanningJoint name="knee_left">extensor</spanningJoint>
             </myoMuscle>
 
             <myoMuscle name="motor5">
@@ -452,6 +464,7 @@
                 <link name="shank_left">
                     <viaPoint type="FIXPOINT">0.017193 -0.043785 -0.053000</viaPoint>
                 </link>
+                <spanningJoint name="knee_left">flexor</spanningJoint>
             </myoMuscle>
 
             <myoMuscle name="motor6">
@@ -461,6 +474,7 @@
                 <link name="foot_left">
                     <viaPoint type="FIXPOINT">-0.042941 -0.001341 -0.024222</viaPoint>
                 </link>
+                <spanningJoint name="ankle_left">extensor</spanningJoint>
             </myoMuscle>
 
             <myoMuscle name="motor7">
@@ -470,6 +484,7 @@
                 <link name="foot_left">
                     <viaPoint type="FIXPOINT">0.040030 0.000076 -0.022690</viaPoint>
                 </link>
+                <spanningJoint name="ankle_left">flexor</spanningJoint>
             </myoMuscle>
 
             <myoMuscle name="motor8">
@@ -479,6 +494,7 @@
                 <link name="thigh_right">
                     <viaPoint type="FIXPOINT">0.002096 0.033929 -0.307000</viaPoint>
                 </link>
+                <spanningJoint name="groin_right">extensor</spanningJoint>
             </myoMuscle>
 
             <myoMuscle name="motor9">
@@ -488,6 +504,7 @@
                 <link name="thigh_right">
                     <viaPoint type="FIXPOINT">0.002096 0.033929 -0.307000</viaPoint>
                 </link>
+                <spanningJoint name="groin_right">extensor</spanningJoint>
             </myoMuscle>
 
             <myoMuscle name="motor10">
@@ -497,6 +514,7 @@
                 <link name="thigh_right">
                     <viaPoint type="FIXPOINT">0.002096 0.033929 -0.307000</viaPoint>
                 </link>
+                <spanningJoint name="groin_right">extensor</spanningJoint>
             </myoMuscle>
 
             <myoMuscle name="motor11">
@@ -506,6 +524,7 @@
                 <link name="hip">
                     <viaPoint type="FIXPOINT">0.078886 -0.104261 0.008974</viaPoint>
                 </link>
+                <spanningJoint name="groin_right">flexor</spanningJoint>
             </myoMuscle>
 
             <myoMuscle name="motor12">
@@ -515,6 +534,7 @@
                 <link name="shank_right">
                     <viaPoint type="FIXPOINT">0.017193 -0.043785 -0.053000</viaPoint>
                 </link>
+                <spanningJoint name="knee_right">extensor</spanningJoint>
             </myoMuscle>
 
             <myoMuscle name="motor13">
@@ -524,6 +544,7 @@
                 <link name="shank_right">
                     <viaPoint type="FIXPOINT">0.019173 0.001305 -0.053000</viaPoint>
                 </link>
+                <spanningJoint name="knee_right">flexor</spanningJoint>
             </myoMuscle>
 
             <myoMuscle name="motor14">
@@ -533,6 +554,7 @@
                 <link name="foot_right">
                     <viaPoint type="FIXPOINT">-0.042941 -0.001341 -0.024222</viaPoint>
                 </link>
+                <spanningJoint name="ankle_right">extensor</spanningJoint>
             </myoMuscle>
 
             <myoMuscle name="motor15">
@@ -542,7 +564,11 @@
                 <link name="foot_right">
                     <viaPoint type="FIXPOINT">0.040030 0.000076 -0.022690</viaPoint>
                 </link>
+                <spanningJoint name="ankle_right">flexor</spanningJoint>
             </myoMuscle>
+
+            <foot_sole_left>0 0 -0.1085</foot_sole_left>
+            <foot_sole_right>0 0 -0.1085</foot_sole_right>
         </plugin>
     </model>
 </sdf>
