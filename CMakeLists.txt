@@ -6,7 +6,13 @@ catkin_package()
 
 install(DIRECTORY
         arm/
+        DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/arm
+        )
+install(DIRECTORY
         legs_with_muscles_simplified/
+        DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/legs_with_muscles_simplified/
+        )
+install(DIRECTORY
         plate_with_muscle/
-        DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
+        DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/plate_with_muscle
         )
