@@ -52,7 +52,7 @@
         </joint>
 
         <link name="hip">
-            <pose>0 0.039196 0.88928 0 -6.123e-17 -1.5708</pose>
+            <pose>0 0.039196 0.98928 0 -6.123e-17 -1.5708</pose>
             <self_collide>true</self_collide>
             <inertial>
                 <pose>0 0 0 0 0 0</pose>
@@ -87,7 +87,7 @@
         </link>
 
         <link name="thigh_left">
-            <pose>0.1985 -7.29131e-07 0.845 -0.10152 -0.29158 -1.5708</pose>
+            <pose>0.1985 -7.29131e-07 0.945 -0.10152 -0.29158 -1.5708</pose>
             <self_collide>true</self_collide>
             <inertial>
                 <pose>0.0139334 0.00220512 -0.157333 0 0 0</pose>
@@ -139,7 +139,7 @@
         </joint>
 
         <link name="shank_left">
-            <pose>0.13729 -0.0965735 0.444964 -0.115174 0.0972221 -0.029276</pose>
+            <pose>0.13729 -0.0965735 0.544964 -0.115174 0.0972221 -0.029276</pose>
             <self_collide>true</self_collide>
             <inertial>
                 <pose>0.0205703 -0.0215447 -0.147737 0 0 0</pose>
@@ -191,7 +191,7 @@
         </joint>
 
         <link name="foot_left">
-            <pose>0.125661 -0.155039 0.132135 0.097747 -0.103474 1.5314</pose>
+            <pose>0.125661 -0.155039 0.232135 0.097747 -0.103474 1.5314</pose>
             <self_collide>true</self_collide>
             <inertial>
                 <pose>-0.0364985 0.0020375 -0.0767128 0 0 0</pose>
@@ -247,7 +247,7 @@
         </joint>
 
         <link name="thigh_right">
-            <pose>-0.1985 7.29131e-07 0.845 0.19207 0.31586 1.5708</pose>
+            <pose>-0.1985 7.29131e-07 0.945 0.19207 0.31586 1.5708</pose>
             <self_collide>true</self_collide>
             <inertial>
                 <pose>0.00167568 -0.0104108 -0.183993 0 0 0</pose>
@@ -299,7 +299,7 @@
         </joint>
 
         <link name="shank_right">
-            <pose>-0.296616 -0.104014 0.454288 0.155308 0.182457 -0.0603347</pose>
+            <pose>-0.296616 -0.104014 0.554288 0.155308 0.182457 -0.0603347</pose>
             <self_collide>true</self_collide>
             <inertial>
                 <pose>0.0205699 -0.0215467 -0.147735 0 0 0</pose>
@@ -351,7 +351,7 @@
         </joint>
 
         <link name="foot_right">
-            <pose>-0.33223 -0.0750078 0.139159 0.243324 -0.718027 1.34858</pose>
+            <pose>-0.33223 -0.0750078 0.239159 0.243324 -0.718027 1.34858</pose>
             <self_collide>true</self_collide>
             <inertial>
                 <pose>-0.0417746 -0.00142347 -0.0588649 0 0 0</pose>
