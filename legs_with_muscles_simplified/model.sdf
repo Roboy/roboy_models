@@ -1,21 +1,21 @@
 <sdf version="1.5">
     <model name="legs_with_muscles_simplified">
         <link name="halterung">
-            <pose>0 0 0 0 0 0</pose>
+            <pose frame="">0 0 0 0 -0 0</pose>
             <inertial>
-                <pose>0 0 0 0 0 0</pose>
-                <mass>100.0</mass>
+                <pose frame="">1.1276 0.210176 -0.90845 0 -0 0</pose>
+                <mass>10.8434</mass>
                 <inertia>
-                    <ixx>10.0</ixx>
-                    <ixy>0.0</ixy>
-                    <ixz>0.0</ixz>
-                    <iyy>10.0</iyy>
-                    <iyz>0.0</iyz>
-                    <izz>10.0</izz>
+                    <ixx>4.12271</ixx>
+                    <ixy>-0.000292386</ixy>
+                    <ixz>0.000533211</ixz>
+                    <iyy>6.85623</iyy>
+                    <iyz>-0.0478948</iyz>
+                    <izz>4.28379</izz>
                 </inertia>
             </inertial>
             <collision name="halterung_collision">
-                <pose>0 0 0 0 0 0</pose>
+                <pose frame="">0 0 0 0 -0 0</pose>
                 <geometry>
                     <mesh>
                         <scale>1 1 1</scale>
@@ -24,7 +24,7 @@
                 </geometry>
             </collision>
             <visual name="halterung_visual">
-                <pose>0 0 0 0 0 0</pose>
+                <pose frame="">0 0 0 0 -0 0</pose>
                 <geometry>
                     <mesh>
                         <scale>1 1 1</scale>
@@ -52,22 +52,22 @@
         </joint>
 
         <link name="hip">
-            <pose>0 0.039196 0.98928 0 -6.123e-17 -1.5708</pose>
             <self_collide>true</self_collide>
+            <pose frame="">1.1274 0.36147 0.784 -0 0 0</pose>
             <inertial>
-                <pose>0 0 0 0 0 0</pose>
-                <mass>1.51172839888082</mass>
+                <pose frame="">-0.015888 -0.021368 0.178945 0 -0 0</pose>
+                <mass>1.51173</mass>
                 <inertia>
-                    <ixx>0.0224032723592697</ixx>
-                    <ixy>-4.28257129982492E-05</ixy>
-                    <ixz>0.000170071266102906</ixz>
-                    <iyy>0.00636162441825887</iyy>
-                    <iyz>0.000429409919396519</iyz>
-                    <izz>0.0239035219883902</izz>
+                    <ixx>0.00636164</ixx>
+                    <ixy>8.74375e-05</ixy>
+                    <ixz>0.000422629</ixz>
+                    <iyy>0.0224549</iyy>
+                    <iyz>-0.000322312</iyz>
+                    <izz>0.0238516</izz>
                 </inertia>
             </inertial>
             <collision name="hip_collision">
-                <pose>0 0 0 0 0 0</pose>
+                <pose frame="">0 0 0 0 -0 0</pose>
                 <geometry>
                     <mesh>
                         <scale>1 1 1</scale>
@@ -76,7 +76,7 @@
                 </geometry>
             </collision>
             <visual name="hip_visual">
-                <pose>0 0 0 0 0 0</pose>
+                <pose frame="">0 0 0 0 -0 0</pose>
                 <geometry>
                     <mesh>
                         <scale>1 1 1</scale>
@@ -87,22 +87,22 @@
         </link>
 
         <link name="thigh_left">
-            <pose>0.1985 -7.29131e-07 0.945 -0.10152 -0.29158 -1.5708</pose>
             <self_collide>true</self_collide>
+            <pose frame="">1.3259 0.31786 0.9168 -0.10152 -0.3963 -1.5708</pose>
             <inertial>
-                <pose>0.0139334 0.00220512 -0.157333 0 0 0</pose>
-                <mass>0.370994</mass>
+                <pose frame="">0.000286 -0.010412 -0.183991 0 -0 0</pose>
+                <mass>0.659681</mass>
                 <inertia>
-                    <ixx>0.00935487</ixx>
-                    <ixy>-9.22877e-06</ixy>
-                    <ixz>-0.000446949</ixz>
-                    <iyy>0.00955568</iyy>
-                    <iyz>0.000108757</iyz>
-                    <izz>0.000375649</izz>
+                    <ixx>0.0113357</ixx>
+                    <ixy>-2.79421e-05</ixy>
+                    <ixz>0.000115542</ixz>
+                    <iyy>0.0115361</iyy>
+                    <iyz>0.000112057</iyz>
+                    <izz>0.00109214</izz>
                 </inertia>
             </inertial>
             <collision name="thigh_left_collision">
-                <pose>0 0 0 0 0 0</pose>
+                <pose frame="">0 0 0 0 -0 0</pose>
                 <geometry>
                     <mesh>
                         <scale>1 1 1</scale>
@@ -111,7 +111,7 @@
                 </geometry>
             </collision>
             <visual name="thigh_left_visual">
-                <pose>0 0 0 0 0 0</pose>
+                <pose frame="">0 0 0 0 -0 0</pose>
                 <geometry>
                     <mesh>
                         <scale>1 1 1</scale>
@@ -139,22 +139,22 @@
         </joint>
 
         <link name="shank_left">
-            <pose>0.13729 -0.0965735 0.544964 -0.115174 0.0972221 -0.029276</pose>
             <self_collide>true</self_collide>
+            <pose frame="">1.26469 0.180001 0.52905 -0.220311 0.093629 -0.039303</pose>
             <inertial>
-                <pose>0.0205703 -0.0215447 -0.147737 0 0 0</pose>
-                <mass>0.577598</mass>
+                <pose frame="">0.02057 -0.021545 -0.147737 0 -0 0</pose>
+                <mass>0.577599</mass>
                 <inertia>
-                    <ixx>0.00491097</ixx>
-                    <ixy>2.22183e-06</ixy>
-                    <ixz>-5.14313e-06</ixz>
+                    <ixx>0.00491098</ixx>
+                    <ixy>2.22216e-06</ixy>
+                    <ixz>-5.14211e-06</ixz>
                     <iyy>0.0044954</iyy>
-                    <iyz>7.55047e-05</iyz>
-                    <izz>0.000636158</izz>
+                    <iyz>7.55149e-05</iyz>
+                    <izz>0.000636166</izz>
                 </inertia>
             </inertial>
             <collision name="shank_left_collision">
-                <pose>0 0 0 0 0 0</pose>
+                <pose frame="">0 0 0 0 -0 0</pose>
                 <geometry>
                     <mesh>
                         <scale>1 1 1</scale>
@@ -163,7 +163,7 @@
                 </geometry>
             </collision>
             <visual name="shank_left_visual">
-                <pose>0 0 0 0 0 0</pose>
+                <pose frame="">0 0 0 0 -0 0</pose>
                 <geometry>
                     <mesh>
                         <scale>1 1 1</scale>
@@ -177,7 +177,7 @@
             <child>shank_left</child>
             <parent>thigh_left</parent>
             <axis>
-                <xyz>-0.994851 0.0291336 0.097069</xyz>
+                <xyz>-0.994851 0.039121 0.093492</xyz>
                 <limit>
                     <lower>-2.0</lower>
                     <upper>0.0</upper>
@@ -191,22 +191,22 @@
         </joint>
 
         <link name="foot_left">
-            <pose>0.125661 -0.155039 0.232135 0.097747 -0.103474 1.5314</pose>
             <self_collide>true</self_collide>
+            <pose frame="">1.25306 0.089157 0.224046 0.09363 0.001166 1.53161</pose>
             <inertial>
-                <pose>-0.0364985 0.0020375 -0.0767128 0 0 0</pose>
+                <pose frame="">-0.036499 0.002038 -0.076713 0 -0 0</pose>
                 <mass>0.286522</mass>
                 <inertia>
                     <ixx>0.000354226</ixx>
-                    <ixy>-4.01093e-05</ixy>
-                    <ixz>0.000184641</ixz>
+                    <ixy>-4.01085e-05</ixy>
+                    <ixz>0.000184642</ixz>
                     <iyy>0.00123644</iyy>
-                    <iyz>-8.15904e-06</iyz>
+                    <iyz>-8.15882e-06</iyz>
                     <izz>0.00110135</izz>
                 </inertia>
             </inertial>
             <collision name="foot_left_collision">
-                <pose>0 0 0 0 0 0</pose>
+                <pose frame="">0 0 0 0 -0 0</pose>
                 <geometry>
                     <mesh>
                         <scale>1 1 1</scale>
@@ -215,7 +215,7 @@
                 </geometry>
             </collision>
             <visual name="foot_left_visual">
-                <pose>0 0 0 0 0 0</pose>
+                <pose frame="">0 0 0 0 -0 0</pose>
                 <geometry>
                     <mesh>
                         <scale>1 1 1</scale>
@@ -229,7 +229,7 @@
             <child>foot_left</child>
             <parent>shank_left</parent>
             <axis>
-                <xyz>0.994851 -0.0291299 -0.0970695</xyz>
+                <xyz>0.994851 -0.039117 -0.093493</xyz>
                 <limit>
                     <lower>-1.0</lower>
                     <upper>1.0</upper>
@@ -247,22 +247,22 @@
         </joint>
 
         <link name="thigh_right">
-            <pose>-0.1985 7.29131e-07 0.945 0.19207 0.31586 1.5708</pose>
             <self_collide>true</self_collide>
+            <pose frame="">0.9289 0.31786 0.9168 0.19207 0.42058 1.5708</pose>
             <inertial>
-                <pose>0.00167568 -0.0104108 -0.183993 0 0 0</pose>
-                <mass>0.659699</mass>
+                <pose frame="">0.001676 -0.010411 -0.183991 0 -0 0</pose>
+                <mass>0.659685</mass>
                 <inertia>
-                    <ixx>0.0113357</ixx>
-                    <ixy>-1.83926e-05</ixy>
-                    <ixz>-9.10065e-05</ixz>
-                    <iyy>0.0115345</iyy>
-                    <iyz>0.000111995</iyz>
-                    <izz>0.00109037</izz>
+                    <ixx>0.0113355</ixx>
+                    <ixy>-1.8392e-05</ixy>
+                    <ixz>-9.10039e-05</ixz>
+                    <iyy>0.0115343</iyy>
+                    <iyz>0.000112017</iyz>
+                    <izz>0.00109035</izz>
                 </inertia>
             </inertial>
             <collision name="thigh_right_collision">
-                <pose>0 0 0 0 0 0</pose>
+                <pose frame="">0 0 0 0 -0 0</pose>
                 <geometry>
                     <mesh>
                         <scale>1 1 1</scale>
@@ -271,7 +271,7 @@
                 </geometry>
             </collision>
             <visual name="thigh_right_visual">
-                <pose>0 0 0 0 0 0</pose>
+                <pose frame="">0 0 0 0 -0 0</pose>
                 <geometry>
                     <mesh>
                         <scale>1 1 1</scale>
@@ -299,22 +299,22 @@
         </joint>
 
         <link name="shank_right">
-            <pose>-0.296616 -0.104014 0.554288 0.155308 0.182457 -0.0603347</pose>
             <self_collide>true</self_collide>
+            <pose frame="">0.830785 0.173575 0.5391 0.049149 0.175148 -0.079232</pose>
             <inertial>
-                <pose>0.0205699 -0.0215467 -0.147735 0 0 0</pose>
-                <mass>0.577624</mass>
+                <pose frame="">0.02057 -0.021545 -0.147737 0 -0 0</pose>
+                <mass>0.577597</mass>
                 <inertia>
-                    <ixx>0.00491112</ixx>
-                    <ixy>2.22698e-06</ixy>
-                    <ixz>-5.15021e-06</ixz>
-                    <iyy>0.00449549</iyy>
-                    <iyz>7.55606e-05</iyz>
-                    <izz>0.000636215</izz>
+                    <ixx>0.00491097</ixx>
+                    <ixy>2.22339e-06</ixy>
+                    <ixz>-5.14968e-06</ixz>
+                    <iyy>0.0044954</iyy>
+                    <iyz>7.56232e-05</iyz>
+                    <izz>0.000636156</izz>
                 </inertia>
             </inertial>
             <collision name="shank_right_collision">
-                <pose>0 0 0 0 0 0</pose>
+                <pose frame="">0 0 0 0 -0 0</pose>
                 <geometry>
                     <mesh>
                         <scale>1 1 1</scale>
@@ -323,7 +323,7 @@
                 </geometry>
             </collision>
             <visual name="shank_right_visual">
-                <pose>0 0 0 0 0 0</pose>
+                <pose frame="">0 0 0 0 -0 0</pose>
                 <geometry>
                     <mesh>
                         <scale>1 1 1</scale>
@@ -337,7 +337,7 @@
             <child>shank_right</child>
             <parent>thigh_right</parent>
             <axis>
-                <xyz>-0.981611 0.0592972 0.181447</xyz>
+                <xyz>-0.981611 0.077939 0.174254</xyz>
                 <limit>
                     <lower>-2.0</lower>
                     <upper>0.0</upper>
@@ -351,22 +351,22 @@
         </joint>
 
         <link name="foot_right">
-            <pose>-0.33223 -0.0750078 0.239159 0.243324 -0.718027 1.34858</pose>
             <self_collide>true</self_collide>
+            <pose frame="">0.795171 0.169482 0.222667 0.215101 -0.615676 1.36606</pose>
             <inertial>
-                <pose>-0.0417746 -0.00142347 -0.0588649 0 0 0</pose>
-                <mass>0.137655</mass>
+                <pose frame="">-0.041774 -0.001423 -0.058865 0 -0 0</pose>
+                <mass>0.137654</mass>
                 <inertia>
                     <ixx>0.000176657</ixx>
-                    <ixy>3.25038e-05</ixy>
-                    <ixz>0.000214947</ixz>
-                    <iyy>0.000751524</iyy>
-                    <iyz>7.22654e-06</iyz>
-                    <izz>0.000642134</izz>
+                    <ixy>3.25039e-05</ixy>
+                    <ixz>0.000214945</ixz>
+                    <iyy>0.000751517</iyy>
+                    <iyz>7.22661e-06</iyz>
+                    <izz>0.000642128</izz>
                 </inertia>
             </inertial>
             <collision name="foot_right_collision">
-                <pose>0 0 0 0 0 0</pose>
+                <pose frame="">0 0 0 0 -0 0</pose>
                 <geometry>
                     <mesh>
                         <scale>1 1 1</scale>
@@ -375,7 +375,7 @@
                 </geometry>
             </collision>
             <visual name="foot_right_visual">
-                <pose>0 0 0 0 0 0</pose>
+                <pose frame="">0 0 0 0 -0 0</pose>
                 <geometry>
                     <mesh>
                         <scale>1 1 1</scale>
@@ -389,7 +389,7 @@
             <child>foot_right</child>
             <parent>shank_right</parent>
             <axis>
-                <xyz>0.981612 -0.0592936 -0.181446</xyz>
+                <xyz>0.981612 -0.077935 -0.174254</xyz>
                 <limit>
                     <lower>-1.0</lower>
                     <upper>1.0</upper>
@@ -409,47 +409,47 @@
         <plugin filename="libWalkController.so" name="walkController">
             <myoMuscle name="motor0">
                 <link name="hip">
-                    <viaPoint type="FIXPOINT">0.088021 0.184069 0.023328</viaPoint>
+                    <viaPoint type="FIXPOINT">0.185005 -0.085217 0.205727</viaPoint>
                 </link>
                 <link name="thigh_left">
-                    <viaPoint type="FIXPOINT">0.002096 0.033929 -0.307000</viaPoint>
+                    <viaPoint type="FIXPOINT">0.025100 0.000764 -0.064595</viaPoint>
                 </link>
                 <spanningJoint name="groin_left">extensor</spanningJoint>
             </myoMuscle>
 
             <myoMuscle name="motor1">
                 <link name="hip">
-                    <viaPoint type="FIXPOINT">0.038180 0.227416 0.041079</viaPoint>
+                    <viaPoint type="FIXPOINT">0.230552 -0.034391 0.218265</viaPoint>
                 </link>
                 <link name="thigh_left">
-                    <viaPoint type="FIXPOINT">0.002096 0.033929 -0.307000</viaPoint>
+                    <viaPoint type="FIXPOINT">-0.000043 0.024390 -0.063752</viaPoint>
                 </link>
                 <spanningJoint name="groin_left">extensor</spanningJoint>
             </myoMuscle>
 
             <myoMuscle name="motor2">
                 <link name="hip">
-                    <viaPoint type="FIXPOINT">-0.010558 0.185085 0.009805</viaPoint>
+                    <viaPoint type="FIXPOINT">0.185656 0.011172 0.182494</viaPoint>
                 </link>
                 <link name="thigh_left">
-                    <viaPoint type="FIXPOINT">0.002096 0.033929 -0.307000</viaPoint>
+                    <viaPoint type="FIXPOINT">-0.024817 0.000441 -0.064241</viaPoint>
                 </link>
                 <spanningJoint name="groin_left">extensor</spanningJoint>
             </myoMuscle>
 
             <myoMuscle name="motor3">
                 <link name="thigh_left">
-                    <viaPoint type="FIXPOINT">0.010004 -0.054439 -0.105028</viaPoint>
+                    <viaPoint type="FIXPOINT">0.003493 -0.054921 -0.105452</viaPoint>
                 </link>
                 <link name="hip">
-                    <viaPoint type="FIXPOINT">-0.005826 0.079150 -0.078940</viaPoint>
+                    <viaPoint type="FIXPOINT">0.154889 -0.046439 0.144846</viaPoint>
                 </link>
                 <spanningJoint name="groin_left">flexor</spanningJoint>
             </myoMuscle>
 
             <myoMuscle name="motor4">
                 <link name="thigh_left">
-                    <viaPoint type="FIXPOINT">-0.033081 -0.000652 -0.328793</viaPoint>
+                    <viaPoint type="FIXPOINT">-0.035482 -0.000749 -0.329542</viaPoint>
                 </link>
                 <link name="shank_left">
                     <viaPoint type="FIXPOINT">0.019173 0.001305 -0.053000</viaPoint>
@@ -489,30 +489,30 @@
 
             <myoMuscle name="motor8">
                 <link name="hip">
-                    <viaPoint type="FIXPOINT">-0.010432 -0.184310 0.010050</viaPoint>
+                    <viaPoint type="FIXPOINT">-0.184878 -0.085229 0.205781</viaPoint>
                 </link>
                 <link name="thigh_right">
-                    <viaPoint type="FIXPOINT">0.002096 0.033929 -0.307000</viaPoint>
+                    <viaPoint type="FIXPOINT">-0.024866 0.000448 -0.063830</viaPoint>
                 </link>
                 <spanningJoint name="groin_right">extensor</spanningJoint>
             </myoMuscle>
 
             <myoMuscle name="motor9">
                 <link name="hip">
-                    <viaPoint type="FIXPOINT">0.040763 -0.225496 0.041699</viaPoint>
+                    <viaPoint type="FIXPOINT">-0.230107 -0.034395 0.218452</viaPoint>
                 </link>
                 <link name="thigh_right">
-                    <viaPoint type="FIXPOINT">0.002096 0.033929 -0.307000</viaPoint>
+                    <viaPoint type="FIXPOINT">-0.000182 0.024079 -0.064310</viaPoint>
                 </link>
                 <spanningJoint name="groin_right">extensor</spanningJoint>
             </myoMuscle>
 
             <myoMuscle name="motor10">
                 <link name="hip">
-                    <viaPoint type="FIXPOINT">0.088709 -0.183516 0.023456</viaPoint>
+                    <viaPoint type="FIXPOINT">-0.185232 0.011356 0.183027</viaPoint>
                 </link>
                 <link name="thigh_right">
-                    <viaPoint type="FIXPOINT">0.002096 0.033929 -0.307000</viaPoint>
+                    <viaPoint type="FIXPOINT">0.024328 -0.000028 -0.064339</viaPoint>
                 </link>
                 <spanningJoint name="groin_right">extensor</spanningJoint>
             </myoMuscle>
@@ -522,7 +522,7 @@
                     <viaPoint type="FIXPOINT">-0.001469 -0.053012 -0.107943</viaPoint>
                 </link>
                 <link name="hip">
-                    <viaPoint type="FIXPOINT">0.078886 -0.104261 0.008974</viaPoint>
+                    <viaPoint type="FIXPOINT">-0.153967 -0.046307 0.144022</viaPoint>
                 </link>
                 <spanningJoint name="groin_right">flexor</spanningJoint>
             </myoMuscle>
