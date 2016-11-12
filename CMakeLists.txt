@@ -13,6 +13,10 @@ install(DIRECTORY
         DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/legs_with_muscles_simplified/
         )
 install(DIRECTORY
+        legs_with_upper_body/
+        DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/legs_with_upper_body/
+        )
+install(DIRECTORY
         plate_with_muscle/
         DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/plate_with_muscle
         )

@@ -34,6 +34,8 @@
             </visual>
         </link>
 
+        <plugin filename="libforce_compensating_halterung.so" name="ForceCompensatingHalterung" />
+
         <joint name="attachment" type="prismatic">
             <child>hip</child>
             <parent>halterung</parent>
@@ -49,6 +51,10 @@
                 </dynamics>
                 <use_parent_model_frame>1</use_parent_model_frame>
             </axis>
+            <sensor name="force_torque_halterung" type="force_torque">
+                <plugin filename="libforce_torque_plugin_halterung.so" name="force_torque_halterung" />
+                <update_rate>10</update_rate>
+            </sensor>
         </joint>
 
         <link name="hip">
@@ -213,6 +219,14 @@
                         <uri>model://legs_with_muscles_simplified/cad/foot_left.STL</uri>
                     </mesh>
                 </geometry>
+                <surface>
+                    <friction>
+                        <ode>
+                            <mu>10000</mu>
+                            <mu2>10000</mu2>
+                        </ode>
+                    </friction>
+                </surface>
             </collision>
             <visual name="foot_left_visual">
                 <pose frame="">0 0 0 0 -0 0</pose>
@@ -373,6 +387,14 @@
                         <uri>model://legs_with_muscles_simplified/cad/foot_right.STL</uri>
                     </mesh>
                 </geometry>
+                <surface>
+                    <friction>
+                        <ode>
+                            <mu>10000</mu>
+                            <mu2>10000</mu2>
+                        </ode>
+                    </friction>
+                </surface>
             </collision>
             <visual name="foot_right_visual">
                 <pose frame="">0 0 0 0 -0 0</pose>
@@ -409,7 +431,7 @@
         <plugin filename="libWalkController.so" name="walkController">
             <myoMuscle name="motor0">
                 <link name="hip">
-                    <viaPoint type="FIXPOINT">0.185005 -0.085217 0.205727</viaPoint>
+                    <viaPoint type="FIXPOINT">0.183393 -0.084726 0.205866</viaPoint>
                 </link>
                 <link name="thigh_left">
                     <viaPoint type="FIXPOINT">0.025100 0.000764 -0.064595</viaPoint>
@@ -419,7 +441,7 @@
 
             <myoMuscle name="motor1">
                 <link name="hip">
-                    <viaPoint type="FIXPOINT">0.230552 -0.034391 0.218265</viaPoint>
+                    <viaPoint type="FIXPOINT">0.185599 0.010843 0.181247</viaPoint>
                 </link>
                 <link name="thigh_left">
                     <viaPoint type="FIXPOINT">-0.000043 0.024390 -0.063752</viaPoint>
