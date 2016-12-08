@@ -1,5 +1,7 @@
 <sdf version="1.6">
     <model name="legs_with_upper_body">
+        <pose frame="">0 0 0.07 0 0 0</pose> <!-- Raise the model a bit above the ground -->
+        <self_collide>true</self_collide> <!-- Enable collision between links -->
         <link name="hip">
             <pose frame="">0 0 0.6 0 -0 0</pose>
             <inertial>
@@ -72,8 +74,9 @@
             <axis>
                 <xyz>-1 0 0</xyz>
                 <limit>
-                    <lower>-1e+16</lower>
-                    <upper>1e+16</upper>
+                    <!-- Allow the thighs to move about 90 degrees to both directions -->
+                    <lower>-1.57</lower>
+                    <upper>1.57</upper>
                 </limit>
                 <dynamics>
                     <spring_reference>0</spring_reference>
@@ -121,8 +124,9 @@
             <axis>
                 <xyz>-0.99647 0.000425 -0.083991</xyz>
                 <limit>
-                    <lower>-5</lower>
-                    <upper>5</upper>
+                    <!-- Allow the knee to be straight or about 135 degrees to the backward direction -->
+                    <lower>-2.355</lower>
+                    <upper>0.0</upper>
                     <effort>0</effort>
                     <velocity>0</velocity>
                 </limit>
@@ -172,8 +176,9 @@
             <axis>
                 <xyz>0.99647 -0.000425 0.083991</xyz>
                 <limit>
-                    <lower>-5</lower>
-                    <upper>5</upper>
+                    <!-- Allow the foot to rotate 45 degrees to both directions -->
+                    <lower>-0.784</lower>
+                    <upper>0.784</upper>
                     <effort>0</effort>
                     <velocity>0</velocity>
                 </limit>
@@ -185,7 +190,7 @@
             </axis>
             <sensor name="force_torque_ankle_left" type="force_torque">
                 <plugin filename="libforce_torque_plugin.so" name="force_torque_ankle_left" />
-                <update_rate>10</update_rate>
+                <update_rate>1000</update_rate>
             </sensor>
         </joint>
         <link name="thigh_right">
@@ -227,8 +232,9 @@
             <axis>
                 <xyz>1 0 0</xyz>
                 <limit>
-                    <lower>-1e+16</lower>
-                    <upper>1e+16</upper>
+                    <!-- Allow the thighs to move about 90 degrees to both directions -->
+                    <lower>-1.57</lower>
+                    <upper>1.57</upper>
                 </limit>
                 <dynamics>
                     <spring_reference>0</spring_reference>
@@ -276,8 +282,9 @@
             <axis>
                 <xyz>-0.99998 -0.000187 0.005609</xyz>
                 <limit>
-                    <lower>-5</lower>
-                    <upper>5</upper>
+                    <!-- Allow the knee to be straight or about 135 degrees to the backward direction -->
+                    <lower>-2.355</lower>
+                    <upper>0.0</upper>
                     <effort>0</effort>
                     <velocity>0</velocity>
                 </limit>
@@ -327,8 +334,9 @@
             <axis>
                 <xyz>0.99998 0.000187 -0.005609</xyz>
                 <limit>
-                    <lower>-5</lower>
-                    <upper>5</upper>
+                    <!-- Allow the foot to rotate 45 degrees to both directions -->
+                    <lower>-0.784</lower>
+                    <upper>0.784</upper>
                     <effort>0</effort>
                     <velocity>0</velocity>
                 </limit>
@@ -340,7 +348,7 @@
             </axis>
             <sensor name="force_torque_ankle_right" type="force_torque">
                 <plugin filename="libforce_torque_plugin.so" name="force_torque_ankle_right" />
-                <update_rate>10</update_rate>
+                <update_rate>1000</update_rate>
             </sensor>
         </joint>
         <link name="torso">
@@ -382,8 +390,9 @@
             <axis>
                 <xyz>0 -0.104534 0.99452</xyz>
                 <limit>
-                    <lower>-1e+16</lower>
-                    <upper>1e+16</upper>
+                    <!-- Allow the spine to rotate about 90 degrees to both directions -->
+                    <lower>-1.57</lower>
+                    <upper>1.57</upper>
                 </limit>
                 <dynamics>
                     <spring_reference>0</spring_reference>
@@ -431,8 +440,9 @@
             <axis>
                 <xyz>0.000877 4e-06 -1</xyz>
                 <limit>
-                    <lower>-1e+16</lower>
-                    <upper>1e+16</upper>
+                    <!-- Allow the neck to rotate about 90 degrees to both directions -->
+                    <lower>-1.57</lower>
+                    <upper>1.57</upper>
                 </limit>
                 <dynamics>
                     <spring_reference>0</spring_reference>
@@ -529,8 +539,10 @@
             <axis>
                 <xyz>-0.99895 0.037106 0.026795</xyz>
                 <limit>
-                    <lower>-3</lower>
-                    <upper>3</upper>
+                    <!-- Allow the elbow to be between straight and 135 degrees to the forward direction.
+                         The elbow's zero position has about 45 degrees offset from being straight. -->
+                    <lower>-0.785</lower>
+                    <upper>1.57</upper>
                     <effort>0</effort>
                     <velocity>0</velocity>
                 </limit>
@@ -629,8 +641,10 @@
             <axis>
                 <xyz>0.99278 -0.11505 -0.034035</xyz>
                 <limit>
-                    <lower>-3</lower>
-                    <upper>3</upper>
+                    <!-- Allow the elbow to be between straight and 135 degrees to the forward direction.
+                         The elbow's zero position has about 45 degrees offset from being straight. -->
+                    <lower>-0.785</lower>
+                    <upper>1.57</upper>
                     <effort>0</effort>
                     <velocity>0</velocity>
                 </limit>
