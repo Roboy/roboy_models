@@ -20,3 +20,9 @@ install(DIRECTORY
         plate_with_muscle/
         DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/plate_with_muscle
         )
+
+install(FILES
+        package.xml
+        DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
+)
+
