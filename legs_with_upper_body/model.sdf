@@ -17,12 +17,17 @@
                 </inertia>
             </inertial>
             <collision name="hip_collision">
-                <pose frame="">0 0 0 0 -0 0</pose>
+                <pose frame="">0.075 -0.165 0.17 0 -0 0</pose>
                 <geometry>
+                    <box>
+                        <size>0.45 0.2 0.17</size>
+                    </box>
+                    <!--
                     <mesh>
                         <scale>1 1 1</scale>
                         <uri>model://legs_with_upper_body/cad/hip.STL</uri>
                     </mesh>
+                    -->
                 </geometry>
             </collision>
             <visual name="hip_visual">
@@ -50,12 +55,17 @@
                 </inertia>
             </inertial>
             <collision name="thigh_left_collision">
-                <pose frame="">0 0 0 0 -0 0</pose>
+                <pose frame="">0.02 -0.19 0 0 -0 0.1</pose>
                 <geometry>
+                    <box>
+                        <size>0.06 0.47 0.14</size>
+                    </box>
+                    <!--
                     <mesh>
                         <scale>1 1 1</scale>
                         <uri>model://legs_with_upper_body/cad/thigh_left.STL</uri>
                     </mesh>
+                    -->
                 </geometry>
             </collision>
             <visual name="thigh_left_visual">
@@ -100,12 +110,17 @@
                 </inertia>
             </inertial>
             <collision name="shank_left_collision">
-                <pose frame="">0 0 0 0 -0 0</pose>
+                <pose frame="">0.02 -0.19 0.02 0 -0 0.1</pose>
                 <geometry>
+                    <box>
+                        <size>0.06 0.31 0.14</size>
+                    </box>
+                    <!--
                     <mesh>
                         <scale>1 1 1</scale>
                         <uri>model://legs_with_upper_body/cad/shank_left.STL</uri>
                     </mesh>
+                    -->
                 </geometry>
             </collision>
             <visual name="shank_left_visual">
@@ -152,12 +167,17 @@
                 </inertia>
             </inertial>
             <collision name="foot_left_collision">
-                <pose frame="">0 0 0 0 -0 0</pose>
+                <pose frame="">0.004 -0.07 0.075 -0.1 -0 0</pose>
                 <geometry>
+                    <box>
+                        <size>0.07 0.04 0.23</size>
+                    </box>
+                    <!--
                     <mesh>
                         <scale>1 1 1</scale>
                         <uri>model://legs_with_upper_body/cad/foot_left.STL</uri>
                     </mesh>
+                    -->
                 </geometry>
             </collision>
             <visual name="foot_left_visual">
@@ -208,12 +228,17 @@
                 </inertia>
             </inertial>
             <collision name="thigh_right_collision">
-                <pose frame="">0 0 0 0 -0 0</pose>
+                <pose frame="">0 -0.19 0 0 -0 0</pose>
                 <geometry>
+                    <box>
+                        <size>0.06 0.47 0.14</size>
+                    </box>
+                    <!--
                     <mesh>
                         <scale>1 1 1</scale>
                         <uri>model://legs_with_upper_body/cad/thigh_right.STL</uri>
                     </mesh>
+                    -->
                 </geometry>
             </collision>
             <visual name="thigh_right_visual">
@@ -258,12 +283,17 @@
                 </inertia>
             </inertial>
             <collision name="shank_right_collision">
-                <pose frame="">0 0 0 0 -0 0</pose>
+                <pose frame="">0 -0.19 0.02 0 -0 0</pose>
                 <geometry>
+                    <box>
+                        <size>0.06 0.31 0.14</size>
+                    </box>
+                    <!--
                     <mesh>
                         <scale>1 1 1</scale>
                         <uri>model://legs_with_upper_body/cad/shank_right.STL</uri>
                     </mesh>
+                    -->
                 </geometry>
             </collision>
             <visual name="shank_right_visual">
@@ -310,12 +340,17 @@
                 </inertia>
             </inertial>
             <collision name="foot_right_collision">
-                <pose frame="">0 0 0 0 -0 0</pose>
+                <pose frame="">0.004 -0.07 0.075 -0.1 -0 0</pose>
                 <geometry>
+                    <box>
+                        <size>0.07 0.04 0.23</size>
+                    </box>
+                    <!--
                     <mesh>
                         <scale>1 1 1</scale>
                         <uri>model://legs_with_upper_body/cad/foot_right.STL</uri>
                     </mesh>
+                    -->
                 </geometry>
             </collision>
             <visual name="foot_right_visual">
@@ -366,12 +401,17 @@
                 </inertia>
             </inertial>
             <collision name="torso_collision">
-                <pose frame="">0 0 0 0 -0 0</pose>
+                <pose frame="">0 0.27 0.025 0 -0 0</pose>
                 <geometry>
+                    <box>
+                        <size>0.3 0.42 0.17</size>
+                    </box>
+                    <!--
                     <mesh>
                         <scale>1 1 1</scale>
                         <uri>model://legs_with_upper_body/cad/torso.STL</uri>
                     </mesh>
+                    -->
                 </geometry>
             </collision>
             <visual name="torso_visual">
@@ -416,12 +456,17 @@
                 </inertia>
             </inertial>
             <collision name="head_collision">
-                <pose frame="">0 0 0 0 -0 0</pose>
+                <pose frame="">0 0.2 -0.02 0 -0 0</pose>
                 <geometry>
+                    <sphere>
+                        <radius>0.2</radius>
+                    </sphere>
+                    <!--
                     <mesh>
                         <scale>1 1 1</scale>
                         <uri>model://legs_with_upper_body/cad/head.STL</uri>
                     </mesh>
+                    -->
                 </geometry>
             </collision>
             <visual name="head_visual">
@@ -466,12 +511,17 @@
                 </inertia>
             </inertial>
             <collision name="oberarm_left_collision">
-                <pose frame="">0 0 0 0 -0 0</pose>
+                <pose frame="">0 -0.12 0.03 -0.2 -0 0</pose>
                 <geometry>
+                    <box>
+                        <size>0.08 0.27 0.08</size>
+                    </box>
+                    <!--
                     <mesh>
                         <scale>1 1 1</scale>
                         <uri>model://legs_with_upper_body/cad/oberarm_left.STL</uri>
                     </mesh>
+                    -->
                 </geometry>
             </collision>
             <visual name="oberarm_left_visual">
@@ -515,12 +565,17 @@
                 </inertia>
             </inertial>
             <collision name="unterarm_left_collision">
-                <pose frame="">0 0 0 0 -0 0</pose>
+                <pose frame="">0 -0.025 0.15 -1.4 -0.1 0</pose>
                 <geometry>
+                    <box>
+                        <size>0.08 0.28 0.08</size>
+                    </box>
+                    <!--
                     <mesh>
                         <scale>1 1 1</scale>
                         <uri>model://legs_with_upper_body/cad/unterarm_left.STL</uri>
                     </mesh>
+                    -->
                 </geometry>
             </collision>
             <visual name="unterarm_left_visual">
@@ -568,12 +623,17 @@
                 </inertia>
             </inertial>
             <collision name="oberarm_right_collision">
-                <pose frame="">0 0 0 0 -0 0</pose>
+                <pose frame="">0 -0.12 0.03 -0.2 -0 0</pose>
                 <geometry>
+                    <box>
+                        <size>0.08 0.27 0.08</size>
+                    </box>
+                    <!--
                     <mesh>
                         <scale>1 1 1</scale>
                         <uri>model://legs_with_upper_body/cad/oberarm_right.STL</uri>
                     </mesh>
+                    -->
                 </geometry>
             </collision>
             <visual name="oberarm_right_visual">
@@ -617,12 +677,17 @@
                 </inertia>
             </inertial>
             <collision name="unterarm_right_collision">
-                <pose frame="">0 0 0 0 -0 0</pose>
+                <pose frame="">-0.02 -0.025 0.15 -1.4 -0.15 0</pose>
                 <geometry>
+                    <box>
+                        <size>0.08 0.28 0.08</size>
+                    </box>
+                    <!--
                     <mesh>
                         <scale>1 1 1</scale>
                         <uri>model://legs_with_upper_body/cad/unterarm_right.STL</uri>
                     </mesh>
+                    -->
                 </geometry>
             </collision>
             <visual name="unterarm_right_visual">
