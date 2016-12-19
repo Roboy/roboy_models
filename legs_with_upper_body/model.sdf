@@ -3,7 +3,7 @@
         <link name="hip">
             <pose frame="">0 0 0.6 0 -0 0</pose>
             <inertial>
-                <pose frame="">0.074697 0.137093 0.149689 0 -0 0</pose>
+                <pose frame="">0.074697 -0.137093 0.149689 0 -0 0</pose>
                 <mass>0.912006</mass>
                 <inertia>
                     <ixx>0.00265949</ixx>
