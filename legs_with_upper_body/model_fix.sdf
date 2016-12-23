@@ -85,8 +85,8 @@
                 <xyz>-1 0 0</xyz>
                 <limit>
                     <!-- Allow the thighs to move about 90 degrees to both directions -->
-                    <lower>-1.57</lower>
-                    <upper>1.57</upper>
+                    <lower>0</lower>
+                    <upper>0</upper>
                 </limit>
                 <dynamics>
                     <spring_reference>0</spring_reference>
@@ -140,7 +140,7 @@
                 <xyz>-0.99647 0.000425 -0.083991</xyz>
                 <limit>
                     <!-- Allow the knee to be straight or about 135 degrees to the backward direction -->
-                    <lower>-2.355</lower>
+                    <lower>-0</lower>
                     <upper>0.0</upper>
                     <effort>0</effort>
                     <velocity>0</velocity>
@@ -197,8 +197,8 @@
                 <xyz>0.99647 -0.000425 0.083991</xyz>
                 <limit>
                     <!-- Allow the foot to rotate 45 degrees to both directions -->
-                    <lower>-0.784</lower>
-                    <upper>0.784</upper>
+                    <lower>-0</lower>
+                    <upper>0</upper>
                     <effort>0</effort>
                     <velocity>0</velocity>
                 </limit>
@@ -258,8 +258,8 @@
                 <xyz>1 0 0</xyz>
                 <limit>
                     <!-- Allow the thighs to move about 90 degrees to both directions -->
-                    <lower>-1.57</lower>
-                    <upper>1.57</upper>
+                    <lower>-0</lower>
+                    <upper>0</upper>
                 </limit>
                 <dynamics>
                     <spring_reference>0</spring_reference>
@@ -313,7 +313,7 @@
                 <xyz>-0.99998 -0.000187 0.005609</xyz>
                 <limit>
                     <!-- Allow the knee to be straight or about 135 degrees to the backward direction -->
-                    <lower>-2.355</lower>
+                    <lower>-0</lower>
                     <upper>0.0</upper>
                     <effort>0</effort>
                     <velocity>0</velocity>
@@ -370,8 +370,8 @@
                 <xyz>0.99998 0.000187 -0.005609</xyz>
                 <limit>
                     <!-- Allow the foot to rotate 45 degrees to both directions -->
-                    <lower>-0.784</lower>
-                    <upper>0.784</upper>
+                    <lower>-0</lower>
+                    <upper>0</upper>
                     <effort>0</effort>
                     <velocity>0</velocity>
                 </limit>
@@ -431,8 +431,8 @@
                 <xyz>0 -0.104534 0.99452</xyz>
                 <limit>
                     <!-- Allow the spine to rotate about 90 degrees to both directions -->
-                    <lower>-1.57</lower>
-                    <upper>1.57</upper>
+                    <lower>-0</lower>
+                    <upper>0</upper>
                 </limit>
                 <dynamics>
                     <spring_reference>0</spring_reference>
