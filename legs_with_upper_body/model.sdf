@@ -29,13 +29,6 @@
                     </mesh>
                     -->
                 </geometry>
-                <surface>
-                    <contact>
-                        <ode>
-                            <min_depth>0.001</min_depth>
-                        </ode>
-                    </contact>
-                </surface>
             </collision>
             <visual name="hip_visual">
                 <pose frame="">0 0 0 0 -0 0</pose>
@@ -74,13 +67,6 @@
                     </mesh>
                     -->
                 </geometry>
-                <surface>
-                    <contact>
-                        <ode>
-                            <min_depth>0.001</min_depth>
-                        </ode>
-                    </contact>
-                </surface>
             </collision>
             <visual name="thigh_left_visual">
                 <pose frame="">0 0 0 0 -0 0</pose>
@@ -136,13 +122,6 @@
                     </mesh>
                     -->
                 </geometry>
-                <surface>
-                    <contact>
-                        <ode>
-                            <min_depth>0.001</min_depth>
-                        </ode>
-                    </contact>
-                </surface>
             </collision>
             <visual name="shank_left_visual">
                 <pose frame="">0 0 0 0 -0 0</pose>
@@ -200,13 +179,6 @@
                     </mesh>
                     -->
                 </geometry>
-                <surface>
-                    <contact>
-                        <ode>
-                            <min_depth>0.001</min_depth>
-                        </ode>
-                    </contact>
-                </surface>
             </collision>
             <visual name="foot_left_visual">
                 <pose frame="">0 0 0 0 -0 0</pose>
@@ -268,13 +240,6 @@
                     </mesh>
                     -->
                 </geometry>
-                <surface>
-                    <contact>
-                        <ode>
-                            <min_depth>0.001</min_depth>
-                        </ode>
-                    </contact>
-                </surface>
             </collision>
             <visual name="thigh_right_visual">
                 <pose frame="">0 0 0 0 -0 0</pose>
@@ -330,13 +295,6 @@
                     </mesh>
                     -->
                 </geometry>
-                <surface>
-                    <contact>
-                        <ode>
-                            <min_depth>0.001</min_depth>
-                        </ode>
-                    </contact>
-                </surface>
             </collision>
             <visual name="shank_right_visual">
                 <pose frame="">0 0 0 0 -0 0</pose>
@@ -394,13 +352,6 @@
                     </mesh>
                     -->
                 </geometry>
-                <surface>
-                    <contact>
-                        <ode>
-                            <min_depth>0.001</min_depth>
-                        </ode>
-                    </contact>
-                </surface>
             </collision>
             <visual name="foot_right_visual">
                 <pose frame="">0 0 0 0 -0 0</pose>
@@ -462,13 +413,6 @@
                     </mesh>
                     -->
                 </geometry>
-                <surface>
-                    <contact>
-                        <ode>
-                            <min_depth>0.001</min_depth>
-                        </ode>
-                    </contact>
-                </surface>
             </collision>
             <visual name="torso_visual">
                 <pose frame="">0 0 0 0 -0 0</pose>
@@ -524,13 +468,6 @@
                     </mesh>
                     -->
                 </geometry>
-                <surface>
-                    <contact>
-                        <ode>
-                            <min_depth>0.001</min_depth>
-                        </ode>
-                    </contact>
-                </surface>
             </collision>
             <visual name="head_visual">
                 <pose frame="">0 0 0 0 -0 0</pose>
@@ -586,13 +523,6 @@
                     </mesh>
                     -->
                 </geometry>
-                <surface>
-                    <contact>
-                        <ode>
-                            <min_depth>0.001</min_depth>
-                        </ode>
-                    </contact>
-                </surface>
             </collision>
             <visual name="oberarm_left_visual">
                 <pose frame="">0 0 0 0 -0 0</pose>
@@ -623,15 +553,15 @@
         <link name="unterarm_left">
             <pose frame="">0.276892 -0.229767 0.99127 1.5708 -0 0</pose>
             <inertial>
-                <pose frame="">-0.007061 -0.024468 0.025697 0 -0 0</pose>
-                <mass>0.00248551</mass>
+                <pose frame="">0.000151419 -0.0464614 0.13841 0 -0 0</pose>
+                <mass>0.248551</mass>
                 <inertia>
-                    <ixx>5.36943e-07</ixx>
-                    <ixy>-3.31599e-09</ixy>
-                    <ixz>3.844e-09</ixz>
-                    <iyy>5.17762e-07</iyy>
-                    <iyz>1.07198e-07</iyz>
-                    <izz>6.54977e-08</izz>
+                    <ixx>0.00977276</ixx>
+                    <ixy>-0.00015014</ixy>
+                    <ixz>0.000389391</ixz>
+                    <iyy>0.0091178</iyy>
+                    <iyz>0.00257367</iyz>
+                    <izz>0.000991918</izz>
                 </inertia>
             </inertial>
             <collision name="unterarm_left_collision">
@@ -647,13 +577,6 @@
                     </mesh>
                     -->
                 </geometry>
-                <surface>
-                    <contact>
-                        <ode>
-                            <min_depth>0.001</min_depth>
-                        </ode>
-                    </contact>
-                </surface>
             </collision>
             <visual name="unterarm_left_visual">
                 <pose frame="">0 0 0 0 -0 0</pose>
@@ -712,13 +635,6 @@
                     </mesh>
                     -->
                 </geometry>
-                <surface>
-                    <contact>
-                        <ode>
-                            <min_depth>0.001</min_depth>
-                        </ode>
-                    </contact>
-                </surface>
             </collision>
             <visual name="oberarm_right_visual">
                 <pose frame="">0 0 0 0 -0 0</pose>
@@ -773,13 +689,6 @@
                     </mesh>
                     -->
                 </geometry>
-                <surface>
-                    <contact>
-                        <ode>
-                            <min_depth>0.001</min_depth>
-                        </ode>
-                    </contact>
-                </surface>
             </collision>
             <visual name="unterarm_right_visual">
                 <pose frame="">0 0 0 0 -0 0</pose>
