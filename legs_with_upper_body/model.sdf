@@ -767,7 +767,7 @@
                     <viaPoint type="FIXPOINT">0.025865 -0.317187 0.030588</viaPoint>
                 </link>
                 <link name="shank_left">
-                    <viaPoint type="FIXPOINT">0.002484 -0.041575 -0.001379</viaPoint>
+                    <viaPoint type="FIXPOINT">0.003903 -0.042379 0.045603</viaPoint>
                 </link>
                 <spanningJoint name="knee_left">extensor</spanningJoint>
             </myoMuscle>
@@ -777,7 +777,7 @@
                     <viaPoint type="FIXPOINT">0.026181 -0.317907 -0.035673</viaPoint>
                 </link>
                 <link name="shank_left">
-                    <viaPoint type="FIXPOINT">0.003903 -0.042379 0.045603</viaPoint>
+                    <viaPoint type="FIXPOINT">0.002484 -0.041575 -0.001379</viaPoint>
                 </link>
                 <spanningJoint name="knee_left">flexor</spanningJoint>
             </myoMuscle>
