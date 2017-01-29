@@ -90,7 +90,7 @@
                 </limit>
                 <dynamics>
                     <spring_reference>0</spring_reference>
-                    <spring_stiffness>0</spring_stiffness>
+                    <spring_stiffness>10</spring_stiffness>
                 </dynamics>
                 <use_parent_model_frame>1</use_parent_model_frame>
             </axis>
@@ -204,7 +204,7 @@
                 </limit>
                 <dynamics>
                     <spring_reference>0</spring_reference>
-                    <spring_stiffness>0</spring_stiffness>
+                    <spring_stiffness>00</spring_stiffness>
                 </dynamics>
                 <use_parent_model_frame>1</use_parent_model_frame>
             </axis>
@@ -263,7 +263,7 @@
                 </limit>
                 <dynamics>
                     <spring_reference>0</spring_reference>
-                    <spring_stiffness>0</spring_stiffness>
+                    <spring_stiffness>10</spring_stiffness>
                 </dynamics>
                 <use_parent_model_frame>1</use_parent_model_frame>
             </axis>
