@@ -1,0 +1,911 @@
+<sdf version="1.6">
+    <model name="Roboy_simplified">
+        <link name="head">
+            <pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
+            <inertial>
+                <pose frame="">0.08597855063663795 1.260241214935368 -0.14403305545887915 0 0 0</pose>
+                <mass>18.11479261304779</mass>
+                <inertia>
+                    <ixx>31.447932440429373</ixx>
+                    <ixy>-2.4846572465417895</ixy>
+                    <ixz>3.31373702027895</ixz>
+                    <iyy>0.3151618410275693</iyy>
+                    <iyz>0.21679457229159277</iyz>
+                    <izz>30.72025261264135</izz>
+                </inertia>
+            </inertial>
+            <collision name="head_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://Roboy_simplified/meshes/head.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="head_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://Roboy_simplified/meshes/head.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+        <link name="hip">
+            <pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
+            <inertial>
+                <pose frame="">0.10823712538753855 0.5692542686426733 -0.07863378779517002 0 0 0</pose>
+                <mass>10.217268367803007</mass>
+                <inertia>
+                    <ixx>-95.47852637700834</ixx>
+                    <ixy>0.668133056651656</ixy>
+                    <ixz>9.056673861771474</ixz>
+                    <iyy>-100.11763955457239</iyy>
+                    <iyz>14.910571602010114</iyz>
+                    <izz>0.522807593881511</izz>
+                </inertia>
+            </inertial>
+            <collision name="hip_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://Roboy_simplified/meshes/hip.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="hip_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://Roboy_simplified/meshes/hip.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+        <link name="shank_right">
+            <pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
+            <inertial>
+                <pose frame="">0.01262389437167213 0.15780133128899018 -0.12030246589743661 0 0 0</pose>
+                <mass>4.69625605786695</mass>
+                <inertia>
+                    <ixx>0.2082604627829002</ixx>
+                    <ixy>-0.01044932696144452</ixy>
+                    <ixz>0.08691246672354436</ixz>
+                    <iyy>0.07357717387500155</iyy>
+                    <iyz>0.006930484272251638</iyz>
+                    <izz>0.14012591641214284</izz>
+                </inertia>
+            </inertial>
+            <collision name="shank_right_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://Roboy_simplified/meshes/shank_right.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="shank_right_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://Roboy_simplified/meshes/shank_right.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+        <link name="shank_left">
+            <pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
+            <inertial>
+                <pose frame="">0.19912254543501098 0.16119053744691667 -0.14914802607360425 0 0 0</pose>
+                <mass>4.679900451026576</mass>
+                <inertia>
+                    <ixx>0.24894275183246248</ixx>
+                    <ixy>-0.14927303615964557</ixy>
+                    <ixz>0.10997831272923461</ixz>
+                    <iyy>0.29455156917690095</iyy>
+                    <iyz>0.1389754339353449</iyz>
+                    <izz>0.32944789113157474</izz>
+                </inertia>
+            </inertial>
+            <collision name="shank_left_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://Roboy_simplified/meshes/shank_left.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="shank_left_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://Roboy_simplified/meshes/shank_left.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+        <link name="vertebrae_2">
+            <pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
+            <inertial>
+                <pose frame="">0.09911154488312089 0.6191079413911783 -0.13400063368448864 0 0 0</pose>
+                <mass>1.7525866152537843</mass>
+                <inertia>
+                    <ixx>0.7043840538288584</ixx>
+                    <ixy>-0.10754151515926953</ixy>
+                    <ixz>0.14544052386606904</ixz>
+                    <iyy>0.05035532887836271</iyy>
+                    <iyz>0.02327949069776163</iyz>
+                    <izz>0.6901565486968089</izz>
+                </inertia>
+            </inertial>
+            <collision name="vertebrae_2_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://Roboy_simplified/meshes/vertebrae_2.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="vertebrae_2_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://Roboy_simplified/meshes/vertebrae_2.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+        <link name="vertebrae_1">
+            <pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
+            <inertial>
+                <pose frame="">0.09914829358320042 0.5718203168673811 -0.13858816432232426 0 0 0</pose>
+                <mass>1.673007081462796</mass>
+                <inertia>
+                    <ixx>0.5802226294530906</ixx>
+                    <ixy>-0.09485162154243715</ixy>
+                    <ixz>0.13262839766668166</ixz>
+                    <iyy>0.050102576518610865</iyy>
+                    <iyz>0.02299392188892653</iyz>
+                    <izz>0.5645831921673088</izz>
+                </inertia>
+            </inertial>
+            <collision name="vertebrae_1_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://Roboy_simplified/meshes/vertebrae_1.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="vertebrae_1_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://Roboy_simplified/meshes/vertebrae_1.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+        <link name="vertebrae_3">
+            <pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
+            <inertial>
+                <pose frame="">0.09886613675151104 0.6608544821413745 -0.1310949304960212 0 0 0</pose>
+                <mass>1.3931326085478801</mass>
+                <inertia>
+                    <ixx>0.6332641556458454</ixx>
+                    <ixy>-0.0910273770845655</ixy>
+                    <ixz>0.12071215335919877</ixz>
+                    <iyy>0.038984107806795634</iyy>
+                    <iyz>0.018061672054781177</iyz>
+                    <izz>0.6229757749163766</izz>
+                </inertia>
+            </inertial>
+            <collision name="vertebrae_3_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://Roboy_simplified/meshes/vertebrae_3.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="vertebrae_3_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://Roboy_simplified/meshes/vertebrae_3.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+        <link name="neck">
+            <pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
+            <inertial>
+                <pose frame="">0.09400963779130236 1.1145439008414686 -0.12221543504591355 0 0 0</pose>
+                <mass>1.6462451767691393</mass>
+                <inertia>
+                    <ixx>2.0714214198873426</ixx>
+                    <ixy>-0.17263070731077843</ixy>
+                    <ixz>0.22396648157174293</ixz>
+                    <iyy>0.04082084486448143</iyy>
+                    <iyz>0.019035330800297543</iyz>
+                    <izz>2.0619578483866134</izz>
+                </inertia>
+            </inertial>
+            <collision name="neck_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://Roboy_simplified/meshes/neck.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="neck_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://Roboy_simplified/meshes/neck.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+        <link name="neck_cross">
+            <pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
+            <inertial>
+                <pose frame="">0.09200489075801178 1.0632525498474463 -0.13170627791355283 0 0 0</pose>
+                <mass>0.030866722638359607</mass>
+                <inertia>
+                    <ixx>0.03543149049845453</ixx>
+                    <ixy>-0.0030195516904009526</ixy>
+                    <ixz>0.004322436189915735</ixz>
+                    <iyy>0.0007992436058154891</iyy>
+                    <iyz>0.000374187857835075</iyz>
+                    <izz>0.03515829727921004</izz>
+                </inertia>
+            </inertial>
+            <collision name="neck_cross_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://Roboy_simplified/meshes/neck_cross.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="neck_cross_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://Roboy_simplified/meshes/neck_cross.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+        <link name="spine">
+            <pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
+            <inertial>
+                <pose frame="">0.09832453908270904 0.8264182402043685 -0.11696657180554762 0 0 0</pose>
+                <mass>9.774716558456467</mass>
+                <inertia>
+                    <ixx>6.949689527379981</ixx>
+                    <ixy>-0.7899740389295181</ixy>
+                    <ixz>0.9606417207465872</ixz>
+                    <iyy>0.2563180307453012</iyy>
+                    <iyz>0.11374427920083523</iyz>
+                    <izz>6.920829066306084</izz>
+                </inertia>
+            </inertial>
+            <collision name="spine_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://Roboy_simplified/meshes/spine.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="spine_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://Roboy_simplified/meshes/spine.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+        <link name="thigh_right">
+            <pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
+            <inertial>
+                <pose frame="">-0.0019105997041902409 0.42106661714006327 -0.09653200114879186 0 0 0</pose>
+                <mass>6.834335338554808</mass>
+                <inertia>
+                    <ixx>1.3210718817287368</ixx>
+                    <ixy>0.013704338682535323</ixy>
+                    <ixz>0.276333677157264</ixz>
+                    <iyy>0.07455451414118994</iyy>
+                    <iyz>1.8994141901416868e-05</iyz>
+                    <izz>1.2591449337563367</izz>
+                </inertia>
+            </inertial>
+            <collision name="thigh_right_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://Roboy_simplified/meshes/thigh_right.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="thigh_right_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://Roboy_simplified/meshes/thigh_right.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+        <link name="thigh_left">
+            <pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
+            <inertial>
+                <pose frame="">0.2133678763183313 0.4245469408749798 -0.1297810253361911 0 0 0</pose>
+                <mass>6.809203111902792</mass>
+                <inertia>
+                    <ixx>1.387388232973614</ixx>
+                    <ixy>-0.6239595987570853</ixy>
+                    <ixz>0.3759515180061153</ixz>
+                    <iyy>0.43493589906164526</iyy>
+                    <iyz>0.18791740819065114</iyz>
+                    <izz>1.5850631717003785</izz>
+                </inertia>
+            </inertial>
+            <collision name="thigh_left_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://Roboy_simplified/meshes/thigh_left.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="thigh_left_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://Roboy_simplified/meshes/thigh_left.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+        <link name="torso">
+            <pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
+            <inertial>
+                <pose frame="">0.09291204022465392 0.9241815247058832 -0.12134783660079597 0 0 0</pose>
+                <mass>32.1412029096807</mass>
+                <inertia>
+                    <ixx>28.214893154036382</ixx>
+                    <ixy>-2.7664605572082066</ixy>
+                    <ixz>3.6019417164534793</ixz>
+                    <iyy>1.2574585862549497</iyy>
+                    <iyz>0.41734123296940845</iyz>
+                    <izz>28.373135861357845</izz>
+                </inertia>
+            </inertial>
+            <collision name="torso_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://Roboy_simplified/meshes/torso.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="torso_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://Roboy_simplified/meshes/torso.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+        <link name="upper_arm_right">
+            <pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
+            <inertial>
+                <pose frame="">-0.10624938112519577 0.8464293642532447 -0.0773652161112136 0 0 0</pose>
+                <mass>3.2142251893161435</mass>
+                <inertia>
+                    <ixx>2.334255363072901</ixx>
+                    <ixy>0.2893935819291755</ixy>
+                    <ixz>0.21038307393252687</ixz>
+                    <iyy>0.05783837437466679</iyy>
+                    <iyz>-0.02660215511980095</iyz>
+                    <izz>2.35235008211262</izz>
+                </inertia>
+            </inertial>
+            <collision name="upper_arm_right_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://Roboy_simplified/meshes/upper_arm_right.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="upper_arm_right_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://Roboy_simplified/meshes/upper_arm_right.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+        <link name="hand_right">
+            <pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
+            <inertial>
+                <pose frame="">-0.08364585126184083 0.7520009469793029 0.1293680963536232 0 0 0</pose>
+                <mass>1.098894061790198</mass>
+                <inertia>
+                    <ixx>0.6437289481643359</ixx>
+                    <ixy>0.06916095272824425</ixy>
+                    <ixz>-0.10704953140507392</ixz>
+                    <iyy>0.030539549685758057</iyy>
+                    <iyz>0.010853615718632305</iyz>
+                    <izz>0.6300472808987335</izz>
+                </inertia>
+            </inertial>
+            <collision name="hand_right_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://Roboy_simplified/meshes/hand_right.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="hand_right_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://Roboy_simplified/meshes/hand_right.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+        <link name="lower_arm_right">
+            <pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
+            <inertial>
+                <pose frame="">-0.0964003316993973 0.7359576669508916 -0.018352324944409377 0 0 0</pose>
+                <mass>0.6108995187331121</mass>
+                <inertia>
+                    <ixx>0.33200553873635297</ixx>
+                    <ixy>0.04337326654023764</ixy>
+                    <ixz>0.008358475677398636</ixz>
+                    <iyy>0.006759120937909143</iyy>
+                    <iyz>-0.001223260326891884</iyz>
+                    <izz>0.3367411955459437</izz>
+                </inertia>
+            </inertial>
+            <collision name="lower_arm_right_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://Roboy_simplified/meshes/lower_arm_right.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="lower_arm_right_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://Roboy_simplified/meshes/lower_arm_right.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+        <link name="upper_arm_left">
+            <pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
+            <inertial>
+                <pose frame="">0.3061105591135232 0.8534033568688949 -0.1390710171986937 0 0 0</pose>
+                <mass>3.003023987854489</mass>
+                <inertia>
+                    <ixx>2.25719310617379</ixx>
+                    <ixy>-0.7844557828073804</ixy>
+                    <ixz>0.35640760182877984</ixz>
+                    <iyy>0.3411586944887798</iyy>
+                    <iyz>0.12801840091548908</iyz>
+                    <izz>2.4810090925233212</izz>
+                </inertia>
+            </inertial>
+            <collision name="upper_arm_left_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://Roboy_simplified/meshes/upper_arm_left.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="upper_arm_left_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://Roboy_simplified/meshes/upper_arm_left.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+        <link name="lower_arm_left">
+            <pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
+            <inertial>
+                <pose frame="">0.33027160666067884 0.7567697860312851 0.009399089925036283 0 0 0</pose>
+                <mass>1.6636500983416995</mass>
+                <inertia>
+                    <ixx>0.9663045638163267</ixx>
+                    <ixy>-0.4162086536009046</ixy>
+                    <ixz>-0.013462568425945159</ixz>
+                    <iyy>0.19531013447301956</iyy>
+                    <iyz>-0.006669486977839613</iyz>
+                    <izz>1.1357070345439808</izz>
+                </inertia>
+            </inertial>
+            <collision name="lower_arm_left_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://Roboy_simplified/meshes/lower_arm_left.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="lower_arm_left_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://Roboy_simplified/meshes/lower_arm_left.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+        <joint name="groin_right" type="revolute">
+            <parent>hip</parent>
+            <child>p-gelenkhuelse-v01_1</child>
+            <pose frame="">0.004836949926646898 0.5362848786370562 -0.08607260086753693 0 0 0</pose>
+            <axis>
+                <xyz>-0.9884587359814524 -0.016021011144104605 0.1506408127429975</xyz>
+                <limit>
+                    <lower>-0.0</lower>
+                    <upper>1.5707963267948966</upper>
+                </limit>
+                <use_parent_model_frame>0</use_parent_model_frame>
+            </axis>
+        </joint>
+        <link name="p-gelenkhuelse-v01_1">
+            <pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
+            <inertial>
+                <pose frame="">0.018416090134137118 0.5364890316105595 -0.08814397614851913 0 0 0</pose>
+                <mass>0.11109119134659062</mass>
+                <inertia>
+                    <ixx>0.03285389835223234</ixx>
+                    <ixy>-0.0010985580274833265</ixy>
+                    <ixz>0.005253407024353276</ixz>
+                    <iyy>0.0009188135544143824</iyy>
+                    <iyz>0.0001805723267610729</iyz>
+                    <izz>0.03203058200191141</izz>
+                </inertia>
+            </inertial>
+            <collision name="p-gelenkhuelse-v01_1_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://Roboy_simplified/meshes/p-gelenkhuelse-v01_1.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="p-gelenkhuelse-v01_1_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://Roboy_simplified/meshes/p-gelenkhuelse-v01_1.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+        <joint name="spine_1" type="fixed">
+            <parent>hip</parent>
+            <child>vertebrae_1</child>
+            <pose frame="">0.09974461307728277 0.5499794246452868 -0.13716796598225173 0 0 0</pose>
+        </joint>
+        <joint name="groin_left" type="revolute">
+            <parent>hip</parent>
+            <child>p-gelenkhuelse-v01 (1)_1</child>
+            <pose frame="">0.20644053552991637 0.5395524842275251 -0.11679692640756521 0 0 0</pose>
+            <axis>
+                <xyz>0.9884587359814523 0.016021011144104074 -0.15064081274299754</xyz>
+                <limit>
+                    <lower>-1.5707963267948966</lower>
+                    <upper>-0.0</upper>
+                </limit>
+                <use_parent_model_frame>0</use_parent_model_frame>
+            </axis>
+        </joint>
+        <link name="p-gelenkhuelse-v01 (1)_1">
+            <pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
+            <inertial>
+                <pose frame="">0.19286126937208653 0.5393164537198345 -0.11472936746876107 0 0 0</pose>
+                <mass>0.1110912126368652</mass>
+                <inertia>
+                    <ixx>0.033790974925751165</ixx>
+                    <ixy>-0.01155405234846668</ixy>
+                    <ixz>0.006873629472303722</ixz>
+                    <iyy>0.005612454406911149</iyy>
+                    <iyz>0.002458511751625008</iyz>
+                    <izz>0.036462861409531734</izz>
+                </inertia>
+            </inertial>
+            <collision name="p-gelenkhuelse-v01 (1)_1_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://Roboy_simplified/meshes/p-gelenkhuelse-v01 (1)_1.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="p-gelenkhuelse-v01 (1)_1_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://Roboy_simplified/meshes/p-gelenkhuelse-v01 (1)_1.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+        <joint name="neck_1" type="revolute">
+            <parent>spine</parent>
+            <child>neck_cross</child>
+            <pose frame="">0.07966168644298895 1.0630535405053956 -0.12974268451805798 0 0 0</pose>
+            <axis>
+                <xyz>0.9874563440720607 0.0159207172525726 -0.157087553020614</xyz>
+                <limit>
+                    <lower>0.6981317007977318</lower>
+                    <upper>0.8726646259971648</upper>
+                </limit>
+                <use_parent_model_frame>0</use_parent_model_frame>
+            </axis>
+        </joint>
+        <joint name="neck_2" type="revolute">
+            <parent>neck_cross</parent>
+            <child>neck</child>
+            <pose frame="">0.09362890482990119 1.0643287830094732 -0.121388609638809 0 0 0</pose>
+            <axis>
+                <xyz>-0.15466800819155507 -0.10249843223063884 -0.9826351706672822</xyz>
+                <limit>
+                    <lower>-0.08726646259971647</lower>
+                    <upper>0.08726646259971647</upper>
+                </limit>
+                <use_parent_model_frame>0</use_parent_model_frame>
+            </axis>
+        </joint>
+        <joint name="neck_3" type="revolute">
+            <parent>neck</parent>
+            <child>head</child>
+            <pose frame="">0.09077982748342897 1.095449113374699 -0.13614395769410764 0 0 0</pose>
+            <axis>
+                <xyz>-0.03174548462218767 0.9946057521211239 -0.09875030153714766</xyz>
+                <limit>
+                    <lower>-0.6108652381980153</lower>
+                    <upper>0.6108652381980153</upper>
+                </limit>
+                <use_parent_model_frame>0</use_parent_model_frame>
+            </axis>
+        </joint>
+        <joint name="ankle_left" type="revolute">
+            <parent>shank_left</parent>
+            <child>p-fuss-links-v12_1</child>
+            <pose frame="">0.19368681148116543 0.049373226640103025 -0.15948748700849624 0 0 0</pose>
+            <axis>
+                <xyz>-0.9884587359814523 -0.016021011144104844 0.15064081274299945</xyz>
+                <limit>
+                    <lower>-0.4363323129985824</lower>
+                    <upper>0.5235987755982988</upper>
+                </limit>
+                <use_parent_model_frame>0</use_parent_model_frame>
+            </axis>
+        </joint>
+        <link name="p-fuss-links-v12_1">
+            <pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
+            <inertial>
+                <pose frame="">0.19919114109776445 0.0273327611390411 -0.11572157018381268 0 0 0</pose>
+                <mass>1.7645561996480417</mass>
+                <inertia>
+                    <ixx>0.032129784939281744</ixx>
+                    <ixy>-0.00951809151475457</ixy>
+                    <ixz>0.0063371203961099035</ixz>
+                    <iyy>0.1013249900642158</iyy>
+                    <iyz>0.040319627856972164</iyz>
+                    <izz>0.07244613234167525</izz>
+                </inertia>
+            </inertial>
+            <collision name="p-fuss-links-v12_1_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://Roboy_simplified/meshes/p-fuss-links-v12_1.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="p-fuss-links-v12_1_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://Roboy_simplified/meshes/p-fuss-links-v12_1.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+        <joint name="knee_left" type="revolute">
+            <parent>thigh_left</parent>
+            <child>shank_left</child>
+            <pose frame="">0.2050091438669564 0.28060935412376675 -0.1402609913396401 0 0 0</pose>
+            <axis>
+                <xyz>0.9884587359814518 0.016021011144104508 -0.15064081274299915</xyz>
+                <limit>
+                    <lower>-0.0</lower>
+                    <upper>1.7453292519943295</upper>
+                </limit>
+                <use_parent_model_frame>0</use_parent_model_frame>
+            </axis>
+        </joint>
+        <joint name="ankle_right" type="revolute">
+            <parent>shank_right</parent>
+            <child>p-fuss-rechts-v12_1</child>
+            <pose frame="">0.01829597485494237 0.04649378991554521 -0.13235497382407518 0 0 0</pose>
+            <axis>
+                <xyz>0.9884587359814518 0.016021011144104466 -0.15064081274299757</xyz>
+                <limit>
+                    <lower>-0.5235987755982988</lower>
+                    <upper>0.4363323129985824</upper>
+                </limit>
+                <use_parent_model_frame>0</use_parent_model_frame>
+            </axis>
+        </joint>
+        <link name="p-fuss-rechts-v12_1">
+            <pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
+            <inertial>
+                <pose frame="">0.02675026910191644 0.02450181123345929 -0.08915632320025703 0 0 0</pose>
+                <mass>1.7645587168315318</mass>
+                <inertia>
+                    <ixx>0.016204885158531204</ixx>
+                    <ixy>-0.001035000607885817</ixy>
+                    <ixz>0.004595180913223517</ixz>
+                    <iyy>0.016967706972707115</iyy>
+                    <iyz>0.003979375577312929</iyz>
+                    <izz>0.0034936743871310234</izz>
+                </inertia>
+            </inertial>
+            <collision name="p-fuss-rechts-v12_1_collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://Roboy_simplified/meshes/p-fuss-rechts-v12_1.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="p-fuss-rechts-v12_1_visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://Roboy_simplified/meshes/p-fuss-rechts-v12_1.stl</uri>
+                        <scale>0.001 0.001 0.001</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+        <joint name="knee_right" type="revolute">
+            <parent>thigh_right</parent>
+            <child>shank_right</child>
+            <pose frame="">0.02961830724073325 0.2777299173992087 -0.1131284781552198 0 0 0</pose>
+            <axis>
+                <xyz>-0.9884587359814523 -0.016021011144104466 0.1506408127429975</xyz>
+                <limit>
+                    <lower>-1.7453292519943295</lower>
+                    <upper>-0.0</upper>
+                </limit>
+                <use_parent_model_frame>0</use_parent_model_frame>
+            </axis>
+        </joint>
+        <joint name="groin_side_right" type="revolute">
+            <parent>p-gelenkhuelse-v01_1</parent>
+            <child>thigh_right</child>
+            <pose frame="">0.019352018908936276 0.53564876958933 -0.07871337959631691 0 0 0</pose>
+            <axis>
+                <xyz>-0.1514725262114454 0.08926811620229273 -0.9844223063466304</xyz>
+                <limit>
+                    <lower>-0.0</lower>
+                    <upper>0.2617993877991494</upper>
+                </limit>
+                <use_parent_model_frame>0</use_parent_model_frame>
+            </axis>
+        </joint>
+        <joint name="spine_3" type="revolute">
+            <parent>vertebrae_2</parent>
+            <child>vertebrae_3</child>
+            <pose frame="">0.09953777537171023 0.6386126354476325 -0.12909881726441746 0 0 0</pose>
+            <axis>
+                <xyz>0.0023240191637347277 -0.9958787730600628 -0.09066459233522313</xyz>
+                <limit>
+                    <lower>-0.3490658503988659</lower>
+                    <upper>0.3490658503988659</upper>
+                </limit>
+                <use_parent_model_frame>0</use_parent_model_frame>
+            </axis>
+        </joint>
+        <joint name="spine_4" type="fixed">
+            <parent>vertebrae_3</parent>
+            <child>spine</child>
+            <pose frame="">0.09944597661474269 0.6779498469835054 -0.12551756586717516 0 0 0</pose>
+        </joint>
+        <joint name="spine_2" type="fixed">
+            <parent>vertebrae_1</parent>
+            <child>vertebrae_2</child>
+            <pose frame="">0.09963770819575085 0.5957898482060504 -0.1329973947348315 0 0 0</pose>
+        </joint>
+        <joint name="elbow_left" type="revolute">
+            <parent>upper_arm_left</parent>
+            <child>lower_arm_left</child>
+            <pose frame="">0.3013497866723606 0.7544735000122675 -0.13183489692338018 0 0 0</pose>
+            <axis>
+                <xyz>0.9908981027543208 0.016281975675806647 -0.1336257730603627</xyz>
+                <limit>
+                    <lower>-0.5235987755982988</lower>
+                    <upper>1.5707963267948966</upper>
+                </limit>
+                <use_parent_model_frame>0</use_parent_model_frame>
+            </axis>
+        </joint>
+        <joint name="shoulder_right" type="fixed">
+            <parent>torso</parent>
+            <child>upper_arm_right</child>
+            <pose frame="">-0.1096197583259901 0.9678249484992216 -0.07246925850796236 0 0 0</pose>
+        </joint>
+        <joint name="shoulder_left" type="fixed">
+            <parent>torso</parent>
+            <child>upper_arm_left</child>
+            <pose frame="">0.3055329107862202 0.9745537731797452 -0.1357383998600214 0 0 0</pose>
+        </joint>
+        <joint name="back" type="fixed">
+            <parent>spine</parent>
+            <child>torso</child>
+            <pose frame="">0.08748027008519327 0.9857812784944989 -0.1215069419703801 0 0 0</pose>
+        </joint>
+        <joint name="elbow_right" type="revolute">
+            <parent>upper_arm_right</parent>
+            <child>lower_arm_right</child>
+            <pose frame="">-0.11454605601691568 0.7477324638499876 -0.06846553624152543 0 0 0</pose>
+            <axis>
+                <xyz>0.9908981027543202 0.016281975675806568 -0.13362577306036263</xyz>
+                <limit>
+                    <lower>-0.5235987755982988</lower>
+                    <upper>1.5707963267948966</upper>
+                </limit>
+                <use_parent_model_frame>0</use_parent_model_frame>
+            </axis>
+        </joint>
+        <joint name="groin_side_left" type="revolute">
+            <parent>p-gelenkhuelse-v01 (1)_1</parent>
+            <child>thigh_left</child>
+            <pose frame="">0.19192546654762693 0.5401885932752505 -0.12415614767878394 0 0 0</pose>
+            <axis>
+                <xyz>0.15147252621144694 -0.08926811620229283 0.9844223063466296</xyz>
+                <limit>
+                    <lower>-0.0</lower>
+                    <upper>0.2617993877991494</upper>
+                </limit>
+                <use_parent_model_frame>0</use_parent_model_frame>
+            </axis>
+        </joint>
+        <joint name="wrist_right" type="revolute">
+            <parent>lower_arm_right</parent>
+            <child>hand_right</child>
+            <pose frame="">-0.12275923409630546 0.7480472300576428 -0.032045148708293995 0 0 0</pose>
+            <axis>
+                <xyz>0.336490139697365 0.018097444280144762 0.9415130739384271</xyz>
+                <limit>
+                    <lower>-3.141592653589793</lower>
+                    <upper>-0.0</upper>
+                </limit>
+                <use_parent_model_frame>0</use_parent_model_frame>
+            </axis>
+        </joint>
+    </model>
+</sdf>
