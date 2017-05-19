@@ -85,12 +85,12 @@
                 <xyz>-1 0 0</xyz>
                 <limit>
                     <!-- Allow the thighs to move about 90 degrees to both directions -->
-                    <lower>-1.57</lower>
-                    <upper>1.57</upper>
+                    <lower>0</lower>
+                    <upper>0</upper>
                 </limit>
                 <dynamics>
                     <spring_reference>0</spring_reference>
-                    <spring_stiffness>10</spring_stiffness>
+                    <spring_stiffness>0</spring_stiffness>
                 </dynamics>
                 <use_parent_model_frame>1</use_parent_model_frame>
             </axis>
@@ -140,7 +140,7 @@
                 <xyz>-0.99647 0.000425 -0.083991</xyz>
                 <limit>
                     <!-- Allow the knee to be straight or about 135 degrees to the backward direction -->
-                    <lower>-2.355</lower>
+                    <lower>-0</lower>
                     <upper>0.0</upper>
                     <effort>0</effort>
                     <velocity>0</velocity>
@@ -197,14 +197,14 @@
                 <xyz>0.99647 -0.000425 0.083991</xyz>
                 <limit>
                     <!-- Allow the foot to rotate 45 degrees to both directions -->
-                    <lower>-0.784</lower>
-                    <upper>0.784</upper>
+                    <lower>-0</lower>
+                    <upper>0</upper>
                     <effort>0</effort>
                     <velocity>0</velocity>
                 </limit>
                 <dynamics>
                     <spring_reference>0</spring_reference>
-                    <spring_stiffness>00</spring_stiffness>
+                    <spring_stiffness>0</spring_stiffness>
                 </dynamics>
                 <use_parent_model_frame>1</use_parent_model_frame>
             </axis>
@@ -258,12 +258,12 @@
                 <xyz>1 0 0</xyz>
                 <limit>
                     <!-- Allow the thighs to move about 90 degrees to both directions -->
-                    <lower>-1.57</lower>
-                    <upper>1.57</upper>
+                    <lower>-0</lower>
+                    <upper>0</upper>
                 </limit>
                 <dynamics>
                     <spring_reference>0</spring_reference>
-                    <spring_stiffness>10</spring_stiffness>
+                    <spring_stiffness>0</spring_stiffness>
                 </dynamics>
                 <use_parent_model_frame>1</use_parent_model_frame>
             </axis>
@@ -313,7 +313,7 @@
                 <xyz>-0.99998 -0.000187 0.005609</xyz>
                 <limit>
                     <!-- Allow the knee to be straight or about 135 degrees to the backward direction -->
-                    <lower>-2.355</lower>
+                    <lower>-0</lower>
                     <upper>0.0</upper>
                     <effort>0</effort>
                     <velocity>0</velocity>
@@ -370,8 +370,8 @@
                 <xyz>0.99998 0.000187 -0.005609</xyz>
                 <limit>
                     <!-- Allow the foot to rotate 45 degrees to both directions -->
-                    <lower>-0.784</lower>
-                    <upper>0.784</upper>
+                    <lower>-0</lower>
+                    <upper>0</upper>
                     <effort>0</effort>
                     <velocity>0</velocity>
                 </limit>
@@ -431,25 +431,13 @@
                 <xyz>0 -0.104534 0.99452</xyz>
                 <limit>
                     <!-- Allow the spine to rotate about 90 degrees to both directions -->
-                    <lower>-1.57</lower>
-                    <upper>1.57</upper>
+                    <lower>-0</lower>
+                    <upper>0</upper>
                 </limit>
                 <dynamics>
                     <spring_reference>0</spring_reference>
                     <spring_stiffness>0</spring_stiffness>
                 </dynamics>
-                <use_parent_model_frame>1</use_parent_model_frame>
-            </axis>
-        </joint>
-        <joint name="world" type="revolute">
-            <child>head</child>
-            <parent>world</parent>
-            <axis>
-                <xyz>0 0 0</xyz>
-                <limit>
-                    <lower>-2</lower>
-                    <upper>2</upper>
-                </limit>
                 <use_parent_model_frame>1</use_parent_model_frame>
             </axis>
         </joint>
@@ -497,9 +485,9 @@
             <axis>
                 <xyz>0.000877 4e-06 -1</xyz>
                 <limit>
-                    <!-- Allow the neck to rotate about 90 degrees to both directions -->
-                    <lower>-1.57</lower>
-                    <upper>1.57</upper>
+                    <!-- Neck has been fixed straight to torso. -->
+                    <lower>-0</lower>
+                    <upper>0</upper>
                 </limit>
                 <dynamics>
                     <spring_reference>0</spring_reference>
@@ -551,9 +539,10 @@
             <parent>torso</parent>
             <axis>
                 <xyz>0.034382 0.221926 0.974461</xyz>
+                <!-- Left shoulder has been fixed. -->
                 <limit>
-                    <lower>-1e+16</lower>
-                    <upper>1e+16</upper>
+                    <lower>-0</lower>
+                    <upper>0</upper>
                 </limit>
                 <dynamics>
                     <spring_reference>0</spring_reference>
@@ -565,15 +554,15 @@
         <link name="unterarm_left">
             <pose frame="">0.276892 -0.229767 0.99127 1.5708 -0 0</pose>
             <inertial>
-                <pose frame="">0.000151419 -0.0464614 0.13841 0 -0 0</pose>
-                <mass>0.248551</mass>
+                <pose frame="">-0.007061 -0.024468 0.025697 0 -0 0</pose>
+                <mass>0.00248551</mass>
                 <inertia>
-                    <ixx>0.00977276</ixx>
-                    <ixy>-0.00015014</ixy>
-                    <ixz>0.000389391</ixz>
-                    <iyy>0.0091178</iyy>
-                    <iyz>0.00257367</iyz>
-                    <izz>0.000991918</izz>
+                    <ixx>5.36943e-07</ixx>
+                    <ixy>-3.31599e-09</ixy>
+                    <ixz>3.844e-09</ixz>
+                    <iyy>5.17762e-07</iyy>
+                    <iyz>1.07198e-07</iyz>
+                    <izz>6.54977e-08</izz>
                 </inertia>
             </inertial>
             <collision name="unterarm_left_collision">
@@ -606,10 +595,9 @@
             <axis>
                 <xyz>-0.99895 0.037106 0.026795</xyz>
                 <limit>
-                    <!-- Allow the elbow to be between straight and 135 degrees to the forward direction.
-                         The elbow's zero position has about 45 degrees offset from being straight. -->
-                    <lower>-0.785</lower>
-                    <upper>1.57</upper>
+                    <!-- L elbow has benn fixed to upper arm -->
+                    <lower>-0</lower>
+                    <upper>0</upper>
                     <effort>0</effort>
                     <velocity>0</velocity>
                 </limit>
@@ -663,9 +651,10 @@
             <parent>torso</parent>
             <axis>
                 <xyz>0.057713 0.209236 0.976161</xyz>
+                <!-- R shoulder has been fixed to the torso -->
                 <limit>
-                    <lower>-1e+16</lower>
-                    <upper>1e+16</upper>
+                    <lower>-0</lower>
+                    <upper>0</upper>
                 </limit>
                 <dynamics>
                     <spring_reference>0</spring_reference>
@@ -718,10 +707,9 @@
             <axis>
                 <xyz>0.99278 -0.11505 -0.034035</xyz>
                 <limit>
-                    <!-- Allow the elbow to be between straight and 135 degrees to the forward direction.
-                         The elbow's zero position has about 45 degrees offset from being straight. -->
-                    <lower>-0.785</lower>
-                    <upper>1.57</upper>
+                    <!-- R elbow has been fixed  -->
+                    <lower>-0</lower>
+                    <upper>0</upper>
                     <effort>0</effort>
                     <velocity>0</velocity>
                 </limit>
@@ -779,7 +767,7 @@
                     <viaPoint type="FIXPOINT">0.025865 -0.317187 0.030588</viaPoint>
                 </link>
                 <link name="shank_left">
-                    <viaPoint type="FIXPOINT">0.003903 -0.042379 0.045603</viaPoint>
+                    <viaPoint type="FIXPOINT">0.002484 -0.041575 -0.001379</viaPoint>
                 </link>
                 <spanningJoint name="knee_left">extensor</spanningJoint>
             </myoMuscle>
@@ -789,7 +777,7 @@
                     <viaPoint type="FIXPOINT">0.026181 -0.317907 -0.035673</viaPoint>
                 </link>
                 <link name="shank_left">
-                    <viaPoint type="FIXPOINT">0.002484 -0.041575 -0.001379</viaPoint>
+                    <viaPoint type="FIXPOINT">0.003903 -0.042379 0.045603</viaPoint>
                 </link>
                 <spanningJoint name="knee_left">flexor</spanningJoint>
             </myoMuscle>
