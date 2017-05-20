@@ -20,6 +20,14 @@ install(DIRECTORY
         plate_with_muscle/
         DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/plate_with_muscle
         )
+install(DIRECTORY
+        Roboy/
+        DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/Roboy
+        )
+install(DIRECTORY
+        Roboy_simplified/
+        DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/Roboy_simplified
+        )
 
 install(FILES
         package.xml
