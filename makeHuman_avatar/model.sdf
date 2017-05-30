@@ -1,0 +1,1481 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+	<model name="human_model">
+		<pose>0 0 1 1.58 0 0</pose>
+		<self_collide>false</self_collide>
+		<link name="Hips">
+			<pose>0.0 0.874246991787 0.0132157193603 0.0 -0.0 0.0</pose>
+			<inertial>
+				<mass>1.0</mass>
+				<pose>0 0 0 0 0 0</pose>
+				<inertia>
+					<ixx>1.0</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>1.0</iyy>
+					<iyz>0.0</iyz>
+					<izz>1.0</izz>
+				</inertia>
+			</inertial>
+			<collision name="Hips_collision1">
+				<pose>4.0898842298781e-05 6.227551004514857e-05 -4.773981416489651e-05 -9.920938515151079e-10 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/collisions/COL_BezierCurve.dae</uri> 
+					</mesh>
+				</geometry>
+			</collision>
+			<collision name="Hips_collision2">
+				<pose>0.0 0.07982063412399043 -0.038716734032582245 -9.920938515151079e-10 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_005.dae</uri> 
+					</mesh>
+				</geometry>
+			</collision>
+			<collision name="Hips_collision3">
+				<pose>-4.0898842298781e-05 6.227551004514857e-05 -4.773981416489651e-05 -9.920938515151079e-10 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_025.dae</uri> 
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="Hips1">
+				<pose>4.0898842298781e-05 6.227551004514857e-05 -4.773981416489651e-05 -9.920952948050399e-10 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/BezierCurve.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+			<visual name="Hips2">
+				<pose>0.0 0.07982063412399043 -0.038716734032582245 -9.920952948050399e-10 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/BezierCurve_005.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+			<visual name="Hips3">
+				<pose>-4.0898842298781e-05 6.227551004514857e-05 -4.773981416489651e-05 -9.920952948050399e-10 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/BezierCurve_025.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="LHipJoint">
+			<pose>4.08988422988e-05 0.874309171353 0.0131679805095 0.0 -0.0 0.0</pose>
+			<inertial>
+				<mass>1.0</mass>
+				<pose>0 0 0 0 0 0</pose>
+				<inertia>
+					<ixx>1.0</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>1.0</iyy>
+					<iyz>0.0</iyz>
+					<izz>1.0</izz>
+				</inertia>
+			</inertial>
+			<collision name="LHipJoint_collision1">
+				<pose>0.101318432410336 -0.008075332761933396 -0.008275742207106085 4.98025121142831e-10 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_001.dae</uri> 
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="LHipJoint1">
+				<pose>0.101318432410336 -0.008075332761933396 -0.008275742207106085 4.980265089216118e-10 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/BezierCurve_001.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="LeftUpLeg">
+			<pose>0.101359331253 0.866233838591 0.00489224053757 0.0 -0.0 0.0</pose>
+			<inertial>
+				<mass>1.0</mass>
+				<pose>0 0 0 0 0 0</pose>
+				<inertia>
+					<ixx>1.0</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>1.0</iyy>
+					<iyz>0.0</iyz>
+					<izz>1.0</izz>
+				</inertia>
+			</inertial>
+			<collision name="LeftUpLeg_collision1">
+				<pose>0.041113961355596196 -0.3910068570227452 0.03251319278051246 1.243083191937444e-09 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_002.dae</uri> 
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="LeftUpLeg1">
+				<pose>0.041113961355596196 -0.3910068570227452 0.03251319278051246 1.2430838580712589e-09 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/BezierCurve_002.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+			<visual name="LeftUpLeg2">
+				<pose>0.0 -9.515814127468817e-08 -1.7716104403244253e-10 1.2430838580712589e-09 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/LeftUpLeg_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="LeftLeg">
+			<pose>0.142473292609 0.475227029252 0.0374054303379 0.0 -0.0 0.0</pose>
+			<inertial>
+				<mass>1.0</mass>
+				<pose>0 0 0 0 0 0</pose>
+				<inertia>
+					<ixx>1.0</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>1.0</iyy>
+					<iyz>0.0</iyz>
+					<izz>1.0</izz>
+				</inertia>
+			</inertial>
+			<collision name="LeftLeg_collision1">
+				<pose>0.038103199572908864 -0.4055328906406892 -0.014725378375133547 -3.9723233591359985e-09 2.3841858265427618e-08 8.470329598760748e-23</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_003.dae</uri> 
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="LeftLeg1">
+				<pose>0.038103199572908864 -0.4055328906406892 -0.014725378375133547 -3.972321138689949e-09 2.3841860041784457e-08 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/BezierCurve_003.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+			<visual name="LeftLeg2">
+				<pose>0.0 1.6002074570727005e-09 -5.429082331329558e-09 -3.972321138689949e-09 2.3841860041784457e-08 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/LeftLeg_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="LeftFoot">
+			<pose>0.180576492182 0.0696940909276 0.0226800534529 0.0 -0.0 0.0</pose>
+			<inertial>
+				<mass>1.0</mass>
+				<pose>0 0 0 0 0 0</pose>
+				<inertia>
+					<ixx>1.0</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>1.0</iyy>
+					<iyz>0.0</iyz>
+					<izz>1.0</izz>
+				</inertia>
+			</inertial>
+			<collision name="LeftFoot_collision1">
+				<pose>0.013958502023793784 -0.04460706181238683 0.1307900567470499 9.313254611953425e-10 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_004.dae</uri> 
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="LeftFoot1">
+				<pose>0.013958502023793784 -0.04460706181238683 0.1307900567470499 9.313225746154785e-10 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/BezierCurve_004.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+			<visual name="LeftFoot2">
+				<pose>0.0 -1.0950674486062642e-08 1.4888293486755899e-09 9.313225746154785e-10 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/LeftFoot_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="LeftToeBase">
+			<pose>0.194534982285 0.0250870499768 0.1534701102 0.0 -0.0 0.0</pose>
+			<inertial>
+				<mass>1.0</mass>
+				<pose>0 0 0 0 0 0</pose>
+				<inertia>
+					<ixx>1.0</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>1.0</iyy>
+					<iyz>0.0</iyz>
+					<izz>1.0</izz>
+				</inertia>
+			</inertial>
+		</link>
+		<link name="LowerBack">
+			<pose>0.0 0.954067530544 -0.0255010146723 0.0 -0.0 0.0</pose>
+			<inertial>
+				<mass>1.0</mass>
+				<pose>0 0 0 0 0 0</pose>
+				<inertia>
+					<ixx>1.0</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>1.0</iyy>
+					<iyz>0.0</iyz>
+					<izz>1.0</izz>
+				</inertia>
+			</inertial>
+			<collision name="LowerBack_collision1">
+				<pose>0.0 0.1412628194877925 0.017108939843012982 4.980194590054055e-10 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_006.dae</uri> 
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="LowerBack1">
+				<pose>0.0 0.1412628194877925 0.017108939843012982 4.980194590054055e-10 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/BezierCurve_006.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+			<visual name="LowerBack2">
+				<pose>0.0 -9.648212115349729e-08 -2.960592881669393e-09 4.980194590054055e-10 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/LowerBack_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="Spine">
+			<pose>0.0 1.0953304454 -0.00839207333917 0.0 -0.0 0.0</pose>
+			<inertial>
+				<mass>1.0</mass>
+				<pose>0 0 0 0 0 0</pose>
+				<inertia>
+					<ixx>1.0</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>1.0</iyy>
+					<iyz>0.0</iyz>
+					<izz>1.0</izz>
+				</inertia>
+			</inertial>
+			<collision name="Spine_collision">
+				<pose>0.0 0.12902202798458973 -0.025047067180977267 -2.4703580847607043e-10 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_007.dae</uri> 
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="Spine1">
+				<pose>0.0 0.12902202798458973 -0.025047067180977267 -2.4703439294171403e-10 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/BezierCurve_007.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+			<visual name="Spine2">
+				<pose>0.0 -3.6682692985786373e-10 -1.9470008118329686e-10 -2.4703439294171403e-10 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/Spine_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="Spine1">
+			<pose>0.0 1.22435247338 -0.0334391375399 0.0 -0.0 0.0</pose>
+			<inertial>
+				<mass>1.0</mass>
+				<pose>0 0 0 0 0 0</pose>
+				<inertia>
+					<ixx>1.0</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>1.0</iyy>
+					<iyz>0.0</iyz>
+					<izz>1.0</izz>
+				</inertia>
+			</inertial>
+			<collision name="Spine1_collision1">
+				<pose>0.022767527740709892 0.10387725984867302 0.04022380173539819 1.988138320641042e-09 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_008.dae</uri> 
+					</mesh>
+				</geometry>
+			</collision>
+			<collision name="Spine1_collision">
+				<pose>0.0 0.17499389909198726 0.023713125641839583 1.988138320641042e-09 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_015.dae</uri> 
+					</mesh>
+				</geometry>
+			</collision>
+			<collision name="Spine1_collision3">
+				<pose>-0.022767527740709892 0.10387725984867302 0.04022380173539819 1.988138320641042e-09 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_018.dae</uri> 
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="Spine11">
+				<pose>0.022767527740709892 0.10387725984867302 0.04022380173539819 1.988141207220906e-09 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/BezierCurve_008.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+			<visual name="Spine12">
+				<pose>0.0 0.17499389909198726 0.023713125641839583 1.988141207220906e-09 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/BezierCurve_015.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+			<visual name="Spine13">
+				<pose>-0.022767527740709892 0.10387725984867302 0.04022380173539819 1.988141207220906e-09 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/BezierCurve_018.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+			<visual name="Spine14">
+				<pose>0.0 -9.68291047560779e-08 -2.8541933686602565e-09 1.988141207220906e-09 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/Spine1_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="LeftShoulder">
+			<pose>0.0227675277407 1.32822973323 0.0067846641955 0.0 -0.0 0.0</pose>
+			<inertial>
+				<mass>1.0</mass>
+				<pose>0 0 0 0 0 0</pose>
+				<inertia>
+					<ixx>1.0</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>1.0</iyy>
+					<iyz>0.0</iyz>
+					<izz>1.0</izz>
+				</inertia>
+			</inertial>
+			<collision name="LeftShoulder_collision1">
+				<pose>0.1472653291712005 -0.0226767543357127 -0.002212353828733471 1.254932130434483e-10 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_009.dae</uri> 
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="LeftShoulder1">
+				<pose>0.1472653291712005 -0.0226767543357127 -0.002212353828733471 1.254925052762701e-10 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/BezierCurve_009.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+			<visual name="LeftShoulder2">
+				<pose>-1.4901161415892261e-09 9.566400791969416e-08 5.5763394733391984e-11 1.254925052762701e-10 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/LeftShoulder_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="LeftArm">
+			<pose>0.170032856912 1.30555297889 0.00457231036677 0.0 -0.0 0.0</pose>
+			<inertial>
+				<mass>1.0</mass>
+				<pose>0 0 0 0 0 0</pose>
+				<inertia>
+					<ixx>1.0</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>1.0</iyy>
+					<iyz>0.0</iyz>
+					<izz>1.0</izz>
+				</inertia>
+			</inertial>
+			<collision name="LeftArm_collision1">
+				<pose>0.16132252456728402 -0.18058624536672596 0.0007237784672346481 1.254932130434483e-10 -2.980232505223057e-09 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_010.dae</uri> 
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="LeftArm1">
+				<pose>0.16132252456728402 -0.18058624536672596 0.0007237784672346481 1.254925052762701e-10 -2.980232949312267e-09 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/BezierCurve_010.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+			<visual name="LeftArm2">
+				<pose>-1.1920929132713809e-08 -2.8590243772143865e-07 -7.057678990925534e-11 1.254925052762701e-10 -2.980232949312267e-09 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/LeftArm_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="LeftForeArm">
+			<pose>0.331355405321 1.12496692426 0.00529608846148 0.0 -0.0 0.0</pose>
+			<inertial>
+				<mass>1.0</mass>
+				<pose>0 0 0 0 0 0</pose>
+				<inertia>
+					<ixx>1.0</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>1.0</iyy>
+					<iyz>0.0</iyz>
+					<izz>1.0</izz>
+				</inertia>
+			</inertial>
+			<collision name="LeftForeArm_collision1">
+				<pose>0.1219484585813948 -0.12415675109858437 0.1632420325762336 1.254932130434483e-10 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_011.dae</uri> 
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="LeftForeArm1">
+				<pose>0.1219484585813948 -0.12415675109858437 0.1632420325762336 1.254925052762701e-10 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/BezierCurve_011.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+			<visual name="LeftForeArm2">
+				<pose>-2.3841858265427618e-08 9.559893357281262e-08 -3.410605182470458e-14 1.254925052762701e-10 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/LeftForeArm_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="LeftHand">
+			<pose>0.453303911586 1.00081016124 0.168538121038 0.0 -0.0 0.0</pose>
+			<inertial>
+				<mass>1.0</mass>
+				<pose>0 0 0 0 0 0</pose>
+				<inertia>
+					<ixx>1.0</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>1.0</iyy>
+					<iyz>0.0</iyz>
+					<izz>1.0</izz>
+				</inertia>
+			</inertial>
+			<collision name="LeftHand_collision1">
+				<pose>0.0011217594313883694 -0.007652464623040922 0.04383967286109436 -3.972326023671258e-09 -2.3841858265427618e-08 -2.980233659855003e-08</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_012.dae</uri> 
+					</mesh>
+				</geometry>
+			</collision>
+			<collision name="LeftHand_collision2">
+				<pose>0.010663080374346379 -0.015765467521033694 0.026028734833430267 -3.972326023671258e-09 -2.3841858265427618e-08 -2.980233659855003e-08</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_013.dae</uri> 
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="LeftHand1">
+				<pose>0.0011217594313883694 -0.007652464623040922 0.04383967286109436 -3.972328244117307e-09 -2.3841861818141297e-08 -2.980233304583635e-08</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/BezierCurve_012.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+			<visual name="LeftHand2">
+				<pose>0.010663080374346379 -0.015765467521033694 0.026028734833430267 -3.972328244117307e-09 -2.3841861818141297e-08 -2.980233304583635e-08</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/BezierCurve_013.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+			<visual name="LeftHand3">
+				<pose>0.0 7.367037934001517e-09 2.777877382880199e-08 -3.972328244117307e-09 -2.3841860041784457e-08 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/LeftHand_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="LThumb">
+			<pose>0.454425671017 0.993157687676 0.212377790919 0.0 -0.0 0.0</pose>
+			<inertial>
+				<mass>1.0</mass>
+				<pose>0 0 0 0 0 0</pose>
+				<inertia>
+					<ixx>1.0</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>1.0</iyy>
+					<iyz>0.0</iyz>
+					<izz>1.0</izz>
+				</inertia>
+			</inertial>
+		</link>
+		<link name="LeftFingerBase">
+			<pose>0.46396699196 0.985044684778 0.19456683799 0.0 -0.0 0.0</pose>
+			<inertial>
+				<mass>1.0</mass>
+				<pose>0 0 0 0 0 0</pose>
+				<inertia>
+					<ixx>1.0</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>1.0</iyy>
+					<iyz>0.0</iyz>
+					<izz>1.0</izz>
+				</inertia>
+			</inertial>
+			<collision name="LeftFingerBase_collision1">
+				<pose>0.017114945011063587 -0.024840616059908505 0.06827558976822479 -3.9723264677604675e-09 4.7683720083568915e-08 2.980233304583635e-08</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_014.dae</uri> 
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="LeftFingerBase1">
+				<pose>0.017114945011063587 -0.024840616059908505 0.06827558976822479 -3.972328688206517e-09 4.768372718899627e-08 2.980233659855003e-08</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/BezierCurve_014.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+			<visual name="LeftFingerBase2">
+				<pose>-2.9356616420026327e-08 -7.303535307674902e-08 -1.9215807187567207e-08 -3.972328688206517e-09 4.7683723636282593e-08 -2.980233659855003e-08</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/LeftFingerBase_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="LeftHandFinger1">
+			<pose>0.4810819176 0.960204043386 0.262842469481 0.0 -0.0 0.0</pose>
+			<inertial>
+				<mass>1.0</mass>
+				<pose>0 0 0 0 0 0</pose>
+				<inertia>
+					<ixx>1.0</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>1.0</iyy>
+					<iyz>0.0</iyz>
+					<izz>1.0</izz>
+				</inertia>
+			</inertial>
+		</link>
+		<link name="Neck">
+			<pose>0.0 1.39934646784 -0.00972601040794 0.0 -0.0 0.0</pose>
+			<inertial>
+				<mass>1.0</mass>
+				<pose>0 0 0 0 0 0</pose>
+				<inertia>
+					<ixx>1.0</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>1.0</iyy>
+					<iyz>0.0</iyz>
+					<izz>1.0</izz>
+				</inertia>
+			</inertial>
+			<collision name="Neck_collision1">
+				<pose>0.0 0.0504392631417403 0.01958704321961169 -2.4703580847607043e-10 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_016.dae</uri> 
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="Neck1">
+				<pose>0.0 0.0504392631417403 0.01958704321961169 -2.4703439294171403e-10 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/BezierCurve_016.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+			<visual name="Neck2">
+				<pose>0.0 -4.2513477816592795e-10 -7.261178433479605e-11 -2.4703439294171403e-10 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/Neck_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="Neck1">
+			<pose>0.0 1.44978573098 0.00986103281167 0.0 -0.0 0.0</pose>
+			<inertial>
+				<mass>1.0</mass>
+				<pose>0 0 0 0 0 0</pose>
+				<inertia>
+					<ixx>1.0</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>1.0</iyy>
+					<iyz>0.0</iyz>
+					<izz>1.0</izz>
+				</inertia>
+			</inertial>
+			<collision name="Neck1_collision1">
+				<pose>0.0 0.0504751212965715 0.019639218146193294 -2.4703583623164604e-10 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_017.dae</uri> 
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="Neck11">
+				<pose>0.0 0.0504751212965715 0.019639218146193294 -2.4703797341096845e-10 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/BezierCurve_017.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+			<visual name="Neck12">
+				<pose>0.0 4.310422305590653e-10 -4.2206239133071914e-11 -2.4703797341096845e-10 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/Neck1_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="Head">
+			<pose>0.0 1.50026085228 0.0295002509579 0.0 -0.0 0.0</pose>
+			<inertial>
+				<mass>1.0</mass>
+				<pose>0 0 0 0 0 0</pose>
+				<inertia>
+					<ixx>1.0</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>1.0</iyy>
+					<iyz>0.0</iyz>
+					<izz>1.0</izz>
+				</inertia>
+			</inertial>
+		</link>
+		<link name="RightShoulder">
+			<pose>-0.0227675277407 1.32822973323 0.0067846641955 0.0 -0.0 0.0</pose>
+			<inertial>
+				<mass>1.0</mass>
+				<pose>0 0 0 0 0 0</pose>
+				<inertia>
+					<ixx>1.0</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>1.0</iyy>
+					<iyz>0.0</iyz>
+					<izz>1.0</izz>
+				</inertia>
+			</inertial>
+			<collision name="RightShoulder_collision1">
+				<pose>-0.1472653291712005 -0.0226767543357127 -0.002212353828733471 1.254932130434483e-10 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_019.dae</uri> 
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="RightShoulder1">
+				<pose>-0.1472653291712005 -0.0226767543357127 -0.002212353828733471 1.254925052762701e-10 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/BezierCurve_019.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+			<visual name="RightShoulder2">
+				<pose>1.4901161415892261e-09 9.566400791969416e-08 5.5763394733391984e-11 1.254925052762701e-10 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/RightShoulder_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="RightArm">
+			<pose>-0.170032856912 1.30555297889 0.00457231036677 0.0 -0.0 0.0</pose>
+			<inertial>
+				<mass>1.0</mass>
+				<pose>0 0 0 0 0 0</pose>
+				<inertia>
+					<ixx>1.0</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>1.0</iyy>
+					<iyz>0.0</iyz>
+					<izz>1.0</izz>
+				</inertia>
+			</inertial>
+			<collision name="RightArm_collision1">
+				<pose>-0.16132252456728402 -0.18058624536672596 0.0007237784672346481 1.254932130434483e-10 2.980232505223057e-09 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_020.dae</uri> 
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="RightArm1">
+				<pose>-0.16132252456728402 -0.18058624536672596 0.0007237784672346481 1.254925052762701e-10 2.980232949312267e-09 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/BezierCurve_020.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+			<visual name="RightArm2">
+				<pose>1.1920929132713809e-08 -2.8590243772143865e-07 -7.057678990925534e-11 1.254925052762701e-10 2.980232949312267e-09 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/RightArm_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="RightForeArm">
+			<pose>-0.331355405321 1.12496692426 0.00529608846148 0.0 -0.0 0.0</pose>
+			<inertial>
+				<mass>1.0</mass>
+				<pose>0 0 0 0 0 0</pose>
+				<inertia>
+					<ixx>1.0</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>1.0</iyy>
+					<iyz>0.0</iyz>
+					<izz>1.0</izz>
+				</inertia>
+			</inertial>
+			<collision name="RightForeArm_collision1">
+				<pose>-0.1219484585813948 -0.12415675109858437 0.1632420325762336 1.254932130434483e-10 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_021.dae</uri> 
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="RightForeArm1">
+				<pose>-0.1219484585813948 -0.12415675109858437 0.1632420325762336 1.254925052762701e-10 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/BezierCurve_021.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+			<visual name="RightForeArm2">
+				<pose>2.3841858265427618e-08 9.559893357281262e-08 -3.410605182470458e-14 1.254925052762701e-10 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/RightForeArm_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="RightHand">
+			<pose>-0.453303911586 1.00081016124 0.168538121038 0.0 -0.0 0.0</pose>
+			<inertial>
+				<mass>1.0</mass>
+				<pose>0 0 0 0 0 0</pose>
+				<inertia>
+					<ixx>1.0</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>1.0</iyy>
+					<iyz>0.0</iyz>
+					<izz>1.0</izz>
+				</inertia>
+			</inertial>
+			<collision name="RightHand_collision1">
+				<pose>-0.0010897636575961656 -0.007653418297371539 0.043807414826861235 -3.972326023671258e-09 2.3841858265427618e-08 2.980233659855003e-08</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_022.dae</uri> 
+					</mesh>
+				</geometry>
+			</collision>
+			<collision name="RightHand_collision2">
+				<pose>-0.010663080374346379 -0.015765467521033694 0.026028734833430267 -3.972326023671258e-09 2.3841858265427618e-08 2.980233659855003e-08</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_023.dae</uri>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="RightHand1">
+				<pose>-0.0010897636575961656 -0.007653418297371539 0.043807414826861235 -3.972328244117307e-09 2.3841861818141297e-08 2.980233304583635e-08</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/BezierCurve_022.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+			<visual name="RightHand2">
+				<pose>-0.010663080374346379 -0.015765467521033694 0.026028734833430267 -3.972328244117307e-09 2.3841861818141297e-08 2.980233304583635e-08</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/BezierCurve_023.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+			<visual name="RightHand3">
+				<pose>0.0 7.367037934001517e-09 2.777877382880199e-08 -3.972328244117307e-09 2.3841860041784457e-08 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/RightHand_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="RThumb">
+			<pose>-0.454393675244 0.993156734002 0.212345532885 0.0 -0.0 0.0</pose>
+			<inertial>
+				<mass>1.0</mass>
+				<pose>0 0 0 0 0 0</pose>
+				<inertia>
+					<ixx>1.0</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>1.0</iyy>
+					<iyz>0.0</iyz>
+					<izz>1.0</izz>
+				</inertia>
+			</inertial>
+		</link>
+		<link name="RightFingerBase">
+			<pose>-0.46396699196 0.985044684778 0.19456683799 0.0 -0.0 0.0</pose>
+			<inertial>
+				<mass>1.0</mass>
+				<pose>0 0 0 0 0 0</pose>
+				<inertia>
+					<ixx>1.0</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>1.0</iyy>
+					<iyz>0.0</iyz>
+					<izz>1.0</izz>
+				</inertia>
+			</inertial>
+			<collision name="RightFingerBase_collision1">
+				<pose>-0.017114945011063587 -0.024840616059908505 0.06827558976822479 -3.9723264677604675e-09 -4.7683720083568915e-08 -2.980233304583635e-08</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_024.dae</uri> 
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="RightFingerBase2">
+				<pose>-0.017114945011063587 -0.024840616059908505 0.06827558976822479 -3.972328688206517e-09 -4.768372718899627e-08 -2.980233659855003e-08</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/BezierCurve_024.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+			<visual name="RightFingerBase3">
+				<pose>2.9356616420026327e-08 -7.303535307674902e-08 -1.9215807187567207e-08 -3.972328688206517e-09 -4.7683723636282593e-08 2.980233659855003e-08</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/RightFingerBase_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="RightHandFinger1">
+			<pose>-0.4810819176 0.960204043386 0.262842469481 0.0 -0.0 0.0</pose>
+			<inertial>
+				<mass>1.0</mass>
+				<pose>0 0 0 0 0 0</pose>
+				<inertia>
+					<ixx>1.0</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>1.0</iyy>
+					<iyz>0.0</iyz>
+					<izz>1.0</izz>
+				</inertia>
+			</inertial>
+		</link>
+		<link name="RHipJoint">
+			<pose>-4.08988422988e-05 0.874309171353 0.0131679805095 0.0 -0.0 0.0</pose>
+			<inertial>
+				<mass>1.0</mass>
+				<pose>0 0 0 0 0 0</pose>
+				<inertia>
+					<ixx>1.0</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>1.0</iyy>
+					<iyz>0.0</iyz>
+					<izz>1.0</izz>
+				</inertia>
+			</inertial>
+			<collision name="RHipJoint_collision1">
+				<pose>-0.101318432410336 -0.008075332761933396 -0.008275742207106085 4.98025121142831e-10 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_026.dae</uri> 
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="RHipJoint2">
+				<pose>-0.101318432410336 -0.008075332761933396 -0.008275742207106085 4.980265089216118e-10 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/BezierCurve_026.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="RightUpLeg">
+			<pose>-0.101359331253 0.866233838591 0.00489224053757 0.0 -0.0 0.0</pose>
+			<inertial>
+				<mass>1.0</mass>
+				<pose>0 0 0 0 0 0</pose>
+				<inertia>
+					<ixx>1.0</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>1.0</iyy>
+					<iyz>0.0</iyz>
+					<izz>1.0</izz>
+				</inertia>
+			</inertial>
+			<collision name="RightUpLeg_collision1">
+				<pose>-0.041113961355596196 -0.3910068570227452 0.03251319278051246 1.243083191937444e-09 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_027.dae</uri> 
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="RightUpLeg1">
+				<pose>-0.041113961355596196 -0.3910068570227452 0.03251319278051246 1.2430838580712589e-09 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/BezierCurve_027.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+			<visual name="RightUpLeg2">
+				<pose>0.0 -9.515814127468817e-08 -1.7716104403244253e-10 1.2430838580712589e-09 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/RightUpLeg_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="RightLeg">
+			<pose>-0.142473292609 0.475227029252 0.0374054303379 0.0 -0.0 0.0</pose>
+			<inertial>
+				<mass>1.0</mass>
+				<pose>0 0 0 0 0 0</pose>
+				<inertia>
+					<ixx>1.0</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>1.0</iyy>
+					<iyz>0.0</iyz>
+					<izz>1.0</izz>
+				</inertia>
+			</inertial>
+			<collision name="RightLeg_collision1">
+				<pose>-0.038103199572908864 -0.4055328906406892 -0.014725378375133547 -3.9723233591359985e-09 -2.3841858265427618e-08 -8.470329598760748e-23</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_028.dae</uri> 
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="RightLeg1">
+				<pose>-0.038103199572908864 -0.4055328906406892 -0.014725378375133547 -3.972321138689949e-09 -2.3841860041784457e-08 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/BezierCurve_028.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+			<visual name="RightLeg2">
+				<pose>0.0 1.6002074570727005e-09 -5.429082331329558e-09 -3.972321138689949e-09 -2.3841860041784457e-08 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/RightLeg_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="RightFoot">
+			<pose>-0.180576492182 0.0696940909276 0.0226800534529 0.0 -0.0 0.0</pose>
+			<inertial>
+				<mass>1.0</mass>
+				<pose>0 0 0 0 0 0</pose>
+				<inertia>
+					<ixx>1.0</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>1.0</iyy>
+					<iyz>0.0</iyz>
+					<izz>1.0</izz>
+				</inertia>
+			</inertial>
+			<collision name="RightFoot_collision1">
+				<pose>-0.013958502023793784 -0.04460706181238683 0.1307900567470499 9.313254611953425e-10 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_029.dae</uri> 
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="RightFoot1">
+				<pose>-0.013958502023793784 -0.04460706181238683 0.1307900567470499 9.313225746154785e-10 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/BezierCurve_029.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+			<visual name="RightFoot2">
+				<pose>0.0 -1.0950674486062642e-08 1.4888293486755899e-09 9.313225746154785e-10 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://sdf4/meshes/visual/RightFoot_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="RightToeBase">
+			<pose>-0.194534982285 0.0250870499768 0.1534701102 0.0 -0.0 0.0</pose>
+			<inertial>
+				<mass>1.0</mass>
+				<pose>0 0 0 0 0 0</pose>
+				<inertia>
+					<ixx>1.0</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>1.0</iyy>
+					<iyz>0.0</iyz>
+					<izz>1.0</izz>
+				</inertia>
+			</inertial>
+		</link>
+
+		<joint name="LHipJoint" type="revolute">
+			<parent>Hips</parent>
+			<child>LHipJoint</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<use_parent_model_frame>true</use_parent_model_frame>
+				<limit>
+					<lower>-1.5707963267948966</lower>
+					<upper>1.5707963267948966</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="LeftUpLeg" type="ball">
+			<parent>LHipJoint</parent>
+			<child>LeftUpLeg</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<use_parent_model_frame>true</use_parent_model_frame>
+				<limit>
+					<lower>-1.5707963267948966</lower>
+					<upper>1.5707963267948966</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="LeftLeg" type="revolute">
+			<parent>LeftUpLeg</parent>
+			<child>LeftLeg</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<use_parent_model_frame>true</use_parent_model_frame>
+				<limit>
+					<lower>-1.5707963267948966</lower>
+					<upper>1.5707963267948966</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="LeftFoot" type="revolute">
+			<parent>LeftLeg</parent>
+			<child>LeftFoot</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<use_parent_model_frame>true</use_parent_model_frame>
+				<limit>
+					<lower>-1.5707963267948966</lower>
+					<upper>1.5707963267948966</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="LeftToeBase" type="revolute">
+			<parent>LeftFoot</parent>
+			<child>LeftToeBase</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<use_parent_model_frame>true</use_parent_model_frame>
+				<limit>
+					<lower>-1.5707963267948966</lower>
+					<upper>1.5707963267948966</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="LowerBack" type="revolute">
+			<parent>Hips</parent>
+			<child>LowerBack</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<use_parent_model_frame>true</use_parent_model_frame>
+				<limit>
+					<lower>-1.5707963267948966</lower>
+					<upper>1.5707963267948966</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="Spine" type="revolute">
+			<parent>LowerBack</parent>
+			<child>Spine</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<use_parent_model_frame>true</use_parent_model_frame>
+				<limit>
+					<lower>-1.5707963267948966</lower>
+					<upper>1.5707963267948966</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="Spine1" type="revolute">
+			<parent>Spine</parent>
+			<child>Spine1</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<use_parent_model_frame>true</use_parent_model_frame>
+				<limit>
+					<lower>-1.5707963267948966</lower>
+					<upper>1.5707963267948966</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="LeftShoulder" type="revolute">
+			<parent>Spine1</parent>
+			<child>LeftShoulder</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<use_parent_model_frame>true</use_parent_model_frame>
+				<limit>
+					<lower>-1.5707963267948966</lower>
+					<upper>1.5707963267948966</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="LeftArm" type="ball">
+			<parent>LeftShoulder</parent>
+			<child>LeftArm</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<use_parent_model_frame>true</use_parent_model_frame>
+				<limit>
+					<lower>-1.5707963267948966</lower>
+					<upper>1.5707963267948966</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="LeftForeArm" type="revolute">
+			<parent>LeftArm</parent>
+			<child>LeftForeArm</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<use_parent_model_frame>true</use_parent_model_frame>
+				<limit>
+					<lower>-1.5707963267948966</lower>
+					<upper>1.5707963267948966</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="LeftHand" type="revolute">
+			<parent>LeftForeArm</parent>
+			<child>LeftHand</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<use_parent_model_frame>true</use_parent_model_frame>
+				<limit>
+					<lower>-1.5707963267948966</lower>
+					<upper>1.5707963267948966</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="LThumb" type="revolute">
+			<parent>LeftHand</parent>
+			<child>LThumb</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<use_parent_model_frame>true</use_parent_model_frame>
+				<limit>
+					<lower>-1.5707963267948966</lower>
+					<upper>1.5707963267948966</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="LeftFingerBase" type="revolute">
+			<parent>LeftHand</parent>
+			<child>LeftFingerBase</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<use_parent_model_frame>true</use_parent_model_frame>
+				<limit>
+					<lower>-1.5707963267948966</lower>
+					<upper>1.5707963267948966</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="LeftHandFinger1" type="revolute">
+			<parent>LeftFingerBase</parent>
+			<child>LeftHandFinger1</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<use_parent_model_frame>true</use_parent_model_frame>
+				<limit>
+					<lower>-1.5707963267948966</lower>
+					<upper>1.5707963267948966</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="Neck" type="ball">
+			<parent>Spine1</parent>
+			<child>Neck</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<use_parent_model_frame>true</use_parent_model_frame>
+				<limit>
+					<lower>-1.5707963267948966</lower>
+					<upper>1.5707963267948966</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="Neck1" type="revolute">
+			<parent>Neck</parent>
+			<child>Neck1</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<use_parent_model_frame>true</use_parent_model_frame>
+				<limit>
+					<lower>-1.5707963267948966</lower>
+					<upper>1.5707963267948966</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="Head" type="revolute">
+			<parent>Neck1</parent>
+			<child>Head</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<use_parent_model_frame>true</use_parent_model_frame>
+				<limit>
+					<lower>-1.5707963267948966</lower>
+					<upper>1.5707963267948966</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="RightShoulder" type="revolute">
+			<parent>Spine1</parent>
+			<child>RightShoulder</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<use_parent_model_frame>true</use_parent_model_frame>
+				<limit>
+					<lower>-1.5707963267948966</lower>
+					<upper>1.5707963267948966</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="RightArm" type="ball">
+			<parent>RightShoulder</parent>
+			<child>RightArm</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<use_parent_model_frame>true</use_parent_model_frame>
+				<limit>
+					<lower>-1.5707963267948966</lower>
+					<upper>1.5707963267948966</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="RightForeArm" type="revolute">
+			<parent>RightArm</parent>
+			<child>RightForeArm</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<use_parent_model_frame>true</use_parent_model_frame>
+				<limit>
+					<lower>-1.5707963267948966</lower>
+					<upper>1.5707963267948966</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="RightHand" type="revolute">
+			<parent>RightForeArm</parent>
+			<child>RightHand</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<use_parent_model_frame>true</use_parent_model_frame>
+				<limit>
+					<lower>-1.5707963267948966</lower>
+					<upper>1.5707963267948966</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="RThumb" type="revolute">
+			<parent>RightHand</parent>
+			<child>RThumb</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<use_parent_model_frame>true</use_parent_model_frame>
+				<limit>
+					<lower>-1.5707963267948966</lower>
+					<upper>1.5707963267948966</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="RightFingerBase" type="revolute">
+			<parent>RightHand</parent>
+			<child>RightFingerBase</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<use_parent_model_frame>true</use_parent_model_frame>
+				<limit>
+					<lower>-1.5707963267948966</lower>
+					<upper>1.5707963267948966</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="RightHandFinger1" type="revolute">
+			<parent>RightFingerBase</parent>
+			<child>RightHandFinger1</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<use_parent_model_frame>true</use_parent_model_frame>
+				<limit>
+					<lower>-1.5707963267948966</lower>
+					<upper>1.5707963267948966</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="RHipJoint" type="revolute">
+			<parent>Hips</parent>
+			<child>RHipJoint</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<use_parent_model_frame>true</use_parent_model_frame>
+				<limit>
+					<lower>-1.5707963267948966</lower>
+					<upper>1.5707963267948966</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="RightUpLeg" type="ball">
+			<parent>RHipJoint</parent>
+			<child>RightUpLeg</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<use_parent_model_frame>true</use_parent_model_frame>
+				<limit>
+					<lower>-1.5707963267948966</lower>
+					<upper>1.5707963267948966</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="RightLeg" type="revolute">
+			<parent>RightUpLeg</parent>
+			<child>RightLeg</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<use_parent_model_frame>true</use_parent_model_frame>
+				<limit>
+					<lower>-1.5707963267948966</lower>
+					<upper>1.5707963267948966</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="RightFoot" type="revolute">
+			<parent>RightLeg</parent>
+			<child>RightFoot</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<use_parent_model_frame>true</use_parent_model_frame>
+				<limit>
+					<lower>-1.5707963267948966</lower>
+					<upper>1.5707963267948966</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="RightToeBase" type="revolute">
+			<parent>RightFoot</parent>
+			<child>RightToeBase</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<use_parent_model_frame>true</use_parent_model_frame>
+				<limit>
+					<lower>-1.5707963267948966</lower>
+					<upper>1.5707963267948966</upper>
+				</limit>
+			</axis>
+		</joint>
+	</model>
+</sdf>
