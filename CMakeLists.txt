@@ -28,6 +28,10 @@ install(DIRECTORY
         Roboy_simplified/
         DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/Roboy_simplified
         )
+install(DIRECTORY
+        makeHuman_avatar/
+        DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/makeHuman_avatar
+        )
 
 install(FILES
         package.xml
