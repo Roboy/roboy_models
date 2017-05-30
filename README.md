@@ -31,15 +31,17 @@ Description:
 - Add a proper description into the model.config file, that especially describes the purpose and usage of the model as well as applied modification techniques. Also add your author name to allow further questions and a thumbnail file thats shows the robot.
 
 Folder Structure:
-- /model_name
-	model.sdf
-	model.config
-	thumbnail.png
-	/ meshes
-	   /visual
-	      - VIS_linkX.dae
-	   /collision
-	      - COL_linkX.dae
+- /model_name<br />
+	model.sdf<br />
+	model.config<br />
+	thumbnail.png<br />
+	/meshes<br />
+	   /visual<br />
+	      - VIS_linkX.dae<br />
+	      - ...<br />
+	   /collision<br />
+	      - COL_linkX.dae<br />
+	      - ...<br />
 
 
 
