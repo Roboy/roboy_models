@@ -17,7 +17,7 @@
 			<collision name="static_link_collision">
 				<geometry>
 					<mesh>
-						<uri>model://myo_arm_small/meshes/static_link.stl</uri>
+						<uri>model://myo_arm_small/meshes/reduced_polygones/static_link.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -25,7 +25,7 @@
 			<visual name="static_link_visual">
 				<geometry>
 					<mesh>
-						<uri>model://myo_arm_small/meshes/static_link.stl</uri>
+						<uri>model://myo_arm_small/meshes/reduced_polygones/static_link.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -48,7 +48,7 @@
 			<collision name="moving_link_collision">
 				<geometry>
 					<mesh>
-						<uri>model://myo_arm_small/meshes/moving_link.stl</uri>
+						<uri>model://myo_arm_small/meshes/reduced_polygones/moving_link.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -56,7 +56,7 @@
 			<visual name="moving_link_visual">
 				<geometry>
 					<mesh>
-						<uri>model://myo_arm_small/meshes/moving_link.stl</uri>
+						<uri>model://myo_arm_small/meshes/reduced_polygones/moving_link.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
