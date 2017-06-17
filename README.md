@@ -27,8 +27,12 @@ For example the model of the left hand should not contain in addition the lower 
 Model Size:
 - Due to simulation performance try to decrease the model size as much as possible, e.g. by using Blender's Polygon reduction tools
 
+Collisions:
+- there must be collision meshes for every model in the collision subfolder
+
 Description:
 - Add a proper description into the model.config file, that especially describes the purpose and usage of the model as well as applied modification techniques. Also add your author name to allow further questions and a thumbnail file thats shows the robot.
+- The despriction must contain: Are the collision models equal to the visual meshes or a simplified version (how?)? What details have been neglected for simplification? etc..
 
 Folder Structure:
 - /model_name

@@ -21,7 +21,7 @@
 				<pose>4.0898842298781e-05 6.227551004514857e-05 -4.773981416489651e-05 -9.920938515151079e-10 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/collisions/COL_BezierCurve.dae</uri> 
+						<uri>model://makeHuman_avatar/meshes/collisions/COL_BezierCurve.dae</uri> 
 					</mesh>
 				</geometry>
 			</collision>
@@ -29,7 +29,7 @@
 				<pose>0.0 0.07982063412399043 -0.038716734032582245 -9.920938515151079e-10 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_005.dae</uri> 
+						<uri>model://makeHuman_avatar/meshes/collisions/COL_BezierCurve_005.dae</uri> 
 					</mesh>
 				</geometry>
 			</collision>
@@ -37,7 +37,7 @@
 				<pose>-4.0898842298781e-05 6.227551004514857e-05 -4.773981416489651e-05 -9.920938515151079e-10 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_025.dae</uri> 
+						<uri>model://makeHuman_avatar/meshes/collisions/COL_BezierCurve_025.dae</uri> 
 					</mesh>
 				</geometry>
 			</collision>
@@ -45,7 +45,7 @@
 				<pose>4.0898842298781e-05 6.227551004514857e-05 -4.773981416489651e-05 -9.920952948050399e-10 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/BezierCurve.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/BezierCurve.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -53,7 +53,7 @@
 				<pose>0.0 0.07982063412399043 -0.038716734032582245 -9.920952948050399e-10 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/BezierCurve_005.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/BezierCurve_005.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -61,7 +61,7 @@
 				<pose>-4.0898842298781e-05 6.227551004514857e-05 -4.773981416489651e-05 -9.920952948050399e-10 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/BezierCurve_025.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/BezierCurve_025.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -84,7 +84,7 @@
 				<pose>0.101318432410336 -0.008075332761933396 -0.008275742207106085 4.98025121142831e-10 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_001.dae</uri> 
+						<uri>model://makeHuman_avatar/meshes/collisions/COL_BezierCurve_001.dae</uri> 
 					</mesh>
 				</geometry>
 			</collision>
@@ -92,7 +92,7 @@
 				<pose>0.101318432410336 -0.008075332761933396 -0.008275742207106085 4.980265089216118e-10 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/BezierCurve_001.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/BezierCurve_001.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -115,7 +115,7 @@
 				<pose>0.041113961355596196 -0.3910068570227452 0.03251319278051246 1.243083191937444e-09 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_002.dae</uri> 
+						<uri>model://makeHuman_avatar/meshes/collisions/COL_BezierCurve_002.dae</uri> 
 					</mesh>
 				</geometry>
 			</collision>
@@ -123,7 +123,7 @@
 				<pose>0.041113961355596196 -0.3910068570227452 0.03251319278051246 1.2430838580712589e-09 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/BezierCurve_002.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/BezierCurve_002.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -131,7 +131,7 @@
 				<pose>0.0 -9.515814127468817e-08 -1.7716104403244253e-10 1.2430838580712589e-09 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/LeftUpLeg_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/LeftUpLeg_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -154,7 +154,7 @@
 				<pose>0.038103199572908864 -0.4055328906406892 -0.014725378375133547 -3.9723233591359985e-09 2.3841858265427618e-08 8.470329598760748e-23</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_003.dae</uri> 
+						<uri>model://makeHuman_avatar/meshes/collisions/COL_BezierCurve_003.dae</uri> 
 					</mesh>
 				</geometry>
 			</collision>
@@ -162,7 +162,7 @@
 				<pose>0.038103199572908864 -0.4055328906406892 -0.014725378375133547 -3.972321138689949e-09 2.3841860041784457e-08 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/BezierCurve_003.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/BezierCurve_003.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -170,7 +170,7 @@
 				<pose>0.0 1.6002074570727005e-09 -5.429082331329558e-09 -3.972321138689949e-09 2.3841860041784457e-08 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/LeftLeg_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/LeftLeg_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -193,7 +193,7 @@
 				<pose>0.013958502023793784 -0.04460706181238683 0.1307900567470499 9.313254611953425e-10 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_004.dae</uri> 
+						<uri>model://makeHuman_avatar/meshes/collisions/COL_BezierCurve_004.dae</uri> 
 					</mesh>
 				</geometry>
 			</collision>
@@ -201,7 +201,7 @@
 				<pose>0.013958502023793784 -0.04460706181238683 0.1307900567470499 9.313225746154785e-10 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/BezierCurve_004.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/BezierCurve_004.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -209,7 +209,7 @@
 				<pose>0.0 -1.0950674486062642e-08 1.4888293486755899e-09 9.313225746154785e-10 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/LeftFoot_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/LeftFoot_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -247,7 +247,7 @@
 				<pose>0.0 0.1412628194877925 0.017108939843012982 4.980194590054055e-10 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_006.dae</uri> 
+						<uri>model://makeHuman_avatar/meshes/collisions/COL_BezierCurve_006.dae</uri> 
 					</mesh>
 				</geometry>
 			</collision>
@@ -255,7 +255,7 @@
 				<pose>0.0 0.1412628194877925 0.017108939843012982 4.980194590054055e-10 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/BezierCurve_006.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/BezierCurve_006.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -263,7 +263,7 @@
 				<pose>0.0 -9.648212115349729e-08 -2.960592881669393e-09 4.980194590054055e-10 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/LowerBack_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/LowerBack_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -286,7 +286,7 @@
 				<pose>0.0 0.12902202798458973 -0.025047067180977267 -2.4703580847607043e-10 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_007.dae</uri> 
+						<uri>model://makeHuman_avatar/meshes/collisions/COL_BezierCurve_007.dae</uri> 
 					</mesh>
 				</geometry>
 			</collision>
@@ -294,7 +294,7 @@
 				<pose>0.0 0.12902202798458973 -0.025047067180977267 -2.4703439294171403e-10 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/BezierCurve_007.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/BezierCurve_007.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -302,7 +302,7 @@
 				<pose>0.0 -3.6682692985786373e-10 -1.9470008118329686e-10 -2.4703439294171403e-10 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/Spine_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/Spine_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -325,7 +325,7 @@
 				<pose>0.022767527740709892 0.10387725984867302 0.04022380173539819 1.988138320641042e-09 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_008.dae</uri> 
+						<uri>model://makeHuman_avatar/meshes/collisions/COL_BezierCurve_008.dae</uri> 
 					</mesh>
 				</geometry>
 			</collision>
@@ -333,7 +333,7 @@
 				<pose>0.0 0.17499389909198726 0.023713125641839583 1.988138320641042e-09 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_015.dae</uri> 
+						<uri>model://makeHuman_avatar/meshes/collisions/COL_BezierCurve_015.dae</uri> 
 					</mesh>
 				</geometry>
 			</collision>
@@ -341,7 +341,7 @@
 				<pose>-0.022767527740709892 0.10387725984867302 0.04022380173539819 1.988138320641042e-09 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_018.dae</uri> 
+						<uri>model://makeHuman_avatar/meshes/collisions/COL_BezierCurve_018.dae</uri> 
 					</mesh>
 				</geometry>
 			</collision>
@@ -349,7 +349,7 @@
 				<pose>0.022767527740709892 0.10387725984867302 0.04022380173539819 1.988141207220906e-09 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/BezierCurve_008.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/BezierCurve_008.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -357,7 +357,7 @@
 				<pose>0.0 0.17499389909198726 0.023713125641839583 1.988141207220906e-09 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/BezierCurve_015.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/BezierCurve_015.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -365,7 +365,7 @@
 				<pose>-0.022767527740709892 0.10387725984867302 0.04022380173539819 1.988141207220906e-09 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/BezierCurve_018.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/BezierCurve_018.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -373,7 +373,7 @@
 				<pose>0.0 -9.68291047560779e-08 -2.8541933686602565e-09 1.988141207220906e-09 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/Spine1_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/Spine1_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -396,7 +396,7 @@
 				<pose>0.1472653291712005 -0.0226767543357127 -0.002212353828733471 1.254932130434483e-10 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_009.dae</uri> 
+						<uri>model://makeHuman_avatar/meshes/collisions/COL_BezierCurve_009.dae</uri> 
 					</mesh>
 				</geometry>
 			</collision>
@@ -404,7 +404,7 @@
 				<pose>0.1472653291712005 -0.0226767543357127 -0.002212353828733471 1.254925052762701e-10 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/BezierCurve_009.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/BezierCurve_009.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -412,7 +412,7 @@
 				<pose>-1.4901161415892261e-09 9.566400791969416e-08 5.5763394733391984e-11 1.254925052762701e-10 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/LeftShoulder_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/LeftShoulder_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -435,7 +435,7 @@
 				<pose>0.16132252456728402 -0.18058624536672596 0.0007237784672346481 1.254932130434483e-10 -2.980232505223057e-09 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_010.dae</uri> 
+						<uri>model://makeHuman_avatar/meshes/collisions/COL_BezierCurve_010.dae</uri> 
 					</mesh>
 				</geometry>
 			</collision>
@@ -443,7 +443,7 @@
 				<pose>0.16132252456728402 -0.18058624536672596 0.0007237784672346481 1.254925052762701e-10 -2.980232949312267e-09 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/BezierCurve_010.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/BezierCurve_010.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -451,7 +451,7 @@
 				<pose>-1.1920929132713809e-08 -2.8590243772143865e-07 -7.057678990925534e-11 1.254925052762701e-10 -2.980232949312267e-09 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/LeftArm_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/LeftArm_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -474,7 +474,7 @@
 				<pose>0.1219484585813948 -0.12415675109858437 0.1632420325762336 1.254932130434483e-10 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_011.dae</uri> 
+						<uri>model://makeHuman_avatar/meshes/collisions/COL_BezierCurve_011.dae</uri> 
 					</mesh>
 				</geometry>
 			</collision>
@@ -482,7 +482,7 @@
 				<pose>0.1219484585813948 -0.12415675109858437 0.1632420325762336 1.254925052762701e-10 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/BezierCurve_011.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/BezierCurve_011.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -490,7 +490,7 @@
 				<pose>-2.3841858265427618e-08 9.559893357281262e-08 -3.410605182470458e-14 1.254925052762701e-10 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/LeftForeArm_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/LeftForeArm_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -513,7 +513,7 @@
 				<pose>0.0011217594313883694 -0.007652464623040922 0.04383967286109436 -3.972326023671258e-09 -2.3841858265427618e-08 -2.980233659855003e-08</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_012.dae</uri> 
+						<uri>model://makeHuman_avatar/meshes/collisions/COL_BezierCurve_012.dae</uri> 
 					</mesh>
 				</geometry>
 			</collision>
@@ -521,7 +521,7 @@
 				<pose>0.010663080374346379 -0.015765467521033694 0.026028734833430267 -3.972326023671258e-09 -2.3841858265427618e-08 -2.980233659855003e-08</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_013.dae</uri> 
+						<uri>model://makeHuman_avatar/meshes/collisions/COL_BezierCurve_013.dae</uri> 
 					</mesh>
 				</geometry>
 			</collision>
@@ -529,7 +529,7 @@
 				<pose>0.0011217594313883694 -0.007652464623040922 0.04383967286109436 -3.972328244117307e-09 -2.3841861818141297e-08 -2.980233304583635e-08</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/BezierCurve_012.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/BezierCurve_012.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -537,7 +537,7 @@
 				<pose>0.010663080374346379 -0.015765467521033694 0.026028734833430267 -3.972328244117307e-09 -2.3841861818141297e-08 -2.980233304583635e-08</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/BezierCurve_013.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/BezierCurve_013.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -545,7 +545,7 @@
 				<pose>0.0 7.367037934001517e-09 2.777877382880199e-08 -3.972328244117307e-09 -2.3841860041784457e-08 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/LeftHand_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/LeftHand_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -583,7 +583,7 @@
 				<pose>0.017114945011063587 -0.024840616059908505 0.06827558976822479 -3.9723264677604675e-09 4.7683720083568915e-08 2.980233304583635e-08</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_014.dae</uri> 
+						<uri>model://makeHuman_avatar/meshes/collisions/COL_BezierCurve_014.dae</uri> 
 					</mesh>
 				</geometry>
 			</collision>
@@ -591,7 +591,7 @@
 				<pose>0.017114945011063587 -0.024840616059908505 0.06827558976822479 -3.972328688206517e-09 4.768372718899627e-08 2.980233659855003e-08</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/BezierCurve_014.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/BezierCurve_014.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -599,7 +599,7 @@
 				<pose>-2.9356616420026327e-08 -7.303535307674902e-08 -1.9215807187567207e-08 -3.972328688206517e-09 4.7683723636282593e-08 -2.980233659855003e-08</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/LeftFingerBase_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/LeftFingerBase_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -637,7 +637,7 @@
 				<pose>0.0 0.0504392631417403 0.01958704321961169 -2.4703580847607043e-10 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_016.dae</uri> 
+						<uri>model://makeHuman_avatar/meshes/collisions/COL_BezierCurve_016.dae</uri> 
 					</mesh>
 				</geometry>
 			</collision>
@@ -645,7 +645,7 @@
 				<pose>0.0 0.0504392631417403 0.01958704321961169 -2.4703439294171403e-10 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/BezierCurve_016.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/BezierCurve_016.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -653,7 +653,7 @@
 				<pose>0.0 -4.2513477816592795e-10 -7.261178433479605e-11 -2.4703439294171403e-10 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/Neck_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/Neck_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -676,7 +676,7 @@
 				<pose>0.0 0.0504751212965715 0.019639218146193294 -2.4703583623164604e-10 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_017.dae</uri> 
+						<uri>model://makeHuman_avatar/meshes/collisions/COL_BezierCurve_017.dae</uri> 
 					</mesh>
 				</geometry>
 			</collision>
@@ -684,7 +684,7 @@
 				<pose>0.0 0.0504751212965715 0.019639218146193294 -2.4703797341096845e-10 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/BezierCurve_017.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/BezierCurve_017.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -692,7 +692,7 @@
 				<pose>0.0 4.310422305590653e-10 -4.2206239133071914e-11 -2.4703797341096845e-10 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/Neck1_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/Neck1_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -730,7 +730,7 @@
 				<pose>-0.1472653291712005 -0.0226767543357127 -0.002212353828733471 1.254932130434483e-10 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_019.dae</uri> 
+						<uri>model://makeHuman_avatar/meshes/collisions/COL_BezierCurve_019.dae</uri> 
 					</mesh>
 				</geometry>
 			</collision>
@@ -738,7 +738,7 @@
 				<pose>-0.1472653291712005 -0.0226767543357127 -0.002212353828733471 1.254925052762701e-10 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/BezierCurve_019.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/BezierCurve_019.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -746,7 +746,7 @@
 				<pose>1.4901161415892261e-09 9.566400791969416e-08 5.5763394733391984e-11 1.254925052762701e-10 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/RightShoulder_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/RightShoulder_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -769,7 +769,7 @@
 				<pose>-0.16132252456728402 -0.18058624536672596 0.0007237784672346481 1.254932130434483e-10 2.980232505223057e-09 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_020.dae</uri> 
+						<uri>model://makeHuman_avatar/meshes/collisions/COL_BezierCurve_020.dae</uri> 
 					</mesh>
 				</geometry>
 			</collision>
@@ -777,7 +777,7 @@
 				<pose>-0.16132252456728402 -0.18058624536672596 0.0007237784672346481 1.254925052762701e-10 2.980232949312267e-09 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/BezierCurve_020.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/BezierCurve_020.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -785,7 +785,7 @@
 				<pose>1.1920929132713809e-08 -2.8590243772143865e-07 -7.057678990925534e-11 1.254925052762701e-10 2.980232949312267e-09 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/RightArm_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/RightArm_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -808,7 +808,7 @@
 				<pose>-0.1219484585813948 -0.12415675109858437 0.1632420325762336 1.254932130434483e-10 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_021.dae</uri> 
+						<uri>model://makeHuman_avatar/meshes/collisions/COL_BezierCurve_021.dae</uri> 
 					</mesh>
 				</geometry>
 			</collision>
@@ -816,7 +816,7 @@
 				<pose>-0.1219484585813948 -0.12415675109858437 0.1632420325762336 1.254925052762701e-10 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/BezierCurve_021.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/BezierCurve_021.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -824,7 +824,7 @@
 				<pose>2.3841858265427618e-08 9.559893357281262e-08 -3.410605182470458e-14 1.254925052762701e-10 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/RightForeArm_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/RightForeArm_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -847,7 +847,7 @@
 				<pose>-0.0010897636575961656 -0.007653418297371539 0.043807414826861235 -3.972326023671258e-09 2.3841858265427618e-08 2.980233659855003e-08</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_022.dae</uri> 
+						<uri>model://makeHuman_avatar/meshes/collisions/COL_BezierCurve_022.dae</uri> 
 					</mesh>
 				</geometry>
 			</collision>
@@ -855,7 +855,7 @@
 				<pose>-0.010663080374346379 -0.015765467521033694 0.026028734833430267 -3.972326023671258e-09 2.3841858265427618e-08 2.980233659855003e-08</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_023.dae</uri>
+						<uri>model://makeHuman_avatar/meshes/collisions/COL_BezierCurve_023.dae</uri>
 					</mesh>
 				</geometry>
 			</collision>
@@ -863,7 +863,7 @@
 				<pose>-0.0010897636575961656 -0.007653418297371539 0.043807414826861235 -3.972328244117307e-09 2.3841861818141297e-08 2.980233304583635e-08</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/BezierCurve_022.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/BezierCurve_022.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -871,7 +871,7 @@
 				<pose>-0.010663080374346379 -0.015765467521033694 0.026028734833430267 -3.972328244117307e-09 2.3841861818141297e-08 2.980233304583635e-08</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/BezierCurve_023.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/BezierCurve_023.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -879,7 +879,7 @@
 				<pose>0.0 7.367037934001517e-09 2.777877382880199e-08 -3.972328244117307e-09 2.3841860041784457e-08 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/RightHand_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/RightHand_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -917,7 +917,7 @@
 				<pose>-0.017114945011063587 -0.024840616059908505 0.06827558976822479 -3.9723264677604675e-09 -4.7683720083568915e-08 -2.980233304583635e-08</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_024.dae</uri> 
+						<uri>model://makeHuman_avatar/meshes/collisions/COL_BezierCurve_024.dae</uri> 
 					</mesh>
 				</geometry>
 			</collision>
@@ -925,7 +925,7 @@
 				<pose>-0.017114945011063587 -0.024840616059908505 0.06827558976822479 -3.972328688206517e-09 -4.768372718899627e-08 -2.980233659855003e-08</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/BezierCurve_024.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/BezierCurve_024.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -933,7 +933,7 @@
 				<pose>2.9356616420026327e-08 -7.303535307674902e-08 -1.9215807187567207e-08 -3.972328688206517e-09 -4.7683723636282593e-08 2.980233659855003e-08</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/RightFingerBase_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/RightFingerBase_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -971,7 +971,7 @@
 				<pose>-0.101318432410336 -0.008075332761933396 -0.008275742207106085 4.98025121142831e-10 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_026.dae</uri> 
+						<uri>model://makeHuman_avatar/meshes/collisions/COL_BezierCurve_026.dae</uri> 
 					</mesh>
 				</geometry>
 			</collision>
@@ -979,7 +979,7 @@
 				<pose>-0.101318432410336 -0.008075332761933396 -0.008275742207106085 4.980265089216118e-10 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/BezierCurve_026.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/BezierCurve_026.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -1002,7 +1002,7 @@
 				<pose>-0.041113961355596196 -0.3910068570227452 0.03251319278051246 1.243083191937444e-09 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_027.dae</uri> 
+						<uri>model://makeHuman_avatar/meshes/collisions/COL_BezierCurve_027.dae</uri> 
 					</mesh>
 				</geometry>
 			</collision>
@@ -1010,7 +1010,7 @@
 				<pose>-0.041113961355596196 -0.3910068570227452 0.03251319278051246 1.2430838580712589e-09 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/BezierCurve_027.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/BezierCurve_027.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -1018,7 +1018,7 @@
 				<pose>0.0 -9.515814127468817e-08 -1.7716104403244253e-10 1.2430838580712589e-09 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/RightUpLeg_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/RightUpLeg_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -1041,7 +1041,7 @@
 				<pose>-0.038103199572908864 -0.4055328906406892 -0.014725378375133547 -3.9723233591359985e-09 -2.3841858265427618e-08 -8.470329598760748e-23</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_028.dae</uri> 
+						<uri>model://makeHuman_avatar/meshes/collisions/COL_BezierCurve_028.dae</uri> 
 					</mesh>
 				</geometry>
 			</collision>
@@ -1049,7 +1049,7 @@
 				<pose>-0.038103199572908864 -0.4055328906406892 -0.014725378375133547 -3.972321138689949e-09 -2.3841860041784457e-08 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/BezierCurve_028.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/BezierCurve_028.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -1057,7 +1057,7 @@
 				<pose>0.0 1.6002074570727005e-09 -5.429082331329558e-09 -3.972321138689949e-09 -2.3841860041784457e-08 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/RightLeg_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/RightLeg_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -1080,7 +1080,7 @@
 				<pose>-0.013958502023793784 -0.04460706181238683 0.1307900567470499 9.313254611953425e-10 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/collisions/COL_BezierCurve_029.dae</uri> 
+						<uri>model://makeHuman_avatar/meshes/collisions/COL_BezierCurve_029.dae</uri> 
 					</mesh>
 				</geometry>
 			</collision>
@@ -1088,7 +1088,7 @@
 				<pose>-0.013958502023793784 -0.04460706181238683 0.1307900567470499 9.313225746154785e-10 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/BezierCurve_029.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/BezierCurve_029.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -1096,7 +1096,7 @@
 				<pose>0.0 -1.0950674486062642e-08 1.4888293486755899e-09 9.313225746154785e-10 -0.0 0.0</pose>
 				<geometry>
 					<mesh>
-						<uri>model://sdf4/meshes/visual/RightFoot_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
+						<uri>model://makeHuman_avatar/meshes/visual/RightFoot_axis.dae</uri> <scale>0.1 0.1 0.1</scale>
 					</mesh>
 				</geometry>
 			</visual>
