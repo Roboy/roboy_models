@@ -48,7 +48,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://arm/dae/p-handflaeche-teil-2-v01.dae</uri>
+            <uri>model://arm/meshes/visual/VIS_handflaeche.dae</uri>
           </mesh>
         </geometry>
         <material>
@@ -66,7 +66,7 @@
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://arm/dae/p-handflaeche-teil-2-v01.dae</uri>
+            <uri>model://arm/meshes/collision/COL_handflaeche.dae</uri>
           </mesh>
         </geometry>
       </collision>
@@ -93,7 +93,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://arm/dae/p-oberarm-1-v02.dae</uri>
+            <uri>model://arm/meshes/visual/VIS_oberarm.dae</uri>
           </mesh>
         </geometry>
         <material>
@@ -111,7 +111,7 @@
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://arm/dae/p-oberarm-1-v02.dae</uri>
+            <uri>model://arm/meshes/collision/COL_oberarm.dae</uri>
           </mesh>
         </geometry>
       </collision>
