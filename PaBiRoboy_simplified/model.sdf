@@ -1,5 +1,5 @@
 <sdf version="1.6">
-    <model name="PaBiRoboy">
+    <model name="PaBiRoboy_simplified">
         <link name="hip">
             <pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
             <inertial>
@@ -17,7 +17,7 @@
             <collision name="hip_collision">
                 <geometry>
                     <mesh>
-                        <uri>model://PaBiRoboy/meshes/collision/COL_hip.STL</uri>
+                        <uri>model://PaBiRoboy_simplified/meshes/collision/COL_hip.STL</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -25,7 +25,7 @@
             <visual name="hip_visual">
                 <geometry>
                     <mesh>
-                        <uri>model://PaBiRoboy/meshes/visual/VIS_hip.STL</uri>
+                        <uri>model://PaBiRoboy_simplified/meshes/visual/VIS_hip.STL</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -48,7 +48,7 @@
             <collision name="shank_right_collision">
                 <geometry>
                     <mesh>
-                        <uri>model://PaBiRoboy/meshes/collision/COL_shank_right.STL</uri>
+                        <uri>model://PaBiRoboy_simplified/meshes/collision/COL_shank_right.STL</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -56,7 +56,7 @@
             <visual name="shank_right_visual">
                 <geometry>
                     <mesh>
-                        <uri>model://PaBiRoboy/meshes/visual/VIS_shank_right.STL</uri>
+                        <uri>model://PaBiRoboy_simplified/meshes/visual/VIS_shank_right.STL</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -79,7 +79,7 @@
             <collision name="thigh_right_collision">
                 <geometry>
                     <mesh>
-                        <uri>model://PaBiRoboy/meshes/collision/COL_thigh_right.STL</uri>
+                        <uri>model://PaBiRoboy_simplified/meshes/collision/COL_thigh_right.STL</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -87,7 +87,7 @@
             <visual name="thigh_right_visual">
                 <geometry>
                     <mesh>
-                        <uri>model://PaBiRoboy/meshes/visual/VIS_thigh_right.STL</uri>
+                        <uri>model://PaBiRoboy_simplified/meshes/visual/VIS_thigh_right.STL</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -110,7 +110,7 @@
             <collision name="shank_left_collision">
                 <geometry>
                     <mesh>
-                        <uri>model://PaBiRoboy/meshes/collision/COL_shank_left.STL</uri>
+                        <uri>model://PaBiRoboy_simplified/meshes/collision/COL_shank_left.STL</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -118,7 +118,7 @@
             <visual name="shank_left_visual">
                 <geometry>
                     <mesh>
-                        <uri>model://PaBiRoboy/meshes/visual/VIS_shank_left.STL</uri>
+                        <uri>model://PaBiRoboy_simplified/meshes/visual/VIS_shank_left.STL</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -141,7 +141,7 @@
             <collision name="thigh_left_collision">
                 <geometry>
                     <mesh>
-                        <uri>model://PaBiRoboy/meshes/collision/COL_thigh_left.STL</uri>
+                        <uri>model://PaBiRoboy_simplified/meshes/collision/COL_thigh_left.STL</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -149,7 +149,7 @@
             <visual name="thigh_left_visual">
                 <geometry>
                     <mesh>
-                        <uri>model://PaBiRoboy/meshes/visual/VIS_thigh_left.STL</uri>
+                        <uri>model://PaBiRoboy_simplified/meshes/visual/VIS_thigh_left.STL</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
