@@ -19,7 +19,7 @@
                 <geometry>
                     <mesh>
                         <scale>1 1 1</scale>
-                        <uri>model://plate_with_muscle/cad/plate.STL</uri>
+                        <uri>model://plate_with_muscle/meshes/collision/COL_plate.STL</uri>
                     </mesh>
                 </geometry>
             </collision>
@@ -28,7 +28,7 @@
                 <geometry>
                     <mesh>
                         <scale>1 1 1</scale>
-                        <uri>model://plate_with_muscle/cad/plate.STL</uri>
+                        <uri>model://plate_with_muscle/meshes/visual/VIS_plate.STL</uri>
                     </mesh>
                 </geometry>
             </visual>
@@ -53,7 +53,7 @@
                 <geometry>
                     <mesh>
                         <scale>1 1 1</scale>
-                        <uri>model://plate_with_muscle/cad/sphere.STL</uri>
+                        <uri>model://plate_with_muscle/meshes/collision/COL_sphere.STL</uri>
                     </mesh>
                 </geometry>
             </collision>
@@ -62,7 +62,7 @@
                 <geometry>
                     <mesh>
                         <scale>1 1 1</scale>
-                        <uri>model://plate_with_muscle/cad/sphere.STL</uri>
+                        <uri>model://plate_with_muscle/meshes/visual/VIS_sphere.STL</uri>
                     </mesh>
                 </geometry>
             </visual>
