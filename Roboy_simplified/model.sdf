@@ -17,7 +17,7 @@
             <collision name="head_collision">
                 <geometry>
                     <mesh>
-                        <uri>model://Roboy_simplified/meshes/head.stl</uri>
+                        <uri>model://Roboy_simplified/meshes/collision/COL_head.stl</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -25,7 +25,7 @@
             <visual name="head_visual">
                 <geometry>
                     <mesh>
-                        <uri>model://Roboy_simplified/meshes/head.stl</uri>
+                        <uri>model://Roboy_simplified/meshes/visual/VIS_head.stl</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -48,7 +48,7 @@
             <collision name="hip_collision">
                 <geometry>
                     <mesh>
-                        <uri>model://Roboy_simplified/meshes/hip.stl</uri>
+                        <uri>model://Roboy_simplified/meshes/collision/COL_hip.stl</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -56,7 +56,7 @@
             <visual name="hip_visual">
                 <geometry>
                     <mesh>
-                        <uri>model://Roboy_simplified/meshes/hip.stl</uri>
+                        <uri>model://Roboy_simplified/meshes/visual/VIS_hip.stl</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -79,7 +79,7 @@
             <collision name="shank_right_collision">
                 <geometry>
                     <mesh>
-                        <uri>model://Roboy_simplified/meshes/shank_right.stl</uri>
+                        <uri>model://Roboy_simplified/meshes/collision/COL_shank_right.stl</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -87,7 +87,7 @@
             <visual name="shank_right_visual">
                 <geometry>
                     <mesh>
-                        <uri>model://Roboy_simplified/meshes/shank_right.stl</uri>
+                        <uri>model://Roboy_simplified/meshes/visual/VIS_shank_right.stl</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -110,7 +110,7 @@
             <collision name="shank_left_collision">
                 <geometry>
                     <mesh>
-                        <uri>model://Roboy_simplified/meshes/shank_left.stl</uri>
+                        <uri>model://Roboy_simplified/meshes/collision/COL_shank_left.stl</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -118,7 +118,7 @@
             <visual name="shank_left_visual">
                 <geometry>
                     <mesh>
-                        <uri>model://Roboy_simplified/meshes/shank_left.stl</uri>
+                        <uri>model://Roboy_simplified/meshes/visual/VIS_shank_left.stl</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -141,7 +141,7 @@
             <collision name="vertebrae_2_collision">
                 <geometry>
                     <mesh>
-                        <uri>model://Roboy_simplified/meshes/vertebrae_2.stl</uri>
+                        <uri>model://Roboy_simplified/meshes/collision/COL_vertebrae_2.stl</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -149,7 +149,7 @@
             <visual name="vertebrae_2_visual">
                 <geometry>
                     <mesh>
-                        <uri>model://Roboy_simplified/meshes/vertebrae_2.stl</uri>
+                        <uri>model://Roboy_simplified/meshes/visual/VIS_vertebrae_2.stl</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -172,7 +172,7 @@
             <collision name="vertebrae_1_collision">
                 <geometry>
                     <mesh>
-                        <uri>model://Roboy_simplified/meshes/vertebrae_1.stl</uri>
+                        <uri>model://Roboy_simplified/meshes/collision/COL_vertebrae_1.stl</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -180,7 +180,7 @@
             <visual name="vertebrae_1_visual">
                 <geometry>
                     <mesh>
-                        <uri>model://Roboy_simplified/meshes/vertebrae_1.stl</uri>
+                        <uri>model://Roboy_simplified/meshes/visual/VIS_vertebrae_1.stl</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -203,7 +203,7 @@
             <collision name="vertebrae_3_collision">
                 <geometry>
                     <mesh>
-                        <uri>model://Roboy_simplified/meshes/vertebrae_3.stl</uri>
+                        <uri>model://Roboy_simplified/meshes/collision/COL_vertebrae_3.stl</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -211,7 +211,7 @@
             <visual name="vertebrae_3_visual">
                 <geometry>
                     <mesh>
-                        <uri>model://Roboy_simplified/meshes/vertebrae_3.stl</uri>
+                        <uri>model://Roboy_simplified/meshes/visual/VIS_vertebrae_3.stl</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -234,7 +234,7 @@
             <collision name="neck_collision">
                 <geometry>
                     <mesh>
-                        <uri>model://Roboy_simplified/meshes/neck.stl</uri>
+                        <uri>model://Roboy_simplified/meshes/collision/COL_neck.stl</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -242,7 +242,7 @@
             <visual name="neck_visual">
                 <geometry>
                     <mesh>
-                        <uri>model://Roboy_simplified/meshes/neck.stl</uri>
+                        <uri>model://Roboy_simplified/meshes/visual/VIS_neck.stl</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -265,7 +265,7 @@
             <collision name="neck_cross_collision">
                 <geometry>
                     <mesh>
-                        <uri>model://Roboy_simplified/meshes/neck_cross.stl</uri>
+                        <uri>model://Roboy_simplified/meshes/collision/COL_neck_cross.stl</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -273,7 +273,7 @@
             <visual name="neck_cross_visual">
                 <geometry>
                     <mesh>
-                        <uri>model://Roboy_simplified/meshes/neck_cross.stl</uri>
+                        <uri>model://Roboy_simplified/meshes/visual/VIS_neck_cross.stl</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -296,7 +296,7 @@
             <collision name="spine_collision">
                 <geometry>
                     <mesh>
-                        <uri>model://Roboy_simplified/meshes/spine.stl</uri>
+                        <uri>model://Roboy_simplified/meshes/collision/COL_spine.stl</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -304,7 +304,7 @@
             <visual name="spine_visual">
                 <geometry>
                     <mesh>
-                        <uri>model://Roboy_simplified/meshes/spine.stl</uri>
+                        <uri>model://Roboy_simplified/meshes/visual/VIS_spine.stl</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -327,7 +327,7 @@
             <collision name="thigh_right_collision">
                 <geometry>
                     <mesh>
-                        <uri>model://Roboy_simplified/meshes/thigh_right.stl</uri>
+                        <uri>model://Roboy_simplified/meshes/collision/COL_thigh_right.stl</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -335,7 +335,7 @@
             <visual name="thigh_right_visual">
                 <geometry>
                     <mesh>
-                        <uri>model://Roboy_simplified/meshes/thigh_right.stl</uri>
+                        <uri>model://Roboy_simplified/meshes/visual/VIS_thigh_right.stl</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -358,7 +358,7 @@
             <collision name="thigh_left_collision">
                 <geometry>
                     <mesh>
-                        <uri>model://Roboy_simplified/meshes/thigh_left.stl</uri>
+                        <uri>model://Roboy_simplified/meshes/collision/COL_thigh_left.stl</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -366,7 +366,7 @@
             <visual name="thigh_left_visual">
                 <geometry>
                     <mesh>
-                        <uri>model://Roboy_simplified/meshes/thigh_left.stl</uri>
+                        <uri>model://Roboy_simplified/meshes/visual/VIS_thigh_left.stl</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -389,7 +389,7 @@
             <collision name="torso_collision">
                 <geometry>
                     <mesh>
-                        <uri>model://Roboy_simplified/meshes/torso.stl</uri>
+                        <uri>model://Roboy_simplified/meshes/collision/COL_torso.stl</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -397,7 +397,7 @@
             <visual name="torso_visual">
                 <geometry>
                     <mesh>
-                        <uri>model://Roboy_simplified/meshes/torso.stl</uri>
+                        <uri>model://Roboy_simplified/meshes/visual/VIS_torso.stl</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -420,7 +420,7 @@
             <collision name="upper_arm_right_collision">
                 <geometry>
                     <mesh>
-                        <uri>model://Roboy_simplified/meshes/upper_arm_right.stl</uri>
+                        <uri>model://Roboy_simplified/meshes/collision/COL_upper_arm_right.stl</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -428,7 +428,7 @@
             <visual name="upper_arm_right_visual">
                 <geometry>
                     <mesh>
-                        <uri>model://Roboy_simplified/meshes/upper_arm_right.stl</uri>
+                        <uri>model://Roboy_simplified/meshes/visual/VIS_upper_arm_right.stl</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -451,7 +451,7 @@
             <collision name="hand_right_collision">
                 <geometry>
                     <mesh>
-                        <uri>model://Roboy_simplified/meshes/hand_right.stl</uri>
+                        <uri>model://Roboy_simplified/meshes/collision/COL_hand_right.stl</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -459,7 +459,7 @@
             <visual name="hand_right_visual">
                 <geometry>
                     <mesh>
-                        <uri>model://Roboy_simplified/meshes/hand_right.stl</uri>
+                        <uri>model://Roboy_simplified/meshes/visual/VIS_hand_right.stl</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -482,7 +482,7 @@
             <collision name="lower_arm_right_collision">
                 <geometry>
                     <mesh>
-                        <uri>model://Roboy_simplified/meshes/lower_arm_right.stl</uri>
+                        <uri>model://Roboy_simplified/meshes/collision/COL_lower_arm_right.stl</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -490,7 +490,7 @@
             <visual name="lower_arm_right_visual">
                 <geometry>
                     <mesh>
-                        <uri>model://Roboy_simplified/meshes/lower_arm_right.stl</uri>
+                        <uri>model://Roboy_simplified/meshes/visual/VIS_lower_arm_right.stl</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -513,7 +513,7 @@
             <collision name="upper_arm_left_collision">
                 <geometry>
                     <mesh>
-                        <uri>model://Roboy_simplified/meshes/upper_arm_left.stl</uri>
+                        <uri>model://Roboy_simplified/meshes/collision/COL_upper_arm_left.stl</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -521,7 +521,7 @@
             <visual name="upper_arm_left_visual">
                 <geometry>
                     <mesh>
-                        <uri>model://Roboy_simplified/meshes/upper_arm_left.stl</uri>
+                        <uri>model://Roboy_simplified/meshes/visual/VIS_upper_arm_left.stl</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -544,7 +544,7 @@
             <collision name="lower_arm_left_collision">
                 <geometry>
                     <mesh>
-                        <uri>model://Roboy_simplified/meshes/lower_arm_left.stl</uri>
+                        <uri>model://Roboy_simplified/meshes/collision/COL_lower_arm_left.stl</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -552,7 +552,7 @@
             <visual name="lower_arm_left_visual">
                 <geometry>
                     <mesh>
-                        <uri>model://Roboy_simplified/meshes/lower_arm_left.stl</uri>
+                        <uri>model://Roboy_simplified/meshes/visual/VIS_lower_arm_left.stl</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -588,7 +588,7 @@
             <collision name="p-gelenkhuelse-v01_1_collision">
                 <geometry>
                     <mesh>
-                        <uri>model://Roboy_simplified/meshes/p-gelenkhuelse-v01_1.stl</uri>
+                        <uri>model://Roboy_simplified/meshes/collision/COL_gelenkhuelse_1.stl</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -596,7 +596,7 @@
             <visual name="p-gelenkhuelse-v01_1_visual">
                 <geometry>
                     <mesh>
-                        <uri>model://Roboy_simplified/meshes/p-gelenkhuelse-v01_1.stl</uri>
+                        <uri>model://Roboy_simplified/meshes/visual/VIS_gelenkhuelse_1.stl</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -637,7 +637,7 @@
             <collision name="p-gelenkhuelse-v01 (1)_1_collision">
                 <geometry>
                     <mesh>
-                        <uri>model://Roboy_simplified/meshes/p-gelenkhuelse-v01 (1)_1.stl</uri>
+                        <uri>model://Roboy_simplified/meshes/collision/COL_gelenkhuelse_2.stl</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -645,7 +645,7 @@
             <visual name="p-gelenkhuelse-v01 (1)_1_visual">
                 <geometry>
                     <mesh>
-                        <uri>model://Roboy_simplified/meshes/p-gelenkhuelse-v01 (1)_1.stl</uri>
+                        <uri>model://Roboy_simplified/meshes/visual/VIS_gelenkhuelse_2.stl</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -720,7 +720,7 @@
             <collision name="p-fuss-links-v12_1_collision">
                 <geometry>
                     <mesh>
-                        <uri>model://Roboy_simplified/meshes/p-fuss-links-v12_1.stl</uri>
+                        <uri>model://Roboy_simplified/meshes/collision/COL_fuss_links.stl</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -728,7 +728,7 @@
             <visual name="p-fuss-links-v12_1_visual">
                 <geometry>
                     <mesh>
-                        <uri>model://Roboy_simplified/meshes/p-fuss-links-v12_1.stl</uri>
+                        <uri>model://Roboy_simplified/meshes/visual/VIS_fuss_links.stl</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -777,7 +777,7 @@
             <collision name="p-fuss-rechts-v12_1_collision">
                 <geometry>
                     <mesh>
-                        <uri>model://Roboy_simplified/meshes/p-fuss-rechts-v12_1.stl</uri>
+                        <uri>model://Roboy_simplified/meshes/collision/COL_fuss_rechts.stl</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>
@@ -785,7 +785,7 @@
             <visual name="p-fuss-rechts-v12_1_visual">
                 <geometry>
                     <mesh>
-                        <uri>model://Roboy_simplified/meshes/p-fuss-rechts-v12_1.stl</uri>
+                        <uri>model://Roboy_simplified/meshes/visual/VIS_fuss_rechts.stl</uri>
                         <scale>0.001 0.001 0.001</scale>
                     </mesh>
                 </geometry>

@@ -1,5 +1,5 @@
 <sdf version="1.6">
-    <model name="legs_with_upper_body">
+    <model name="legs_with_upper_body_simplified">
         <pose frame="">0 0 0.07 0 0 0</pose> <!-- Raise the model a bit above the ground -->
         <self_collide>true</self_collide> <!-- Enable collision between links -->
         <link name="hip">
@@ -25,7 +25,7 @@
                     <!--
                     <mesh>
                         <scale>1 1 1</scale>
-                        <uri>model://legs_with_upper_body/meshes/collision/COL_hip.STL</uri>
+                        <uri>model://legs_with_upper_body_simplified/meshes/collision/COL_hip.STL</uri>
                     </mesh>
                     -->
                 </geometry>
@@ -35,7 +35,7 @@
                 <geometry>
                     <mesh>
                         <scale>1 1 1</scale>
-                        <uri>model://legs_with_upper_body/meshes/visual/VIS_hip.STL</uri>
+                        <uri>model://legs_with_upper_body_simplified/meshes/visual/VIS_hip.STL</uri>
                     </mesh>
                 </geometry>
             </visual>
@@ -63,7 +63,7 @@
                     <!--
                     <mesh>
                         <scale>1 1 1</scale>
-                        <uri>model://legs_with_upper_body/meshes/collision/COL_thigh_left.STL</uri>
+                        <uri>model://legs_with_upper_body_simplified/meshes/collision/COL_thigh_left.STL</uri>
                     </mesh>
                     -->
                 </geometry>
@@ -73,7 +73,7 @@
                 <geometry>
                     <mesh>
                         <scale>1 1 1</scale>
-                        <uri>model://legs_with_upper_body/meshes/visual/VIS_thigh_left.STL</uri>
+                        <uri>model://legs_with_upper_body_simplified/meshes/visual/VIS_thigh_left.STL</uri>
                     </mesh>
                 </geometry>
             </visual>
@@ -118,7 +118,7 @@
                     <!--
                     <mesh>
                         <scale>1 1 1</scale>
-                        <uri>model://legs_with_upper_body/meshes/collision/COL_shank_left.STL</uri>
+                        <uri>model://legs_with_upper_body_simplified/meshes/collision/COL_shank_left.STL</uri>
                     </mesh>
                     -->
                 </geometry>
@@ -128,7 +128,7 @@
                 <geometry>
                     <mesh>
                         <scale>1 1 1</scale>
-                        <uri>model://legs_with_upper_body/meshes/visual/VIS_shank_left.STL</uri>
+                        <uri>model://legs_with_upper_body_simplified/meshes/visual/VIS_shank_left.STL</uri>
                     </mesh>
                 </geometry>
             </visual>
@@ -175,7 +175,7 @@
                     <!--
                     <mesh>
                         <scale>1 1 1</scale>
-                        <uri>model://legs_with_upper_body/meshes/collision/COL_foot_left.STL</uri>
+                        <uri>model://legs_with_upper_body_simplified/meshes/collision/COL_foot_left.STL</uri>
                     </mesh>
                     -->
                 </geometry>
@@ -185,7 +185,7 @@
                 <geometry>
                     <mesh>
                         <scale>1 1 1</scale>
-                        <uri>model://legs_with_upper_body/meshes/visual/VIS_foot_left.STL</uri>
+                        <uri>model://legs_with_upper_body_simplified/meshes/visual/VIS_foot_left.STL</uri>
                     </mesh>
                 </geometry>
             </visual>
@@ -236,7 +236,7 @@
                     <!--
                     <mesh>
                         <scale>1 1 1</scale>
-                        <uri>model://legs_with_upper_body/meshes/collision/COL_thigh_right.STL</uri>
+                        <uri>model://legs_with_upper_body_simplified/meshes/collision/COL_thigh_right.STL</uri>
                     </mesh>
                     -->
                 </geometry>
@@ -246,7 +246,7 @@
                 <geometry>
                     <mesh>
                         <scale>1 1 1</scale>
-                        <uri>model://legs_with_upper_body/meshes/visual/VIS_thigh_right.STL</uri>
+                        <uri>model://legs_with_upper_body_simplified/meshes/visual/VIS_thigh_right.STL</uri>
                     </mesh>
                 </geometry>
             </visual>
@@ -291,7 +291,7 @@
                     <!--
                     <mesh>
                         <scale>1 1 1</scale>
-                        <uri>model://legs_with_upper_body/meshes/collision/COL_shank_right.STL</uri>
+                        <uri>model://legs_with_upper_body_simplified/meshes/collision/COL_shank_right.STL</uri>
                     </mesh>
                     -->
                 </geometry>
@@ -301,7 +301,7 @@
                 <geometry>
                     <mesh>
                         <scale>1 1 1</scale>
-                        <uri>model://legs_with_upper_body/meshes/visual/VIS_shank_right.STL</uri>
+                        <uri>model://legs_with_upper_body_simplified/meshes/visual/VIS_shank_right.STL</uri>
                     </mesh>
                 </geometry>
             </visual>
@@ -348,7 +348,7 @@
                     <!--
                     <mesh>
                         <scale>1 1 1</scale>
-                        <uri>model://legs_with_upper_body/meshes/collision/COL_foot_right.STL</uri>
+                        <uri>model://legs_with_upper_body_simplified/meshes/collision/COL_foot_right.STL</uri>
                     </mesh>
                     -->
                 </geometry>
@@ -358,7 +358,7 @@
                 <geometry>
                     <mesh>
                         <scale>1 1 1</scale>
-                        <uri>model://legs_with_upper_body/meshes/visual/VIS_foot_right.STL</uri>
+                        <uri>model://legs_with_upper_body_simplified/meshes/visual/VIS_foot_right.STL</uri>
                     </mesh>
                 </geometry>
             </visual>
@@ -409,7 +409,7 @@
                     <!--
                     <mesh>
                         <scale>1 1 1</scale>
-                        <uri>model://legs_with_upper_body/meshes/collision/COL_torso.STL</uri>
+                        <uri>model://legs_with_upper_body_simplified/meshes/collision/COL_torso.STL</uri>
                     </mesh>
                     -->
                 </geometry>
@@ -419,7 +419,7 @@
                 <geometry>
                     <mesh>
                         <scale>1 1 1</scale>
-                        <uri>model://legs_with_upper_body/meshes/visual/VIS_torso.STL</uri>
+                        <uri>model://legs_with_upper_body_simplified/meshes/visual/VIS_torso.STL</uri>
                     </mesh>
                 </geometry>
             </visual>
@@ -476,7 +476,7 @@
                     <!--
                     <mesh>
                         <scale>1 1 1</scale>
-                        <uri>model://legs_with_upper_body/meshes/collision/COL_head.STL</uri>
+                        <uri>model://legs_with_upper_body_simplified/meshes/collision/COL_head.STL</uri>
                     </mesh>
                     -->
                 </geometry>
@@ -486,7 +486,7 @@
                 <geometry>
                     <mesh>
                         <scale>1 1 1</scale>
-                        <uri>model://legs_with_upper_body/meshes/visual/VIS_head.STL</uri>
+                        <uri>model://legs_with_upper_body_simplified/meshes/visual/VIS_head.STL</uri>
                     </mesh>
                 </geometry>
             </visual>
@@ -531,7 +531,7 @@
                     <!--
                     <mesh>
                         <scale>1 1 1</scale>
-                        <uri>model://legs_with_upper_body/meshes/collision/COL_oberarm_left.STL</uri>
+                        <uri>model://legs_with_upper_body_simplified/meshes/collision/COL_oberarm_left.STL</uri>
                     </mesh>
                     -->
                 </geometry>
@@ -541,7 +541,7 @@
                 <geometry>
                     <mesh>
                         <scale>1 1 1</scale>
-                        <uri>model://legs_with_upper_body/meshes/visual/VIS_oberarm_left.STL</uri>
+                        <uri>model://legs_with_upper_body_simplified/meshes/visual/VIS_oberarm_left.STL</uri>
                     </mesh>
                 </geometry>
             </visual>
@@ -585,7 +585,7 @@
                     <!--
                     <mesh>
                         <scale>1 1 1</scale>
-                        <uri>model://legs_with_upper_body/meshes/collision/COL_unterarm_left.STL</uri>
+                        <uri>model://legs_with_upper_body_simplified/meshes/collision/COL_unterarm_left.STL</uri>
                     </mesh>
                     -->
                 </geometry>
@@ -595,7 +595,7 @@
                 <geometry>
                     <mesh>
                         <scale>1 1 1</scale>
-                        <uri>model://legs_with_upper_body/meshes/visual/VIS_unterarm_left.STL</uri>
+                        <uri>model://legs_with_upper_body_simplified/meshes/visual/VIS_unterarm_left.STL</uri>
                     </mesh>
                 </geometry>
             </visual>
@@ -643,7 +643,7 @@
                     <!--
                     <mesh>
                         <scale>1 1 1</scale>
-                        <uri>model://legs_with_upper_body/meshes/collision/COL_oberarm_right.STL</uri>
+                        <uri>model://legs_with_upper_body_simplified/meshes/collision/COL_oberarm_right.STL</uri>
                     </mesh>
                     -->
                 </geometry>
@@ -653,7 +653,7 @@
                 <geometry>
                     <mesh>
                         <scale>1 1 1</scale>
-                        <uri>model://legs_with_upper_body/meshes/visual/VIS_oberarm_right.STL</uri>
+                        <uri>model://legs_with_upper_body_simplified/meshes/visual/VIS_oberarm_right.STL</uri>
                     </mesh>
                 </geometry>
             </visual>
@@ -697,7 +697,7 @@
                     <!--
                     <mesh>
                         <scale>1 1 1</scale>
-                        <uri>model://legs_with_upper_body/meshes/collision/COL_unterarm_right.STL</uri>
+                        <uri>model://legs_with_upper_body_simplified/meshes/collision/COL_unterarm_right.STL</uri>
                     </mesh>
                     -->
                 </geometry>
@@ -707,7 +707,7 @@
                 <geometry>
                     <mesh>
                         <scale>1 1 1</scale>
-                        <uri>model://legs_with_upper_body/meshes/visual/VIS_unterarm_right.STL</uri>
+                        <uri>model://legs_with_upper_body_simplified/meshes/visual/VIS_unterarm_right.STL</uri>
                     </mesh>
                 </geometry>
             </visual>

@@ -1,5 +1,5 @@
 <sdf version='1.5'>
-	<model name='arm'>
+	<model name='arm_simplified'>
 	  <link name='arm_holder'>
 			<pose>0 0.31 .3 0 0 0</pose>
 			<inertial>
@@ -48,7 +48,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://arm/meshes/visual/VIS_handflaeche.dae</uri>
+            <uri>model://arm_simplified/meshes/visual/VIS_handflaeche.dae</uri>
           </mesh>
         </geometry>
         <material>
@@ -66,7 +66,7 @@
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://arm/meshes/collision/COL_handflaeche.dae</uri>
+            <uri>model://arm_simplified/meshes/collision/COL_handflaeche.dae</uri>
           </mesh>
         </geometry>
       </collision>
@@ -93,7 +93,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://arm/meshes/visual/VIS_oberarm.dae</uri>
+            <uri>model://arm_simplified/meshes/visual/VIS_oberarm.dae</uri>
           </mesh>
         </geometry>
         <material>
@@ -111,7 +111,7 @@
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://arm/meshes/collision/COL_oberarm.dae</uri>
+            <uri>model://arm_simplified/meshes/collision/COL_oberarm.dae</uri>
           </mesh>
         </geometry>
       </collision>
