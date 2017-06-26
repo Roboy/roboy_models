@@ -1,6 +1,8 @@
 # Robot Models
 Models of Roboy and related robots consisting of meshes and sdfs.
 
+![Roboy Family](https://github.com/Roboy/RoboyVR/blob/develop/Assets/Resources/roboy_evolution.png?raw=true "Roboy Family")
+
 New models can be created for example from Autodesk Fusion CAD files with the SDFusion exporter (https://github.com/Roboy/SDFusion). Models are used for physics Simulation and are pulled from Unity for visualization in Virtual Environment.
 
 
