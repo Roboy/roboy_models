@@ -46,7 +46,3 @@ Folder Structure:
 	   - /collision<br />
 	      - COL_linkX.dae<br />
 	      - ...<br />
-
-
-
-### this repo uses [git-lfs](https://git-lfs.github.com/) for handling the largs stl files
