@@ -64,7 +64,7 @@
 		</link>
 		<link name="cylinder">
 			<pose frame="static_link">-0.007 0.0 0.375 1.5707963267948966 -0.0 1.5707963267948966</pose>
-			<visual name="cylinder">
+			<collision name="cylinder">
 				<geometry>
 					<mesh>
 						<uri>model://myoarm_small/meshes/visual/cylinder.stl</uri>
@@ -81,10 +81,6 @@
 			<axis>
 				<xyz>1.0 0.0 0.0</xyz>
 				<limit>
-<!--
-					<lower>-1.5707963267948966</lower>
-					<upper>1.5707963267948966</upper>
--->
 					<lower>0.0</lower>
 					<upper>0.0</upper>
 				</limit>
@@ -96,19 +92,11 @@
 		<joint name="elbow" type="revolute">
 			<parent>static_link</parent>
 			<child>moving_link</child>
-<!--
-			<pose frame="">-9.278560510240377e-18 1.4412976687738257e-17 0.018 0 0 0</pose>
 
-			<pose frame=""> 0.0 0.375 0.0 0 0 0 </pose>
--->
 			<pose frame="static_link"> 0.0 0.375 0.0 0 0 0 </pose>
 			<axis>
 				<xyz>1.0 0.0 0.0</xyz>
 				<limit>
-<!--
-					<lower>-1.5707963267948966</lower>
-					<upper>1.5707963267948966</upper>
--->
 					<lower>-1.0471975511965976</lower>
 					<upper>1.0471975511965976</upper>
 				</limit>
@@ -116,25 +104,8 @@
 			</axis>
 		</joint>
 
-<!--
-		<transmission name="tran0">
-			 <type>transmission_interface/SimpleTransmission</type>
-			 <joint name="elbow">
-			      <hardwareInterface>PositionJointInterface</hardwareInterface>
-			 </joint>
-			 <actuator name="motor2">
-			      <hardwareInterface>PositionJointInterface</hardwareInterface>
-			      <mechanicalReduction>1</mechanicalReduction>
-			 </actuator>
-		</transmission>
-		
-		<plugin name="control" filename="libgazebo_ros_control.so"/>
-		
-		
-
   	
     	<plugin filename="libroboySim.so" name="roboySim">
-	-->
 		<plugin filename="libWalkController.so" name="walkController">
 	     		<myoMuscle name="motor0">
 	      			<link name="static_link">
@@ -146,29 +117,6 @@
 	      			<link name="moving_link">
 					<viaPoint type="FIXPOINT">0.008450 0.389707 -0.013005</viaPoint>
 	      			</link>
-	<!--
-				<motor>
-					<bemf_constant>0.001488</bemf_constant> 
-					<torque_constant>14.2</torque_constant> 
-					<inductance>0.118</inductance> 
-					<resistance>0.797</resistance> 
-					<inertiaMoment>4.09</inertiaMoment> 
-				</motor>
-				<gear>
-					<ratio>53</ratio>
-					<efficiency>0.59</efficiency>
-					<inertiaMoment>0.4</inertiaMoment> 
-				</gear>
-	       			<spindle>
-					<radius>0.005</radius> 
-	       			</spindle>
-	       			<SEE>
-					<stiffness>1.0</stiffness>
-					
-					<length>0.1</length>
-		 		</SEE>
-				<spanningJoint name="elbow">extensor</spanningJoint>
--->
 			</myoMuscle>
 			<myoMuscle name="motor1">
 	      			<link name="static_link">
@@ -180,29 +128,6 @@
 	      			<link name="moving_link">
 					<viaPoint type="FIXPOINT">-0.007569 0.389273 0.012184</viaPoint>
 	      			</link>
-<!--
-				<motor>
-					<bemf_constant>0.001488</bemf_constant> 
-					<torque_constant>14.2</torque_constant> 
-					<inductance>0.118</inductance> 
-					<resistance>0.797</resistance> 
-					<inertiaMoment>4.09</inertiaMoment> 
-				</motor>
-				<gear>
-					<ratio>53</ratio>
-					<efficiency>0.59</efficiency>
-					<inertiaMoment>0.4</inertiaMoment> 
-				</gear>
-	       			<spindle>
-					<radius>0.005</radius> 
-	       			</spindle>
-	       			<SEE>
-					<stiffness>1.0</stiffness>
-					
-					<length>0.1</length>
-		 		</SEE>
-				<spanningJoint name="elbow">flexor</spanningJoint>
--->
 			</myoMuscle>
 	    	</plugin>
 

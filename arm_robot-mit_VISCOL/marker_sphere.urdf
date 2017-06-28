@@ -1,0 +1,26 @@
+<robot name="marker_sphere">
+  <link name="marker_sphere">
+    <inertial>
+      <mass value="1.0" />
+      <inertia  ixx="1.0" ixy="0.0"  ixz="0.0"  iyy="1.0"  iyz="0.0"  izz="1.0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <sphere radius="0.03" />
+      </geometry>
+    </visual>
+<!--     <collision>
+      <geometry>
+        <sphere radius="0.02" />
+      </geometry>
+    </collision> -->
+    <kinematic>0</kinematic>
+    <gravity>1</gravity>
+    <self_collide>0</self_collide>
+  </link>
+  <!-- <gazebo reference="link1"> -->
+  <gazebo>
+    <static>true</static>
+    <material>Gazebo/Yellow</material>
+  </gazebo>
+</robot>
