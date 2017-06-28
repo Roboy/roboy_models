@@ -71,10 +71,10 @@
 						<scale>0.0005 0.0005 0.005</scale>
 					</mesh>
 				</geometry>
-			</visual>
+			</collision>
 
 		</link>
-		<joint name="cylinder" type="revolute">
+		<joint name="cylinder_joint" type="revolute">
 			<parent>static_link</parent>
 			<child>cylinder</child>
 			<pose frame="static_link"> 0.0 0.375 0.0 0 0 0 </pose>
@@ -89,7 +89,7 @@
  			
 		</joint>
 		
-		<joint name="elbow" type="revolute">
+		<joint name="Rotation MyoJoint" type="revolute">
 			<parent>static_link</parent>
 			<child>moving_link</child>
 
@@ -104,8 +104,7 @@
 			</axis>
 		</joint>
 
-  	
-    	<plugin filename="libroboySim.so" name="roboySim">
+    	
 		<plugin filename="libWalkController.so" name="walkController">
 	     		<myoMuscle name="motor0">
 	      			<link name="static_link">
@@ -130,7 +129,6 @@
 	      			</link>
 			</myoMuscle>
 	    	</plugin>
-
 
 	</model>
 
