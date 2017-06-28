@@ -1,0 +1,135 @@
+<sdf version="1.6">
+	<model name="myoarm_small">
+		<link name="static_link">
+			<pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0001131354427155749 0.04538460749026542 -1.500388376110969e-05 0 0 0</pose>
+				<mass>22.287427485437306</mass>
+				<inertia>
+					<ixx>0.3587508996548991</ixx>
+					<ixy>-0.0006165614742970186</ixy>
+					<ixz>8.156253386987656e-05</ixz>
+					<iyy>0.39743693844524036</iyy>
+					<iyz>0.00019432462885518817</iyz>
+					<izz>0.464460009230258</izz>
+				</inertia>
+			</inertial>
+			<collision name="static_link_collision">
+				<geometry>
+					<mesh>
+						<uri>model://myoarm_small/meshes/collision/COL_static_link.dae</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="static_link_visual">
+				<geometry>
+					<mesh>
+						<uri>model://myoarm_small/meshes/visual/VIS_static_link.dae</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="moving_link">
+			<pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">-2.182096160333867e-05 0.5531020318685964 -1.5930014569144107e-05 0 0 0</pose>
+				<mass>0.4297385541373958</mass>
+				<inertia>
+					<ixx>0.13873853376190265</ixx>
+					<ixy>5.187240982798265e-06</ixy>
+					<ixz>3.870329187521234e-06</ixz>
+					<iyy>0.00010615273423563294</iyy>
+					<iyz>-3.9843991705225996e-08</iyz>
+					<izz>0.1387416296363018</izz>
+				</inertia>
+			</inertial>
+			<collision name="moving_link_collision">
+				<geometry>
+					<mesh>
+						<uri>model://myoarm_small/meshes/collision/COL_moving_link.dae</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="moving_link_visual">
+				<geometry>
+					<mesh>
+						<uri>model://myoarm_small/meshes/visual/VIS_moving_link.dae</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="cylinder">
+			<pose frame="static_link">-0.007 0.0 0.375 1.5707963267948966 -0.0 1.5707963267948966</pose>
+			<collision name="cylinder">
+				<geometry>
+					<mesh>
+						<uri>model://myoarm_small/meshes/visual/cylinder.stl</uri>
+						<scale>0.0005 0.0005 0.005</scale>
+					</mesh>
+				</geometry>
+			</collision>
+
+		</link>
+		<joint name="cylinder_joint" type="revolute">
+			<parent>static_link</parent>
+			<child>cylinder</child>
+			<pose frame="static_link"> 0.0 0.375 0.0 0 0 0 </pose>
+			<axis>
+				<xyz>1.0 0.0 0.0</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.0</upper>
+				</limit>
+				<use_parent_model_frame>1</use_parent_model_frame>
+			</axis>
+ 			
+		</joint>
+		
+		<joint name="Rotation MyoJoint" type="revolute">
+			<parent>static_link</parent>
+			<child>moving_link</child>
+
+			<pose frame="static_link"> 0.0 0.375 0.0 0 0 0 </pose>
+			<axis>
+				<xyz>1.0 0.0 0.0</xyz>
+				<limit>
+					<lower>-1.0471975511965976</lower>
+					<upper>1.0471975511965976</upper>
+				</limit>
+				<use_parent_model_frame>1</use_parent_model_frame>
+			</axis>
+		</joint>
+
+    	
+		<plugin filename="libWalkController.so" name="walkController">
+	     		<myoMuscle name="motor0">
+	      			<link name="static_link">
+	       				<viaPoint type="FIXPOINT">0.002315 0.317291 -0.032632</viaPoint>
+	      			</link>
+				<link name="cylinder">
+           				 <viaPoint type="CYLINDRICAL" radius="0.015" state="1" revCounter="0">0 0 0</viaPoint>
+        			</link>
+	      			<link name="moving_link">
+					<viaPoint type="FIXPOINT">0.008450 0.389707 -0.013005</viaPoint>
+	      			</link>
+			</myoMuscle>
+			<myoMuscle name="motor1">
+	      			<link name="static_link">
+	       				<viaPoint type="FIXPOINT">0.000129 0.318749 0.031225</viaPoint>
+	      			</link>
+				<link name="cylinder">
+           				 <viaPoint type="CYLINDRICAL" radius="0.015" state="1" revCounter="0">0 0 0</viaPoint>
+        			</link>
+	      			<link name="moving_link">
+					<viaPoint type="FIXPOINT">-0.007569 0.389273 0.012184</viaPoint>
+	      			</link>
+			</myoMuscle>
+	    	</plugin>
+
+	</model>
+
+</sdf>
