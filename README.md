@@ -14,6 +14,7 @@ Due to the multifold use of the models, please consider common requirements for 
 
 Files:
 - .STL and additional .DAE file extensions for the modelparts plus a .SDF model file to determine the joints, etc.
+- put the original not reduced CAD files into the meshes/CAD folder
 
 Component Naming:
 - destinct, for example it should be avoided to name parts like thigh1/ 2, they rather should be thigh_left/ _right.
@@ -48,3 +49,4 @@ Folder Structure:
 	   - /collision<br />
 	      - COL_linkX.dae<br />
 	      - ...<br />
+	   - /CAD
