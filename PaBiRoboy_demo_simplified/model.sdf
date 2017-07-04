@@ -1,298 +1,213 @@
+<?xml version="1.0" ?>
 <sdf version="1.6">
-    <model name="PaBiRoboy_demo_simplified">
-        <link name="hip">
-            <pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
-            <inertial>
-                <pose frame="">-0.15002041534933927 1.1716972724158143 -0.5040047115226668 0 0 0</pose>
-                <mass>4.515518105125237</mass>
-                <inertia>
-                    <ixx>7.407739933398221</ixx>
-                    <ixy>0.7937299806675692</ixy>
-                    <ixz>2.666594736599786</ixz>
-                    <iyy>1.286253981870223</iyy>
-                    <iyz>-0.3416972307213158</iyz>
-                    <izz>6.325208064031285</izz>
-                </inertia>
-            </inertial>
-            <collision name="hip_collision">
-                <geometry>
-                    <mesh>
-                        <uri>model://PaBiRoboy_demo_simplified/meshes/collision/COL_hip.STL</uri>
-                        <scale>0.001 0.001 0.001</scale>
-                    </mesh>
-                </geometry>
-            </collision>
-            <visual name="hip_visual">
-                <geometry>
-                    <mesh>
-                        <uri>model://PaBiRoboy_demo_simplified/meshes/visual/VIS_hip.STL</uri>
-                        <scale>0.001 0.001 0.001</scale>
-                    </mesh>
-                </geometry>
-            </visual>
-        </link>
-        <link name="shank_right">
-            <pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
-            <inertial>
-                <pose frame="">-0.1498899919696913 0.11454015564436557 -0.3977472766994466 0 0 0</pose>
-                <mass>2.0625685823803326</mass>
-                <inertia>
-                    <ixx>0.41051160028001255</ixx>
-                    <ixy>0.03536587354463122</ixy>
-                    <ixz>0.09868851688853236</ixz>
-                    <iyy>0.3844693086888858</iyy>
-                    <iyz>-0.12296427581377094</iyz>
-                    <izz>0.13881430150315646</izz>
-                </inertia>
-            </inertial>
-            <collision name="shank_right_collision">
-                <geometry>
-                    <mesh>
-                        <uri>model://PaBiRoboy_demo_simplified/meshes/collision/COL_shank_right.STL</uri>
-                        <scale>0.001 0.001 0.001</scale>
-                    </mesh>
-                </geometry>
-            </collision>
-            <visual name="shank_right_visual">
-                <geometry>
-                    <mesh>
-                        <uri>model://PaBiRoboy_demo_simplified/meshes/visual/VIS_shank_right.STL</uri>
-                        <scale>0.001 0.001 0.001</scale>
-                    </mesh>
-                </geometry>
-            </visual>
-        </link>
-        <link name="thigh_right">
-            <pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
-            <inertial>
-                <pose frame="">-0.14999736092521762 0.7487547394663646 -0.4191048166970805 0 0 0</pose>
-                <mass>2.6030004321947455</mass>
-                <inertia>
-                    <ixx>1.965247721462291</ixx>
-                    <ixy>0.29241453399707795</ixy>
-                    <ixz>0.8176001518602699</ixz>
-                    <iyy>0.5186775209873178</iyy>
-                    <iyz>-0.16376074275087069</iyz>
-                    <izz>1.5640303772254374</izz>
-                </inertia>
-            </inertial>
-            <collision name="thigh_right_collision">
-                <geometry>
-                    <mesh>
-                        <uri>model://PaBiRoboy_demo_simplified/meshes/collision/COL_thigh_right.STL</uri>
-                        <scale>0.001 0.001 0.001</scale>
-                    </mesh>
-                </geometry>
-            </collision>
-            <visual name="thigh_right_visual">
-                <geometry>
-                    <mesh>
-                        <uri>model://PaBiRoboy_demo_simplified/meshes/visual/VIS_thigh_right.STL</uri>
-                        <scale>0.001 0.001 0.001</scale>
-                    </mesh>
-                </geometry>
-            </visual>
-        </link>
-        <link name="shank_left">
-            <pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
-            <inertial>
-                <pose frame="">-0.1503004395037226 0.11454013690016886 -0.6102608068692738 0 0 0</pose>
-                <mass>2.0625684626201046</mass>
-                <inertia>
-                    <ixx>0.8523453884801894</ixx>
-                    <ixy>0.0355531838187655</ixy>
-                    <ixz>0.13945025914903858</ixz>
-                    <iyy>0.8265572509379822</iyy>
-                    <iyz>-0.1891812363603959</iyz>
-                    <izz>0.13906841015606541</izz>
-                </inertia>
-            </inertial>
-            <collision name="shank_left_collision">
-                <geometry>
-                    <mesh>
-                        <uri>model://PaBiRoboy_demo_simplified/meshes/collision/COL_shank_left.STL</uri>
-                        <scale>0.001 0.001 0.001</scale>
-                    </mesh>
-                </geometry>
-            </collision>
-            <visual name="shank_left_visual">
-                <geometry>
-                    <mesh>
-                        <uri>model://PaBiRoboy_demo_simplified/meshes/visual/VIS_shank_left.STL</uri>
-                        <scale>0.001 0.001 0.001</scale>
-                    </mesh>
-                </geometry>
-            </visual>
-        </link>
-        <link name="thigh_left">
-            <pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
-            <inertial>
-                <pose frame="">-0.15014342022873625 0.7487547497997309 -0.5889044407762414 0 0 0</pose>
-                <mass>2.603000551950703</mass>
-                <inertia>
-                    <ixx>2.410775842792121</ixx>
-                    <ixy>0.29256184740247115</ixy>
-                    <ixz>1.1470166148065495</ixz>
-                    <iyy>0.9643193370822432</iyy>
-                    <iyz>-0.23028167935546787</iyz>
-                    <izz>1.5641442977245283</izz>
-                </inertia>
-            </inertial>
-            <collision name="thigh_left_collision">
-                <geometry>
-                    <mesh>
-                        <uri>model://PaBiRoboy_demo_simplified/meshes/collision/COL_thigh_left.STL</uri>
-                        <scale>0.001 0.001 0.001</scale>
-                    </mesh>
-                </geometry>
-            </collision>
-            <visual name="thigh_left_visual">
-                <geometry>
-                    <mesh>
-                        <uri>model://PaBiRoboy_demo_simplified/meshes/visual/VIS_thigh_left.STL</uri>
-                        <scale>0.001 0.001 0.001</scale>
-                    </mesh>
-                </geometry>
-            </visual>
-        </link>
-        <joint name="hip_1" type="revolute">
-            <parent>hip</parent>
-            <child>thigh_right</child>
-            <pose frame="">-0.14742021315326947 1.0234244082948523 -0.41910403188054424 0 0 0</pose>
-            <axis>
-                <xyz>0.9999999999999951 5.068636417698733e-16 -4.612020293685559e-16</xyz>
-                <limit>
-                    <lower>-10.0</lower>
-                    <upper>10.0</upper>
-                </limit>
-                <use_parent_model_frame>0</use_parent_model_frame>
-            </axis>
-        </joint>
-        <joint name="knee_1" type="revolute">
-            <parent>thigh_right</parent>
-            <child>shank_right</child>
-            <pose frame="">-0.14994999999998782 0.48742440829485256 -0.4191040318805473 0 0 0</pose>
-            <axis>
-                <xyz>0.9999999999999927 1.1557058777634089e-15 9.87758344710424e-16</xyz>
-                <limit>
-                    <lower>-10.0</lower>
-                    <upper>10.0</upper>
-                </limit>
-                <use_parent_model_frame>0</use_parent_model_frame>
-            </axis>
-        </joint>
-        <joint name="hip_2" type="revolute">
-            <parent>hip</parent>
-            <child>thigh_left</child>
-            <pose frame="">-0.14762021315326976 1.0234244082948518 -0.5889040318805452 0 0 0</pose>
-            <axis>
-                <xyz>-0.9999999999999909 -2.1451149500899796e-15 -7.752511193481003e-17</xyz>
-                <limit>
-                    <lower>-10.0</lower>
-                    <upper>10.0</upper>
-                </limit>
-                <use_parent_model_frame>0</use_parent_model_frame>
-            </axis>
-        </joint>
-        <joint name="knee_2" type="revolute">
-            <parent>thigh_left</parent>
-            <child>shank_left</child>
-            <pose frame="">-0.1476904263065515 0.48742440829485384 -0.5889040318805463 0 0 0</pose>
-            <axis>
-                <xyz>-0.9999999999999893 -1.393094538353255e-15 -1.2098029496354482e-15</xyz>
-                <limit>
-                    <lower>-10.0</lower>
-                    <upper>10.0</upper>
-                </limit>
-                <use_parent_model_frame>0</use_parent_model_frame>
-            </axis>
-        </joint>
-        <!--
-        <plugin filename="libWalkController.so" name="walkController">
-            <myoMuscle name="motor0">
-                <link name="hip">
-                    <viaPoint type="FIXPOINT">-0.148639 1.162521 -0.384353</viaPoint>
-                </link>
-                <link name="thigh_right">
-                    <viaPoint type="FIXPOINT">-0.150344 0.985622 -0.414871</viaPoint>
-                </link>
-                <spanningJoint name="hip_1">extensor</spanningJoint>
-            </myoMuscle>
-
-            <myoMuscle name="motor1">
-                <link name="hip">
-                    <viaPoint type="FIXPOINT">-0.148543 1.135528 -0.454545</viaPoint>
-                </link>
-                <link name="thigh_right">
-                    <viaPoint type="FIXPOINT">-0.151316 0.993531 -0.444029</viaPoint>
-                </link>
-                <spanningJoint name="hip_1">extensor</spanningJoint>
-            </myoMuscle>
-
-            <myoMuscle name="motor2">
-                <link name="hip">
-                    <viaPoint type="FIXPOINT">-0.152150 1.133932 -0.548977</viaPoint>
-                </link>
-                <link name="thigh_left">
-                    <viaPoint type="FIXPOINT">-0.151930 0.983643 -0.584347</viaPoint>
-                </link>
-                <spanningJoint name="hip_2">extensor</spanningJoint>
-            </myoMuscle>
-
-            <myoMuscle name="motor3">
-                <link name="hip">
-                    <viaPoint type="FIXPOINT">-0.148296 1.158805 -0.628435</viaPoint>
-                </link>
-                <link name="thigh_left">
-                    <viaPoint type="FIXPOINT">-0.153492 0.994259 -0.613671</viaPoint>
-                </link>
-                <spanningJoint name="hip_2">flexor</spanningJoint>
-            </myoMuscle>
-
-            <myoMuscle name="motor4">
-                <link name="thigh_right">
-                    <viaPoint type="FIXPOINT">-0.152466 0.667015 -0.378780</viaPoint>
-                </link>
-                <link name="shank_right">
-                    <viaPoint type="FIXPOINT">-0.151344 0.447012 -0.414533</viaPoint>
-                </link>
-                <spanningJoint name="knee_1">extensor</spanningJoint>
-            </myoMuscle>
-
-            <myoMuscle name="motor5">
-                <link name="thigh_right">
-                    <viaPoint type="FIXPOINT">-0.148231 0.694709 -0.457648</viaPoint>
-                </link>
-                <link name="shank_right">
-                    <viaPoint type="FIXPOINT">-0.149776 0.445015 -0.423157</viaPoint>
-                </link>
-                <spanningJoint name="knee_1">flexor</spanningJoint>
-            </myoMuscle>
-
-            <myoMuscle name="motor6">
-                <link name="thigh_left">
-                    <viaPoint type="FIXPOINT">-0.151904 0.695694 -0.551728</viaPoint>
-                </link>
-                <link name="shank_left">
-                    <viaPoint type="FIXPOINT">-0.151560 0.443761 -0.584468</viaPoint>
-                </link>
-                <spanningJoint name="knee_2">extensor</spanningJoint>
-            </myoMuscle>
-
-            <myoMuscle name="motor7">
-                <link name="thigh_left">
-                    <viaPoint type="FIXPOINT">-0.148867 0.669111 -0.623447</viaPoint>
-                </link>
-                <link name="shank_left">
-                    <viaPoint type="FIXPOINT">-0.148685 0.443278 -0.593450</viaPoint>
-                </link>
-                <spanningJoint name="knee_2">flexor</spanningJoint>
-            </myoMuscle>
-
-            <foot_sole_left>0 0 -0.1085</foot_sole_left>
-            <foot_sole_right>0 0 -0.1085</foot_sole_right>
-        </plugin>
-	-->
-	<plugin name="ForceJointPlugin" filename="libForceJointPlugin.so"/>
-    </model>
+	<model name="PaBiRoboy_simplified">
+		<link name="hip">
+			<pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">-0.15125821162161793 0.8435193516675794 -0.5044157572562253 0 0 0</pose>
+				<mass>4.405541905239567</mass>
+				<inertia>
+					<ixx>4.313798985370431</ixx>
+					<ixy>0.5622255786308064</ixy>
+					<ixz>1.8743765144752222</ixz>
+					<iyy>1.2586475930136802</iyy>
+					<iyz>-0.33644587130654774</iyz>
+					<izz>3.2577165443858265</izz>
+				</inertia>
+			</inertial>
+			<collision name="hip_collision">
+				<geometry>
+					<mesh>
+						<uri>model://PaBiRoboy_simplified/meshes/collision/COL_hip.STL</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="hip_visual">
+				<geometry>
+					<mesh>
+						<uri>model://PaBiRoboy_simplified/meshes/visual/VIS_hip.STL</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="thigh_left">
+			<pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">-0.1500064130667476 0.49904027640246995 -0.4191050675461911 0 0 0</pose>
+				<mass>2.32360802336218</mass>
+				<inertia>
+					<ixx>1.0085621021669475</ixx>
+					<ixy>0.17399921351961514</ixy>
+					<ixz>0.4867446473572951</ixz>
+					<iyy>0.46340216998601674</iyy>
+					<iyz>-0.14620573692253305</iyz>
+					<izz>0.6502660298470969</izz>
+				</inertia>
+			</inertial>
+			<collision name="thigh_left_collision">
+				<geometry>
+					<mesh>
+						<uri>model://PaBiRoboy_simplified/meshes/collision/COL_thigh_left.STL</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="thigh_left_visual">
+				<geometry>
+					<mesh>
+						<uri>model://PaBiRoboy_simplified/meshes/visual/VIS_thigh_left.STL</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="shank_left">
+			<pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">-0.14997129897898462 0.06867833959161324 -0.3955545220342582 0 0 0</pose>
+				<mass>1.8702733137462277</mass>
+				<inertia>
+					<ixx>0.3230345439739656</ixx>
+					<ixy>0.019295738580400342</ixy>
+					<ixz>0.05351150205548587</ixz>
+					<iyy>0.346407226475997</iyy>
+					<iyz>-0.11095117962951102</iyz>
+					<izz>0.08083404930300939</izz>
+				</inertia>
+			</inertial>
+			<collision name="shank_left_collision">
+				<geometry>
+					<mesh>
+						<uri>model://PaBiRoboy_simplified/meshes/collision/COL_shank_left.STL</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="shank_left_visual">
+				<geometry>
+					<mesh>
+						<uri>model://PaBiRoboy_simplified/meshes/visual/VIS_shank_left.STL</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="shank_right">
+			<pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">-0.15025660985577624 0.06867833959161293 -0.6124545596777253 0 0 0</pose>
+				<mass>1.870273313746213</mass>
+				<inertia>
+					<ixx>0.7319457828739452</ixx>
+					<ixy>0.01933010804512573</ixy>
+					<ixz>0.07596494928311523</ixz>
+					<iyy>0.7554786582420415</iyy>
+					<iyz>-0.17210964455917419</iyz>
+					<izz>0.08099424216907215</izz>
+				</inertia>
+			</inertial>
+			<collision name="shank_right_collision">
+				<geometry>
+					<mesh>
+						<uri>model://PaBiRoboy_simplified/meshes/collision/COL_shank_right.STL</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="shank_right_visual">
+				<geometry>
+					<mesh>
+						<uri>model://PaBiRoboy_simplified/meshes/visual/VIS_shank_right.STL</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="thigh_right">
+			<pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">-0.15024683969227431 0.49904027640251786 -0.5889052928097906 0 0 0</pose>
+				<mass>2.323608023363278</mass>
+				<inertia>
+					<ixx>1.4062712213379644</ixx>
+					<ixy>0.1742123320949664</ixy>
+					<ixz>0.6821166910815772</ixz>
+					<iyy>0.8612790275864698</iyy>
+					<iyz>-0.20571955931119765</iyz>
+					<izz>0.650433768277288</izz>
+				</inertia>
+			</inertial>
+			<collision name="thigh_right_collision">
+				<geometry>
+					<mesh>
+						<uri>model://PaBiRoboy_simplified/meshes/collision/COL_thigh_right.STL</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="thigh_right_visual">
+				<geometry>
+					<mesh>
+						<uri>model://PaBiRoboy_simplified/meshes/visual/VIS_thigh_right.STL</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<joint name="Groin_2" type="revolute">
+			<parent>hip</parent>
+			<child>thigh_left</child>
+			<pose frame="">-0.13194999999998636 0.6994244082948534 -0.4191040318805435 0 0 0</pose>
+			<axis>
+				<xyz>-1.0000000000000002 6.66133814775083e-16 8.396061623727715e-16</xyz>
+				<limit>
+					<lower>-1.1344640137963142</lower>
+					<upper>1.1344640137963142</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="Knee_1" type="revolute">
+			<parent>thigh_right</parent>
+			<child>shank_right</child>
+			<pose frame="">-0.13219042630655004 0.3194244082948523 -0.5889040318805461 0 0 0</pose>
+			<axis>
+				<xyz>-1.0000000000000002 6.661338147750264e-16 1.9539925233402755e-14</xyz>
+				<limit>
+					<lower>-1.1344640137963142</lower>
+					<upper>1.1344640137963142</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="Groin_1" type="revolute">
+			<parent>hip</parent>
+			<child>thigh_right</child>
+			<pose frame="">-0.13219042630655092 0.6994244082948515 -0.5889040318805455 0 0 0</pose>
+			<axis>
+				<xyz>-1.0000000000000002 6.661338147750831e-16 1.2473341541195986e-16</xyz>
+				<limit>
+					<lower>-1.1344640137963142</lower>
+					<upper>1.1344640137963142</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="Knee_2" type="revolute">
+			<parent>thigh_left</parent>
+			<child>shank_left</child>
+			<pose frame="">-0.1319499999999862 0.3194244082948532 -0.4191040318805436 0 0 0</pose>
+			<axis>
+				<xyz>-1.0000000000000002 6.661338147750586e-16 1.9539925233402752e-14</xyz>
+				<limit>
+					<lower>-1.1344640137963142</lower>
+					<upper>1.1344640137963142</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<plugin name="ForceJointPlugin" filename="libForceJointPlugin.so"/> 
+	</model>
 </sdf>

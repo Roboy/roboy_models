@@ -208,6 +208,5 @@
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
-		<plugin name="ForceJointPlugin" filename="libForceJointPlugin.so"/> 
 	</model>
 </sdf>
