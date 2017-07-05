@@ -1,6 +1,7 @@
 <?xml version="1.0" ?>
 <sdf version="1.6">
-	<model name="PaBiRoboy_simplified">
+	<model name="PaBiRoboy_demo_simplified">
+		<pose frame="">0 0 0.07 0 0 0</pose> <!-- Raise the model a bit above the ground -->
 		<link name="hip">
 			<pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
 			<inertial>
@@ -18,7 +19,7 @@
 			<collision name="hip_collision">
 				<geometry>
 					<mesh>
-						<uri>model://PaBiRoboy_simplified/meshes/collision/COL_hip.STL</uri>
+						<uri>model://PaBiRoboy_demo_simplified/meshes/collision/COL_hip.STL</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -26,7 +27,7 @@
 			<visual name="hip_visual">
 				<geometry>
 					<mesh>
-						<uri>model://PaBiRoboy_simplified/meshes/visual/VIS_hip.STL</uri>
+						<uri>model://PaBiRoboy_demo_simplified/meshes/visual/VIS_hip.STL</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -49,7 +50,7 @@
 			<collision name="thigh_left_collision">
 				<geometry>
 					<mesh>
-						<uri>model://PaBiRoboy_simplified/meshes/collision/COL_thigh_left.STL</uri>
+						<uri>model://PaBiRoboy_demo_simplified/meshes/collision/COL_thigh_left.STL</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -57,7 +58,7 @@
 			<visual name="thigh_left_visual">
 				<geometry>
 					<mesh>
-						<uri>model://PaBiRoboy_simplified/meshes/visual/VIS_thigh_left.STL</uri>
+						<uri>model://PaBiRoboy_demo_simplified/meshes/visual/VIS_thigh_left.STL</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -80,7 +81,7 @@
 			<collision name="shank_left_collision">
 				<geometry>
 					<mesh>
-						<uri>model://PaBiRoboy_simplified/meshes/collision/COL_shank_left.STL</uri>
+						<uri>model://PaBiRoboy_demo_simplified/meshes/collision/COL_shank_left.STL</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -88,7 +89,7 @@
 			<visual name="shank_left_visual">
 				<geometry>
 					<mesh>
-						<uri>model://PaBiRoboy_simplified/meshes/visual/VIS_shank_left.STL</uri>
+						<uri>model://PaBiRoboy_demo_simplified/meshes/visual/VIS_shank_left.STL</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -111,7 +112,7 @@
 			<collision name="shank_right_collision">
 				<geometry>
 					<mesh>
-						<uri>model://PaBiRoboy_simplified/meshes/collision/COL_shank_right.STL</uri>
+						<uri>model://PaBiRoboy_demo_simplified/meshes/collision/COL_shank_right.STL</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -119,7 +120,7 @@
 			<visual name="shank_right_visual">
 				<geometry>
 					<mesh>
-						<uri>model://PaBiRoboy_simplified/meshes/visual/VIS_shank_right.STL</uri>
+						<uri>model://PaBiRoboy_demo_simplified/meshes/visual/VIS_shank_right.STL</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -142,7 +143,7 @@
 			<collision name="thigh_right_collision">
 				<geometry>
 					<mesh>
-						<uri>model://PaBiRoboy_simplified/meshes/collision/COL_thigh_right.STL</uri>
+						<uri>model://PaBiRoboy_demo_simplified/meshes/collision/COL_thigh_right.STL</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -150,13 +151,26 @@
 			<visual name="thigh_right_visual">
 				<geometry>
 					<mesh>
-						<uri>model://PaBiRoboy_simplified/meshes/visual/VIS_thigh_right.STL</uri>
+						<uri>model://PaBiRoboy_demo_simplified/meshes/visual/VIS_thigh_right.STL</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
 			</visual>
 		</link>
-		<joint name="Groin_2" type="revolute">
+		<!-- Joint attached to world and head to hang roboy -->
+		<joint name="world" type="revolute">
+			<child>hip</child>
+			<parent>world</parent>
+			<axis>
+				<xyz>0 0 1</xyz>
+				<limit>
+					<lower>-2</lower>
+					<upper>2</upper>
+				</limit>
+				<use_parent_model_frame>1</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="Groin_left" type="revolute">
 			<parent>hip</parent>
 			<child>thigh_left</child>
 			<pose frame="">-0.13194999999998636 0.6994244082948534 -0.4191040318805435 0 0 0</pose>
@@ -169,7 +183,7 @@
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
-		<joint name="Knee_1" type="revolute">
+		<joint name="Knee_right" type="revolute">
 			<parent>thigh_right</parent>
 			<child>shank_right</child>
 			<pose frame="">-0.13219042630655004 0.3194244082948523 -0.5889040318805461 0 0 0</pose>
@@ -182,7 +196,7 @@
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
-		<joint name="Groin_1" type="revolute">
+		<joint name="Groin_right" type="revolute">
 			<parent>hip</parent>
 			<child>thigh_right</child>
 			<pose frame="">-0.13219042630655092 0.6994244082948515 -0.5889040318805455 0 0 0</pose>
@@ -195,7 +209,7 @@
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
-		<joint name="Knee_2" type="revolute">
+		<joint name="Knee_left" type="revolute">
 			<parent>thigh_left</parent>
 			<child>shank_left</child>
 			<pose frame="">-0.1319499999999862 0.3194244082948532 -0.4191040318805436 0 0 0</pose>

@@ -156,7 +156,7 @@
 				</geometry>
 			</visual>
 		</link>
-		<joint name="Groin_2" type="revolute">
+		<joint name="Groin_left" type="revolute">
 			<parent>hip</parent>
 			<child>thigh_left</child>
 			<pose frame="">-0.13194999999998636 0.6994244082948534 -0.4191040318805435 0 0 0</pose>
@@ -169,7 +169,7 @@
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
-		<joint name="Knee_1" type="revolute">
+		<joint name="Knee_right" type="revolute">
 			<parent>thigh_right</parent>
 			<child>shank_right</child>
 			<pose frame="">-0.13219042630655004 0.3194244082948523 -0.5889040318805461 0 0 0</pose>
@@ -182,7 +182,7 @@
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
-		<joint name="Groin_1" type="revolute">
+		<joint name="Groin_right" type="revolute">
 			<parent>hip</parent>
 			<child>thigh_right</child>
 			<pose frame="">-0.13219042630655092 0.6994244082948515 -0.5889040318805455 0 0 0</pose>
@@ -195,7 +195,7 @@
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
-		<joint name="Knee_2" type="revolute">
+		<joint name="Knee_left" type="revolute">
 			<parent>thigh_left</parent>
 			<child>shank_left</child>
 			<pose frame="">-0.1319499999999862 0.3194244082948532 -0.4191040318805436 0 0 0</pose>
