@@ -157,7 +157,7 @@
 				</geometry>
 			</visual>
 		</link>
-		<!-- Joint attached to world and head to hang roboy -->
+		<!-- Joint attached to world and head to hang roboy 
 		<joint name="world" type="revolute">
 			<child>hip</child>
 			<parent>world</parent>
@@ -169,7 +169,7 @@
 				</limit>
 				<use_parent_model_frame>1</use_parent_model_frame>
 			</axis>
-		</joint>
+		</joint>-->
 		<joint name="Groin_left" type="revolute">
 			<parent>hip</parent>
 			<child>thigh_left</child>
