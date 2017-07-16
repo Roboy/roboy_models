@@ -1,6 +1,6 @@
 <sdf version="1.6">
     <model name="Roboy_with_camera_simplified">
-	<pose frame="">0 0 0.07 0 0 0</pose> <!-- Raise the model a bit above the ground -->
+	<pose frame="">0 0 0.5 0 0 0</pose> <!-- Raise the model a bit above the ground -->
         <link name="head">
             <pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
             <inertial>
@@ -286,6 +286,21 @@
                     </mesh>
                 </geometry>
             </visual>
+        </link>
+	 <link name="neck_spinal">
+            <pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
+            <inertial>
+                <pose frame="">0.09400963779130236 1.1145439008414686 -0.12221543504591355 0 0 0</pose>
+                <mass>1.6462451767691393</mass>
+                <inertia>
+                    <ixx>2.0714214198873426</ixx>
+                    <ixy>-0.17263070731077843</ixy>
+                    <ixz>0.22396648157174293</ixz>
+                    <iyy>0.04082084486448143</iyy>
+                    <iyz>0.019035330800297543</iyz>
+                    <izz>2.0619578483866134</izz>
+                </inertia>
+            </inertial>
         </link>
         <link name="neck_cross">
             <pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
@@ -597,19 +612,6 @@
                 </geometry>
             </visual>
         </link>
-	<!-- Joint attached to world and head to hang roboy -->
-	<joint name="world" type="revolute">
-            <child>head</child>
-            <parent>world</parent>
-            <axis>
-                <xyz>0 0 1</xyz>
-                <limit>
-                    <lower>-2</lower>
-                    <upper>2</upper>
-                </limit>
-                <use_parent_model_frame>1</use_parent_model_frame>
-            </axis>
-        </joint>
         <joint name="groin_right" type="revolute">
             <parent>hip</parent>
             <child>gelenkhuelse_1</child>
@@ -710,8 +712,8 @@
             <axis>
                 <xyz>0.9874563440720607 0.0159207172525726 -0.157087553020614</xyz>
                 <limit>
-                    <lower>0.6981317007977318</lower>
-                    <upper>0.8726646259971648</upper>
+                    <lower>-3.14</lower>
+                    <upper>3.14</upper>
                 </limit>
                 <use_parent_model_frame>0</use_parent_model_frame>
             </axis>
@@ -723,25 +725,38 @@
             <axis>
                 <xyz>-0.15466800819155507 -0.10249843223063884 -0.9826351706672822</xyz>
                 <limit>
-                    <lower>-0.08726646259971647</lower>
-                    <upper>0.08726646259971647</upper>
+                    <lower>-3.14</lower>
+                    <upper>3.14</upper>
                 </limit>
                 <use_parent_model_frame>0</use_parent_model_frame>
             </axis>
         </joint>
         <joint name="neck_3" type="revolute">
-            <parent>neck</parent>
-            <child>head</child>
+            <parent>neck_spinal</parent>
+            <child>neck</child>
             <pose frame="">0.09077982748342897 1.095449113374699 -0.13614395769410764 0 0 0</pose>
             <axis>
-                <xyz>-0.03174548462218767 0.9946057521211239 -0.09875030153714766</xyz>
+                <xyz>0 1 0</xyz>
                 <limit>
-                    <lower>-0.6108652381980153</lower>
-                    <upper>0.6108652381980153</upper>
+                    <lower>-6.28</lower>
+                    <upper>6.28</upper>
                 </limit>
                 <use_parent_model_frame>0</use_parent_model_frame>
             </axis>
         </joint>
+	<joint name="neck_4" type="revolute">
+	<parent>head</parent>
+        <child>neck_spinal</child>
+	<pose frame="">0.09077982748342897 1.095449113374699 -0.13614395769410764 0 0 0</pose>
+	 <axis>
+                <xyz>1 0 0</xyz>
+                <limit>
+                    <lower>-3.14</lower>
+                    <upper>3.14</upper>
+                </limit>
+                <use_parent_model_frame>0</use_parent_model_frame>
+         </axis>
+	</joint>
         <joint name="ankle_left" type="revolute">
             <parent>shank_left</parent>
             <child>fuss_links</child>
@@ -959,5 +974,6 @@
                 <use_parent_model_frame>0</use_parent_model_frame>
             </axis>
         </joint>
+	<plugin name="ForceJointPlugin" filename="libForceJointPlugin.so"/> 
     </model>
 </sdf>
