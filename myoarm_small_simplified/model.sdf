@@ -2,9 +2,9 @@
 	<model name="myoarm_small_simplified">
 		<self_collide>1</self_collide>
 		<link name="static_link">
-			<pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
+			<pose>0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
 			<inertial>
-				<pose frame="">0.0001131354427155749 0.04538460749026542 -1.500388376110969e-05 0 0 0</pose>
+				<pose>0.0001131354427155749 0.04538460749026542 -1.500388376110969e-05 0 0 0</pose>
 				<mass>22.287427485437306</mass>
 				<inertia>
 					<ixx>0.3587508996548991</ixx>
@@ -33,9 +33,9 @@
 			</visual>
 		</link>
 		<link name="moving_link">
-			<pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
+			<pose>0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
 			<inertial>
-				<pose frame="">-2.182096160333867e-05 0.5531020318685964 -1.5930014569144107e-05 0 0 0</pose>
+				<pose>-2.182096160333867e-05 0.5531020318685964 -1.5930014569144107e-05 0 0 0</pose>
 				<mass>0.4297385541373958</mass>
 				<inertia>
 					<ixx>0.13873853376190265</ixx>
@@ -79,7 +79,7 @@
 		<joint name="cylinder" type="revolute">
 			<parent>static_link</parent>
 			<child>cylinder</child>
-			<pose frame="static_link"> 0.0 0.375 0.0 0 0 0 </pose>
+			<pose> 0.0 0.375 0.0 1.5707963267948966 0 0 </pose>
 			<axis>
 				<xyz>1.0 0.0 0.0</xyz>
 				<limit>
@@ -95,7 +95,7 @@
 			<parent>static_link</parent>
 			<child>moving_link</child>
 
-			<pose frame="static_link"> 0.0 0.375 0.0 0 0 0 </pose>
+			<pose> 0.0 0.375 0.0 1.5707963267948966 0 0 </pose>
 			<axis>
 				<xyz>1.0 0.0 0.0</xyz>
 				<limit>
@@ -107,7 +107,7 @@
 		</joint>
 
 
-		<plugin filename="libWalkController.so" name="walkController">
+		<!--<plugin filename="libWalkController.so" name="walkController">
 	     		<myoMuscle name="motor0">
 	      			<link name="static_link">
 	       				<viaPoint type="FIXPOINT">0.002315 0.317291 -0.032632</viaPoint>
@@ -130,7 +130,7 @@
 					<viaPoint type="FIXPOINT">-0.007569 0.389273 0.012184</viaPoint>
 	      			</link>
 			</myoMuscle>
-	    	</plugin>
+	    	</plugin>-->
 
 
 	</model>
