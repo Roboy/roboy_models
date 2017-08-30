@@ -1,6 +1,6 @@
 <sdf version="1.6">
     <model name="Roboy_with_camera_simplified">
-	<pose frame="">0 0 0.5 0 0 0</pose> <!-- Raise the model a bit above the ground -->
+	<pose frame="">0 0 0.2 0 0 0 </pose><!-- Raise the model a bit above the ground -->
         <link name="head">
             <pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
             <inertial>
@@ -31,8 +31,8 @@
                     </mesh>
                 </geometry>
             </visual>
-		<sensor type="camera" name="camera">
-	      <update_rate>1.0</update_rate>
+	      <sensor type="camera" name="camera">
+	      <update_rate>3.0</update_rate>
 	      <camera name="head">
 		<pose>0 1.25 0 -1.5707963267948966 -1.5707963267948966 0</pose>
 		<horizontal_fov>1.6962634</horizontal_fov>
@@ -49,7 +49,7 @@
 		  <type>gaussian</type>
 		  <!-- Noise is sampled independently per pixel on each frame.
 		       That pixel's noise value is added to each of its color
-		       channels, which at that point lie in the range [0,1]. -->
+		       channels, which at that point lie in the range [0,1].-->
 		  <mean>0.0</mean>
 		  <stddev>0.007</stddev>
 		</noise>
@@ -656,10 +656,18 @@
                 </geometry>
             </visual>
         </link>
-        <joint name="spine_1" type="fixed">
+        <joint name="spine_1" type="revolute">
             <parent>hip</parent>
             <child>vertebrae_1</child>
             <pose frame="">0.09974461307728277 0.5499794246452868 -0.13716796598225173 0 0 0</pose>
+            <axis>
+                <xyz>0 1 0</xyz>
+         	<!--<limit>
+                    <lower>-6.29</lower>
+                    <upper>6.27</upper>
+                </limit> -->
+                <use_parent_model_frame>0</use_parent_model_frame>
+            </axis>
         </joint>
         <joint name="groin_left" type="revolute">
             <parent>hip</parent>
@@ -732,21 +740,21 @@
             </axis>
         </joint>
         <joint name="neck_3" type="revolute">
-            <parent>neck_spinal</parent>
-            <child>neck</child>
+            <child>neck_spinal</child>
+            <parent>neck</parent>
             <pose frame="">0.09077982748342897 1.095449113374699 -0.13614395769410764 0 0 0</pose>
             <axis>
                 <xyz>0 1 0</xyz>
-                <limit>
-                    <lower>-6.28</lower>
-                    <upper>6.28</upper>
-                </limit>
+         	<!--<limit>
+                    <lower>-6.29</lower>
+                    <upper>6.27</upper>
+                </limit> -->
                 <use_parent_model_frame>0</use_parent_model_frame>
             </axis>
         </joint>
 	<joint name="neck_4" type="revolute">
-	<parent>head</parent>
-        <child>neck_spinal</child>
+        <child>head</child>
+	<parent>neck_spinal</parent>
 	<pose frame="">0.09077982748342897 1.095449113374699 -0.13614395769410764 0 0 0</pose>
 	 <axis>
                 <xyz>1 0 0</xyz>
@@ -974,6 +982,6 @@
                 <use_parent_model_frame>0</use_parent_model_frame>
             </axis>
         </joint>
-	<plugin name="ForceJointPlugin" filename="libForceJointPlugin.so"/> 
+	<plugin name = "BeRoboyPlugin" filename="libBeRoboyPlugin.so"/>
     </model>
 </sdf>
