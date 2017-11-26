@@ -1,0 +1,158 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+	<model name="NSTarm">
+		<link name="base">
+			<pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.23957826975414778 -0.004040446160037024 -0.30163977848606577 0 0 0</pose>
+				<mass>4.577961140921012</mass>
+				<inertia>
+					<ixx>0.6964976209856915</ixx>
+					<ixy>0.004041223051748152</ixy>
+					<ixz>-0.005206946489626636</ixz>
+					<iyy>1.0200578188137353</iyy>
+					<iyz>0.3312447261471792</iyz>
+					<izz>0.3252572774699192</izz>
+				</inertia>
+			</inertial>
+			<collision name="base_collision">
+				<geometry>
+					<mesh>
+						<uri>model://NSTarm/meshes/base.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="base_visual">
+				<geometry>
+					<mesh>
+						<uri>model://NSTarm/meshes/base.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="lower_arm">
+			<pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.23737205590921293 0.27591787207170543 -0.2992617958638198 0 0 0</pose>
+				<mass>1.7573168608238663</mass>
+				<inertia>
+					<ixx>0.3213335074348704</ixx>
+					<ixy>-0.11485512940177463</ixy>
+					<ixz>0.14463721748348382</ixz>
+					<iyy>0.2573357353660149</iyy>
+					<iyz>0.12507356292200264</iyz>
+					<izz>0.2626063819727675</izz>
+				</inertia>
+			</inertial>
+			<collision name="lower_arm_collision">
+				<geometry>
+					<mesh>
+						<uri>model://NSTarm/meshes/lower_arm.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="lower_arm_visual">
+				<geometry>
+					<mesh>
+						<uri>model://NSTarm/meshes/lower_arm.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="upper_arm">
+			<pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.237723061141606 0.6046420482757356 -0.2989874993015608 0 0 0</pose>
+				<mass>0.7435346715572383</mass>
+				<inertia>
+					<ixx>0.3495231703784415</ixx>
+					<ixy>-0.10688751288992271</ixy>
+					<ixz>0.13441767658443032</ixz>
+					<iyy>0.10859018120250422</iyy>
+					<iyz>0.052847657617424056</iyz>
+					<izz>0.3250869683166376</izz>
+				</inertia>
+			</inertial>
+			<collision name="upper_arm_collision">
+				<geometry>
+					<mesh>
+						<uri>model://NSTarm/meshes/upper_arm.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="upper_arm_visual">
+				<geometry>
+					<mesh>
+						<uri>model://NSTarm/meshes/upper_arm.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<joint name="lower_joint" type="revolute">
+			<parent>base</parent>
+			<child>lower_arm</child>
+			<pose frame="">0.2625 0.0406606601686496 -0.3019999999999999 0 0 0</pose>
+			<axis>
+				<xyz>-1.0 8.88178419700125e-16 -2.38764662138316e-16</xyz>
+				<limit>
+					<lower>-1.0471975511965976</lower>
+					<upper>1.0471975511965976</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="upper_joint" type="revolute">
+			<parent>upper_arm</parent>
+			<child>lower_arm</child>
+			<pose frame="">0.24819999999999945 0.4668886315706825 -0.2989543108037381 0 0 0</pose>
+			<axis>
+				<xyz>1.0000000000000002 -9.575673587391975e-16 8.881784197001252e-16</xyz>
+				<limit>
+					<lower>-1.5707963267948966</lower>
+					<upper>1.5707963267948966</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<plugin filename="libmyomuscle_plugin.so" name="myomuscle_plugin">
+			<myoMuscle name="motor0">
+				<link name="base">
+					<viaPoint type="FIXPOINT">0.23714276917425314 0.01844528288015354 -0.16798947334569903</viaPoint>
+				</link>
+				<link name="lower">
+					<viaPoint type="FIXPOINT">0.23871195257306102 0.11088746394825187 -0.297893650815676</viaPoint>
+				</link>
+			</myoMuscle>
+			<myoMuscle name="motor1">
+				<link name="base">
+					<viaPoint type="FIXPOINT">0.23591778456875856 0.019595096578522802 -0.43101001499812663</viaPoint>
+				</link>
+				<link name="lower">
+					<viaPoint type="FIXPOINT">0.23871195257306102 0.11088746394825187 -0.306893650815676</viaPoint>
+				</link>
+			</myoMuscle>
+			<myoMuscle name="motor2">
+				<link name="lower">
+					<viaPoint type="FIXPOINT">0.23611778456875904 0.3591506464198291 -0.2760589879821637</viaPoint>
+				</link>
+				<link name="upper">
+					<viaPoint type="FIXPOINT">0.23970019557733968 0.4806687350960076 -0.2827244526742986</viaPoint>
+				</link>
+			</myoMuscle>
+			<myoMuscle name="motor3">
+				<link name="lower">
+					<viaPoint type="FIXPOINT">0.2398822154312414 0.33415064641983044 -0.3318496339891881</viaPoint>
+				</link>
+				<link name="upper">
+					<viaPoint type="FIXPOINT">0.2397001955773397 0.48066873509600755 -0.3151841689331776</viaPoint>
+				</link>
+			</myoMuscle>
+		</plugin>
+	</model>
+</sdf>
