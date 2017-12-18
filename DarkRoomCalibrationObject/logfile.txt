@@ -1,0 +1,4 @@
+0	Component: calibrationObject:1
+				Body: Body1
+0	Component: lighthouse_sensor v10:23
+				Body: Body1
