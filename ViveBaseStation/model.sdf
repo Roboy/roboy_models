@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+	<model name="ViveBaseStation">
+		<link name="ViveBaseStation">
+			<pose frame="">0.0 0.0 0.0 0.0 0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0 0 0 0 0 0</pose>
+				<mass>0.001</mass>
+				<inertia>
+					<ixx>0.001</ixx>
+					<ixy>0.001</ixy>
+					<ixz>0.001</ixz>
+					<iyy>0.001</iyy>
+					<iyz>0.001</iyz>
+					<izz>0.001</izz>
+				</inertia>
+			</inertial>
+			<collision name="ViveBaseStation_collision">
+				<geometry>
+					<mesh>
+						<uri>model://ViveBaseStation/meshes/CAD/ViveBaseStation.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="ViveBaseStation_visual">
+				<geometry>
+					<mesh>
+						<uri>model://ViveBaseStation/meshes/CAD/ViveBaseStation.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+				<plugin name="LighthouseVisualPlugin" filename="libLighthouseVisualPlugin.so"/>
+			</visual>
+		</link>
+	</model>
+</sdf>
