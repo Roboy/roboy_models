@@ -1424,14 +1424,29 @@
 				Body: Body1
 				Body: Body2
 0	Component: Xylophone:1
+1	Component: Key_A:1
 				Body: Body1
-				Body: Body2
-				Body: Body3
-				Body: Body4
-				Body: Body5
-0	Component: Stick:1
+1	Component: Key_B:1
 				Body: Body1
-0	Component: Stick:2
+1	Component: Key_C:1
+				Body: Body1
+1	Component: Key_D:1
+				Body: Body1
+1	Component: Key_E:1
+				Body: Body1
+0	Component: Xylophone_Stick v1:1
+				Body: Body1
+0	Component: Xylophone_Stick v1 (1):2
+				Body: Body1
+0	Component: Key_A:1
+				Body: Body1
+0	Component: Key_B:1
+				Body: Body1
+0	Component: Key_C:1
+				Body: Body1
+0	Component: Key_D:1
+				Body: Body1
+0	Component: Key_E:1
 				Body: Body1
 0	Component: head_lower_neck_main_body v2:1
 				Body: Body1
@@ -1754,14 +1769,29 @@
 				Body: Body1
 				Body: Body2
 0	Component: Xylophone:1
+1	Component: Key_A:1
 				Body: Body1
-				Body: Body2
-				Body: Body3
-				Body: Body4
-				Body: Body5
-0	Component: Stick:1
+1	Component: Key_B:1
 				Body: Body1
-0	Component: Stick:2
+1	Component: Key_C:1
+				Body: Body1
+1	Component: Key_D:1
+				Body: Body1
+1	Component: Key_E:1
+				Body: Body1
+0	Component: Xylophone_Stick v1:1
+				Body: Body1
+0	Component: Xylophone_Stick v1 (1):2
+				Body: Body1
+0	Component: Key_A:1
+				Body: Body1
+0	Component: Key_B:1
+				Body: Body1
+0	Component: Key_C:1
+				Body: Body1
+0	Component: Key_D:1
+				Body: Body1
+0	Component: Key_E:1
 				Body: Body1
 0	Component: Head_Shell_Main v141:1
 				Body: Body1

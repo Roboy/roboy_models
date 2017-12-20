@@ -159,15 +159,15 @@
 		<link name="xylophone">
 			<pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
 			<inertial>
-				<pose frame="">-0.03624204740681731 0.09448965922044814 0.4085648545260684 0 0 0</pose>
-				<mass>10.024615682458322</mass>
+				<pose frame="">0.08542006905058443 0.05810365371245605 0.41016486313194 0 0 0</pose>
+				<mass>16.89336568245832</mass>
 				<inertia>
-					<ixx>1.9763747394099773</ixx>
-					<ixy>0.29337388138669623</ixy>
-					<ixz>-0.3793183047355787</ixz>
-					<iyy>2.283735561980973</iyy>
-					<iyz>0.1370457418445115</iyz>
-					<izz>0.8590948554267476</izz>
+					<ixx>3.1714799998266447</ixx>
+					<ixy>-0.04085639136195328</ixy>
+					<ixz>-0.3934851016105787</ixz>
+					<iyy>3.8136085768896035</iyy>
+					<iyz>-0.5937715789869452</iyz>
+					<izz>1.1943205265853776</izz>
 				</inertia>
 			</inertial>
 			<collision name="xylophone_collision">
@@ -190,14 +190,14 @@
 		<link name="head">
 			<pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
 			<inertial>
-				<pose frame="">0.026117252197405454 0.6445895428517184 -0.07955038899526541 0 0 0</pose>
+				<pose frame="">0.026117252197405447 0.6445895428517184 -0.07955038899526541 0 0 0</pose>
 				<mass>19.451383457723413</mass>
 				<inertia>
-					<ixx>8.449661011283913</ixx>
+					<ixx>8.449661011283915</ixx>
 					<ixy>-0.3300412477283012</ixy>
-					<ixz>1.0028274528099066</ixz>
+					<ixz>1.0028274528099068</ixz>
 					<iyy>0.32714376051840144</iyy>
-					<iyz>0.0397787258565029</iyz>
+					<iyz>0.03977872585650288</iyz>
 					<izz>8.357433654381174</izz>
 				</inertia>
 			</inertial>
@@ -218,6 +218,32 @@
 				</geometry>
 			</visual>
 		</link>
+		<joint name="neck" type="revolute">
+			<parent>torso</parent>
+			<child>head</child>
+			<pose frame="">0.024999999999999967 0.510514627904387 -0.07500000000000012 0 0 0</pose>
+			<axis>
+				<xyz>-0.9999999999999993 1.2246467991473505e-16 -6.123233995736772e-17</xyz>
+				<limit>
+					<lower>-0.5235987755982988</lower>
+					<upper>-0.0</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="elbow_right" type="revolute">
+			<parent>upper_arm_right</parent>
+			<child>lower_arm_right</child>
+			<pose frame="">-0.37823672288337945 0.05176763999042153 -0.07001511820344772 0 0 0</pose>
+			<axis>
+				<xyz>-0.9063077870366526 0.422618261740698 1.3526011560063936e-15</xyz>
+				<limit>
+					<lower>-0.0</lower>
+					<upper>1.5707963267948966</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
 		<joint name="elbow_left" type="revolute">
 			<parent>upper_arm_left</parent>
 			<child>lower_arm_left</child>
@@ -241,31 +267,10 @@
 			<child>upper_arm_right</child>
 			<pose frame="">-0.2669999999999994 0.33219733006283036 -0.07501511820306705 0 0 0</pose>
 		</joint>
-		<joint name="elbow_right" type="revolute">
-			<parent>upper_arm_right</parent>
-			<child>lower_arm_right</child>
-			<pose frame="">-0.37823672288337945 0.05176763999042153 -0.07001511820344772 0 0 0</pose>
-			<axis>
-				<xyz>-0.9063077870366526 0.422618261740698 1.3526011560063936e-15</xyz>
-				<limit>
-					<lower>-0.0</lower>
-					<upper>1.5707963267948966</upper>
-				</limit>
-				<use_parent_model_frame>0</use_parent_model_frame>
-			</axis>
-		</joint>
-		<joint name="neck" type="revolute">
+		<joint name="torso_xylophone" type="fixed">
 			<parent>torso</parent>
-			<child>head</child>
-			<pose frame="">0.024999999999999967 0.510514627904387 -0.07500000000000012 0 0 0</pose>
-			<axis>
-				<xyz>-0.9999999999999993 1.2246467991473505e-16 -6.123233995736772e-17</xyz>
-				<limit>
-					<lower>-0.5235987755982988</lower>
-					<upper>-0.0</upper>
-				</limit>
-				<use_parent_model_frame>0</use_parent_model_frame>
-			</axis>
+			<child>xylophone</child>
+			<pose frame="">0.025 0.06 -0.07499999999999997 0 0 0</pose>
 		</joint>
 		<plugin filename="libmyomuscle_plugin.so" name="myomuscle_plugin">
 			<myoMuscle name="motor0">
