@@ -1,6 +1,18 @@
 <?xml version="1.0" ?>
 <sdf version="1.6">
 	<model name="Roboy2.0_Upper_Body_Xylophone_simplified">
+        <joint name="fixed in Air" type="revolute">
+            <parent>world</parent>
+            <child>xylophone</child>
+            <axis>
+                <xyz>0 0 0</xyz>
+                <limit>
+                    <lower>0</lower>
+                    <upper>0</upper>
+                </limit>
+                <use_parent_model_frame>0</use_parent_model_frame>
+            </axis>
+        </joint>
 		<link name="torso">
 			<pose frame="">0.0 0.0 0.0 1.5707963267948966 -0.0 0.0</pose>
 			<inertial>
