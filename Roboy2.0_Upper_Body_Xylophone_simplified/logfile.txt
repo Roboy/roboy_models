@@ -1,0 +1,2335 @@
+0	Component: head_lower_neck_main_body v2:1
+				Body: Body1
+0	Component: 100N_myoBrick_simplified v1:3
+				Body: Body1
+				Body: Body2
+0	Component: FPGA Board v18:1
+				Body: Body1
+				Body: Body2
+				Body: Body3
+				Body: Body4
+				Body: Body5
+				Body: Body6
+				Body: Body7
+				Body: Body8
+				Body: Body9
+				Body: Body10
+				Body: Body11
+				Body: Body12
+				Body: Body13
+				Body: Body14
+				Body: Body15
+				Body: Body16
+				Body: Body17
+				Body: Body18
+				Body: Body19
+0	Component: Ball Knob Assembly:1
+1	Component: Scheibe_M6 v2:1
+				Body: Body1
+1	Component: Scheibe_M6 v2:2
+				Body: Body1
+1	Component: M6x30_Zylinderschraube v1:1
+				Body: Body1
+1	Component: Ball_Knob_Smooth_DIN319 v15:1
+				Body: Body1
+				Body: Body2
+				Body: Body3
+				Body: Body4
+0	Component: head_FPGA_mount v3:1
+				Body: Body1
+0	Component: Torso_simplified v5:1
+1	Component: BoschProfile_20X20_1 v10:1
+				Body: Body1
+1	Component: BoschProfile_20X20_2 v4:1
+				Body: Body1
+1	Component: C_Torso-UpperArm_T v88:1
+2	Component: Shoulder:1
+				Body: Body1
+1	Component: BoschProfile_20X20_3 v4:1
+				Body: Body1
+1	Component: BoschProfile_20X20_4 v4:1
+				Body: Body1
+1	Component: Torso1:1
+				Body: Body1
+1	Component: Torso2:1
+				Body: Body1
+1	Component: MSIUMI MBFA-15-1:1
+				Body: Body1
+1	Component: MSIUMI MBFA-15-1 (1):1
+				Body: Body1
+1	Component: MSIUMI MBFA-15-1 (2):1
+				Body: Body1
+1	Component: MSIUMI MBFA-15-1 (3):1
+				Body: Body1
+1	Component: BoschProfile_20X20_1 v9(Mirror):1
+				Body: Body1
+1	Component: pulley v3(Mirror):1
+				Body: Body1
+1	Component: Torso1(Mirror):1
+				Body: Body1
+1	Component: Torso2(Mirror):1
+				Body: Body1
+1	Component: BoschProfile_20X20_2 v3(Mirror):1
+				Body: Body1
+1	Component: BoschProfile_20X20_4 v3(Mirror):1
+				Body: Body1
+1	Component: BoschProfile_20X20_3 v3(Mirror):1
+				Body: Body1
+1	Component: C_Torso-UpperArm_T v88(Mirror):1
+2	Component: Shoulder(Mirror) (1):1
+				Body: Body1
+1	Component: pulley v3(Mirror) (1):1
+				Body: Body1
+1	Component: pulley v3(Mirror) (2):1
+				Body: Body1
+1	Component: pulley v3(Mirror) (3):1
+				Body: Body1
+0	Component: Scheibe_M6 v2:1
+				Body: Body1
+0	Component: Scheibe_M6 v2:2
+				Body: Body1
+0	Component: M6x30_Zylinderschraube v1:1
+				Body: Body1
+0	Component: Ball_Knob_Smooth_DIN319 v15:1
+				Body: Body1
+				Body: Body2
+				Body: Body3
+				Body: Body4
+0	Component: BoschProfile_20X20_1 v10:1
+				Body: Body1
+0	Component: BoschProfile_20X20_2 v4:1
+				Body: Body1
+0	Component: Shoulder:1
+				Body: Body1
+0	Component: C_Torso-UpperArm_T v88:1
+1	Component: Shoulder:1
+				Body: Body1
+0	Component: BoschProfile_20X20_3 v4:1
+				Body: Body1
+0	Component: BoschProfile_20X20_4 v4:1
+				Body: Body1
+0	Component: Torso1:1
+				Body: Body1
+0	Component: Torso2:1
+				Body: Body1
+0	Component: MSIUMI MBFA-15-1:1
+				Body: Body1
+0	Component: MSIUMI MBFA-15-1 (1):1
+				Body: Body1
+0	Component: MSIUMI MBFA-15-1 (2):1
+				Body: Body1
+0	Component: MSIUMI MBFA-15-1 (3):1
+				Body: Body1
+0	Component: BoschProfile_20X20_1 v9(Mirror):1
+				Body: Body1
+0	Component: pulley v3(Mirror):1
+				Body: Body1
+0	Component: Torso1(Mirror):1
+				Body: Body1
+0	Component: Torso2(Mirror):1
+				Body: Body1
+0	Component: BoschProfile_20X20_2 v3(Mirror):1
+				Body: Body1
+0	Component: BoschProfile_20X20_4 v3(Mirror):1
+				Body: Body1
+0	Component: BoschProfile_20X20_3 v3(Mirror):1
+				Body: Body1
+0	Component: Shoulder(Mirror) (1):1
+				Body: Body1
+0	Component: C_Torso-UpperArm_T v88(Mirror):1
+1	Component: Shoulder(Mirror) (1):1
+				Body: Body1
+0	Component: pulley v3(Mirror) (1):1
+				Body: Body1
+0	Component: pulley v3(Mirror) (2):1
+				Body: Body1
+0	Component: pulley v3(Mirror) (3):1
+				Body: Body1
+0	Component: Component2:1
+				Body: Body1
+0	Component: Component6:1
+				Body: Body1
+0	Component: Component3:1
+				Body: Body1
+0	Component: Component4:1
+				Body: Body1
+0	Component: Component5 (1):1
+				Body: Body1
+0	Component: matrix_creator v3:1
+				Body: Body1
+				Body: Body2
+				Body: Body3
+				Body: Body4
+				Body: Body5
+				Body: Body6
+				Body: Body7
+0	Component: 100N_myoBrick_simplified v1 (4):1
+				Body: Body1
+				Body: Body2
+0	Component: 100N_myoBrick_simplified v1 (3):1
+				Body: Body1
+				Body: Body2
+0	Component: 100N_myoBrick_simplified v1 (5):1
+				Body: Body1
+				Body: Body2
+0	Component: head_lower_neck_main_body v2:1
+				Body: Body1
+0	Component: 100N_myoBrick_simplified v1:3
+				Body: Body1
+				Body: Body2
+0	Component: FPGA Board v18:1
+				Body: Body1
+				Body: Body2
+				Body: Body3
+				Body: Body4
+				Body: Body5
+				Body: Body6
+				Body: Body7
+				Body: Body8
+				Body: Body9
+				Body: Body10
+				Body: Body11
+				Body: Body12
+				Body: Body13
+				Body: Body14
+				Body: Body15
+				Body: Body16
+				Body: Body17
+				Body: Body18
+				Body: Body19
+0	Component: Ball Knob Assembly:1
+1	Component: Scheibe_M6 v2:1
+				Body: Body1
+1	Component: Scheibe_M6 v2:2
+				Body: Body1
+1	Component: M6x30_Zylinderschraube v1:1
+				Body: Body1
+1	Component: Ball_Knob_Smooth_DIN319 v15:1
+				Body: Body1
+				Body: Body2
+				Body: Body3
+				Body: Body4
+0	Component: head_FPGA_mount v3:1
+				Body: Body1
+0	Component: Torso_simplified v5:1
+1	Component: BoschProfile_20X20_1 v10:1
+				Body: Body1
+1	Component: BoschProfile_20X20_2 v4:1
+				Body: Body1
+1	Component: C_Torso-UpperArm_T v88:1
+2	Component: Shoulder:1
+				Body: Body1
+1	Component: BoschProfile_20X20_3 v4:1
+				Body: Body1
+1	Component: BoschProfile_20X20_4 v4:1
+				Body: Body1
+1	Component: Torso1:1
+				Body: Body1
+1	Component: Torso2:1
+				Body: Body1
+1	Component: MSIUMI MBFA-15-1:1
+				Body: Body1
+1	Component: MSIUMI MBFA-15-1 (1):1
+				Body: Body1
+1	Component: MSIUMI MBFA-15-1 (2):1
+				Body: Body1
+1	Component: MSIUMI MBFA-15-1 (3):1
+				Body: Body1
+1	Component: BoschProfile_20X20_1 v9(Mirror):1
+				Body: Body1
+1	Component: pulley v3(Mirror):1
+				Body: Body1
+1	Component: Torso1(Mirror):1
+				Body: Body1
+1	Component: Torso2(Mirror):1
+				Body: Body1
+1	Component: BoschProfile_20X20_2 v3(Mirror):1
+				Body: Body1
+1	Component: BoschProfile_20X20_4 v3(Mirror):1
+				Body: Body1
+1	Component: BoschProfile_20X20_3 v3(Mirror):1
+				Body: Body1
+1	Component: C_Torso-UpperArm_T v88(Mirror):1
+2	Component: Shoulder(Mirror) (1):1
+				Body: Body1
+1	Component: pulley v3(Mirror) (1):1
+				Body: Body1
+1	Component: pulley v3(Mirror) (2):1
+				Body: Body1
+1	Component: pulley v3(Mirror) (3):1
+				Body: Body1
+0	Component: Scheibe_M6 v2:1
+				Body: Body1
+0	Component: Scheibe_M6 v2:2
+				Body: Body1
+0	Component: M6x30_Zylinderschraube v1:1
+				Body: Body1
+0	Component: Ball_Knob_Smooth_DIN319 v15:1
+				Body: Body1
+				Body: Body2
+				Body: Body3
+				Body: Body4
+0	Component: BoschProfile_20X20_1 v10:1
+				Body: Body1
+0	Component: BoschProfile_20X20_2 v4:1
+				Body: Body1
+0	Component: Shoulder:1
+				Body: Body1
+0	Component: C_Torso-UpperArm_T v88:1
+1	Component: Shoulder:1
+				Body: Body1
+0	Component: BoschProfile_20X20_3 v4:1
+				Body: Body1
+0	Component: BoschProfile_20X20_4 v4:1
+				Body: Body1
+0	Component: Torso1:1
+				Body: Body1
+0	Component: Torso2:1
+				Body: Body1
+0	Component: MSIUMI MBFA-15-1:1
+				Body: Body1
+0	Component: MSIUMI MBFA-15-1 (1):1
+				Body: Body1
+0	Component: MSIUMI MBFA-15-1 (2):1
+				Body: Body1
+0	Component: MSIUMI MBFA-15-1 (3):1
+				Body: Body1
+0	Component: BoschProfile_20X20_1 v9(Mirror):1
+				Body: Body1
+0	Component: pulley v3(Mirror):1
+				Body: Body1
+0	Component: Torso1(Mirror):1
+				Body: Body1
+0	Component: Torso2(Mirror):1
+				Body: Body1
+0	Component: BoschProfile_20X20_2 v3(Mirror):1
+				Body: Body1
+0	Component: BoschProfile_20X20_4 v3(Mirror):1
+				Body: Body1
+0	Component: BoschProfile_20X20_3 v3(Mirror):1
+				Body: Body1
+0	Component: Shoulder(Mirror) (1):1
+				Body: Body1
+0	Component: C_Torso-UpperArm_T v88(Mirror):1
+1	Component: Shoulder(Mirror) (1):1
+				Body: Body1
+0	Component: pulley v3(Mirror) (1):1
+				Body: Body1
+0	Component: pulley v3(Mirror) (2):1
+				Body: Body1
+0	Component: pulley v3(Mirror) (3):1
+				Body: Body1
+0	Component: Component2:1
+				Body: Body1
+0	Component: Component6:1
+				Body: Body1
+0	Component: Component3:1
+				Body: Body1
+0	Component: Component4:1
+				Body: Body1
+0	Component: Component5 (1):1
+				Body: Body1
+0	Component: matrix_creator v3:1
+				Body: Body1
+				Body: Body2
+				Body: Body3
+				Body: Body4
+				Body: Body5
+				Body: Body6
+				Body: Body7
+0	Component: 100N_myoBrick_simplified v1 (4):1
+				Body: Body1
+				Body: Body2
+0	Component: 100N_myoBrick_simplified v1 (3):1
+				Body: Body1
+				Body: Body2
+0	Component: 100N_myoBrick_simplified v1 (5):1
+				Body: Body1
+				Body: Body2
+0	Component: Forearm_simplified v1:1
+				Body: Body1
+0	Component: Elbow_high(Mirror):1
+				Body: Body1
+0	Component: head_lower_neck_main_body v2:1
+				Body: Body1
+0	Component: 100N_myoBrick_simplified v1:3
+				Body: Body1
+				Body: Body2
+0	Component: FPGA Board v18:1
+				Body: Body1
+				Body: Body2
+				Body: Body3
+				Body: Body4
+				Body: Body5
+				Body: Body6
+				Body: Body7
+				Body: Body8
+				Body: Body9
+				Body: Body10
+				Body: Body11
+				Body: Body12
+				Body: Body13
+				Body: Body14
+				Body: Body15
+				Body: Body16
+				Body: Body17
+				Body: Body18
+				Body: Body19
+0	Component: Ball Knob Assembly:1
+1	Component: Scheibe_M6 v2:1
+				Body: Body1
+1	Component: Scheibe_M6 v2:2
+				Body: Body1
+1	Component: M6x30_Zylinderschraube v1:1
+				Body: Body1
+1	Component: Ball_Knob_Smooth_DIN319 v15:1
+				Body: Body1
+				Body: Body2
+				Body: Body3
+				Body: Body4
+0	Component: head_FPGA_mount v3:1
+				Body: Body1
+0	Component: Torso_simplified v5:1
+1	Component: BoschProfile_20X20_1 v10:1
+				Body: Body1
+1	Component: BoschProfile_20X20_2 v4:1
+				Body: Body1
+1	Component: C_Torso-UpperArm_T v88:1
+2	Component: Shoulder:1
+				Body: Body1
+1	Component: BoschProfile_20X20_3 v4:1
+				Body: Body1
+1	Component: BoschProfile_20X20_4 v4:1
+				Body: Body1
+1	Component: Torso1:1
+				Body: Body1
+1	Component: Torso2:1
+				Body: Body1
+1	Component: MSIUMI MBFA-15-1:1
+				Body: Body1
+1	Component: MSIUMI MBFA-15-1 (1):1
+				Body: Body1
+1	Component: MSIUMI MBFA-15-1 (2):1
+				Body: Body1
+1	Component: MSIUMI MBFA-15-1 (3):1
+				Body: Body1
+1	Component: BoschProfile_20X20_1 v9(Mirror):1
+				Body: Body1
+1	Component: pulley v3(Mirror):1
+				Body: Body1
+1	Component: Torso1(Mirror):1
+				Body: Body1
+1	Component: Torso2(Mirror):1
+				Body: Body1
+1	Component: BoschProfile_20X20_2 v3(Mirror):1
+				Body: Body1
+1	Component: BoschProfile_20X20_4 v3(Mirror):1
+				Body: Body1
+1	Component: BoschProfile_20X20_3 v3(Mirror):1
+				Body: Body1
+1	Component: C_Torso-UpperArm_T v88(Mirror):1
+2	Component: Shoulder(Mirror) (1):1
+				Body: Body1
+1	Component: pulley v3(Mirror) (1):1
+				Body: Body1
+1	Component: pulley v3(Mirror) (2):1
+				Body: Body1
+1	Component: pulley v3(Mirror) (3):1
+				Body: Body1
+0	Component: Scheibe_M6 v2:1
+				Body: Body1
+0	Component: Scheibe_M6 v2:2
+				Body: Body1
+0	Component: M6x30_Zylinderschraube v1:1
+				Body: Body1
+0	Component: Ball_Knob_Smooth_DIN319 v15:1
+				Body: Body1
+				Body: Body2
+				Body: Body3
+				Body: Body4
+0	Component: BoschProfile_20X20_1 v10:1
+				Body: Body1
+0	Component: BoschProfile_20X20_2 v4:1
+				Body: Body1
+0	Component: Shoulder:1
+				Body: Body1
+0	Component: C_Torso-UpperArm_T v88:1
+1	Component: Shoulder:1
+				Body: Body1
+0	Component: BoschProfile_20X20_3 v4:1
+				Body: Body1
+0	Component: BoschProfile_20X20_4 v4:1
+				Body: Body1
+0	Component: Torso1:1
+				Body: Body1
+0	Component: Torso2:1
+				Body: Body1
+0	Component: MSIUMI MBFA-15-1:1
+				Body: Body1
+0	Component: MSIUMI MBFA-15-1 (1):1
+				Body: Body1
+0	Component: MSIUMI MBFA-15-1 (2):1
+				Body: Body1
+0	Component: MSIUMI MBFA-15-1 (3):1
+				Body: Body1
+0	Component: BoschProfile_20X20_1 v9(Mirror):1
+				Body: Body1
+0	Component: pulley v3(Mirror):1
+				Body: Body1
+0	Component: Torso1(Mirror):1
+				Body: Body1
+0	Component: Torso2(Mirror):1
+				Body: Body1
+0	Component: BoschProfile_20X20_2 v3(Mirror):1
+				Body: Body1
+0	Component: BoschProfile_20X20_4 v3(Mirror):1
+				Body: Body1
+0	Component: BoschProfile_20X20_3 v3(Mirror):1
+				Body: Body1
+0	Component: Shoulder(Mirror) (1):1
+				Body: Body1
+0	Component: C_Torso-UpperArm_T v88(Mirror):1
+1	Component: Shoulder(Mirror) (1):1
+				Body: Body1
+0	Component: pulley v3(Mirror) (1):1
+				Body: Body1
+0	Component: pulley v3(Mirror) (2):1
+				Body: Body1
+0	Component: pulley v3(Mirror) (3):1
+				Body: Body1
+0	Component: Component2:1
+				Body: Body1
+0	Component: Component6:1
+				Body: Body1
+0	Component: Component3:1
+				Body: Body1
+0	Component: Component4:1
+				Body: Body1
+0	Component: Component5 (1):1
+				Body: Body1
+0	Component: matrix_creator v3:1
+				Body: Body1
+				Body: Body2
+				Body: Body3
+				Body: Body4
+				Body: Body5
+				Body: Body6
+				Body: Body7
+0	Component: 100N_myoBrick_simplified v1 (4):1
+				Body: Body1
+				Body: Body2
+0	Component: 100N_myoBrick_simplified v1 (3):1
+				Body: Body1
+				Body: Body2
+0	Component: 100N_myoBrick_simplified v1 (5):1
+				Body: Body1
+				Body: Body2
+0	Component: Forearm_simplified v1:1
+				Body: Body1
+0	Component: Elbow_high(Mirror):1
+				Body: Body1
+0	Component: Forearm_simplified v1 (1):2
+				Body: Body1
+0	Component: Elbow_high:1
+				Body: Body1
+0	Component: head_lower_neck_main_body v2:1
+				Body: Body1
+0	Component: 100N_myoBrick_simplified v1:3
+				Body: Body1
+				Body: Body2
+0	Component: FPGA Board v18:1
+				Body: Body1
+				Body: Body2
+				Body: Body3
+				Body: Body4
+				Body: Body5
+				Body: Body6
+				Body: Body7
+				Body: Body8
+				Body: Body9
+				Body: Body10
+				Body: Body11
+				Body: Body12
+				Body: Body13
+				Body: Body14
+				Body: Body15
+				Body: Body16
+				Body: Body17
+				Body: Body18
+				Body: Body19
+0	Component: Ball Knob Assembly:1
+1	Component: Scheibe_M6 v2:1
+				Body: Body1
+1	Component: Scheibe_M6 v2:2
+				Body: Body1
+1	Component: M6x30_Zylinderschraube v1:1
+				Body: Body1
+1	Component: Ball_Knob_Smooth_DIN319 v15:1
+				Body: Body1
+				Body: Body2
+				Body: Body3
+				Body: Body4
+0	Component: head_FPGA_mount v3:1
+				Body: Body1
+0	Component: Torso_simplified v5:1
+1	Component: BoschProfile_20X20_1 v10:1
+				Body: Body1
+1	Component: BoschProfile_20X20_2 v4:1
+				Body: Body1
+1	Component: C_Torso-UpperArm_T v88:1
+2	Component: Shoulder:1
+				Body: Body1
+1	Component: BoschProfile_20X20_3 v4:1
+				Body: Body1
+1	Component: BoschProfile_20X20_4 v4:1
+				Body: Body1
+1	Component: Torso1:1
+				Body: Body1
+1	Component: Torso2:1
+				Body: Body1
+1	Component: MSIUMI MBFA-15-1:1
+				Body: Body1
+1	Component: MSIUMI MBFA-15-1 (1):1
+				Body: Body1
+1	Component: MSIUMI MBFA-15-1 (2):1
+				Body: Body1
+1	Component: MSIUMI MBFA-15-1 (3):1
+				Body: Body1
+1	Component: BoschProfile_20X20_1 v9(Mirror):1
+				Body: Body1
+1	Component: pulley v3(Mirror):1
+				Body: Body1
+1	Component: Torso1(Mirror):1
+				Body: Body1
+1	Component: Torso2(Mirror):1
+				Body: Body1
+1	Component: BoschProfile_20X20_2 v3(Mirror):1
+				Body: Body1
+1	Component: BoschProfile_20X20_4 v3(Mirror):1
+				Body: Body1
+1	Component: BoschProfile_20X20_3 v3(Mirror):1
+				Body: Body1
+1	Component: C_Torso-UpperArm_T v88(Mirror):1
+2	Component: Shoulder(Mirror) (1):1
+				Body: Body1
+1	Component: pulley v3(Mirror) (1):1
+				Body: Body1
+1	Component: pulley v3(Mirror) (2):1
+				Body: Body1
+1	Component: pulley v3(Mirror) (3):1
+				Body: Body1
+0	Component: Scheibe_M6 v2:1
+				Body: Body1
+0	Component: Scheibe_M6 v2:2
+				Body: Body1
+0	Component: M6x30_Zylinderschraube v1:1
+				Body: Body1
+0	Component: Ball_Knob_Smooth_DIN319 v15:1
+				Body: Body1
+				Body: Body2
+				Body: Body3
+				Body: Body4
+0	Component: BoschProfile_20X20_1 v10:1
+				Body: Body1
+0	Component: BoschProfile_20X20_2 v4:1
+				Body: Body1
+0	Component: Shoulder:1
+				Body: Body1
+0	Component: C_Torso-UpperArm_T v88:1
+1	Component: Shoulder:1
+				Body: Body1
+0	Component: BoschProfile_20X20_3 v4:1
+				Body: Body1
+0	Component: BoschProfile_20X20_4 v4:1
+				Body: Body1
+0	Component: Torso1:1
+				Body: Body1
+0	Component: Torso2:1
+				Body: Body1
+0	Component: MSIUMI MBFA-15-1:1
+				Body: Body1
+0	Component: MSIUMI MBFA-15-1 (1):1
+				Body: Body1
+0	Component: MSIUMI MBFA-15-1 (2):1
+				Body: Body1
+0	Component: MSIUMI MBFA-15-1 (3):1
+				Body: Body1
+0	Component: BoschProfile_20X20_1 v9(Mirror):1
+				Body: Body1
+0	Component: pulley v3(Mirror):1
+				Body: Body1
+0	Component: Torso1(Mirror):1
+				Body: Body1
+0	Component: Torso2(Mirror):1
+				Body: Body1
+0	Component: BoschProfile_20X20_2 v3(Mirror):1
+				Body: Body1
+0	Component: BoschProfile_20X20_4 v3(Mirror):1
+				Body: Body1
+0	Component: BoschProfile_20X20_3 v3(Mirror):1
+				Body: Body1
+0	Component: Shoulder(Mirror) (1):1
+				Body: Body1
+0	Component: C_Torso-UpperArm_T v88(Mirror):1
+1	Component: Shoulder(Mirror) (1):1
+				Body: Body1
+0	Component: pulley v3(Mirror) (1):1
+				Body: Body1
+0	Component: pulley v3(Mirror) (2):1
+				Body: Body1
+0	Component: pulley v3(Mirror) (3):1
+				Body: Body1
+0	Component: Component2:1
+				Body: Body1
+0	Component: Component6:1
+				Body: Body1
+0	Component: Component3:1
+				Body: Body1
+0	Component: Component4:1
+				Body: Body1
+0	Component: Component5 (1):1
+				Body: Body1
+0	Component: matrix_creator v3:1
+				Body: Body1
+				Body: Body2
+				Body: Body3
+				Body: Body4
+				Body: Body5
+				Body: Body6
+				Body: Body7
+0	Component: 100N_myoBrick_simplified v1 (4):1
+				Body: Body1
+				Body: Body2
+0	Component: 100N_myoBrick_simplified v1 (3):1
+				Body: Body1
+				Body: Body2
+0	Component: 100N_myoBrick_simplified v1 (5):1
+				Body: Body1
+				Body: Body2
+0	Component: Forearm_simplified v1:1
+				Body: Body1
+0	Component: Elbow_high(Mirror):1
+				Body: Body1
+0	Component: Forearm_simplified v1 (1):2
+				Body: Body1
+0	Component: Elbow_high:1
+				Body: Body1
+0	Component: upper_arm_simplified v1 (1):2
+1	Component: upperarm_profile v2 v6 (1):2
+				Body: Body1
+1	Component: 2xMuscleCE+AluHolder_For_Upper_Arm v17 (1):2
+2	Component: Adapter-2xMuscle-Alu20x20-front v4 v14 (1):3
+3	Component: Adapter-Muskel-Boschprofil-plan-vorne v1 (1):4
+				Body: Body1
+2	Component: Adapter-2xMuscle-AluProfile20x20-back v3 v11 (1):3
+3	Component: Adapter-Muskel-Boschprofil-plan-hinten v1 (1):4
+				Body: Body1
+1	Component: Adapter_Ball (1):1
+				Body: Body1
+1	Component: newBall_DIN 319_pressFitting v11 (1):2
+				Body: Body1
+1	Component: 500N_MyoMuscle_simplified v1 (2):2
+				Body: Body1
+				Body: Body2
+				Body: Body3
+1	Component: 500N_MyoMuscle_simplified v1 (1) (1):3
+				Body: Body1
+				Body: Body2
+				Body: Body3
+1	Component: 100N_myoBrick_simplified v1 (2):2
+				Body: Body1
+				Body: Body2
+1	Component: 100N_myoBrick_simplified v1 (1) (2):3
+				Body: Body1
+				Body: Body2
+0	Component: upperarm_profile v2 v6 (1):2
+				Body: Body1
+0	Component: Adapter-Muskel-Boschprofil-plan-vorne v1 (1):4
+				Body: Body1
+0	Component: Adapter-2xMuscle-Alu20x20-front v4 v14 (1):3
+1	Component: Adapter-Muskel-Boschprofil-plan-vorne v1 (1):4
+				Body: Body1
+0	Component: Adapter-Muskel-Boschprofil-plan-hinten v1 (1):4
+				Body: Body1
+0	Component: Adapter-2xMuscle-AluProfile20x20-back v3 v11 (1):3
+1	Component: Adapter-Muskel-Boschprofil-plan-hinten v1 (1):4
+				Body: Body1
+0	Component: 2xMuscleCE+AluHolder_For_Upper_Arm v17 (1):2
+1	Component: Adapter-2xMuscle-Alu20x20-front v4 v14 (1):3
+2	Component: Adapter-Muskel-Boschprofil-plan-vorne v1 (1):4
+				Body: Body1
+1	Component: Adapter-2xMuscle-AluProfile20x20-back v3 v11 (1):3
+2	Component: Adapter-Muskel-Boschprofil-plan-hinten v1 (1):4
+				Body: Body1
+0	Component: Adapter_Ball (1):1
+				Body: Body1
+0	Component: newBall_DIN 319_pressFitting v11 (1):2
+				Body: Body1
+0	Component: 500N_MyoMuscle_simplified v1 (2):2
+				Body: Body1
+				Body: Body2
+				Body: Body3
+0	Component: 500N_MyoMuscle_simplified v1 (1) (1):3
+				Body: Body1
+				Body: Body2
+				Body: Body3
+0	Component: 100N_myoBrick_simplified v1 (2):2
+				Body: Body1
+				Body: Body2
+0	Component: 100N_myoBrick_simplified v1 (1) (2):3
+				Body: Body1
+				Body: Body2
+0	Component: Elbow_low_outer:1
+				Body: Body1
+0	Component: Elbow_low_fork:1
+				Body: Body1
+0	Component: head_lower_neck_main_body v2:1
+				Body: Body1
+0	Component: 100N_myoBrick_simplified v1:3
+				Body: Body1
+				Body: Body2
+0	Component: FPGA Board v18:1
+				Body: Body1
+				Body: Body2
+				Body: Body3
+				Body: Body4
+				Body: Body5
+				Body: Body6
+				Body: Body7
+				Body: Body8
+				Body: Body9
+				Body: Body10
+				Body: Body11
+				Body: Body12
+				Body: Body13
+				Body: Body14
+				Body: Body15
+				Body: Body16
+				Body: Body17
+				Body: Body18
+				Body: Body19
+0	Component: Ball Knob Assembly:1
+1	Component: Scheibe_M6 v2:1
+				Body: Body1
+1	Component: Scheibe_M6 v2:2
+				Body: Body1
+1	Component: M6x30_Zylinderschraube v1:1
+				Body: Body1
+1	Component: Ball_Knob_Smooth_DIN319 v15:1
+				Body: Body1
+				Body: Body2
+				Body: Body3
+				Body: Body4
+0	Component: head_FPGA_mount v3:1
+				Body: Body1
+0	Component: Torso_simplified v5:1
+1	Component: BoschProfile_20X20_1 v10:1
+				Body: Body1
+1	Component: BoschProfile_20X20_2 v4:1
+				Body: Body1
+1	Component: C_Torso-UpperArm_T v88:1
+2	Component: Shoulder:1
+				Body: Body1
+1	Component: BoschProfile_20X20_3 v4:1
+				Body: Body1
+1	Component: BoschProfile_20X20_4 v4:1
+				Body: Body1
+1	Component: Torso1:1
+				Body: Body1
+1	Component: Torso2:1
+				Body: Body1
+1	Component: MSIUMI MBFA-15-1:1
+				Body: Body1
+1	Component: MSIUMI MBFA-15-1 (1):1
+				Body: Body1
+1	Component: MSIUMI MBFA-15-1 (2):1
+				Body: Body1
+1	Component: MSIUMI MBFA-15-1 (3):1
+				Body: Body1
+1	Component: BoschProfile_20X20_1 v9(Mirror):1
+				Body: Body1
+1	Component: pulley v3(Mirror):1
+				Body: Body1
+1	Component: Torso1(Mirror):1
+				Body: Body1
+1	Component: Torso2(Mirror):1
+				Body: Body1
+1	Component: BoschProfile_20X20_2 v3(Mirror):1
+				Body: Body1
+1	Component: BoschProfile_20X20_4 v3(Mirror):1
+				Body: Body1
+1	Component: BoschProfile_20X20_3 v3(Mirror):1
+				Body: Body1
+1	Component: C_Torso-UpperArm_T v88(Mirror):1
+2	Component: Shoulder(Mirror) (1):1
+				Body: Body1
+1	Component: pulley v3(Mirror) (1):1
+				Body: Body1
+1	Component: pulley v3(Mirror) (2):1
+				Body: Body1
+1	Component: pulley v3(Mirror) (3):1
+				Body: Body1
+0	Component: Scheibe_M6 v2:1
+				Body: Body1
+0	Component: Scheibe_M6 v2:2
+				Body: Body1
+0	Component: M6x30_Zylinderschraube v1:1
+				Body: Body1
+0	Component: Ball_Knob_Smooth_DIN319 v15:1
+				Body: Body1
+				Body: Body2
+				Body: Body3
+				Body: Body4
+0	Component: BoschProfile_20X20_1 v10:1
+				Body: Body1
+0	Component: BoschProfile_20X20_2 v4:1
+				Body: Body1
+0	Component: Shoulder:1
+				Body: Body1
+0	Component: C_Torso-UpperArm_T v88:1
+1	Component: Shoulder:1
+				Body: Body1
+0	Component: BoschProfile_20X20_3 v4:1
+				Body: Body1
+0	Component: BoschProfile_20X20_4 v4:1
+				Body: Body1
+0	Component: Torso1:1
+				Body: Body1
+0	Component: Torso2:1
+				Body: Body1
+0	Component: MSIUMI MBFA-15-1:1
+				Body: Body1
+0	Component: MSIUMI MBFA-15-1 (1):1
+				Body: Body1
+0	Component: MSIUMI MBFA-15-1 (2):1
+				Body: Body1
+0	Component: MSIUMI MBFA-15-1 (3):1
+				Body: Body1
+0	Component: BoschProfile_20X20_1 v9(Mirror):1
+				Body: Body1
+0	Component: pulley v3(Mirror):1
+				Body: Body1
+0	Component: Torso1(Mirror):1
+				Body: Body1
+0	Component: Torso2(Mirror):1
+				Body: Body1
+0	Component: BoschProfile_20X20_2 v3(Mirror):1
+				Body: Body1
+0	Component: BoschProfile_20X20_4 v3(Mirror):1
+				Body: Body1
+0	Component: BoschProfile_20X20_3 v3(Mirror):1
+				Body: Body1
+0	Component: Shoulder(Mirror) (1):1
+				Body: Body1
+0	Component: C_Torso-UpperArm_T v88(Mirror):1
+1	Component: Shoulder(Mirror) (1):1
+				Body: Body1
+0	Component: pulley v3(Mirror) (1):1
+				Body: Body1
+0	Component: pulley v3(Mirror) (2):1
+				Body: Body1
+0	Component: pulley v3(Mirror) (3):1
+				Body: Body1
+0	Component: Component2:1
+				Body: Body1
+0	Component: Component6:1
+				Body: Body1
+0	Component: Component3:1
+				Body: Body1
+0	Component: Component4:1
+				Body: Body1
+0	Component: Component5 (1):1
+				Body: Body1
+0	Component: matrix_creator v3:1
+				Body: Body1
+				Body: Body2
+				Body: Body3
+				Body: Body4
+				Body: Body5
+				Body: Body6
+				Body: Body7
+0	Component: 100N_myoBrick_simplified v1 (4):1
+				Body: Body1
+				Body: Body2
+0	Component: 100N_myoBrick_simplified v1 (3):1
+				Body: Body1
+				Body: Body2
+0	Component: 100N_myoBrick_simplified v1 (5):1
+				Body: Body1
+				Body: Body2
+0	Component: Forearm_simplified v1:1
+				Body: Body1
+0	Component: Elbow_high(Mirror):1
+				Body: Body1
+0	Component: Forearm_simplified v1 (1):2
+				Body: Body1
+0	Component: Elbow_high:1
+				Body: Body1
+0	Component: upper_arm_simplified v1 (1):2
+1	Component: upperarm_profile v2 v6 (1):2
+				Body: Body1
+1	Component: 2xMuscleCE+AluHolder_For_Upper_Arm v17 (1):2
+2	Component: Adapter-2xMuscle-Alu20x20-front v4 v14 (1):3
+3	Component: Adapter-Muskel-Boschprofil-plan-vorne v1 (1):4
+				Body: Body1
+2	Component: Adapter-2xMuscle-AluProfile20x20-back v3 v11 (1):3
+3	Component: Adapter-Muskel-Boschprofil-plan-hinten v1 (1):4
+				Body: Body1
+1	Component: Adapter_Ball (1):1
+				Body: Body1
+1	Component: newBall_DIN 319_pressFitting v11 (1):2
+				Body: Body1
+1	Component: 500N_MyoMuscle_simplified v1 (2):2
+				Body: Body1
+				Body: Body2
+				Body: Body3
+1	Component: 500N_MyoMuscle_simplified v1 (1) (1):3
+				Body: Body1
+				Body: Body2
+				Body: Body3
+1	Component: 100N_myoBrick_simplified v1 (2):2
+				Body: Body1
+				Body: Body2
+1	Component: 100N_myoBrick_simplified v1 (1) (2):3
+				Body: Body1
+				Body: Body2
+0	Component: upperarm_profile v2 v6 (1):2
+				Body: Body1
+0	Component: Adapter-Muskel-Boschprofil-plan-vorne v1 (1):4
+				Body: Body1
+0	Component: Adapter-2xMuscle-Alu20x20-front v4 v14 (1):3
+1	Component: Adapter-Muskel-Boschprofil-plan-vorne v1 (1):4
+				Body: Body1
+0	Component: Adapter-Muskel-Boschprofil-plan-hinten v1 (1):4
+				Body: Body1
+0	Component: Adapter-2xMuscle-AluProfile20x20-back v3 v11 (1):3
+1	Component: Adapter-Muskel-Boschprofil-plan-hinten v1 (1):4
+				Body: Body1
+0	Component: 2xMuscleCE+AluHolder_For_Upper_Arm v17 (1):2
+1	Component: Adapter-2xMuscle-Alu20x20-front v4 v14 (1):3
+2	Component: Adapter-Muskel-Boschprofil-plan-vorne v1 (1):4
+				Body: Body1
+1	Component: Adapter-2xMuscle-AluProfile20x20-back v3 v11 (1):3
+2	Component: Adapter-Muskel-Boschprofil-plan-hinten v1 (1):4
+				Body: Body1
+0	Component: Adapter_Ball (1):1
+				Body: Body1
+0	Component: newBall_DIN 319_pressFitting v11 (1):2
+				Body: Body1
+0	Component: 500N_MyoMuscle_simplified v1 (2):2
+				Body: Body1
+				Body: Body2
+				Body: Body3
+0	Component: 500N_MyoMuscle_simplified v1 (1) (1):3
+				Body: Body1
+				Body: Body2
+				Body: Body3
+0	Component: 100N_myoBrick_simplified v1 (2):2
+				Body: Body1
+				Body: Body2
+0	Component: 100N_myoBrick_simplified v1 (1) (2):3
+				Body: Body1
+				Body: Body2
+0	Component: Elbow_low_outer:1
+				Body: Body1
+0	Component: Elbow_low_fork:1
+				Body: Body1
+0	Component: upper_arm_simplified v1:1
+1	Component: upperarm_profile v2 v6:2
+				Body: Body1
+1	Component: 2xMuscleCE+AluHolder_For_Upper_Arm v17:2
+2	Component: Adapter-2xMuscle-Alu20x20-front v4 v14:3
+3	Component: Adapter-Muskel-Boschprofil-plan-vorne v1:4
+				Body: Body1
+2	Component: Adapter-2xMuscle-AluProfile20x20-back v3 v11:3
+3	Component: Adapter-Muskel-Boschprofil-plan-hinten v1:4
+				Body: Body1
+1	Component: Adapter_Ball:1
+				Body: Body1
+1	Component: newBall_DIN 319_pressFitting v11:2
+				Body: Body1
+1	Component: 500N_MyoMuscle_simplified v1:2
+				Body: Body1
+				Body: Body2
+				Body: Body3
+1	Component: 500N_MyoMuscle_simplified v1 (1):3
+				Body: Body1
+				Body: Body2
+				Body: Body3
+1	Component: 100N_myoBrick_simplified v1 (1):2
+				Body: Body1
+				Body: Body2
+1	Component: 100N_myoBrick_simplified v1 (1) (1):3
+				Body: Body1
+				Body: Body2
+0	Component: Elbow_low_outer(Mirror):1
+				Body: Body1
+0	Component: Elbow_low_fork(Mirror):1
+				Body: Body1
+0	Component: upperarm_profile v2 v6:2
+				Body: Body1
+0	Component: Adapter-Muskel-Boschprofil-plan-vorne v1:4
+				Body: Body1
+0	Component: Adapter-2xMuscle-Alu20x20-front v4 v14:3
+1	Component: Adapter-Muskel-Boschprofil-plan-vorne v1:4
+				Body: Body1
+0	Component: Adapter-Muskel-Boschprofil-plan-hinten v1:4
+				Body: Body1
+0	Component: Adapter-2xMuscle-AluProfile20x20-back v3 v11:3
+1	Component: Adapter-Muskel-Boschprofil-plan-hinten v1:4
+				Body: Body1
+0	Component: 2xMuscleCE+AluHolder_For_Upper_Arm v17:2
+1	Component: Adapter-2xMuscle-Alu20x20-front v4 v14:3
+2	Component: Adapter-Muskel-Boschprofil-plan-vorne v1:4
+				Body: Body1
+1	Component: Adapter-2xMuscle-AluProfile20x20-back v3 v11:3
+2	Component: Adapter-Muskel-Boschprofil-plan-hinten v1:4
+				Body: Body1
+0	Component: Adapter_Ball:1
+				Body: Body1
+0	Component: newBall_DIN 319_pressFitting v11:2
+				Body: Body1
+0	Component: 500N_MyoMuscle_simplified v1:2
+				Body: Body1
+				Body: Body2
+				Body: Body3
+0	Component: 500N_MyoMuscle_simplified v1 (1):3
+				Body: Body1
+				Body: Body2
+				Body: Body3
+0	Component: 100N_myoBrick_simplified v1 (1):2
+				Body: Body1
+				Body: Body2
+0	Component: 100N_myoBrick_simplified v1 (1) (1):3
+				Body: Body1
+				Body: Body2
+0	Component: head_lower_neck_main_body v2:1
+				Body: Body1
+0	Component: 100N_myoBrick_simplified v1:3
+				Body: Body1
+				Body: Body2
+0	Component: FPGA Board v18:1
+				Body: Body1
+				Body: Body2
+				Body: Body3
+				Body: Body4
+				Body: Body5
+				Body: Body6
+				Body: Body7
+				Body: Body8
+				Body: Body9
+				Body: Body10
+				Body: Body11
+				Body: Body12
+				Body: Body13
+				Body: Body14
+				Body: Body15
+				Body: Body16
+				Body: Body17
+				Body: Body18
+				Body: Body19
+0	Component: Ball Knob Assembly:1
+1	Component: Scheibe_M6 v2:1
+				Body: Body1
+1	Component: Scheibe_M6 v2:2
+				Body: Body1
+1	Component: M6x30_Zylinderschraube v1:1
+				Body: Body1
+1	Component: Ball_Knob_Smooth_DIN319 v15:1
+				Body: Body1
+				Body: Body2
+				Body: Body3
+				Body: Body4
+0	Component: head_FPGA_mount v3:1
+				Body: Body1
+0	Component: Torso_simplified v5:1
+1	Component: BoschProfile_20X20_1 v10:1
+				Body: Body1
+1	Component: BoschProfile_20X20_2 v4:1
+				Body: Body1
+1	Component: C_Torso-UpperArm_T v88:1
+2	Component: Shoulder:1
+				Body: Body1
+1	Component: BoschProfile_20X20_3 v4:1
+				Body: Body1
+1	Component: BoschProfile_20X20_4 v4:1
+				Body: Body1
+1	Component: Torso1:1
+				Body: Body1
+1	Component: Torso2:1
+				Body: Body1
+1	Component: MSIUMI MBFA-15-1:1
+				Body: Body1
+1	Component: MSIUMI MBFA-15-1 (1):1
+				Body: Body1
+1	Component: MSIUMI MBFA-15-1 (2):1
+				Body: Body1
+1	Component: MSIUMI MBFA-15-1 (3):1
+				Body: Body1
+1	Component: BoschProfile_20X20_1 v9(Mirror):1
+				Body: Body1
+1	Component: pulley v3(Mirror):1
+				Body: Body1
+1	Component: Torso1(Mirror):1
+				Body: Body1
+1	Component: Torso2(Mirror):1
+				Body: Body1
+1	Component: BoschProfile_20X20_2 v3(Mirror):1
+				Body: Body1
+1	Component: BoschProfile_20X20_4 v3(Mirror):1
+				Body: Body1
+1	Component: BoschProfile_20X20_3 v3(Mirror):1
+				Body: Body1
+1	Component: C_Torso-UpperArm_T v88(Mirror):1
+2	Component: Shoulder(Mirror) (1):1
+				Body: Body1
+1	Component: pulley v3(Mirror) (1):1
+				Body: Body1
+1	Component: pulley v3(Mirror) (2):1
+				Body: Body1
+1	Component: pulley v3(Mirror) (3):1
+				Body: Body1
+0	Component: Scheibe_M6 v2:1
+				Body: Body1
+0	Component: Scheibe_M6 v2:2
+				Body: Body1
+0	Component: M6x30_Zylinderschraube v1:1
+				Body: Body1
+0	Component: Ball_Knob_Smooth_DIN319 v15:1
+				Body: Body1
+				Body: Body2
+				Body: Body3
+				Body: Body4
+0	Component: BoschProfile_20X20_1 v10:1
+				Body: Body1
+0	Component: BoschProfile_20X20_2 v4:1
+				Body: Body1
+0	Component: Shoulder:1
+				Body: Body1
+0	Component: C_Torso-UpperArm_T v88:1
+1	Component: Shoulder:1
+				Body: Body1
+0	Component: BoschProfile_20X20_3 v4:1
+				Body: Body1
+0	Component: BoschProfile_20X20_4 v4:1
+				Body: Body1
+0	Component: Torso1:1
+				Body: Body1
+0	Component: Torso2:1
+				Body: Body1
+0	Component: MSIUMI MBFA-15-1:1
+				Body: Body1
+0	Component: MSIUMI MBFA-15-1 (1):1
+				Body: Body1
+0	Component: MSIUMI MBFA-15-1 (2):1
+				Body: Body1
+0	Component: MSIUMI MBFA-15-1 (3):1
+				Body: Body1
+0	Component: BoschProfile_20X20_1 v9(Mirror):1
+				Body: Body1
+0	Component: pulley v3(Mirror):1
+				Body: Body1
+0	Component: Torso1(Mirror):1
+				Body: Body1
+0	Component: Torso2(Mirror):1
+				Body: Body1
+0	Component: BoschProfile_20X20_2 v3(Mirror):1
+				Body: Body1
+0	Component: BoschProfile_20X20_4 v3(Mirror):1
+				Body: Body1
+0	Component: BoschProfile_20X20_3 v3(Mirror):1
+				Body: Body1
+0	Component: Shoulder(Mirror) (1):1
+				Body: Body1
+0	Component: C_Torso-UpperArm_T v88(Mirror):1
+1	Component: Shoulder(Mirror) (1):1
+				Body: Body1
+0	Component: pulley v3(Mirror) (1):1
+				Body: Body1
+0	Component: pulley v3(Mirror) (2):1
+				Body: Body1
+0	Component: pulley v3(Mirror) (3):1
+				Body: Body1
+0	Component: Component2:1
+				Body: Body1
+0	Component: Component6:1
+				Body: Body1
+0	Component: Component3:1
+				Body: Body1
+0	Component: Component4:1
+				Body: Body1
+0	Component: Component5 (1):1
+				Body: Body1
+0	Component: matrix_creator v3:1
+				Body: Body1
+				Body: Body2
+				Body: Body3
+				Body: Body4
+				Body: Body5
+				Body: Body6
+				Body: Body7
+0	Component: 100N_myoBrick_simplified v1 (4):1
+				Body: Body1
+				Body: Body2
+0	Component: 100N_myoBrick_simplified v1 (3):1
+				Body: Body1
+				Body: Body2
+0	Component: 100N_myoBrick_simplified v1 (5):1
+				Body: Body1
+				Body: Body2
+0	Component: Forearm_simplified v1:1
+				Body: Body1
+0	Component: Elbow_high(Mirror):1
+				Body: Body1
+0	Component: Forearm_simplified v1 (1):2
+				Body: Body1
+0	Component: Elbow_high:1
+				Body: Body1
+0	Component: upper_arm_simplified v1 (1):2
+1	Component: upperarm_profile v2 v6 (1):2
+				Body: Body1
+1	Component: 2xMuscleCE+AluHolder_For_Upper_Arm v17 (1):2
+2	Component: Adapter-2xMuscle-Alu20x20-front v4 v14 (1):3
+3	Component: Adapter-Muskel-Boschprofil-plan-vorne v1 (1):4
+				Body: Body1
+2	Component: Adapter-2xMuscle-AluProfile20x20-back v3 v11 (1):3
+3	Component: Adapter-Muskel-Boschprofil-plan-hinten v1 (1):4
+				Body: Body1
+1	Component: Adapter_Ball (1):1
+				Body: Body1
+1	Component: newBall_DIN 319_pressFitting v11 (1):2
+				Body: Body1
+1	Component: 500N_MyoMuscle_simplified v1 (2):2
+				Body: Body1
+				Body: Body2
+				Body: Body3
+1	Component: 500N_MyoMuscle_simplified v1 (1) (1):3
+				Body: Body1
+				Body: Body2
+				Body: Body3
+1	Component: 100N_myoBrick_simplified v1 (2):2
+				Body: Body1
+				Body: Body2
+1	Component: 100N_myoBrick_simplified v1 (1) (2):3
+				Body: Body1
+				Body: Body2
+0	Component: upperarm_profile v2 v6 (1):2
+				Body: Body1
+0	Component: Adapter-Muskel-Boschprofil-plan-vorne v1 (1):4
+				Body: Body1
+0	Component: Adapter-2xMuscle-Alu20x20-front v4 v14 (1):3
+1	Component: Adapter-Muskel-Boschprofil-plan-vorne v1 (1):4
+				Body: Body1
+0	Component: Adapter-Muskel-Boschprofil-plan-hinten v1 (1):4
+				Body: Body1
+0	Component: Adapter-2xMuscle-AluProfile20x20-back v3 v11 (1):3
+1	Component: Adapter-Muskel-Boschprofil-plan-hinten v1 (1):4
+				Body: Body1
+0	Component: 2xMuscleCE+AluHolder_For_Upper_Arm v17 (1):2
+1	Component: Adapter-2xMuscle-Alu20x20-front v4 v14 (1):3
+2	Component: Adapter-Muskel-Boschprofil-plan-vorne v1 (1):4
+				Body: Body1
+1	Component: Adapter-2xMuscle-AluProfile20x20-back v3 v11 (1):3
+2	Component: Adapter-Muskel-Boschprofil-plan-hinten v1 (1):4
+				Body: Body1
+0	Component: Adapter_Ball (1):1
+				Body: Body1
+0	Component: newBall_DIN 319_pressFitting v11 (1):2
+				Body: Body1
+0	Component: 500N_MyoMuscle_simplified v1 (2):2
+				Body: Body1
+				Body: Body2
+				Body: Body3
+0	Component: 500N_MyoMuscle_simplified v1 (1) (1):3
+				Body: Body1
+				Body: Body2
+				Body: Body3
+0	Component: 100N_myoBrick_simplified v1 (2):2
+				Body: Body1
+				Body: Body2
+0	Component: 100N_myoBrick_simplified v1 (1) (2):3
+				Body: Body1
+				Body: Body2
+0	Component: Elbow_low_outer:1
+				Body: Body1
+0	Component: Elbow_low_fork:1
+				Body: Body1
+0	Component: upper_arm_simplified v1:1
+1	Component: upperarm_profile v2 v6:2
+				Body: Body1
+1	Component: 2xMuscleCE+AluHolder_For_Upper_Arm v17:2
+2	Component: Adapter-2xMuscle-Alu20x20-front v4 v14:3
+3	Component: Adapter-Muskel-Boschprofil-plan-vorne v1:4
+				Body: Body1
+2	Component: Adapter-2xMuscle-AluProfile20x20-back v3 v11:3
+3	Component: Adapter-Muskel-Boschprofil-plan-hinten v1:4
+				Body: Body1
+1	Component: Adapter_Ball:1
+				Body: Body1
+1	Component: newBall_DIN 319_pressFitting v11:2
+				Body: Body1
+1	Component: 500N_MyoMuscle_simplified v1:2
+				Body: Body1
+				Body: Body2
+				Body: Body3
+1	Component: 500N_MyoMuscle_simplified v1 (1):3
+				Body: Body1
+				Body: Body2
+				Body: Body3
+1	Component: 100N_myoBrick_simplified v1 (1):2
+				Body: Body1
+				Body: Body2
+1	Component: 100N_myoBrick_simplified v1 (1) (1):3
+				Body: Body1
+				Body: Body2
+0	Component: Elbow_low_outer(Mirror):1
+				Body: Body1
+0	Component: Elbow_low_fork(Mirror):1
+				Body: Body1
+0	Component: upperarm_profile v2 v6:2
+				Body: Body1
+0	Component: Adapter-Muskel-Boschprofil-plan-vorne v1:4
+				Body: Body1
+0	Component: Adapter-2xMuscle-Alu20x20-front v4 v14:3
+1	Component: Adapter-Muskel-Boschprofil-plan-vorne v1:4
+				Body: Body1
+0	Component: Adapter-Muskel-Boschprofil-plan-hinten v1:4
+				Body: Body1
+0	Component: Adapter-2xMuscle-AluProfile20x20-back v3 v11:3
+1	Component: Adapter-Muskel-Boschprofil-plan-hinten v1:4
+				Body: Body1
+0	Component: 2xMuscleCE+AluHolder_For_Upper_Arm v17:2
+1	Component: Adapter-2xMuscle-Alu20x20-front v4 v14:3
+2	Component: Adapter-Muskel-Boschprofil-plan-vorne v1:4
+				Body: Body1
+1	Component: Adapter-2xMuscle-AluProfile20x20-back v3 v11:3
+2	Component: Adapter-Muskel-Boschprofil-plan-hinten v1:4
+				Body: Body1
+0	Component: Adapter_Ball:1
+				Body: Body1
+0	Component: newBall_DIN 319_pressFitting v11:2
+				Body: Body1
+0	Component: 500N_MyoMuscle_simplified v1:2
+				Body: Body1
+				Body: Body2
+				Body: Body3
+0	Component: 500N_MyoMuscle_simplified v1 (1):3
+				Body: Body1
+				Body: Body2
+				Body: Body3
+0	Component: 100N_myoBrick_simplified v1 (1):2
+				Body: Body1
+				Body: Body2
+0	Component: 100N_myoBrick_simplified v1 (1) (1):3
+				Body: Body1
+				Body: Body2
+0	Component: Xylophone:1
+				Body: Body1
+				Body: Body2
+				Body: Body3
+				Body: Body4
+				Body: Body5
+0	Component: Stick:1
+				Body: Body1
+0	Component: Stick:2
+				Body: Body1
+0	Component: head_lower_neck_main_body v2:1
+				Body: Body1
+0	Component: 100N_myoBrick_simplified v1:3
+				Body: Body1
+				Body: Body2
+0	Component: FPGA Board v18:1
+				Body: Body1
+				Body: Body2
+				Body: Body3
+				Body: Body4
+				Body: Body5
+				Body: Body6
+				Body: Body7
+				Body: Body8
+				Body: Body9
+				Body: Body10
+				Body: Body11
+				Body: Body12
+				Body: Body13
+				Body: Body14
+				Body: Body15
+				Body: Body16
+				Body: Body17
+				Body: Body18
+				Body: Body19
+0	Component: Ball Knob Assembly:1
+1	Component: Scheibe_M6 v2:1
+				Body: Body1
+1	Component: Scheibe_M6 v2:2
+				Body: Body1
+1	Component: M6x30_Zylinderschraube v1:1
+				Body: Body1
+1	Component: Ball_Knob_Smooth_DIN319 v15:1
+				Body: Body1
+				Body: Body2
+				Body: Body3
+				Body: Body4
+0	Component: head_FPGA_mount v3:1
+				Body: Body1
+0	Component: Torso_simplified v5:1
+1	Component: BoschProfile_20X20_1 v10:1
+				Body: Body1
+1	Component: BoschProfile_20X20_2 v4:1
+				Body: Body1
+1	Component: C_Torso-UpperArm_T v88:1
+2	Component: Shoulder:1
+				Body: Body1
+1	Component: BoschProfile_20X20_3 v4:1
+				Body: Body1
+1	Component: BoschProfile_20X20_4 v4:1
+				Body: Body1
+1	Component: Torso1:1
+				Body: Body1
+1	Component: Torso2:1
+				Body: Body1
+1	Component: MSIUMI MBFA-15-1:1
+				Body: Body1
+1	Component: MSIUMI MBFA-15-1 (1):1
+				Body: Body1
+1	Component: MSIUMI MBFA-15-1 (2):1
+				Body: Body1
+1	Component: MSIUMI MBFA-15-1 (3):1
+				Body: Body1
+1	Component: BoschProfile_20X20_1 v9(Mirror):1
+				Body: Body1
+1	Component: pulley v3(Mirror):1
+				Body: Body1
+1	Component: Torso1(Mirror):1
+				Body: Body1
+1	Component: Torso2(Mirror):1
+				Body: Body1
+1	Component: BoschProfile_20X20_2 v3(Mirror):1
+				Body: Body1
+1	Component: BoschProfile_20X20_4 v3(Mirror):1
+				Body: Body1
+1	Component: BoschProfile_20X20_3 v3(Mirror):1
+				Body: Body1
+1	Component: C_Torso-UpperArm_T v88(Mirror):1
+2	Component: Shoulder(Mirror) (1):1
+				Body: Body1
+1	Component: pulley v3(Mirror) (1):1
+				Body: Body1
+1	Component: pulley v3(Mirror) (2):1
+				Body: Body1
+1	Component: pulley v3(Mirror) (3):1
+				Body: Body1
+0	Component: Scheibe_M6 v2:1
+				Body: Body1
+0	Component: Scheibe_M6 v2:2
+				Body: Body1
+0	Component: M6x30_Zylinderschraube v1:1
+				Body: Body1
+0	Component: Ball_Knob_Smooth_DIN319 v15:1
+				Body: Body1
+				Body: Body2
+				Body: Body3
+				Body: Body4
+0	Component: BoschProfile_20X20_1 v10:1
+				Body: Body1
+0	Component: BoschProfile_20X20_2 v4:1
+				Body: Body1
+0	Component: Shoulder:1
+				Body: Body1
+0	Component: C_Torso-UpperArm_T v88:1
+1	Component: Shoulder:1
+				Body: Body1
+0	Component: BoschProfile_20X20_3 v4:1
+				Body: Body1
+0	Component: BoschProfile_20X20_4 v4:1
+				Body: Body1
+0	Component: Torso1:1
+				Body: Body1
+0	Component: Torso2:1
+				Body: Body1
+0	Component: MSIUMI MBFA-15-1:1
+				Body: Body1
+0	Component: MSIUMI MBFA-15-1 (1):1
+				Body: Body1
+0	Component: MSIUMI MBFA-15-1 (2):1
+				Body: Body1
+0	Component: MSIUMI MBFA-15-1 (3):1
+				Body: Body1
+0	Component: BoschProfile_20X20_1 v9(Mirror):1
+				Body: Body1
+0	Component: pulley v3(Mirror):1
+				Body: Body1
+0	Component: Torso1(Mirror):1
+				Body: Body1
+0	Component: Torso2(Mirror):1
+				Body: Body1
+0	Component: BoschProfile_20X20_2 v3(Mirror):1
+				Body: Body1
+0	Component: BoschProfile_20X20_4 v3(Mirror):1
+				Body: Body1
+0	Component: BoschProfile_20X20_3 v3(Mirror):1
+				Body: Body1
+0	Component: Shoulder(Mirror) (1):1
+				Body: Body1
+0	Component: C_Torso-UpperArm_T v88(Mirror):1
+1	Component: Shoulder(Mirror) (1):1
+				Body: Body1
+0	Component: pulley v3(Mirror) (1):1
+				Body: Body1
+0	Component: pulley v3(Mirror) (2):1
+				Body: Body1
+0	Component: pulley v3(Mirror) (3):1
+				Body: Body1
+0	Component: Component2:1
+				Body: Body1
+0	Component: Component6:1
+				Body: Body1
+0	Component: Component3:1
+				Body: Body1
+0	Component: Component4:1
+				Body: Body1
+0	Component: Component5 (1):1
+				Body: Body1
+0	Component: matrix_creator v3:1
+				Body: Body1
+				Body: Body2
+				Body: Body3
+				Body: Body4
+				Body: Body5
+				Body: Body6
+				Body: Body7
+0	Component: 100N_myoBrick_simplified v1 (4):1
+				Body: Body1
+				Body: Body2
+0	Component: 100N_myoBrick_simplified v1 (3):1
+				Body: Body1
+				Body: Body2
+0	Component: 100N_myoBrick_simplified v1 (5):1
+				Body: Body1
+				Body: Body2
+0	Component: Forearm_simplified v1:1
+				Body: Body1
+0	Component: Elbow_high(Mirror):1
+				Body: Body1
+0	Component: Forearm_simplified v1 (1):2
+				Body: Body1
+0	Component: Elbow_high:1
+				Body: Body1
+0	Component: upper_arm_simplified v1 (1):2
+1	Component: upperarm_profile v2 v6 (1):2
+				Body: Body1
+1	Component: 2xMuscleCE+AluHolder_For_Upper_Arm v17 (1):2
+2	Component: Adapter-2xMuscle-Alu20x20-front v4 v14 (1):3
+3	Component: Adapter-Muskel-Boschprofil-plan-vorne v1 (1):4
+				Body: Body1
+2	Component: Adapter-2xMuscle-AluProfile20x20-back v3 v11 (1):3
+3	Component: Adapter-Muskel-Boschprofil-plan-hinten v1 (1):4
+				Body: Body1
+1	Component: Adapter_Ball (1):1
+				Body: Body1
+1	Component: newBall_DIN 319_pressFitting v11 (1):2
+				Body: Body1
+1	Component: 500N_MyoMuscle_simplified v1 (2):2
+				Body: Body1
+				Body: Body2
+				Body: Body3
+1	Component: 500N_MyoMuscle_simplified v1 (1) (1):3
+				Body: Body1
+				Body: Body2
+				Body: Body3
+1	Component: 100N_myoBrick_simplified v1 (2):2
+				Body: Body1
+				Body: Body2
+1	Component: 100N_myoBrick_simplified v1 (1) (2):3
+				Body: Body1
+				Body: Body2
+0	Component: upperarm_profile v2 v6 (1):2
+				Body: Body1
+0	Component: Adapter-Muskel-Boschprofil-plan-vorne v1 (1):4
+				Body: Body1
+0	Component: Adapter-2xMuscle-Alu20x20-front v4 v14 (1):3
+1	Component: Adapter-Muskel-Boschprofil-plan-vorne v1 (1):4
+				Body: Body1
+0	Component: Adapter-Muskel-Boschprofil-plan-hinten v1 (1):4
+				Body: Body1
+0	Component: Adapter-2xMuscle-AluProfile20x20-back v3 v11 (1):3
+1	Component: Adapter-Muskel-Boschprofil-plan-hinten v1 (1):4
+				Body: Body1
+0	Component: 2xMuscleCE+AluHolder_For_Upper_Arm v17 (1):2
+1	Component: Adapter-2xMuscle-Alu20x20-front v4 v14 (1):3
+2	Component: Adapter-Muskel-Boschprofil-plan-vorne v1 (1):4
+				Body: Body1
+1	Component: Adapter-2xMuscle-AluProfile20x20-back v3 v11 (1):3
+2	Component: Adapter-Muskel-Boschprofil-plan-hinten v1 (1):4
+				Body: Body1
+0	Component: Adapter_Ball (1):1
+				Body: Body1
+0	Component: newBall_DIN 319_pressFitting v11 (1):2
+				Body: Body1
+0	Component: 500N_MyoMuscle_simplified v1 (2):2
+				Body: Body1
+				Body: Body2
+				Body: Body3
+0	Component: 500N_MyoMuscle_simplified v1 (1) (1):3
+				Body: Body1
+				Body: Body2
+				Body: Body3
+0	Component: 100N_myoBrick_simplified v1 (2):2
+				Body: Body1
+				Body: Body2
+0	Component: 100N_myoBrick_simplified v1 (1) (2):3
+				Body: Body1
+				Body: Body2
+0	Component: Elbow_low_outer:1
+				Body: Body1
+0	Component: Elbow_low_fork:1
+				Body: Body1
+0	Component: upper_arm_simplified v1:1
+1	Component: upperarm_profile v2 v6:2
+				Body: Body1
+1	Component: 2xMuscleCE+AluHolder_For_Upper_Arm v17:2
+2	Component: Adapter-2xMuscle-Alu20x20-front v4 v14:3
+3	Component: Adapter-Muskel-Boschprofil-plan-vorne v1:4
+				Body: Body1
+2	Component: Adapter-2xMuscle-AluProfile20x20-back v3 v11:3
+3	Component: Adapter-Muskel-Boschprofil-plan-hinten v1:4
+				Body: Body1
+1	Component: Adapter_Ball:1
+				Body: Body1
+1	Component: newBall_DIN 319_pressFitting v11:2
+				Body: Body1
+1	Component: 500N_MyoMuscle_simplified v1:2
+				Body: Body1
+				Body: Body2
+				Body: Body3
+1	Component: 500N_MyoMuscle_simplified v1 (1):3
+				Body: Body1
+				Body: Body2
+				Body: Body3
+1	Component: 100N_myoBrick_simplified v1 (1):2
+				Body: Body1
+				Body: Body2
+1	Component: 100N_myoBrick_simplified v1 (1) (1):3
+				Body: Body1
+				Body: Body2
+0	Component: Elbow_low_outer(Mirror):1
+				Body: Body1
+0	Component: Elbow_low_fork(Mirror):1
+				Body: Body1
+0	Component: upperarm_profile v2 v6:2
+				Body: Body1
+0	Component: Adapter-Muskel-Boschprofil-plan-vorne v1:4
+				Body: Body1
+0	Component: Adapter-2xMuscle-Alu20x20-front v4 v14:3
+1	Component: Adapter-Muskel-Boschprofil-plan-vorne v1:4
+				Body: Body1
+0	Component: Adapter-Muskel-Boschprofil-plan-hinten v1:4
+				Body: Body1
+0	Component: Adapter-2xMuscle-AluProfile20x20-back v3 v11:3
+1	Component: Adapter-Muskel-Boschprofil-plan-hinten v1:4
+				Body: Body1
+0	Component: 2xMuscleCE+AluHolder_For_Upper_Arm v17:2
+1	Component: Adapter-2xMuscle-Alu20x20-front v4 v14:3
+2	Component: Adapter-Muskel-Boschprofil-plan-vorne v1:4
+				Body: Body1
+1	Component: Adapter-2xMuscle-AluProfile20x20-back v3 v11:3
+2	Component: Adapter-Muskel-Boschprofil-plan-hinten v1:4
+				Body: Body1
+0	Component: Adapter_Ball:1
+				Body: Body1
+0	Component: newBall_DIN 319_pressFitting v11:2
+				Body: Body1
+0	Component: 500N_MyoMuscle_simplified v1:2
+				Body: Body1
+				Body: Body2
+				Body: Body3
+0	Component: 500N_MyoMuscle_simplified v1 (1):3
+				Body: Body1
+				Body: Body2
+				Body: Body3
+0	Component: 100N_myoBrick_simplified v1 (1):2
+				Body: Body1
+				Body: Body2
+0	Component: 100N_myoBrick_simplified v1 (1) (1):3
+				Body: Body1
+				Body: Body2
+0	Component: Xylophone:1
+				Body: Body1
+				Body: Body2
+				Body: Body3
+				Body: Body4
+				Body: Body5
+0	Component: Stick:1
+				Body: Body1
+0	Component: Stick:2
+				Body: Body1
+0	Component: Head_Shell_Main v141:1
+				Body: Body1
+				Body: Body2
+				Body: Body3
+				Body: Body4
+				Body: Body5
+				Body: Body6
+				Body: Body7
+				Body: Body8
+				Body: Body9
+				Body: Body10
+				Body: Body11
+				Body: Body12
+				Body: Body13
+				Body: Body14
+				Body: Body15
+1	Component: Upper_Neck_Bone v53:1
+				Body: Body1
+				Body: Body2
+				Body: Body3
+				Body: Body4
+2	Component: Screw Assembly:1
+3	Component: M3 x 20 Screw Group:1
+4	Component: Scheibe_M3 v1:1
+				Body: Body1
+4	Component: Scheibe_M3 v1:2
+				Body: Body1
+4	Component: Mutter_M3 v1:1
+				Body: Body1
+4	Component: M3x15_Zylinderschraube v1:1
+				Body: Body1
+3	Component: M3 x 20 Screw Group (1):1
+4	Component: Scheibe_M3 v1:3
+				Body: Body1
+4	Component: Scheibe_M3 v1:4
+				Body: Body1
+4	Component: Mutter_M3 v1:2
+				Body: Body1
+4	Component: M3x15_Zylinderschraube v1:2
+				Body: Body1
+3	Component: M3 x 20 Screw Group (2):1
+4	Component: Scheibe_M3 v1:5
+				Body: Body1
+4	Component: Scheibe_M3 v1:6
+				Body: Body1
+4	Component: Mutter_M3 v1:3
+				Body: Body1
+4	Component: M3x15_Zylinderschraube v1:3
+				Body: Body1
+3	Component: M3 x 20 Screw Group (3):1
+4	Component: Scheibe_M3 v1:7
+				Body: Body1
+4	Component: Scheibe_M3 v1:8
+				Body: Body1
+4	Component: Mutter_M3 v1:4
+				Body: Body1
+4	Component: M3x15_Zylinderschraube v1:4
+				Body: Body1
+3	Component: M3 x 20 Screw Group (4):1
+4	Component: Scheibe_M3 v1:9
+				Body: Body1
+4	Component: Scheibe_M3 v1:10
+				Body: Body1
+4	Component: Mutter_M3 v1:5
+				Body: Body1
+4	Component: M3x15_Zylinderschraube v1:5
+				Body: Body1
+3	Component: M3 x 20 Screw Group (5):1
+4	Component: Scheibe_M3 v1:11
+				Body: Body1
+4	Component: Scheibe_M3 v1:12
+				Body: Body1
+4	Component: Mutter_M3 v1:6
+				Body: Body1
+4	Component: M3x15_Zylinderschraube v1:6
+				Body: Body1
+2	Component: Bearing:1
+				Body: Body1
+2	Component: Flange:1
+				Body: Body1
+2	Component: Sensor Board:1
+3	Component: 3D_magnetic_board_(for_ball_joints_x3) v5:1
+4	Component: 3D_magnetic_board:1
+5	Component: Pcb:1
+				Body: Body1
+5	Component: TSOT_23_6_MK06A_:1
+				Body: Body1
+5	Component: C_0402_:1
+				Body: Body1
+4	Component: Component5:1
+				Body: Body1
+3	Component: M2x4_Zylinderschraube v4:1
+				Body: Body1
+2	Component: Sensor Board (1):1
+3	Component: 3D_magnetic_board_(for_ball_joints_x3) v5 (1):1
+4	Component: 3D_magnetic_board (1):1
+5	Component: Pcb:2
+				Body: Body1
+5	Component: TSOT_23_6_MK06A_:2
+				Body: Body1
+5	Component: C_0402_:2
+				Body: Body1
+4	Component: Component5:2
+				Body: Body1
+3	Component: M2x4_Zylinderschraube v4:2
+				Body: Body1
+2	Component: Sensor Board (2):1
+3	Component: 3D_magnetic_board_(for_ball_joints_x3) v5 (2):1
+4	Component: 3D_magnetic_board (2):1
+5	Component: Pcb:3
+				Body: Body1
+5	Component: TSOT_23_6_MK06A_:3
+				Body: Body1
+5	Component: C_0402_:3
+				Body: Body1
+4	Component: Component5:3
+				Body: Body1
+3	Component: M2x4_Zylinderschraube v4:3
+				Body: Body1
+2	Component: Alignment pins:1
+3	Component: 2x6_alignment_pin v3:1
+				Body: Body1
+3	Component: 2x6_alignment_pin v3:2
+				Body: Body1
+1	Component: Ear Cover:1
+				Body: Body1
+				Body: Body2
+2	Component: VIS_K50_Kleinlautsprecher v3:1
+				Body: Body1
+2	Component: VIS_K36_WP_Kleinlautsprecher_Hochtöner v5:1
+				Body: Body1
+2	Component: Amplifier_3_5W v1:1
+				Body: Body1
+1	Component: Ear Cover(Mirror):1
+				Body: Body1
+				Body: Body2
+2	Component: VIS K50 Kleinlautsprecher (Visaton) v3(Mirror):1
+				Body: Body1
+2	Component: VIS K36 WP Kleinlautsprecher Hochtöner (Visaton) v5(Mirror):1
+				Body: Body1
+2	Component: Amplifier 3:1
+				Body: Body1
+0	Component: Scheibe_M3 v1:1
+				Body: Body1
+0	Component: Scheibe_M3 v1:2
+				Body: Body1
+0	Component: Mutter_M3 v1:1
+				Body: Body1
+0	Component: M3x15_Zylinderschraube v1:1
+				Body: Body1
+0	Component: M3 x 20 Screw Group:1
+1	Component: Scheibe_M3 v1:1
+				Body: Body1
+1	Component: Scheibe_M3 v1:2
+				Body: Body1
+1	Component: Mutter_M3 v1:1
+				Body: Body1
+1	Component: M3x15_Zylinderschraube v1:1
+				Body: Body1
+0	Component: Scheibe_M3 v1:3
+				Body: Body1
+0	Component: Scheibe_M3 v1:4
+				Body: Body1
+0	Component: Mutter_M3 v1:2
+				Body: Body1
+0	Component: M3x15_Zylinderschraube v1:2
+				Body: Body1
+0	Component: M3 x 20 Screw Group (1):1
+1	Component: Scheibe_M3 v1:3
+				Body: Body1
+1	Component: Scheibe_M3 v1:4
+				Body: Body1
+1	Component: Mutter_M3 v1:2
+				Body: Body1
+1	Component: M3x15_Zylinderschraube v1:2
+				Body: Body1
+0	Component: Scheibe_M3 v1:5
+				Body: Body1
+0	Component: Scheibe_M3 v1:6
+				Body: Body1
+0	Component: Mutter_M3 v1:3
+				Body: Body1
+0	Component: M3x15_Zylinderschraube v1:3
+				Body: Body1
+0	Component: M3 x 20 Screw Group (2):1
+1	Component: Scheibe_M3 v1:5
+				Body: Body1
+1	Component: Scheibe_M3 v1:6
+				Body: Body1
+1	Component: Mutter_M3 v1:3
+				Body: Body1
+1	Component: M3x15_Zylinderschraube v1:3
+				Body: Body1
+0	Component: Scheibe_M3 v1:7
+				Body: Body1
+0	Component: Scheibe_M3 v1:8
+				Body: Body1
+0	Component: Mutter_M3 v1:4
+				Body: Body1
+0	Component: M3x15_Zylinderschraube v1:4
+				Body: Body1
+0	Component: M3 x 20 Screw Group (3):1
+1	Component: Scheibe_M3 v1:7
+				Body: Body1
+1	Component: Scheibe_M3 v1:8
+				Body: Body1
+1	Component: Mutter_M3 v1:4
+				Body: Body1
+1	Component: M3x15_Zylinderschraube v1:4
+				Body: Body1
+0	Component: Scheibe_M3 v1:9
+				Body: Body1
+0	Component: Scheibe_M3 v1:10
+				Body: Body1
+0	Component: Mutter_M3 v1:5
+				Body: Body1
+0	Component: M3x15_Zylinderschraube v1:5
+				Body: Body1
+0	Component: M3 x 20 Screw Group (4):1
+1	Component: Scheibe_M3 v1:9
+				Body: Body1
+1	Component: Scheibe_M3 v1:10
+				Body: Body1
+1	Component: Mutter_M3 v1:5
+				Body: Body1
+1	Component: M3x15_Zylinderschraube v1:5
+				Body: Body1
+0	Component: Scheibe_M3 v1:11
+				Body: Body1
+0	Component: Scheibe_M3 v1:12
+				Body: Body1
+0	Component: Mutter_M3 v1:6
+				Body: Body1
+0	Component: M3x15_Zylinderschraube v1:6
+				Body: Body1
+0	Component: M3 x 20 Screw Group (5):1
+1	Component: Scheibe_M3 v1:11
+				Body: Body1
+1	Component: Scheibe_M3 v1:12
+				Body: Body1
+1	Component: Mutter_M3 v1:6
+				Body: Body1
+1	Component: M3x15_Zylinderschraube v1:6
+				Body: Body1
+0	Component: Screw Assembly:1
+1	Component: M3 x 20 Screw Group:1
+2	Component: Scheibe_M3 v1:1
+				Body: Body1
+2	Component: Scheibe_M3 v1:2
+				Body: Body1
+2	Component: Mutter_M3 v1:1
+				Body: Body1
+2	Component: M3x15_Zylinderschraube v1:1
+				Body: Body1
+1	Component: M3 x 20 Screw Group (1):1
+2	Component: Scheibe_M3 v1:3
+				Body: Body1
+2	Component: Scheibe_M3 v1:4
+				Body: Body1
+2	Component: Mutter_M3 v1:2
+				Body: Body1
+2	Component: M3x15_Zylinderschraube v1:2
+				Body: Body1
+1	Component: M3 x 20 Screw Group (2):1
+2	Component: Scheibe_M3 v1:5
+				Body: Body1
+2	Component: Scheibe_M3 v1:6
+				Body: Body1
+2	Component: Mutter_M3 v1:3
+				Body: Body1
+2	Component: M3x15_Zylinderschraube v1:3
+				Body: Body1
+1	Component: M3 x 20 Screw Group (3):1
+2	Component: Scheibe_M3 v1:7
+				Body: Body1
+2	Component: Scheibe_M3 v1:8
+				Body: Body1
+2	Component: Mutter_M3 v1:4
+				Body: Body1
+2	Component: M3x15_Zylinderschraube v1:4
+				Body: Body1
+1	Component: M3 x 20 Screw Group (4):1
+2	Component: Scheibe_M3 v1:9
+				Body: Body1
+2	Component: Scheibe_M3 v1:10
+				Body: Body1
+2	Component: Mutter_M3 v1:5
+				Body: Body1
+2	Component: M3x15_Zylinderschraube v1:5
+				Body: Body1
+1	Component: M3 x 20 Screw Group (5):1
+2	Component: Scheibe_M3 v1:11
+				Body: Body1
+2	Component: Scheibe_M3 v1:12
+				Body: Body1
+2	Component: Mutter_M3 v1:6
+				Body: Body1
+2	Component: M3x15_Zylinderschraube v1:6
+				Body: Body1
+0	Component: Bearing:1
+				Body: Body1
+0	Component: Flange:1
+				Body: Body1
+0	Component: Pcb:1
+				Body: Body1
+0	Component: TSOT_23_6_MK06A_:1
+				Body: Body1
+0	Component: C_0402_:1
+				Body: Body1
+0	Component: 3D_magnetic_board:1
+1	Component: Pcb:1
+				Body: Body1
+1	Component: TSOT_23_6_MK06A_:1
+				Body: Body1
+1	Component: C_0402_:1
+				Body: Body1
+0	Component: Component5:1
+				Body: Body1
+0	Component: 3D_magnetic_board_(for_ball_joints_x3) v5:1
+1	Component: 3D_magnetic_board:1
+2	Component: Pcb:1
+				Body: Body1
+2	Component: TSOT_23_6_MK06A_:1
+				Body: Body1
+2	Component: C_0402_:1
+				Body: Body1
+1	Component: Component5:1
+				Body: Body1
+0	Component: M2x4_Zylinderschraube v4:1
+				Body: Body1
+0	Component: Sensor Board:1
+1	Component: 3D_magnetic_board_(for_ball_joints_x3) v5:1
+2	Component: 3D_magnetic_board:1
+3	Component: Pcb:1
+				Body: Body1
+3	Component: TSOT_23_6_MK06A_:1
+				Body: Body1
+3	Component: C_0402_:1
+				Body: Body1
+2	Component: Component5:1
+				Body: Body1
+1	Component: M2x4_Zylinderschraube v4:1
+				Body: Body1
+0	Component: Pcb:2
+				Body: Body1
+0	Component: TSOT_23_6_MK06A_:2
+				Body: Body1
+0	Component: C_0402_:2
+				Body: Body1
+0	Component: 3D_magnetic_board (1):1
+1	Component: Pcb:2
+				Body: Body1
+1	Component: TSOT_23_6_MK06A_:2
+				Body: Body1
+1	Component: C_0402_:2
+				Body: Body1
+0	Component: Component5:2
+				Body: Body1
+0	Component: 3D_magnetic_board_(for_ball_joints_x3) v5 (1):1
+1	Component: 3D_magnetic_board (1):1
+2	Component: Pcb:2
+				Body: Body1
+2	Component: TSOT_23_6_MK06A_:2
+				Body: Body1
+2	Component: C_0402_:2
+				Body: Body1
+1	Component: Component5:2
+				Body: Body1
+0	Component: M2x4_Zylinderschraube v4:2
+				Body: Body1
+0	Component: Sensor Board (1):1
+1	Component: 3D_magnetic_board_(for_ball_joints_x3) v5 (1):1
+2	Component: 3D_magnetic_board (1):1
+3	Component: Pcb:2
+				Body: Body1
+3	Component: TSOT_23_6_MK06A_:2
+				Body: Body1
+3	Component: C_0402_:2
+				Body: Body1
+2	Component: Component5:2
+				Body: Body1
+1	Component: M2x4_Zylinderschraube v4:2
+				Body: Body1
+0	Component: Pcb:3
+				Body: Body1
+0	Component: TSOT_23_6_MK06A_:3
+				Body: Body1
+0	Component: C_0402_:3
+				Body: Body1
+0	Component: 3D_magnetic_board (2):1
+1	Component: Pcb:3
+				Body: Body1
+1	Component: TSOT_23_6_MK06A_:3
+				Body: Body1
+1	Component: C_0402_:3
+				Body: Body1
+0	Component: Component5:3
+				Body: Body1
+0	Component: 3D_magnetic_board_(for_ball_joints_x3) v5 (2):1
+1	Component: 3D_magnetic_board (2):1
+2	Component: Pcb:3
+				Body: Body1
+2	Component: TSOT_23_6_MK06A_:3
+				Body: Body1
+2	Component: C_0402_:3
+				Body: Body1
+1	Component: Component5:3
+				Body: Body1
+0	Component: M2x4_Zylinderschraube v4:3
+				Body: Body1
+0	Component: Sensor Board (2):1
+1	Component: 3D_magnetic_board_(for_ball_joints_x3) v5 (2):1
+2	Component: 3D_magnetic_board (2):1
+3	Component: Pcb:3
+				Body: Body1
+3	Component: TSOT_23_6_MK06A_:3
+				Body: Body1
+3	Component: C_0402_:3
+				Body: Body1
+2	Component: Component5:3
+				Body: Body1
+1	Component: M2x4_Zylinderschraube v4:3
+				Body: Body1
+0	Component: 2x6_alignment_pin v3:1
+				Body: Body1
+0	Component: 2x6_alignment_pin v3:2
+				Body: Body1
+0	Component: Alignment pins:1
+1	Component: 2x6_alignment_pin v3:1
+				Body: Body1
+1	Component: 2x6_alignment_pin v3:2
+				Body: Body1
+0	Component: Upper_Neck_Bone v53:1
+				Body: Body1
+				Body: Body2
+				Body: Body3
+				Body: Body4
+1	Component: Screw Assembly:1
+2	Component: M3 x 20 Screw Group:1
+3	Component: Scheibe_M3 v1:1
+				Body: Body1
+3	Component: Scheibe_M3 v1:2
+				Body: Body1
+3	Component: Mutter_M3 v1:1
+				Body: Body1
+3	Component: M3x15_Zylinderschraube v1:1
+				Body: Body1
+2	Component: M3 x 20 Screw Group (1):1
+3	Component: Scheibe_M3 v1:3
+				Body: Body1
+3	Component: Scheibe_M3 v1:4
+				Body: Body1
+3	Component: Mutter_M3 v1:2
+				Body: Body1
+3	Component: M3x15_Zylinderschraube v1:2
+				Body: Body1
+2	Component: M3 x 20 Screw Group (2):1
+3	Component: Scheibe_M3 v1:5
+				Body: Body1
+3	Component: Scheibe_M3 v1:6
+				Body: Body1
+3	Component: Mutter_M3 v1:3
+				Body: Body1
+3	Component: M3x15_Zylinderschraube v1:3
+				Body: Body1
+2	Component: M3 x 20 Screw Group (3):1
+3	Component: Scheibe_M3 v1:7
+				Body: Body1
+3	Component: Scheibe_M3 v1:8
+				Body: Body1
+3	Component: Mutter_M3 v1:4
+				Body: Body1
+3	Component: M3x15_Zylinderschraube v1:4
+				Body: Body1
+2	Component: M3 x 20 Screw Group (4):1
+3	Component: Scheibe_M3 v1:9
+				Body: Body1
+3	Component: Scheibe_M3 v1:10
+				Body: Body1
+3	Component: Mutter_M3 v1:5
+				Body: Body1
+3	Component: M3x15_Zylinderschraube v1:5
+				Body: Body1
+2	Component: M3 x 20 Screw Group (5):1
+3	Component: Scheibe_M3 v1:11
+				Body: Body1
+3	Component: Scheibe_M3 v1:12
+				Body: Body1
+3	Component: Mutter_M3 v1:6
+				Body: Body1
+3	Component: M3x15_Zylinderschraube v1:6
+				Body: Body1
+1	Component: Bearing:1
+				Body: Body1
+1	Component: Flange:1
+				Body: Body1
+1	Component: Sensor Board:1
+2	Component: 3D_magnetic_board_(for_ball_joints_x3) v5:1
+3	Component: 3D_magnetic_board:1
+4	Component: Pcb:1
+				Body: Body1
+4	Component: TSOT_23_6_MK06A_:1
+				Body: Body1
+4	Component: C_0402_:1
+				Body: Body1
+3	Component: Component5:1
+				Body: Body1
+2	Component: M2x4_Zylinderschraube v4:1
+				Body: Body1
+1	Component: Sensor Board (1):1
+2	Component: 3D_magnetic_board_(for_ball_joints_x3) v5 (1):1
+3	Component: 3D_magnetic_board (1):1
+4	Component: Pcb:2
+				Body: Body1
+4	Component: TSOT_23_6_MK06A_:2
+				Body: Body1
+4	Component: C_0402_:2
+				Body: Body1
+3	Component: Component5:2
+				Body: Body1
+2	Component: M2x4_Zylinderschraube v4:2
+				Body: Body1
+1	Component: Sensor Board (2):1
+2	Component: 3D_magnetic_board_(for_ball_joints_x3) v5 (2):1
+3	Component: 3D_magnetic_board (2):1
+4	Component: Pcb:3
+				Body: Body1
+4	Component: TSOT_23_6_MK06A_:3
+				Body: Body1
+4	Component: C_0402_:3
+				Body: Body1
+3	Component: Component5:3
+				Body: Body1
+2	Component: M2x4_Zylinderschraube v4:3
+				Body: Body1
+1	Component: Alignment pins:1
+2	Component: 2x6_alignment_pin v3:1
+				Body: Body1
+2	Component: 2x6_alignment_pin v3:2
+				Body: Body1
+0	Component: VIS_K50_Kleinlautsprecher v3:1
+				Body: Body1
+0	Component: VIS_K36_WP_Kleinlautsprecher_Hochtöner v5:1
+				Body: Body1
+0	Component: Amplifier_3_5W v1:1
+				Body: Body1
+0	Component: Ear Cover:1
+				Body: Body1
+				Body: Body2
+1	Component: VIS_K50_Kleinlautsprecher v3:1
+				Body: Body1
+1	Component: VIS_K36_WP_Kleinlautsprecher_Hochtöner v5:1
+				Body: Body1
+1	Component: Amplifier_3_5W v1:1
+				Body: Body1
+0	Component: VIS K50 Kleinlautsprecher (Visaton) v3(Mirror):1
+				Body: Body1
+0	Component: VIS K36 WP Kleinlautsprecher Hochtöner (Visaton) v5(Mirror):1
+				Body: Body1
+0	Component: Amplifier 3:1
+				Body: Body1
+0	Component: Ear Cover(Mirror):1
+				Body: Body1
+				Body: Body2
+1	Component: VIS K50 Kleinlautsprecher (Visaton) v3(Mirror):1
+				Body: Body1
+1	Component: VIS K36 WP Kleinlautsprecher Hochtöner (Visaton) v5(Mirror):1
+				Body: Body1
+1	Component: Amplifier 3:1
+				Body: Body1
