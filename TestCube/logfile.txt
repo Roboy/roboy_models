@@ -1,0 +1,12 @@
+component_1:1: mass[kg] 0.981250 	 COM[cm] 0.000000 0.000000 2.453125
+component_2:1: mass[kg] 1.962500 	 COM[cm] 0.000000 0.000000 2.453125
+Mass of rigidGroup_1: 2.943750
+COM of rigidGroup_1: 0.000000 0.000000 1.666667
+component_5:1: mass[kg] 0.245312 	 COM[cm] 0.306641 0.000000 1.533203
+component_6:1: mass[kg] 0.490625 	 COM[cm] 2.453125 0.000000 3.066406
+Mass of rigidGroup_2: 0.735937
+COM of rigidGroup_2: 3.750000 0.000000 6.250000
+component_7:1: mass[kg] 0.245312 	 COM[cm] -0.919922 0.000000 1.533203
+component_8:1: mass[kg] 0.490625 	 COM[cm] -1.839844 0.000000 4.906250
+Mass of rigidGroup_3: 0.735937
+COM of rigidGroup_3: -3.750000 0.000000 8.750000
