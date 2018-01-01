@@ -138,5 +138,11 @@
 				</link>
 			</myoMuscle>
 		</plugin>
+
+        <plugin filename="libImuModelPlugin.so" name="ImuModelPlugin">
+            <link name="head">
+                <pose type="ACC">0 0 0 0 0 0</pose>
+            </link>
+        </plugin>
 	</model>
 </sdf>
