@@ -1,5 +1,5 @@
 name: upper_arm_right
-ObjectID: 0
+ObjectID: 1
 mesh: ../meshes/CAD/upper_arm_right.stl
 sensor_relative_locations:
 - [0, -0.04833347717844474, 0.06253605425223327, -0.22718316663437418]
