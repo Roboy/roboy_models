@@ -1,5 +1,5 @@
 name: head
-ObjectID: 0
+ObjectID: 1
 mesh: ../meshes/CAD/head.stl
 sensor_relative_locations:
 - [0, 0.07759968465202628, -0.09677820801892505, 0.2547146923229892]

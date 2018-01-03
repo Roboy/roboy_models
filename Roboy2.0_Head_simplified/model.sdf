@@ -67,14 +67,14 @@
 			<pose frame="">-0.024273705526268313 0.3025621013405535 -0.268495305978832 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>10.580510479011059</mass>
+				<mass>10.58051047901106</mass>
 				<inertia>
-					<ixx>1.2591112092356402</ixx>
-					<ixy>0.06881688048589463</ixy>
-					<ixz>0.48623405607238124</ixz>
-					<iyy>0.30330732653896125</iyy>
-					<iyz>-0.03582283453312754</iyz>
-					<izz>0.9754436432208754</izz>
+					<ixx>1.2559639900199409</ixx>
+					<ixy>0.06854200852489073</ixy>
+					<ixz>0.48545353071933806</ixz>
+					<iyy>0.30330590795286294</iyy>
+					<iyz>-0.03574265591484113</iyz>
+					<izz>0.9722516127680956</izz>
 				</inertia>
 			</inertial>
 			<collision name="lower_arm_right_collision">
@@ -98,14 +98,14 @@
 			<pose frame="">0.00538123505847338 -0.28073995558559817 -0.27570325503368226 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>11.18042314593106</mass>
+				<mass>11.180423145931053</mass>
 				<inertia>
-					<ixx>1.2139226936941832</ixx>
-					<ixy>0.027043450960938426</ixy>
-					<ixz>-0.48088855687787213</ixz>
-					<iyy>0.32376613250470904</iyy>
-					<iyz>0.012916811142590771</iyz>
-					<izz>0.90190573966372</izz>
+					<ixx>1.2126531732458716</ixx>
+					<ixy>0.02702430066002528</ixy>
+					<ixz>-0.48054023459331124</ixz>
+					<iyy>0.32375849367990517</iyy>
+					<iyz>0.012916596811184951</iyz>
+					<izz>0.9006438580402119</izz>
 				</inertia>
 			</inertial>
 			<collision name="lower_arm_left_collision">
@@ -187,19 +187,6 @@
 				</geometry>
 			</visual>
 		</link>
-		<joint name="neck" type="revolute">
-			<parent>head</parent>
-			<child>torso</child>
-			<pose frame="">0.010674885790744215 0.005000000000002169 0.7784079775594238 0 0 0</pose>
-			<axis>
-				<xyz>5.10583152219188e-17 1.0000000000000007 -3.566591466608315e-15</xyz>
-				<limit>
-					<lower>-0.0</lower>
-					<upper>-0.0</upper>
-				</limit>
-				<use_parent_model_frame>0</use_parent_model_frame>
-			</axis>
-		</joint>
 		<joint name="left_shoulder" type="revolute">
 			<parent>torso</parent>
 			<child>upper_arm_left</child>
@@ -226,27 +213,40 @@
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
-		<joint name="elbow_right" type="revolute">
-			<parent>lower_arm_right</parent>
-			<child>upper_arm_right</child>
-			<pose frame="">-0.010635860627077305 -0.009274648879483998 -0.30112427492443483 0 0 0</pose>
+		<joint name="neck" type="revolute">
+			<parent>torso</parent>
+			<child>head</child>
+			<pose frame="">2.220446049250313e-18 0.0 0.0 0 0 0</pose>
 			<axis>
-				<xyz>-0.10135777399865112 0.9947590323866661 0.013456193190960428</xyz>
+				<xyz>-2.3337480885752904e-16 -1.0000000000000018 3.594347042223944e-15</xyz>
 				<limit>
 					<lower>-0.0</lower>
-					<upper>1.5707963267948966</upper>
+					<upper>-0.0</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
 		<joint name="elbow_left" type="revolute">
-			<parent>lower_arm_left</parent>
-			<child>upper_arm_left</child>
-			<pose frame="">-0.01189818206084797 0.015867512066098967 -0.3008139539918087 0 0 0</pose>
+			<parent>upper_arm_left</parent>
+			<child>lower_arm_left</child>
+			<pose frame="">0.0010837244328919559 0.0229265660548478 0.26581834110041874 0 0 0</pose>
 			<axis>
-				<xyz>8.396042337321875e-16 0.9999373747285499 0.01119136367814187</xyz>
+				<xyz>1.056555017087124e-15 0.9999373747285498 0.011191363678141941</xyz>
 				<limit>
-					<lower>-0.0</lower>
+					<lower>-1.5707963267948966</lower>
+					<upper>-0.0</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="elbow_right" type="revolute">
+			<parent>upper_arm_right</parent>
+			<child>lower_arm_right</child>
+			<pose frame="">0.003765054676937636 -0.029541382145029545 0.2651696678513797 0 0 0</pose>
+			<axis>
+				<xyz>0.10135777399865124 -0.9947590323866654 -0.013456193190960529</xyz>
+				<limit>
+					<lower>0.0</lower>
 					<upper>1.5707963267948966</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
