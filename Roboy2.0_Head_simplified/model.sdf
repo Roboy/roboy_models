@@ -187,32 +187,6 @@
 				</geometry>
 			</visual>
 		</link>
-		<joint name="elbow_right" type="revolute">
-			<parent>lower_arm_right</parent>
-			<child>upper_arm_right</child>
-			<pose frame="">-0.010635860627077305 -0.009274648879483998 -0.30112427492443483 0 0 0</pose>
-			<axis>
-				<xyz>-0.10135777399865112 0.9947590323866661 0.013456193190960428</xyz>
-				<limit>
-					<lower>-0.0</lower>
-					<upper>1.5707963267948966</upper>
-				</limit>
-				<use_parent_model_frame>0</use_parent_model_frame>
-			</axis>
-		</joint>
-		<joint name="elbow_left" type="revolute">
-			<parent>lower_arm_left</parent>
-			<child>upper_arm_left</child>
-			<pose frame="">-0.01189818206084797 0.015867512066098967 -0.3008139539918087 0 0 0</pose>
-			<axis>
-				<xyz>8.396042337321875e-16 0.9999373747285499 0.01119136367814187</xyz>
-				<limit>
-					<lower>-0.0</lower>
-					<upper>1.5707963267948966</upper>
-				</limit>
-				<use_parent_model_frame>0</use_parent_model_frame>
-			</axis>
-		</joint>
 		<joint name="neck" type="revolute">
 			<parent>head</parent>
 			<child>torso</child>
@@ -252,28 +226,28 @@
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
-		<joint name="wrist_right" type="revolute">
+		<joint name="elbow_right" type="revolute">
 			<parent>lower_arm_right</parent>
-			<child>lower_arm_right</child>
-			<pose frame="">0.005269128011825077 -0.002573338092591371 0.22992523615526927 0 0 0</pose>
+			<child>upper_arm_right</child>
+			<pose frame="">-0.010635860627077305 -0.009274648879483998 -0.30112427492443483 0 0 0</pose>
 			<axis>
-				<xyz>0.022909252225326495 -0.011188426489528005 0.9996749398055185</xyz>
+				<xyz>-0.10135777399865112 0.9947590323866661 0.013456193190960428</xyz>
 				<limit>
 					<lower>-0.0</lower>
-					<upper>-0.0</upper>
+					<upper>1.5707963267948966</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
-		<joint name="wrist_left" type="revolute">
+		<joint name="elbow_left" type="revolute">
 			<parent>lower_arm_left</parent>
-			<child>lower_arm_left</child>
-			<pose frame="">0.005269128011825219 -0.0025733380925928627 0.22992523615526916 0 0 0</pose>
+			<child>upper_arm_left</child>
+			<pose frame="">-0.01189818206084797 0.015867512066098967 -0.3008139539918087 0 0 0</pose>
 			<axis>
-				<xyz>0.022909252225326995 -0.011188426489534064 0.999674939805518</xyz>
+				<xyz>8.396042337321875e-16 0.9999373747285499 0.01119136367814187</xyz>
 				<limit>
 					<lower>-0.0</lower>
-					<upper>-0.0</upper>
+					<upper>1.5707963267948966</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
