@@ -1,0 +1,178 @@
+<?xml version="1.0" ?>
+<robot name="roboy2_0_head_simplified">
+  <joint name="roboy2_0_head_simplified__left_shoulder" type="fixed">
+    <parent link="roboy2_0_head_simplified__torso"/>
+    <child link="roboy2_0_head_simplified__upper_arm_left"/>
+    <origin rpy="0  0  0" xyz="0.00768 -0.29218  0.55077"/>
+    <axis xyz="-0.99844 -0.05101  0.02231"/>
+    <limit effort="0.0" lower="-0.0" upper="-0.0" velocity="0.0"/>
+  </joint>
+  <joint name="roboy2_0_head_simplified__right_shoulder" type="fixed">
+    <parent link="roboy2_0_head_simplified__torso"/>
+    <child link="roboy2_0_head_simplified__upper_arm_right"/>
+    <origin rpy="0  0  0" xyz="-0.02194  0.29102  0.55798"/>
+    <axis xyz="0.99844  0.05101 -0.02231"/>
+    <limit effort="0.0" lower="-0.0" upper="-0.0" velocity="0.0"/>
+  </joint>
+  <joint name="roboy2_0_head_simplified__neck" type="fixed">
+    <parent link="roboy2_0_head_simplified__torso"/>
+    <child link="roboy2_0_head_simplified__head"/>
+    <origin rpy="0  0  0" xyz="0      0      0.7334"/>
+    <axis xyz="0 -1  0"/>
+    <limit effort="0.0" lower="-0.0" upper="-0.0" velocity="0.0"/>
+  </joint>
+  <joint name="roboy2_0_head_simplified__base_joint" type="revolute">
+    <parent link="roboy2_0_head_simplified__base_link"/>
+    <child link="roboy2_0_head_simplified__torso"/>
+    <origin rpy="0  0  0" xyz="0.01067  0.005   -0.26"/>
+    <axis xyz="0  0 -1"/>
+    <limit effort="0.0" lower="-1.57079632679" upper="1.57079632679" velocity="0.0"/>
+  </joint>
+  <joint name="roboy2_0_head_simplified__elbow_left" type="revolute">
+    <parent link="roboy2_0_head_simplified__upper_arm_left"/>
+    <child link="roboy2_0_head_simplified__lower_arm_left"/>
+    <origin rpy="0  0  0" xyz="-0.01189  0.02936 -0.30066"/>
+    <axis xyz="0       0.99993  0.01119"/>
+    <limit effort="0.0" lower="-1.57079632679" upper="-0.0" velocity="0.0"/>
+  </joint>
+  <joint name="roboy2_0_head_simplified__elbow_right" type="revolute">
+    <parent link="roboy2_0_head_simplified__upper_arm_right"/>
+    <child link="roboy2_0_head_simplified__lower_arm_right"/>
+    <origin rpy="0  0  0" xyz="-0.00923 -0.023   -0.30131"/>
+    <axis xyz="0.10135 -0.99475 -0.01345"/>
+    <limit effort="0.0" lower="0.0" upper="1.57079632679" velocity="0.0"/>
+  </joint>
+  <link name="roboy2_0_head_simplified__upper_arm_left">
+    <inertial>
+      <mass value="15.908363752087764"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="1.7625511434069268" ixy="0.07244158478595611" ixz="0.6251218203413375" iyy="0.3634874621725613" iyz="-0.032736028946414225" izz="1.460574059311425"/>
+    </inertial>
+    <collision name="roboy2_0_head_simplified__upper_arm_left_collision">
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <geometry>
+        <mesh filename="package://roboy_models/Roboy2.0_Upper_Body_simplified/meshes/CAD/upper_arm_left.stl OR roboy_models/roboy2_0_head_simplified/meshes/CAD/upper_arm_left.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="roboy2_0_head_simplified__upper_arm_left_visual">
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <geometry>
+        <mesh filename="package://roboy_models/Roboy2.0_Upper_Body_simplified/meshes/CAD/upper_arm_left.stl OR roboy_models/roboy2_0_head_simplified/meshes/CAD/upper_arm_left.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="roboy2_0_head_simplified__lower_arm_right">
+    <inertial>
+      <mass value="10.58051047901106"/>
+      <origin rpy="0  0  0" xyz="-0.00376  0.02954 -0.26517"/>
+      <inertia ixx="1.2559639900199409" ixy="0.06854200852489073" ixz="0.48545353071933806" iyy="0.30330590795286294" iyz="-0.03574265591484113" izz="0.9722516127680956"/>
+    </inertial>
+    <collision name="roboy2_0_head_simplified__lower_arm_right_collision">
+      <origin rpy="0  0  0" xyz="-0.00376  0.02954 -0.26517"/>
+      <geometry>
+        <mesh filename="package://roboy_models/Roboy2.0_Upper_Body_simplified/meshes/CAD/lower_arm_right.stl OR roboy_models/roboy2_0_head_simplified/meshes/CAD/lower_arm_right.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="roboy2_0_head_simplified__lower_arm_right_visual">
+      <origin rpy="0  0  0" xyz="-0.00376  0.02954 -0.26517"/>
+      <geometry>
+        <mesh filename="package://roboy_models/Roboy2.0_Upper_Body_simplified/meshes/CAD/lower_arm_right.stl OR roboy_models/roboy2_0_head_simplified/meshes/CAD/lower_arm_right.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="roboy2_0_head_simplified__lower_arm_left">
+    <inertial>
+      <mass value="11.180423145931053"/>
+      <origin rpy="0  0  0" xyz="-0.00108 -0.02292 -0.26581"/>
+      <inertia ixx="1.2126531732458716" ixy="0.02702430066002528" ixz="-0.48054023459331124" iyy="0.32375849367990517" iyz="0.012916596811184951" izz="0.9006438580402119"/>
+    </inertial>
+    <collision name="roboy2_0_head_simplified__lower_arm_left_collision">
+      <origin rpy="0  0  0" xyz="-0.00108 -0.02292 -0.26581"/>
+      <geometry>
+        <mesh filename="package://roboy_models/Roboy2.0_Upper_Body_simplified/meshes/CAD/lower_arm_left.stl OR roboy_models/roboy2_0_head_simplified/meshes/CAD/lower_arm_left.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="roboy2_0_head_simplified__lower_arm_left_visual">
+      <origin rpy="0  0  0" xyz="-0.00108 -0.02292 -0.26581"/>
+      <geometry>
+        <mesh filename="package://roboy_models/Roboy2.0_Upper_Body_simplified/meshes/CAD/lower_arm_left.stl OR roboy_models/roboy2_0_head_simplified/meshes/CAD/lower_arm_left.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="roboy2_0_head_simplified__upper_arm_right">
+    <inertial>
+      <mass value="14.719196946657304"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="1.8047353374389559" ixy="0.07012722555134064" ixz="-0.673788689539285" iyy="0.39312321166770187" iyz="0.03284392115313039" izz="1.471809237192228"/>
+    </inertial>
+    <collision name="roboy2_0_head_simplified__upper_arm_right_collision">
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <geometry>
+        <mesh filename="package://roboy_models/Roboy2.0_Upper_Body_simplified/meshes/CAD/upper_arm_right.stl OR roboy_models/roboy2_0_head_simplified/meshes/CAD/upper_arm_right.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="roboy2_0_head_simplified__upper_arm_right_visual">
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <geometry>
+        <mesh filename="package://roboy_models/Roboy2.0_Upper_Body_simplified/meshes/CAD/upper_arm_right.stl OR roboy_models/roboy2_0_head_simplified/meshes/CAD/upper_arm_right.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="roboy2_0_head_simplified__torso">
+    <inertial>
+      <mass value="23.826924552116513"/>
+      <origin rpy="0  0  0" xyz="-0.01067 -0.005   -0.045"/>
+      <inertia ixx="2.9555380311138997" ixy="0.006437750311300029" ixz="-0.03827771282305846" iyy="2.611050176871273" iyz="-0.024011145276905815" izz="0.47775336943429886"/>
+    </inertial>
+    <collision name="roboy2_0_head_simplified__torso_collision">
+      <origin rpy="0  0  0" xyz="-0.01067 -0.005   -0.045"/>
+      <geometry>
+        <mesh filename="package://roboy_models/Roboy2.0_Upper_Body_simplified/meshes/CAD/torso.stl OR roboy_models/roboy2_0_head_simplified/meshes/CAD/torso.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="roboy2_0_head_simplified__torso_visual">
+      <origin rpy="0  0  0" xyz="-0.01067 -0.005   -0.045"/>
+      <geometry>
+        <mesh filename="package://roboy_models/Roboy2.0_Upper_Body_simplified/meshes/CAD/torso.stl OR roboy_models/roboy2_0_head_simplified/meshes/CAD/torso.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="roboy2_0_head_simplified__head">
+    <inertial>
+      <mass value="2.1752108706476503"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.8451378573180605" ixy="-0.00046727522854294495" ixz="-0.005715381623468909" iyy="0.8577903362812495" iyz="-0.07402430273698146" izz="0.03262463725323261"/>
+    </inertial>
+    <collision name="roboy2_0_head_simplified__head_collision">
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <geometry>
+        <mesh filename="package://roboy_models/Roboy2.0_Upper_Body_simplified/meshes/CAD/head.stl OR roboy_models/roboy2_0_head_simplified/meshes/CAD/head.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="roboy2_0_head_simplified__head_visual">
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <geometry>
+        <mesh filename="package://roboy_models/Roboy2.0_Upper_Body_simplified/meshes/CAD/head.stl OR roboy_models/roboy2_0_head_simplified/meshes/CAD/head.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="roboy2_0_head_simplified__base_link">
+    <inertial>
+      <mass value="44.79628051866453"/>
+      <origin rpy="0  0  0" xyz="1.90000000e-04   5.41000000e-03  -2.94240000e-01"/>
+      <inertia ixx="6.36721511271351" ixy="-4.468074911044262e-05" ixz="0.06710270307219533" iyy="5.816562244950908" iyz="0.0024823445011250074" izz="4.14103837987708"/>
+    </inertial>
+    <collision name="roboy2_0_head_simplified__base_link_collision">
+      <origin rpy="0  0  0" xyz="1.90000000e-04   5.41000000e-03  -2.94240000e-01"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy2_0_head_simplified/meshes/CAD/base_link.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="roboy2_0_head_simplified__base_link_visual">
+      <origin rpy="0  0  0" xyz="1.90000000e-04   5.41000000e-03  -2.94240000e-01"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy2_0_head_simplified/meshes/CAD/base_link.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>
