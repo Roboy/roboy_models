@@ -225,8 +225,8 @@
 			<axis>
 				<xyz>-0.9984488883025698 -0.051010494316672275 0.022310242422104793</xyz>
 				<limit>
-					<lower>-0.0</lower>
-					<upper>-0.0</upper>
+					<lower>-1.57079632679</lower>
+					<upper>1.57079632679</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
@@ -238,8 +238,8 @@
 			<axis>
 				<xyz>0.9984488883025716 0.05101049431667234 -0.022310242422104807</xyz>
 				<limit>
-					<lower>-0.0</lower>
-					<upper>-0.0</upper>
+					<lower>-1.57079632679</lower>
+					<upper>1.57079632679</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
@@ -251,8 +251,8 @@
 			<axis>
 				<xyz>-2.3337480885752904e-16 -1.0000000000000018 3.594347042223944e-15</xyz>
 				<limit>
-					<lower>-0.0</lower>
-					<upper>-0.0</upper>
+					<lower>-1.57079632679</lower>
+					<upper>1.57079632679</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
@@ -277,8 +277,8 @@
 			<axis>
 				<xyz>1.056555017087124e-15 0.9999373747285498 0.011191363678141941</xyz>
 				<limit>
-					<lower>-1.5707963267948966</lower>
-					<upper>-0.0</upper>
+					<lower>0.0</lower>
+					<upper>1.5707963267948966</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
@@ -290,13 +290,13 @@
 			<axis>
 				<xyz>0.10135777399865124 -0.9947590323866654 -0.013456193190960529</xyz>
 				<limit>
-					<lower>0.0</lower>
-					<upper>1.5707963267948966</upper>
+					<lower>-1.5707963267948966</lower>
+					<upper>0.0</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
-		<!-- <plugin filename="libmyomuscle_plugin.so" name="myomuscle_plugin">
+		<plugin filename="libmyomuscle_plugin.so" name="myomuscle_plugin">
 			<myoMuscle name="motor0">
 				<link name="torso">
 					<viaPoint type="FIXPOINT">-0.03384098771323268 0.05630415696557444 0.7385367166308674</viaPoint>
@@ -513,6 +513,6 @@
 					<viaPoint type="FIXPOINT">-0.003516694336898634 0.03706358201779779 0.24332459105664098</viaPoint>
 				</link>
 			</myoMuscle>
-		</plugin> -->
+		</plugin>
 	</model>
 </sdf>
