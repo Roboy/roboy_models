@@ -1,5 +1,5 @@
 name: torso
-ObjectID: 0
+ObjectID: 5
 mesh: ../meshes/CAD/torso.stl
 sensor_relative_locations:
 - [0, -0.08729688829033122, -0.07038950446611958, 0.6572078745483879]
