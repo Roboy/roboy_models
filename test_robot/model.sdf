@@ -1,0 +1,169 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+	<model name="test_robot">
+		<link name="base_link">
+			<pose frame="">0.0 0.005609474436197177 -0.01960947443619716 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.8836460093227236</mass>
+				<inertia>
+					<ixx>0.001190738943138962</ixx>
+					<ixy>8.183188171528854e-16</ixy>
+					<ixz>0.00011645046673107727</ixz>
+					<iyy>0.0011629339593055119</iyy>
+					<iyz>-2.1314993325916023e-15</iyz>
+					<izz>0.0013460029187360508</izz>
+				</inertia>
+			</inertial>
+			<collision name="base_link_collision">
+				<geometry>
+					<mesh>
+						<uri>model://test_robot/meshes/CAD/base_link.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="base_link_visual">
+				<geometry>
+					<mesh>
+						<uri>model://test_robot/meshes/CAD/base_link.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_1">
+			<pose frame="">0.0 0.005609474436197114 0.08539052556380285 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.35759178379484685</mass>
+				<inertia>
+					<ixx>0.0009347744519547174</ixx>
+					<ixy>-8.358704954858354e-15</ixy>
+					<ixz>-7.548591211405358e-05</ixz>
+					<iyy>0.0009235223863199722</iyy>
+					<iyz>-4.145617868323015e-14</iyz>
+					<izz>9.710490526590238e-05</izz>
+				</inertia>
+			</inertial>
+			<collision name="link_1_collision">
+				<geometry>
+					<mesh>
+						<uri>model://test_robot/meshes/CAD/link_1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="link_1_visual">
+				<geometry>
+					<mesh>
+						<uri>model://test_robot/meshes/CAD/link_1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_2">
+			<pose frame="">0.0 -0.09439052556380297 0.08539052556380279 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.2980192754801843</mass>
+				<inertia>
+					<ixx>0.0031206814603347197</ixx>
+					<ixy>1.4492541655641843e-15</ixy>
+					<ixz>0.001248431371227071</ixz>
+					<iyy>0.0020826640636364305</iyy>
+					<iyz>2.1587817278234665e-15</iyz>
+					<izz>0.0011068187195061008</izz>
+				</inertia>
+			</inertial>
+			<collision name="link_2_collision">
+				<geometry>
+					<mesh>
+						<uri>model://test_robot/meshes/CAD/link_2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="link_2_visual">
+				<geometry>
+					<mesh>
+						<uri>model://test_robot/meshes/CAD/link_2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_3">
+			<pose frame="">-3.7747582837255325e-17 -0.19439052556380298 0.0853905255638028 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.24046573204213045</mass>
+				<inertia>
+					<ixx>0.005401136615889047</ixx>
+					<ixy>-7.32048066367379e-08</ixy>
+					<ixz>0.002417430698161075</ixz>
+					<iyy>0.0016417934060639504</iyy>
+					<iyz>5.4602878175571166e-08</iyz>
+					<izz>0.0037874184482716597</izz>
+				</inertia>
+			</inertial>
+			<collision name="link_3_collision">
+				<geometry>
+					<mesh>
+						<uri>model://test_robot/meshes/CAD/link_3.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="link_3_visual">
+				<geometry>
+					<mesh>
+						<uri>model://test_robot/meshes/CAD/link_3.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<joint name="joint_1" type="revolute">
+			<parent>base_link</parent>
+			<child>link_1</child>
+			<pose frame="">0.0 6.217248937900877e-17 -0.10499999999999998 0 0 0</pose>
+			<axis>
+				<xyz>0.0 -5.967448757360212e-16 0.9999999999999998</xyz>
+				<limit>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="joint_2" type="revolute">
+			<parent>link_1</parent>
+			<child>link_2</child>
+			<pose frame="">0.0 0.10000000000000009 5.329070518200751e-17 0 0 0</pose>
+			<axis>
+				<xyz>0.0 -5.96744875736021e-16 1.0</xyz>
+				<limit>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="joint_3" type="revolute">
+			<parent>link_2</parent>
+			<child>link_3</child>
+			<pose frame="">3.7747582837255325e-17 0.10000000000000007 -1.7763568394002505e-17 0 0 0</pose>
+			<axis>
+				<xyz>0.0 5.96744875736021e-16 -1.0</xyz>
+				<limit>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<plugin filename="libmyomuscle_plugin.so" name="myomuscle_plugin"/>
+	</model>
+</sdf>
