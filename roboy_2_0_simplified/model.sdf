@@ -411,8 +411,8 @@
 			<axis>
 				<xyz>0.4189348460025761 -0.9065270608704193 -0.05198348501646359</xyz>
 				<limit>
-					<lower>-0.0</lower>
-					<upper>-0.0</upper>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
@@ -437,8 +437,8 @@
 			<axis>
 				<xyz>0.13534317019730263 -0.9907797246791729 -0.0061451969542926635</xyz>
 				<limit>
-					<lower>-0.0</lower>
-					<upper>-0.0</upper>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
@@ -450,8 +450,8 @@
 			<axis>
 				<xyz>0.9051278805946743 0.42148002170328414 -0.055660677997936454</xyz>
 				<limit>
-					<lower>-0.0</lower>
-					<upper>-0.0</upper>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
@@ -560,6 +560,6 @@
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
-		<!-- <plugin filename="libmyomuscle_plugin.so" name="myomuscle_plugin"/> -->
+		 <plugin filename="libmyomuscle_plugin.so" name="myomuscle_plugin"/>
 	</model>
 </sdf>
