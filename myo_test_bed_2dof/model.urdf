@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<robot name="myo_test_bed_2dof">
+  <joint name="joint_1" type="revolute">
+    <parent link="base_link"/>
+    <child link="link_1"/>
+    <origin rpy="0  0  0" xyz="0       0.033    0.00806"/>
+    <axis xyz="0  0  1"/>
+    <limit effort="0.0" lower="-0.785398163397" upper="0.785398163397" velocity="0.0"/>
+  </joint>
+  <joint name="joint_2" type="revolute">
+    <parent link="link_1"/>
+    <child link="link_2"/>
+    <origin rpy="0  0  0" xyz="-0.01029  0      -0.008"/>
+    <axis xyz="-1  0  0"/>
+    <limit effort="0.0" lower="-0.785398163397" upper="0.785398163397" velocity="0.0"/>
+  </joint>
+  <link name="base_link">
+    <inertial>
+      <mass value="78.57185235709669"/>
+      <origin rpy="0  0  0" xyz="0    0.01  0"/>
+      <inertia ixx="6.5436157767287995" ixy="6.403824702705758e-11" ixz="1.6356742045632723e-07" iyy="13.081856014264773" iyz="1.2926320230557953e-11" izz="6.543615803849883"/>
+    </inertial>
+    <collision name="base_link_collision">
+      <origin rpy="0  0  0" xyz="0    0.01  0"/>
+      <geometry>
+        <mesh filename="package://roboy_models/myo_test_bed/meshes/CAD/base_link.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="base_link_visual">
+      <origin rpy="0  0  0" xyz="0    0.01  0"/>
+      <geometry>
+        <mesh filename="package://roboy_models/myo_test_bed/meshes/CAD/base_link.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="link_1">
+    <inertial>
+      <mass value="0.011947622168864342"/>
+      <origin rpy="0  0  0" xyz="0      -0.005   -0.00806"/>
+      <inertia ixx="1.3676156919186477e-05" ixy="4.82739307416935e-16" ixz="3.43196811173932e-07" iyy="6.472688402440684e-07" iyz="8.878729782640923e-19" izz="1.4034984798904752e-05"/>
+    </inertial>
+    <collision name="link_1_collision">
+      <origin rpy="0  0  0" xyz="0      -0.005   -0.00806"/>
+      <geometry>
+        <mesh filename="package://roboy_models/myo_test_bed/meshes/CAD/link_1.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="link_1_visual">
+      <origin rpy="0  0  0" xyz="0      -0.005   -0.00806"/>
+      <geometry>
+        <mesh filename="package://roboy_models/myo_test_bed/meshes/CAD/link_1.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="link_2">
+    <inertial>
+      <mass value="0.3884121670590923"/>
+      <origin rpy="0  0  0" xyz="1.02900000e-02   3.29470000e-01  -6.00000000e-05"/>
+      <inertia ixx="0.018552090221182416" ixy="1.4943600593203338e-05" ixz="-4.379939747839803e-06" iyy="5.445399617570222e-06" iyz="4.274438633891054e-09" izz="0.01855265757962053"/>
+    </inertial>
+    <collision name="link_2_collision">
+      <origin rpy="0  0  0" xyz="1.02900000e-02   3.29470000e-01  -6.00000000e-05"/>
+      <geometry>
+        <mesh filename="package://roboy_models/myo_test_bed/meshes/CAD/link_2.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="link_2_visual">
+      <origin rpy="0  0  0" xyz="1.02900000e-02   3.29470000e-01  -6.00000000e-05"/>
+      <geometry>
+        <mesh filename="package://roboy_models/myo_test_bed/meshes/CAD/link_2.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>
