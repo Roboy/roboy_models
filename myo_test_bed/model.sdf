@@ -1,11 +1,12 @@
 <?xml version="1.0" ?>
 <sdf version="1.6">
 	<model name="myo_test_bed">
+        <!--<self_collide>false</self_collide>-->
 		<link name="base_link">
 			<pose frame="">0.0 0.05 -0.03 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>81.57017681249721</mass>
+				<mass>10</mass>
 				<inertia>
 					<ixx>6.55362516893232</ixx>
 					<ixy>2.1261530491756276e-15</ixy>
@@ -36,7 +37,7 @@
 			<pose frame="">0.0 0.3 -0.02 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>1.144721041586121</mass>
+				<mass>1</mass>
 				<inertia>
 					<ixx>0.045041803642654706</ixx>
 					<ixy>-6.517706630515541e-15</ixy>
@@ -67,7 +68,7 @@
 			<pose frame="">-1.5308084989341916e-18 0.5000000000000001 -0.019999999999999997 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.35049902344940453</mass>
+				<mass>0.5</mass>
 				<inertia>
 					<ixx>0.059533107364513484</ixx>
 					<ixy>-1.5421278516392077e-14</ixy>
@@ -101,8 +102,8 @@
 			<axis>
 				<xyz>0.0 0.0 -1.0</xyz>
 				<limit>
-					<lower>-1.5707963267948966</lower>
-					<upper>1.5707963267948966</upper>
+					<lower>-0.9</lower>
+					<upper>0.9</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
@@ -114,13 +115,13 @@
 			<axis>
 				<xyz>0.0 0.0 -1.0</xyz>
 				<limit>
-					<lower>-1.5707963267948966</lower>
-					<upper>1.5707963267948966</upper>
+					<lower>-0.9</lower>
+					<upper>0.9</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
-		<!-- <plugin filename="libmyomuscle_plugin.so" name="myomuscle_plugin">
+		<plugin filename="libmyomuscle_plugin.so" name="myomuscle_plugin">
 			<myoMuscle name="motor0">
 				<link name="base_link">
 					<viaPoint type="FIXPOINT">-0.405 -0.04 0.005</viaPoint>
@@ -143,6 +144,6 @@
 					<viaPoint type="FIXPOINT">1.5308084989341916e-18 -1.4210854715202004e-16 -0.009999999999999992</viaPoint>
 				</link>
 			</myoMuscle>
-		</plugin> -->
+		</plugin>
 	</model>
 </sdf>
