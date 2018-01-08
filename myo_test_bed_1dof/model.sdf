@@ -1,25 +1,24 @@
 <?xml version="1.0" ?>
 <sdf version="1.6">
-	<model name="myo_test_bed">
-        <!--<self_collide>false</self_collide>-->
+	<model name="myo_test_bed_1dof">
 		<link name="base_link">
 			<pose frame="">0.0 0.05 -0.03 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>10</mass>
+				<mass>10000</mass>
 				<inertia>
-					<ixx>6.55362516893232</ixx>
-					<ixy>2.1261530491756276e-15</ixy>
-					<ixz>-6.165375585176491e-08</ixz>
-					<iyy>13.090883608085097</iyy>
-					<iyz>1.784883352228847e-19</iyz>
-					<izz>6.551145204995957</izz>
+                    <ixx>1</ixx>
+                    <ixy>0</ixy>
+                    <ixz>0</ixz>
+                    <iyy>1</iyy>
+                    <iyz>0</iyz>
+                    <izz>1</izz>
 				</inertia>
 			</inertial>
 			<collision name="base_link_collision">
 				<geometry>
 					<mesh>
-						<uri>model://myo_test_bed/meshes/CAD/base_link.stl</uri>
+						<uri>model://myo_test_bed_1dof/meshes/CAD/base_link.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -27,7 +26,7 @@
 			<visual name="base_link_visual">
 				<geometry>
 					<mesh>
-						<uri>model://myo_test_bed/meshes/CAD/base_link.stl</uri>
+						<uri>model://myo_test_bed_1dof/meshes/CAD/base_link.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -37,20 +36,20 @@
 			<pose frame="">0.0 0.3 -0.02 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>1</mass>
+				<mass>10</mass>
 				<inertia>
-					<ixx>0.045041803642654706</ixx>
-					<ixy>-6.517706630515541e-15</ixy>
-					<ixz>0.005054503370266442</ixz>
-					<iyy>0.0009484103250172996</iyy>
-					<iyz>3.0197768619011353e-16</iyz>
-					<izz>0.0445500985825952</izz>
+					<ixx>1</ixx>
+					<ixy>0</ixy>
+					<ixz>0</ixz>
+					<iyy>1</iyy>
+					<iyz>0</iyz>
+					<izz>1</izz>
 				</inertia>
 			</inertial>
 			<collision name="link_1_collision">
 				<geometry>
 					<mesh>
-						<uri>model://myo_test_bed/meshes/CAD/link_1.stl</uri>
+						<uri>model://myo_test_bed_1dof/meshes/CAD/link_1.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -58,7 +57,7 @@
 			<visual name="link_1_visual">
 				<geometry>
 					<mesh>
-						<uri>model://myo_test_bed/meshes/CAD/link_1.stl</uri>
+						<uri>model://myo_test_bed_1dof/meshes/CAD/link_1.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -68,20 +67,20 @@
 			<pose frame="">-1.5308084989341916e-18 0.5000000000000001 -0.019999999999999997 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.5</mass>
+				<mass>10</mass>
 				<inertia>
-					<ixx>0.059533107364513484</ixx>
-					<ixy>-1.5421278516392077e-14</ixy>
-					<ixz>0.002198434154716154</ixz>
-					<iyy>9.767826199641165e-05</iyy>
-					<iyz>6.098784310903937e-16</iyz>
-					<izz>0.05945774939867188</izz>
+                    <ixx>1</ixx>
+                    <ixy>0</ixy>
+                    <ixz>0</ixz>
+                    <iyy>1</iyy>
+                    <iyz>0</iyz>
+                    <izz>1</izz>
 				</inertia>
 			</inertial>
 			<collision name="link_2_collision">
 				<geometry>
 					<mesh>
-						<uri>model://myo_test_bed/meshes/CAD/link_2.stl</uri>
+						<uri>model://myo_test_bed_1dof/meshes/CAD/link_2.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -89,7 +88,7 @@
 			<visual name="link_2_visual">
 				<geometry>
 					<mesh>
-						<uri>model://myo_test_bed/meshes/CAD/link_2.stl</uri>
+						<uri>model://myo_test_bed_1dof/meshes/CAD/link_2.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -102,8 +101,8 @@
 			<axis>
 				<xyz>0.0 0.0 -1.0</xyz>
 				<limit>
-					<lower>-0.9</lower>
-					<upper>0.9</upper>
+					<lower>-0.3</lower>
+					<upper>0.3</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
@@ -115,8 +114,8 @@
 			<axis>
 				<xyz>0.0 0.0 -1.0</xyz>
 				<limit>
-					<lower>-0.9</lower>
-					<upper>0.9</upper>
+					<lower>-0.3</lower>
+					<upper>0.3</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
@@ -129,9 +128,6 @@
 				<link name="link_1">
 					<viaPoint type="FIXPOINT">-0.02 0.0 -0.01</viaPoint>
 				</link>
-				<link name="link_2">
-					<viaPoint type="FIXPOINT">1.5308084989341916e-18 -1.4210854715202004e-16 -0.009999999999999992</viaPoint>
-				</link>
 			</myoMuscle>
 			<myoMuscle name="motor1">
 				<link name="base_link">
@@ -139,9 +135,6 @@
 				</link>
 				<link name="link_1">
 					<viaPoint type="FIXPOINT">0.02 0.0 -0.01</viaPoint>
-				</link>
-				<link name="link_2">
-					<viaPoint type="FIXPOINT">1.5308084989341916e-18 -1.4210854715202004e-16 -0.009999999999999992</viaPoint>
 				</link>
 			</myoMuscle>
 		</plugin>

@@ -122,14 +122,14 @@
 			</axis>
 		</joint>
 		<plugin filename="libmyomuscle_plugin.so" name="myomuscle_plugin">
-			<myoMuscle name="motor0">
-				<link name="base_link">
-					<viaPoint type="FIXPOINT">-0.34641016151377557 0.0 0.19999999999999993</viaPoint>
-				</link>
-				<link name="link_2">
-					<viaPoint type="FIXPOINT">0.0 0.0 0.0</viaPoint>
-				</link>
-			</myoMuscle>
+			<!--<myoMuscle name="motor0">-->
+				<!--<link name="base_link">-->
+					<!--<viaPoint type="FIXPOINT">-0.34641016151377557 0.0 0.19999999999999993</viaPoint>-->
+				<!--</link>-->
+				<!--<link name="link_2">-->
+					<!--<viaPoint type="FIXPOINT">0.0 0.0 0.0</viaPoint>-->
+				<!--</link>-->
+			<!--</myoMuscle>-->
 			<myoMuscle name="motor1">
 				<link name="base_link">
 					<viaPoint type="FIXPOINT">-0.3464101615137754 0.0 -0.20000000000000004</viaPoint>
@@ -146,14 +146,14 @@
 					<viaPoint type="FIXPOINT">0.0 0.0 0.0</viaPoint>
 				</link>
 			</myoMuscle>
-			<myoMuscle name="motor3">
-				<link name="base_link">
-					<viaPoint type="FIXPOINT">0.3464101615137756 0.0 -0.19999999999999973</viaPoint>
-				</link>
-				<link name="link_2">
-					<viaPoint type="FIXPOINT">0.0 0.0 0.0</viaPoint>
-				</link>
-			</myoMuscle>
+			<!--<myoMuscle name="motor3">-->
+				<!--<link name="base_link">-->
+					<!--<viaPoint type="FIXPOINT">0.3464101615137756 0.0 -0.19999999999999973</viaPoint>-->
+				<!--</link>-->
+				<!--<link name="link_2">-->
+					<!--<viaPoint type="FIXPOINT">0.0 0.0 0.0</viaPoint>-->
+				<!--</link>-->
+			<!--</myoMuscle>-->
 			<myoMuscle name="motor4">
 				<link name="base_link">
 					<viaPoint type="FIXPOINT">0.3464101615137754 0.0 0.20000000000000015</viaPoint>
