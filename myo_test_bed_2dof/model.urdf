@@ -23,13 +23,13 @@
     <collision name="base_link_collision">
       <origin rpy="0  0  0" xyz="0    0.01  0"/>
       <geometry>
-        <mesh filename="package://roboy_models/myo_test_bed/meshes/CAD/base_link.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://roboy_models/myo_test_bed_2dof/meshes/CAD/base_link.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual name="base_link_visual">
       <origin rpy="0  0  0" xyz="0    0.01  0"/>
       <geometry>
-        <mesh filename="package://roboy_models/myo_test_bed/meshes/CAD/base_link.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://roboy_models/myo_test_bed_2dof/meshes/CAD/base_link.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
   </link>
@@ -42,13 +42,13 @@
     <collision name="link_1_collision">
       <origin rpy="0  0  0" xyz="0      -0.005   -0.00806"/>
       <geometry>
-        <mesh filename="package://roboy_models/myo_test_bed/meshes/CAD/link_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://roboy_models/myo_test_bed_2dof/meshes/CAD/link_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual name="link_1_visual">
       <origin rpy="0  0  0" xyz="0      -0.005   -0.00806"/>
       <geometry>
-        <mesh filename="package://roboy_models/myo_test_bed/meshes/CAD/link_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://roboy_models/myo_test_bed_2dof/meshes/CAD/link_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
   </link>
@@ -61,13 +61,13 @@
     <collision name="link_2_collision">
       <origin rpy="0  0  0" xyz="1.02900000e-02   3.29470000e-01  -6.00000000e-05"/>
       <geometry>
-        <mesh filename="package://roboy_models/myo_test_bed/meshes/CAD/link_2.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://roboy_models/myo_test_bed_2dof/meshes/CAD/link_2.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual name="link_2_visual">
       <origin rpy="0  0  0" xyz="1.02900000e-02   3.29470000e-01  -6.00000000e-05"/>
       <geometry>
-        <mesh filename="package://roboy_models/myo_test_bed/meshes/CAD/link_2.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://roboy_models/myo_test_bed_2dof/meshes/CAD/link_2.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
   </link>
