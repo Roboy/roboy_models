@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<robot name="planar_2r_xz">
+  <joint name="planar_2r_xz__joint_1" type="revolute">
+    <parent link="planar_2r_xz__base_link"/>
+    <child link="planar_2r_xz__link_1"/>
+    <origin rpy="0  0  0" xyz="0  0  0"/>
+    <axis xyz="0  1  0"/>
+    <limit effort="0.0" lower="-0.785398163397" upper="0.785398163397" velocity="0.0"/>
+  </joint>
+  <joint name="planar_2r_xz__joint_2" type="revolute">
+    <parent link="planar_2r_xz__link_1"/>
+    <child link="planar_2r_xz__link_2"/>
+    <origin rpy="0  0  0" xyz="0  0  1"/>
+    <axis xyz="0  1  0"/>
+    <limit effort="0.0" lower="-1.57079632679" upper="1.57079632679" velocity="0.0"/>
+  </joint>
+  <link name="planar_2r_xz__base_link">
+    <inertial>
+      <mass value="1864.03589430065"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="1445.0797370131852" ixy="-0.00039932585549831386" ixz="-0.04144328971938495" iyy="1445.4671749785764" iyz="0.003026563138742931" izz="2889.770218034534"/>
+    </inertial>
+    <collision name="planar_2r_xz__base_link_collision">
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <geometry>
+        <mesh filename="package://roboy_models/planar_2r_xz/meshes/CAD/base_link.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="planar_2r_xz__base_link_visual">
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <geometry>
+        <mesh filename="package://roboy_models/planar_2r_xz/meshes/CAD/base_link.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="planar_2r_xz__link_1">
+    <inertial>
+      <mass value="1.0"/>
+      <origin rpy="0  0  0" xyz="0   0   0.5"/>
+      <inertia ixx="0.083333" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.083333"/>
+    </inertial>
+    <collision name="planar_2r_xz__link_1_collision">
+      <origin rpy="0  0  0" xyz="0   0   0.5"/>
+      <geometry>
+        <mesh filename="package://roboy_models/planar_2r_xz/meshes/CAD/link_1.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="planar_2r_xz__link_1_visual">
+      <origin rpy="0  0  0" xyz="0   0   0.5"/>
+      <geometry>
+        <mesh filename="package://roboy_models/planar_2r_xz/meshes/CAD/link_1.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="planar_2r_xz__link_2">
+    <inertial>
+      <mass value="1.0"/>
+      <origin rpy="0  0  0" xyz="0   0   0.5"/>
+      <inertia ixx="0.083333" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.083333"/>
+    </inertial>
+    <collision name="planar_2r_xz__link_2_collision">
+      <origin rpy="0  0  0" xyz="0   0   0.5"/>
+      <geometry>
+        <mesh filename="package://roboy_models/planar_2r_xz/meshes/CAD/link_2.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="planar_2r_xz__link_2_visual">
+      <origin rpy="0  0  0" xyz="0   0   0.5"/>
+      <geometry>
+        <mesh filename="package://roboy_models/planar_2r_xz/meshes/CAD/link_2.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>
