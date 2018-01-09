@@ -54,18 +54,18 @@
   </link>
   <link name="link_2">
     <inertial>
-      <mass value="0.3884121670590923"/>
-      <origin rpy="0  0  0" xyz="1.02900000e-02   3.29470000e-01  -6.00000000e-05"/>
-      <inertia ixx="0.018552090221182416" ixy="1.4943600593203338e-05" ixz="-4.379939747839803e-06" iyy="5.445399617570222e-06" iyz="4.274438633891054e-09" izz="0.01855265757962053"/>
+      <mass value="0.38841216705908443"/>
+      <origin rpy="0  0  0" xyz="0.0101   0.16519  0"/>
+      <inertia ixx="0.018552090221405047" ixy="1.4943600573748387e-05" ixz="-4.3799397478396795e-06" iyy="5.445399765853882e-06" iyz="4.274438628328982e-09" izz="0.018552657579545516"/>
     </inertial>
     <collision name="link_2_collision">
-      <origin rpy="0  0  0" xyz="1.02900000e-02   3.29470000e-01  -6.00000000e-05"/>
+      <origin rpy="0  0  0" xyz="0.0101   0.16519  0"/>
       <geometry>
         <mesh filename="package://roboy_models/myo_test_bed_2dof/meshes/CAD/link_2.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual name="link_2_visual">
-      <origin rpy="0  0  0" xyz="1.02900000e-02   3.29470000e-01  -6.00000000e-05"/>
+      <origin rpy="0  0  0" xyz="0.0101   0.16519  0"/>
       <geometry>
         <mesh filename="package://roboy_models/myo_test_bed_2dof/meshes/CAD/link_2.stl" scale="0.001 0.001 0.001"/>
       </geometry>
