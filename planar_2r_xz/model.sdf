@@ -1,0 +1,158 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+	<model name="planar_2r_xz">
+		<link name="base_link">
+			<pose frame="">0.0 0.0 0.0 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>1864.03589430065</mass>
+				<inertia>
+					<ixx>1445.0797370131852</ixx>
+					<ixy>-0.00039932585549831386</ixy>
+					<ixz>-0.04144328971938495</ixz>
+					<iyy>1445.4671749785764</iyy>
+					<iyz>0.003026563138742931</iyz>
+					<izz>2889.770218034534</izz>
+				</inertia>
+			</inertial>
+			<collision name="base_link_collision">
+				<geometry>
+					<mesh>
+						<uri>model://planar_2r_xz/meshes/CAD/base_link.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="base_link_visual">
+				<geometry>
+					<mesh>
+						<uri>model://planar_2r_xz/meshes/CAD/base_link.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_1">
+			<pose frame="">1.4901161193847657e-10 0.0 0.5 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>1</mass>
+				<inertia>
+					<ixx>0.083333</ixx>
+					<ixy>0</ixy>
+					<ixz>0</ixz>
+					<iyy>0</iyy>
+					<iyz>0</iyz>
+					<izz>0.083333</izz>
+				</inertia>
+			</inertial>
+			<collision name="link_1_collision">
+				<geometry>
+					<mesh>
+						<uri>model://planar_2r_xz/meshes/CAD/link_1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="link_1_visual">
+				<geometry>
+					<mesh>
+						<uri>model://planar_2r_xz/meshes/CAD/link_1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_2">
+			<pose frame="">1.4901161193847657e-10 0.0 1.5 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>1</mass>
+				<inertia>
+					<ixx>0.083333</ixx>
+					<ixy>0</ixy>
+					<ixz>0</ixz>
+					<iyy>0</iyy>
+					<iyz>0</iyz>
+					<izz>0.083333</izz>
+				</inertia>
+			</inertial>
+			<collision name="link_2_collision">
+				<geometry>
+					<mesh>
+						<uri>model://planar_2r_xz/meshes/CAD/link_2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="link_2_visual">
+				<geometry>
+					<mesh>
+						<uri>model://planar_2r_xz/meshes/CAD/link_2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<joint name="joint_1" type="revolute">
+			<parent>base_link</parent>
+			<child>link_1</child>
+			<pose frame="">-1.4901161193847657e-10 0.0 -0.5 0 0 0</pose>
+			<axis>
+				<xyz>0.0 1.0 0.0</xyz>
+				<limit>
+					<lower>-0.7853981633974483</lower>
+					<upper>0.7853981633974483</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="joint_2" type="revolute">
+			<parent>link_1</parent>
+			<child>link_2</child>
+			<pose frame="">-1.4901161193847657e-10 0.0 -0.5 0 0 0</pose>
+			<axis>
+				<xyz>0.0 1.0 0.0</xyz>
+				<limit>
+					<lower>-1.5707963267948966</lower>
+					<upper>1.5707963267948966</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<plugin filename="libmyomuscle_plugin.so" name="myomuscle_plugin">
+			<myoMuscle name="motor0">
+				<link name="base_link">
+					<viaPoint type="FIXPOINT">0.5 0.005 0.0</viaPoint>
+				</link>
+				<link name="link_1">
+					<viaPoint type="FIXPOINT">0.00999826227330481 0.01 -0.19999994208578142</viaPoint>
+				</link>
+			</myoMuscle>
+			<myoMuscle name="motor1">
+				<link name="base_link">
+					<viaPoint type="FIXPOINT">1.5 0.005 0.0</viaPoint>
+				</link>
+				<link name="link_2">
+					<viaPoint type="FIXPOINT">0.01 0.01 -0.19999998062849045</viaPoint>
+				</link>
+			</myoMuscle>
+			<myoMuscle name="motor2">
+				<link name="base_link">
+					<viaPoint type="FIXPOINT">-0.5 -0.005000000074505806 0.0</viaPoint>
+				</link>
+				<link name="link_1">
+					<viaPoint type="FIXPOINT">-0.010000000298023224 -0.01 -0.19999999552965164</viaPoint>
+				</link>
+			</myoMuscle>
+			<myoMuscle name="motor3">
+				<link name="base_link">
+					<viaPoint type="FIXPOINT">-1.5 -0.005000000074505806 0.0</viaPoint>
+				</link>
+				<link name="link_2">
+					<viaPoint type="FIXPOINT">-0.010000000298023224 -0.01 -0.19999998062849045</viaPoint>
+				</link>
+			</myoMuscle>
+		</plugin>
+	</model>
+</sdf>
