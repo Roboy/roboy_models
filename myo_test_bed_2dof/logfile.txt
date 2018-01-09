@@ -11,7 +11,7 @@ COM of link_1: 0.000000 2.800304 0.000000
 mass[kg] 	 COM[cm] 			 component name
 ----------------------------------------------------------------
 Mass of link_2: 0.574653
-COM of link_2: 0.000000 36.247320 0.000000
+COM of link_2: -0.019696 19.819516 0.005750
 ----------------------------------------------------------------
 exporting joint of parent link_1 child base_link
 exporting joint of parent link_2 child link_1
