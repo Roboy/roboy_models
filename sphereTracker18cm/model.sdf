@@ -5,14 +5,14 @@
 			<pose frame="">0.0 0.0 0.0 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>2.3796279479520206</mass>
+				<mass>2.379627947952003</mass>
 				<inertia>
-					<ixx>0.010987621230092602</ixx>
-					<ixy>3.7307165438330147e-06</ixy>
-					<ixz>-2.4949255477750373e-06</ixz>
-					<iyy>0.010970492456752608</iyy>
+					<ixx>0.010987621230092537</ixx>
+					<ixy>3.730716543951531e-06</ixy>
+					<ixz>-2.494925547762186e-06</ixz>
+					<iyy>0.010970492456752601</iyy>
 					<iyz>-1.1400132948580042e-06</iyz>
-					<izz>0.013063654327938608</izz>
+					<izz>0.013063654327938504</izz>
 				</inertia>
 			</inertial>
 			<collision name="sphereTracker18cm_collision">
