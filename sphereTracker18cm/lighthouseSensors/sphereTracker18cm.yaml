@@ -1,5 +1,5 @@
 name: sphereTracker18cm
-ObjectID: 0
+ObjectID: 00:00:f3:de:ad:03
 mesh: ../meshes/CAD/sphereTracker18cm.stl
 sensor_relative_locations:
 - [0, 0.0, 0.08675000000000001, 1.9262369477246465e-17]
