@@ -2,17 +2,17 @@
 <sdf version="1.6">
 	<model name="sphereTracker">
 		<link name="sphereTracker">
-			<pose frame="">0.0 0.0 0.0 0.0 -0.0 0.0</pose>
+			<pose frame="">0.0 0.0285 0.0 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.6829233847328452</mass>
+				<mass>0.6829233847328451</mass>
 				<inertia>
-					<ixx>0.000644595976352657</ixx>
-					<ixy>1.008781459711003e-06</ixy>
-					<ixz>3.284733304378017e-07</ixz>
-					<iyy>0.0007419662673317613</iyy>
-					<iyz>7.336007135391057e-08</iyz>
-					<izz>0.0006443504795838138</izz>
+					<ixx>0.0006445959763526572</ixx>
+					<ixy>1.0087814597110085e-06</ixy>
+					<ixz>3.284733304377515e-07</ixz>
+					<iyy>0.0007419662673317614</iyy>
+					<iyz>7.336007135392171e-08</iyz>
+					<izz>0.0006443504795838141</izz>
 				</inertia>
 			</inertial>
 			<collision name="sphereTracker_collision">
