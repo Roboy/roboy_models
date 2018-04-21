@@ -1,0 +1,213 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+	<model name="FingerTest">
+		<link name="limb0">
+			<pose frame="">-0.007152270675496726 0.010040149934974279 0.02348840378477054 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.11612310621212019</mass>
+				<inertia>
+					<ixx>0.00036167423577589927</ixx>
+					<ixy>3.316022305022051e-05</ixy>
+					<ixz>-2.282604088458617e-05</ixz>
+					<iyy>0.0010667399339109778</iyy>
+					<iyz>0.0004897974339456185</iyz>
+					<izz>0.0007100993674793531</izz>
+				</inertia>
+			</inertial>
+			<collision name="limb0_collision">
+				<geometry>
+					<mesh>
+						<uri>model://FingerTest/meshes/CAD/limb0.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="limb0_visual">
+				<geometry>
+					<mesh>
+						<uri>model://FingerTest/meshes/CAD/limb0.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="limb1">
+			<pose frame="">-0.013665938657484195 0.0013696679651759487 0.02178926714062122 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.008412542184097089</mass>
+				<inertia>
+					<ixx>2.6258496499282942e-05</ixx>
+					<ixy>1.3904180735216277e-06</ixy>
+					<ixz>-1.9208381827151945e-06</ixz>
+					<iyy>3.974805267903569e-05</iyy>
+					<iyz>1.8803347565126002e-05</iyz>
+					<izz>1.3841078489735179e-05</izz>
+				</inertia>
+			</inertial>
+			<collision name="limb1_collision">
+				<geometry>
+					<mesh>
+						<uri>model://FingerTest/meshes/CAD/limb1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="limb1_visual">
+				<geometry>
+					<mesh>
+						<uri>model://FingerTest/meshes/CAD/limb1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="limb2">
+			<pose frame="">-0.001190586731255557 -0.054983176772839766 0.03757529876180839 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.05290104601406096</mass>
+				<inertia>
+					<ixx>0.00016481931520552232</ixx>
+					<ixy>2.7386134324108545e-06</ixy>
+					<ixz>-8.879127837344284e-06</ixz>
+					<iyy>0.00018969814269594154</iyy>
+					<iyz>5.011825700562624e-05</iyz>
+					<izz>2.6738581469810897e-05</izz>
+				</inertia>
+			</inertial>
+			<collision name="limb2_collision">
+				<geometry>
+					<mesh>
+						<uri>model://FingerTest/meshes/CAD/limb2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="limb2_visual">
+				<geometry>
+					<mesh>
+						<uri>model://FingerTest/meshes/CAD/limb2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="limb3">
+			<pose frame="">0.0043466725792149965 0.005663327008945293 0.01703551043738931 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.02402971959338372</mass>
+				<inertia>
+					<ixx>8.338544608393772e-05</ixx>
+					<ixy>-2.192925948413024e-06</ixy>
+					<ixz>-2.2686627744271887e-05</ixz>
+					<iyy>7.510830016030868e-05</iyy>
+					<iyz>-6.66297477480337e-06</iyz>
+					<izz>9.808195353956886e-06</izz>
+				</inertia>
+			</inertial>
+			<collision name="limb3_collision">
+				<geometry>
+					<mesh>
+						<uri>model://FingerTest/meshes/CAD/limb3.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="limb3_visual">
+				<geometry>
+					<mesh>
+						<uri>model://FingerTest/meshes/CAD/limb3.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="limb4">
+			<pose frame="">0.0019940017488226376 0.014311797180124111 0.018519826661947722 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.008066895184750527</mass>
+				<inertia>
+					<ixx>3.3683914727704094e-05</ixx>
+					<ixy>7.064786983553505e-07</ixy>
+					<ixz>-1.474015648514199e-05</ixz>
+					<iyy>2.523013922854e-05</iyy>
+					<iyz>1.1490924430353909e-06</iyz>
+					<izz>9.052061455752534e-06</izz>
+				</inertia>
+			</inertial>
+			<collision name="limb4_collision">
+				<geometry>
+					<mesh>
+						<uri>model://FingerTest/meshes/CAD/limb4.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="limb4_visual">
+				<geometry>
+					<mesh>
+						<uri>model://FingerTest/meshes/CAD/limb4.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<joint name="joint0" type="revolute">
+			<parent>limb0</parent>
+			<child>limb1</child>
+			<pose frame="">-0.026170610700226807 0.002739339582173582 0.04117920434407806 0 0 0</pose>
+			<axis>
+				<xyz>3.3491156006552313e-15 6.504979947930444e-16 0.9999999999999868</xyz>
+				<limit>
+					<lower>-0.0</lower>
+					<upper>-0.0</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="joint1" type="revolute">
+			<parent>limb1</parent>
+			<child>limb2</child>
+			<pose frame="">-0.03859458698934537 0.06174218447660122 0.017993172709348682 0 0 0</pose>
+			<axis>
+				<xyz>-2.5515519200013695e-08 -1.0000000000000042 -7.613323592751552e-08</xyz>
+				<limit>
+					<lower>-0.0</lower>
+					<upper>-0.0</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="joint2" type="revolute">
+			<parent>limb2</parent>
+			<child>limb3</child>
+			<pose frame="">-0.001131846349297494 -0.001404320275159151 0.038532960840909916 0 0 0</pose>
+			<axis>
+				<xyz>-1.4193482055669556e-09 7.595657156723156e-08 -0.999999999999987</xyz>
+				<limit>
+					<lower>-0.0</lower>
+					<upper>-0.0</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="joint3" type="revolute">
+			<parent>limb3</parent>
+			<child>limb4</child>
+			<pose frame="">0.0029708251713779334 0.017547212692282214 0.03854864674101537 0 0 0</pose>
+			<axis>
+				<xyz>-7.84866511022299e-09 8.48927849041977e-08 -0.9999999999999946</xyz>
+				<limit>
+					<lower>-0.0</lower>
+					<upper>-0.0</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<plugin filename="libmyomuscle_plugin.so" name="myomuscle_plugin"/>
+	</model>
+</sdf>
