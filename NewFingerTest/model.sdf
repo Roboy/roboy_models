@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sdf version="1.6">
-	<model name="NewFingerTest12">
+	<model name="NewFingerTest">
 		<link name="limb0">
 			<pose frame="">8.078672351106294e-07 0.005136107528913884 -0.010543528678626304 0.0 -0.0 0.0</pose>
 			<inertial>
@@ -18,7 +18,7 @@
 			<collision name="limb0_collision">
 				<geometry>
 					<mesh>
-						<uri>model://NewFingerTest12/meshes/CAD/limb0.stl</uri>
+						<uri>model://NewFingerTest/meshes/CAD/limb0.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -26,7 +26,7 @@
 			<visual name="limb0_visual">
 				<geometry>
 					<mesh>
-						<uri>model://NewFingerTest12/meshes/CAD/limb0.stl</uri>
+						<uri>model://NewFingerTest/meshes/CAD/limb0.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -49,7 +49,7 @@
 			<collision name="limb1_collision">
 				<geometry>
 					<mesh>
-						<uri>model://NewFingerTest12/meshes/CAD/limb1.stl</uri>
+						<uri>model://NewFingerTest/meshes/CAD/limb1.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -57,7 +57,7 @@
 			<visual name="limb1_visual">
 				<geometry>
 					<mesh>
-						<uri>model://NewFingerTest12/meshes/CAD/limb1.stl</uri>
+						<uri>model://NewFingerTest/meshes/CAD/limb1.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -80,7 +80,7 @@
 			<collision name="limb2_collision">
 				<geometry>
 					<mesh>
-						<uri>model://NewFingerTest12/meshes/CAD/limb2.stl</uri>
+						<uri>model://NewFingerTest/meshes/CAD/limb2.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -88,7 +88,7 @@
 			<visual name="limb2_visual">
 				<geometry>
 					<mesh>
-						<uri>model://NewFingerTest12/meshes/CAD/limb2.stl</uri>
+						<uri>model://NewFingerTest/meshes/CAD/limb2.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -111,7 +111,7 @@
 			<collision name="limb3_collision">
 				<geometry>
 					<mesh>
-						<uri>model://NewFingerTest12/meshes/CAD/limb3.stl</uri>
+						<uri>model://NewFingerTest/meshes/CAD/limb3.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -119,7 +119,7 @@
 			<visual name="limb3_visual">
 				<geometry>
 					<mesh>
-						<uri>model://NewFingerTest12/meshes/CAD/limb3.stl</uri>
+						<uri>model://NewFingerTest/meshes/CAD/limb3.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
