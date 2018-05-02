@@ -1,0 +1,169 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+	<model name="NewFingerTest12">
+		<link name="limb0">
+			<pose frame="">8.078672351106294e-07 0.005136107528913884 -0.010543528678626304 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.0008539789322509442</mass>
+				<inertia>
+					<ixx>1.2784805038508332e-07</ixx>
+					<ixy>-5.856103434550522e-12</ixy>
+					<ixz>4.5558208765985047e-08</ixz>
+					<iyy>1.1082327352580405e-07</iyy>
+					<iyz>7.411065081782657e-12</iyz>
+					<izz>3.739638848496462e-08</izz>
+				</inertia>
+			</inertial>
+			<collision name="limb0_collision">
+				<geometry>
+					<mesh>
+						<uri>model://NewFingerTest12/meshes/CAD/limb0.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="limb0_visual">
+				<geometry>
+					<mesh>
+						<uri>model://NewFingerTest12/meshes/CAD/limb0.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="limb1">
+			<pose frame="">3.155157163693057e-08 0.004530162396040428 -0.03538163551348982 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.007658954433011909</mass>
+				<inertia>
+					<ixx>1.1585402732909598e-05</ixx>
+					<ixy>-2.0203458281534916e-12</ixy>
+					<ixz>1.0764039606781593e-06</ixz>
+					<iyy>1.1448429938054762e-05</iyy>
+					<iyz>4.571171730404089e-12</iyz>
+					<izz>2.866777257874622e-07</izz>
+				</inertia>
+			</inertial>
+			<collision name="limb1_collision">
+				<geometry>
+					<mesh>
+						<uri>model://NewFingerTest12/meshes/CAD/limb1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="limb1_visual">
+				<geometry>
+					<mesh>
+						<uri>model://NewFingerTest12/meshes/CAD/limb1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="limb2">
+			<pose frame="">-1.4426906697284046e-07 0.0037589258649288033 -0.07512775707203011 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.003249582706135075</mass>
+				<inertia>
+					<ixx>1.8649515048434665e-05</ixx>
+					<ixy>2.234107098967741e-12</ixy>
+					<ixz>8.199133313360863e-07</ixz>
+					<iyy>1.8608686591128822e-05</iyy>
+					<iyz>-2.7998228455494803e-11</iyz>
+					<izz>7.895531093202919e-08</izz>
+				</inertia>
+			</inertial>
+			<collision name="limb2_collision">
+				<geometry>
+					<mesh>
+						<uri>model://NewFingerTest12/meshes/CAD/limb2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="limb2_visual">
+				<geometry>
+					<mesh>
+						<uri>model://NewFingerTest12/meshes/CAD/limb2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="limb3">
+			<pose frame="">-2.7022235334253383e-08 0.003023961271125203 -0.1022568210976421 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.0013887496747647889</mass>
+				<inertia>
+					<ixx>1.4543895011912224e-05</ixx>
+					<ixy>1.954121228342265e-13</ixy>
+					<ixz>3.82234398646044e-07</ixz>
+					<iyy>1.4532750107820617e-05</iyy>
+					<iyz>-3.392281679043352e-12</iyz>
+					<izz>2.0064699518540843e-08</izz>
+				</inertia>
+			</inertial>
+			<collision name="limb3_collision">
+				<geometry>
+					<mesh>
+						<uri>model://NewFingerTest12/meshes/CAD/limb3.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="limb3_visual">
+				<geometry>
+					<mesh>
+						<uri>model://NewFingerTest12/meshes/CAD/limb3.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<joint name="joint01" type="revolute">
+			<parent>limb0</parent>
+			<child>limb1</child>
+			<pose frame="">-3.155157163693057e-08 -0.0021282386073937427 0.025631635513489823 0 0 0</pose>
+			<axis>
+				<xyz>6.842277657836021e-49 -0.8660254037844388 0.5</xyz>
+				<limit>
+					<lower>-0.6108652381980153</lower>
+					<upper>0.6108652381980153</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="joint12" type="revolute">
+			<parent>limb1</parent>
+			<child>limb2</child>
+			<pose frame="">-0.005499855730933027 0.001308061433178977 0.012752757072030097 0 0 0</pose>
+			<axis>
+				<xyz>1.0 0.0 0.0</xyz>
+				<limit>
+					<lower>-1.9198621771937625</lower>
+					<upper>-0.0</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="joint23" type="revolute">
+			<parent>limb2</parent>
+			<child>limb3</child>
+			<pose frame="">-0.003999972977764666 0.0005430260269825732 0.008132071097642087 0 0 0</pose>
+			<axis>
+				<xyz>1.0 0.0 0.0</xyz>
+				<limit>
+					<lower>-1.2217304763960306</lower>
+					<upper>-0.0</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<plugin filename="libmyomuscle_plugin.so" name="myomuscle_plugin"/>
+	</model>
+</sdf>
