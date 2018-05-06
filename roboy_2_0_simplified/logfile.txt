@@ -25,7 +25,7 @@ COM of upper_arm_right: -29.468161 56.219032 1.717623
 ----------------------------------------------------------------
 mass[kg] 	 COM[cm] 			 component name
 ----------------------------------------------------------------
-Mass of torso: 832.415937
+Mass of torso: 828.883437
 COM of torso: -0.500000 33.650000 -2.467489
 ----------------------------------------------------------------
 mass[kg] 	 COM[cm] 			 component name
@@ -61,12 +61,42 @@ COM of neck_link_2: -0.500000 77.695798 -0.567184
 mass[kg] 	 COM[cm] 			 component name
 ----------------------------------------------------------------
 Mass of hand_right: 1.227569
-COM of hand_right: -26.573753 28.015737 32.247110
+COM of hand_right: -25.202227 52.486757 45.128232
 ----------------------------------------------------------------
 mass[kg] 	 COM[cm] 			 component name
 ----------------------------------------------------------------
 Mass of hand_left: 1.221024
-COM of hand_left: 29.360005 26.614806 28.285659
+COM of hand_left: 28.707900 50.781506 41.783088
+----------------------------------------------------------------
+mass[kg] 	 COM[cm] 			 component name
+----------------------------------------------------------------
+Mass of key_F: 1.099000
+COM of key_F: -6.500000 28.150000 51.432511
+----------------------------------------------------------------
+mass[kg] 	 COM[cm] 			 component name
+----------------------------------------------------------------
+Mass of key_G: 0.942000
+COM of key_G: -13.500000 28.150000 50.432511
+----------------------------------------------------------------
+mass[kg] 	 COM[cm] 			 component name
+----------------------------------------------------------------
+Mass of key_C: 1.570000
+COM of key_C: 14.500000 28.150000 54.432511
+----------------------------------------------------------------
+mass[kg] 	 COM[cm] 			 component name
+----------------------------------------------------------------
+Mass of key_H: 0.785000
+COM of key_H: -20.500000 28.150000 49.432511
+----------------------------------------------------------------
+mass[kg] 	 COM[cm] 			 component name
+----------------------------------------------------------------
+Mass of key_E: 1.256000
+COM of key_E: 0.500000 28.150000 52.432511
+----------------------------------------------------------------
+mass[kg] 	 COM[cm] 			 component name
+----------------------------------------------------------------
+Mass of key_D: 1.413000
+COM of key_D: 7.500000 28.150000 53.432511
 ----------------------------------------------------------------
 exporting joint of parent shoulder_left_joint_link_2 child torso
 exporting joint of parent shoulder_left_joint_link_3 child shoulder_left_joint_link_2
@@ -76,6 +106,12 @@ exporting joint of parent hand_right child lower_arm_right
 exporting joint of parent hand_left child lower_arm_left
 exporting joint of parent shoulder_right_joint_link_2 child torso
 exporting joint of parent shoulder_right_joint_link_3 child shoulder_right_joint_link_2
+exporting joint of parent key_H child torso
+exporting joint of parent key_G child torso
+exporting joint of parent key_F child torso
+exporting joint of parent key_E child torso
+exporting joint of parent key_D child torso
+exporting joint of parent key_C child torso
 exporting joint of parent lower_arm_right child upper_arm_right
 exporting joint of parent lower_arm_left child upper_arm_left
 exporting joint of parent upper_arm_left child shoulder_left_joint_link_3
