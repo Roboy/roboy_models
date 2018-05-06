@@ -163,8 +163,8 @@
 			<axis>
 				<xyz>-3.9898639947466563e-17 -2.7755575615628914e-17 1.0</xyz>
 				<limit>
-					<lower>-0.0</lower>
-					<upper>-0.0</upper>
+					<lower>-0.3</lower>
+					<upper>0.3</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
@@ -175,10 +175,10 @@
 			<pose frame="">0.010099999999999965 -0.08699695703494056 -3.042965059573133e-06 0 0 0</pose>
 			<axis>
 				<xyz>-1.0 5.69748241641133e-17 -2.7708522298720435e-16</xyz>
-				<limit>
-					<lower>-0.0</lower>
-					<upper>3.141592653589793</upper>
-				</limit>
+                <limit>
+                    <lower>-0.3</lower>
+                    <upper>0.3</upper>
+                </limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
@@ -188,10 +188,10 @@
 			<pose frame="">-1.1102230246251566e-18 0.0 0.0029999999999999714 0 0 0</pose>
 			<axis>
 				<xyz>-3.6677382543981914e-16 2.007702259044089e-16 1.0</xyz>
-				<limit>
-					<lower>-0.0</lower>
-					<upper>3.141592653589793</upper>
-				</limit>
+                <limit>
+                    <lower>-0.3</lower>
+                    <upper>0.3</upper>
+                </limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
@@ -201,10 +201,10 @@
 			<pose frame="">0.010003042965059548 -0.0928237573555457 -0.00016883193123003016 0 0 0</pose>
 			<axis>
 				<xyz>-1.0 -9.093366325243862e-17 -1.2958724240008135e-16</xyz>
-				<limit>
-					<lower>-0.0</lower>
-					<upper>-0.0</upper>
-				</limit>
+                <limit>
+                    <lower>-0.3</lower>
+                    <upper>0.3</upper>
+                </limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>

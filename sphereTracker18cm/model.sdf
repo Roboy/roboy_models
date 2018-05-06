@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+	<model name="sphereTracker18cm">
+		<link name="sphereTracker18cm">
+			<pose frame="">0.0 0.0 0.0 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>2.379627947952003</mass>
+				<inertia>
+					<ixx>0.010987621230092537</ixx>
+					<ixy>3.730716543951531e-06</ixy>
+					<ixz>-2.494925547762186e-06</ixz>
+					<iyy>0.010970492456752601</iyy>
+					<iyz>-1.1400132948580042e-06</iyz>
+					<izz>0.013063654327938504</izz>
+				</inertia>
+			</inertial>
+			<collision name="sphereTracker18cm_collision">
+				<geometry>
+					<mesh>
+						<uri>model://sphereTracker18cm/meshes/CAD/sphereTracker18cm.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="sphereTracker18cm_visual">
+				<geometry>
+					<mesh>
+						<uri>model://sphereTracker18cm/meshes/CAD/sphereTracker18cm.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<plugin filename="libmyomuscle_plugin.so" name="myomuscle_plugin"/>
+	</model>
+</sdf>

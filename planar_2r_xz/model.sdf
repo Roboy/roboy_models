@@ -1,6 +1,7 @@
 <?xml version="1.0" ?>
 <sdf version="1.6">
 	<model name="planar_2r_xz">
+        <!--<static>1</static>-->
 		<link name="base_link">
 			<pose frame="">0.0 0.0 0.0 0.0 -0.0 0.0</pose>
 			<inertial>
@@ -126,7 +127,7 @@
 					<viaPoint type="FIXPOINT">0.5 0.005 0.0</viaPoint>
 				</link>
 				<link name="link_1">
-					<viaPoint type="FIXPOINT">0.00999826227330481 0.01 -0.19999994208578142</viaPoint>
+					<viaPoint type="FIXPOINT">0.1 0.05 0.3</viaPoint>
 				</link>
 			</myoMuscle>
 			<myoMuscle name="motor1">
@@ -134,7 +135,7 @@
 					<viaPoint type="FIXPOINT">1.5 0.005 0.0</viaPoint>
 				</link>
 				<link name="link_2">
-					<viaPoint type="FIXPOINT">0.01 0.01 -0.19999998062849045</viaPoint>
+					<viaPoint type="FIXPOINT">0.1 0.05 0.3</viaPoint>
 				</link>
 			</myoMuscle>
 			<myoMuscle name="motor2">
@@ -142,7 +143,7 @@
 					<viaPoint type="FIXPOINT">-0.5 -0.005000000074505806 0.0</viaPoint>
 				</link>
 				<link name="link_1">
-					<viaPoint type="FIXPOINT">-0.010000000298023224 -0.01 -0.19999999552965164</viaPoint>
+					<viaPoint type="FIXPOINT">-0.1 -0.05 0.3</viaPoint>
 				</link>
 			</myoMuscle>
 			<myoMuscle name="motor3">
@@ -150,7 +151,7 @@
 					<viaPoint type="FIXPOINT">-1.5 -0.005000000074505806 0.0</viaPoint>
 				</link>
 				<link name="link_2">
-					<viaPoint type="FIXPOINT">-0.010000000298023224 -0.01 -0.19999998062849045</viaPoint>
+					<viaPoint type="FIXPOINT">-0.1 -0.05 0.3</viaPoint>
 				</link>
 			</myoMuscle>
 		</plugin>
