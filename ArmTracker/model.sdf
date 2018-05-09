@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+	<model name="ArmTracker">
+		<link name="ArmTracker">
+			<pose frame="">-0.00499998235639449 1.2316098086445412e-50 0.15 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.23216669010507057</mass>
+				<inertia>
+					<ixx>0.005663789367734774</ixx>
+					<ixy>6.017521322829289e-05</ixy>
+					<ixz>-0.00032236374543927437</ixz>
+					<iyy>0.005664391275204696</iyy>
+					<iyz>0.0009747536528406402</iyz>
+					<izz>0.00044326655740185736</izz>
+				</inertia>
+			</inertial>
+			<collision name="ArmTracker_collision">
+				<geometry>
+					<mesh>
+						<uri>model://ArmTracker/meshes/CAD/ArmTracker.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="ArmTracker_visual">
+				<geometry>
+					<mesh>
+						<uri>model://ArmTracker/meshes/CAD/ArmTracker.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<plugin filename="libmyomuscle_plugin.so" name="myomuscle_plugin"/>
+	</model>
+</sdf>
