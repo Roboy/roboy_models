@@ -98,7 +98,6 @@ mass[kg] 	 COM[cm] 			 component name
 Mass of key_D: 1.413000
 COM of key_D: 7.500000 28.150000 53.432511
 ----------------------------------------------------------------
-exporting joint of parent upper_arm_left child shoulder_left_joint_link_3
 exporting joint of parent shoulder_left_joint_link_2 child torso
 exporting joint of parent shoulder_left_joint_link_3 child shoulder_left_joint_link_2
 exporting joint of parent neck_link_2 child neck_link_3
@@ -115,5 +114,6 @@ exporting joint of parent key_D child torso
 exporting joint of parent key_C child torso
 exporting joint of parent lower_arm_right child upper_arm_right
 exporting joint of parent lower_arm_left child upper_arm_left
-exporting joint of parent neck_link_3 child torso
 exporting joint of parent upper_arm_right child shoulder_right_joint_link_3
+exporting joint of parent upper_arm_left child shoulder_left_joint_link_3
+exporting joint of parent neck_link_3 child torso
