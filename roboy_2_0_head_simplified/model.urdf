@@ -23,7 +23,7 @@
   </joint>
   <link name="head">
     <inertial>
-      <mass value="1"/>
+      <mass value="2"/>
       <origin rpy="0  0  0" xyz="0       0.04735  0.00223"/>
       <inertia ixx="0.1" ixy="0.0" ixz="0.0" iyy="0.1" iyz="0.0" izz="0.1"/>
     </inertial>
@@ -61,7 +61,7 @@
   </link>
   <link name="neck_link_3">
     <inertial>
-      <mass value="0.1"/>
+      <mass value="0.01"/>
       <origin rpy="0  0  0" xyz="-0.00406  0.011    0"/>
         <inertia ixx="0.1" ixy="0.0" ixz="0.0" iyy="0.1" iyz="0.0" izz="0.1"/>
     </inertial>
@@ -80,7 +80,7 @@
   </link>
   <link name="neck_link_2">
     <inertial>
-        <mass value="0.1"/>
+        <mass value="0.01"/>
         <origin rpy="0  0  0" xyz="0.004  0     0"/>
         <inertia ixx="0.1" ixy="0.0" ixz="0.0" iyy="0.1" iyz="0.0" izz="0.1"/>
     </inertial>

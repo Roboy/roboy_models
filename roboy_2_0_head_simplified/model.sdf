@@ -100,7 +100,7 @@
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
 				<mass>0.01</mass>
 				<inertia>
-					<ixx>0.01</ixx>
+					<ixx>0.1</ixx>
 					<ixy>0</ixy>
 					<ixz>0</ixz>
 					<iyy>0.1</iyy>

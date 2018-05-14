@@ -35,7 +35,7 @@
   </link>
   <link name="link_1">
     <inertial>
-      <mass value="1.0"/>
+      <mass value="0.1"/>
       <origin rpy="0  0  0" xyz="0   0   0.5"/>
       <inertia ixx="0.083333" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.083333"/>
     </inertial>
@@ -54,7 +54,7 @@
   </link>
   <link name="link_2">
     <inertial>
-      <mass value="1.0"/>
+      <mass value="0.1"/>
       <origin rpy="0  0  0" xyz="0   0   0.5"/>
       <inertia ixx="0.083333" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.083333"/>
     </inertial>
