@@ -1,0 +1,589 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+	<model name="musc_arm">
+		<link name="holder">
+			<pose frame="">0.043500000000000344 -1.448000000000002 0.011795541972172719 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>5.189042482466812</mass>
+				<inertia>
+					<ixx>8.186979782858446</ixx>
+					<ixy>0.5135013963791253</ixy>
+					<ixz>0.027850376304304</ixz>
+					<iyy>0.20595460010064212</iyy>
+					<iyz>-0.0017300162964963691</iyz>
+					<izz>8.144563427760493</izz>
+				</inertia>
+			</inertial>
+			<collision name="holder_collision">
+				<geometry>
+					<mesh>
+						<uri>model://musc_arm/meshes/collisions/holder.dae</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="holder_visual">
+				<geometry>
+					<mesh>
+						<uri>model://musc_arm/meshes/visual/holder.dae</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="shoulder">
+			<pose frame="">0.19388564773035177 -0.07747602482463221 0.027603888160598174 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>15.80475325043804</mass>
+				<inertia>
+					<ixx>0.14926390431550932</ixx>
+					<ixy>0.08071608062787732</ixy>
+					<ixz>-0.009042701291344305</ixz>
+					<iyy>0.25917044849151816</iyy>
+					<iyz>0.009389747762154784</iyz>
+					<izz>0.36073419247579414</izz>
+				</inertia>
+			</inertial>
+			<collision name="shoulder_collision">
+				<geometry>
+					<mesh>
+						<uri>model://musc_arm/meshes/collisions/shoulder.dae</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="shoulder_visual">
+				<geometry>
+					<mesh>
+						<uri>model://musc_arm/meshes/visual/shoulder.dae</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="upper_arm">
+			<pose frame="">0.3251885123252831 -0.13597565393795566 0.004884881802171708 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>6.600730311978018</mass>
+				<inertia>
+					<ixx>0.10060685312660858</ixx>
+					<ixy>0.19494319244194466</ixy>
+					<ixz>-0.0038321008262465713</ixz>
+					<iyy>0.5309501370017099</iyy>
+					<iyz>0.008774248803805744</iyz>
+					<izz>0.613422566446922</izz>
+				</inertia>
+			</inertial>
+			<collision name="upper_arm_collision">
+				<geometry>
+					<mesh>
+						<uri>model://musc_arm/meshes/collisions/upper_arm.dae</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="upper_arm_visual">
+				<geometry>
+					<mesh>
+						<uri>model://musc_arm/meshes/visual/upper_arm.dae</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="elbow">
+			<pose frame="">0.2919999999999991 -0.2789269297921919 -0.00011511820830644222 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.15917272131160654</mass>
+				<inertia>
+					<ixx>0.013563808869308577</ixx>
+					<ixy>0.013387275071224876</ixy>
+					<ixz>-0.000498559623550864</ixz>
+					<iyy>0.013484016462358563</iyy>
+					<iyz>0.0004985037935584512</iyz>
+					<izz>0.026905617531574253</izz>
+				</inertia>
+			</inertial>
+			<collision name="elbow_collision">
+				<geometry>
+					<mesh>
+						<uri>model://musc_arm/meshes/collisions/elbow.dae</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="elbow_visual">
+				<geometry>
+					<mesh>
+						<uri>model://musc_arm/meshes/visual/elbow.dae</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="forearm">
+			<pose frame="">0.29200049999874883 -0.45392641214853746 -0.00011511821354596938 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>3.2997019223732655</mass>
+				<inertia>
+					<ixx>0.6407178482948298</ixx>
+					<ixy>0.4197160758420797</ixy>
+					<ixz>-0.005473148947925296</ixz>
+					<iyy>0.2825023338563149</iyy>
+					<iyz>0.0040070508093147765</iyz>
+					<izz>0.9213254335103295</izz>
+				</inertia>
+			</inertial>
+			<collision name="forearm_collision">
+				<geometry>
+					<mesh>
+						<uri>model://musc_arm/meshes/collisions/forearm.dae</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="forearm_visual">
+				<geometry>
+					<mesh>
+						<uri>model://musc_arm/meshes/visual/forearm.dae</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="palm">
+			<pose frame="">0.28329919729863784 -0.5967866007787107 -0.0016755808283247756 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.0584688381305356</mass>
+				<inertia>
+					<ixx>0.022445557120372824</ixx>
+					<ixy>0.010418324716128986</ixy>
+					<ixz>2.2931407820809245e-05</ixz>
+					<iyy>0.004871672897653195</iyy>
+					<iyz>-9.958355471627325e-06</iyz>
+					<izz>0.027274984946588927</izz>
+				</inertia>
+			</inertial>
+			<collision name="palm_collision">
+				<geometry>
+					<mesh>
+						<uri>model://musc_arm/meshes/collisions/palm.dae</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="palm_visual">
+				<geometry>
+					<mesh>
+						<uri>model://musc_arm/meshes/visual/palm.dae</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="finger_thumb">
+			<pose frame="">0.25081427082702124 -0.6563617081909887 -0.04331012321373031 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.013679707994302275</mass>
+				<inertia>
+					<ixx>0.00580225449662182</ixx>
+					<ixy>0.002300724124824406</ixy>
+					<ixz>-0.00032817701778858053</ixz>
+					<iyy>0.000938729063130382</iyy>
+					<iyz>0.00013016439057825233</iyz>
+					<izz>0.006701940057268181</izz>
+				</inertia>
+			</inertial>
+			<collision name="finger_thumb_collision">
+				<geometry>
+					<mesh>
+						<uri>model://musc_arm/meshes/collisions/finger_thumb.dae</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="finger_thumb_visual">
+				<geometry>
+					<mesh>
+						<uri>model://musc_arm/meshes/visual/finger_thumb.dae</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="finger_index">
+			<pose frame="">0.2687896771352259 -0.7059519307133184 -0.027112869038771185 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.012634365717596902</mass>
+				<inertia>
+					<ixx>0.006057942900954428</ixx>
+					<ixy>0.0023587870301732404</ixy>
+					<ixz>-0.00022499207665222767</ixz>
+					<iyy>0.0009352437763554971</iyy>
+					<iyz>8.703492007211436e-05</iyz>
+					<izz>0.006976070985426455</izz>
+				</inertia>
+			</inertial>
+			<collision name="finger_index_collision">
+				<geometry>
+					<mesh>
+						<uri>model://musc_arm/meshes/collisions/finger_index.dae</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="finger_index_visual">
+				<geometry>
+					<mesh>
+						<uri>model://musc_arm/meshes/visual/finger_index.dae</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="finger_middle">
+			<pose frame="">0.2608672385275655 -0.7086890832332067 -0.005395016288355101 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.01300354140812096</mass>
+				<inertia>
+					<ixx>0.006259849788246884</ixx>
+					<ixy>0.00238548234931888</ixy>
+					<ixz>-3.094973493880501e-05</ixz>
+					<iyy>0.0009176593389674045</iyy>
+					<iyz>1.1406640629241635e-05</iyz>
+					<izz>0.0071769372220581934</izz>
+				</inertia>
+			</inertial>
+			<collision name="finger_middle_collision">
+				<geometry>
+					<mesh>
+						<uri>model://musc_arm/meshes/collisions/finger_middle.dae</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="finger_middle_visual">
+				<geometry>
+					<mesh>
+						<uri>model://musc_arm/meshes/visual/finger_middle.dae</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="finger_ring">
+			<pose frame="">0.250795298785697 -0.6911882140572886 0.017340165466563928 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.012634480226498731</mass>
+				<inertia>
+					<ixx>0.0058340975907501</ixx>
+					<ixy>0.0022221174951198817</ixy>
+					<ixz>0.00015256162608349592</ixz>
+					<iyy>0.0008591066436116132</iyy>
+					<iyz>-5.8506972073743363e-05</iyz>
+					<izz>0.006684959871370964</izz>
+				</inertia>
+			</inertial>
+			<collision name="finger_ring_collision">
+				<geometry>
+					<mesh>
+						<uri>model://musc_arm/meshes/collisions/finger_ring.dae</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="finger_ring_visual">
+				<geometry>
+					<mesh>
+						<uri>model://musc_arm/meshes/visual/finger_ring.dae</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="finger_pinky">
+			<pose frame="">0.2513615638935833 -0.6684020029975248 0.03381131709450999 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.011596424357947352</mass>
+				<inertia>
+					<ixx>0.005045220186213041</ixx>
+					<ixy>0.0019953557433422197</ixy>
+					<ixz>0.0002383042658543873</ixz>
+					<iyy>0.0008076868276219845</iyy>
+					<iyz>-9.501691610103124e-05</iyz>
+					<izz>0.0058299210950237025</izz>
+				</inertia>
+			</inertial>
+			<collision name="finger_pinky_collision">
+				<geometry>
+					<mesh>
+						<uri>model://musc_arm/meshes/collisions/finger_pinky.dae</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="finger_pinky_visual">
+				<geometry>
+					<mesh>
+						<uri>model://musc_arm/meshes/visual/finger_pinky.dae</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="wrist">
+			<pose frame="">0.29225049999874697 -0.570426429792143 0.0001348817864536811 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.022833799538469667</mass>
+				<inertia>
+					<ixx>0.007293766568716358</ixx>
+					<ixy>0.0037361757323029266</ixy>
+					<ixz>1.7403660431066172e-06</ixz>
+					<iyy>0.0019247837208948508</iyy>
+					<iyz>-8.921406686536562e-07</iyz>
+					<izz>0.009210398539255683</izz>
+				</inertia>
+			</inertial>
+			<collision name="wrist_collision">
+				<geometry>
+					<mesh>
+						<uri>model://musc_arm/meshes/collisions/wrist.dae</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="wrist_visual">
+				<geometry>
+					<mesh>
+						<uri>model://musc_arm/meshes/visual/wrist.dae</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<joint name="joint_holder" type="fixed">
+			<parent>shoulder</parent>
+			<child>holder</child>
+			<pose frame="">-0.8460540301208939 0.4345003947194337 0.02275319775980974 0 0 0</pose>
+		</joint>
+		<joint name="CMC1_1_thumb" type="revolute">
+			<parent>palm</parent>
+			<child>finger_thumb</child>
+			<pose frame="">0.011621884914135556 0.043128656068840955 0.02026706232661919 0 0 0</pose>
+			<axis>
+				<xyz>-0.8660254037844318 0.35355339059328755 0.3535533905932771</xyz>
+				<limit>
+					<lower>-2.705260340591211</lower>
+					<upper>-0.2617993877991494</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="MCP_index" type="revolute">
+			<parent>palm</parent>
+			<child>finger_index</child>
+			<pose frame="">0.020210822863519128 0.03968136415389168 0.013675388485219693 0 0 0</pose>
+			<axis>
+				<xyz>-5.004513314930065e-15 -0.25881904510252485 0.9659258262890696</xyz>
+				<limit>
+					<lower>-2.181661564992912</lower>
+					<upper>-0.0</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="MCP_middle" type="revolute">
+			<parent>palm</parent>
+			<child>finger_middle</child>
+			<pose frame="">0.02813326147117941 0.03911897378462299 0.011779898074808505 0 0 0</pose>
+			<axis>
+				<xyz>-4.4363087583922007e-16 -4.782143342287646e-15 1.0000000000000024</xyz>
+				<limit>
+					<lower>-2.181661564992912</lower>
+					<upper>-0.0</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="MCP_ring" type="revolute">
+			<parent>palm</parent>
+			<child>finger_ring</child>
+			<pose frame="">0.03820520121304799 0.024917647497861566 -0.0061329213401056775 0 0 0</pose>
+			<axis>
+				<xyz>-4.147484274305382e-15 -0.2588190451025156 -0.9659258262890716</xyz>
+				<limit>
+					<lower>-0.0</lower>
+					<upper>2.181661564992912</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="MCP_little" type="revolute">
+			<parent>palm</parent>
+			<child>finger_pinky</child>
+			<pose frame="">0.03763893610516202 0.022167385598991132 0.0054473849311452716 0 0 0</pose>
+			<axis>
+				<xyz>8.455955225197877e-15 0.4999999999999931 0.8660254037844434</xyz>
+				<limit>
+					<lower>-2.181661564992912</lower>
+					<upper>-0.0</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="joint_wrist_1" type="revolute">
+			<parent>wrist</parent>
+			<child>palm</child>
+			<pose frame="">0.005701302700108855 0.03248149133012724 0.019310462614778413 0 0 0</pose>
+			<axis>
+				<xyz>-4.436308758391852e-16 -2.8033131371785203e-15 0.9999999999999994</xyz>
+				<limit>
+					<lower>-1.2217304763960306</lower>
+					<upper>1.2217304763960306</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="joint_elbow_0" type="revolute">
+			<parent>upper_arm</parent>
+			<child>elbow</child>
+			<pose frame="">0.017700603637577823 0.0288030253166982 -0.017816522189150998 0 0 0</pose>
+			<axis>
+				<xyz>-0.9999999997851606 -8.698946310142588e-07 -2.071026442158221e-05</xyz>
+				<limit>
+					<lower>-0.17453292519943295</lower>
+					<upper>-0.0</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="joint_wrist_2" type="revolute">
+			<parent>forearm</parent>
+			<child>wrist</child>
+			<pose frame="">0.013250000000000242 0.015249999999999701 -0.0010000000000000562 0 0 0</pose>
+			<axis>
+				<xyz>1.0 -1.734300105405192e-14 5.044341470219862e-16</xyz>
+				<limit>
+					<lower>-0.4363323129985824</lower>
+					<upper>0.4363323129985824</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="joint_shoulder" type="ball">
+			<parent>shoulder</parent>
+			<child>upper_arm</child>
+			<pose frame="">-0.03318851232528342 0.15321500644136302 -0.00490000000523883 0 0 0</pose>
+		</joint>
+		<joint name="joint_elbow_1" type="revolute">
+			<parent>forearm</parent>
+			<child>elbow</child>
+			<pose frame="">4.999987518772286e-07 -0.03867747448841726 -0.009978092676380272 0 0 0</pose>
+			<axis>
+				<xyz>1.6658316330072008e-14 0.9991190366468977 -0.041966064978446106</xyz>
+				<limit>
+					<lower>-0.0</lower>
+					<upper>-0.0</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<!-- <plugin filename="libmyomuscle_plugin.so" name="myomuscle_plugin">
+			<myoMuscle name="motor0">
+				<link name="shoulder">
+					<viaPoint type="FIXPOINT">0.02711435226964788 0.14340115296371786 -0.024869006358426225</viaPoint>
+					<viaPoint type="FIXPOINT">0.08661530431054416 0.11853869913593461 -0.024323641612505473</viaPoint>
+				</link>
+				<link name="upper_arm">
+					<viaPoint type="FIXPOINT">-0.003188512325283455 0.1043169328904174 -0.005000000005238779</viaPoint>
+				</link>
+			</myoMuscle>
+			<myoMuscle name="motor1">
+				<link name="shoulder">
+					<viaPoint type="FIXPOINT">0.02260382561534698 0.10136168632918396 -0.06180524692787742</viaPoint>
+					<viaPoint type="FIXPOINT">0.08464097495644794 0.10247602482463222 -0.0633912427697995</viaPoint>
+				</link>
+				<link name="upper_arm">
+					<viaPoint type="FIXPOINT">-0.03318851232528349 0.10531693289041746 0.0249999999947612</viaPoint>
+				</link>
+			</myoMuscle>
+			<myoMuscle name="motor2">
+				<link name="shoulder">
+					<viaPoint type="FIXPOINT">0.01783775464911571 0.050481678760646284 -0.06865216777944244</viaPoint>
+					<viaPoint type="FIXPOINT">0.05579178173391057 0.05871662430063726 -0.06563393216244341</viaPoint>
+				</link>
+				<link name="upper_arm">
+					<viaPoint type="FIXPOINT">-0.03318851232528349 0.10431693289041746 -0.035000000005238785</viaPoint>
+				</link>
+			</myoMuscle>
+			<myoMuscle name="motor3">
+				<link name="shoulder">
+					<viaPoint type="FIXPOINT">0.014185450843183353 0.0032657250175824794 -0.06911380838872143</viaPoint>
+					<viaPoint type="FIXPOINT">0.04536790681727467 0.011414168775811237 -0.07441192543966767</viaPoint>
+				</link>
+				<link name="upper_arm">
+					<viaPoint type="FIXPOINT">-0.04999654192275891 0.1043169328904175 -0.025000000005238793</viaPoint>
+				</link>
+			</myoMuscle>
+			<myoMuscle name="motor4">
+				<link name="shoulder">
+					<viaPoint type="FIXPOINT">0.015873925707131135 -0.04155808236141853 -0.07890564972811413</viaPoint>
+					<viaPoint type="FIXPOINT">0.044205205702508334 -0.02692932766059684 -0.07603038265196174</viaPoint>
+					<viaPoint type="FIXPOINT">0.09308373608189256 0.12192764011372095 -0.0456662120911837</viaPoint>
+				</link>
+				<link name="upper_arm">
+					<viaPoint type="FIXPOINT">-0.011975308889687036 0.1043169328904174 -0.0262132034408352</viaPoint>
+				</link>
+			</myoMuscle>
+			<myoMuscle name="motor5">
+				<link name="shoulder">
+					<viaPoint type="FIXPOINT">0.01577739509792355 -0.041166208231399895 -0.009094434772538938</viaPoint>
+					<viaPoint type="FIXPOINT">0.04388924689190127 -0.026218368172134063 -0.01109811260274856</viaPoint>
+					<viaPoint type="FIXPOINT">0.09361435226964794 0.12122602482463223 -0.008833006363669247</viaPoint>
+				</link>
+				<link name="upper_arm">
+					<viaPoint type="FIXPOINT">-0.011975308889687071 0.1043169328904174 0.016213203430357637</viaPoint>
+				</link>
+			</myoMuscle>
+			<myoMuscle name="motor6">
+				<link name="shoulder">
+					<viaPoint type="FIXPOINT">0.014185449624201851 0.0032657247439682726 -2.504533075057047e-05</viaPoint>
+					<viaPoint type="FIXPOINT">0.045367906817274706 0.011414168775811006 0.0012730717201957732</viaPoint>
+				</link>
+				<link name="upper_arm">
+					<viaPoint type="FIXPOINT">-0.04999654192275891 0.1043169328904175 0.014999999994761195</viaPoint>
+				</link>
+			</myoMuscle>
+			<myoMuscle name="motor7">
+				<link name="shoulder">
+					<viaPoint type="FIXPOINT">0.016620963536761055 0.051803713634104166 0.0047448069869399</viaPoint>
+					<viaPoint type="FIXPOINT">0.05579178173390958 0.058716624300644185 0.006051064997420403</viaPoint>
+				</link>
+				<link name="upper_arm">
+					<viaPoint type="FIXPOINT">-0.03318851232528349 0.10431693289041746 0.0249999999947612</viaPoint>
+				</link>
+			</myoMuscle>
+			<myoMuscle name="motor8">
+				<link name="shoulder">
+					<viaPoint type="FIXPOINT">0.022603824332569005 0.10136168632918438 0.007067234211025491</viaPoint>
+					<viaPoint type="FIXPOINT">0.08464097495644794 0.10247602482463222 0.008153230042468915</viaPoint>
+				</link>
+				<link name="upper_arm">
+					<viaPoint type="FIXPOINT">-0.03318851232528349 0.10431693289041746 -0.035000000005238785</viaPoint>
+				</link>
+			</myoMuscle>
+		</plugin> -->
+	</model>
+</sdf>
