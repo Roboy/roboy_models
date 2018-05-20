@@ -1,0 +1,49 @@
+mass[kg] 	 COM[cm] 			 component name
+0.962081 	 23.118808 -0.811933 -29.054849 		 STREBENPROFIL_20X20 v1 (2):1
+0.962081 	 38.848834 -0.667621 -29.006745 		 BoschProfile_20mm v1:2
+0.455036 	 7.986741 -0.315765 2.083151 		 STREBENPROFIL_20X20 v1 (3):2
+0.233571 	 5.798817 0.345959 -11.153949 		 MotorUnit+AdaptersBosh v1 (1):1
+0.096209 	 3.062320 0.714958 4.548959 		 p-M12-Muscle_allConfig_CE v1 (1):1
+0.061100 	 2.071901 0.297641 3.328628 		 Adapter-Muskel-Boschprofil-plan-hinten v1 (1):1
+0.076263 	 2.586085 0.304178 3.203797 		 Adapter-Muskel-Boschprofil-plan-vorne v1 (1):1
+0.233572 	 5.426631 0.319769 -2.836971 		 MotorUnit+AdaptersBosh v1:1
+0.096209 	 2.080992 0.304981 -1.168935 		 p-M12-Muscle_allConfig_CE v1 (2):1
+0.076263 	 1.808201 0.015239 -1.350049 		 Adapter-Muskel-Boschprofil-plan-vorne v1 (2):1
+0.061100 	 1.448681 -0.000452 -0.317988 		 Adapter-Muskel-Boschprofil-plan-hinten v1 (2):1
+0.962081 	 7.196367 -0.908141 -29.054849 		 BoschProfile_20mm v1 (1):1
+0.455036 	 7.996620 -0.400044 -0.598811 		 STREBENPROFIL_20X20 v1 (3) (1):1
+0.097134 	 2.333164 0.021862 -2.933453 		 A-11-conical_flange_plate-mod-für-Boschprofil v1 (1):1
+0.217369 	 5.220519 0.572940 -6.564520 		 J11-dist_joint_end v1 (1):1
+----------------------------------------------------------------
+Mass of base: 5.045104
+COM of base: 23.187763 -0.040917 -19.994945
+----------------------------------------------------------------
+mass[kg] 	 COM[cm] 			 component name
+0.453598 	 10.822821 11.435604 -13.716520 		 STREBENPROFIL_20X20 v1:1
+0.233570 	 5.358862 7.301903 -6.559646 		 MotorUnit+AdaptersBosh v1 (2):1
+0.096209 	 -2.188124 -2.749672 -1.288716 		 p-M12-Muscle_allConfig_CE v1:3
+0.076263 	 -1.448614 -2.267248 -1.429440 		 Adapter-Muskel-Boschprofil-plan-vorne v1:3
+0.061100 	 -1.805498 -1.989260 -0.774376 		 Adapter-Muskel-Boschprofil-plan-hinten v1:3
+0.233572 	 5.759124 6.718016 -7.639346 		 MotorUnit+AdaptersBosh v1 (3):1
+0.096209 	 2.489879 -3.319927 0.599758 		 p-M12-Muscle_allConfig_CE v1 (3):1
+0.076263 	 1.815064 -2.405144 0.051969 		 Adapter-Muskel-Boschprofil-plan-vorne v1 (3):1
+0.061100 	 1.454181 -1.914275 0.805271 		 Adapter-Muskel-Boschprofil-plan-hinten v1 (3):1
+0.096209 	 -2.188124 -2.749672 -1.288716 		 p-M12-Muscle_allConfig_CE v1:3
+0.076263 	 -1.448614 -2.267248 -1.429440 		 Adapter-Muskel-Boschprofil-plan-vorne v1:3
+0.061100 	 -1.805498 -1.989260 -0.774376 		 Adapter-Muskel-Boschprofil-plan-hinten v1:3
+0.191365 	 4.600386 1.020178 -5.779278 		 J11-prox_joint_end v1 (1):1
+0.097134 	 -0.072535 -1.087024 2.513841 		 A-11-conical_flange_plate-mod-für-Boschprofil v1 (3):1
+0.097134 	 2.321507 0.748619 -2.933009 		 A-11-conical_flange_plate-mod-für-Boschprofil v1 (2):1
+0.217369 	 -0.104393 -2.938729 5.502909 		 J11-dist_joint_end v1:1
+----------------------------------------------------------------
+Mass of lower_arm: 2.224458
+COM of lower_arm: 10.591534 0.695389 -15.347161
+----------------------------------------------------------------
+mass[kg] 	 COM[cm] 			 component name
+0.455036 	 10.823031 30.891801 -13.605564 		 STREBENPROFIL_20X20 v1 (1):1
+0.097134 	 0.010285 -1.800653 2.341984 		 A-11-conical_flange_plate-mod-für-Boschprofil v1:2
+0.191365 	 -0.053347 -3.108054 4.708498 		 J11-prox_joint_end v1:1
+----------------------------------------------------------------
+Mass of upper_arm: 0.743535
+COM of upper_arm: 14.498270 34.945362 -8.816107
+----------------------------------------------------------------
