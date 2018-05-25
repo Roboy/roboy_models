@@ -704,6 +704,19 @@
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
+		<joint name="palm_little" type="revolute">
+			<parent>palm</parent>
+			<child>limb0_little</child>
+			<pose frame="">0.04612337796787717 -0.018216054840700772 -0.05432389817103258 0 0 0</pose>
+			<axis>
+				<xyz>0.89616387185053 -0.3203188164307465 0.30706053251807935</xyz>
+				<limit>
+					<lower>-0.3490658503988659</lower>
+					<upper>1.2217304763960306</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
 		<joint name="joint0_little" type="revolute">
 			<parent>limb0_little</parent>
 			<child>limb1_little</child>
