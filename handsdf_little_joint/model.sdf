@@ -886,32 +886,6 @@
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
-		<joint name="joint1_little" type="revolute">
-			<parent>limb1_little</parent>
-			<child>limb2_little</child>
-			<pose frame="">0.04601451752033774 -0.007618486786376884 -0.041945192351134225 0 0 0</pose>
-			<axis>
-				<xyz>0.896163871850522 -0.32031881643075116 0.3070605325180716</xyz>
-				<limit>
-					<lower>-1.9198621771937625</lower>
-					<upper>-0.0</upper>
-				</limit>
-				<use_parent_model_frame>0</use_parent_model_frame>
-			</axis>
-		</joint>
-		<joint name="joint2_little" type="revolute">
-			<parent>limb2_little</parent>
-			<child>limb3_little</child>
-			<pose frame="">0.055553895565738386 -0.004842651702874303 -0.04443083139277569 0 0 0</pose>
-			<axis>
-				<xyz>0.896163871850522 -0.32031881643075116 0.3070605325180716</xyz>
-				<limit>
-					<lower>-1.2217304763960306</lower>
-					<upper>-0.0</upper>
-				</limit>
-				<use_parent_model_frame>0</use_parent_model_frame>
-			</axis>
-		</joint>
 		<plugin filename="libmyomuscle_plugin.so" name="myomuscle_plugin"/>
 	</model>
 </sdf>
