@@ -15,14 +15,6 @@
 					<izz>0.3252572774699202</izz>
 				</inertia>
 			</inertial>
-			<!-- <collision name="base_collision">
-				<geometry>
-					<mesh>
-						<uri>model://nst_arm/meshes/CAD/base.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
-					</mesh>
-				</geometry>
-			</collision> -->
 			<visual name="base_visual">
 				<geometry>
 					<mesh>
@@ -38,22 +30,14 @@
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
 				<mass>1.7573168608238436</mass>
 				<inertia>
-					<ixx>0.4991</ixx>
-					<ixy>-0.316</ixy>
-					<ixz>0.041</ixz>
-					<iyy>0.2367</iyy>
-					<iyz>0.0264</iyz>
-					<izz>0.7157</izz>
+					<ixx>0.3213335074348704</ixx>
+					<ixy>-0.11485512940177488</ixy>
+					<ixz>0.14463721748348382</ixz>
+					<iyy>0.2573357353660157</iyy>
+					<iyz>0.1250735629220031</iyz>
+					<izz>0.26260638197276764</izz>
 				</inertia>
 			</inertial>
-			<!-- <collision name="lower_arm_collision">
-				<geometry>
-					<mesh>
-						<uri>model://nst_arm/meshes/CAD/upper_arm.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
-					</mesh>
-				</geometry>
-			</collision> -->
 			<visual name="lower_arm_visual">
 				<geometry>
 					<mesh>
@@ -69,22 +53,14 @@
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
 				<mass>0.7435346715572437</mass>
 				<inertia>
-					<ixx>1.0</ixx>
-					<ixy>0.0</ixy>
-					<ixz>0.0</ixz>
-					<iyy>1.0</iyy>
-					<iyz>0.0</iyz>
-					<izz>1.0</izz>
+					<ixx>0.3495231703784426</ixx>
+					<ixy>-0.10688751288992315</ixy>
+					<ixz>0.13441767658443082</ixz>
+					<iyy>0.10859018120250483</iyy>
+					<iyz>0.052847657617424354</iyz>
+					<izz>0.32508696831663847</izz>
 				</inertia>
 			</inertial>
-			<!-- <collision name="upper_arm_collision">
-				<geometry>
-					<mesh>
-						<uri>model://nst_arm/meshes/CAD/upper_arm.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
-					</mesh>
-				</geometry>
-			</collision> -->
 			<visual name="upper_arm_visual">
 				<geometry>
 					<mesh>
@@ -120,16 +96,8 @@
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
-		<joint name="HoldingFrame" type="fixed">
-			<parent>world</parent>
-			<child>base</child>
-			<axis>
-				<xyz>1.0 2.0 2.0</xyz>
-				<use_parent_model_frame>true</use_parent_model_frame>
-			</axis>
-		</joint>
-		<!-- <plugin filename="libmyomuscle_plugin.so" name="myomuscle_plugin"> -->
-			<!-- <myoMuscle name="motor0">
+		<plugin filename="libmyomuscle_plugin.so" name="myomuscle_plugin">
+			<myoMuscle name="motor0">
 				<link name="base">
 					<viaPoint type="FIXPOINT">0.005265138469598831 0.018854448267973025 0.031959978735720325</viaPoint>
 				</link>
@@ -161,8 +129,8 @@
 					<viaPoint type="FIXPOINT">0.09471749440615558 0.13121511530681132 -0.22702309889059472</viaPoint>
 				</link>
 			</myoMuscle>
-		</plugin> -->
-		<!-- <plugin filename="libgazebo_ros_muscle_interface.so" name="muscle_interface_plugin"/>
-		<muscles>model://nst_arm/muscles.osim</muscles> -->
+		</plugin>
+		<plugin filename="libgazebo_ros_muscle_interface.so" name="muscle_interface_plugin"/>
+		<muscles>model://nst_arm/muscles.osim</muscles>
 	</model>
 </sdf>

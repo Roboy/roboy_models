@@ -11,24 +11,14 @@
 									<location>0.005265138469598831 0.018854448267973025 0.031959978735720325</location>
 									<body>base</body>
 								</PathPoint>
-								<PathPoint name="muscle0_node1">
+								<PathPoint name="muscle0_node1 (1)">
 									<location>0.1327966152619598 0.10393357520001109 -0.14442203703761572</location>
 									<body>lower_arm</body>
 								</PathPoint>
 							</objects>
 						</PathPointSet>
 						<PathWrapSet>
-							<objects>
-								<PathWrap name="PathWrap3">
-									<wrap_object>WrapJoint2</wrap_object>
-									<method>midpoint</method>
-								</PathWrap>
-								<PathWrap name="PathWrap2">
-									<wrap_object>WrapJoint</wrap_object>
-									<method>midpoint</method>
-								</PathWrap>
-
-							</objects>
+							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
 					<max_isometric_force>1000.0</max_isometric_force>
@@ -52,17 +42,7 @@
 							</objects>
 						</PathPointSet>
 						<PathWrapSet>
-							<objects>
-								<PathWrap name="PathWrap3">
-									<wrap_object>WrapJoint2</wrap_object>
-									<method>midpoint</method>
-								</PathWrap>
-								<PathWrap name="PathWrap2">
-									<wrap_object>WrapJoint</wrap_object>
-									<method>midpoint</method>
-								</PathWrap>
-
-							</objects>
+							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
 					<max_isometric_force>1000.0</max_isometric_force>
@@ -86,17 +66,7 @@
 							</objects>
 						</PathPointSet>
 						<PathWrapSet>
-							<objects>
-								<PathWrap name="PathWrap3">
-									<wrap_object>WrapJoint2</wrap_object>
-									<method>midpoint</method>
-								</PathWrap>
-								<PathWrap name="PathWrap2">
-									<wrap_object>WrapJoint</wrap_object>
-									<method>midpoint</method>
-								</PathWrap>
-
-							</objects>
+							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
 					<max_isometric_force>1000.0</max_isometric_force>
@@ -120,17 +90,7 @@
 							</objects>
 						</PathPointSet>
 						<PathWrapSet>
-							<objects>
-								<PathWrap name="PathWrap3">
-									<wrap_object>WrapJoint2</wrap_object>
-									<method>midpoint</method>
-								</PathWrap>
-								<PathWrap name="PathWrap2">
-									<wrap_object>WrapJoint</wrap_object>
-									<method>midpoint</method>
-								</PathWrap>
-
-							</objects>
+							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
 					<max_isometric_force>1000.0</max_isometric_force>
@@ -141,37 +101,8 @@
 				</Thelen2003Muscle>
 			</objects>
 		</ForceSet>
-
 		<BodySet name="">
-			<objects>
-				<Body name="lower_arm">
-					<WrapObjectSet name="">
-						<objects>
-							<WrapCylinder name="WrapJoint2">
-								<xyz_body_rotation>0 0 1.57</xyz_body_rotation>
-								<translation>0 0.38 0</translation>
-										<active>true</active>
-										<radius>0.023</radius>
-										<length>0.05</length>
-
-
-							</WrapCylinder>
-							<WrapCylinder name="WrapJoint">
-								<xyz_body_rotation>0 0 1.57</xyz_body_rotation>
-								<translation>0 0.42 0</translation>
-										<active>true</active>
-										<radius>0.022</radius>
-										<length>0.05</length>
-
-
-							</WrapCylinder>
-
-						</objects>
-						<groups/>
-					</WrapObjectSet>
-				</Body>
-			</objects>
+			<objects/>
 		</BodySet>
-
 	</Model>
 </OpenSimDocument>
