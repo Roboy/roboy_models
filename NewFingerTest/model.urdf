@@ -1,0 +1,100 @@
+<?xml version="1.0" ?>
+<robot name="NewFingerTest">
+  <joint name="NewFingerTest__joint01" type="revolute">
+    <parent link="NewFingerTest__limb0"/>
+    <child link="NewFingerTest__limb1"/>
+    <origin rpy="0  0  0" xyz="0       0.0024  -0.00975"/>
+    <axis xyz="0      -0.86602  0.5"/>
+    <limit effort="0.0" lower="-0.610865238198" upper="0.610865238198" velocity="0.0"/>
+  </joint>
+  <joint name="NewFingerTest__joint12" type="revolute">
+    <parent link="NewFingerTest__limb1"/>
+    <child link="NewFingerTest__limb2"/>
+    <origin rpy="0  0  0" xyz="-0.0055   0.00266 -0.05262"/>
+    <axis xyz="1  0  0"/>
+    <limit effort="0.0" lower="-1.91986217719" upper="-0.0" velocity="0.0"/>
+  </joint>
+  <joint name="NewFingerTest__joint23" type="revolute">
+    <parent link="NewFingerTest__limb2"/>
+    <child link="NewFingerTest__limb3"/>
+    <origin rpy="0  0  0" xyz="0.0015  -0.0015  -0.03175"/>
+    <axis xyz="1  0  0"/>
+    <limit effort="0.0" lower="-1.2217304764" upper="-0.0" velocity="0.0"/>
+  </joint>
+  <link name="NewFingerTest__limb0">
+    <inertial>
+      <mass value="0.0008539789322509442"/>
+      <origin rpy="0  0  0" xyz="0       0.00513 -0.01054"/>
+      <inertia ixx="1.2784805038508332e-07" ixy="-5.856103434550522e-12" ixz="4.5558208765985047e-08" iyy="1.1082327352580405e-07" iyz="7.411065081782657e-12" izz="3.739638848496462e-08"/>
+    </inertial>
+    <collision name="NewFingerTest__limb0_collision">
+      <origin rpy="0  0  0" xyz="0       0.00513 -0.01054"/>
+      <geometry>
+        <mesh filename="package://roboy_models/NewFingerTest/meshes/CAD/limb0.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="NewFingerTest__limb0_visual">
+      <origin rpy="0  0  0" xyz="0       0.00513 -0.01054"/>
+      <geometry>
+        <mesh filename="package://roboy_models/NewFingerTest/meshes/CAD/limb0.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="NewFingerTest__limb1">
+    <inertial>
+      <mass value="0.007658954433011909"/>
+      <origin rpy="0  0  0" xyz="0       0.00212 -0.02563"/>
+      <inertia ixx="1.1585402732909598e-05" ixy="-2.0203458281534916e-12" ixz="1.0764039606781593e-06" iyy="1.1448429938054762e-05" iyz="4.571171730404089e-12" izz="2.866777257874622e-07"/>
+    </inertial>
+    <collision name="NewFingerTest__limb1_collision">
+      <origin rpy="0  0  0" xyz="0       0.00212 -0.02563"/>
+      <geometry>
+        <mesh filename="package://roboy_models/NewFingerTest/meshes/CAD/limb1.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="NewFingerTest__limb1_visual">
+      <origin rpy="0  0  0" xyz="0       0.00212 -0.02563"/>
+      <geometry>
+        <mesh filename="package://roboy_models/NewFingerTest/meshes/CAD/limb1.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="NewFingerTest__limb2">
+    <inertial>
+      <mass value="0.003249582706135075"/>
+      <origin rpy="0  0  0" xyz="0.0055  -0.0013  -0.01275"/>
+      <inertia ixx="1.8649515048434665e-05" ixy="2.234107098967741e-12" ixz="8.199133313360863e-07" iyy="1.8608686591128822e-05" iyz="-2.7998228455494803e-11" izz="7.895531093202919e-08"/>
+    </inertial>
+    <collision name="NewFingerTest__limb2_collision">
+      <origin rpy="0  0  0" xyz="0.0055  -0.0013  -0.01275"/>
+      <geometry>
+        <mesh filename="package://roboy_models/NewFingerTest/meshes/CAD/limb2.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="NewFingerTest__limb2_visual">
+      <origin rpy="0  0  0" xyz="0.0055  -0.0013  -0.01275"/>
+      <geometry>
+        <mesh filename="package://roboy_models/NewFingerTest/meshes/CAD/limb2.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="NewFingerTest__limb3">
+    <inertial>
+      <mass value="0.0013887496747647889"/>
+      <origin rpy="0  0  0" xyz="0.004   -0.00054 -0.00813"/>
+      <inertia ixx="1.4543895011912224e-05" ixy="1.954121228342265e-13" ixz="3.82234398646044e-07" iyy="1.4532750107820617e-05" iyz="-3.392281679043352e-12" izz="2.0064699518540843e-08"/>
+    </inertial>
+    <collision name="NewFingerTest__limb3_collision">
+      <origin rpy="0  0  0" xyz="0.004   -0.00054 -0.00813"/>
+      <geometry>
+        <mesh filename="package://roboy_models/NewFingerTest/meshes/CAD/limb3.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="NewFingerTest__limb3_visual">
+      <origin rpy="0  0  0" xyz="0.004   -0.00054 -0.00813"/>
+      <geometry>
+        <mesh filename="package://roboy_models/NewFingerTest/meshes/CAD/limb3.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>
