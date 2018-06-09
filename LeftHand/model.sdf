@@ -2,17 +2,17 @@
 <sdf version="1.6">
 	<model name="LeftHand">
 		<link name="palm">
-			<pose frame="">-0.0005000000000004635 0.00500000000000008 0.06701500000000059 0.0 -0.0 0.0</pose>
+			<pose frame="">0.0 0.0 0.0 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>15.519964907892248</mass>
+				<mass>10</mass>
 				<inertia>
-					<ixx>0.30095268542199405</ixx>
-					<ixy>3.875011271548405e-05</ixy>
-					<ixz>-0.004755703604050366</ixz>
-					<iyy>0.30058453511478544</iyy>
-					<iyz>0.0004837348586351647</iyz>
-					<izz>0.4820856721425661</izz>
+					<ixx>0.10370503908183999</ixx>
+					<ixy>1.3379102641482672e-05</ixy>
+					<ixz>-0.001620060262024168</ixz>
+					<iyy>0.10358802097720089</iyy>
+					<iyz>0.0001701705408159953</iyz>
+					<izz>0.16582894798853867</izz>
 				</inertia>
 			</inertial>
 			<collision name="palm_collision">
@@ -33,17 +33,17 @@
 			</visual>
 		</link>
 		<link name="ring_limb0">
-			<pose frame="">0.0 0.002401923788646685 -0.11975 0.0 -0.0 0.0</pose>
+			<pose frame="">0.0 0.0 0.0 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.0004269863688298129</mass>
+				<mass>0.00001</mass>
 				<inertia>
-					<ixx>5.705186481949831e-06</ixx>
-					<ixy>-4.324087879365962e-08</ixy>
-					<ixz>2.641937076803204e-07</ixz>
-					<iyy>5.8478299020483795e-06</iyy>
-					<iyz>9.311486939256405e-07</iyz>
-					<izz>1.7250855397973148e-07</izz>
+					<ixx>5.70518648194983e-06</ixx>
+					<ixy>-4.3240878793659625e-08</ixy>
+					<ixz>2.6419370768032044e-07</ixz>
+					<iyy>5.847829902048378e-06</iyy>
+					<iyz>9.311486939256404e-07</iyz>
+					<izz>1.7250855397973145e-07</izz>
 				</inertia>
 			</inertial>
 			<collision name="ring_limb0_collision">
@@ -64,17 +64,17 @@
 			</visual>
 		</link>
 		<link name="ring_limb1">
-			<pose frame="">0.0 -0.0004330127018922192 -0.136 0.0 -0.0 0.0</pose>
+			<pose frame="">0.0 0.0 0.0 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.0038293627955222967</mass>
+				<mass>0.00001</mass>
 				<inertia>
-					<ixx>7.339305240567727e-05</ixx>
-					<ixy>4.533371497969332e-07</ixy>
-					<ixz>-2.3633501509366096e-06</ixz>
-					<iyy>7.562026048540702e-05</iyy>
-					<iyz>1.3267585012058292e-05</iyz>
-					<izz>2.672490773940762e-06</izz>
+					<ixx>7.265402554551641e-05</ixx>
+					<ixy>4.4359390134379255e-07</ixy>
+					<ixz>-2.3121848483359178e-06</ixz>
+					<iyy>7.48581900470118e-05</iyy>
+					<iyz>1.3127899937399327e-05</iyz>
+					<izz>2.641817678600695e-06</izz>
 				</inertia>
 			</inertial>
 			<collision name="ring_limb1_collision">
@@ -95,17 +95,17 @@
 			</visual>
 		</link>
 		<link name="ring_limb2">
-			<pose frame="">0.0 -0.0004330127018922192 -0.18824987499999998 0.0 -0.0 0.0</pose>
+			<pose frame="">0.0 0.0 0.0 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.0016247546846143884</mass>
+				<mass>0.00001</mass>
 				<inertia>
-					<ixx>4.9521147545355215e-05</ixx>
-					<ixy>1.0349551422481167e-06</ixy>
-					<ixz>-5.1908242512515945e-06</ixz>
-					<iyy>5.088851411033832e-05</iyy>
-					<iyz>9.727635364613817e-06</iyz>
-					<izz>2.520289753857832e-06</izz>
+					<ixx>4.952114754535521e-05</ixx>
+					<ixy>1.034955142248116e-06</ixy>
+					<ixz>-5.19082425125159e-06</ixz>
+					<iyy>5.088851411033829e-05</iyy>
+					<iyz>9.72763536461381e-06</iyz>
+					<izz>2.5202897538578307e-06</izz>
 				</inertia>
 			</inertial>
 			<collision name="ring_limb2_collision">
@@ -126,17 +126,17 @@
 			</visual>
 		</link>
 		<link name="ring_limb3">
-			<pose frame="">7.35799333358205e-18 -0.00043301270189221864 -0.21393542275000002 0.0 -0.0 0.0</pose>
+			<pose frame="">0.0 0.0 0.0 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.000694374739355696</mass>
+				<mass>0.00001</mass>
 				<inertia>
-					<ixx>2.772420312266683e-05</ixx>
-					<ixy>8.045563508278753e-07</ixy>
-					<ixz>-3.880806904384673e-06</ixz>
-					<iyy>2.8333380066827055e-05</iyy>
-					<iyz>5.628302424917296e-06</iyz>
-					<izz>1.727876470678125e-06</izz>
+					<ixx>2.7724203122666813e-05</ixx>
+					<ixy>8.04556350827875e-07</ixy>
+					<ixz>-3.8808069043846705e-06</ixz>
+					<iyy>2.833338006682704e-05</iyy>
+					<iyz>5.628302424917292e-06</iyz>
+					<izz>1.727876470678124e-06</izz>
 				</inertia>
 			</inertial>
 			<collision name="ring_limb3_collision">
@@ -157,17 +157,17 @@
 			</visual>
 		</link>
 		<link name="little_limb0">
-			<pose frame="">-0.019678577469519704 0.0024019237886464583 -0.11456042553314168 0.0 -0.0 0.0</pose>
+			<pose frame="">0.0 0.0 0.0 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.00042697726664383786</mass>
+				<mass>0.00001</mass>
 				<inertia>
-					<ixx>4.355587941337751e-06</ixx>
-					<ixy>-7.320318351005169e-08</ixy>
-					<ixz>2.2075537435390312e-07</ixz>
-					<iyy>4.8245236479853645e-06</iyy>
-					<iyz>1.4391228039942184e-06</iyz>
-					<izz>4.961439548441098e-07</izz>
+					<ixx>4.35558794133777e-06</ixx>
+					<ixy>-7.320318351005178e-08</ixy>
+					<ixz>2.2075537435390357e-07</ixz>
+					<iyy>4.8245236479853865e-06</iyy>
+					<iyz>1.439122803994224e-06</iyz>
+					<izz>4.961439548441114e-07</izz>
 				</inertia>
 			</inertial>
 			<collision name="little_limb0_collision">
@@ -188,17 +188,17 @@
 			</visual>
 		</link>
 		<link name="little_limb1">
-			<pose frame="">-0.023884386952435454 -0.0004330127018925815 -0.13025672021033885 0.0 -0.0 0.0</pose>
+			<pose frame="">0.0 0.0 0.0 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.0038295045533402986</mass>
+				<mass>0.00001</mass>
 				<inertia>
-					<ixx>5.797477921662206e-05</ixx>
-					<ixy>-7.269326800012614e-07</ixy>
-					<ixz>1.955102195860375e-06</ixz>
-					<iyy>6.616226450884912e-05</iyy>
-					<iyz>2.1814487473743102e-05</iyz>
-					<izz>8.399312060484794e-06</izz>
+					<ixx>5.797477920729646e-05</ixx>
+					<ixy>-7.269326799885393e-07</ixy>
+					<ixz>1.955102195820986e-06</ixz>
+					<iyy>6.616226449855414e-05</iyy>
+					<iyz>2.1814487470731944e-05</iyz>
+					<izz>8.399312059509464e-06</izz>
 				</inertia>
 			</inertial>
 			<collision name="little_limb1_collision">
@@ -219,17 +219,17 @@
 			</visual>
 		</link>
 		<link name="little_limb2">
-			<pose frame="">-0.03740764970666212 -0.00043301270189306443 -0.18072622389321544 0.0 -0.0 0.0</pose>
+			<pose frame="">0.0 0.0 0.0 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.0016247911658487592</mass>
+				<mass>0.00001</mass>
 				<inertia>
-					<ixx>3.9996531972116905e-05</ixx>
-					<ixy>-3.6390588649743713e-07</ixy>
-					<ixz>8.719183832996038e-07</ixz>
-					<iyy>4.7021312436865695e-05</iyy>
-					<iyz>1.6774663757500476e-05</iyz>
-					<izz>7.084672355258347e-06</izz>
+					<ixx>3.935298315950893e-05</ixx>
+					<ixy>-3.5754285677154177e-07</ixy>
+					<ixz>8.565151683906668e-07</ixz>
+					<iyy>4.6267387944779e-05</iyy>
+					<iyz>1.650781571744048e-05</iyz>
+					<izz>6.973161106688865e-06</izz>
 				</inertia>
 			</inertial>
 			<collision name="little_limb2_collision">
@@ -250,17 +250,17 @@
 			</visual>
 		</link>
 		<link name="little_limb3">
-			<pose frame="">-0.04405555864825228 -0.00043301270189319204 -0.20553655782732164 0.0 -0.0 0.0</pose>
+			<pose frame="">0.0 0.0 0.0 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.0006943833227503114</mass>
+				<mass>0.00001</mass>
 				<inertia>
-					<ixx>2.254779176782516e-05</ixx>
-					<ixy>-1.4909623965506232e-07</ixy>
-					<ixz>3.3963132070903757e-07</ixz>
-					<iyy>2.6907536710997e-05</iyy>
-					<iyz>9.918495282603982e-06</iyz>
-					<izz>4.375350062641269e-06</izz>
+					<ixx>2.2547791767825223e-05</ixx>
+					<ixy>-1.4909623965506253e-07</ixy>
+					<ixz>3.3963132070903805e-07</ixz>
+					<iyy>2.6907536710997072e-05</iyy>
+					<iyz>9.91849528260401e-06</iyz>
+					<izz>4.375350062641281e-06</izz>
 				</inertia>
 			</inertial>
 			<collision name="little_limb3_collision">
@@ -281,17 +281,17 @@
 			</visual>
 		</link>
 		<link name="thumb_limb0">
-			<pose frame="">-0.02750987086491734 0.025352627083963075 -0.06582868041594034 0.0 -0.0 0.0</pose>
+			<pose frame="">0.0 0.0 0.0 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.0004269876906727725</mass>
+				<mass>0.00001</mass>
 				<inertia>
-					<ixx>2.1819939213634575e-06</ixx>
-					<ixy>2.630578155479801e-07</ixy>
-					<ixz>7.069522131995128e-07</ixz>
-					<iyy>2.1842368765602036e-06</iyy>
-					<iyz>-7.137180227455262e-07</iyz>
-					<izz>5.348246264645512e-07</izz>
+					<ixx>2.1819939213634567e-06</ixx>
+					<ixy>2.630578155479799e-07</ixy>
+					<ixz>7.069522131995127e-07</ixz>
+					<iyy>2.1842368765602027e-06</iyy>
+					<iyz>-7.13718022745526e-07</iyz>
+					<izz>5.348246264645511e-07</izz>
 				</inertia>
 			</inertial>
 			<collision name="thumb_limb0_collision">
@@ -312,17 +312,17 @@
 			</visual>
 		</link>
 		<link name="thumb_limb1">
-			<pose frame="">-0.028114731247337633 0.03619573732747787 -0.07824481786162585 0.0 -0.0 0.0</pose>
+			<pose frame="">0.0 0.0 0.0 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.0038294723137475483</mass>
+				<mass>0.00001</mass>
 				<inertia>
-					<ixx>3.565912073882621e-05</ixx>
-					<ixy>3.435297238614782e-06</ixy>
-					<ixz>1.3536676840083773e-05</ixz>
-					<iyy>3.1377032449729916e-05</iyy>
-					<iyz>-7.566667605919442e-06</iyz>
-					<izz>8.416817617334465e-06</izz>
+					<ixx>3.562251426612123e-05</ixx>
+					<ixy>3.2713821883161312e-06</ixy>
+					<ixz>1.186626739400163e-05</ixz>
+					<iyy>3.349046496438803e-05</iyy>
+					<iyz>-8.569428970596472e-06</iyz>
+					<izz>7.025492328146263e-06</izz>
 				</inertia>
 			</inertial>
 			<collision name="thumb_limb1_collision">
@@ -343,17 +343,17 @@
 			</visual>
 		</link>
 		<link name="thumb_limb2">
-			<pose frame="">-0.022135196957687907 0.06696652254520784 -0.12004737022722797 0.0 -0.0 0.0</pose>
+			<pose frame="">0.0 0.0 0.0 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.0016247845904062185</mass>
+				<mass>0.00001</mass>
 				<inertia>
-					<ixx>2.938903537997989e-05</ixx>
-					<ixy>1.9612845310722753e-06</ixy>
-					<ixz>1.2230575080743439e-05</ixz>
-					<iyy>2.3416741753792575e-05</iyy>
-					<iyz>-3.667074945953049e-06</iyz>
-					<izz>7.1793896012951276e-06</izz>
+					<ixx>2.9751055416704578e-05</ixx>
+					<ixy>2.0744726107071765e-06</ixy>
+					<ixz>1.0102131260703117e-05</ixz>
+					<iyy>2.688038357001603e-05</iyy>
+					<iyz>-5.294534109863701e-06</iyz>
+					<izz>5.068304277953946e-06</izz>
 				</inertia>
 			</inertial>
 			<collision name="thumb_limb2_collision">
@@ -374,17 +374,17 @@
 			</visual>
 		</link>
 		<link name="thumb_limb3">
-			<pose frame="">-0.019195714068598504 0.08209315151829145 -0.14059711230524335 0.0 -0.0 0.0</pose>
+			<pose frame="">0.0 0.0 0.0 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.0006943642123641853</mass>
+				<mass>0.00001</mass>
 				<inertia>
-					<ixx>1.7993103813154486e-05</ixx>
-					<ixy>9.199724796858978e-07</ixy>
-					<ixz>7.736261822635602e-06</ixz>
-					<iyy>1.3777754367315693e-05</iyy>
-					<iyz>-1.6158560702008287e-06</iyz>
-					<izz>4.605026584875153e-06</izz>
+					<ixx>1.8506572411630314e-05</ixx>
+					<ixy>1.119158034675447e-06</ixy>
+					<ixz>6.337788929721548e-06</ixz>
+					<iyy>1.6493234104167078e-05</iyy>
+					<iyz>-2.8237192588854132e-06</iyz>
+					<izz>3.0153733036797124e-06</izz>
 				</inertia>
 			</inertial>
 			<collision name="thumb_limb3_collision">
@@ -405,17 +405,17 @@
 			</visual>
 		</link>
 		<link name="index_limb0">
-			<pose frame="">0.033061642412710444 0.0024019237886465463 -0.10011546984427355 0.0 -0.0 0.0</pose>
+			<pose frame="">0.0 0.0 0.0 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.000427041167171139</mass>
+				<mass>0.00001</mass>
 				<inertia>
-					<ixx>5.696396315690576e-06</ixx>
-					<ixy>4.35236437691448e-08</ixy>
-					<ixz>2.526333252288324e-07</ixz>
-					<iyy>5.856562158492152e-06</iyy>
-					<iyz>-9.786861419484762e-07</iyz>
-					<izz>1.8738275226371265e-07</izz>
+					<ixx>5.696396315690575e-06</ixx>
+					<ixy>4.352364376914482e-08</ixy>
+					<ixz>2.526333252288325e-07</ixz>
+					<iyy>5.85656215849215e-06</iyy>
+					<iyz>-9.786861419484764e-07</iyz>
+					<izz>1.8738275226371254e-07</izz>
 				</inertia>
 			</inertial>
 			<collision name="index_limb0_collision">
@@ -436,17 +436,17 @@
 			</visual>
 		</link>
 		<link name="index_limb1">
-			<pose frame="">0.04118664241271043 6.698729810764331e-05 -0.1141883826557706 0.0 -0.0 0.0</pose>
+			<pose frame="">0.0 0.0 0.0 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.0038295073761239707</mass>
+				<mass>0.00001</mass>
 				<inertia>
-					<ixx>7.514124864528453e-05</ixx>
-					<ixy>4.179435612884838e-07</ixy>
-					<ixz>2.227679305032662e-06</ixz>
-					<iyy>7.777573780640452e-05</iyy>
-					<iyz>-1.4224170063960728e-05</iyz>
-					<izz>2.8463168148581786e-06</izz>
+					<ixx>7.533171793117199e-05</ixx>
+					<ixy>4.492241461728259e-07</ixy>
+					<ixz>2.3921493926142674e-06</ixz>
+					<iyy>7.796512931418711e-05</iyy>
+					<iyz>-1.4265341307765165e-05</iyz>
+					<izz>2.8656360821360042e-06</izz>
 				</inertia>
 			</inertial>
 			<collision name="index_limb1_collision">
@@ -467,17 +467,17 @@
 			</visual>
 		</link>
 		<link name="index_limb2">
-			<pose frame="">0.06731157991271042 -0.00043301270189252596 -0.15943810175033216 0.0 -0.0 0.0</pose>
+			<pose frame="">0.0 0.0 0.0 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.0016247911690079504</mass>
+				<mass>0.00001</mass>
 				<inertia>
-					<ixx>5.140399571045418e-05</ixx>
-					<ixy>2.0283352480940668e-07</ixy>
-					<ixz>9.88827307904376e-07</ixz>
-					<iyy>5.356532861477602e-05</iyy>
-					<iyz>-1.0584698043686475e-05</iyz>
-					<izz>2.2212247949079286e-06</izz>
+					<ixx>5.150513740195316e-05</ixx>
+					<ixy>2.2111491965128255e-07</ixy>
+					<ixz>1.0773047560158625e-06</ixz>
+					<iyy>5.366828680317941e-05</iyy>
+					<iyz>-1.0607817002180134e-05</iyz>
+					<izz>2.2301760846463064e-06</izz>
 				</inertia>
 			</inertial>
 			<collision name="index_limb2_collision">
@@ -498,17 +498,17 @@
 			</visual>
 		</link>
 		<link name="index_limb3">
-			<pose frame="">0.08015435378771045 -0.0004330127018925475 -0.18168243861195038 0.0 -0.0 0.0</pose>
+			<pose frame="">0.0 0.0 0.0 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.000694383337351409</mass>
+				<mass>0.00001</mass>
 				<inertia>
-					<ixx>2.88610672911933e-05</ixx>
-					<ixy>8.20490915103938e-08</ixy>
-					<ixz>3.84310202223997e-07</ixz>
-					<iyy>3.017582178216648e-05</iyy>
-					<iyz>-6.171778299680893e-06</iyz>
-					<izz>1.3303596105165044e-06</izz>
+					<ixx>2.89101342305928e-05</ixx>
+					<ixy>9.13166725961899e-08</ixy>
+					<ixz>4.275517346457047e-07</ixz>
+					<iyy>3.0226416068812014e-05</iyy>
+					<iyz>-6.183306903236268e-06</iyz>
+					<izz>1.3343173846196303e-06</izz>
 				</inertia>
 			</inertial>
 			<collision name="index_limb3_collision">
@@ -529,17 +529,17 @@
 			</visual>
 		</link>
 		<link name="middle_limb0">
-			<pose frame="">0.018472005363350263 0.003071637170940513 -0.11378948793749274 0.0 -0.0 0.0</pose>
+			<pose frame="">0.0 0.0 0.0 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.0004269894661254718</mass>
+				<mass>0.00001</mass>
 				<inertia>
-					<ixx>6.220931215255115e-06</ixx>
-					<ixy>-2.9280517172983007e-12</ixy>
-					<ixz>2.640161236737273e-07</ixz>
-					<iyy>6.2124188268254754e-06</iyy>
-					<iyz>4.165012047714157e-11</iyz>
-					<izz>1.8698194242482268e-08</izz>
+					<ixx>6.220931215255119e-06</ixx>
+					<ixy>-2.9280517172989784e-12</ixy>
+					<ixz>2.6401612367372733e-07</ixz>
+					<iyy>6.21241882682548e-06</iyy>
+					<iyz>4.165012047708736e-11</iyz>
+					<izz>1.869819424248227e-08</izz>
 				</inertia>
 			</inertial>
 			<collision name="middle_limb0_collision">
@@ -560,17 +560,17 @@
 			</visual>
 		</link>
 		<link name="middle_limb1">
-			<pose frame="">0.02221748182250485 -0.0046803127482647755 -0.12776779638161082 0.0 -0.0 0.0</pose>
+			<pose frame="">0.0 0.0 0.0 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.003829477216583566</mass>
+				<mass>0.00001</mass>
 				<inertia>
-					<ixx>8.179745776724744e-05</ixx>
-					<ixy>-1.0101743374580697e-12</ixy>
-					<ixz>2.3248966541864924e-06</ixz>
-					<iyy>8.172897136982157e-05</iyy>
-					<iyz>1.5576625244889544e-11</iyz>
-					<izz>1.4333886290587528e-07</izz>
+					<ixx>8.096748853092092e-05</ixx>
+					<ixy>-1.010033148855116e-12</ixy>
+					<ixz>2.3057982785490035e-06</ixz>
+					<iyy>8.089935723228345e-05</iyy>
+					<iyz>1.5570927857065174e-11</iyz>
+					<izz>1.4238044463764945e-07</izz>
 				</inertia>
 			</inertial>
 			<collision name="middle_limb1_collision">
@@ -591,17 +591,17 @@
 			</visual>
 		</link>
 		<link name="middle_limb2">
-			<pose frame="">0.03488093137814949 -0.023020668794906336 -0.17502843352236203 0.0 -0.0 0.0</pose>
+			<pose frame="">0.0 0.0 0.0 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.0016247913530675396</mass>
+				<mass>0.00001</mass>
 				<inertia>
-					<ixx>5.577988183128606e-05</ixx>
-					<ixy>1.1170535520958148e-12</ixy>
-					<ixz>1.030184337413135e-06</ixz>
-					<iyy>5.5759467602633154e-05</iyy>
-					<iyz>-3.978389888487825e-11</iyz>
-					<izz>3.9477655466009195e-08</izz>
+					<ixx>5.577988183128855e-05</ixx>
+					<ixy>1.1170535500077128e-12</ixy>
+					<ixz>1.0301843374132112e-06</ixz>
+					<iyy>5.575946760263562e-05</iyy>
+					<iyz>-3.9783898817763056e-11</iyz>
+					<izz>3.9477655466014145e-08</izz>
 				</inertia>
 			</inertial>
 			<collision name="middle_limb2_collision">
@@ -622,17 +622,17 @@
 			</visual>
 		</link>
 		<link name="middle_limb3">
-			<pose frame="">0.04112792235421852 -0.03180564351775972 -0.1983425212394759 0.0 -0.0 0.0</pose>
+			<pose frame="">0.0 0.0 0.0 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.0006943748373823935</mass>
+				<mass>0.00001</mass>
 				<inertia>
-					<ixx>3.126942660218027e-05</ixx>
-					<ixy>9.770606141777381e-14</ixy>
-					<ixz>4.0004172461025493e-07</ixz>
-					<iyy>3.1263854150134474e-05</iyy>
-					<iyz>-3.760132469022903e-12</iyz>
-					<izz>1.0032349759270289e-08</izz>
+					<ixx>3.126942660218029e-05</ixx>
+					<ixy>9.770606142305848e-14</ixy>
+					<ixz>4.0004172461025477e-07</ixz>
+					<iyy>3.126385415013449e-05</iyy>
+					<iyz>-3.760132469602895e-12</iyz>
+					<izz>1.0032349759270294e-08</izz>
 				</inertia>
 			</inertial>
 			<collision name="middle_limb3_collision">
@@ -652,10 +652,10 @@
 				</geometry>
 			</visual>
 		</link>
-		<joint name="palm_ring" type="revolute">
+		<joint name="ring0" type="revolute">
 			<parent>palm</parent>
 			<child>ring_limb0</child>
-			<pose frame="">0.011822362340004855 0.0025980762113533297 0.0017995428891567045 0 0 0</pose>
+			<pose frame="">0.011822362340004855 0.005000000000000015 -0.11795045711084329 0 0 0</pose>
 			<axis>
 				<xyz>-0.9659258262890762 -4.904700770684754e-16 -0.25881904510252224</xyz>
 				<limit>
@@ -665,10 +665,10 @@
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
-		<joint name="palm_index" type="revolute">
+		<joint name="index0" type="revolute">
 			<parent>palm</parent>
 			<child>index_limb0</child>
-			<pose frame="">-0.06037289214705163 0.002598076211353447 -0.013952701590032 0 0 0</pose>
+			<pose frame="">-0.027311249734341195 0.004999999999999993 -0.11406817143430555 0 0 0</pose>
 			<axis>
 				<xyz>-0.9659258262890775 -5.479394496853379e-16 0.2588190451025223</xyz>
 				<limit>
@@ -678,10 +678,10 @@
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
-		<joint name="palm_thumb" type="revolute">
+		<joint name="thumb0" type="revolute">
 			<parent>palm</parent>
 			<child>thumb_limb0</child>
-			<pose frame="">0.0050819281913525765 0.006211717173626217 0.0009157377423762192 0 0 0</pose>
+			<pose frame="">-0.022427942673564766 0.03156434425758929 -0.06491294267356412 0 0 0</pose>
 			<axis>
 				<xyz>0.3535533905932764 0.8660254037844375 0.3535533905932753</xyz>
 				<limit>
@@ -691,10 +691,10 @@
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
-		<joint name="palm_little" type="revolute">
+		<joint name="little0" type="revolute">
 			<parent>palm</parent>
 			<child>little_limb0</child>
-			<pose frame="">0.046995029353847195 0.002598076211353564 0.009395917583191835 0 0 0</pose>
+			<pose frame="">0.0273164518843275 0.005000000000000023 -0.10516450794994985 0 0 0</pose>
 			<axis>
 				<xyz>0.866025403784445 4.0999510464529535e-16 0.5000000000000029</xyz>
 				<limit>
@@ -704,10 +704,10 @@
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
-		<joint name="palm_middle" type="revolute">
+		<joint name="middle0" type="revolute">
 			<parent>palm</parent>
 			<child>middle_limb0</child>
-			<pose frame="">-0.01347200536335027 0.0019283628290594995 -0.00746051206250721 0 0 0</pose>
+			<pose frame="">0.004999999999999992 0.005000000000000012 -0.12124999999999996 0 0 0</pose>
 			<axis>
 				<xyz>-1.0000000000000089 9.930890339105123e-17 -1.4559772246072405e-17</xyz>
 				<limit>
@@ -717,88 +717,10 @@
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
-		<joint name="joint0_ring" type="revolute">
-			<parent>ring_limb0</parent>
-			<child>ring_limb1</child>
-			<pose frame="">0.01847200536335035 0.003504649872832554 0.02221051206250708 0 0 0</pose>
-			<axis>
-				<xyz>-0.198266891274149 -0.6427876096865431 0.7399421116938513</xyz>
-				<limit>
-					<lower>-0.3141592653589793</lower>
-					<upper>0.3141592653589793</upper>
-				</limit>
-				<use_parent_model_frame>0</use_parent_model_frame>
-			</axis>
-		</joint>
-		<joint name="joint1_ring" type="revolute">
-			<parent>ring_limb1</parent>
-			<child>ring_limb2</child>
-			<pose frame="">0.026194272777333615 -0.011989819655914462 0.02439012454552845 0 0 0</pose>
-			<axis>
-				<xyz>0.9659258262890722 -8.101158632811689e-16 0.25881904510252285</xyz>
-				<limit>
-					<lower>-1.9198621771937625</lower>
-					<upper>-0.0</upper>
-				</limit>
-				<use_parent_model_frame>0</use_parent_model_frame>
-			</axis>
-		</joint>
-		<joint name="joint2_ring" type="revolute">
-			<parent>ring_limb2</parent>
-			<child>ring_limb3</child>
-			<pose frame="">0.035232247234782264 -0.024258412632647563 0.022141047380554717 0 0 0</pose>
-			<axis>
-				<xyz>0.9659258262890722 -8.101158632811689e-16 0.25881904510252285</xyz>
-				<limit>
-					<lower>-1.2217304763960306</lower>
-					<upper>-0.0</upper>
-				</limit>
-				<use_parent_model_frame>0</use_parent_model_frame>
-			</axis>
-		</joint>
-		<joint name="joint0_middle" type="revolute">
-			<parent>middle_limb0</parent>
-			<child>middle_limb1</child>
-			<pose frame="">-0.02221748182250485 0.00708223653691146 0.008017796381610829 0 0 0</pose>
-			<axis>
-				<xyz>6.842277657836021e-49 -0.8660254037844388 0.5</xyz>
-				<limit>
-					<lower>-0.6108652381980153</lower>
-					<upper>0.6108652381980153</upper>
-				</limit>
-				<use_parent_model_frame>0</use_parent_model_frame>
-			</axis>
-		</joint>
-		<joint name="joint1_middle" type="revolute">
-			<parent>middle_limb1</parent>
-			<child>middle_limb2</child>
-			<pose frame="">-0.040380931378149486 0.028087656093014116 0.0026534335223620076 0 0 0</pose>
-			<axis>
-				<xyz>1.0 0.0 0.0</xyz>
-				<limit>
-					<lower>-1.9198621771937625</lower>
-					<upper>-0.0</upper>
-				</limit>
-				<use_parent_model_frame>0</use_parent_model_frame>
-			</axis>
-		</joint>
-		<joint name="joint2_middle" type="revolute">
-			<parent>middle_limb2</parent>
-			<child>middle_limb3</child>
-			<pose frame="">-0.04512792235421852 0.035372630815867494 -0.005782228760524113 0 0 0</pose>
-			<axis>
-				<xyz>1.0 0.0 0.0</xyz>
-				<limit>
-					<lower>-1.2217304763960306</lower>
-					<upper>-0.0</upper>
-				</limit>
-				<use_parent_model_frame>0</use_parent_model_frame>
-			</axis>
-		</joint>
-		<joint name="joint0_little" type="revolute">
+		<joint name="little1" type="revolute">
 			<parent>little_limb0</parent>
 			<child>little_limb1</child>
-			<pose frame="">0.0569460293651462 0.0028349364905392825 0.03014125036606563 0 0 0</pose>
+			<pose frame="">0.03306164241271076 0.002401923788646701 -0.10011546984427323 0 0 0</pose>
 			<axis>
 				<xyz>-0.25000000000000516 -0.8660254037844385 0.43301270189221686</xyz>
 				<limit>
@@ -808,38 +730,38 @@
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
-		<joint name="joint1_little" type="revolute">
+		<joint name="little2" type="revolute">
 			<parent>little_limb1</parent>
 			<child>little_limb2</child>
-			<pose frame="">0.0920186523985582 0.005500000000000616 0.0322861671747858 0 0 0</pose>
+			<pose frame="">0.05461100269189609 0.005066987298107553 -0.14844005671842964 0 0 0</pose>
 			<axis>
 				<xyz>0.8660254037844395 -7.969319648637452e-15 0.49999999999999606</xyz>
 				<limit>
-					<lower>-1.9198621771937625</lower>
-					<upper>-0.0</upper>
+					<lower>0.0</lower>
+					<upper>1.9198621771937625</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
-		<joint name="joint2_little" type="revolute">
+		<joint name="little3" type="revolute">
 			<parent>little_limb2</parent>
 			<child>little_limb3</child>
-			<pose frame="">0.11584047444582499 0.004000000000000689 0.03035041104508707 0 0 0</pose>
+			<pose frame="">0.07178491579757272 0.0035669872981074963 -0.17518614678223457 0 0 0</pose>
 			<axis>
 				<xyz>0.8660254037844395 -7.969319648637452e-15 0.49999999999999606</xyz>
 				<limit>
-					<lower>-1.2217304763960306</lower>
-					<upper>-0.0</upper>
+					<lower>0.0</lower>
+					<upper>1.2217304763960306</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
-		<joint name="joint0_index" type="revolute">
-			<parent>index_limb0</parent>
-			<child>index_limb1</child>
-			<pose frame="">-0.060865219882230155 0.0023349364905388375 -0.0003720428773710793 0 0 0</pose>
+		<joint name="ring1" type="revolute">
+			<parent>ring_limb0</parent>
+			<child>ring_limb1</child>
+			<pose frame="">0.01847200536335035 0.0030716371709403347 -0.11378948793749291 0 0 0</pose>
 			<axis>
-				<xyz>0.12940952255125512 -0.866025403784444 0.48296291314453815</xyz>
+				<xyz>-0.198266891274149 -0.6427876096865431 0.7399421116938513</xyz>
 				<limit>
 					<lower>-0.3141592653589793</lower>
 					<upper>0.3141592653589793</upper>
@@ -847,38 +769,38 @@
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
-		<joint name="joint1_index" type="revolute">
-			<parent>index_limb1</parent>
-			<child>index_limb2</child>
-			<pose frame="">-0.10592310167534055 0.00549999999999945 -0.004530665643208689 0 0 0</pose>
+		<joint name="ring2" type="revolute">
+			<parent>ring_limb1</parent>
+			<child>ring_limb2</child>
+			<pose frame="">0.026194272777333615 -0.012422832357806682 -0.16385975045447154 0 0 0</pose>
 			<axis>
-				<xyz>0.9659258262890686 -1.2698175844150228e-15 -0.25881904510251696</xyz>
+				<xyz>0.9659258262890722 -8.101158632811689e-16 0.25881904510252285</xyz>
 				<limit>
-					<lower>-1.9198621771937625</lower>
-					<upper>-0.0</upper>
+					<lower>0</lower>
+					<upper>1.9198621771937625</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
-		<joint name="joint2_index" type="revolute">
-			<parent>index_limb2</parent>
-			<child>index_limb3</child>
-			<pose frame="">-0.12553442678815066 0.003999999999999405 -0.013342460852465763 0 0 0</pose>
+		<joint name="ring3" type="revolute">
+			<parent>ring_limb2</parent>
+			<child>ring_limb3</child>
+			<pose frame="">0.03523224723478227 -0.02469142533453978 -0.1917943753694453 0 0 0</pose>
 			<axis>
-				<xyz>0.9659258262890686 -1.2698175844150228e-15 -0.25881904510251696</xyz>
+				<xyz>0.9659258262890722 -8.101158632811689e-16 0.25881904510252285</xyz>
 				<limit>
-					<lower>-1.2217304763960306</lower>
-					<upper>-0.0</upper>
+					<lower>0.0</lower>
+					<upper>1.2217304763960306</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
-		<joint name="joint0_thumb" type="revolute">
+		<joint name="thumb1" type="revolute">
 			<parent>thumb_limb0</parent>
 			<child>thumb_limb1</child>
-			<pose frame="">0.0006048603824202736 -0.010843110243514791 0.0124161374456855 0 0 0</pose>
+			<pose frame="">-0.027104824571266863 0.02530538152483692 -0.06611799919711926 0 0 0</pose>
 			<axis>
-				<xyz>-0.810092587300987 0.09449111825231682 0.5786375623578539</xyz>
+				<xyz>0.8100925873009869 -0.09449111825231679 -0.5786375623578539</xyz>
 				<limit>
 					<lower>-0.3141592653589793</lower>
 					<upper>0.3141592653589793</upper>
@@ -886,32 +808,110 @@
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
-		<joint name="joint1_thumb" type="revolute">
+		<joint name="thumb2" type="revolute">
 			<parent>thumb_limb1</parent>
 			<child>thumb_limb2</child>
-			<pose frame="">0.005608924006929495 -0.00812359451241547 0.014664884586929787 0 0 0</pose>
+			<pose frame="">-0.022667342281404462 0.04908655483319237 -0.11325087239104441 0 0 0</pose>
 			<axis>
-				<xyz>-0.48077872093720364 -0.6719147712873027 -0.5633669866258815</xyz>
+				<xyz>-0.35355339059328617 -0.8660254037844398 -0.35355339059326946</xyz>
 				<limit>
-					<lower>-1.9198621771937625</lower>
-					<upper>-0.0</upper>
+					<lower>0.0</lower>
+					<upper>1.9198621771937625</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
-		<joint name="joint2_thumb" type="revolute">
+		<joint name="thumb3" type="revolute">
 			<parent>thumb_limb2</parent>
 			<child>thumb_limb3</child>
-			<pose frame="">0.004277737429957331 -0.004886481590238177 0.009277529841299276 0 0 0</pose>
+			<pose frame="">-0.02460079388733464 0.060278784507471254 -0.14297531325825383 0 0 0</pose>
 			<axis>
-				<xyz>-0.48077872093720364 -0.6719147712873027 -0.5633669866258815</xyz>
+				<xyz>-0.3535533905932865 -0.8660254037844414 -0.3535533905932668</xyz>
 				<limit>
-					<lower>-1.2217304763960306</lower>
-					<upper>-0.0</upper>
+					<lower>0.0</lower>
+					<upper>1.2217304763960306</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
-		<!--<plugin filename="libmyomuscle_plugin.so" name="myomuscle_plugin"/>-->
+		<joint name="middle1" type="revolute">
+			<parent>middle_limb0</parent>
+			<child>middle_limb1</child>
+			<pose frame="">0.0 0.002401923788646685 -0.11975 0 0 0</pose>
+			<axis>
+				<xyz>6.842277657836021e-49 -0.8660254037844388 0.5</xyz>
+				<limit>
+					<lower>-0.6108652381980153</lower>
+					<upper>0.6108652381980153</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="middle2" type="revolute">
+			<parent>middle_limb1</parent>
+			<child>middle_limb2</child>
+			<pose frame="">-0.0055000000000000005 0.00506698729810778 -0.172375 0 0 0</pose>
+			<axis>
+				<xyz>1.0 0.0 0.0</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>1.9198621771937625</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="middle3" type="revolute">
+			<parent>middle_limb2</parent>
+			<child>middle_limb3</child>
+			<pose frame="">-0.004 0.003566987298107776 -0.20412475000000002 0 0 0</pose>
+			<axis>
+				<xyz>1.0 0.0 0.0</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>1.2217304763960306</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="index1" type="revolute">
+			<parent>index_limb0</parent>
+			<child>index_limb1</child>
+			<pose frame="">-0.01974328223079509 0.0028349364905388918 -0.11480190698971318 0 0 0</pose>
+			<axis>
+				<xyz>-0.12940952255125399 0.8660254037844273 -0.482962913144532</xyz>
+				<limit>
+					<lower>-0.3141592653589793</lower>
+					<upper>0.3141592653589793</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="index2" type="revolute">
+			<parent>index_limb1</parent>
+			<child>index_limb2</child>
+			<pose frame="">-0.03865681509552307 0.005370096189431485 -0.1641378044131407 0 0 0</pose>
+			<axis>
+				<xyz>0.9659258262890686 -8.975054892207292e-16 -0.25881904510251696</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>1.9198621771937625</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="index3" type="revolute">
+			<parent>index_limb2</parent>
+			<child>index_limb3</child>
+			<pose frame="">-0.04542536633333317 0.0038700961894312714 -0.1951939364840159 0 0 0</pose>
+			<axis>
+				<xyz>0.9659258262890686 -1.2698175844150228e-15 -0.25881904510251696</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>1.2217304763960306</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<plugin filename="libfinger_plugin.so" name="finger_plugin"/>
 	</model>
 </sdf>
