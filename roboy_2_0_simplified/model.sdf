@@ -821,6 +821,13 @@
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
+
+        <plugin name="joint_state_publisher" filename="libgazebo_ros_joint_state_publisher.so">
+            <jointName>shoulder_left_axis_1, shoulder_left_axis_2, shoulder_left_axis_3, shoulder_right_axis_1, shoulder_right_axis_2, shoulder_right_axis_3, elbow_left, elbow_right, wrist_left, wrist_right, neck_axis_1, neck_axis_2, neck_axis_3</jointName>
+            <updateRate>100.0</updateRate>
+            <alwaysOn>true</alwaysOn>
+        </plugin>
+
 		<plugin filename="libmyomuscle_plugin.so" name="myomuscle_plugin">
 			<myoMuscle name="motor0">
 				<link name="torso">
