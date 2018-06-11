@@ -122,11 +122,11 @@
 			</axis>
 		</joint>
 
-        <plugin name="joint_state_publisher" filename="libgazebo_ros_joint_state_publisher.so">
-            <jointName>joint_1, joint_2</jointName>
-            <updateRate>100.0</updateRate>
-            <alwaysOn>true</alwaysOn>
-        </plugin>
+        <!--<plugin name="joint_state_publisher" filename="libgazebo_ros_joint_state_publisher.so">-->
+            <!--<jointName>joint_1, joint_2</jointName>-->
+            <!--<updateRate>100.0</updateRate>-->
+            <!--<alwaysOn>true</alwaysOn>-->
+        <!--</plugin>-->
 
 		<plugin filename="libmyomuscle_plugin.so" name="myomuscle_plugin">
 			<myoMuscle name="motor0">
