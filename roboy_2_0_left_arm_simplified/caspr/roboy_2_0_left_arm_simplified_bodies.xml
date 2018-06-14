@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE bodies_system SYSTEM "../../../templates/bodies.dtd">
-<?xml version="1.0" ?>
 <bodies_system>
 	<links display_range="-0.3 0.3 0.0 1.0 -0.3 0.3" view_angle="-37 32">
-		<link_rigid name="shoulder_left_link3" num="1">
+		<link_rigid name="shoulder_left_link3" num="2">
 			<joint axis="-0.9157067061247516 0.40006133105988256 0.03784388654395071" q_max="0.0" q_min="0.0" type="R_Axis"/>
 			<physical>
 				<mass>0.005913315572012584</mass>
@@ -19,7 +18,7 @@
 				</inertia>
 			</physical>
 			<parent>
-				<num>shoulder_left_link2</num>
+				<num>1</num>
 				<location>0.29493049529730603 0.5912430725106552 -0.01334521787989455</location>
 			</parent>
 		</link_rigid>
@@ -39,16 +38,16 @@
 				</inertia>
 			</physical>
 			<parent>
-				<num>torso</num>
+				<num>0</num>
 				<location>0.28707958877999823 0.5942138355514749 -0.02332345209197869</location>
 			</parent>
 		</link_rigid>
-		<link_rigid name="upper_arm_left" num="1">
+		<link_rigid name="upper_arm_left" num="3">
 			<joint axis="-0.3985964849665964 -0.9162167781009379 0.04083696485553867" q_max="3.141592653589793" q_min="-3.141592653589793" type="R_Axis"/>
 			<physical>
 				<mass>8.500588350785655</mass>
 				<com_location>-0.01317454412375902 -0.030283102900494824 0.0013497569990228353</com_location>
-				<end_location>0 0 0</end_location>
+				<end_location>-0.01317454412375902 -0.030283102900494824 0.0013497569990228353</end_location>
 				<inertia ref="com">
 					<Ixx>10578.982805155832</Ixx>
 					<Iyy>3110.3226190878377</Iyy>
@@ -59,7 +58,7 @@
 				</inertia>
 			</physical>
 			<parent>
-				<num>shoulder_left_link3</num>
+				<num>2</num>
 				<location>0.28236643112224835 0.5825541795470024 -0.012509170644653457</location>
 			</parent>
 		</link_rigid>
