@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE bodies_system SYSTEM "../../../templates/bodies.dtd">
+<?xml version="1.0" ?>
+<bodies_system>
+	<links display_range="-0.3 0.3 0.0 1.0 -0.3 0.3" view_angle="-37 32">
+		<link_rigid name="shoulder_left_link3" num="1">
+			<joint axis="-0.3985964849665964 -0.9162167781009379 0.04083696485553867" q_max="3.141592653589793" q_min="-3.141592653589793" type="R_Axis"/>
+			<physical>
+				<mass>0.03771898823911465</mass>
+				<com_location>0.005238410526059134 0.011889383612132392 -0.0005332961428894834</com_location>
+				<end_location>0 0 0</end_location>
+				<inertia ref="com">
+					<Ixx>67.46301933070761</Ixx>
+					<Iyy>15.818387296414771</Iyy>
+					<Izz>83.21116540219637</Izz>
+					<Ixy>-32.61888082395262</Ixy>
+					<Ixz>1.4725023115282905</Ixz>
+					<Iyz>0.7123613745096363</Iyz>
+				</inertia>
+			</physical>
+			<parent>
+				<num>shoulder_left_link3</num>
+				<location>0.28236643112224835 0.5825541795470024 -0.012509170644653457</location>
+			</parent>
+		</link_rigid>
+		<link_rigid name="shoulder_left_link2" num="1">
+			<joint axis="0.051010494316667994 0.02231024242210457 0.9984488883025681" q_max="0.0" q_min="0.0" type="R_Axis"/>
+			<physical>
+				<mass>0.010242387714915702</mass>
+				<com_location>0.000525252868309245 0.00022972760765981092 0.010280985304435757</com_location>
+				<end_location>0 0 0</end_location>
+				<inertia ref="com">
+					<Ixx>24.145799992969486</Ixx>
+					<Iyy>5.663596265234958</Iyy>
+					<Izz>29.780439025690335</Izz>
+					<Ixy>-11.67489727575427</Ixy>
+					<Ixz>0.5294387202679595</Ixz>
+					<Iyz>0.25605807844821626</Iyz>
+				</inertia>
+			</physical>
+			<parent>
+				<num>torso</num>
+				<location>0.28707958877999823 0.5942138355514749 -0.02332345209197869</location>
+			</parent>
+		</link_rigid>
+	</links>
+	<operational_spaces default_operational_set="test">
+		<operational_set id="test">
+			<position marker_id="1" name="test1">
+				<link>2</link>
+				<offset>0.0 0.0 0.0</offset>
+				<axes active_axes="x"/>
+			</position>
+		</operational_set>
+	</operational_spaces>
+</bodies_system>
