@@ -4,23 +4,23 @@
 <bodies_system>
 	<links display_range="-0.3 0.3 0.0 1.0 -0.3 0.3" view_angle="-37 32">
 		<link_rigid name="shoulder_left_link3" num="1">
-			<joint axis="-0.3985964849665964 -0.9162167781009379 0.04083696485553867" q_max="3.141592653589793" q_min="-3.141592653589793" type="R_Axis"/>
+			<joint axis="-0.9157067061247516 0.40006133105988256 0.03784388654395071" q_max="0.0" q_min="0.0" type="R_Axis"/>
 			<physical>
-				<mass>0.03771898823911465</mass>
-				<com_location>0.005238410526059134 0.011889383612132392 -0.0005332961428894834</com_location>
+				<mass>0.005913315572012584</mass>
+				<com_location>-0.007325653648998518 0.0032004906484795724 0.0003027510923516097</com_location>
 				<end_location>0 0 0</end_location>
 				<inertia ref="com">
-					<Ixx>67.46301933070761</Ixx>
-					<Iyy>15.818387296414771</Iyy>
-					<Izz>83.21116540219637</Izz>
-					<Ixy>-32.61888082395262</Ixy>
-					<Ixz>1.4725023115282905</Ixz>
-					<Iyz>0.7123613745096363</Iyz>
+					<Ixx>20.798217468755595</Ixx>
+					<Iyy>4.875269684087277</Iyy>
+					<Izz>25.651650656281387</Izz>
+					<Ixy>-10.054463742006988</Ixy>
+					<Ixz>0.4545728721015062</Ixz>
+					<Iyz>0.21987791576209487</Iyz>
 				</inertia>
 			</physical>
 			<parent>
-				<num>shoulder_left_link3</num>
-				<location>0.28236643112224835 0.5825541795470024 -0.012509170644653457</location>
+				<num>shoulder_left_link2</num>
+				<location>0.29493049529730603 0.5912430725106552 -0.01334521787989455</location>
 			</parent>
 		</link_rigid>
 		<link_rigid name="shoulder_left_link2" num="1">
@@ -41,6 +41,26 @@
 			<parent>
 				<num>torso</num>
 				<location>0.28707958877999823 0.5942138355514749 -0.02332345209197869</location>
+			</parent>
+		</link_rigid>
+		<link_rigid name="upper_arm_left" num="1">
+			<joint axis="-0.3985964849665964 -0.9162167781009379 0.04083696485553867" q_max="3.141592653589793" q_min="-3.141592653589793" type="R_Axis"/>
+			<physical>
+				<mass>8.500588350785655</mass>
+				<com_location>-0.01317454412375902 -0.030283102900494824 0.0013497569990228353</com_location>
+				<end_location>0 0 0</end_location>
+				<inertia ref="com">
+					<Ixx>10578.982805155832</Ixx>
+					<Iyy>3110.3226190878377</Iyy>
+					<Izz>13498.85480093592</Izz>
+					<Ixy>-5584.768438257014</Ixy>
+					<Ixz>154.0548720524839</Ixz>
+					<Iyz>80.08248173422642</Iyz>
+				</inertia>
+			</physical>
+			<parent>
+				<num>shoulder_left_link3</num>
+				<location>0.28236643112224835 0.5825541795470024 -0.012509170644653457</location>
 			</parent>
 		</link_rigid>
 	</links>
