@@ -19,7 +19,7 @@
 			</physical>
 			<parent>
 				<num>1</num>
-				<location>0.29493049529730603 0.5912430725106552 -0.01334521787989455</location>
+				<location>0 0 0</location>
 			</parent>
 		</link_rigid>
 		<link_rigid name="shoulder_left_link2" num="1">
