@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE cables SYSTEM "../../../templates/cables.dtd">
-xml version="1.0" ?>
 <cables default_cable_set="WORKING">
 	<cable_set id="WORKING">
 		<cable_ideal attachment_reference="com" name="cable 0">
@@ -10,19 +9,11 @@ xml version="1.0" ?>
 			</properties>
 			<attachments>
 				<attachment>
-					<link>torso</link>
-					<location>0.23757805790055161 0.42944722178973777 0.015492439711174616</location>
-				</attachment>
-				<attachment>
-					<link>torso</link>
-					<location>0.2718871356728519 0.5683871510708945 0.012838404526322811</location>
-				</attachment>
-				<attachment>
-					<link>torso</link>
+					<link>0</link>
 					<location>0.28894109223784553 0.5762546353826103 0.010689615277497923</location>
 				</attachment>
 				<attachment>
-					<link>upper_arm_left</link>
+					<link>3</link>
 					<location>0.008971915210692388 -0.030080267677511898 0.02315513067384921</location>
 				</attachment>
 			</attachments>
@@ -34,11 +25,11 @@ xml version="1.0" ?>
 			</properties>
 			<attachments>
 				<attachment>
-					<link>torso</link>
+					<link>0</link>
 					<location>0.24003539451940126 0.4672940494831832 0.025509439663540263</location>
 				</attachment>
 				<attachment>
-					<link>upper_arm_left</link>
+					<link>3</link>
 					<location>-0.02544197435322115 -0.015274648629666389 0.019430592551692376</location>
 				</attachment>
 			</attachments>
@@ -50,11 +41,11 @@ xml version="1.0" ?>
 			</properties>
 			<attachments>
 				<attachment>
-					<link>torso</link>
+					<link>0</link>
 					<location>0.2512180133128348 0.5145590997255809 0.028667405657349203</location>
 				</attachment>
 				<attachment>
-					<link>upper_arm_left</link>
+					<link>3</link>
 					<location>-0.008406479233189544 -0.02217147979933763 0.03097151002180964</location>
 				</attachment>
 			</attachments>
@@ -66,11 +57,11 @@ xml version="1.0" ?>
 			</properties>
 			<attachments>
 				<attachment>
-					<link>torso</link>
+					<link>0</link>
 					<location>0.28063665292590523 0.5580004259562044 0.028534400330321574</location>
 				</attachment>
 				<attachment>
-					<link>upper_arm_left</link>
+					<link>3</link>
 					<location>0.011203370942538626 -0.031235925708646733 0.019007347717904428</location>
 				</attachment>
 			</attachments>
@@ -82,11 +73,11 @@ xml version="1.0" ?>
 			</properties>
 			<attachments>
 				<attachment>
-					<link>torso</link>
+					<link>0</link>
 					<location>0.30339350272539195 0.5961449530207843 -7.360778653264788e-16</location>
 				</attachment>
 				<attachment>
-					<link>upper_arm_left</link>
+					<link>3</link>
 					<location>0.01753440712105295 -0.034842627003797234 -0.00011727322358580539</location>
 				</attachment>
 			</attachments>
@@ -98,19 +89,11 @@ xml version="1.0" ?>
 			</properties>
 			<attachments>
 				<attachment>
-					<link>torso</link>
-					<location>0.23414595021784673 0.427938701226947 -0.053841948186743455</location>
-				</attachment>
-				<attachment>
-					<link>torso</link>
-					<location>0.26979225356546843 0.5677688240604152 -0.026839119223290568</location>
-				</attachment>
-				<attachment>
-					<link>torso</link>
+					<link>0</link>
 					<location>0.2865401700456306 0.5761408124917585 -0.026075605770313627</location>
 				</attachment>
 				<attachment>
-					<link>upper_arm_left</link>
+					<link>3</link>
 					<location>0.0062024764232587876 -0.03087456072633934 -0.021697203248254002</location>
 				</attachment>
 			</attachments>
@@ -122,11 +105,11 @@ xml version="1.0" ?>
 			</properties>
 			<attachments>
 				<attachment>
-					<link>torso</link>
+					<link>0</link>
 					<location>0.2769871340021255 0.5564042514238009 -0.04289909901328127</location>
 				</attachment>
 				<attachment>
-					<link>upper_arm_left</link>
+					<link>3</link>
 					<location>0.0066350450686528005 -0.031102334608566765 -0.022585366976324184</location>
 				</attachment>
 			</attachments>
@@ -138,11 +121,11 @@ xml version="1.0" ?>
 			</properties>
 			<attachments>
 				<attachment>
-					<link>torso</link>
+					<link>0</link>
 					<location>0.24756132617262158 0.5129597900609095 -0.04290640006488961</location>
 				</attachment>
 				<attachment>
-					<link>upper_arm_left</link>
+					<link>3</link>
 					<location>-0.013733824420951954 -0.022509175237489104 -0.02860351718637292</location>
 				</attachment>
 			</attachments>
@@ -154,11 +137,11 @@ xml version="1.0" ?>
 			</properties>
 			<attachments>
 				<attachment>
-					<link>torso</link>
+					<link>0</link>
 					<location>0.23617466540192045 0.4656054988488306 -0.05005816161190855</location>
 				</attachment>
 				<attachment>
-					<link>upper_arm_left</link>
+					<link>3</link>
 					<location>-0.025949632883207875 -0.015646532449082002 -0.018355690193059996</location>
 				</attachment>
 			</attachments>
