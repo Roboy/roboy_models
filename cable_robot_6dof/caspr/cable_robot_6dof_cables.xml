@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE cables SYSTEM "../../../templates/cables.dtd">
+xml version="1.0" ?>
+<cables default_cable_set="WORKING">
+	<cable_set id="WORKING">
+		<cable_ideal attachment_reference="com" name="cable 0">
+			<properties>
+				<force_min>10</force_min>
+				<force_max>80</force_max>
+			</properties>
+			<attachments>
+				<attachment>
+					<link>base</link>
+					<location>0.99 0.99 0.005</location>
+				</attachment>
+				<attachment>
+					<link>box</link>
+					<location>0.1 0.15000000000000002 -0.1</location>
+				</attachment>
+			</attachments>
+		</cable_ideal>
+		<cable_ideal attachment_reference="com" name="cable 1">
+			<properties>
+				<force_min>10</force_min>
+				<force_max>80</force_max>
+			</properties>
+			<attachments>
+				<attachment>
+					<link>base</link>
+					<location>-0.99 0.99 0.005</location>
+				</attachment>
+				<attachment>
+					<link>box</link>
+					<location>-0.11 0.15000000000000002 -0.13</location>
+				</attachment>
+			</attachments>
+		</cable_ideal>
+		<cable_ideal attachment_reference="com" name="cable 2">
+			<properties>
+				<force_min>10</force_min>
+				<force_max>80</force_max>
+			</properties>
+			<attachments>
+				<attachment>
+					<link>base</link>
+					<location>-0.99 -0.99 0.005</location>
+				</attachment>
+				<attachment>
+					<link>box</link>
+					<location>-0.13 -0.14 -0.11</location>
+				</attachment>
+			</attachments>
+		</cable_ideal>
+		<cable_ideal attachment_reference="com" name="cable 3">
+			<properties>
+				<force_min>10</force_min>
+				<force_max>80</force_max>
+			</properties>
+			<attachments>
+				<attachment>
+					<link>base</link>
+					<location>0.99 -0.99 0.005</location>
+				</attachment>
+				<attachment>
+					<link>box</link>
+					<location>0.08 -0.15000000000000002 -0.12</location>
+				</attachment>
+			</attachments>
+		</cable_ideal>
+		<cable_ideal attachment_reference="com" name="cable 4">
+			<properties>
+				<force_min>10</force_min>
+				<force_max>80</force_max>
+			</properties>
+			<attachments>
+				<attachment>
+					<link>base</link>
+					<location>0.99 0.99 2.0</location>
+				</attachment>
+				<attachment>
+					<link>box</link>
+					<location>0.09 0.15000000000000002 0.11</location>
+				</attachment>
+			</attachments>
+		</cable_ideal>
+		<cable_ideal attachment_reference="com" name="cable 5">
+			<properties>
+				<force_min>10</force_min>
+				<force_max>80</force_max>
+			</properties>
+			<attachments>
+				<attachment>
+					<link>base</link>
+					<location>-0.99 0.99 2.0</location>
+				</attachment>
+				<attachment>
+					<link>box</link>
+					<location>-0.12 0.15000000000000002 0.09</location>
+				</attachment>
+			</attachments>
+		</cable_ideal>
+		<cable_ideal attachment_reference="com" name="cable 6">
+			<properties>
+				<force_min>10</force_min>
+				<force_max>80</force_max>
+			</properties>
+			<attachments>
+				<attachment>
+					<link>base</link>
+					<location>-0.99 -0.99 2.005</location>
+				</attachment>
+				<attachment>
+					<link>box</link>
+					<location>-0.125 -0.15000000000000002 0.125</location>
+				</attachment>
+			</attachments>
+		</cable_ideal>
+		<cable_ideal attachment_reference="com" name="cable 7">
+			<properties>
+				<force_min>10</force_min>
+				<force_max>80</force_max>
+			</properties>
+			<attachments>
+				<attachment>
+					<link>base</link>
+					<location>0.99 -0.99 2.005</location>
+				</attachment>
+				<attachment>
+					<link>box</link>
+					<location>0.11 -0.15000000000000002 0.06</location>
+				</attachment>
+			</attachments>
+		</cable_ideal>
+	</cable_set>
+</cables>
