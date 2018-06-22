@@ -1,0 +1,126 @@
+<?xml version="1.0" ?>
+<robot name="roboy_2_0_left_arm_elbow">
+  <joint name="shoulder_left_axis_3" type="revolute">
+    <parent link="shoulder_left_link3"/>
+    <child link="upper_arm_left"/>
+    <origin rpy="0 0 0" xyz="-0.00981 -0.00988  0.00072"/>
+    <axis xyz="-0.39859 -0.91621  0.04083"/>
+    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0"/>
+  </joint>
+  <joint name="elbow_left" type="revolute">
+    <parent link="upper_arm_left"/>
+    <child link="lower_arm_left"/>
+    <origin rpy="0 0 0" xyz="-0.13987 -0.27699  0.01743"/>
+    <axis xyz="0.91711 -0.39841  0.01288"/>
+    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0"/>
+  </joint>
+  <joint name="shoulder_left_axis_1" type="revolute">
+    <parent link="torso"/>
+    <child link="shoulder_left_link2"/>
+    <origin rpy="0 0 0" xyz="0.28733  0.59432 -0.01833"/>
+    <axis xyz="0.05101 0.02231 0.99844"/>
+    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0"/>
+  </joint>
+  <joint name="shoulder_left_axis_2" type="revolute">
+    <parent link="shoulder_left_link2"/>
+    <child link="shoulder_left_link3"/>
+    <origin rpy="0 0 0" xyz="0.00484 -0.00188  0.0051"/>
+    <axis xyz="-0.9157   0.40006  0.03784"/>
+    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0"/>
+  </joint>
+  <link name="lower_arm_left">
+    <inertial>
+      <mass value="3.8582284060926453"/>
+      <origin rpy="0 0 0" xyz="-0.20466 -0.19841  0.04794"/>
+      <inertia ixx="0.18971836897918026" ixy="-0.0309528235564941" ixz="0.038514077904953994" iyy="0.14410096249647508" iyz="0.005118004224149154" izz="0.08295756148744363"/>
+    </inertial>
+    <collision name="lower_arm_left_collision">
+      <origin rpy="0 0 0" xyz="-0.20466 -0.19841  0.04794"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_2_0_left_arm_elbow/meshes/CAD/lower_arm_left.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="lower_arm_left_visual">
+      <origin rpy="0 0 0" xyz="-0.20466 -0.19841  0.04794"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_2_0_left_arm_elbow/meshes/CAD/lower_arm_left.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="upper_arm_left">
+    <inertial>
+      <mass value="5.639369491412749"/>
+      <origin rpy="0 0 0" xyz="-0.01317 -0.03028  0.00135"/>
+      <inertia ixx="1.0578982805155832" ixy="-0.5584768438257014" ixz="0.01540548720524839" iyy="0.3110322619087838" iyz="0.008008248173422642" izz="1.349885480093592"/>
+    </inertial>
+    <collision name="upper_arm_left_collision">
+      <origin rpy="0 0 0" xyz="-0.01317 -0.03028  0.00135"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_2_0_left_arm_elbow/meshes/CAD/upper_arm_left.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="upper_arm_left_visual">
+      <origin rpy="0 0 0" xyz="-0.01317 -0.03028  0.00135"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_2_0_left_arm_elbow/meshes/CAD/upper_arm_left.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="torso">
+    <inertial>
+      <mass value="1003.2220046321839"/>
+      <origin rpy="0 0 0" xyz="-0.005    0.0465  -0.00567"/>
+      <inertia ixx="199.44597974540378" ixy="-0.03399304594356995" ixz="0.09581271832355973" iyy="388.8878408502815" iyz="-0.023239389198050457" izz="199.74218994398612"/>
+    </inertial>
+    <collision name="torso_collision">
+      <origin rpy="0 0 0" xyz="-0.005    0.0465  -0.00567"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_2_0_left_arm_elbow/meshes/CAD/torso.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="torso_visual">
+      <origin rpy="0 0 0" xyz="-0.005    0.0465  -0.00567"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_2_0_left_arm_elbow/meshes/CAD/torso.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="shoulder_left_link2">
+    <inertial>
+      <mass value="0.006828310129289385"/>
+      <origin rpy="0 0 0" xyz="0.00027 0.00011 0.00528"/>
+      <inertia ixx="0.0024145799992969486" ixy="-0.001167489727575427" ixz="5.294387202679595e-05" iyy="0.0005663596265234957" iyz="2.5605807844821626e-05" izz="0.0029780439025690335"/>
+    </inertial>
+    <collision name="shoulder_left_link2_collision">
+      <origin rpy="0 0 0" xyz="0.00027 0.00011 0.00528"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_2_0_left_arm_elbow/meshes/CAD/shoulder_left_link2.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="shoulder_left_link2_visual">
+      <origin rpy="0 0 0" xyz="0.00027 0.00011 0.00528"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_2_0_left_arm_elbow/meshes/CAD/shoulder_left_link2.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="shoulder_left_link3">
+    <inertial>
+      <mass value="0.005913329964322322"/>
+      <origin rpy="0 0 0" xyz="-0.00457  0.002    0.00018"/>
+      <inertia ixx="0.0020798217468755596" ixy="-0.0010054463742006988" ixz="4.545728721015062e-05" iyy="0.00048752696840872773" iyz="2.198779157620949e-05" izz="0.0025651650656281387"/>
+    </inertial>
+    <collision name="shoulder_left_link3_collision">
+      <origin rpy="0 0 0" xyz="-0.00457  0.002    0.00018"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_2_0_left_arm_elbow/meshes/CAD/shoulder_left_link3.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="shoulder_left_link3_visual">
+      <origin rpy="0 0 0" xyz="-0.00457  0.002    0.00018"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_2_0_left_arm_elbow/meshes/CAD/shoulder_left_link3.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

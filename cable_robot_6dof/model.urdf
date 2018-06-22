@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<robot name="cable_robot_6dof">
+  <joint name="joint" type="floating">
+    <parent link="base"/>
+    <child link="box"/>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="0.0" lower="-0.0" upper="-0.0" velocity="0.0"/>
+  </joint>
+  <link name="box">
+    <inertial>
+      <mass value="421.17547437107237"/>
+      <origin rpy="0 0 0" xyz="0 0 1"/>
+      <inertia ixx="427.51279331560903" ixy="4.4698972989260225e-05" ixz="2.6819383785221724e-05" iyy="427.5136884253574" iyz="-0.0013061348135274395" izz="6.355012404795204"/>
+    </inertial>
+    <collision name="box_collision">
+      <origin rpy="0 0 0" xyz="0 0 1"/>
+      <geometry>
+        <mesh filename="package://roboy_models/cable_robot_6dof/meshes/CAD/box.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="box_visual">
+      <origin rpy="0 0 0" xyz="0 0 1"/>
+      <geometry>
+        <mesh filename="package://roboy_models/cable_robot_6dof/meshes/CAD/box.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="base">
+    <inertial>
+      <mass value="55.63196920449589"/>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <inertia ixx="57.94340475125009" ixy="-1.4621764421463058e-15" ixz="2.8726626624120397e-14" iyy="57.943404751248885" iyz="-4.456496753846295e-14" izz="65.9204492395301"/>
+    </inertial>
+    <collision name="base_collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://roboy_models/cable_robot_6dof/meshes/CAD/base.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="base_visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://roboy_models/cable_robot_6dof/meshes/CAD/base.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>
