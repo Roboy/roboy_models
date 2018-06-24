@@ -23,6 +23,10 @@
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
+				<ode>
+					<mu>100</mu>
+					<mu2>100</mu2>
+				</ode>
 			</collision>
 			<visual name="base_link_visual">
 				<geometry>
@@ -54,6 +58,10 @@
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
+				<ode>
+					<mu>100</mu>
+					<mu2>100</mu2>
+				</ode>
 			</collision>
 			<visual name="link_1_visual">
 				<geometry>
@@ -85,6 +93,10 @@
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
+				<ode>
+					<mu>100</mu>
+					<mu2>100</mu2>
+				</ode>
 			</collision>
 			<visual name="link_2_visual">
 				<geometry>
@@ -105,6 +117,10 @@
 					<lower>-0.7853981633974483</lower>
 					<upper>0.7853981633974483</upper>
 				</limit>
+				<dynamics>
+					<damping>0.01</damping>
+					<friction>0.1</friction>
+				</dynamics>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
@@ -118,9 +134,20 @@
 					<lower>-1.5707963267948966</lower>
 					<upper>1.5707963267948966</upper>
 				</limit>
+				<dynamics>
+					<damping>0.01</damping>
+					<friction>0.1</friction>
+				</dynamics>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
+
+        <!--<plugin name="joint_state_publisher" filename="libgazebo_ros_joint_state_publisher.so">-->
+            <!--<jointName>joint_1, joint_2</jointName>-->
+            <!--<updateRate>100.0</updateRate>-->
+            <!--<alwaysOn>true</alwaysOn>-->
+        <!--</plugin>-->
+
 		<plugin filename="libmyomuscle_plugin.so" name="myomuscle_plugin">
 			<myoMuscle name="motor0">
 				<link name="base_link">

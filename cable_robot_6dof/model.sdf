@@ -1,0 +1,133 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+	<model name="cable_robot_6dof">
+		<link name="box">
+			<pose frame="">0.0 0.0 1.0 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>421.17547437107237</mass>
+				<inertia>
+					<ixx>427.51279331560903</ixx>
+					<ixy>4.4698972989260225e-05</ixy>
+					<ixz>2.6819383785221724e-05</ixz>
+					<iyy>427.5136884253574</iyy>
+					<iyz>-0.0013061348135274395</iyz>
+					<izz>6.355012404795204</izz>
+				</inertia>
+			</inertial>
+			<collision name="box_collision">
+				<geometry>
+					<mesh>
+						<uri>model://cable_robot_6dof/meshes/CAD/box.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="box_visual">
+				<geometry>
+					<mesh>
+						<uri>model://cable_robot_6dof/meshes/CAD/box.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="base">
+			<pose frame="">0.0 0.0 0.0 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>55.63196920449589</mass>
+				<inertia>
+					<ixx>57.94340475125009</ixx>
+					<ixy>-1.4621764421463058e-15</ixy>
+					<ixz>2.8726626624120397e-14</ixz>
+					<iyy>57.943404751248885</iyy>
+					<iyz>-4.456496753846295e-14</iyz>
+					<izz>65.9204492395301</izz>
+				</inertia>
+			</inertial>
+			<collision name="base_collision">
+				<geometry>
+					<mesh>
+						<uri>model://cable_robot_6dof/meshes/CAD/base.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="base_visual">
+				<geometry>
+					<mesh>
+						<uri>model://cable_robot_6dof/meshes/CAD/base.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<plugin filename="libmyomuscle_plugin.so" name="myomuscle_plugin">
+			<myoMuscle name="motor0">
+				<link name="base">
+					<viaPoint type="FIXPOINT">0.99 0.99 0.005</viaPoint>
+				</link>
+				<link name="box">
+					<viaPoint type="FIXPOINT">0.1 0.15000000000000002 -0.1</viaPoint>
+				</link>
+			</myoMuscle>
+			<myoMuscle name="motor1">
+				<link name="base">
+					<viaPoint type="FIXPOINT">-0.99 0.99 0.005</viaPoint>
+				</link>
+				<link name="box">
+					<viaPoint type="FIXPOINT">-0.11 0.15000000000000002 -0.13</viaPoint>
+				</link>
+			</myoMuscle>
+			<myoMuscle name="motor2">
+				<link name="base">
+					<viaPoint type="FIXPOINT">-0.99 -0.99 0.005</viaPoint>
+				</link>
+				<link name="box">
+					<viaPoint type="FIXPOINT">-0.13 -0.14 -0.11</viaPoint>
+				</link>
+			</myoMuscle>
+			<myoMuscle name="motor3">
+				<link name="base">
+					<viaPoint type="FIXPOINT">0.99 -0.99 0.005</viaPoint>
+				</link>
+				<link name="box">
+					<viaPoint type="FIXPOINT">0.08 -0.15000000000000002 -0.12</viaPoint>
+				</link>
+			</myoMuscle>
+			<myoMuscle name="motor4">
+				<link name="base">
+					<viaPoint type="FIXPOINT">0.99 0.99 2.0</viaPoint>
+				</link>
+				<link name="box">
+					<viaPoint type="FIXPOINT">0.09 0.15000000000000002 0.11</viaPoint>
+				</link>
+			</myoMuscle>
+			<myoMuscle name="motor5">
+				<link name="base">
+					<viaPoint type="FIXPOINT">-0.99 0.99 2.0</viaPoint>
+				</link>
+				<link name="box">
+					<viaPoint type="FIXPOINT">-0.12 0.15000000000000002 0.09</viaPoint>
+				</link>
+			</myoMuscle>
+			<myoMuscle name="motor6">
+				<link name="base">
+					<viaPoint type="FIXPOINT">-0.99 -0.99 2.005</viaPoint>
+				</link>
+				<link name="box">
+					<viaPoint type="FIXPOINT">-0.125 -0.15000000000000002 0.125</viaPoint>
+				</link>
+			</myoMuscle>
+			<myoMuscle name="motor7">
+				<link name="base">
+					<viaPoint type="FIXPOINT">0.99 -0.99 2.005</viaPoint>
+				</link>
+				<link name="box">
+					<viaPoint type="FIXPOINT">0.11 -0.15000000000000002 0.06</viaPoint>
+				</link>
+			</myoMuscle>
+		</plugin>
+	</model>
+</sdf>

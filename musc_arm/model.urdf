@@ -1,0 +1,308 @@
+<?xml version="1.0" ?>
+<robot name="musc_arm">
+  <joint name="joint_holder" type="fixed">
+    <parent link="shoulder"/>
+    <child link="holder"/>
+    <origin rpy="0 0 0" xyz="-0.80255 -1.0135   0.03454"/>
+    <axis xyz="0 0 0"/>
+    <limit effort="0" lower="0" upper="0" velocity="0"/>
+  </joint>
+  <joint name="CMC1_1_thumb" type="revolute">
+    <parent link="palm"/>
+    <child link="finger_thumb"/>
+    <origin rpy="0 0 0" xyz="-0.02656 -0.04892 -0.04067"/>
+    <axis xyz="-0.86602  0.35355  0.35355"/>
+    <limit effort="0.0" lower="-2.70526034059" upper="-0.261799387799" velocity="0.0"/>
+  </joint>
+  <joint name="MCP_index" type="revolute">
+    <parent link="palm"/>
+    <child link="finger_index"/>
+    <origin rpy="0 0 0" xyz="0      -0.10196 -0.03107"/>
+    <axis xyz="0      -0.25881  0.96592"/>
+    <limit effort="0.0" lower="-2.18166156499" upper="-0.0" velocity="0.0"/>
+  </joint>
+  <joint name="MCP_middle" type="revolute">
+    <parent link="palm"/>
+    <child link="finger_middle"/>
+    <origin rpy="0 0 0" xyz="0      -0.10526 -0.01125"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="0.0" lower="-2.18166156499" upper="-0.0" velocity="0.0"/>
+  </joint>
+  <joint name="MCP_ring" type="revolute">
+    <parent link="palm"/>
+    <child link="finger_ring"/>
+    <origin rpy="0 0 0" xyz="0      -0.10196 -0.00642"/>
+    <axis xyz="0      -0.25881 -0.96592"/>
+    <limit effort="0.0" lower="-0.0" upper="2.18166156499" velocity="0.0"/>
+  </joint>
+  <joint name="MCP_little" type="revolute">
+    <parent link="palm"/>
+    <child link="finger_pinky"/>
+    <origin rpy="0 0 0" xyz="0      -0.08193  0.02162"/>
+    <axis xyz="0      0.5     0.86602"/>
+    <limit effort="0.0" lower="-2.18166156499" upper="-0.0" velocity="0.0"/>
+  </joint>
+  <joint name="joint_wrist_1" type="revolute">
+    <parent link="wrist"/>
+    <child link="palm"/>
+    <origin rpy="0 0 0" xyz="-0.0165  -0.00912  0.0185"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="0.0" lower="-1.2217304764" upper="1.2217304764" velocity="0.0"/>
+  </joint>
+  <joint name="joint_elbow_0" type="revolute">
+    <parent link="upper_arm"/>
+    <child link="elbow"/>
+    <origin rpy="0 0 0" xyz="0.0177  -0.26736 -0.01791"/>
+    <axis xyz="-1.e+00  0.e+00 -2.e-05"/>
+    <limit effort="0.0" lower="-0.174532925199" upper="-0.0" velocity="0.0"/>
+  </joint>
+  <joint name="joint_wrist_2" type="revolute">
+    <parent link="forearm"/>
+    <child link="wrist"/>
+    <origin rpy="0 0 0" xyz="0.3055  -0.55517 -0.00086"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="0.0" lower="-0.436332312999" upper="0.436332312999" velocity="0.0"/>
+  </joint>
+  <joint name="joint_shoulder" type="ball">
+    <parent link="shoulder"/>
+    <child link="upper_arm"/>
+    <origin rpy="0 0 0" xyz="2.9199e-01  1.7230e-02 -1.0000e-05"/>
+    <axis xyz="0 0 0"/>
+    <limit effort="0" lower="0" upper="0" velocity="0"/>
+  </joint>
+  <joint name="joint_elbow_1" type="fixed">
+    <parent link="forearm"/>
+    <child link="elbow"/>
+    <origin rpy="0 0 0" xyz="0.29199 -0.3176  -0.01009"/>
+    <axis xyz="0       0.99911 -0.04196"/>
+    <limit effort="0.0" lower="-0.0" upper="-0.0" velocity="0.0"/>
+  </joint>
+  <link name="holder">
+    <inertial>
+      <mass value="5.189042482466812"/>
+      <origin rpy="0 0 0" xyz="0.84605 -0.4345  -0.02275"/>
+      <inertia ixx="8.186979782858446" ixy="0.5135013963791253" ixz="0.027850376304304" iyy="0.20595460010064212" iyz="-0.0017300162964963691" izz="8.144563427760493"/>
+    </inertial>
+    <collision name="holder_collision">
+      <origin rpy="0 0 0" xyz="0.84605 -0.4345  -0.02275"/>
+      <geometry>
+        <mesh filename="package://roboy_models/musc_arm/meshes/collisions/holder.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="holder_visual">
+      <origin rpy="0 0 0" xyz="0.84605 -0.4345  -0.02275"/>
+      <geometry>
+        <mesh filename="package://roboy_models/musc_arm/meshes/visual/holder.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="shoulder">
+    <inertial>
+      <mass value="15.80475325043804"/>
+      <origin rpy="0 0 0" xyz="0.19388 -0.07747  0.0276"/>
+      <inertia ixx="0.14926390431550932" ixy="0.08071608062787732" ixz="-0.009042701291344305" iyy="0.25917044849151816" iyz="0.009389747762154784" izz="0.36073419247579414"/>
+    </inertial>
+    <collision name="shoulder_collision">
+      <origin rpy="0 0 0" xyz="0.19388 -0.07747  0.0276"/>
+      <geometry>
+        <mesh filename="package://roboy_models/musc_arm/meshes/collisions/shoulder.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="shoulder_visual">
+      <origin rpy="0 0 0" xyz="0.19388 -0.07747  0.0276"/>
+      <geometry>
+        <mesh filename="package://roboy_models/musc_arm/meshes/visual/shoulder.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="upper_arm">
+    <inertial>
+      <mass value="6.600730311978018"/>
+      <origin rpy="0 0 0" xyz="0.03318 -0.15321  0.0049"/>
+      <inertia ixx="0.10060685312660858" ixy="0.19494319244194466" ixz="-0.0038321008262465713" iyy="0.5309501370017099" iyz="0.008774248803805744" izz="0.613422566446922"/>
+    </inertial>
+    <collision name="upper_arm_collision">
+      <origin rpy="0 0 0" xyz="0.03318 -0.15321  0.0049"/>
+      <geometry>
+        <mesh filename="package://roboy_models/musc_arm/meshes/collisions/upper_arm.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="upper_arm_visual">
+      <origin rpy="0 0 0" xyz="0.03318 -0.15321  0.0049"/>
+      <geometry>
+        <mesh filename="package://roboy_models/musc_arm/meshes/visual/upper_arm.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="elbow">
+    <inertial>
+      <mass value="0.15917272131160654"/>
+      <origin rpy="0 0 0" xyz="0      0.03867 0.00997"/>
+      <inertia ixx="0.013563808869308577" ixy="0.013387275071224876" ixz="-0.000498559623550864" iyy="0.013484016462358563" iyz="0.0004985037935584512" izz="0.026905617531574253"/>
+    </inertial>
+    <collision name="elbow_collision">
+      <origin rpy="0 0 0" xyz="0      0.03867 0.00997"/>
+      <geometry>
+        <mesh filename="package://roboy_models/musc_arm/meshes/collisions/elbow.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="elbow_visual">
+      <origin rpy="0 0 0" xyz="0      0.03867 0.00997"/>
+      <geometry>
+        <mesh filename="package://roboy_models/musc_arm/meshes/visual/elbow.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="forearm">
+    <inertial>
+      <mass value="3.2997019223732655"/>
+      <origin rpy="0 0 0" xyz="2.9199e-01 -4.5392e-01 -1.1000e-04"/>
+      <inertia ixx="0.6407178482948298" ixy="0.4197160758420797" ixz="-0.005473148947925296" iyy="0.2825023338563149" iyz="0.0040070508093147765" izz="0.9213254335103295"/>
+    </inertial>
+    <collision name="forearm_collision">
+      <origin rpy="0 0 0" xyz="2.9199e-01 -4.5392e-01 -1.1000e-04"/>
+      <geometry>
+        <mesh filename="package://roboy_models/musc_arm/meshes/collisions/forearm.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="forearm_visual">
+      <origin rpy="0 0 0" xyz="2.9199e-01 -4.5392e-01 -1.1000e-04"/>
+      <geometry>
+        <mesh filename="package://roboy_models/musc_arm/meshes/visual/forearm.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="palm">
+    <inertial>
+      <mass value="0.0584688381305356"/>
+      <origin rpy="0 0 0" xyz="-0.0057  -0.03248 -0.01931"/>
+      <inertia ixx="0.022445557120372824" ixy="0.010418324716128986" ixz="2.2931407820809245e-05" iyy="0.004871672897653195" iyz="-9.958355471627325e-06" izz="0.027274984946588927"/>
+    </inertial>
+    <collision name="palm_collision">
+      <origin rpy="0 0 0" xyz="-0.0057  -0.03248 -0.01931"/>
+      <geometry>
+        <mesh filename="package://roboy_models/musc_arm/meshes/collisions/palm.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="palm_visual">
+      <origin rpy="0 0 0" xyz="-0.0057  -0.03248 -0.01931"/>
+      <geometry>
+        <mesh filename="package://roboy_models/musc_arm/meshes/visual/palm.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="finger_thumb">
+    <inertial>
+      <mass value="0.013679707994302275"/>
+      <origin rpy="0 0 0" xyz="-0.01162 -0.04312 -0.02026"/>
+      <inertia ixx="0.00580225449662182" ixy="0.002300724124824406" ixz="-0.00032817701778858053" iyy="0.000938729063130382" iyz="0.00013016439057825233" izz="0.006701940057268181"/>
+    </inertial>
+    <collision name="finger_thumb_collision">
+      <origin rpy="0 0 0" xyz="-0.01162 -0.04312 -0.02026"/>
+      <geometry>
+        <mesh filename="package://roboy_models/musc_arm/meshes/collisions/finger_thumb.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="finger_thumb_visual">
+      <origin rpy="0 0 0" xyz="-0.01162 -0.04312 -0.02026"/>
+      <geometry>
+        <mesh filename="package://roboy_models/musc_arm/meshes/visual/finger_thumb.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="finger_index">
+    <inertial>
+      <mass value="0.012634365717596902"/>
+      <origin rpy="0 0 0" xyz="-0.02021 -0.03968 -0.01367"/>
+      <inertia ixx="0.006057942900954428" ixy="0.0023587870301732404" ixz="-0.00022499207665222767" iyy="0.0009352437763554971" iyz="8.703492007211436e-05" izz="0.006976070985426455"/>
+    </inertial>
+    <collision name="finger_index_collision">
+      <origin rpy="0 0 0" xyz="-0.02021 -0.03968 -0.01367"/>
+      <geometry>
+        <mesh filename="package://roboy_models/musc_arm/meshes/collisions/finger_index.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="finger_index_visual">
+      <origin rpy="0 0 0" xyz="-0.02021 -0.03968 -0.01367"/>
+      <geometry>
+        <mesh filename="package://roboy_models/musc_arm/meshes/visual/finger_index.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="finger_middle">
+    <inertial>
+      <mass value="0.01300354140812096"/>
+      <origin rpy="0 0 0" xyz="-0.02813 -0.03911 -0.01178"/>
+      <inertia ixx="0.006259849788246884" ixy="0.00238548234931888" ixz="-3.094973493880501e-05" iyy="0.0009176593389674045" iyz="1.1406640629241635e-05" izz="0.0071769372220581934"/>
+    </inertial>
+    <collision name="finger_middle_collision">
+      <origin rpy="0 0 0" xyz="-0.02813 -0.03911 -0.01178"/>
+      <geometry>
+        <mesh filename="package://roboy_models/musc_arm/meshes/collisions/finger_middle.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="finger_middle_visual">
+      <origin rpy="0 0 0" xyz="-0.02813 -0.03911 -0.01178"/>
+      <geometry>
+        <mesh filename="package://roboy_models/musc_arm/meshes/visual/finger_middle.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="finger_ring">
+    <inertial>
+      <mass value="0.012634480226498731"/>
+      <origin rpy="0 0 0" xyz="-0.0382  -0.02491  0.00613"/>
+      <inertia ixx="0.0058340975907501" ixy="0.0022221174951198817" ixz="0.00015256162608349592" iyy="0.0008591066436116132" iyz="-5.8506972073743363e-05" izz="0.006684959871370964"/>
+    </inertial>
+    <collision name="finger_ring_collision">
+      <origin rpy="0 0 0" xyz="-0.0382  -0.02491  0.00613"/>
+      <geometry>
+        <mesh filename="package://roboy_models/musc_arm/meshes/collisions/finger_ring.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="finger_ring_visual">
+      <origin rpy="0 0 0" xyz="-0.0382  -0.02491  0.00613"/>
+      <geometry>
+        <mesh filename="package://roboy_models/musc_arm/meshes/visual/finger_ring.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="finger_pinky">
+    <inertial>
+      <mass value="0.011596424357947352"/>
+      <origin rpy="0 0 0" xyz="-0.03763 -0.02216 -0.00544"/>
+      <inertia ixx="0.005045220186213041" ixy="0.0019953557433422197" ixz="0.0002383042658543873" iyy="0.0008076868276219845" iyz="-9.501691610103124e-05" izz="0.0058299210950237025"/>
+    </inertial>
+    <collision name="finger_pinky_collision">
+      <origin rpy="0 0 0" xyz="-0.03763 -0.02216 -0.00544"/>
+      <geometry>
+        <mesh filename="package://roboy_models/musc_arm/meshes/collisions/finger_pinky.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="finger_pinky_visual">
+      <origin rpy="0 0 0" xyz="-0.03763 -0.02216 -0.00544"/>
+      <geometry>
+        <mesh filename="package://roboy_models/musc_arm/meshes/visual/finger_pinky.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="wrist">
+    <inertial>
+      <mass value="0.022833799538469667"/>
+      <origin rpy="0 0 0" xyz="-0.01325 -0.01525  0.001"/>
+      <inertia ixx="0.007293766568716358" ixy="0.0037361757323029266" ixz="1.7403660431066172e-06" iyy="0.0019247837208948508" iyz="-8.921406686536562e-07" izz="0.009210398539255683"/>
+    </inertial>
+    <collision name="wrist_collision">
+      <origin rpy="0 0 0" xyz="-0.01325 -0.01525  0.001"/>
+      <geometry>
+        <mesh filename="package://roboy_models/musc_arm/meshes/collisions/wrist.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="wrist_visual">
+      <origin rpy="0 0 0" xyz="-0.01325 -0.01525  0.001"/>
+      <geometry>
+        <mesh filename="package://roboy_models/musc_arm/meshes/visual/wrist.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>
