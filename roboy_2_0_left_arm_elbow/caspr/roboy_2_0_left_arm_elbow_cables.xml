@@ -23,7 +23,7 @@ xml version="1.0" ?>
 				</attachment>
 				<attachment>
 					<link>upper_arm_left</link>
-					<location>0.008971915210692388 -0.030080267677511898 0.02315513067384921</location>
+					<location>0.05491580433052924 0.10841171982232496 0.017831771965319883</location>
 				</attachment>
 			</attachments>
 		</cable_ideal>
@@ -39,7 +39,7 @@ xml version="1.0" ?>
 				</attachment>
 				<attachment>
 					<link>upper_arm_left</link>
-					<location>-0.02544197435322115 -0.015274648629666389 0.019430592551692376</location>
+					<location>0.020501914766615704 0.12321733887017047 0.01410723384316305</location>
 				</attachment>
 			</attachments>
 		</cable_ideal>
@@ -55,7 +55,7 @@ xml version="1.0" ?>
 				</attachment>
 				<attachment>
 					<link>upper_arm_left</link>
-					<location>-0.008406479233189544 -0.02217147979933763 0.03097151002180964</location>
+					<location>0.044237920094962996 0.10944032785810763 0.010149046674318436</location>
 				</attachment>
 			</attachments>
 		</cable_ideal>
@@ -71,7 +71,7 @@ xml version="1.0" ?>
 				</attachment>
 				<attachment>
 					<link>upper_arm_left</link>
-					<location>0.011203370942538626 -0.031235925708646733 0.019007347717904428</location>
+					<location>0.04607031345514102 0.12741039589756034 0.012005733160551051</location>
 				</attachment>
 			</attachments>
 		</cable_ideal>
@@ -87,7 +87,7 @@ xml version="1.0" ?>
 				</attachment>
 				<attachment>
 					<link>upper_arm_left</link>
-					<location>0.01753440712105295 -0.034842627003797234 -0.00011727322358580539</location>
+					<location>0.06347829624088981 0.10364936049603962 -0.005440631932115131</location>
 				</attachment>
 			</attachments>
 		</cable_ideal>
@@ -111,7 +111,7 @@ xml version="1.0" ?>
 				</attachment>
 				<attachment>
 					<link>upper_arm_left</link>
-					<location>0.0062024764232587876 -0.03087456072633934 -0.021697203248254002</location>
+					<location>0.05328738919638248 0.10711033026042195 -0.027260597325893914</location>
 				</attachment>
 			</attachments>
 		</cable_ideal>
@@ -127,7 +127,7 @@ xml version="1.0" ?>
 				</attachment>
 				<attachment>
 					<link>upper_arm_left</link>
-					<location>0.0066350450686528005 -0.031102334608566765 -0.022585366976324184</location>
+					<location>0.04432968965363042 0.12664910668643628 -0.02206419544634254</location>
 				</attachment>
 			</attachments>
 		</cable_ideal>
@@ -143,7 +143,7 @@ xml version="1.0" ?>
 				</attachment>
 				<attachment>
 					<link>upper_arm_left</link>
-					<location>-0.013733824420951954 -0.022509175237489104 -0.02860351718637292</location>
+					<location>0.04273686141004042 0.10878381622066825 -0.01923177770926636</location>
 				</attachment>
 			</attachments>
 		</cable_ideal>
@@ -159,7 +159,7 @@ xml version="1.0" ?>
 				</attachment>
 				<attachment>
 					<link>upper_arm_left</link>
-					<location>-0.025949632883207875 -0.015646532449082002 -0.018355690193059996</location>
+					<location>0.01999425623662898 0.12284545505075485 -0.02367904890158932</location>
 				</attachment>
 			</attachments>
 		</cable_ideal>
@@ -171,11 +171,11 @@ xml version="1.0" ?>
 			<attachments>
 				<attachment>
 					<link>upper_arm_left</link>
-					<location>-0.09935716818400096 -0.2294320480850139 -0.022251162854238744</location>
+					<location>-0.04627871246374887 -0.06774974473969295 0.041143668608891855</location>
 				</attachment>
 				<attachment>
 					<link>lower_arm_left</link>
-					<location>0.052288696604027934 0.11814913987402456 -0.049784970143083244</location>
+					<location>0.03858640057855839 0.12668108856446914 0.021087573911803645</location>
 				</attachment>
 			</attachments>
 		</cable_ideal>
@@ -187,11 +187,11 @@ xml version="1.0" ?>
 			<attachments>
 				<attachment>
 					<link>upper_arm_left</link>
-					<location>-0.0672711684042315 -0.17722611823477435 0.018514396563524396</location>
+					<location>-0.0534132790641641 -0.09094006058517706 -0.02757452156276807</location>
 				</attachment>
 				<attachment>
 					<link>lower_arm_left</link>
-					<location>0.040144948153290144 0.08733284171651573 -0.010478578336933535</location>
+					<location>0.040598791244850344 0.12948535208095127 -0.035443891553970173</location>
 				</attachment>
 			</attachments>
 		</cable_ideal>

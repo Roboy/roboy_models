@@ -5,14 +5,14 @@
 			<pose frame="">0.10972190940178642 0.15088310595616336 0.00014627974945071565 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>1</mass>
+				<mass>3.8582284060970817</mass>
 				<inertia>
-					<ixx>0.01</ixx>
-					<ixy>0</ixy>
-					<ixz>0</ixz>
-					<iyy>0.01</iyy>
-					<iyz>0</iyz>
-					<izz>0.01</izz>
+					<ixx>0.18971836897917466</ixx>
+					<ixy>-0.030952823556496385</ixy>
+					<ixz>0.038514077904953335</ixz>
+					<iyy>0.144100962496475</iyy>
+					<iyz>0.005118004224149041</iyz>
+					<izz>0.08295756148743653</izz>
 				</inertia>
 			</inertial>
 			<collision name="lower_arm_left_collision">
@@ -36,14 +36,14 @@
 			<pose frame="">0.2232479978786525 0.4137790891466708 -0.005836054937101297 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>1</mass>
+				<mass>5.639369491411923</mass>
 				<inertia>
-					<ixx>0.01</ixx>
-					<ixy>0</ixy>
-					<ixz>0</ixz>
-					<iyy>0.01</iyy>
-					<iyz>0</iyz>
-					<izz>0.01</izz>
+					<ixx>1.057898280516026</ixx>
+					<ixy>-0.5584768438259633</ixy>
+					<ixz>0.015405487205218987</ixz>
+					<iyy>0.3110322619089415</iyy>
+					<iyz>0.008008248173405223</iyz>
+					<izz>1.3498854800941886</izz>
 				</inertia>
 			</inertial>
 			<collision name="upper_arm_left_collision">
@@ -98,14 +98,14 @@
 			<pose frame="">0.2876048416483075 0.5944435631591347 -0.013042466787542933 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.001</mass>
+				<mass>0.006828310129289385</mass>
 				<inertia>
-					<ixx>0.001</ixx>
-					<ixy>0</ixy>
-					<ixz>0</ixz>
-					<iyy>0.001</iyy>
-					<iyz>0</iyz>
-					<izz>0.001</izz>
+					<ixx>0.0024145799992969486</ixx>
+					<ixy>-0.0011674897275754273</ixy>
+					<ixz>5.294387202679595e-05</ixz>
+					<iyy>0.0005663596265234957</iyy>
+					<iyz>2.5605807844821626e-05</iyz>
+					<izz>0.0029780439025690335</izz>
 				</inertia>
 			</inertial>
 			<collision name="shoulder_left_link2_collision">
@@ -126,17 +126,17 @@
 			</visual>
 		</link>
 		<link name="shoulder_left_link3">
-			<pose frame="">0.2876048416483075 0.5944435631591347 -0.013042466787542933 0.0 -0.0 0.0</pose>
+			<pose frame="">0.2876048416483075 0.5944435631591348 -0.013042466787542941 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.001</mass>
+				<mass>0.00591332996432232</mass>
 				<inertia>
-					<ixx>0.001</ixx>
-					<ixy>0</ixy>
-					<ixz>0</ixz>
-					<iyy>0.001</iyy>
-					<iyz>0</iyz>
-					<izz>0.001</izz>
+					<ixx>0.0020798217468755596</ixx>
+					<ixy>-0.0010054463742006988</ixy>
+					<ixz>4.545728721015062e-05</ixz>
+					<iyy>0.00048752696840872773</iyy>
+					<iyz>2.198779157620949e-05</iyz>
+					<izz>0.0025651650656281387</izz>
 				</inertia>
 			</inertial>
 			<collision name="shoulder_left_link3_collision">
@@ -156,56 +156,24 @@
 				</geometry>
 			</visual>
 		</link>
-
-		<link name="key_F">
-			<pose frame="">0.5 0.4 0.5143251142092558 0.0 -0.0 0.0</pose>
-			<inertial>
-				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.8242499999999997</mass>
-				<inertia>
-					<ixx>0.229782676203744</ixx>
-					<ixy>0.009308529999999616</ixy>
-					<ixz>-0.10340034138425735</ixz>
-					<iyy>0.16556419101624362</iyy>
-					<iyz>0.014649399015478546</iyz>
-					<izz>0.06719952268750011</izz>
-				</inertia>
-			</inertial>
-			<collision name="key_F_collision">
-				<geometry>
-					<mesh>
-						<uri>model://roboy_2_0_simplified/meshes/CAD/key_F.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
-					</mesh>
-				</geometry>
-			</collision>
-			<visual name="key_F_visual">
-				<geometry>
-					<mesh>
-						<uri>model://roboy_2_0_simplified/meshes/CAD/key_F.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
-					</mesh>
-				</geometry>
-			</visual>
-		</link>
 		<link name="key_G">
-			<pose frame="">0.6 0.4 0.5043251142092557 0.0 -0.0 0.0</pose>
+			<pose frame="">-0.02249999999999881 0.24275000000000013 0.4618251142092557 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.706499999999999</mass>
+				<mass>0.7065000000000017</mass>
 				<inertia>
-					<ixx>0.1966504296032091</ixx>
-					<ixy>0.02194153499999971</ixy>
-					<ixz>-0.08862886404364916</ixz>
-					<iyy>0.1490242637282087</iyy>
-					<iyz>0.03453072625077184</iyz>
-					<izz>0.06501784087499991</izz>
+					<ixx>0.19354377812642742</ixx>
+					<ixy>-0.009521265000000317</ixy>
+					<ixz>-0.07021202205448598</ixz>
+					<iyy>0.16630013725142764</iyy>
+					<iyz>-0.022011807557275286</iyz>
+					<izz>0.03350794087500019</izz>
 				</inertia>
 			</inertial>
 			<collision name="key_G_collision">
 				<geometry>
 					<mesh>
-						<uri>model://roboy_2_0_simplified/meshes/CAD/key_G.stl</uri>
+						<uri>model://roboy_2_0_left_arm_elbow/meshes/CAD/key_G.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -213,146 +181,34 @@
 			<visual name="key_G_visual">
 				<geometry>
 					<mesh>
-						<uri>model://roboy_2_0_simplified/meshes/CAD/key_G.stl</uri>
+						<uri>model://roboy_2_0_left_arm_elbow/meshes/CAD/key_G.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
 			</visual>
 		</link>
-		<link name="key_C">
-			<pose frame="">0.2 0.4 0.5443251142092558 0.0 -0.0 0.0</pose>
-			<inertial>
-				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>1.177499999999998</mass>
-				<inertia>
-					<ixx>0.3302627160053484</ixx>
-					<ixy>-0.05651607500000076</ixy>
-					<ixz>-0.1477147734060819</ixz>
-					<iyy>0.2706677728803488</iyy>
-					<iyz>-0.08894277973683888</iyz>
-					<izz>0.12814506812500112</izz>
-				</inertia>
-			</inertial>
-			<collision name="key_C_collision">
-				<geometry>
-					<mesh>
-						<uri>model://roboy_2_0_simplified/meshes/CAD/key_C.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
-					</mesh>
-				</geometry>
-			</collision>
-			<visual name="key_C_visual">
-				<geometry>
-					<mesh>
-						<uri>model://roboy_2_0_simplified/meshes/CAD/key_C.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
-					</mesh>
-				</geometry>
-			</visual>
-		</link>
-		<link name="key_H">
-			<pose frame="">0.7 0.4 0.4943251142092558 0.0 -0.0 0.0</pose>
-			<inertial>
-				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.5887499999999979</mass>
-				<inertia>
-					<ixx>0.16365948300267433</ixx>
-					<ixy>0.029920274999999795</ixy>
-					<ixz>-0.07385738670304097</ixz>
-					<iyy>0.13592263644017383</iyy>
-					<iyz>0.047087353978325544</iyz>
-					<izz>0.06613315906249982</izz>
-				</inertia>
-			</inertial>
-			<collision name="key_H_collision">
-				<geometry>
-					<mesh>
-						<uri>model://roboy_2_0_simplified/meshes/CAD/key_H.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
-					</mesh>
-				</geometry>
-			</collision>
-			<visual name="key_H_visual">
-				<geometry>
-					<mesh>
-						<uri>model://roboy_2_0_simplified/meshes/CAD/key_H.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
-					</mesh>
-				</geometry>
-			</visual>
-		</link>
-		<link name="key_E">
-			<pose frame="">0.4 0.4 0.5243251142092558 0.0 -0.0 0.0</pose>
-			<inertial>
-				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.9420000000000001</mass>
-				<inertia>
-					<ixx>0.2630797728042788</ixx>
-					<ixy>-0.007978740000000494</ixy>
-					<ixz>-0.11817181872486557</ixz>
-					<iyy>0.18902781830427867</iyy>
-					<iyz>-0.01255662772755434</iyz>
-					<izz>0.07614005450000037</izz>
-				</inertia>
-			</inertial>
-			<collision name="key_E_collision">
-				<geometry>
-					<mesh>
-						<uri>model://roboy_2_0_simplified/meshes/CAD/key_E.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
-					</mesh>
-				</geometry>
-			</collision>
-			<visual name="key_E_visual">
-				<geometry>
-					<mesh>
-						<uri>model://roboy_2_0_simplified/meshes/CAD/key_E.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
-					</mesh>
-				</geometry>
-			</visual>
-		</link>
-		<link name="key_D">
-			<pose frame="">0.3 0.4 0.5343251142092558 0.0 -0.0 0.0</pose>
-			<inertial>
-				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>1.0597499999999997</mass>
-				<inertia>
-					<ixx>0.2965652694048136</ixx>
-					<ixy>-0.02992027500000062</ixy>
-					<ixz>-0.13294329606547373</ixz>
-					<iyy>0.22290054559231373</iyy>
-					<iyz>-0.047087353978326814</iyz>
-					<izz>0.0953012863125007</izz>
-				</inertia>
-			</inertial>
-			<collision name="key_D_collision">
-				<geometry>
-					<mesh>
-						<uri>model://roboy_2_0_simplified/meshes/CAD/key_D.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
-					</mesh>
-				</geometry>
-			</collision>
-			<visual name="key_D_visual">
-				<geometry>
-					<mesh>
-						<uri>model://roboy_2_0_simplified/meshes/CAD/key_D.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
-					</mesh>
-				</geometry>
-			</visual>
-		</link>
-
-		<joint name="elbow_left" type="revolute">
-			<parent>upper_arm_left</parent>
-			<child>lower_arm_left</child>
-			<pose frame="">0.03276934558687211 0.1546796707171458 0.004781588793187244 0 0 0</pose>
+		<joint name="shoulder_left_axis_1" type="revolute">
+			<parent>torso</parent>
+			<child>shoulder_left_link2</child>
+			<pose frame="">-0.000270200396726068 -0.00011817639554919878 -0.005288740862922948 0 0 0</pose>
 			<axis>
-				<xyz>0.91711553259892 -0.39841323779271304 0.012883781173668424</xyz>
+				<xyz>0.051010494316667994 0.02231024242210457 0.9984488883025681</xyz>
 				<limit>
-					<lower>-1.570</lower>
-					<upper>0</upper>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="shoulder_left_axis_2" type="revolute">
+			<parent>shoulder_left_link2</parent>
+			<child>shoulder_left_link3</child>
+			<pose frame="">0.004578533530624433 -0.002000306655299653 -0.00018921943271977827 0 0 0</pose>
+			<axis>
+				<xyz>-0.9157067061247516 0.40006133105988256 0.03784388654395071</xyz>
+				<limit>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
@@ -370,71 +226,28 @@
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
-		<joint name="shoulder_left_axis_1" type="revolute">
-			<parent>torso</parent>
-			<child>shoulder_left_link2</child>
-			<pose frame="">0 0 0 0 0 0</pose>
+		<joint name="elbow_left" type="revolute">
+			<parent>upper_arm_left</parent>
+			<child>lower_arm_left</child>
+			<pose frame="">0.03276934558687211 0.1546796707171458 0.004781588793187244 0 0 0</pose>
 			<axis>
-				<xyz>0.051010494316667994 0.02231024242210457 0.9984488883025681</xyz>
+				<xyz>0.91711553259892 -0.39841323779271304 0.012883781173668424</xyz>
 				<limit>
 					<lower>-3.141592653589793</lower>
 					<upper>3.141592653589793</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
-		</joint>
-		<joint name="shoulder_left_axis_2" type="revolute">
-			<parent>shoulder_left_link2</parent>
-			<child>shoulder_left_link3</child>
-			<pose frame="">0 0 0 0 0 0</pose>
-			<axis>
-				<xyz>-0.9157067061247516 0.40006133105988256 0.03784388654395071</xyz>
-				<limit>
-					<lower>-3.141592653589793</lower>
-					<upper>3.141592653589793</upper>
-				</limit>
-				<use_parent_model_frame>0</use_parent_model_frame>
-			</axis>
-		</joint>
-		<joint name="key_H" type="fixed">
-			<parent>torso</parent>
-			<child>key_H</child>
-			<pose frame="">0.7 -0.3 -0.49999999999999994 0 0 0</pose>
-		</joint>
-		<joint name="key_G" type="fixed">
-			<parent>torso</parent>
-			<child>key_G</child>
-			<pose frame="">0.6 -0.3 -0.5099999999999999 0 0 0</pose>
-		</joint>
-		<joint name="key_F" type="fixed">
-			<parent>torso</parent>
-			<child>key_F</child>
-			<pose frame="">0.5 -0.3 -0.5199999999999999 0 0 0</pose>
-		</joint>
-		<joint name="key_E" type="fixed">
-			<parent>torso</parent>
-			<child>key_E</child>
-			<pose frame="">0.4 -0.3 -0.5299999999999999 0 0 0</pose>
-		</joint>
-		<joint name="key_D" type="fixed">
-			<parent>torso</parent>
-			<child>key_D</child>
-			<pose frame="">0.3 -0.3 -0.5399999999999999 0 0 0</pose>
-		</joint>
-		<joint name="key_C" type="fixed">
-			<parent>torso</parent>
-			<child>key_C</child>
-			<pose frame="">0.2 -0.3 -0.5499999999999998 0 0 0</pose>
 		</joint>
 		<plugin filename="libmyomuscle_plugin.so" name="myomuscle_plugin">
 			<myoMuscle name="motor0">
 				<link name="torso">
-					<!--<viaPoint type="FIXPOINT">0.23757805790055161 0.42944722178973777 0.015492439711174616</viaPoint>-->
-					<!--<viaPoint type="FIXPOINT">0.2718871356728519 0.5683871510708945 0.012838404526322811</viaPoint>-->
+					<viaPoint type="FIXPOINT">0.23757805790055161 0.42944722178973777 0.015492439711174616</viaPoint>
+					<viaPoint type="FIXPOINT">0.2718871356728519 0.5683871510708945 0.012838404526322811</viaPoint>
 					<viaPoint type="FIXPOINT">0.28894109223784553 0.5762546353826103 0.010689615277497923</viaPoint>
 				</link>
 				<link name="upper_arm_left">
-					<viaPoint type="FIXPOINT">0.052146365543095645 0.10761742677349752 -0.027020561956783328</viaPoint>
+					<viaPoint type="FIXPOINT">0.05491580433052924 0.10841171982232496 0.017831771965319883</viaPoint>
 				</link>
 			</myoMuscle>
 			<myoMuscle name="motor1">
@@ -450,7 +263,7 @@
 					<viaPoint type="FIXPOINT">0.2512180133128348 0.5145590997255809 0.028667405657349203</viaPoint>
 				</link>
 				<link name="upper_arm_left">
-					<viaPoint type="FIXPOINT">0.03753740988664731 0.11632050770049922 0.02564815131328032</viaPoint>
+					<viaPoint type="FIXPOINT">0.044237920094962996 0.10944032785810763 0.010149046674318436</viaPoint>
 				</link>
 			</myoMuscle>
 			<myoMuscle name="motor3">
@@ -458,7 +271,7 @@
 					<viaPoint type="FIXPOINT">0.28063665292590523 0.5580004259562044 0.028534400330321574</viaPoint>
 				</link>
 				<link name="upper_arm_left">
-					<viaPoint type="FIXPOINT">0.05714726006237548 0.10725606179119013 0.013683989009375104</viaPoint>
+					<viaPoint type="FIXPOINT">0.04607031345514102 0.12741039589756034 0.012005733160551051</viaPoint>
 				</link>
 			</myoMuscle>
 			<myoMuscle name="motor4">
@@ -471,36 +284,36 @@
 			</myoMuscle>
 			<myoMuscle name="motor5">
 				<link name="torso">
-					<!--<viaPoint type="FIXPOINT">0.23414595021784673 0.427938701226947 -0.053841948186743455</viaPoint>-->
-					<!--<viaPoint type="FIXPOINT">0.26979225356546843 0.5677688240604152 -0.026839119223290568</viaPoint>-->
-					<viaPoint type="FIXPOINT">0.2865401700456306 0.5761408124917585 -0.026075605770313627</viaPoint>
+					<viaPoint type="FIXPOINT">0.2769871340021255 0.5564042514238009 -0.04289909901328127</viaPoint>
 				</link>
 				<link name="upper_arm_left">
-					<viaPoint type="FIXPOINT">0.05491580433052924 0.10841171982232496 0.017831771965319883</viaPoint>
+					<viaPoint type="FIXPOINT">0.04432968965363042 0.12664910668643628 -0.02206419544634254</viaPoint>
 				</link>
 			</myoMuscle>
 			<myoMuscle name="motor6">
 				<link name="torso">
-					<viaPoint type="FIXPOINT">0.2769871340021255 0.5564042514238009 -0.04289909901328127</viaPoint>
-				</link>
-				<link name="upper_arm_left">
-					<viaPoint type="FIXPOINT">0.052578934188489655 0.10738965289127009 -0.02790872568485351</viaPoint>
-				</link>
-			</myoMuscle>
-			<myoMuscle name="motor7">
-				<link name="torso">
 					<viaPoint type="FIXPOINT">0.24756132617262158 0.5129597900609095 -0.04290640006488961</viaPoint>
 				</link>
 				<link name="upper_arm_left">
-					<viaPoint type="FIXPOINT">0.0322100646988849 0.11598281226234775 -0.033926875894902245</viaPoint>
+					<viaPoint type="FIXPOINT">0.04273686141004042 0.10878381622066825 -0.01923177770926636</viaPoint>
 				</link>
 			</myoMuscle>
-			<myoMuscle name="motor8">
+			<myoMuscle name="motor7">
 				<link name="torso">
 					<viaPoint type="FIXPOINT">0.23617466540192045 0.4656054988488306 -0.05005816161190855</viaPoint>
 				</link>
 				<link name="upper_arm_left">
 					<viaPoint type="FIXPOINT">0.01999425623662898 0.12284545505075485 -0.02367904890158932</viaPoint>
+				</link>
+			</myoMuscle>
+			<myoMuscle name="motor8">
+				<link name="torso">
+					<viaPoint type="FIXPOINT">0.23414595021784673 0.427938701226947 -0.053841948186743455</viaPoint>
+					<viaPoint type="FIXPOINT">0.26979225356546843 0.5677688240604152 -0.026839119223290568</viaPoint>
+					<viaPoint type="FIXPOINT">0.2865401700456306 0.5761408124917585 -0.026075605770313627</viaPoint>
+				</link>
+				<link name="upper_arm_left">
+					<viaPoint type="FIXPOINT">0.05328738919638248 0.10711033026042195 -0.027260597325893914</viaPoint>
 				</link>
 			</myoMuscle>
 			<myoMuscle name="motor10">
