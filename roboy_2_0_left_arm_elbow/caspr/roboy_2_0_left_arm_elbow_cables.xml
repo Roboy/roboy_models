@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE cables SYSTEM "../../../templates/cables.dtd">
-xml version="1.0" ?>
+<?xml version="1.0" ?>
 <cables default_cable_set="WORKING">
 	<cable_set id="WORKING">
 		<cable_ideal attachment_reference="com" name="cable 0">

@@ -1,33 +1,39 @@
 mass[kg] 	 COM[cm] 			 component name
+COM: lower_arm_left
 ----------------------------------------------------------------
 Mass of lower_arm_left: 5.079181
 COM of lower_arm_left: 10.972191 15.088311 0.014628
 ----------------------------------------------------------------
+Body: lower_arm_left
 mass[kg] 	 COM[cm] 			 component name
+COM: upper_arm_left
 ----------------------------------------------------------------
 Mass of upper_arm_left: 8.500588
 COM of upper_arm_left: 22.324800 41.377909 -0.583605
 ----------------------------------------------------------------
+Body: upper_arm_left
 mass[kg] 	 COM[cm] 			 component name
+COM: torso
 ----------------------------------------------------------------
-Mass of torso: 1024.152856
+Mass of torso: 1318.179083
 COM of torso: -0.500000 4.650000 -0.567489
 ----------------------------------------------------------------
+Body: torso
 mass[kg] 	 COM[cm] 			 component name
+COM: shoulder_left_link2
 ----------------------------------------------------------------
 Mass of shoulder_left_link2: 0.010242
 COM of shoulder_left_link2: 28.760484 59.444356 -1.304247
 ----------------------------------------------------------------
+Body: shoulder_left_link2
 mass[kg] 	 COM[cm] 			 component name
+COM: shoulder_left_link3
 ----------------------------------------------------------------
 Mass of shoulder_left_link3: 0.005913
 COM of shoulder_left_link3: 28.760484 59.444356 -1.304247
 ----------------------------------------------------------------
-mass[kg] 	 COM[cm] 			 component name
-0.471000 	 3.061500 9.726150 22.576213 		 KEY_G:1
-0.235500 	 -2.590500 6.570450 10.463856 		 Component1373:1
-0.235500 	 -2.590500 6.570450 10.463856 		 Component1373:1
-----------------------------------------------------------------
-Mass of key_G: 0.942000
-COM of key_G: -2.250000 24.275000 46.182511
-----------------------------------------------------------------
+Body: shoulder_left_link3
+Joint: EXPORT_shoulder_left_axis_1
+Joint: EXPORT_shoulder_left_axis_2
+Joint: EXPORT_shoulder_left_axis_3
+Joint: EXPORT_elbow_left

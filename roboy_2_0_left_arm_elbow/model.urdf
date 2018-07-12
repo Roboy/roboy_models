@@ -32,18 +32,18 @@
     <inertial>
       <mass value="1"/>
       <origin rpy="0  0  0" xyz="-0.03276 -0.15468 -0.00478"/>
-      <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.1" iyz="0.0" izz="0.01"/>
+      <inertia ixx="0.1" ixy="0.0" ixz="0.0" iyy="0.1" iyz="0.0" izz="0.1"/>
     </inertial>
     <collision name="lower_arm_left_collision">
       <origin rpy="0  0  0" xyz="-0.03276 -0.15468 -0.00478"/>
       <geometry>
-        <mesh filename="package://roboy_models/roboy_2_0_left_arm_simplified/meshes/CAD/lower_arm_left.stl OR roboy_models/roboy_2_0_simplified/meshes/CAD/lower_arm_left.stl OR roboy_models/roboy_2_0_arm_elbow/meshes/CAD/lower_arm_left.stl OR roboy_models/roboy_2_0_left_arm_right/meshes/CAD/lower_arm_left.stl OR roboy_models/roboy_2_0_left_arm_elbow/meshes/CAD/lower_arm_left.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://roboy_models/roboy_2_0_left_arm_elbow/meshes/CAD/lower_arm_left.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual name="lower_arm_left_visual">
       <origin rpy="0  0  0" xyz="-0.03276 -0.15468 -0.00478"/>
       <geometry>
-        <mesh filename="package://roboy_models/roboy_2_0_left_arm_simplified/meshes/CAD/lower_arm_left.stl OR roboy_models/roboy_2_0_simplified/meshes/CAD/lower_arm_left.stl OR roboy_models/roboy_2_0_arm_elbow/meshes/CAD/lower_arm_left.stl OR roboy_models/roboy_2_0_left_arm_right/meshes/CAD/lower_arm_left.stl OR roboy_models/roboy_2_0_left_arm_elbow/meshes/CAD/lower_arm_left.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://roboy_models/roboy_2_0_left_arm_elbow/meshes/CAD/lower_arm_left.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
   </link>
@@ -51,37 +51,37 @@
     <inertial>
       <mass value="1"/>
       <origin rpy="0  0  0" xyz="-0.05911 -0.16877  0.00667"/>
-      <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.1" iyz="0.0" izz="0.01"/>
+      <inertia ixx="0.1" ixy="0.0" ixz="0.0" iyy="0.1" iyz="0.0" izz="0.1"/>
     </inertial>
     <collision name="upper_arm_left_collision">
       <origin rpy="0  0  0" xyz="-0.05911 -0.16877  0.00667"/>
       <geometry>
-        <mesh filename="package://roboy_models/roboy_2_0_left_arm_simplified/meshes/CAD/upper_arm_left.stl OR roboy_models/roboy_2_0_simplified/meshes/CAD/upper_arm_left.stl OR roboy_models/roboy_2_0_arm_elbow/meshes/CAD/upper_arm_left.stl OR roboy_models/roboy_2_0_left_arm_right/meshes/CAD/upper_arm_left.stl OR roboy_models/roboy_2_0_left_arm_elbow/meshes/CAD/upper_arm_left.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://roboy_models/roboy_2_0_left_arm_elbow/meshes/CAD/upper_arm_left.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual name="upper_arm_left_visual">
       <origin rpy="0  0  0" xyz="-0.05911 -0.16877  0.00667"/>
       <geometry>
-        <mesh filename="package://roboy_models/roboy_2_0_left_arm_simplified/meshes/CAD/upper_arm_left.stl OR roboy_models/roboy_2_0_simplified/meshes/CAD/upper_arm_left.stl OR roboy_models/roboy_2_0_arm_elbow/meshes/CAD/upper_arm_left.stl OR roboy_models/roboy_2_0_left_arm_right/meshes/CAD/upper_arm_left.stl OR roboy_models/roboy_2_0_left_arm_elbow/meshes/CAD/upper_arm_left.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://roboy_models/roboy_2_0_left_arm_elbow/meshes/CAD/upper_arm_left.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
   </link>
   <link name="torso">
     <inertial>
-      <mass value="1008.7023329334594"/>
+      <mass value="1294.1190484008935"/>
       <origin rpy="0  0  0" xyz="-0.005    0.0465  -0.00567"/>
-      <inertia ixx="200.83316516318143" ixy="-0.20846990889102412" ixz="-0.34181574811566934" iyy="390.190150920655" iyz="-0.4312515990482134" izz="200.29462600005215"/>
+      <inertia ixx="295.3678552272373" ixy="0.06453612683545784" ixz="-15.805653912269483" iyy="502.2242725018803" iyz="-0.026407381876477242" izz="217.7399385081272"/>
     </inertial>
     <collision name="torso_collision">
       <origin rpy="0  0  0" xyz="-0.005    0.0465  -0.00567"/>
       <geometry>
-        <mesh filename="package://roboy_models/roboy_2_0_head_simplified/meshes/CAD/torso.stl OR roboy_models/roboy_2_0_left_arm_simplified/meshes/CAD/torso.stl OR roboy_models/roboy_2_0_simplified/meshes/CAD/torso.stl OR roboy_models/roboy_2_0_arm_elbow/meshes/CAD/torso.stl OR roboy_models/roboy_2_0_left_arm_right/meshes/CAD/torso.stl OR roboy_models/roboy_2_0_left_arm_elbow/meshes/CAD/torso.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://roboy_models/roboy_2_0_left_arm_elbow/meshes/CAD/torso.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual name="torso_visual">
       <origin rpy="0  0  0" xyz="-0.005    0.0465  -0.00567"/>
       <geometry>
-        <mesh filename="package://roboy_models/roboy_2_0_head_simplified/meshes/CAD/torso.stl OR roboy_models/roboy_2_0_left_arm_simplified/meshes/CAD/torso.stl OR roboy_models/roboy_2_0_simplified/meshes/CAD/torso.stl OR roboy_models/roboy_2_0_arm_elbow/meshes/CAD/torso.stl OR roboy_models/roboy_2_0_left_arm_right/meshes/CAD/torso.stl OR roboy_models/roboy_2_0_left_arm_elbow/meshes/CAD/torso.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://roboy_models/roboy_2_0_left_arm_elbow/meshes/CAD/torso.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
   </link>
@@ -89,18 +89,18 @@
     <inertial>
       <mass value="0.001"/>
       <origin rpy="0  0  0" xyz="0.00027  0.00011  0.00528"/>
-      <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.1" iyz="0.0" izz="0.01"/>
+      <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001"/>
     </inertial>
     <collision name="shoulder_left_link2_collision">
       <origin rpy="0  0  0" xyz="0.00027  0.00011  0.00528"/>
       <geometry>
-        <mesh filename="package://roboy_models/roboy_2_0_left_arm_simplified/meshes/CAD/shoulder_left_link2.stl OR roboy_models/roboy_2_0_arm_elbow/meshes/CAD/shoulder_left_link2.stl OR roboy_models/roboy_2_0_left_arm_right/meshes/CAD/shoulder_left_link2.stl OR roboy_models/roboy_2_0_left_arm_elbow/meshes/CAD/shoulder_left_link2.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://roboy_models/roboy_2_0_left_arm_elbow/meshes/CAD/shoulder_left_link2.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual name="shoulder_left_link2_visual">
       <origin rpy="0  0  0" xyz="0.00027  0.00011  0.00528"/>
       <geometry>
-        <mesh filename="package://roboy_models/roboy_2_0_left_arm_simplified/meshes/CAD/shoulder_left_link2.stl OR roboy_models/roboy_2_0_arm_elbow/meshes/CAD/shoulder_left_link2.stl OR roboy_models/roboy_2_0_left_arm_right/meshes/CAD/shoulder_left_link2.stl OR roboy_models/roboy_2_0_left_arm_elbow/meshes/CAD/shoulder_left_link2.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://roboy_models/roboy_2_0_left_arm_elbow/meshes/CAD/shoulder_left_link2.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
   </link>
@@ -108,18 +108,18 @@
     <inertial>
       <mass value="0.001"/>
       <origin rpy="0  0  0" xyz="-0.00457  0.002    0.00018"/>
-      <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.1" iyz="0.0" izz="0.01"/>
+      <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001"/>
     </inertial>
     <collision name="shoulder_left_link3_collision">
       <origin rpy="0  0  0" xyz="-0.00457  0.002    0.00018"/>
       <geometry>
-        <mesh filename="package://roboy_models/roboy_2_0_left_arm_simplified/meshes/CAD/shoulder_left_link3.stl OR roboy_models/roboy_2_0_arm_elbow/meshes/CAD/shoulder_left_link3.stl OR roboy_models/roboy_2_0_left_arm_right/meshes/CAD/shoulder_left_link3.stl OR roboy_models/roboy_2_0_left_arm_elbow/meshes/CAD/shoulder_left_link3.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://roboy_models/roboy_2_0_left_arm_elbow/meshes/CAD/shoulder_left_link3.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual name="shoulder_left_link3_visual">
       <origin rpy="0  0  0" xyz="-0.00457  0.002    0.00018"/>
       <geometry>
-        <mesh filename="package://roboy_models/roboy_2_0_left_arm_simplified/meshes/CAD/shoulder_left_link3.stl OR roboy_models/roboy_2_0_arm_elbow/meshes/CAD/shoulder_left_link3.stl OR roboy_models/roboy_2_0_left_arm_right/meshes/CAD/shoulder_left_link3.stl OR roboy_models/roboy_2_0_left_arm_elbow/meshes/CAD/shoulder_left_link3.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://roboy_models/roboy_2_0_left_arm_elbow/meshes/CAD/shoulder_left_link3.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
   </link>
