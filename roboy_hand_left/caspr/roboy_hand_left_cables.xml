@@ -1,0 +1,1047 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE cables SYSTEM "../../../templates/cables.dtd">
+<?xml version="1.0" ?>
+<cables default_cable_set="WORKING">
+	<cable_set id="WORKING">
+		<cable_ideal attachment_reference="com" name="cable 0">
+			<properties>
+				<force_min>10</force_min>
+				<force_max>80</force_max>
+			</properties>
+			<attachments>
+				<attachment>
+					<link>palm</link>
+					<location>1.8145207558717404e-16 3.3306690738754695e-17 -0.11100000000000002</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>0.02226529282101398 -0.0033690340480379516 -0.15231303418611092</location>
+				</attachment>
+				<attachment>
+					<link>little_limb3</link>
+					<location>-0.0028261037675905245 0.007802083009715859 0.005760980716713711</location>
+				</attachment>
+				<attachment>
+					<link>little_limb3</link>
+					<location>-0.0005334600786953115 0.006534543134295307 0.000923979960110266</location>
+				</attachment>
+				<attachment>
+					<link>little_limb3</link>
+					<location>1.1546319456101628e-16 -3.4861002973229917e-16 3.552713678800501e-17</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>0.031568806167982556 -0.0075658229487024645 -0.15979903091337386</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>0.030162187633122204 -0.006927458925629264 -0.16224244144799294</location>
+				</attachment>
+				<attachment>
+					<link>little_limb1</link>
+					<location>-0.005502819646581605 0.0128604762697856 0.009531163212767525</location>
+				</attachment>
+				<attachment>
+					<link>little_limb1</link>
+					<location>-0.0018466027961628973 0.010652056083185518 0.001199807741102461</location>
+				</attachment>
+				<attachment>
+					<link>little_limb1</link>
+					<location>0.013416160111525998 0.001838615246005764 -0.023237470955641906</location>
+				</attachment>
+				<attachment>
+					<link>little_limb2</link>
+					<location>-0.0044203480185374035 0.009915682302168273 0.008963144929495464</location>
+				</attachment>
+				<attachment>
+					<link>little_limb2</link>
+					<location>-0.0022433194173471184 0.008671576436547463 0.0054855432084512405</location>
+				</attachment>
+				<attachment>
+					<link>little_limb2</link>
+					<location>0.0057870704420560064 0.0037014603119450763 -0.010447020499459433</location>
+				</attachment>
+			</attachments>
+		</cable_ideal>
+		<cable_ideal attachment_reference="com" name="cable 1">
+			<properties>
+				<force_min>10</force_min>
+				<force_max>80</force_max>
+			</properties>
+			<attachments>
+				<attachment>
+					<link>palm</link>
+					<location>1.8145207558717404e-16 3.3306690738754695e-17 -0.11100000000000002</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>0.02532056179499127 -0.003301693253858743 -0.15010808373039528</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>0.027284688003605857 -0.00733831843439983 -0.16221481604522808</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>0.03171116784981646 -0.005561634055162429 -0.16492535388322632</location>
+				</attachment>
+				<attachment>
+					<link>little_limb1</link>
+					<location>-0.005502819646581605 0.0128604762697856 0.009531163212767525</location>
+				</attachment>
+				<attachment>
+					<link>little_limb1</link>
+					<location>0.00011915408541947948 0.009968996052965811 0.00152533442947151</location>
+				</attachment>
+				<attachment>
+					<link>little_limb1</link>
+					<location>0.015525269176764694 0.0020783836659209677 -0.026890555015339396</location>
+				</attachment>
+				<attachment>
+					<link>little_limb1</link>
+					<location>0.016215659701965892 -0.005134903745539392 -0.02758930805463903</location>
+				</attachment>
+				<attachment>
+					<link>little_limb2</link>
+					<location>7.105427357601002e-17 -4.4408920985006264e-17 8.881784197001253e-17</location>
+				</attachment>
+			</attachments>
+		</cable_ideal>
+		<cable_ideal attachment_reference="com" name="cable 2">
+			<properties>
+				<force_min>10</force_min>
+				<force_max>80</force_max>
+			</properties>
+			<attachments>
+				<attachment>
+					<link>palm</link>
+					<location>1.8145207558717404e-16 3.3306690738754695e-17 -0.11100000000000002</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>0.015957814742468834 -0.00320056022257781 -0.16231012550633567</location>
+				</attachment>
+				<attachment>
+					<link>ring_limb3</link>
+					<location>-0.0011839232146931477 0.009408523928624494 0.004418461589496197</location>
+				</attachment>
+				<attachment>
+					<link>ring_limb3</link>
+					<location>6.60015316486362e-05 0.007090383792487565 -0.00024632106948896393</location>
+				</attachment>
+				<attachment>
+					<link>ring_limb3</link>
+					<location>0.0002791396555907788 0.005886993991973011 -0.0010417633770719804</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>0.013787696145810185 -0.006513651702942164 -0.1710720330815427</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>0.017643034057716663 -0.006927458925629269 -0.1758446995030657</location>
+				</attachment>
+				<attachment>
+					<link>ring_limb1</link>
+					<location>-0.0019358559415041032 0.014292667482506656 0.009823505029110198</location>
+				</attachment>
+				<attachment>
+					<link>ring_limb1</link>
+					<location>0.0009628806237346188 0.010036584643664326 -0.0002481022306507974</location>
+				</attachment>
+				<attachment>
+					<link>ring_limb1</link>
+					<location>0.006921843387450757 -0.002848700960235292 -0.02583267120400068</location>
+				</attachment>
+				<attachment>
+					<link>ring_limb2</link>
+					<location>-0.0019365665562259783 0.012086045946439146 0.00722736478007409</location>
+				</attachment>
+				<attachment>
+					<link>ring_limb2</link>
+					<location>-0.0002900357787766028 0.010029392646526256 0.004173390906532113</location>
+				</attachment>
+				<attachment>
+					<link>ring_limb2</link>
+					<location>0.0032608525711716263 0.0029836110831791365 -0.012169667471604093</location>
+				</attachment>
+			</attachments>
+		</cable_ideal>
+		<cable_ideal attachment_reference="com" name="cable 3">
+			<properties>
+				<force_min>10</force_min>
+				<force_max>80</force_max>
+			</properties>
+			<attachments>
+				<attachment>
+					<link>palm</link>
+					<location>1.8145207558717404e-16 3.3306690738754695e-17 -0.11100000000000002</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>0.012394858008525165 -0.0032412106914203953 -0.16350348973074538</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>0.013787696145810185 -0.006513651702942164 -0.1710720330815427</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>0.017643034057716663 -0.006927458925629269 -0.1758446995030657</location>
+				</attachment>
+				<attachment>
+					<link>ring_limb1</link>
+					<location>-0.0019358559415041032 0.014292667482506656 0.009823505029110198</location>
+				</attachment>
+				<attachment>
+					<link>ring_limb1</link>
+					<location>0.0009628806237346188 0.010036584643664326 -0.0002481022306507974</location>
+				</attachment>
+				<attachment>
+					<link>ring_limb1</link>
+					<location>0.006921843387450757 -0.002848700960235292 -0.02583267120400068</location>
+				</attachment>
+				<attachment>
+					<link>ring_limb1</link>
+					<location>0.008117145324506768 -0.0114149222834945 -0.03029359876347959</location>
+				</attachment>
+				<attachment>
+					<link>ring_limb2</link>
+					<location>4.426066345079249e-05 0.0004698463103929429 -0.00016518304477536105</location>
+				</attachment>
+			</attachments>
+		</cable_ideal>
+		<cable_ideal attachment_reference="com" name="cable 4">
+			<properties>
+				<force_min>10</force_min>
+				<force_max>80</force_max>
+			</properties>
+			<attachments>
+				<attachment>
+					<link>palm</link>
+					<location>1.8145207558717404e-16 3.3306690738754695e-17 -0.11100000000000002</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>0.02566051646875417 0.0007658038574664039 -0.1498627425773837</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>0.027368311421553666 0.0017658038608826944 -0.16240330589949792</location>
+				</attachment>
+				<attachment>
+					<link>little_limb1</link>
+					<location>-0.0062961694273624145 0.0013516207491471263 0.009088133675752275</location>
+				</attachment>
+				<attachment>
+					<link>little_limb1</link>
+					<location>-0.002198840794060475 -0.00019493494090579071 0.005746501231546333</location>
+				</attachment>
+				<attachment>
+					<link>little_limb1</link>
+					<location>1.0658141036401502e-16 -1.2129186544029835e-16 -2.3092638912203257e-16</location>
+				</attachment>
+			</attachments>
+		</cable_ideal>
+		<cable_ideal attachment_reference="com" name="cable 5">
+			<properties>
+				<force_min>10</force_min>
+				<force_max>80</force_max>
+			</properties>
+			<attachments>
+				<attachment>
+					<link>palm</link>
+					<location>1.8145207558717404e-16 3.3306690738754695e-17 -0.11100000000000002</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>0.02532056179499127 -0.003301693253858743 -0.15010808373039528</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>0.027284688003605857 -0.00733831843439983 -0.16221481604522808</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>0.027182082521894996 -0.007250845854711426 -0.16608074798345182</location>
+				</attachment>
+				<attachment>
+					<link>little_limb1</link>
+					<location>-0.0038662520342127803 0.005160241475985502 0.0066965449581229035</location>
+				</attachment>
+				<attachment>
+					<link>little_limb1</link>
+					<location>0.0023127694616031837 0.0038641647286001756 0.006691305392851739</location>
+				</attachment>
+				<attachment>
+					<link>little_limb1</link>
+					<location>0.0038905430224981164 0.004605283066221691 0.002481061704853396</location>
+				</attachment>
+			</attachments>
+		</cable_ideal>
+		<cable_ideal attachment_reference="com" name="cable 6">
+			<properties>
+				<force_min>10</force_min>
+				<force_max>80</force_max>
+			</properties>
+			<attachments>
+				<attachment>
+					<link>palm</link>
+					<location>1.8145207558717404e-16 3.3306690738754695e-17 -0.11100000000000002</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>0.02226529282101398 -0.0033690340480379516 -0.15231303418611092</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>0.031568806167982556 -0.0075658229487024645 -0.15979903091337386</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>0.03497631115595504 -0.00725084585471143 -0.16158074798345187</location>
+				</attachment>
+				<attachment>
+					<link>little_limb1</link>
+					<location>-0.0038662520342127803 0.005160241475985502 0.0066965449581229035</location>
+				</attachment>
+				<attachment>
+					<link>little_limb1</link>
+					<location>-0.006951225185491064 0.003864164728600236 0.0013427355895806769</location>
+				</attachment>
+				<attachment>
+					<link>little_limb1</link>
+					<location>-0.0040939339760088875 0.004605283066221744 -0.002128778239572942</location>
+				</attachment>
+			</attachments>
+		</cable_ideal>
+		<cable_ideal attachment_reference="com" name="cable 7">
+			<properties>
+				<force_min>10</force_min>
+				<force_max>80</force_max>
+			</properties>
+			<attachments>
+				<attachment>
+					<link>palm</link>
+					<location>1.8145207558717404e-16 3.3306690738754695e-17 -0.11100000000000002</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>0.0018757853456375067 -0.003252935610497684 -0.1676158220494676</location>
+				</attachment>
+				<attachment>
+					<link>middle_limb3</link>
+					<location>-7.436018971222474e-18 0.0072766081771559145 0.007516367004595779</location>
+				</attachment>
+				<attachment>
+					<link>middle_limb3</link>
+					<location>0.000495409202954531 0.006682400283817507 0.0021854227499999725</location>
+				</attachment>
+				<attachment>
+					<link>middle_limb3</link>
+					<location>-1.2246467991473556e-19 0.005900837918690674 0.0010000000000000143</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>-0.0024831413282989513 -0.006386220544639457 -0.1741988818740454</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>2.593064651890131e-16 -0.007169862802135386 -0.18031227905388142</location>
+				</attachment>
+				<attachment>
+					<link>middle_limb1</link>
+					<location>1.3101464699074886e-18 0.011253987530597108 0.013071637170940384</location>
+				</attachment>
+				<attachment>
+					<link>middle_limb1</link>
+					<location>0.0008658576796737368 0.010098504561753712 0.0029733357998044775</location>
+				</attachment>
+				<attachment>
+					<link>middle_limb1</link>
+					<location>1.6653345369377347e-18 0.006970066058381765 -0.026105404800067743</location>
+				</attachment>
+				<attachment>
+					<link>middle_limb2</link>
+					<location>-5.551115123125783e-18 0.00879806450901851 0.01116475074533831</location>
+				</attachment>
+				<attachment>
+					<link>middle_limb2</link>
+					<location>0.0007999999999999868 0.0080201250749671 0.00728886980620267</location>
+				</attachment>
+				<attachment>
+					<link>middle_limb2</link>
+					<location>-0.0006000000000000017 0.007112777768298115 -0.01081870109462347</location>
+				</attachment>
+			</attachments>
+		</cable_ideal>
+		<cable_ideal attachment_reference="com" name="cable 8">
+			<properties>
+				<force_min>10</force_min>
+				<force_max>80</force_max>
+			</properties>
+			<attachments>
+				<attachment>
+					<link>palm</link>
+					<location>1.8145207558717404e-16 3.3306690738754695e-17 -0.11100000000000002</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>0.0018757853456375067 -0.003252935610497684 -0.1676158220494676</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>-0.0024831413282989513 -0.006386220544639457 -0.1741988818740454</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>2.593064651890131e-16 -0.007169862802135386 -0.18031227905388142</location>
+				</attachment>
+				<attachment>
+					<link>middle_limb1</link>
+					<location>1.3101464699074886e-18 0.011253987530597108 0.013071637170940384</location>
+				</attachment>
+				<attachment>
+					<link>middle_limb1</link>
+					<location>0.0008658576796737368 0.010098504561753712 0.0029733357998044775</location>
+				</attachment>
+				<attachment>
+					<link>middle_limb1</link>
+					<location>1.6653345369377347e-18 0.006970066058381765 -0.026105404800067743</location>
+				</attachment>
+				<attachment>
+					<link>middle_limb1</link>
+					<location>4.163336342344347e-19 0.0005 -0.033375</location>
+				</attachment>
+				<attachment>
+					<link>middle_limb2</link>
+					<location>0.0 0.0005 0.0</location>
+				</attachment>
+			</attachments>
+		</cable_ideal>
+		<cable_ideal attachment_reference="com" name="cable 9">
+			<properties>
+				<force_min>10</force_min>
+				<force_max>80</force_max>
+			</properties>
+			<attachments>
+				<attachment>
+					<link>palm</link>
+					<location>1.820071870994866e-16 3.3306690738754695e-17 -0.11170638024946719</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>-0.011930992418085299 -0.005000000000000106 -0.16418615555013044</location>
+				</attachment>
+				<attachment>
+					<link>index_limb3</link>
+					<location>0.001945378930769568 0.006776608177155954 0.007260253009606075</location>
+				</attachment>
+				<attachment>
+					<link>index_limb3</link>
+					<location>0.0010441575730154007 0.00618240028381752 0.0019827349387409755</location>
+				</attachment>
+				<attachment>
+					<link>index_limb3</link>
+					<location>0.00025881904510253404 0.005400837918690679 0.0009659258262890802</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>-0.01908829565141829 -0.006782565869002744 -0.17160288406020552</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>-0.017643034057716212 -0.0069274589256292885 -0.17584469950306575</location>
+				</attachment>
+				<attachment>
+					<link>index_limb1</link>
+					<location>0.004344529995115904 0.01001399668589093 0.013615214377497367</location>
+				</attachment>
+				<attachment>
+					<link>index_limb1</link>
+					<location>0.0016059102271620597 0.009598504561753733 0.0026479213814130987</location>
+				</attachment>
+				<attachment>
+					<link>index_limb1</link>
+					<location>-0.006756575942368919 0.006470066058381319 -0.02521588470211695</location>
+				</attachment>
+				<attachment>
+					<link>index_limb2</link>
+					<location>0.0028896501267161056 0.008298064509018568 0.01078432108900241</location>
+				</attachment>
+				<attachment>
+					<link>index_limb2</link>
+					<location>0.0026592389841492104 0.0075201250749671366 0.0068334523541877705</location>
+				</attachment>
+				<attachment>
+					<link>index_limb2</link>
+					<location>-0.0033853301044991027 0.005472921130302176 -0.01114758885772943</location>
+				</attachment>
+			</attachments>
+		</cable_ideal>
+		<cable_ideal attachment_reference="com" name="cable 10">
+			<properties>
+				<force_min>10</force_min>
+				<force_max>80</force_max>
+			</properties>
+			<attachments>
+				<attachment>
+					<link>palm</link>
+					<location>1.820071870994866e-16 3.3306690738754695e-17 -0.11170638024946719</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>-0.011930992418085299 -0.005000000000000106 -0.16418615555013044</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>-0.01908829565141829 -0.006782565869002744 -0.17160288406020552</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>-0.017643034057716212 -0.0069274589256292885 -0.17584469950306575</location>
+				</attachment>
+				<attachment>
+					<link>index_limb1</link>
+					<location>0.004344529995115904 0.01001399668589093 0.013615214377497367</location>
+				</attachment>
+				<attachment>
+					<link>index_limb1</link>
+					<location>0.0016059102271620597 0.009598504561753733 0.0026479213814130987</location>
+				</attachment>
+				<attachment>
+					<link>index_limb1</link>
+					<location>-0.006756575942368919 0.006470066058381319 -0.02521588470211695</location>
+				</attachment>
+				<attachment>
+					<link>index_limb1</link>
+					<location>-0.008638085630297252 -4.867634073590921e-16 -0.03223777445239856</location>
+				</attachment>
+				<attachment>
+					<link>index_limb2</link>
+					<location>0.0 0.0 0.0</location>
+				</attachment>
+			</attachments>
+		</cable_ideal>
+		<cable_ideal attachment_reference="com" name="cable 11">
+			<properties>
+				<force_min>10</force_min>
+				<force_max>80</force_max>
+			</properties>
+			<attachments>
+				<attachment>
+					<link>palm</link>
+					<location>1.8145207558717404e-16 3.3306690738754695e-17 -0.11100000000000002</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>-0.01563384098737012 0.012830438450999243 -0.11884435002602736</location>
+				</attachment>
+				<attachment>
+					<link>thumb_limb3</link>
+					<location>0.007336302024377162 -0.007279079095836672 0.0016243397536567627</location>
+				</attachment>
+				<attachment>
+					<link>thumb_limb3</link>
+					<location>0.005872193748669314 -0.0035069102255827467 -0.0018861319794791598</location>
+				</attachment>
+				<attachment>
+					<link>thumb_limb3</link>
+					<location>0.0050534393761260165 -0.002787437237802006 -0.00193980211872109</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>-0.02290524209139361 0.011455164417186364 -0.12326343685747387</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>-0.02492635291123462 0.01635271165150925 -0.12512944654582767</location>
+				</attachment>
+				<attachment>
+					<link>thumb_limb1</link>
+					<location>0.011628358319804036 -0.012238707405647435 0.003537690983218846</location>
+				</attachment>
+				<attachment>
+					<link>thumb_limb1</link>
+					<location>0.008244622756163476 -0.0056268327984135965 -0.003454732688770257</location>
+				</attachment>
+				<attachment>
+					<link>thumb_limb1</link>
+					<location>0.0005347067281732309 0.015607096645607816 -0.022050093052935475</location>
+				</attachment>
+				<attachment>
+					<link>thumb_limb2</link>
+					<location>0.009275092661936598 -0.010209036065270486 0.003435962316570347</location>
+				</attachment>
+				<attachment>
+					<link>thumb_limb2</link>
+					<location>0.007445707104107955 -0.007884793822011718 0.000693903000496583</location>
+				</attachment>
+				<attachment>
+					<link>thumb_limb2</link>
+					<location>0.003629858929034029 0.005200510852564806 -0.011287812542014813</location>
+				</attachment>
+			</attachments>
+		</cable_ideal>
+		<cable_ideal attachment_reference="com" name="cable 12">
+			<properties>
+				<force_min>10</force_min>
+				<force_max>80</force_max>
+			</properties>
+			<attachments>
+				<attachment>
+					<link>palm</link>
+					<location>1.8145207558717404e-16 3.3306690738754695e-17 -0.11100000000000002</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>-0.01563384098737012 0.012830438450999243 -0.11884435002602736</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>-0.02290524209139361 0.011455164417186364 -0.12326343685747387</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>-0.02492635291123462 0.01635271165150925 -0.12512944654582767</location>
+				</attachment>
+				<attachment>
+					<link>thumb_limb1</link>
+					<location>0.011628358319804036 -0.012238707405647435 0.003537690983218846</location>
+				</attachment>
+				<attachment>
+					<link>thumb_limb1</link>
+					<location>0.008244622756163476 -0.0056268327984135965 -0.003454732688770257</location>
+				</attachment>
+				<attachment>
+					<link>thumb_limb1</link>
+					<location>0.0005347067281732309 0.015607096645607816 -0.022050093052935475</location>
+				</attachment>
+				<attachment>
+					<link>thumb_limb1</link>
+					<location>-0.006102739479396573 0.022476878108039822 -0.02390998005777018</location>
+				</attachment>
+				<attachment>
+					<link>thumb_limb2</link>
+					<location>-1.5987211554602254e-16 -7.993605777301127e-17 -1.4210854715202004e-16</location>
+				</attachment>
+			</attachments>
+		</cable_ideal>
+		<cable_ideal attachment_reference="com" name="cable 13">
+			<properties>
+				<force_min>10</force_min>
+				<force_max>80</force_max>
+			</properties>
+			<attachments>
+				<attachment>
+					<link>palm</link>
+					<location>1.8145207558717404e-16 3.3306690738754695e-17 -0.11100000000000002</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>0.01635309666031115 0.0007658038574663994 -0.16217773116799997</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>0.01400311949280837 0.001765803857421646 -0.17191961167450828</location>
+				</attachment>
+				<attachment>
+					<link>ring_limb1</link>
+					<location>-0.0037501673653407798 0.0027379286657801183 0.01015771052530699</location>
+				</attachment>
+				<attachment>
+					<link>ring_limb1</link>
+					<location>-0.0024934445668247894 0.0008631192152232203 0.005561738602762461</location>
+				</attachment>
+				<attachment>
+					<link>ring_limb1</link>
+					<location>-4.4408920985006264e-17 1.6653345369377347e-17 -3.730349362740526e-16</location>
+				</attachment>
+			</attachments>
+		</cable_ideal>
+		<cable_ideal attachment_reference="com" name="cable 14">
+			<properties>
+				<force_min>10</force_min>
+				<force_max>80</force_max>
+			</properties>
+			<attachments>
+				<attachment>
+					<link>palm</link>
+					<location>1.8145207558717404e-16 3.3306690738754695e-17 -0.11100000000000002</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>0.0022912878474782607 0.0007658038574663939 -0.16761582204946757</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>-0.0025010486031992437 0.0017658038574663959 -0.1745695100941518</location>
+				</attachment>
+				<attachment>
+					<link>middle_limb1</link>
+					<location>-0.0009933745725011723 -0.0006149215328305063 0.011068389616256074</location>
+				</attachment>
+				<attachment>
+					<link>middle_limb1</link>
+					<location>-0.0009689986292392762 -0.0007470660974970134 0.005949877702775357</location>
+				</attachment>
+				<attachment>
+					<link>middle_limb1</link>
+					<location>0.0 0.0005 0.0</location>
+				</attachment>
+			</attachments>
+		</cable_ideal>
+		<cable_ideal attachment_reference="com" name="cable 15">
+			<properties>
+				<force_min>10</force_min>
+				<force_max>80</force_max>
+			</properties>
+			<attachments>
+				<attachment>
+					<link>palm</link>
+					<location>1.8145207558717404e-16 3.3306690738754695e-17 -0.11100000000000002</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>-0.01212922987806607 0.0007658038574663861 -0.16411975859099104</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>-0.014662245457837933 0.0017658038574663905 -0.1744749206488238</location>
+				</attachment>
+				<attachment>
+					<link>index_limb1</link>
+					<location>0.0019051838765441788 -0.0011149215328304057 0.010948347644055244</location>
+				</attachment>
+				<attachment>
+					<link>index_limb1</link>
+					<location>0.0006039608638881155 -0.0012470660974969556 0.00599793583629749</location>
+				</attachment>
+				<attachment>
+					<link>index_limb1</link>
+					<location>0.0 0.0 0.0</location>
+				</attachment>
+			</attachments>
+		</cable_ideal>
+		<cable_ideal attachment_reference="com" name="cable 16">
+			<properties>
+				<force_min>10</force_min>
+				<force_max>80</force_max>
+			</properties>
+			<attachments>
+				<attachment>
+					<link>palm</link>
+					<location>1.8145207558717404e-16 3.3306690738754695e-17 -0.11100000000000002</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>-0.012750514551988565 0.013884032902202175 -0.124187213818554</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>-0.0156418176752259 0.01645822641889342 -0.12760125623473073</location>
+				</attachment>
+				<attachment>
+					<link>thumb_limb1</link>
+					<location>0.002215527542297231 -0.006652786043671801 0.008643265921891059</location>
+				</attachment>
+				<attachment>
+					<link>thumb_limb1</link>
+					<location>0.000903523640292474 -0.0008814299547055127 0.0019521564925422475</location>
+				</attachment>
+				<attachment>
+					<link>thumb_limb1</link>
+					<location>0.00040341963262201296 -0.00015002089374590354 -0.00025445300441297115</location>
+				</attachment>
+			</attachments>
+		</cable_ideal>
+		<cable_ideal attachment_reference="com" name="cable 17">
+			<properties>
+				<force_min>10</force_min>
+				<force_max>80</force_max>
+			</properties>
+			<attachments>
+				<attachment>
+					<link>palm</link>
+					<location>1.8145207558717404e-16 3.3306690738754695e-17 -0.11100000000000002</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>0.014094917847812026 -0.005000000000000091 -0.15477820430858397</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>0.018128943908509207 -0.0063664493240985845 -0.16811871528575165</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>0.0224643791700097 -0.007250845854711434 -0.17645153954976397</location>
+				</attachment>
+				<attachment>
+					<link>ring_limb1</link>
+					<location>-0.0017389956985546906 0.006424581053250072 0.006490020301149109</location>
+				</attachment>
+				<attachment>
+					<link>ring_limb1</link>
+					<location>-0.006258945590801328 0.005347879057007412 0.002268835504767317</location>
+				</attachment>
+				<attachment>
+					<link>ring_limb1</link>
+					<location>-0.004297627833125952 0.004570636936862282 -0.0017720884042739726</location>
+				</attachment>
+			</attachments>
+		</cable_ideal>
+		<cable_ideal attachment_reference="com" name="cable 18">
+			<properties>
+				<force_min>10</force_min>
+				<force_max>80</force_max>
+			</properties>
+			<attachments>
+				<attachment>
+					<link>palm</link>
+					<location>1.8145207558717404e-16 3.3306690738754695e-17 -0.11100000000000002</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>0.011802282831709103 -0.005000000000000091 -0.16370196478084872</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>0.013787696145810185 -0.006513651702942164 -0.1710720330815427</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>0.013771046733408 -0.007250845854711432 -0.1787809109556866</location>
+				</attachment>
+				<attachment>
+					<link>ring_limb1</link>
+					<location>-0.0017389956985546906 0.006424581053250072 0.006490020301149109</location>
+				</attachment>
+				<attachment>
+					<link>ring_limb1</link>
+					<location>0.00428598813015463 0.005347879057007403 0.005094341979537198</location>
+				</attachment>
+				<attachment>
+					<link>ring_limb1</link>
+					<location>0.004607899081634881 0.004570636936862274 0.0006141403407098345</location>
+				</attachment>
+			</attachments>
+		</cable_ideal>
+		<cable_ideal attachment_reference="com" name="cable 19">
+			<properties>
+				<force_min>10</force_min>
+				<force_max>80</force_max>
+			</properties>
+			<attachments>
+				<attachment>
+					<link>palm</link>
+					<location>1.8145207558717404e-16 3.3306690738754695e-17 -0.11100000000000002</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>-0.0024990799497599625 -0.005000000000000098 -0.1676158220494676</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>0.0030210988114295007 -0.0065308112753827445 -0.17445573211832086</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>0.004500000000000258 -0.0072508458547114445 -0.18266613425621284</location>
+				</attachment>
+				<attachment>
+					<link>middle_limb1</link>
+					<location>-5.4990734188464784e-17 0.004239110572681541 0.008511096485410334</location>
+				</attachment>
+				<attachment>
+					<link>middle_limb1</link>
+					<location>-0.0054584593526544 0.004221766004483265 0.005410684260606598</location>
+				</attachment>
+				<attachment>
+					<link>middle_limb1</link>
+					<location>-0.004609839944426406 0.005 0.0009999999999999966</location>
+				</attachment>
+			</attachments>
+		</cable_ideal>
+		<cable_ideal attachment_reference="com" name="cable 20">
+			<properties>
+				<force_min>10</force_min>
+				<force_max>80</force_max>
+			</properties>
+			<attachments>
+				<attachment>
+					<link>palm</link>
+					<location>1.8145207558717404e-16 3.3306690738754695e-17 -0.11100000000000002</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>-0.0024990799497599625 -0.005000000000000098 -0.1676158220494676</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>-0.0024831413282989513 -0.006386220544639457 -0.1741988818740454</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>-0.004499999999999821 -0.007250845854711442 -0.1826661342562128</location>
+				</attachment>
+				<attachment>
+					<link>middle_limb1</link>
+					<location>-5.4990734188464784e-17 0.004239110572681541 0.008511096485410334</location>
+				</attachment>
+				<attachment>
+					<link>middle_limb1</link>
+					<location>0.005458459352654398 0.004221766004483267 0.005410684260606598</location>
+				</attachment>
+				<attachment>
+					<link>middle_limb1</link>
+					<location>0.004609839944426406 0.005 0.0009999999999999966</location>
+				</attachment>
+			</attachments>
+		</cable_ideal>
+		<cable_ideal attachment_reference="com" name="cable 21">
+			<properties>
+				<force_min>10</force_min>
+				<force_max>80</force_max>
+			</properties>
+			<attachments>
+				<attachment>
+					<link>palm</link>
+					<location>1.8145207558717404e-16 3.3306690738754695e-17 -0.11100000000000002</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>-0.016680749833357513 -0.005000000000000108 -0.16259528847054797</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>-0.014142910541384444 -0.007287671273249664 -0.17454119546214195</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>-0.013771046733407637 -0.007250845854711454 -0.1787809109556867</location>
+				</attachment>
+				<attachment>
+					<link>index_limb1</link>
+					<location>0.0022028338651291566 0.0037391105726816134 0.008221087905295868</location>
+				</attachment>
+				<attachment>
+					<link>index_limb1</link>
+					<location>-0.0038720787267965172 0.0037217660044833625 0.006639072902600507</location>
+				</attachment>
+				<attachment>
+					<link>index_limb1</link>
+					<location>-0.004193944412277828 0.0045000000000000534 0.0021590401987809037</location>
+				</attachment>
+			</attachments>
+		</cable_ideal>
+		<cable_ideal attachment_reference="com" name="cable 22">
+			<properties>
+				<force_min>10</force_min>
+				<force_max>80</force_max>
+			</properties>
+			<attachments>
+				<attachment>
+					<link>palm</link>
+					<location>1.8145207558717404e-16 3.3306690738754695e-17 -0.11100000000000002</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>-0.016680749833357513 -0.005000000000000108 -0.16259528847054797</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>-0.01908829565141829 -0.006782565869002744 -0.17160288406020552</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>-0.02246437917000932 -0.007250845854711452 -0.17645153954976395</location>
+				</attachment>
+				<attachment>
+					<link>index_limb1</link>
+					<location>0.0022028338651291566 0.0037391105726816134 0.008221087905295868</location>
+				</attachment>
+				<attachment>
+					<link>index_limb1</link>
+					<location>0.006672854994159243 0.0037217660044832623 0.003813566427830715</location>
+				</attachment>
+				<attachment>
+					<link>index_limb1</link>
+					<location>0.004711582502482838 0.004499999999999968 -0.00022718854620281447</location>
+				</attachment>
+			</attachments>
+		</cable_ideal>
+		<cable_ideal attachment_reference="com" name="cable 23">
+			<properties>
+				<force_min>10</force_min>
+				<force_max>80</force_max>
+			</properties>
+			<attachments>
+				<attachment>
+					<link>palm</link>
+					<location>1.8145207558717404e-16 3.3306690738754695e-17 -0.11100000000000002</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>-0.015803776756492548 0.012345472024185124 -0.11761963035874154</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>-0.02290524209139361 0.011455164417186364 -0.12326343685747387</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>-0.027869114581231362 0.013372606540282179 -0.12761487003482225</location>
+				</attachment>
+				<attachment>
+					<link>thumb_limb1</link>
+					<location>0.005079443345199071 -0.007042089207080582 0.0038751847354437175</location>
+				</attachment>
+				<attachment>
+					<link>thumb_limb1</link>
+					<location>0.007505131702825847 -0.001271878603659129 0.004353035011340669</location>
+				</attachment>
+				<attachment>
+					<link>thumb_limb1</link>
+					<location>0.006799958693328199 0.0009153941655952025 0.0004162206192062534</location>
+				</attachment>
+			</attachments>
+		</cable_ideal>
+		<cable_ideal attachment_reference="com" name="cable 24">
+			<properties>
+				<force_min>10</force_min>
+				<force_max>80</force_max>
+			</properties>
+			<attachments>
+				<attachment>
+					<link>palm</link>
+					<location>1.8145207558717404e-16 3.3306690738754695e-17 -0.11100000000000002</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>-0.015803776756492548 0.012345472024185124 -0.11761963035874154</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>-0.019379820436587338 0.015048436044000458 -0.12045064487663144</location>
+				</attachment>
+				<attachment>
+					<link>palm</link>
+					<location>-0.02468713406589183 0.021166835174342084 -0.12443288951948273</location>
+				</attachment>
+				<attachment>
+					<link>thumb_limb1</link>
+					<location>0.005079443345199071 -0.007042089207080582 0.0038751847354437175</location>
+				</attachment>
+				<attachment>
+					<link>thumb_limb1</link>
+					<location>0.0014169709098054285 -0.008597983648503367 -0.000980031371947483</location>
+				</attachment>
+				<attachment>
+					<link>thumb_limb1</link>
+					<location>0.0016583161530923185 -0.0052717310818180116 -0.00408772103385453</location>
+				</attachment>
+			</attachments>
+		</cable_ideal>
+	</cable_set>
+</cables>
