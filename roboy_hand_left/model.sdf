@@ -157,17 +157,17 @@
 			</visual>
 		</link>
 		<link name="little_limb0">
-			<pose frame="">8.078672350826985e-07 0.00525671720724834 -0.010577896389793126 0.0 -0.0 0.0</pose>
+			<pose frame="">0.032847460998180485 0.0027018666706433337 -0.09974449675227083 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.00042697760738809467</mass>
+				<mass>0.00042697760738809185</mass>
 				<inertia>
-					<ixx>4.358718150772895e-06</ixx>
-					<ixy>-7.493171975798956e-08</ixy>
-					<ixz>2.259556584517334e-07</ixz>
-					<iyy>4.827445330536383e-06</iyy>
-					<iyz>1.4402328836258391e-06</iyz>
-					<izz>4.972716102335901e-07</izz>
+					<ixx>4.358718150772959e-06</ixx>
+					<ixy>-7.493171975799024e-08</ixy>
+					<ixz>2.2595565845173542e-07</ixz>
+					<iyy>4.827445330536455e-06</iyy>
+					<iyz>1.4402328836258603e-06</iyz>
+					<izz>4.972716102335973e-07</izz>
 				</inertia>
 			</inertial>
 			<collision name="little_limb0_collision">
@@ -188,17 +188,17 @@
 			</visual>
 		</link>
 		<link name="little_limb1">
-			<pose frame="">3.1551634630368106e-08 0.0005245503081212024 -0.034969172766625194 0.0 -0.0 0.0</pose>
+			<pose frame="">0.04064629525812948 -0.0024193797751180628 -0.11325247393031126 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.003829529907883959</mass>
+				<mass>0.0038295299079184925</mass>
 				<inertia>
-					<ixx>5.751496656169619e-05</ixx>
-					<ixy>7.694280427220364e-08</ixy>
-					<ixz>-1.1825753309846485e-07</ixz>
-					<iyy>6.563626620531137e-05</iyy>
-					<iyz>2.160701763711047e-05</iyz>
-					<izz>8.272843068740824e-06</izz>
+					<ixx>5.7514966584619234e-05</ixx>
+					<ixy>7.69428043763215e-08</ixy>
+					<ixz>-1.1825753341278165e-07</ixz>
+					<iyy>6.563626623073629e-05</iyy>
+					<iyz>2.1607017644695314e-05</iyz>
+					<izz>8.272843071274782e-06</izz>
 				</inertia>
 			</inertial>
 			<collision name="little_limb1_collision">
@@ -219,17 +219,17 @@
 			</visual>
 		</link>
 		<link name="little_limb2">
-			<pose frame="">-1.4426906700777366e-07 -0.007136810985103687 -0.07397753761109865 0.0 -0.0 0.0</pose>
+			<pose frame="">0.06637433625508896 -0.011492475352193242 -0.1578147481162603 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.0016247887224868777</mass>
+				<mass>0.0016247887224868657</mass>
 				<inertia>
-					<ixx>3.953051894007287e-05</ixx>
-					<ixy>8.192564325235701e-07</ixy>
-					<ixz>-1.9460367247579534e-06</ixz>
-					<iyy>4.6339503053610945e-05</iyy>
-					<iyz>1.6500908905874092e-05</iyz>
-					<izz>7.033957594461389e-06</izz>
+					<ixx>3.953051894007263e-05</ixx>
+					<ixy>8.192564325235668e-07</ixy>
+					<ixz>-1.946036724757944e-06</ixz>
+					<iyy>4.633950305361068e-05</iyy>
+					<iyz>1.6500908905874007e-05</iyz>
+					<izz>7.033957594461363e-06</izz>
 				</inertia>
 			</inertial>
 			<collision name="little_limb2_collision">
@@ -250,17 +250,17 @@
 			</visual>
 		</link>
 		<link name="little_limb3">
-			<pose frame="">-2.7022235231849608e-08 -0.012571522345128 -0.10056682493312219 0.0 -0.0 0.0</pose>
+			<pose frame="">0.07902199953737153 -0.015952723911357655 -0.17972114351819712 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.0006943841369259065</mass>
+				<mass>0.0006943841369259078</mass>
 				<inertia>
-					<ixx>2.227803315481495e-05</ixx>
-					<ixy>7.108674911360873e-07</ixy>
-					<ixz>-1.6182091500147455e-06</ixz>
-					<iyy>2.642641527032731e-05</iyy>
-					<iyz>9.723352873712768e-06</iyz>
-					<izz>4.391842749863521e-06</izz>
+					<ixx>2.2278033154814918e-05</ixx>
+					<ixy>7.108674911360864e-07</ixy>
+					<ixz>-1.6182091500147428e-06</ixz>
+					<iyy>2.6426415270327275e-05</iyy>
+					<iyz>9.723352873712757e-06</iyz>
+					<izz>4.391842749863516e-06</izz>
 				</inertia>
 			</inertial>
 			<collision name="little_limb3_collision">
@@ -772,7 +772,7 @@
 		<joint name="joint0_little" type="revolute">
 			<parent>little_limb0</parent>
 			<child>little_limb1</child>
-			<pose frame="">0.03284742944654632 0.002177316362522131 -0.06477532398564559 0 0 0</pose>
+			<pose frame="">-0.007798834259948531 0.005121246445761396 0.013507977178040491 0 0 0</pose>
 			<axis>
 				<xyz>-0.32139380484327207 -0.7660444431189839 0.5566703992264193</xyz>
 				<limit>
@@ -785,7 +785,7 @@
 		<joint name="joint1_little" type="revolute">
 			<parent>little_limb1</parent>
 			<child>little_limb2</child>
-			<pose frame="">0.05422861125845902 0.0033250175124119076 -0.07379994783488526 0 0 0</pose>
+			<pose frame="">-0.012145869265696945 0.007680681879501461 0.010037262670276378 0 0 0</pose>
 			<axis>
 				<xyz>0.8660254037844415 -6.110346603693806e-15 0.49999999999999345</xyz>
 				<limit>
@@ -798,7 +798,7 @@
 		<joint name="joint2_little" type="revolute">
 			<parent>little_limb2</parent>
 			<child>little_limb3</child>
-			<pose frame="">0.07103099596215338 0.0017692310140372336 -0.07331344758544814 0 0 0</pose>
+			<pose frame="">-0.00799103059745339 0.005150432580266886 0.005840870999626802 0 0 0</pose>
 			<axis>
 				<xyz>0.8660254037844415 -6.110346603693806e-15 0.49999999999999345</xyz>
 				<limit>
@@ -850,7 +850,7 @@
 		<joint name="palm_little" type="revolute">
 			<parent>palm</parent>
 			<child>little_limb0</child>
-			<pose frame="">0.027315644017092414 -0.00025671720724831817 -0.09458661156015673 0 0 0</pose>
+			<pose frame="">-0.0055310091138529895 0.0022981333293566886 -0.0054200111976790135 0 0 0</pose>
 			<axis>
 				<xyz>0.866025403784445 4.0999510464529535e-16 0.5000000000000029</xyz>
 				<limit>
@@ -919,23 +919,23 @@
 					<viaPoint type="FIXPOINT">0.02226529282101398 -0.0033690340480379516 -0.15231303418611092</viaPoint>
 				</link>
 				<link name="little_limb3">
-					<viaPoint type="FIXPOINT">0.07619592279201624 0.004420881443486207 -0.07339333786836123</viaPoint>
-					<viaPoint type="FIXPOINT">0.07848856648091146 0.003153341568065654 -0.07823033862496467</viaPoint>
-					<viaPoint type="FIXPOINT">0.07902202655960688 -0.003381201566230001 -0.0791543185850749</viaPoint>
+					<viaPoint type="FIXPOINT">-0.0028261037675905245 0.007802083009715859 0.005760980716713711</viaPoint>
+					<viaPoint type="FIXPOINT">-0.0005334600786953115 0.006534543134295307 0.000923979960110266</viaPoint>
+					<viaPoint type="FIXPOINT">1.1546319456101628e-16 -3.4861002973229917e-16 3.552713678800501e-17</viaPoint>
 				</link>
 				<link name="palm">
 					<viaPoint type="FIXPOINT">0.031568806167982556 -0.0075658229487024645 -0.15979903091337386</viaPoint>
 					<viaPoint type="FIXPOINT">0.030162187633122204 -0.006927458925629264 -0.16224244144799294</viaPoint>
 				</link>
 				<link name="little_limb1">
-					<viaPoint type="FIXPOINT">0.035143444059913244 0.009916546186546334 -0.06875213795091856</viaPoint>
-					<viaPoint type="FIXPOINT">0.038799660910331955 0.007708125999946253 -0.07708349342258362</viaPoint>
-					<viaPoint type="FIXPOINT">0.05406242381802085 -0.001105314837233501 -0.10152077211932799</viaPoint>
+					<viaPoint type="FIXPOINT">-0.005502819646581605 0.0128604762697856 0.009531163212767525</viaPoint>
+					<viaPoint type="FIXPOINT">-0.0018466027961628973 0.010652056083185518 0.001199807741102461</viaPoint>
+					<viaPoint type="FIXPOINT">0.013416160111525998 0.001838615246005764 -0.023237470955641906</viaPoint>
 				</link>
 				<link name="little_limb2">
-					<viaPoint type="FIXPOINT">0.06195413250561856 0.00556001793507872 -0.07487406557566618</viaPoint>
-					<viaPoint type="FIXPOINT">0.06413116110680885 0.004315912069457909 -0.0783516672967104</viaPoint>
-					<viaPoint type="FIXPOINT">0.07216155096621198 -0.0006542040551444772 -0.09428423100462109</viaPoint>
+					<viaPoint type="FIXPOINT">-0.0044203480185374035 0.009915682302168273 0.008963144929495464</viaPoint>
+					<viaPoint type="FIXPOINT">-0.0022433194173471184 0.008671576436547463 0.0054855432084512405</viaPoint>
+					<viaPoint type="FIXPOINT">0.0057870704420560064 0.0037014603119450763 -0.010447020499459433</viaPoint>
 				</link>
 			</myoMuscle>
 			<myoMuscle name="motor1">
@@ -946,13 +946,13 @@
 					<viaPoint type="FIXPOINT">0.03171116784981646 -0.005561634055162429 -0.16492535388322632</viaPoint>
 				</link>
 				<link name="little_limb1">
-					<viaPoint type="FIXPOINT">0.035143444059913244 0.009916546186546334 -0.06875213795091856</viaPoint>
-					<viaPoint type="FIXPOINT">0.04076541779191433 0.007025065969726547 -0.07675796673421457</viaPoint>
-					<viaPoint type="FIXPOINT">0.056171532883259545 -0.0008655464173182972 -0.10517385617902549</viaPoint>
-					<viaPoint type="FIXPOINT">0.056861923408460746 -0.008078833828778657 -0.10587260921832511</viaPoint>
+					<viaPoint type="FIXPOINT">-0.005502819646581605 0.0128604762697856 0.009531163212767525</viaPoint>
+					<viaPoint type="FIXPOINT">0.00011915408541947948 0.009968996052965811 0.00152533442947151</viaPoint>
+					<viaPoint type="FIXPOINT">0.015525269176764694 0.0020783836659209677 -0.026890555015339396</viaPoint>
+					<viaPoint type="FIXPOINT">0.016215659701965892 -0.005134903745539392 -0.02758930805463903</viaPoint>
 				</link>
 				<link name="little_limb2">
-					<viaPoint type="FIXPOINT">0.06637448052415604 -0.004355664367089598 -0.08383721050516155</viaPoint>
+					<viaPoint type="FIXPOINT">7.105427357601002e-17 -4.4408920985006264e-17 8.881784197001253e-17</viaPoint>
 				</link>
 			</myoMuscle>
 			<myoMuscle name="motor5">
@@ -1004,9 +1004,9 @@
 					<viaPoint type="FIXPOINT">0.027368311421553666 0.0017658038608826944 -0.16240330589949792</viaPoint>
 				</link>
 				<link name="little_limb1">
-					<viaPoint type="FIXPOINT">0.03435009427913244 -0.0015923093340921388 -0.0691951674879338</viaPoint>
-					<viaPoint type="FIXPOINT">0.03844742291243437 -0.0031388650241450555 -0.07253679993213975</viaPoint>
-					<viaPoint type="FIXPOINT">0.040646263706494955 -0.0029439300832393863 -0.07828330116368631</viaPoint>
+					<viaPoint type="FIXPOINT">-0.0062961694273624145 0.0013516207491471263 0.009088133675752275</viaPoint>
+					<viaPoint type="FIXPOINT">-0.002198840794060475 -0.00019493494090579071 0.005746501231546333</viaPoint>
+					<viaPoint type="FIXPOINT">1.0658141036401502e-16 -1.2129186544029835e-16 -2.3092638912203257e-16</viaPoint>
 				</link>
 			</myoMuscle>
 			<myoMuscle name="motor4">
@@ -1017,9 +1017,9 @@
 					<viaPoint type="FIXPOINT">0.027182082521894996 -0.007250845854711426 -0.16608074798345182</viaPoint>
 				</link>
 				<link name="little_limb1">
-					<viaPoint type="FIXPOINT">0.03678001167228207 0.0022163113927462373 -0.07158675620556318</viaPoint>
-					<viaPoint type="FIXPOINT">0.042959033168098036 0.0009202346453609109 -0.07159199577083435</viaPoint>
-					<viaPoint type="FIXPOINT">0.04453680672899297 0.0016613529829824262 -0.07580223945883269</viaPoint>
+					<viaPoint type="FIXPOINT">-0.0038662520342127803 0.005160241475985502 0.0066965449581229035</viaPoint>
+					<viaPoint type="FIXPOINT">0.0023127694616031837 0.0038641647286001756 0.006691305392851739</viaPoint>
+					<viaPoint type="FIXPOINT">0.0038905430224981164 0.004605283066221691 0.002481061704853396</viaPoint>
 				</link>
 			</myoMuscle>
 			<myoMuscle name="motor3">
@@ -1030,9 +1030,9 @@
 					<viaPoint type="FIXPOINT">0.03497631115595504 -0.00725084585471143 -0.16158074798345187</viaPoint>
 				</link>
 				<link name="little_limb1">
-					<viaPoint type="FIXPOINT">0.03678001167228207 0.0022163113927462373 -0.07158675620556318</viaPoint>
-					<viaPoint type="FIXPOINT">0.033695038521003785 0.0009202346453609709 -0.0769405655741054</viaPoint>
-					<viaPoint type="FIXPOINT">0.036552329730485965 0.0016613529829824782 -0.08041207940325902</viaPoint>
+					<viaPoint type="FIXPOINT">-0.0038662520342127803 0.005160241475985502 0.0066965449581229035</viaPoint>
+					<viaPoint type="FIXPOINT">-0.006951225185491064 0.003864164728600236 0.0013427355895806769</viaPoint>
+					<viaPoint type="FIXPOINT">-0.0040939339760088875 0.004605283066221744 -0.002128778239572942</viaPoint>
 				</link>
 			</myoMuscle>
 			<myoMuscle name="motor10">
@@ -1113,10 +1113,10 @@
 					<viaPoint type="FIXPOINT">0.004344529995115904 0.01001399668589093 0.013615214377497367</viaPoint>
 					<viaPoint type="FIXPOINT">0.0016059102271620597 0.009598504561753733 0.0026479213814130987</viaPoint>
 					<viaPoint type="FIXPOINT">-0.006756575942368919 0.006470066058381319 -0.02521588470211695</viaPoint>
-					<viaPoint type="FIXPOINT">0.023884386952435454 3.6214087284491823e-16 -0.03911827978966114</viaPoint>
+					<viaPoint type="FIXPOINT">-0.008638085630297252 -4.867634073590921e-16 -0.03223777445239856</viaPoint>
 				</link>
 				<link name="index_limb2">
-					<viaPoint type="FIXPOINT">0.03740764970666212 8.450184996178223e-16 -0.007523651106784541</viaPoint>
+					<viaPoint type="FIXPOINT">0.0 0.0 0.0</viaPoint>
 				</link>
 			</myoMuscle>
 			<myoMuscle name="motor20">
