@@ -672,8 +672,8 @@
 			<axis>
 				<xyz>0.9659258262890743 -1.0330413824713447e-15 0.2588190451025241</xyz>
 				<limit>
-					<lower>-1.9198621771937625</lower>
-					<upper>-0.0</upper>
+					<lower>0.0</lower>
+					<upper>1.9198621771937625</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
@@ -685,8 +685,8 @@
 			<axis>
 				<xyz>0.9659258262890743 -1.0330413824713447e-15 0.2588190451025241</xyz>
 				<limit>
-					<lower>-1.2217304763960306</lower>
-					<upper>-0.0</upper>
+					<lower>0.0</lower>
+					<upper>1.2217304763960306</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
@@ -711,8 +711,8 @@
 			<axis>
 				<xyz>0.9659258262890686 -1.2698175844150228e-15 -0.25881904510251696</xyz>
 				<limit>
-					<lower>-1.9198621771937625</lower>
-					<upper>-0.0</upper>
+					<lower>0.0</lower>
+					<upper>1.9198621771937625</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
@@ -724,8 +724,8 @@
 			<axis>
 				<xyz>0.9659258262890686 -1.2698175844150228e-15 -0.25881904510251696</xyz>
 				<limit>
-					<lower>-1.2217304763960306</lower>
-					<upper>-0.0</upper>
+					<lower>0.0</lower>
+					<upper>1.2217304763960306</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
@@ -750,8 +750,8 @@
 			<axis>
 				<xyz>-0.557681242973788 -0.6710780983723593 -0.4885138863125139</xyz>
 				<limit>
-					<lower>-1.9198621771937625</lower>
-					<upper>-0.0</upper>
+					<lower>0.0</lower>
+					<upper>1.9198621771937625</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
@@ -763,8 +763,8 @@
 			<axis>
 				<xyz>-0.557681242973788 -0.6710780983723593 -0.4885138863125139</xyz>
 				<limit>
-					<lower>-1.2217304763960306</lower>
-					<upper>-0.0</upper>
+					<lower>0.0</lower>
+					<upper>1.2217304763960306</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
@@ -789,8 +789,8 @@
 			<axis>
 				<xyz>0.8660254037844415 -6.110346603693806e-15 0.49999999999999345</xyz>
 				<limit>
-					<lower>-1.9198621771937625</lower>
-					<upper>-0.0</upper>
+					<lower>0.0</lower>
+					<upper>1.9198621771937625</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
@@ -802,8 +802,8 @@
 			<axis>
 				<xyz>0.8660254037844415 -6.110346603693806e-15 0.49999999999999345</xyz>
 				<limit>
-					<lower>-1.2217304763960306</lower>
-					<upper>-0.0</upper>
+					<lower>0.0</lower>
+					<upper>1.2217304763960306</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
@@ -854,8 +854,8 @@
 			<axis>
 				<xyz>0.866025403784445 4.0999510464529535e-16 0.5000000000000029</xyz>
 				<limit>
-					<lower>-0.0</lower>
-					<upper>-0.0</upper>
+					<lower>-0.3490658503988659</lower>
+					<upper>1.2217304763960306</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
@@ -893,8 +893,8 @@
 			<axis>
 				<xyz>1.0 -3.720545412927922e-18 2.292266993421628e-17</xyz>
 				<limit>
-					<lower>-1.9198621771937625</lower>
-					<upper>-0.0</upper>
+					<lower>0.0</lower>
+					<upper>1.9198621771937625</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
@@ -906,13 +906,13 @@
 			<axis>
 				<xyz>1.0 -3.720545412927922e-18 2.292266993421628e-17</xyz>
 				<limit>
-					<lower>-1.2217304763960306</lower>
-					<upper>-0.0</upper>
+					<lower>0.0</lower>
+					<upper>1.2217304763960306</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
-		<plugin filename="libmyomuscle_plugin.so" name="myomuscle_plugin">
+		<plugin filename="libmusc_plugin.so" name="musc_plugin">
 			<myoMuscle name="motor0">
 				<link name="palm">
 					<viaPoint type="FIXPOINT">1.8145207558717404e-16 3.3306690738754695e-17 -0.11100000000000002</viaPoint>
