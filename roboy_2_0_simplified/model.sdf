@@ -618,7 +618,7 @@
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
-		<plugin filename="libmyomuscle_plugin.so" name="myomuscle_plugin">
+		<plugin filename="libmusc_plugin.so" name="musc_plugin">
 			<myoMuscle name="motor0">
 				<link name="torso">
 					<viaPoint type="FIXPOINT">0.23757805790055153 0.47944722178973864 0.015492439711174609</viaPoint>

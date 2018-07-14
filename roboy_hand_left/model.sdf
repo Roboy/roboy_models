@@ -4,7 +4,7 @@
 		<link name="palm">
 			<pose frame="">-0.0005000000000004635 0.00500000000000008 0.06701500000000059 0.0 -0.0 0.0</pose>
 			<inertial>
-				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<pose frame="">0.0 0.0 0.05 0 0 0</pose>
 				<mass>15.51996490789225</mass>
 				<inertia>
 					<ixx>0.3009526854219939</ixx>
@@ -17,10 +17,13 @@
 			</inertial>
 			<collision name="palm_collision">
 				<geometry>
-					<mesh>
-						<uri>model://roboy_hand_left/meshes/CAD/palm.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
-					</mesh>
+					<!--<mesh>-->
+						<!--<uri>model://roboy_hand_left/meshes/CAD/palm.stl</uri>-->
+						<!--<scale>0.001 0.001 0.001</scale>-->
+					<!--</mesh>-->
+					<box>
+						<size>0.01 0.01 0.01</size>
+					</box>
 				</geometry>
 			</collision>
 			<visual name="palm_visual">
@@ -48,10 +51,13 @@
 			</inertial>
 			<collision name="ring_limb0_collision">
 				<geometry>
-					<mesh>
-						<uri>model://roboy_hand_left/meshes/CAD/ring_limb0.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
-					</mesh>
+					<!--<mesh>-->
+						<!--<uri>model://roboy_hand_left/meshes/CAD/ring_limb0.stl</uri>-->
+						<!--<scale>0.001 0.001 0.001</scale>-->
+					<!--</mesh>-->
+					<box>
+						<size>0.01 0.01 0.01</size>
+					</box>
 				</geometry>
 			</collision>
 			<visual name="ring_limb0_visual">
@@ -79,10 +85,13 @@
 			</inertial>
 			<collision name="ring_limb1_collision">
 				<geometry>
-					<mesh>
-						<uri>model://roboy_hand_left/meshes/CAD/ring_limb1.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
-					</mesh>
+					<!--<mesh>-->
+						<!--<uri>model://roboy_hand_left/meshes/CAD/ring_limb1.stl</uri>-->
+						<!--<scale>0.001 0.001 0.001</scale>-->
+					<!--</mesh>-->
+					<box>
+						<size>0.01 0.01 0.01</size>
+					</box>
 				</geometry>
 			</collision>
 			<visual name="ring_limb1_visual">
@@ -110,10 +119,13 @@
 			</inertial>
 			<collision name="ring_limb2_collision">
 				<geometry>
-					<mesh>
-						<uri>model://roboy_hand_left/meshes/CAD/ring_limb2.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
-					</mesh>
+					<!--<mesh>-->
+						<!--<uri>model://roboy_hand_left/meshes/CAD/ring_limb2.stl</uri>-->
+						<!--<scale>0.001 0.001 0.001</scale>-->
+					<!--</mesh>-->
+					<box>
+						<size>0.01 0.01 0.01</size>
+					</box>
 				</geometry>
 			</collision>
 			<visual name="ring_limb2_visual">
@@ -141,10 +153,13 @@
 			</inertial>
 			<collision name="ring_limb3_collision">
 				<geometry>
-					<mesh>
-						<uri>model://roboy_hand_left/meshes/CAD/ring_limb3.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
-					</mesh>
+					<!--<mesh>-->
+						<!--<uri>model://roboy_hand_left/meshes/CAD/ring_limb3.stl</uri>-->
+						<!--<scale>0.001 0.001 0.001</scale>-->
+					<!--</mesh>-->
+					<box>
+						<size>0.01 0.01 0.01</size>
+					</box>
 				</geometry>
 			</collision>
 			<visual name="ring_limb3_visual">
@@ -172,10 +187,13 @@
 			</inertial>
 			<collision name="little_limb0_collision">
 				<geometry>
-					<mesh>
-						<uri>model://roboy_hand_left/meshes/CAD/little_limb0.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
-					</mesh>
+					<!--<mesh>-->
+						<!--<uri>model://roboy_hand_left/meshes/CAD/little_limb0.stl</uri>-->
+						<!--<scale>0.001 0.001 0.001</scale>-->
+					<!--</mesh>-->
+					<box>
+						<size>0.01 0.01 0.01</size>
+					</box>
 				</geometry>
 			</collision>
 			<visual name="little_limb0_visual">
@@ -203,10 +221,13 @@
 			</inertial>
 			<collision name="little_limb1_collision">
 				<geometry>
-					<mesh>
-						<uri>model://roboy_hand_left/meshes/CAD/little_limb1.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
-					</mesh>
+					<!--<mesh>-->
+						<!--<uri>model://roboy_hand_left/meshes/CAD/little_limb1.stl</uri>-->
+						<!--<scale>0.001 0.001 0.001</scale>-->
+					<!--</mesh>-->
+					<box>
+						<size>0.01 0.01 0.01</size>
+					</box>
 				</geometry>
 			</collision>
 			<visual name="little_limb1_visual">
@@ -234,10 +255,13 @@
 			</inertial>
 			<collision name="little_limb2_collision">
 				<geometry>
-					<mesh>
-						<uri>model://roboy_hand_left/meshes/CAD/little_limb2.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
-					</mesh>
+					<!--<mesh>-->
+						<!--<uri>model://roboy_hand_left/meshes/CAD/little_limb2.stl</uri>-->
+						<!--<scale>0.001 0.001 0.001</scale>-->
+					<!--</mesh>-->
+					<box>
+						<size>0.01 0.01 0.01</size>
+					</box>
 				</geometry>
 			</collision>
 			<visual name="little_limb2_visual">
@@ -265,10 +289,13 @@
 			</inertial>
 			<collision name="little_limb3_collision">
 				<geometry>
-					<mesh>
-						<uri>model://roboy_hand_left/meshes/CAD/little_limb3.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
-					</mesh>
+					<!--<mesh>-->
+						<!--<uri>model://roboy_hand_left/meshes/CAD/little_limb3.stl</uri>-->
+						<!--<scale>0.001 0.001 0.001</scale>-->
+					<!--</mesh>-->
+					<box>
+						<size>0.01 0.01 0.01</size>
+					</box>
 				</geometry>
 			</collision>
 			<visual name="little_limb3_visual">
@@ -296,10 +323,13 @@
 			</inertial>
 			<collision name="thumb_limb0_collision">
 				<geometry>
-					<mesh>
-						<uri>model://roboy_hand_left/meshes/CAD/thumb_limb0.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
-					</mesh>
+					<!--<mesh>-->
+						<!--<uri>model://roboy_hand_left/meshes/CAD/thumb_limb0.stl</uri>-->
+						<!--<scale>0.001 0.001 0.001</scale>-->
+					<!--</mesh>-->
+					<box>
+						<size>0.01 0.01 0.01</size>
+					</box>
 				</geometry>
 			</collision>
 			<visual name="thumb_limb0_visual">
@@ -327,10 +357,13 @@
 			</inertial>
 			<collision name="thumb_limb1_collision">
 				<geometry>
-					<mesh>
-						<uri>model://roboy_hand_left/meshes/CAD/thumb_limb1.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
-					</mesh>
+					<!--<mesh>-->
+						<!--<uri>model://roboy_hand_left/meshes/CAD/thumb_limb1.stl</uri>-->
+						<!--<scale>0.001 0.001 0.001</scale>-->
+					<!--</mesh>-->
+					<box>
+						<size>0.01 0.01 0.01</size>
+					</box>
 				</geometry>
 			</collision>
 			<visual name="thumb_limb1_visual">
@@ -358,10 +391,13 @@
 			</inertial>
 			<collision name="thumb_limb2_collision">
 				<geometry>
-					<mesh>
-						<uri>model://roboy_hand_left/meshes/CAD/thumb_limb2.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
-					</mesh>
+					<!--<mesh>-->
+						<!--<uri>model://roboy_hand_left/meshes/CAD/thumb_limb2.stl</uri>-->
+						<!--<scale>0.001 0.001 0.001</scale>-->
+					<!--</mesh>-->
+					<box>
+						<size>0.01 0.01 0.01</size>
+					</box>
 				</geometry>
 			</collision>
 			<visual name="thumb_limb2_visual">
@@ -389,10 +425,13 @@
 			</inertial>
 			<collision name="thumb_limb3_collision">
 				<geometry>
-					<mesh>
-						<uri>model://roboy_hand_left/meshes/CAD/thumb_limb3.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
-					</mesh>
+					<!--<mesh>-->
+						<!--<uri>model://roboy_hand_left/meshes/CAD/thumb_limb3.stl</uri>-->
+						<!--<scale>0.001 0.001 0.001</scale>-->
+					<!--</mesh>-->
+					<box>
+						<size>0.01 0.01 0.01</size>
+					</box>
 				</geometry>
 			</collision>
 			<visual name="thumb_limb3_visual">
@@ -420,10 +459,13 @@
 			</inertial>
 			<collision name="index_limb0_collision">
 				<geometry>
-					<mesh>
-						<uri>model://roboy_hand_left/meshes/CAD/index_limb0.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
-					</mesh>
+					<!--<mesh>-->
+						<!--<uri>model://roboy_hand_left/meshes/CAD/index_limb0.stl</uri>-->
+						<!--<scale>0.001 0.001 0.001</scale>-->
+					<!--</mesh>-->
+					<box>
+						<size>0.01 0.01 0.01</size>
+					</box>
 				</geometry>
 			</collision>
 			<visual name="index_limb0_visual">
@@ -451,10 +493,13 @@
 			</inertial>
 			<collision name="index_limb1_collision">
 				<geometry>
-					<mesh>
-						<uri>model://roboy_hand_left/meshes/CAD/index_limb1.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
-					</mesh>
+					<!--<mesh>-->
+						<!--<uri>model://roboy_hand_left/meshes/CAD/index_limb1.stl</uri>-->
+						<!--<scale>0.001 0.001 0.001</scale>-->
+					<!--</mesh>-->
+					<box>
+						<size>0.01 0.01 0.01</size>
+					</box>
 				</geometry>
 			</collision>
 			<visual name="index_limb1_visual">
@@ -482,10 +527,13 @@
 			</inertial>
 			<collision name="index_limb2_collision">
 				<geometry>
-					<mesh>
-						<uri>model://roboy_hand_left/meshes/CAD/index_limb2.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
-					</mesh>
+					<!--<mesh>-->
+						<!--<uri>model://roboy_hand_left/meshes/CAD/index_limb2.stl</uri>-->
+						<!--<scale>0.001 0.001 0.001</scale>-->
+					<!--</mesh>-->
+					<box>
+						<size>0.01 0.01 0.01</size>
+					</box>
 				</geometry>
 			</collision>
 			<visual name="index_limb2_visual">
@@ -513,10 +561,13 @@
 			</inertial>
 			<collision name="index_limb3_collision">
 				<geometry>
-					<mesh>
-						<uri>model://roboy_hand_left/meshes/CAD/index_limb3.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
-					</mesh>
+					<!--<mesh>-->
+						<!--<uri>model://roboy_hand_left/meshes/CAD/index_limb3.stl</uri>-->
+						<!--<scale>0.001 0.001 0.001</scale>-->
+					<!--</mesh>-->
+					<box>
+						<size>0.01 0.01 0.01</size>
+					</box>
 				</geometry>
 			</collision>
 			<visual name="index_limb3_visual">
@@ -544,10 +595,13 @@
 			</inertial>
 			<collision name="middle_limb0_collision">
 				<geometry>
-					<mesh>
-						<uri>model://roboy_hand_left/meshes/CAD/middle_limb0.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
-					</mesh>
+					<!--<mesh>-->
+						<!--<uri>model://roboy_hand_left/meshes/CAD/middle_limb0.stl</uri>-->
+						<!--<scale>0.001 0.001 0.001</scale>-->
+					<!--</mesh>-->
+					<box>
+						<size>0.01 0.01 0.01</size>
+					</box>
 				</geometry>
 			</collision>
 			<visual name="middle_limb0_visual">
@@ -575,10 +629,13 @@
 			</inertial>
 			<collision name="middle_limb1_collision">
 				<geometry>
-					<mesh>
-						<uri>model://roboy_hand_left/meshes/CAD/middle_limb1.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
-					</mesh>
+					<!--<mesh>-->
+						<!--<uri>model://roboy_hand_left/meshes/CAD/middle_limb1.stl</uri>-->
+						<!--<scale>0.001 0.001 0.001</scale>-->
+					<!--</mesh>-->
+					<box>
+						<size>0.01 0.01 0.01</size>
+					</box>
 				</geometry>
 			</collision>
 			<visual name="middle_limb1_visual">
@@ -606,10 +663,13 @@
 			</inertial>
 			<collision name="middle_limb2_collision">
 				<geometry>
-					<mesh>
-						<uri>model://roboy_hand_left/meshes/CAD/middle_limb2.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
-					</mesh>
+					<!--<mesh>-->
+						<!--<uri>model://roboy_hand_left/meshes/CAD/middle_limb2.stl</uri>-->
+						<!--<scale>0.001 0.001 0.001</scale>-->
+					<!--</mesh>-->
+					<box>
+						<size>0.01 0.01 0.01</size>
+					</box>
 				</geometry>
 			</collision>
 			<visual name="middle_limb2_visual">
@@ -637,10 +697,13 @@
 			</inertial>
 			<collision name="middle_limb3_collision">
 				<geometry>
-					<mesh>
-						<uri>model://roboy_hand_left/meshes/CAD/middle_limb3.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
-					</mesh>
+					<!--<mesh>-->
+						<!--<uri>model://roboy_hand_left/meshes/CAD/middle_limb3.stl</uri>-->
+						<!--<scale>0.001 0.001 0.001</scale>-->
+					<!--</mesh>-->
+					<box>
+						<size>0.01 0.01 0.01</size>
+					</box>
 				</geometry>
 			</collision>
 			<visual name="middle_limb3_visual">
