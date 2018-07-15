@@ -2,14 +2,14 @@ mass[kg] 	 COM[cm] 			 component name
 COM: upper_arm_left
 ----------------------------------------------------------------
 Mass of upper_arm_left: 8.500588
-COM of upper_arm_left: 22.324800 41.377909 -0.583605
+COM of upper_arm_left: 41.007065 45.489206 3.554676
 ----------------------------------------------------------------
 Body: upper_arm_left
 mass[kg] 	 COM[cm] 			 component name
 COM: lower_arm_left
 ----------------------------------------------------------------
 Mass of lower_arm_left: 1.493193
-COM of lower_arm_left: 10.972191 15.088311 0.014628
+COM of lower_arm_left: 46.644921 33.849184 22.660236
 ----------------------------------------------------------------
 Body: lower_arm_left
 mass[kg] 	 COM[cm] 			 component name
@@ -35,24 +35,24 @@ COM of shoulder_left_link3: 28.760484 59.444356 -1.304247
 Body: shoulder_left_link3
 mass[kg] 	 COM[cm] 			 component name
 COM: base
-1288.024851 	 -494.014958 5019.435707 15982.923191 		 base:1
-300.031476 	 149.997458 -14550.265795 16671.986072 		 Component1445:1
-300.031476 	 149.997458 -14550.265795 16671.986072 		 Component1445:1
+933.243672 	 -466.621836 1961.214265 -529.605125 		 base:1
+463.201197 	 17075.966600 -25959.834310 0.000000 		 Component1467:1
+463.201197 	 17075.966600 -25959.834310 0.000000 		 Component1467:1
 ----------------------------------------------------------------
-Mass of base: 1888.087804
-COM of base: -0.102760 -12.754225 26.125319
+Mass of base: 1859.646065
+COM of base: 18.113829 -26.864496 -0.284788
 ----------------------------------------------------------------
 Body: base
 mass[kg] 	 COM[cm] 			 component name
 COM: hand_left
 ----------------------------------------------------------------
 Mass of hand_left: 3.576722
-COM of hand_left: 2.371051 -4.738164 0.164072
+COM of hand_left: 42.833322 30.957115 43.781245
 ----------------------------------------------------------------
 Body: hand_left
+Joint: EXPORT_elbow_left
+Joint: EXPORT_shoulder_left_axis_3
 Joint: EXPORT_shoulder_left_axis_1
 Joint: EXPORT_shoulder_left_axis_2
 Joint: EXPORT_wrist_left
 Joint: EXPORT_base
-Joint: EXPORT_shoulder_left_axis_3
-Joint: EXPORT_elbow_left

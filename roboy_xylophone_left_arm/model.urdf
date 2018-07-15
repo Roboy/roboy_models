@@ -1,5 +1,19 @@
 <?xml version="1.0" ?>
 <robot name="roboy_xylophone_left_arm">
+  <joint name="elbow_left" type="revolute">
+    <parent link="upper_arm_left"/>
+    <child link="lower_arm_left"/>
+    <origin rpy="0  0  0" xyz="0.16717 -0.25001  0.07835"/>
+    <axis xyz="0.75942  0.62977  0.16326"/>
+    <limit effort="0.0" lower="0.0" upper="1.57079632679" velocity="0.0"/>
+  </joint>
+  <joint name="shoulder_left_axis_3" type="revolute">
+    <parent link="shoulder_left_link3"/>
+    <child link="upper_arm_left"/>
+    <origin rpy="0  0  0" xyz="0.00356 -0.01303  0.00348"/>
+    <axis xyz="0.58669 -0.77138  0.24648"/>
+    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0"/>
+  </joint>
   <joint name="shoulder_left_axis_1" type="revolute">
     <parent link="torso"/>
     <child link="shoulder_left_link2"/>
@@ -10,15 +24,15 @@
   <joint name="shoulder_left_axis_2" type="revolute">
     <parent link="shoulder_left_link2"/>
     <child link="shoulder_left_link3"/>
-    <origin rpy="0  0  0" xyz="0.00484 -0.00188  0.0051"/>
-    <axis xyz="-0.9157   0.40006  0.03784"/>
+    <origin rpy="0  0  0" xyz="0.00428  0.00308  0.00501"/>
+    <axis xyz="-0.80304 -0.59343  0.05428"/>
     <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0"/>
   </joint>
   <joint name="wrist_left" type="revolute">
     <parent link="lower_arm_left"/>
     <child link="hand_left"/>
-    <origin rpy="0  0  0" xyz="-0.08794 -0.24668  0.0059"/>
-    <axis xyz="-0.42108 -0.9061   0.04077"/>
+    <origin rpy="0  0  0" xyz="-0.02916 -0.00421  0.2603"/>
+    <axis xyz="-0.19385 -0.05923  0.97924"/>
     <limit effort="0.0" lower="-1.57079632679" upper="1.57079632679" velocity="0.0"/>
   </joint>
   <joint name="base" type="revolute">
@@ -26,57 +40,43 @@
     <child link="torso"/>
     <origin rpy="0  0  0" xyz="-0.005    0.0465  -0.00567"/>
     <axis xyz="0 -1  0"/>
-    <limit effort="0.0" lower="-1.57079632679" upper="1.57079632679" velocity="0.0"/>
-  </joint>
-  <joint name="shoulder_left_axis_3" type="revolute">
-    <parent link="shoulder_left_link3"/>
-    <child link="upper_arm_left"/>
-    <origin rpy="0  0  0" xyz="-0.00981 -0.00988  0.00072"/>
-    <axis xyz="-0.39859 -0.91621  0.04083"/>
-    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0"/>
-  </joint>
-  <joint name="elbow_left" type="revolute">
-    <parent link="upper_arm_left"/>
-    <child link="lower_arm_left"/>
-    <origin rpy="0  0  0" xyz="-0.13987 -0.27699  0.01743"/>
-    <axis xyz="0.91711 -0.39841  0.01288"/>
-    <limit effort="0.0" lower="-1.57079632679" upper="0.0" velocity="0.0"/>
+    <limit effort="0.0" lower="-1.57" upper="1.57" velocity="0.0"/>
   </joint>
   <link name="upper_arm_left">
     <inertial>
       <mass value="1"/>
-      <origin rpy="0  0  0" xyz="-0.05911 -0.16877  0.00667"/>
-      <inertia ixx="0.537883331911593" ixy="-0.2839481384663243" ixz="0.007785417909101223" iyy="0.15805855978363514" iyz="0.004048703832605302" izz="0.6863872397846186"/>
+      <origin rpy="0  0  0" xyz="0.11488 -0.12948  0.04538"/>
+      <inertia ixx="0.6402411461080958" ixy="-0.5418748782479359" ixz="-0.043483790731767745" iyy="0.49032594331423146" iyz="-0.039777175197031514" izz="1.1141750227606384"/>
     </inertial>
     <collision name="upper_arm_left_collision">
-      <origin rpy="0  0  0" xyz="-0.05911 -0.16877  0.00667"/>
+      <origin rpy="0  0  0" xyz="0.11488 -0.12948  0.04538"/>
       <geometry>
-        <mesh filename="package://roboy_models/roboy_xylophone_left_arm/meshes/CAD/upper_arm_left.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://common_utilities/bash/../../roboy_models/roboy_2_0_arm_elbow/meshes/CAD/upper_arm_left.stl OR common_utilities/bash/../../roboy_models/roboy_2_0_left_arm_elbow/meshes/CAD/upper_arm_left.stl OR common_utilities/bash/../../roboy_models/roboy_2_0_left_arm_right/meshes/CAD/upper_arm_left.stl OR common_utilities/bash/../../roboy_models/roboy_2_0_left_arm_simplified/meshes/CAD/upper_arm_left.stl OR common_utilities/bash/../../roboy_models/roboy_2_0_simplified/meshes/CAD/upper_arm_left.stl OR common_utilities/bash/../../roboy_models/roboy_xylophone_left_arm/meshes/CAD/upper_arm_left.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual name="upper_arm_left_visual">
-      <origin rpy="0  0  0" xyz="-0.05911 -0.16877  0.00667"/>
+      <origin rpy="0  0  0" xyz="0.11488 -0.12948  0.04538"/>
       <geometry>
-        <mesh filename="package://roboy_models/roboy_xylophone_left_arm/meshes/CAD/upper_arm_left.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://common_utilities/bash/../../roboy_models/roboy_2_0_arm_elbow/meshes/CAD/upper_arm_left.stl OR common_utilities/bash/../../roboy_models/roboy_2_0_left_arm_elbow/meshes/CAD/upper_arm_left.stl OR common_utilities/bash/../../roboy_models/roboy_2_0_left_arm_right/meshes/CAD/upper_arm_left.stl OR common_utilities/bash/../../roboy_models/roboy_2_0_left_arm_simplified/meshes/CAD/upper_arm_left.stl OR common_utilities/bash/../../roboy_models/roboy_2_0_simplified/meshes/CAD/upper_arm_left.stl OR common_utilities/bash/../../roboy_models/roboy_xylophone_left_arm/meshes/CAD/upper_arm_left.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
   </link>
   <link name="lower_arm_left">
     <inertial>
       <mass value="0.5"/>
-      <origin rpy="0  0  0" xyz="-0.03276 -0.15468 -0.00478"/>
-      <inertia ixx="0.05035342652630562" ixy="-0.0288596430687732" ixz="-0.0010965450539850278" iyy="0.018578830467201414" iyz="-0.0007223739921027385" izz="0.067479636075845"/>
+      <origin rpy="0  0  0" xyz="0.00408  0.00412  0.15807"/>
+      <inertia ixx="0.24141833434318488" ixy="-0.22811824726305105" ixz="-0.10451090229798751" iyy="0.3827807197420172" iyz="-0.1408731857666472" izz="0.4790437969170139"/>
     </inertial>
     <collision name="lower_arm_left_collision">
-      <origin rpy="0  0  0" xyz="-0.03276 -0.15468 -0.00478"/>
+      <origin rpy="0  0  0" xyz="0.00408  0.00412  0.15807"/>
       <geometry>
-        <mesh filename="package://roboy_models/roboy_xylophone_left_arm/meshes/CAD/lower_arm_left.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://common_utilities/bash/../../roboy_models/roboy_2_0_arm_elbow/meshes/CAD/lower_arm_left.stl OR common_utilities/bash/../../roboy_models/roboy_2_0_left_arm_elbow/meshes/CAD/lower_arm_left.stl OR common_utilities/bash/../../roboy_models/roboy_2_0_left_arm_right/meshes/CAD/lower_arm_left.stl OR common_utilities/bash/../../roboy_models/roboy_2_0_left_arm_simplified/meshes/CAD/lower_arm_left.stl OR common_utilities/bash/../../roboy_models/roboy_2_0_simplified/meshes/CAD/lower_arm_left.stl OR common_utilities/bash/../../roboy_models/roboy_xylophone_left_arm/meshes/CAD/lower_arm_left.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual name="lower_arm_left_visual">
-      <origin rpy="0  0  0" xyz="-0.03276 -0.15468 -0.00478"/>
+      <origin rpy="0  0  0" xyz="0.00408  0.00412  0.15807"/>
       <geometry>
-        <mesh filename="package://roboy_models/roboy_xylophone_left_arm/meshes/CAD/lower_arm_left.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://common_utilities/bash/../../roboy_models/roboy_2_0_arm_elbow/meshes/CAD/lower_arm_left.stl OR common_utilities/bash/../../roboy_models/roboy_2_0_left_arm_elbow/meshes/CAD/lower_arm_left.stl OR common_utilities/bash/../../roboy_models/roboy_2_0_left_arm_right/meshes/CAD/lower_arm_left.stl OR common_utilities/bash/../../roboy_models/roboy_2_0_left_arm_simplified/meshes/CAD/lower_arm_left.stl OR common_utilities/bash/../../roboy_models/roboy_2_0_simplified/meshes/CAD/lower_arm_left.stl OR common_utilities/bash/../../roboy_models/roboy_xylophone_left_arm/meshes/CAD/lower_arm_left.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
   </link>
@@ -89,13 +89,13 @@
     <collision name="torso_collision">
       <origin rpy="0  0  0" xyz="0  0  0"/>
       <geometry>
-        <mesh filename="package://roboy_models/roboy_xylophone_left_arm/meshes/CAD/torso.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://common_utilities/bash/../../roboy_models/roboy_2_0_arm_elbow/meshes/CAD/torso.stl OR common_utilities/bash/../../roboy_models/roboy_2_0_head_simplified/meshes/CAD/torso.stl OR common_utilities/bash/../../roboy_models/roboy_2_0_left_arm_elbow/meshes/CAD/torso.stl OR common_utilities/bash/../../roboy_models/roboy_2_0_left_arm_right/meshes/CAD/torso.stl OR common_utilities/bash/../../roboy_models/roboy_2_0_left_arm_simplified/meshes/CAD/torso.stl OR common_utilities/bash/../../roboy_models/roboy_2_0_simplified/meshes/CAD/torso.stl OR common_utilities/bash/../../roboy_models/roboy_xylophone_left_arm/meshes/CAD/torso.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual name="torso_visual">
       <origin rpy="0  0  0" xyz="0  0  0"/>
       <geometry>
-        <mesh filename="package://roboy_models/roboy_xylophone_left_arm/meshes/CAD/torso.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://common_utilities/bash/../../roboy_models/roboy_2_0_arm_elbow/meshes/CAD/torso.stl OR common_utilities/bash/../../roboy_models/roboy_2_0_head_simplified/meshes/CAD/torso.stl OR common_utilities/bash/../../roboy_models/roboy_2_0_left_arm_elbow/meshes/CAD/torso.stl OR common_utilities/bash/../../roboy_models/roboy_2_0_left_arm_right/meshes/CAD/torso.stl OR common_utilities/bash/../../roboy_models/roboy_2_0_left_arm_simplified/meshes/CAD/torso.stl OR common_utilities/bash/../../roboy_models/roboy_2_0_simplified/meshes/CAD/torso.stl OR common_utilities/bash/../../roboy_models/roboy_xylophone_left_arm/meshes/CAD/torso.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
   </link>
@@ -103,75 +103,75 @@
     <inertial>
       <mass value="0.0001"/>
       <origin rpy="0  0  0" xyz="0.00027  0.00011  0.00528"/>
-      <inertia ixx="0.0012072899996484743" ixy="-0.0005837448637877135" ixz="2.6471936013397976e-05" iyy="0.00028317981326174787" iyz="1.2802903922410813e-05" izz="0.0014890219512845167"/>
+      <inertia ixx="0.0012072779471331424" ixy="-0.0005836493371977921" ixz="2.6466518398825833e-05" iyy="0.0002832054015606377" iyz="1.2801954557736535e-05" izz="0.0014890358330457523"/>
     </inertial>
     <collision name="shoulder_left_link2_collision">
       <origin rpy="0  0  0" xyz="0.00027  0.00011  0.00528"/>
       <geometry>
-        <mesh filename="package://roboy_models/roboy_xylophone_left_arm/meshes/CAD/shoulder_left_link2.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://common_utilities/bash/../../roboy_models/roboy_2_0_arm_elbow/meshes/CAD/shoulder_left_link2.stl OR common_utilities/bash/../../roboy_models/roboy_2_0_left_arm_elbow/meshes/CAD/shoulder_left_link2.stl OR common_utilities/bash/../../roboy_models/roboy_2_0_left_arm_right/meshes/CAD/shoulder_left_link2.stl OR common_utilities/bash/../../roboy_models/roboy_2_0_left_arm_simplified/meshes/CAD/shoulder_left_link2.stl OR common_utilities/bash/../../roboy_models/roboy_xylophone_left_arm/meshes/CAD/shoulder_left_link2.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual name="shoulder_left_link2_visual">
       <origin rpy="0  0  0" xyz="0.00027  0.00011  0.00528"/>
       <geometry>
-        <mesh filename="package://roboy_models/roboy_xylophone_left_arm/meshes/CAD/shoulder_left_link2.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://common_utilities/bash/../../roboy_models/roboy_2_0_arm_elbow/meshes/CAD/shoulder_left_link2.stl OR common_utilities/bash/../../roboy_models/roboy_2_0_left_arm_elbow/meshes/CAD/shoulder_left_link2.stl OR common_utilities/bash/../../roboy_models/roboy_2_0_left_arm_right/meshes/CAD/shoulder_left_link2.stl OR common_utilities/bash/../../roboy_models/roboy_2_0_left_arm_simplified/meshes/CAD/shoulder_left_link2.stl OR common_utilities/bash/../../roboy_models/roboy_xylophone_left_arm/meshes/CAD/shoulder_left_link2.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
   </link>
   <link name="shoulder_left_link3">
     <inertial>
       <mass value="0.0001"/>
-      <origin rpy="0  0  0" xyz="-0.00457  0.002    0.00018"/>
-      <inertia ixx="0.0020798217468755596" ixy="-0.0010054463742006988" ixz="4.545728721015062e-05" iyy="0.00048752696840872773" iyz="2.198779157620949e-05" izz="0.0025651650656281387"/>
+      <origin rpy="0  0  0" xyz="-0.00401 -0.00296  0.00027"/>
+      <inertia ixx="0.002080620953748565" ixy="-0.0010117605271720705" ixz="4.4194099056334015e-05" iyy="0.000493423894128168" iyz="2.149696349774065e-05" izz="0.0025719684447073326"/>
     </inertial>
     <collision name="shoulder_left_link3_collision">
-      <origin rpy="0  0  0" xyz="-0.00457  0.002    0.00018"/>
+      <origin rpy="0  0  0" xyz="-0.00401 -0.00296  0.00027"/>
       <geometry>
-        <mesh filename="package://roboy_models/roboy_xylophone_left_arm/meshes/CAD/shoulder_left_link3.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://common_utilities/bash/../../roboy_models/roboy_2_0_arm_elbow/meshes/CAD/shoulder_left_link3.stl OR common_utilities/bash/../../roboy_models/roboy_2_0_left_arm_elbow/meshes/CAD/shoulder_left_link3.stl OR common_utilities/bash/../../roboy_models/roboy_2_0_left_arm_right/meshes/CAD/shoulder_left_link3.stl OR common_utilities/bash/../../roboy_models/roboy_2_0_left_arm_simplified/meshes/CAD/shoulder_left_link3.stl OR common_utilities/bash/../../roboy_models/roboy_xylophone_left_arm/meshes/CAD/shoulder_left_link3.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual name="shoulder_left_link3_visual">
-      <origin rpy="0  0  0" xyz="-0.00457  0.002    0.00018"/>
+      <origin rpy="0  0  0" xyz="-0.00401 -0.00296  0.00027"/>
       <geometry>
-        <mesh filename="package://roboy_models/roboy_xylophone_left_arm/meshes/CAD/shoulder_left_link3.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://common_utilities/bash/../../roboy_models/roboy_2_0_arm_elbow/meshes/CAD/shoulder_left_link3.stl OR common_utilities/bash/../../roboy_models/roboy_2_0_left_arm_elbow/meshes/CAD/shoulder_left_link3.stl OR common_utilities/bash/../../roboy_models/roboy_2_0_left_arm_right/meshes/CAD/shoulder_left_link3.stl OR common_utilities/bash/../../roboy_models/roboy_2_0_left_arm_simplified/meshes/CAD/shoulder_left_link3.stl OR common_utilities/bash/../../roboy_models/roboy_xylophone_left_arm/meshes/CAD/shoulder_left_link3.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
   </link>
   <link name="base">
     <inertial>
-      <mass value="1288.0248510796005"/>
-      <origin rpy="0  0  0" xyz="-0.00102 -0.12754  0.26125"/>
-      <inertia ixx="293.71257870446885" ixy="0.10622423436153161" ixz="-15.819938611465082" iyy="502.1649703869956" iyz="-0.02628662450705171" izz="215.86538928332493"/>
+      <mass value="933.2436721945746"/>
+      <origin rpy="0  0  0" xyz="0.18113 -0.26864 -0.00284"/>
+      <inertia ixx="174.14147750133725" ixy="0.09806071324502409" ixz="0.11129666964557769" iyy="347.0634323190336" iyz="-0.026480256273293527" izz="174.13475410712158"/>
     </inertial>
     <collision name="base_collision">
-      <origin rpy="0  0  0" xyz="-0.00102 -0.12754  0.26125"/>
+      <origin rpy="0  0  0" xyz="0.18113 -0.26864 -0.00284"/>
       <geometry>
-        <mesh filename="package://roboy_models/roboy_xylophone_left_arm/meshes/CAD/base.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://common_utilities/bash/../../roboy_models/cable_robot_6dof/meshes/CAD/base.stl OR common_utilities/bash/../../roboy_models/nst_arm/meshes/CAD/base.stl OR common_utilities/bash/../../roboy_models/roboy_xylophone_left_arm/meshes/CAD/base.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual name="base_visual">
-      <origin rpy="0  0  0" xyz="-0.00102 -0.12754  0.26125"/>
+      <origin rpy="0  0  0" xyz="0.18113 -0.26864 -0.00284"/>
       <geometry>
-        <mesh filename="package://roboy_models/roboy_xylophone_left_arm/meshes/CAD/base.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://common_utilities/bash/../../roboy_models/cable_robot_6dof/meshes/CAD/base.stl OR common_utilities/bash/../../roboy_models/nst_arm/meshes/CAD/base.stl OR common_utilities/bash/../../roboy_models/roboy_xylophone_left_arm/meshes/CAD/base.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
   </link>
   <link name="hand_left">
     <inertial>
-      <mass value="0.2"/>
-      <origin rpy="0  0  0" xyz="-0.03083 -0.10625 -0.00919"/>
-      <inertia ixx="0.06978121468110386" ixy="-0.0010046569455812616" ixz="0.020582029816277006" iyy="0.06286377334862821" iyz="0.0030030362707102725" izz="0.007823453468194285"/>
+      <mass value="0.3"/>
+      <origin rpy="0  0  0" xyz="-0.00486 -0.02058  0.10898"/>
+      <inertia ixx="0.6046017713545409" ixy="-0.2440021848548819" ixz="-0.2997788720088539" iyy="0.47805164992471755" iyz="-0.2335090738302775" izz="0.5123370480639781"/>
     </inertial>
     <collision name="hand_left_collision">
-      <origin rpy="0  0  0" xyz="-0.03083 -0.10625 -0.00919"/>
+      <origin rpy="0  0  0" xyz="-0.00486 -0.02058  0.10898"/>
       <geometry>
-        <mesh filename="package://roboy_models/roboy_xylophone_left_arm/meshes/CAD/hand_left.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://common_utilities/bash/../../roboy_models/roboy_2_0_simplified/meshes/CAD/hand_left.stl OR common_utilities/bash/../../roboy_models/roboy_xylophone_left_arm/meshes/CAD/hand_left.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual name="hand_left_visual">
-      <origin rpy="0  0  0" xyz="-0.03083 -0.10625 -0.00919"/>
+      <origin rpy="0  0  0" xyz="-0.00486 -0.02058  0.10898"/>
       <geometry>
-        <mesh filename="package://roboy_models/roboy_xylophone_left_arm/meshes/CAD/hand_left.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://common_utilities/bash/../../roboy_models/roboy_2_0_simplified/meshes/CAD/hand_left.stl OR common_utilities/bash/../../roboy_models/roboy_xylophone_left_arm/meshes/CAD/hand_left.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
   </link>
