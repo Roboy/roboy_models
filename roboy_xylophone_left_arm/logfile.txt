@@ -1,0 +1,58 @@
+mass[kg] 	 COM[cm] 			 component name
+COM: upper_arm_left
+----------------------------------------------------------------
+Mass of upper_arm_left: 8.500588
+COM of upper_arm_left: 22.324800 41.377909 -0.583605
+----------------------------------------------------------------
+Body: upper_arm_left
+mass[kg] 	 COM[cm] 			 component name
+COM: lower_arm_left
+----------------------------------------------------------------
+Mass of lower_arm_left: 1.493193
+COM of lower_arm_left: 10.972191 15.088311 0.014628
+----------------------------------------------------------------
+Body: lower_arm_left
+mass[kg] 	 COM[cm] 			 component name
+COM: torso
+----------------------------------------------------------------
+Mass of torso: 40.315523
+COM of torso: -0.500000 4.650000 -0.567489
+----------------------------------------------------------------
+Body: torso
+mass[kg] 	 COM[cm] 			 component name
+COM: shoulder_left_link2
+----------------------------------------------------------------
+Mass of shoulder_left_link2: 0.010242
+COM of shoulder_left_link2: 28.760484 59.444356 -1.304247
+----------------------------------------------------------------
+Body: shoulder_left_link2
+mass[kg] 	 COM[cm] 			 component name
+COM: shoulder_left_link3
+----------------------------------------------------------------
+Mass of shoulder_left_link3: 0.005913
+COM of shoulder_left_link3: 28.760484 59.444356 -1.304247
+----------------------------------------------------------------
+Body: shoulder_left_link3
+mass[kg] 	 COM[cm] 			 component name
+COM: base
+1288.024851 	 -494.014958 5019.435707 15982.923191 		 base:1
+300.031476 	 149.997458 -14550.265795 16671.986072 		 Component1445:1
+300.031476 	 149.997458 -14550.265795 16671.986072 		 Component1445:1
+----------------------------------------------------------------
+Mass of base: 1888.087804
+COM of base: -0.102760 -12.754225 26.125319
+----------------------------------------------------------------
+Body: base
+mass[kg] 	 COM[cm] 			 component name
+COM: hand_left
+----------------------------------------------------------------
+Mass of hand_left: 3.576722
+COM of hand_left: 2.371051 -4.738164 0.164072
+----------------------------------------------------------------
+Body: hand_left
+Joint: EXPORT_shoulder_left_axis_1
+Joint: EXPORT_shoulder_left_axis_2
+Joint: EXPORT_wrist_left
+Joint: EXPORT_base
+Joint: EXPORT_shoulder_left_axis_3
+Joint: EXPORT_elbow_left
