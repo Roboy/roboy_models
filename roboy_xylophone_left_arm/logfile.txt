@@ -1,58 +1,76 @@
 mass[kg] 	 COM[cm] 			 component name
-COM: upper_arm_left
-----------------------------------------------------------------
-Mass of upper_arm_left: 8.500588
-COM of upper_arm_left: 41.007065 45.489206 3.554676
-----------------------------------------------------------------
-Body: upper_arm_left
-mass[kg] 	 COM[cm] 			 component name
-COM: lower_arm_left
-----------------------------------------------------------------
-Mass of lower_arm_left: 1.493193
-COM of lower_arm_left: 46.644921 33.849184 22.660236
-----------------------------------------------------------------
-Body: lower_arm_left
-mass[kg] 	 COM[cm] 			 component name
 COM: torso
 ----------------------------------------------------------------
-Mass of torso: 40.315523
-COM of torso: -0.500000 4.650000 -0.567489
+Mass of torso: 46.894126
+COM of torso: -0.000000 0.000000 30.091284
 ----------------------------------------------------------------
 Body: torso
 mass[kg] 	 COM[cm] 			 component name
-COM: shoulder_left_link2
+COM: upper_arm_left
 ----------------------------------------------------------------
-Mass of shoulder_left_link2: 0.010242
-COM of shoulder_left_link2: 28.760484 59.444356 -1.304247
+Mass of upper_arm_left: 8.513664
+COM of upper_arm_left: 29.918151 1.136958 31.253833
 ----------------------------------------------------------------
-Body: shoulder_left_link2
-mass[kg] 	 COM[cm] 			 component name
-COM: shoulder_left_link3
-----------------------------------------------------------------
-Mass of shoulder_left_link3: 0.005913
-COM of shoulder_left_link3: 28.760484 59.444356 -1.304247
-----------------------------------------------------------------
-Body: shoulder_left_link3
-mass[kg] 	 COM[cm] 			 component name
-COM: base
-933.243672 	 -466.621836 1961.214265 -529.605125 		 base:1
-463.201197 	 17075.966600 -25959.834310 0.000000 		 Component1467:1
-463.201197 	 17075.966600 -25959.834310 0.000000 		 Component1467:1
-----------------------------------------------------------------
-Mass of base: 1859.646065
-COM of base: 18.113829 -26.864496 -0.284788
-----------------------------------------------------------------
-Body: base
+Body: upper_arm_left
 mass[kg] 	 COM[cm] 			 component name
 COM: hand_left
 ----------------------------------------------------------------
 Mass of hand_left: 3.576722
-COM of hand_left: 42.833322 30.957115 43.781245
+COM of hand_left: 30.442050 -32.842961 21.283053
 ----------------------------------------------------------------
 Body: hand_left
+mass[kg] 	 COM[cm] 			 component name
+COM: lower_arm_left
+----------------------------------------------------------------
+Mass of lower_arm_left: 1.496479
+COM of lower_arm_left: 29.608170 -15.553697 21.811602
+----------------------------------------------------------------
+Body: lower_arm_left
+mass[kg] 	 COM[cm] 			 component name
+COM: base
+----------------------------------------------------------------
+Mass of base: 1859.567923
+COM of base: -0.000000 0.000000 -0.000000
+----------------------------------------------------------------
+Body: base
+mass[kg] 	 COM[cm] 			 component name
+COM: sphere_link1
+----------------------------------------------------------------
+Mass of sphere_link1: 0.093508
+COM of sphere_link1: 29.218006 0.768826 54.927796
+----------------------------------------------------------------
+Body: sphere_link1
+mass[kg] 	 COM[cm] 			 component name
+COM: sphere_link2
+0.031341 	 -0.024096 0.024508 -0.091759 		 sphere_link2:1
+0.015670 	 0.117527 -0.008887 -0.000000 		 Component114:1
+0.015670 	 0.117527 -0.008887 -0.000000 		 Component114:1
+----------------------------------------------------------------
+Mass of sphere_link2: 0.062681
+COM of sphere_link2: 3.365587 0.107442 -1.463898
+----------------------------------------------------------------
+Body: sphere_link2
 Joint: EXPORT_elbow_left
-Joint: EXPORT_shoulder_left_axis_3
-Joint: EXPORT_shoulder_left_axis_1
-Joint: EXPORT_shoulder_left_axis_2
+	parent: lower_arm_left
+	child: upper_arm_left
+	pos: -2.501181793173373	14.978047908478715	0.18490851765008287
+Joint: EXPORT_sphere_axis0
+	parent: sphere_link1
+	child: torso
+	pos: -3.552713678800501e-15	-1.1102230246251565e-15	-7.105427357601002e-15
+Joint: EXPORT_sphere_axis1
+	parent: sphere_link2
+	child: torso
+	pos: 25.85241834776287	0.6613837118004282	56.391693497333314
+Joint: EXPORT_sphere_axis2
+	parent: upper_arm_left
+	child: sphere_link2
+	pos: -0.700145540182401	-0.36813248344395877	23.673962629720528
+Joint: EXPORT_base_joint
+	parent: torso
+	child: base
+	pos: 2.5099561034520937e-14	-2.464296575766352e-13	-30.091284425724986
 Joint: EXPORT_wrist_left
-Joint: EXPORT_base
+	parent: hand_left
+	child: lower_arm_left
+	pos: -0.27259406760229155	6.3029882875297005	0.7740365174878789
