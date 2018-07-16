@@ -41,15 +41,15 @@ COM of sphere_link1: 29.218006 0.768826 54.927796
 ----------------------------------------------------------------
 Body: sphere_link1
 mass[kg] 	 COM[cm] 			 component name
-COM: shere_link2
+COM: sphere_link2
 0.031341 	 -0.024096 -0.006832 -0.029078 		 sphere_link2:1
 0.015670 	 0.117527 -0.008887 0.000000 		 Component245:1
 0.015670 	 0.117527 -0.008887 0.000000 		 Component245:1
 ----------------------------------------------------------------
-Mass of shere_link2: 0.062681
-COM of shere_link2: 3.365587 -0.392558 -0.463898
+Mass of sphere_link2: 0.062681
+COM of sphere_link2: 3.365587 -0.392558 -0.463898
 ----------------------------------------------------------------
-Body: shere_link2
+Body: sphere_link2
 Joint: EXPORT_elbow_left
 	parent: upper_arm_left
 	child: lower_arm_left
@@ -66,11 +66,11 @@ Joint: EXPORT_sphere_axis0
 	parent: torso
 	child: sphere_link1
 	pos: 29.21800561556852	0.7688255761471943	24.836511239163876
-Joint: EXPORT_sphere_axis2
-	parent: shere_link2
-	child: upper_arm_left
-	pos: 25.852418329908964	1.1613837139646002	55.39169349829458
 Joint: EXPORT_sphere_axis1
 	parent: sphere_link1
-	child: shere_link2
+	child: sphere_link2
 	pos: -1.7763568394002505e-14	-1.7763568394002505e-15	-1.4210854715202004e-14
+Joint: EXPORT_sphere_axis2
+	parent: sphere_link2
+	child: upper_arm_left
+	pos: 25.852418329908964	1.1613837139646002	55.39169349829458
