@@ -1,51 +1,19 @@
 <?xml version="1.0" ?>
 <sdf version="1.6">
 	<model name="roboy_xylophone_left_arm">
-		<link name="torso">
-			<self_collide>false</self_collide>
-			<pose frame="">-2.5210583336983455e-16 2.5830904394012438e-15 0.3009128442572498 0.0 -0.0 0.0</pose>
-			<inertial>
-				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>10</mass>
-				<inertia>
-					<ixx>0.01</ixx>
-					<ixy>0</ixy>
-					<ixz>0</ixz>
-					<iyy>0.01</iyy>
-					<iyz>0</iyz>
-					<izz>0.01</izz>
-				</inertia>
-			</inertial>
-			<collision name="torso_collision">
-				<geometry>
-					<mesh>
-						<uri>model://roboy_xylophone_left_arm/meshes/CAD/torso.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
-					</mesh>
-				</geometry>
-			</collision>
-			<visual name="torso_visual">
-				<geometry>
-					<mesh>
-						<uri>model://roboy_xylophone_left_arm/meshes/CAD/torso.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
-					</mesh>
-				</geometry>
-			</visual>
-		</link>
 		<link name="upper_arm_left">
 			<self_collide>false</self_collide>
 			<pose frame="">0.29918151155750894 0.011369580595914091 0.31253833035168344 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.5</mass>
+				<mass>2.9373922866908293</mass>
 				<inertia>
-					<ixx>0.01</ixx>
-					<ixy>0</ixy>
-					<ixz>0</ixz>
-					<iyy>0.01</iyy>
-					<iyz>0</iyz>
-					<izz>0.01</izz>
+					<ixx>0.4141023130540913</ixx>
+					<ixy>-0.0036139802775392357</ixy>
+					<ixz>-0.004649940484527234</ixz>
+					<iyy>0.6804098562416945</iyy>
+					<iyz>-0.3272500353871178</iyz>
+					<izz>0.27573309553466746</izz>
 				</inertia>
 			</inertial>
 			<collision name="upper_arm_left_collision">
@@ -65,19 +33,51 @@
 				</geometry>
 			</visual>
 		</link>
+		<link name="torso">
+			<self_collide>false</self_collide>
+			<pose frame="">-2.5210583336983455e-16 2.5830904394012438e-15 0.3009128442572498 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>11.643744728583687</mass>
+				<inertia>
+					<ixx>2.8463837157125496</ixx>
+					<ixy>-0.0012433611652691832</ixy>
+					<ixz>0.03913837973360937</ixz>
+					<iyy>3.064545105530511</iyy>
+					<iyz>-0.06936776268453516</iyz>
+					<izz>0.3132575627630051</izz>
+				</inertia>
+			</inertial>
+			<collision name="torso_collision">
+				<geometry>
+					<mesh>
+						<uri>model://roboy_xylophone_left_arm/meshes/CAD/torso.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="torso_visual">
+				<geometry>
+					<mesh>
+						<uri>model://roboy_xylophone_left_arm/meshes/CAD/torso.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
 		<link name="hand_left">
 			<self_collide>false</self_collide>
 			<pose frame="">0.30442049624244366 -0.32842961298019435 0.21283053116373596 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.2</mass>
+				<mass>1.1634530113059427</mass>
 				<inertia>
-					<ixx>0.01</ixx>
-					<ixy>0</ixy>
-					<ixz>0</ixz>
-					<iyy>0.01</iyy>
-					<iyz>0</iyz>
-					<izz>0.01</izz>
+					<ixx>0.41745573289998594</ixx>
+					<ixy>0.15057565057163763</ixy>
+					<ixz>0.2058633544395063</ixz>
+					<iyy>0.32741533772019266</iyy>
+					<iyz>-0.1520171407721289</iyz>
+					<izz>0.3153212218952332</izz>
 				</inertia>
 			</inertial>
 			<collision name="hand_left_collision">
@@ -102,14 +102,14 @@
 			<pose frame="">0.2960816955776892 -0.15553696772591058 0.21811602369510363 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.5</mass>
+				<mass>1.4964651734345906</mass>
 				<inertia>
-					<ixx>0.01</ixx>
-					<ixy>0</ixy>
-					<ixz>0</ixz>
-					<iyy>0.01</iyy>
-					<iyz>0</iyz>
-					<izz>0.01</izz>
+					<ixx>0.10983805357461027</ixx>
+					<ixy>0.06388756057932181</ixy>
+					<ixz>0.04696291574935086</ixz>
+					<iyy>0.20312453895260563</iyy>
+					<iyz>-0.09629586750052653</iyz>
+					<izz>0.17004481562838614</izz>
 				</inertia>
 			</inertial>
 			<collision name="lower_arm_left_collision">
@@ -166,14 +166,14 @@
 			<pose frame="">0.2921800561556851 0.0076882557614745385 0.5492779566488885 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.001</mass>
+				<mass>0.046755519327953424</mass>
 				<inertia>
-					<ixx>0.001</ixx>
-					<ixy>0</ixy>
-					<ixz>0</ixz>
-					<iyy>0.001</iyy>
-					<iyz>0</iyz>
-					<izz>0.001</izz>
+					<ixx>0.014115173313322345</ixx>
+					<ixy>-0.00010503177203843484</ixy>
+					<ixz>-0.0001974523652045118</ixz>
+					<iyy>0.018103889927972235</iyy>
+					<iyz>-0.007503703202094315</iyz>
+					<izz>0.004000218353034255</izz>
 				</inertia>
 			</inertial>
 			<collision name="sphere_link1_collision">
@@ -195,17 +195,17 @@
 		</link>
 		<link name="sphere_link2">
 			<self_collide>false</self_collide>
-			<pose frame="">0.0336558726780563 0.001074418643470239 -0.014638978324444532 0.0 -0.0 0.0</pose>
+			<pose frame="">0.03365587285659524 -0.003925581378171482 -0.004638978334057254 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.001</mass>
+				<mass>0.03134020848172138</mass>
 				<inertia>
-					<ixx>0.001</ixx>
-					<ixy>0</ixy>
-					<ixz>0</ixz>
-					<iyy>0.001</iyy>
-					<iyz>0</iyz>
-					<izz>0.001</izz>
+					<ixx>0.009460089435523117</ixx>
+					<ixy>-7.039997333794983e-05</ixy>
+					<ixz>-0.0001323469977108327</ixz>
+					<iyy>0.012133725290292965</iyy>
+					<iyz>-0.0050297297974830355</iyz>
+					<izz>0.0026800392713477433</izz>
 				</inertia>
 			</inertial>
 			<collision name="sphere_link2_collision">
@@ -228,7 +228,7 @@
 		<joint name="elbow_left" type="revolute">
 			<parent>upper_arm_left</parent>
 			<child>lower_arm_left</child>
-			<pose frame="">-0.02501181793173373 0.14978047908478714 0.0018490851765008288 0 0 0</pose>
+			<pose frame="">-0.02811163391155347 -0.017126069237037515 -0.09257322148007895 0 0 0</pose>
 			<axis>
 				<xyz>-0.9986354432836171 -0.05074429632816361 0.012339684270766395</xyz>
 				<limit>
@@ -238,12 +238,25 @@
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
-		<joint name="sphere_axis0" type="revolute">
-			<parent>torso</parent>
-			<child>sphere_link1</child>
-			<pose frame="">-3.552713678800501e-17 -1.1102230246251566e-17 -7.105427357601002e-17 0 0 0</pose>
+		<joint name="wrist_left" type="revolute">
+			<parent>lower_arm_left</parent>
+			<child>hand_left</child>
+			<pose frame="">0.005612859988731529 -0.10986276237898675 0.002454872643511088 0 0 0</pose>
 			<axis>
-				<xyz>0.05101049431667502 -0.9984488883025694 0.02231024242211139</xyz>
+				<xyz>0.026382389429096362 -0.9993900891826023 0.022878355963713168</xyz>
+				<limit>
+					<lower>-1.5707963267948966</lower>
+					<upper>1.5707963267948966</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="base_joint" type="revolute">
+			<parent>base</parent>
+			<child>torso</child>
+			<pose frame="">1.5368196702895297e-17 -4.2971225516635905e-16 2.2026824808563106e-15 0 0 0</pose>
+			<axis>
+				<xyz>-5.680911057209429e-16 6.847300504375648e-15 1.000000000000001</xyz>
 				<limit>
 					<lower>-3.141592653589793</lower>
 					<upper>3.141592653589793</upper>
@@ -251,12 +264,12 @@
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
-		<joint name="sphere_axis1" type="revolute">
+		<joint name="sphere_axis0" type="revolute">
 			<parent>torso</parent>
-			<child>sphere_link2</child>
-			<pose frame="">0.25852418347762873 0.006613837118004283 0.5639169349733332 0 0 0</pose>
+			<child>sphere_link1</child>
+			<pose frame="">0.2921800561556852 0.0076882557614719425 0.24836511239163878 0 0 0</pose>
 			<axis>
-				<xyz>0.9986354432836131 0.05074429632816835 -0.012339684270770031</xyz>
+				<xyz>0.05101049431667499 -0.9984488883025685 0.022310242422111375</xyz>
 				<limit>
 					<lower>-3.141592653589793</lower>
 					<upper>3.141592653589793</upper>
@@ -267,9 +280,9 @@
 		<joint name="sphere_axis2" type="revolute">
 			<parent>sphere_link2</parent>
 			<child>upper_arm_left</child>
-			<pose frame="">-0.007001455401824011 -0.003681324834439588 0.23673962629720527 0 0 0</pose>
+			<pose frame="">0.25852418329908966 0.011613837139646001 0.5539169349829458 0 0 0</pose>
 			<axis>
-				<xyz>-0.011188426489534133 -0.02290925222533371 -0.9996749398055175</xyz>
+				<xyz>-0.01118842648953415 -0.022909252225333823 -0.9996749398055161</xyz>
 				<limit>
 					<lower>-3.141592653589793</lower>
 					<upper>3.141592653589793</upper>
@@ -277,12 +290,12 @@
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
-		<joint name="base_joint" type="revolute">
-			<parent>base</parent>
-			<child>torso</child>
-			<pose frame="">2.5099561034520937e-16 -2.464296575766352e-15 -0.30091284425724985 0 0 0</pose>
+		<joint name="sphere_axis1" type="revolute">
+			<parent>sphere_link1</parent>
+			<child>sphere_link2</child>
+			<pose frame="">-1.7763568394002506e-16 -1.7763568394002505e-17 -1.4210854715202004e-16 0 0 0</pose>
 			<axis>
-				<xyz>-5.680911057209429e-16 6.847300504375648e-15 1.000000000000001</xyz>
+				<xyz>0.9986354432836124 0.050744296328168306 -0.012339684270770068</xyz>
 				<limit>
 					<lower>-3.141592653589793</lower>
 					<upper>3.141592653589793</upper>
@@ -290,20 +303,7 @@
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
-		<joint name="wrist_left" type="revolute">
-			<parent>lower_arm_left</parent>
-			<child>hand_left</child>
-			<pose frame="">-0.0027259406760229156 0.06302988287529701 0.007740365174878789 0 0 0</pose>
-			<axis>
-				<xyz>0.026382389429096362 -0.9993900891826023 0.022878355963713168</xyz>
-				<limit>
-					<lower>-1.5707963267948966</lower>
-					<upper>1.5707963267948966</upper>
-				</limit>
-				<use_parent_model_frame>0</use_parent_model_frame>
-			</axis>
-		</joint>
-		<!-- <plugin filename="libmusc_plugin.so" name="musc_plugin">
+		<plugin filename="libmusc_plugin.so" name="musc_plugin">
 			<myoMuscle name="motor0">
 				<link name="torso">
 					<viaPoint type="FIXPOINT">0.2376902809880496 -0.017689027265440305 0.12858346006581597</viaPoint>
@@ -397,6 +397,6 @@
 				</link>
 			</myoMuscle>
 			<endEffector link="hand_left" name="endeffector0">-0.016022497811992623 0.6152870263626005 0.8043076916227997</endEffector>
-		</plugin> -->
+		</plugin>
 	</model>
 </sdf>
