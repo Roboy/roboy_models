@@ -8,12 +8,12 @@
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
 				<mass>0.1</mass>
 				<inertia>
-					<ixx>1e-05</ixx>
+					<ixx>0.1</ixx>
 					<ixy>0.0</ixy>
 					<ixz>0.0</ixz>
-					<iyy>1e-05</iyy>
+					<iyy>0.1</iyy>
 					<iyz>0.0</iyz>
-					<izz>1e-05</izz>
+					<izz>0.1</izz>
 				</inertia>
 			</inertial>
 			<collision name="upper_arm_left_collision">
@@ -40,12 +40,12 @@
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
 				<mass>0.1</mass>
 				<inertia>
-					<ixx>1e-05</ixx>
+					<ixx>0.1</ixx>
 					<ixy>0.0</ixy>
 					<ixz>0.0</ixz>
-					<iyy>1e-05</iyy>
+					<iyy>0.1</iyy>
 					<iyz>0.0</iyz>
-					<izz>1e-05</izz>
+					<izz>0.1</izz>
 				</inertia>
 			</inertial>
 			<collision name="torso_collision">
@@ -72,12 +72,12 @@
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
 				<mass>0.1</mass>
 				<inertia>
-					<ixx>1e-05</ixx>
+					<ixx>0.1</ixx>
 					<ixy>0.0</ixy>
 					<ixz>0.0</ixz>
-					<iyy>1e-05</iyy>
+					<iyy>0.1</iyy>
 					<iyz>0.0</iyz>
-					<izz>1e-05</izz>
+					<izz>0.1</izz>
 				</inertia>
 			</inertial>
 			<collision name="hand_left_collision">
@@ -104,12 +104,12 @@
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
 				<mass>0.1</mass>
 				<inertia>
-					<ixx>1e-05</ixx>
+					<ixx>0.1</ixx>
 					<ixy>0.0</ixy>
 					<ixz>0.0</ixz>
-					<iyy>1e-05</iyy>
+					<iyy>0.1</iyy>
 					<iyz>0.0</iyz>
-					<izz>1e-05</izz>
+					<izz>0.1</izz>
 				</inertia>
 			</inertial>
 			<collision name="lower_arm_left_collision">
@@ -136,12 +136,12 @@
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
 				<mass>0.1</mass>
 				<inertia>
-					<ixx>1e-05</ixx>
+					<ixx>0.1</ixx>
 					<ixy>0.0</ixy>
 					<ixz>0.0</ixz>
-					<iyy>1e-05</iyy>
+					<iyy>0.1</iyy>
 					<iyz>0.0</iyz>
-					<izz>1e-05</izz>
+					<izz>0.1</izz>
 				</inertia>
 			</inertial>
 			<collision name="base_collision">
@@ -168,12 +168,12 @@
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
 				<mass>0.1</mass>
 				<inertia>
-					<ixx>1e-05</ixx>
+					<ixx>0.1</ixx>
 					<ixy>0.0</ixy>
 					<ixz>0.0</ixz>
-					<iyy>1e-05</iyy>
+					<iyy>0.1</iyy>
 					<iyz>0.0</iyz>
-					<izz>1e-05</izz>
+					<izz>0.1</izz>
 				</inertia>
 			</inertial>
 			<collision name="sphere_link1_collision">
@@ -200,12 +200,12 @@
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
 				<mass>0.1</mass>
 				<inertia>
-					<ixx>1e-05</ixx>
+					<ixx>0.1</ixx>
 					<ixy>0.0</ixy>
 					<ixz>0.0</ixz>
-					<iyy>1e-05</iyy>
+					<iyy>0.1</iyy>
 					<iyz>0.0</iyz>
-					<izz>1e-05</izz>
+					<izz>0.1</izz>
 				</inertia>
 			</inertial>
 			<collision name="sphere_link2_collision">
@@ -228,7 +228,7 @@
 		<joint name="elbow_left" type="revolute">
 			<parent>upper_arm_left</parent>
 			<child>lower_arm_left</child>
-			<pose frame="">-0.02811163391155347 -0.017126069237037515 -0.09257322148007895 0 0 0</pose>
+			<pose frame="">-0.02501181793173373 0.14978047908478714 0.0018490851765008288 0 0 0</pose>
 			<axis>
 				<xyz>-0.9986354432836171 -0.05074429632816361 0.012339684270766395</xyz>
 				<limit>
@@ -241,7 +241,7 @@
 		<joint name="wrist_left" type="revolute">
 			<parent>lower_arm_left</parent>
 			<child>hand_left</child>
-			<pose frame="">0.005612859988731529 -0.10986276237898675 0.002454872643511088 0 0 0</pose>
+			<pose frame="">-0.0027259406760229156 0.06302988287529701 0.007740365174878789 0 0 0</pose>
 			<axis>
 				<xyz>0.026382389429096362 -0.9993900891826023 0.022878355963713168</xyz>
 				<limit>
@@ -254,7 +254,7 @@
 		<joint name="base_joint" type="revolute">
 			<parent>base</parent>
 			<child>torso</child>
-			<pose frame="">1.5368196702895297e-17 -4.2971225516635905e-16 2.2026824808563106e-15 0 0 0</pose>
+			<pose frame="">2.5099561034520937e-16 -2.464296575766352e-15 -0.30091284425724985 0 0 0</pose>
 			<axis>
 				<xyz>-5.680911057209429e-16 6.847300504375648e-15 1.000000000000001</xyz>
 				<limit>
@@ -267,7 +267,7 @@
 		<joint name="sphere_axis0" type="revolute">
 			<parent>torso</parent>
 			<child>sphere_link1</child>
-			<pose frame="">0.2921800561556852 0.0076882557614719425 0.24836511239163878 0 0 0</pose>
+			<pose frame="">-1.4210854715202004e-16 -1.2212453270876722e-17 7.105427357601002e-17 0 0 0</pose>
 			<axis>
 				<xyz>0.9986354432836129 0.050744296328168334 -0.012339684270769964</xyz>
 				<limit>
@@ -280,7 +280,7 @@
 		<joint name="sphere_axis1" type="revolute">
 			<parent>sphere_link1</parent>
 			<child>sphere_link2</child>
-			<pose frame="">-1.7763568394002506e-16 -1.7763568394002505e-17 -1.4210854715202004e-16 0 0 0</pose>
+			<pose frame="">0.25852418329908966 0.011613837139646001 0.5539169349829456 0 0 0</pose>
 			<axis>
 				<xyz>-0.05101049431667491 0.9984488883025682 -0.02231024242211136</xyz>
 				<limit>
@@ -293,7 +293,7 @@
 		<joint name="sphere_axis2" type="revolute">
 			<parent>sphere_link2</parent>
 			<child>upper_arm_left</child>
-			<pose frame="">0.25852418329908966 0.011613837139646001 0.5539169349829458 0 0 0</pose>
+			<pose frame="">-0.007001455401824082 -0.00368132483443957 0.23673962629720513 0 0 0</pose>
 			<axis>
 				<xyz>-0.01118842648953415 -0.022909252225333823 -0.9996749398055161</xyz>
 				<limit>
@@ -303,6 +303,7 @@
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
+<!--
 		<plugin filename="libmusc_plugin.so" name="musc_plugin">
 			<myoMuscle name="motor0">
 				<link name="torso">
@@ -397,6 +398,6 @@
 				</link>
 			</myoMuscle>
 			<endEffector link="hand_left" name="endeffector0">0.007068827686948112 -0.09938881144079326 0.2532340035414389</endEffector>
-		</plugin>
+		</plugin> -->
 	</model>
 </sdf>
