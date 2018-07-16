@@ -54,15 +54,13 @@ looking for cached sphere_link1
 exporting stl of sphere_link1
 mass[kg] 	 COM[cm] 			 component name
 COM: sphere_link2
-0.031341 	 -0.024096 -0.006832 -0.029078 		 sphere_link2:1
-0.015670 	 0.117527 -0.008887 0.000000 		 Component245:1
-0.015670 	 0.117527 -0.008887 0.000000 		 Component245:1
 ----------------------------------------------------------------
 Mass of sphere_link2: 0.062681
-COM of sphere_link2: 3.365587 -0.392558 -0.463898
+COM of sphere_link2: 29.218006 0.768826 54.927796
 ----------------------------------------------------------------
 Body: sphere_link2
 looking for cached sphere_link2
+sphere_link2not found, copying bodies to new component
 exporting stl of sphere_link2
 Joint: EXPORT_elbow_left
 	parent: upper_arm_left
@@ -83,7 +81,7 @@ Joint: EXPORT_sphere_axis0
 Joint: EXPORT_sphere_axis1
 	parent: sphere_link1
 	child: sphere_link2
-	pos: 25.852418329908964	1.1613837139646002	55.39169349829456
+	pos: -7.105427357601002e-15	-5.551115123125783e-16	-2.1316282072803006e-14
 Joint: EXPORT_sphere_axis2
 	parent: sphere_link2
 	child: upper_arm_left
