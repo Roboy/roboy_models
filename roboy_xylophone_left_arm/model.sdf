@@ -134,7 +134,7 @@
 			<pose frame="">0.0 0.0 0.0 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.1</mass>
+				<mass>1000</mass>
 				<inertia>
 					<ixx>0.1</ixx>
 					<ixy>0.0</ixy>
@@ -271,8 +271,8 @@
 			<axis>
 				<xyz>0.9986354432836129 0.050744296328168334 -0.012339684270769964</xyz>
 				<limit>
-					<lower>0.0</lower>
-					<upper>0.0</upper>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
@@ -284,8 +284,8 @@
 			<axis>
 				<xyz>-0.05101049431667491 0.9984488883025682 -0.02231024242211136</xyz>
 				<limit>
-					<lower>0.0</lower>
-					<upper>0.0</upper>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
@@ -297,12 +297,14 @@
 			<axis>
 				<xyz>-0.01118842648953415 -0.022909252225333823 -0.9996749398055161</xyz>
 				<limit>
-					<lower>0.0</lower>
-					<upper>0.0</upper>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
+		<plugin filename="libmoveit_plugin.so" name="moveit_plugin"></plugin>
+		<!--
 		<plugin filename="libmusc_plugin.so" name="musc_plugin">
 			<myoMuscle name="motor0">
 				<link name="torso">
@@ -397,6 +399,6 @@
 				</link>
 			</myoMuscle>
 			<endEffector link="hand_left" name="endeffector0">0.007068827686948112 -0.09938881144079326 0.2532340035414389</endEffector>
-		</plugin>
+		</plugin> -->
 	</model>
 </sdf>
