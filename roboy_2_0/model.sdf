@@ -601,9 +601,9 @@
 		<joint name="world" type="fixed">
 			<parent>world</parent>
 			<child>tricycle</child>
-			<pose frame="">0 0 2 0 0 0</pose>
+			<pose frame="">0 0 0 0 0 0</pose>
 		</joint>
-		<plugin filename="libgazebo_ros_muscle_interface.so" name="muscle_interface_plugin"/>
-		<muscles>model://roboy_2_0/muscles.osim</muscles>
+		<!-- <plugin filename="libgazebo_ros_muscle_interface.so" name="muscle_interface_plugin"/>
+		<muscles>model://roboy_2_0/muscles.osim</muscles> -->
 	</model>
 </sdf>
