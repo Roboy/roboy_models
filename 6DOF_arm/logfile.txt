@@ -1,0 +1,94 @@
+mass[kg] 	 COM[cm] 			 component name
+COM: base
+----------------------------------------------------------------
+Mass of base: 15.395251
+COM of base: 0.000000 0.000000 0.000000
+----------------------------------------------------------------
+Body: base
+looking for cached base
+basenot found, copying bodies to new component
+exporting stl of base
+mass[kg] 	 COM[cm] 			 component name
+COM: sphere_link2
+----------------------------------------------------------------
+Mass of sphere_link2: 0.302242
+COM of sphere_link2: 0.000000 0.000000 2.800000
+----------------------------------------------------------------
+Body: sphere_link2
+looking for cached sphere_link2
+sphere_link2not found, copying bodies to new component
+exporting stl of sphere_link2
+mass[kg] 	 COM[cm] 			 component name
+COM: sphere_link1
+----------------------------------------------------------------
+Mass of sphere_link1: 0.093508
+COM of sphere_link1: 0.000000 0.000000 2.800000
+----------------------------------------------------------------
+Body: sphere_link1
+looking for cached sphere_link1
+sphere_link1not found, copying bodies to new component
+exporting stl of sphere_link1
+mass[kg] 	 COM[cm] 			 component name
+COM: sphere_link0
+----------------------------------------------------------------
+Mass of sphere_link0: 0.062681
+COM of sphere_link0: 0.000000 0.000000 2.800000
+----------------------------------------------------------------
+Body: sphere_link0
+looking for cached sphere_link0
+sphere_link0not found, copying bodies to new component
+exporting stl of sphere_link0
+mass[kg] 	 COM[cm] 			 component name
+COM: sphere_link4
+----------------------------------------------------------------
+Mass of sphere_link4: 0.093508
+COM of sphere_link4: 0.000000 -8.682818 8.880187
+----------------------------------------------------------------
+Body: sphere_link4
+looking for cached sphere_link4
+sphere_link4not found, copying bodies to new component
+exporting stl of sphere_link4
+mass[kg] 	 COM[cm] 			 component name
+COM: sphere_link5
+----------------------------------------------------------------
+Mass of sphere_link5: 0.062681
+COM of sphere_link5: 0.000000 -8.682818 8.880187
+----------------------------------------------------------------
+Body: sphere_link5
+looking for cached sphere_link5
+sphere_link5not found, copying bodies to new component
+exporting stl of sphere_link5
+mass[kg] 	 COM[cm] 			 component name
+COM: end_effector
+----------------------------------------------------------------
+Mass of end_effector: 0.231335
+COM of end_effector: 0.000000 -8.682818 8.880187
+----------------------------------------------------------------
+Body: end_effector
+looking for cached end_effector
+end_effectornot found, copying bodies to new component
+exporting stl of end_effector
+Joint: EXPORT_sphere_axis0
+	parent: sphere_link2
+	child: sphere_link4
+	pos: 0.0	0.0	0.0
+Joint: EXPORT_sphere_axis2
+	parent: sphere_link5
+	child: end_effector
+	pos: 0.0	0.0	0.0
+Joint: EXPORT_sphere_axis1
+	parent: sphere_link4
+	child: sphere_link5
+	pos: 0.0	0.0	0.0
+Joint: EXPORT_sphere_axis0
+	parent: sphere_link2
+	child: sphere_link1
+	pos: 0.0	0.0	0.0
+Joint: EXPORT_sphere_axis2
+	parent: sphere_link0
+	child: base
+	pos: 0.0	0.0	2.8000000000000007
+Joint: EXPORT_sphere_axis1
+	parent: sphere_link1
+	child: sphere_link0
+	pos: 0.0	0.0	0.0
