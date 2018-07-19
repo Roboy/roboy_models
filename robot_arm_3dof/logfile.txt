@@ -1,64 +1,48 @@
 mass[kg] 	 COM[cm] 			 component name
 COM: base
-15.752535 	 -0.000000 -0.000000 19.960403 		 base:1
-7.629652 	 0.000000 81.689063 3.814826 		 Component2:1
-7.629652 	 0.000000 81.689063 3.814826 		 Component2:1
 ----------------------------------------------------------------
 Mass of base: 31.011839
-COM of base: -0.000000 5.268250 0.889662
+COM of base: 0.000000 0.000000 0.000000
 ----------------------------------------------------------------
 Body: base
 looking for cached base
-basenot found, copying bodies to new component
 exporting stl of base
 mass[kg] 	 COM[cm] 			 component name
 COM: link0
-0.318244 	 1.777811 -0.000000 0.477367 		 link0:1
-0.159122 	 0.888906 0.194040 0.238683 		 Component4:1
-0.159122 	 0.888906 0.194040 0.238683 		 Component4:1
 ----------------------------------------------------------------
 Mass of link0: 0.636489
-COM of link0: 5.586309 0.609719 1.500000
+COM of link0: 5.500000 -0.000000 1.500000
 ----------------------------------------------------------------
 Body: link0
 looking for cached link0
-link0not found, copying bodies to new component
 exporting stl of link0
 mass[kg] 	 COM[cm] 			 component name
 COM: link1
-1.032863 	 11.539785 -0.000069 8.710295 		 link1:1
-0.415978 	 4.647568 -0.000069 5.163208 		 Component6:1
-0.415978 	 4.647568 -0.000069 5.163208 		 Component6:1
 ----------------------------------------------------------------
 Mass of link1: 1.864820
-COM of link1: 11.172617 -0.000111 10.208337
+COM of link1: 11.172617 -0.000000 9.500000
 ----------------------------------------------------------------
 Body: link1
 looking for cached link1
-link1not found, copying bodies to new component
 exporting stl of link1
 mass[kg] 	 COM[cm] 			 component name
 COM: link2
-0.318244 	 1.777811 0.000000 4.768698 		 link2:1
-0.159122 	 0.888906 0.194040 0.238683 		 Component8:1
-0.159122 	 0.888906 0.194040 0.238683 		 Component8:1
 ----------------------------------------------------------------
 Mass of link2: 0.636489
-COM of link2: 5.586309 0.609719 8.242195
+COM of link2: 5.500000 0.000000 14.984390
 ----------------------------------------------------------------
 Body: link2
 looking for cached link2
-link2not found, copying bodies to new component
 exporting stl of link2
 Joint: EXPORT_joint2
 	parent: link1
 	child: link2
-	pos: 5.586308644069308	-0.6097192526124747	6.742194901732734
+	pos: 5.672617288138614	0.0	0.0
 Joint: EXPORT_joint0
 	parent: base
 	child: link0
-	pos: -5.586308644069306	-0.6097192526124746	-0.5
+	pos: -5.5	1.019764304863026e-16	-0.5
 Joint: EXPORT_joint1
 	parent: link0
 	child: link1
-	pos: -5.969980065856362e-11	0.00011147348456457798	-8.208337394695146
+	pos: 0.0	0.0	-7.5
