@@ -3,7 +3,7 @@
 	<model name="robot_arm_3dof">
 		<link name="base">
 			<self_collide>false</self_collide>
-			<pose frame="">-8.285270722022153e-15 0.05268250104334112 0.008896620278329891 0.0 -0.0 0.0</pose>
+			<pose frame="">0.0 0.0 0.0 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
 				<mass>0.1</mass>
@@ -35,7 +35,7 @@
 		</link>
 		<link name="link0">
 			<self_collide>false</self_collide>
-			<pose frame="">0.055863086440693065 0.006097192526124747 0.015 0.0 -0.0 0.0</pose>
+			<pose frame="">0.055 -1.019764304863026e-18 0.015 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
 				<mass>0.1</mass>
@@ -67,7 +67,7 @@
 		</link>
 		<link name="link1">
 			<self_collide>false</self_collide>
-			<pose frame="">0.11172617288198314 -1.1147348456502208e-06 0.10208337394695147 0.0 -0.0 0.0</pose>
+			<pose frame="">0.11172617288138614 -4.440892098500626e-18 0.095 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
 				<mass>0.1</mass>
@@ -99,7 +99,7 @@
 		</link>
 		<link name="link2">
 			<self_collide>false</self_collide>
-			<pose frame="">0.055863086440693065 0.0060971925261247475 0.08242194901732734 0.0 -0.0 0.0</pose>
+			<pose frame="">0.055 0.0 0.1498438980346547 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
 				<mass>0.1</mass>
