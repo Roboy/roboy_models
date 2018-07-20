@@ -6,7 +6,7 @@
 			<pose frame="">0.0 0.0 0.0 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>1000</mass>
+				<mass>0.1</mass>
 				<inertia>
 					<ixx>0.1</ixx>
 					<ixy>0.0</ixy>
@@ -182,7 +182,7 @@
 					<viaPoint type="FIXPOINT">-0.37546511558028123 0.0 0.125</viaPoint>
 				</link>
 				<link name="link1">
-					<viaPoint type="FIXPOINT">0.0 0.0 0.075</viaPoint>
+					<viaPoint type="FIXPOINT">0.018262557862645627 2.2365183030732293e-18 0.075</viaPoint>
 				</link>
 			</myoMuscle>
 			<myoMuscle name="motor2">
@@ -198,7 +198,7 @@
 					<viaPoint type="FIXPOINT">0.37546511558028123 0.0 0.125</viaPoint>
 				</link>
 				<link name="link1">
-					<viaPoint type="FIXPOINT">0.0 0.0 0.075</viaPoint>
+					<viaPoint type="FIXPOINT">-0.018262557862645627 4.440892098500626e-18 0.075</viaPoint>
 				</link>
 			</myoMuscle>
 			<myoMuscle name="motor4">
