@@ -1,0 +1,39 @@
+mass[kg] 	 COM[cm] 			 component name
+COM: torso
+----------------------------------------------------------------
+Mass of torso: 22.923035
+COM of torso: -0.000000 0.000000 0.000000
+----------------------------------------------------------------
+Body: torso
+looking for cached torso
+torsonot found, copying bodies to new component
+exporting stl of torso
+mass[kg] 	 COM[cm] 			 component name
+COM: head
+----------------------------------------------------------------
+Mass of head: 6.548957
+COM of head: -0.000000 0.000000 18.505291
+----------------------------------------------------------------
+Body: head
+looking for cached head
+headnot found, copying bodies to new component
+exporting stl of head
+mass[kg] 	 COM[cm] 			 component name
+COM: sphere_link1
+----------------------------------------------------------------
+Mass of sphere_link1: 0.093508
+COM of sphere_link1: -0.000000 0.000000 18.505291
+----------------------------------------------------------------
+Body: sphere_link1
+looking for cached sphere_link1
+sphere_link1not found, copying bodies to new component
+exporting stl of sphere_link1
+Joint: EXPORT_sphere_axis0
+	parent: torso
+	child: sphere_link1
+	pos: 0.0	0.0	0.0
+Joint: EXPORT_sphere_axis2
+	ERROR writing joint, check your rigid EXPORT groups, the parent/child link must be part of a rigid Export group!Joint: EXPORT_sphere_axis1
+	parent: sphere_link1
+	child: head
+	pos: 0.0	0.0	0.0
