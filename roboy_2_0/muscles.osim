@@ -21,11 +21,21 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>17.711604539350024</optimal_fiber_length>
-					<tendon_slack_length>0.036146131712959234</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 				<Thelen2003Muscle name="muscle1">
 					<GeometryPath>
@@ -45,11 +55,21 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>14.594173846059617</optimal_fiber_length>
-					<tendon_slack_length>0.002978402825726452</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 				<Thelen2003Muscle name="muscle2">
 					<GeometryPath>
@@ -69,11 +89,21 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>10.925896950091643</optimal_fiber_length>
-					<tendon_slack_length>0.02229774887773805</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 				<Thelen2003Muscle name="muscle3">
 					<GeometryPath>
@@ -93,11 +123,21 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>8.088837015606474</optimal_fiber_length>
-					<tendon_slack_length>0.016507830644094845</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 				<Thelen2003Muscle name="muscle4">
 					<GeometryPath>
@@ -117,11 +157,21 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>26.37339295379338</optimal_fiber_length>
-					<tendon_slack_length>0.05382325092610895</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 				<Thelen2003Muscle name="muscle5">
 					<GeometryPath>
@@ -141,11 +191,21 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>14.59575872657095</optimal_fiber_length>
-					<tendon_slack_length>0.029787262707287654</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 				<Thelen2003Muscle name="muscle6">
 					<GeometryPath>
@@ -165,11 +225,21 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>11.115662875486105</optimal_fiber_length>
-					<tendon_slack_length>0.022685026276502257</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 				<Thelen2003Muscle name="muscle7">
 					<GeometryPath>
@@ -189,11 +259,21 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>8.872712209526943</optimal_fiber_length>
-					<tendon_slack_length>0.018107575937810091</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 				<Thelen2003Muscle name="muscle8">
 					<GeometryPath>
@@ -213,11 +293,21 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>26.58510741505145</optimal_fiber_length>
-					<tendon_slack_length>0.05425532125520705</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 				<Thelen2003Muscle name="muscle9">
 					<GeometryPath>
@@ -237,11 +327,21 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>10.608430195582395</optimal_fiber_length>
-					<tendon_slack_length>0.021649857542004888</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 				<Thelen2003Muscle name="muscle10">
 					<GeometryPath>
@@ -261,11 +361,21 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>9.2920464237022</optimal_fiber_length>
-					<tendon_slack_length>0.018963360048371836</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 				<Thelen2003Muscle name="muscle11">
 					<GeometryPath>
@@ -285,11 +395,21 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>19.23342363021077</optimal_fiber_length>
-					<tendon_slack_length>0.03925188495961382</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 				<Thelen2003Muscle name="muscle12">
 					<GeometryPath>
@@ -309,11 +429,21 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>21.287992162592047</optimal_fiber_length>
-					<tendon_slack_length>0.04344488196447357</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 				<Thelen2003Muscle name="muscle18">
 					<GeometryPath>
@@ -333,11 +463,21 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>12.785418504891823</optimal_fiber_length>
-					<tendon_slack_length>0.02609269082630984</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 				<Thelen2003Muscle name="muscle19">
 					<GeometryPath>
@@ -357,11 +497,21 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>12.227484010389613</optimal_fiber_length>
-					<tendon_slack_length>0.02495404900079513</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 				<Thelen2003Muscle name="muscle20">
 					<GeometryPath>
@@ -381,11 +531,21 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>21.00069677022012</optimal_fiber_length>
-					<tendon_slack_length>0.04285856483718392</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 				<Thelen2003Muscle name="muscle21">
 					<GeometryPath>
@@ -405,11 +565,21 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>16.621106146245694</optimal_fiber_length>
-					<tendon_slack_length>0.03392062478825652</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 				<Thelen2003Muscle name="muscle22">
 					<GeometryPath>
@@ -429,11 +599,21 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>5.0804218269518255</optimal_fiber_length>
-					<tendon_slack_length>0.010368207810105767</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 				<Thelen2003Muscle name="muscle23">
 					<GeometryPath>
@@ -453,11 +633,21 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>4.907522990514384</optimal_fiber_length>
-					<tendon_slack_length>0.010015353041866089</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 				<Thelen2003Muscle name="muscle24">
 					<GeometryPath>
@@ -477,11 +667,21 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>4.568061451394117</optimal_fiber_length>
-					<tendon_slack_length>0.00932257439060024</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 				<Thelen2003Muscle name="muscle25">
 					<GeometryPath>
@@ -501,11 +701,21 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>3.1487388267854235</optimal_fiber_length>
-					<tendon_slack_length>0.006425997605684539</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 				<Thelen2003Muscle name="muscle26">
 					<GeometryPath>
@@ -525,11 +735,21 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>49.910670978115256</optimal_fiber_length>
-					<tendon_slack_length>1.0185851220023523</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 				<Thelen2003Muscle name="muscle27">
 					<GeometryPath>
@@ -549,11 +769,21 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>50.00387787945408</optimal_fiber_length>
-					<tendon_slack_length>1.020487303662328</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 				<Thelen2003Muscle name="muscle28">
 					<GeometryPath>
@@ -573,11 +803,21 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>33.546208356275464</optimal_fiber_length>
-					<tendon_slack_length>0.06846164970668462</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 				<Thelen2003Muscle name="muscle29">
 					<GeometryPath>
@@ -597,11 +837,21 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>44.98777386191248</optimal_fiber_length>
-					<tendon_slack_length>0.09181178339165813</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 				<Thelen2003Muscle name="muscle30">
 					<GeometryPath>
@@ -621,11 +871,21 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>45.26971223184013</optimal_fiber_length>
-					<tendon_slack_length>0.09238716782008191</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 				<Thelen2003Muscle name="muscle31">
 					<GeometryPath>
@@ -645,11 +905,21 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>34.07032811110503</optimal_fiber_length>
-					<tendon_slack_length>0.06953128185939802</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 				<Thelen2003Muscle name="muscle33">
 					<GeometryPath>
@@ -660,7 +930,7 @@
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="muscle33_node1">
-									<location>0.038112279133106775 0.060678918562805675 0.038534542078482024</location>
+									<location>0.038112279133106775 0.010678918562805678 0.038534542078482024</location>
 									<body>thigh_right</body>
 								</PathPoint>
 							</objects>
@@ -669,11 +939,21 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>15.75340280048138</optimal_fiber_length>
-					<tendon_slack_length>0.03214980163363547</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 				<Thelen2003Muscle name="muscle34">
 					<GeometryPath>
@@ -684,7 +964,7 @@
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="muscle34_node2">
-									<location>0.03811227913310674 0.07468129571133118 -0.01980869604034758</location>
+									<location>0.03811227913310674 0.024681295711331187 -0.01980869604034758</location>
 									<body>thigh_right</body>
 								</PathPoint>
 							</objects>
@@ -693,18 +973,28 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>14.768648220754361</optimal_fiber_length>
-					<tendon_slack_length>0.03014009840970278</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 				<Thelen2003Muscle name="muscle35">
 					<GeometryPath>
 						<PathPointSet>
 							<objects>
 								<PathPoint name="muscle35_node0">
-									<location>0.0341096375105284 -0.03663014908872768 0.02112947621029046</location>
+									<location>0.0341096375105284 -0.08663014908872768 0.02112947621029046</location>
 									<body>thigh_right</body>
 								</PathPoint>
 								<PathPoint name="muscle35_node2">
@@ -717,18 +1007,28 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>26.023094188632122</optimal_fiber_length>
-					<tendon_slack_length>0.05310835548700433</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 				<Thelen2003Muscle name="muscle36">
 					<GeometryPath>
 						<PathPointSet>
 							<objects>
 								<PathPoint name="muscle36_node0">
-									<location>0.036657458452411085 -0.018217371981330787 -0.04805348659593113</location>
+									<location>0.036657458452411085 -0.0682173719813308 -0.04805348659593113</location>
 									<body>thigh_right</body>
 								</PathPoint>
 								<PathPoint name="muscle36_node1">
@@ -741,11 +1041,21 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>24.220003975187588</optimal_fiber_length>
-					<tendon_slack_length>0.049428579541199164</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 				<Thelen2003Muscle name="muscle37">
 					<GeometryPath>
@@ -765,11 +1075,21 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>15.857329330334256</optimal_fiber_length>
-					<tendon_slack_length>0.03236189659251889</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 				<Thelen2003Muscle name="muscle38">
 					<GeometryPath>
@@ -789,11 +1109,21 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>17.711221477743997</optimal_fiber_length>
-					<tendon_slack_length>0.036145349954579586</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 				<Thelen2003Muscle name="muscle39">
 					<GeometryPath>
@@ -813,11 +1143,21 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>14.738132276414609</optimal_fiber_length>
-					<tendon_slack_length>0.03007782097227471</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 				<Thelen2003Muscle name="muscle40">
 					<GeometryPath>
@@ -837,11 +1177,21 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>15.988025006288792</optimal_fiber_length>
-					<tendon_slack_length>0.03262862246181386</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 				<Thelen2003Muscle name="muscle41">
 					<GeometryPath>
@@ -861,11 +1211,21 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>26.351156687928707</optimal_fiber_length>
-					<tendon_slack_length>0.05377787079169124</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 				<Thelen2003Muscle name="muscle42">
 					<GeometryPath>
@@ -885,11 +1245,21 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>22.40663392538428</optimal_fiber_length>
-					<tendon_slack_length>0.04572782433751894</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 				<Thelen2003Muscle name="muscle43">
 					<GeometryPath>
@@ -909,11 +1279,21 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>15.976262205270872</optimal_fiber_length>
-					<tendon_slack_length>0.032604616745450765</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 				<Thelen2003Muscle name="muscle44">
 					<GeometryPath>
@@ -933,11 +1313,21 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>16.497754201327833</optimal_fiber_length>
-					<tendon_slack_length>0.03366888612515884</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 				<Thelen2003Muscle name="muscle13">
 					<GeometryPath>
@@ -957,11 +1347,21 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>17.79396926528588</optimal_fiber_length>
-					<tendon_slack_length>0.03631422299037935</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 				<Thelen2003Muscle name="muscle14">
 					<GeometryPath>
@@ -981,11 +1381,21 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>14.212917853316778</optimal_fiber_length>
-					<tendon_slack_length>0.0290059548026873</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 				<Thelen2003Muscle name="muscle15">
 					<GeometryPath>
@@ -1005,11 +1415,21 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>10.402090632646587</optimal_fiber_length>
-					<tendon_slack_length>0.0212287563931563</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 				<Thelen2003Muscle name="muscle16">
 					<GeometryPath>
@@ -1029,11 +1449,21 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>8.822605798059314</optimal_fiber_length>
-					<tendon_slack_length>0.01800531795522309</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 				<Thelen2003Muscle name="muscle17">
 					<GeometryPath>
@@ -1053,11 +1483,21 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>27.30037693516253</optimal_fiber_length>
-					<tendon_slack_length>0.05571505496971945</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 				<Thelen2003Muscle name="muscle45">
 					<GeometryPath>
@@ -1077,11 +1517,21 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>26.852955887923567</optimal_fiber_length>
-					<tendon_slack_length>0.05480195079168075</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 				<Thelen2003Muscle name="muscle46">
 					<GeometryPath>
@@ -1101,11 +1551,21 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>8.338140710843225</optimal_fiber_length>
-					<tendon_slack_length>0.01701661369559842</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 				<Thelen2003Muscle name="muscle47">
 					<GeometryPath>
@@ -1125,11 +1585,21 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>10.366551892275092</optimal_fiber_length>
-					<tendon_slack_length>0.02115622835158182</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 				<Thelen2003Muscle name="muscle48">
 					<GeometryPath>
@@ -1149,11 +1619,21 @@
 							<objects/>
 						</PathWrapSet>
 					</GeometryPath>
-					<max_isometric_force>1000.0</max_isometric_force>
-					<optimal_fiber_length>14.212742711813146</optimal_fiber_length>
-					<tendon_slack_length>0.029005597371047237</tendon_slack_length>
-					<stiffness>100000</stiffness>
-					<dissipation>1</dissipation>
+					<max_isometric_force>546.0</max_isometric_force>
+					<optimal_fiber_length>0.0535</optimal_fiber_length>
+					<tendon_slack_length>0.078</tendon_slack_length>
+					<pennation_angle>0.0</pennation_angle>
+					<activation_time_constant>0.01</activation_time_constant>
+					<deactivation_time_constant>0.04</deactivation_time_constant>
+					<Vmax>10.0</Vmax>
+					<Vmax0>5.0</Vmax0>
+					<FmaxTendonStrain>0.033</FmaxTendonStrain>
+					<FmaxMuscleStrain>0.6</FmaxMuscleStrain>
+					<KshapeActive>0.5</KshapeActive>
+					<KshapePassive>4.0</KshapePassive>
+					<damping>0.05</damping>
+					<Af>0.3</Af>
+					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
 			</objects>
 		</ForceSet>
