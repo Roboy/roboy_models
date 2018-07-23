@@ -2,7 +2,7 @@ mass[kg] 	 COM[cm] 			 component name
 COM: upper_arm_left
 ----------------------------------------------------------------
 Mass of upper_arm_left: 8.513664
-COM of upper_arm_left: 29.918151 1.136958 31.253833
+COM of upper_arm_left: 38.168743 1.253135 56.136949
 ----------------------------------------------------------------
 Body: upper_arm_left
 looking for cached upper_arm_left
@@ -10,7 +10,7 @@ exporting stl of upper_arm_left
 mass[kg] 	 COM[cm] 			 component name
 COM: torso
 ----------------------------------------------------------------
-Mass of torso: 46.795713
+Mass of torso: 46.996721
 COM of torso: -0.000000 0.000000 30.091284
 ----------------------------------------------------------------
 Body: torso
@@ -20,7 +20,7 @@ mass[kg] 	 COM[cm] 			 component name
 COM: hand_left
 ----------------------------------------------------------------
 Mass of hand_left: 3.576722
-COM of hand_left: 30.442050 -32.842961 21.283053
+COM of hand_left: 94.090521 3.044715 54.424826
 ----------------------------------------------------------------
 Body: hand_left
 looking for cached hand_left
@@ -29,15 +29,16 @@ mass[kg] 	 COM[cm] 			 component name
 COM: lower_arm_left
 ----------------------------------------------------------------
 Mass of lower_arm_left: 1.496479
-COM of lower_arm_left: 29.608170 -15.553697 21.811602
+COM of lower_arm_left: 77.205375 3.206568 54.304843
 ----------------------------------------------------------------
 Body: lower_arm_left
 looking for cached lower_arm_left
+lower_arm_leftnot found, copying bodies to new component
 exporting stl of lower_arm_left
 mass[kg] 	 COM[cm] 			 component name
 COM: base
 ----------------------------------------------------------------
-Mass of base: 1859.567923
+Mass of base: 1859.580489
 COM of base: -0.000000 0.000000 -0.000000
 ----------------------------------------------------------------
 Body: base
@@ -60,20 +61,15 @@ COM of sphere_link2: 29.218006 0.768826 54.927796
 ----------------------------------------------------------------
 Body: sphere_link2
 looking for cached sphere_link2
-sphere_link2not found, copying bodies to new component
 exporting stl of sphere_link2
-Joint: EXPORT_elbow_left
-	parent: upper_arm_left
-	child: lower_arm_left
-	pos: -2.501181793173373	14.978047908478715	0.18490851765008287
-Joint: EXPORT_wrist_left
-	parent: lower_arm_left
-	child: hand_left
-	pos: -0.27259406760229155	6.3029882875297005	0.7740365174878789
 Joint: EXPORT_base_joint
 	parent: base
 	child: torso
 	pos: 2.5099561034520937e-14	-2.464296575766352e-13	-30.091284425724986
+Joint: EXPORT_wrist_left
+	parent: lower_arm_left
+	child: hand_left
+	pos: -5.896817134384776	0.720210038026786	-0.2557609266996437
 Joint: EXPORT_sphere_axis0
 	parent: torso
 	child: sphere_link1
@@ -85,4 +81,8 @@ Joint: EXPORT_sphere_axis1
 Joint: EXPORT_sphere_axis2
 	parent: sphere_link2
 	child: upper_arm_left
-	pos: -0.7001455401824082	-0.368132483443957	23.673962629720513
+	pos: -8.950737550575738	-0.48430926608111236	-1.2091532153359594
+Joint: EXPORT_elbow_left
+	parent: upper_arm_left
+	child: lower_arm_left
+	pos: -15.051663900487682	-1.3042230712669896	-1.5422181033231936

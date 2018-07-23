@@ -142,43 +142,43 @@
 			</axis>
 		</joint>
 
-		<plugin filename="libmoveit_plugin.so" name="moveit_plugin"></plugin>
+		<!--<plugin filename="libmoveit_plugin.so" name="moveit_plugin"></plugin>-->
 
-		<!--<plugin filename="libmyomuscle_plugin.so" name="myomuscle_plugin">-->
-			<!--<myoMuscle name="motor0">-->
-				<!--<link name="base_link">-->
-					<!--<viaPoint type="FIXPOINT">0.5 0.005 0.0</viaPoint>-->
-				<!--</link>-->
-				<!--<link name="link_1">-->
-					<!--<viaPoint type="FIXPOINT">0.1 0.05 0.3</viaPoint>-->
-				<!--</link>-->
-			<!--</myoMuscle>-->
-			<!--<myoMuscle name="motor1">-->
-				<!--<link name="base_link">-->
-					<!--<viaPoint type="FIXPOINT">1.5 0.005 0.0</viaPoint>-->
-				<!--</link>-->
-				<!--<link name="link_2">-->
-					<!--<viaPoint type="FIXPOINT">0.1 0.05 0.3</viaPoint>-->
-				<!--</link>-->
-			<!--</myoMuscle>-->
-			<!--<myoMuscle name="motor2">-->
-				<!--<link name="base_link">-->
-					<!--<viaPoint type="FIXPOINT">-0.5 -0.005000000074505806 0.0</viaPoint>-->
-				<!--</link>-->
-				<!--<link name="link_1">-->
-					<!--<viaPoint type="FIXPOINT">-0.1 -0.05 0.3</viaPoint>-->
-				<!--</link>-->
-			<!--</myoMuscle>-->
-			<!--<myoMuscle name="motor3">-->
-				<!--<link name="base_link">-->
-					<!--<viaPoint type="FIXPOINT">-1.5 -0.005000000074505806 0.0</viaPoint>-->
-				<!--</link>-->
-				<!--<link name="link_2">-->
-					<!--<viaPoint type="FIXPOINT">-0.1 -0.05 0.3</viaPoint>-->
-				<!--</link>-->
-			<!--</myoMuscle>-->
-			<!--<endEffector name="endeffector" link="link_2">0 0 0.5</endEffector>-->
-			<!--<marker link="link_2">0 0 0.5</marker>-->
-		<!--</plugin>-->
+		<plugin filename="libmusc_plugin.so" name="musc_plugin">
+			<myoMuscle name="motor0">
+				<link name="base_link">
+					<viaPoint type="FIXPOINT">0.5 0.005 0.0</viaPoint>
+				</link>
+				<link name="link_1">
+					<viaPoint type="FIXPOINT">0.1 0.05 0.3</viaPoint>
+				</link>
+			</myoMuscle>
+			<myoMuscle name="motor1">
+				<link name="base_link">
+					<viaPoint type="FIXPOINT">1.5 0.005 0.0</viaPoint>
+				</link>
+				<link name="link_2">
+					<viaPoint type="FIXPOINT">0.1 0.05 0.3</viaPoint>
+				</link>
+			</myoMuscle>
+			<myoMuscle name="motor2">
+				<link name="base_link">
+					<viaPoint type="FIXPOINT">-0.5 -0.005000000074505806 0.0</viaPoint>
+				</link>
+				<link name="link_1">
+					<viaPoint type="FIXPOINT">-0.1 -0.05 0.3</viaPoint>
+				</link>
+			</myoMuscle>
+			<myoMuscle name="motor3">
+				<link name="base_link">
+					<viaPoint type="FIXPOINT">-1.5 -0.005000000074505806 0.0</viaPoint>
+				</link>
+				<link name="link_2">
+					<viaPoint type="FIXPOINT">-0.1 -0.05 0.3</viaPoint>
+				</link>
+			</myoMuscle>
+			<endEffector name="endeffector" link="link_2">0 0 0.5</endEffector>
+			<marker link="link_2">0 0 0.5</marker>
+		</plugin>
 	</model>
 </sdf>

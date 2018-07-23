@@ -1,0 +1,161 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+	<model name="roboy_head">
+		<link name="torso">
+			<self_collide>false</self_collide>
+			<pose frame="">0.0 0.0 0.0 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.1</mass>
+				<inertia>
+					<ixx>0.1</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>0.1</iyy>
+					<iyz>0.0</iyz>
+					<izz>0.1</izz>
+				</inertia>
+			</inertial>
+			<collision name="torso_collision">
+				<geometry>
+					<mesh>
+						<uri>model://roboy_head/meshes/CAD/torso.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="torso_visual">
+				<geometry>
+					<mesh>
+						<uri>model://roboy_head/meshes/CAD/torso.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="head">
+			<self_collide>false</self_collide>
+			<pose frame="">-2.816833817388812e-17 8.373300489664123e-16 0.18505290871626687 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.1</mass>
+				<inertia>
+					<ixx>0.1</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>0.1</iyy>
+					<iyz>0.0</iyz>
+					<izz>0.1</izz>
+				</inertia>
+			</inertial>
+			<collision name="head_collision">
+				<geometry>
+					<mesh>
+						<uri>model://roboy_head/meshes/CAD/head.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="head_visual">
+				<geometry>
+					<mesh>
+						<uri>model://roboy_head/meshes/CAD/head.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="sphere_link1">
+			<self_collide>false</self_collide>
+			<pose frame="">-2.816833817388812e-17 8.373300489664123e-16 0.18505290871626687 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.1</mass>
+				<inertia>
+					<ixx>0.1</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>0.1</iyy>
+					<iyz>0.0</iyz>
+					<izz>0.1</izz>
+				</inertia>
+			</inertial>
+			<collision name="sphere_link1_collision">
+				<geometry>
+					<mesh>
+						<uri>model://roboy_head/meshes/CAD/sphere_link1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="sphere_link1_visual">
+				<geometry>
+					<mesh>
+						<uri>model://roboy_head/meshes/CAD/sphere_link1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<joint name="sphere_axis0" type="revolute">
+			<parent>torso</parent>
+			<child>sphere_link1</child>
+			<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+			<axis>
+				<xyz>1.0 -2.5453563575561573e-15 8.776077570583756e-30</xyz>
+				<limit>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="sphere_axis1" type="revolute">
+			<parent>sphere_link1</parent>
+			<child>head</child>
+			<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+			<axis>
+				<xyz>-2.5453563575561573e-15 -1.0 3.4474125650640867e-15</xyz>
+				<limit>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<plugin filename="libmusc_plugin.so" name="musc_plugin">
+			<myoMuscle name="motor0">
+				<link name="torso">
+					<viaPoint type="FIXPOINT">-0.04451587350397651 0.05130415696557317 0.14013164778771064</viaPoint>
+				</link>
+				<link name="head">
+					<viaPoint type="FIXPOINT">-0.013435711035891097 0.04976406017740014 0.011668782202091315</viaPoint>
+				</link>
+			</myoMuscle>
+			<myoMuscle name="motor1">
+				<link name="torso">
+					<viaPoint type="FIXPOINT">0.04347759286719336 0.05124511014858471 0.14032796048060783</viaPoint>
+				</link>
+				<link name="head">
+					<viaPoint type="FIXPOINT">0.013735667024719525 0.04976406017740005 0.006471564502221341</viaPoint>
+				</link>
+			</myoMuscle>
+			<myoMuscle name="motor2">
+				<link name="torso">
+					<viaPoint type="FIXPOINT">0.04347759286719294 -0.0512451101485837 0.1403279604806084</viaPoint>
+				</link>
+				<link name="head">
+					<viaPoint type="FIXPOINT">0.013805126295786117 -0.049764060177400066 0.006865487603426601</viaPoint>
+				</link>
+			</myoMuscle>
+			<myoMuscle name="motor3">
+				<link name="torso">
+					<viaPoint type="FIXPOINT">-0.04451587350397662 -0.0513041569655721 0.14013164778771026</viaPoint>
+				</link>
+				<link name="head">
+					<viaPoint type="FIXPOINT">-0.013505170306958103 -0.04976406017739998 0.011274859100886766</viaPoint>
+				</link>
+			</myoMuscle>
+		</plugin>
+	</model>
+</sdf>
