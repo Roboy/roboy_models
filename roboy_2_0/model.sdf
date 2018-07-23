@@ -184,7 +184,7 @@
 					</mesh>
 				</geometry>
 			</visual>
-		</link>
+		</link> 
 		<link name="foot_left">
 			<pose frame="">0.16105855457796825 -1.3931772139763299 0.03359887495186586 0.0 -0.0 0.0</pose>
 			<inertial>
@@ -208,7 +208,7 @@
 				</geometry>
 			</visual>
 		</link>
-		<link name="foot_right">
+		 <link name="foot_right">
 			<pose frame="">-0.18264144541155303 -1.3896206475222552 -0.1293369473011459 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
@@ -258,14 +258,14 @@
 			<pose frame="">0.18875855457796806 -0.7971772141253374 0.030623890745438045 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>5.550542846502794</mass>
+				<mass>1.550542846502794</mass>
 				<inertia>
-					<ixx>3.685578807942346</ixx>
-					<ixy>0.8666394049300331</ixy>
-					<ixz>-0.005546202862841849</ixz>
-					<iyy>0.2190977578423448</iyy>
-					<iyz>0.0010839767495686883</iyz>
-					<izz>3.8896179258461627</izz>
+					<ixx>1.6653388658611266</ixx>
+					<ixy>-0.9158379676248382</ixy>
+					<ixz>-0.12344611487195216</ixz>
+					<iyy>0.2490603683470235</iyy>
+					<iyz>-0.029840934110197493</iyz>
+					<izz>1.890570397278537</izz>
 				</inertia>
 			</inertial>
 			<visual name="thigh_left_visual">
@@ -281,14 +281,14 @@
 			<pose frame="">-0.21645372454466072 -0.8513867792289044 -0.02806951512980287 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>5.5505063719096706</mass>
+				<mass>1.5505063719096706</mass>
 				<inertia>
-					<ixx>3.6653388658611266</ixx>
+					<ixx>1.6653388658611266</ixx>
 					<ixy>-0.9158379676248382</ixy>
 					<ixz>-0.12344611487195216</ixz>
 					<iyy>0.2490603683470235</iyy>
 					<iyz>-0.029840934110197493</iyz>
-					<izz>3.890570397278537</izz>
+					<izz>1.890570397278537</izz>
 				</inertia>
 			</inertial>
 			<visual name="thigh_right_visual">
@@ -304,7 +304,7 @@
 			<pose frame="">0.20467083371107514 -1.1981735437418501 0.00728919392513365 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>1.3897183402329996</mass>
+				<mass>0.3897183402329996</mass>
 				<inertia>
 					<ixx>0.13320117250123065</ixx>
 					<ixy>0.12093660406529373</ixy>
@@ -327,7 +327,7 @@
 			<pose frame="">-0.21625372454465971 -1.1868603982325021 -0.10858318384394725 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>1.3897183402329996</mass>
+				<mass>0.3897183402329996</mass>
 				<inertia>
 					<ixx>0.13320117250123065</ixx>
 					<ixy>0.12093660406529373</ixy>
@@ -368,8 +368,8 @@
 					</mesh>
 				</geometry>
 			</visual>
-		</link>
-		<link name="forearm_left">
+		</link> 
+		 <link name="forearm_left">
 			<pose frame="">0.27951125084283623 -0.4675856840017123 0.0016882927360588396 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
@@ -398,12 +398,12 @@
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
 				<mass>4.8484829245932675</mass>
 				<inertia>
-					<ixx>0.9775428687786153</ixx>
-					<ixy>-0.6266850098889266</ixy>
-					<ixz>-2.530143174627284e-05</ixz>
-					<iyy>0.4144211202613852</iyy>
-					<iyz>-1.8571926141733635e-05</iyz>
-					<izz>1.388866846620119</izz>
+					<ixx>1.0008117096559812</ixx>
+					<ixy>0.6032714195852091</ixy>
+					<ixz>0.0036603745221135066</ixz>
+					<iyy>0.37508570534684493</iyy>
+					<iyz>-0.002255371243370576</iyz>
+					<izz>1.3728250806619184</izz>
 				</inertia>
 			</inertial>
 			<visual name="forearm_right_visual">
@@ -598,12 +598,13 @@
 		</joint>
 		<plugin filename="libgazebo_ros_muscle_interface.so" name="muscle_interface_plugin"/>
 		<muscles>model://roboy_2_0/muscles.osim</muscles>
+	
 		<joint name="world" type="fixed">
 			<parent>world</parent>
 			<child>tricycle</child>
 			<pose frame="">0 0 0 0 0 0</pose>
-		</joint>
-		<!-- <plugin filename="libgazebo_ros_muscle_interface.so" name="muscle_interface_plugin"/>
-		<muscles>model://roboy_2_0/muscles.osim</muscles> -->
+		</joint> 
+		<!-- <plugin filename="libgazebo_ros_muscle_interface.so" name="muscle_interface_plugin"/> -->
+		<!-- <muscles>model://roboy_2_0/muscles.osim</muscles> -->
 	</model>
 </sdf>
