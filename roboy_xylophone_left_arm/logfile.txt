@@ -10,12 +10,22 @@ exporting stl of upper_arm_left
 mass[kg] 	 COM[cm] 			 component name
 COM: torso
 ----------------------------------------------------------------
-Mass of torso: 46.996721
+Mass of torso: 51.295278
 COM of torso: -0.000000 0.000000 30.091284
 ----------------------------------------------------------------
 Body: torso
 looking for cached torso
 exporting stl of torso
+mass[kg] 	 COM[cm] 			 component name
+COM: base
+----------------------------------------------------------------
+Mass of base: 1866.717954
+COM of base: 0.000000 -0.000000 -16.000000
+----------------------------------------------------------------
+Body: base
+looking for cached base
+basenot found, copying bodies to new component
+exporting stl of base
 mass[kg] 	 COM[cm] 			 component name
 COM: hand_left
 ----------------------------------------------------------------
@@ -33,17 +43,7 @@ COM of lower_arm_left: 77.205375 3.206568 54.304843
 ----------------------------------------------------------------
 Body: lower_arm_left
 looking for cached lower_arm_left
-lower_arm_leftnot found, copying bodies to new component
 exporting stl of lower_arm_left
-mass[kg] 	 COM[cm] 			 component name
-COM: base
-----------------------------------------------------------------
-Mass of base: 1859.580489
-COM of base: -0.000000 0.000000 -0.000000
-----------------------------------------------------------------
-Body: base
-looking for cached base
-exporting stl of base
 mass[kg] 	 COM[cm] 			 component name
 COM: sphere_link1
 ----------------------------------------------------------------
@@ -62,27 +62,131 @@ COM of sphere_link2: 29.218006 0.768826 54.927796
 Body: sphere_link2
 looking for cached sphere_link2
 exporting stl of sphere_link2
-Joint: EXPORT_base_joint
-	parent: base
-	child: torso
-	pos: 2.5099561034520937e-14	-2.464296575766352e-13	-30.091284425724986
-Joint: EXPORT_wrist_left
-	parent: lower_arm_left
-	child: hand_left
-	pos: -5.896817134384776	0.720210038026786	-0.2557609266996437
-Joint: EXPORT_sphere_axis0
-	parent: torso
-	child: sphere_link1
-	pos: -1.4210854715202004e-14	-1.2212453270876722e-15	7.105427357601002e-15
-Joint: EXPORT_sphere_axis1
-	parent: sphere_link1
-	child: sphere_link2
-	pos: -7.105427357601002e-15	-5.551115123125783e-16	-2.1316282072803006e-14
-Joint: EXPORT_sphere_axis2
-	parent: sphere_link2
-	child: upper_arm_left
-	pos: -8.950737550575738	-0.48430926608111236	-1.2091532153359594
+mass[kg] 	 COM[cm] 			 component name
+COM: spine_v0_sphere_link1
+----------------------------------------------------------------
+Mass of spine_v0_sphere_link1: 0.013737
+COM of spine_v0_sphere_link1: 0.000000 -0.000000 8.045119
+----------------------------------------------------------------
+Body: spine_v0_sphere_link1
+looking for cached spine_v0_sphere_link1
+exporting stl of spine_v0_sphere_link1
+mass[kg] 	 COM[cm] 			 component name
+COM: spine_v0_sphere_link2
+----------------------------------------------------------------
+Mass of spine_v0_sphere_link2: 0.009209
+COM of spine_v0_sphere_link2: 0.000000 -0.000000 8.045119
+----------------------------------------------------------------
+Body: spine_v0_sphere_link2
+looking for cached spine_v0_sphere_link2
+exporting stl of spine_v0_sphere_link2
+mass[kg] 	 COM[cm] 			 component name
+COM: spine_v1_sphere_link1
+----------------------------------------------------------------
+Mass of spine_v1_sphere_link1: 0.013737
+COM of spine_v1_sphere_link1: 0.000000 -0.000000 11.945119
+----------------------------------------------------------------
+Body: spine_v1_sphere_link1
+looking for cached spine_v1_sphere_link1
+exporting stl of spine_v1_sphere_link1
+mass[kg] 	 COM[cm] 			 component name
+COM: spine_v1_sphere_link2
+----------------------------------------------------------------
+Mass of spine_v1_sphere_link2: 0.009209
+COM of spine_v1_sphere_link2: 0.000000 -0.000000 11.945119
+----------------------------------------------------------------
+Body: spine_v1_sphere_link2
+looking for cached spine_v1_sphere_link2
+exporting stl of spine_v1_sphere_link2
+mass[kg] 	 COM[cm] 			 component name
+COM: spine_v2_sphere_link1
+----------------------------------------------------------------
+Mass of spine_v2_sphere_link1: 0.013737
+COM of spine_v2_sphere_link1: 0.000000 -0.000000 15.845119
+----------------------------------------------------------------
+Body: spine_v2_sphere_link1
+looking for cached spine_v2_sphere_link1
+exporting stl of spine_v2_sphere_link1
+mass[kg] 	 COM[cm] 			 component name
+COM: spine_v2_sphere_link2
+----------------------------------------------------------------
+Mass of spine_v2_sphere_link2: 0.009209
+COM of spine_v2_sphere_link2: 0.000000 -0.000000 15.845119
+----------------------------------------------------------------
+Body: spine_v2_sphere_link2
+looking for cached spine_v2_sphere_link2
+exporting stl of spine_v2_sphere_link2
+mass[kg] 	 COM[cm] 			 component name
+COM: spine_link1
+----------------------------------------------------------------
+Mass of spine_link1: 0.037632
+COM of spine_link1: 0.000000 0.000000 10.098972
+----------------------------------------------------------------
+Body: spine_link1
+looking for cached spine_link1
+exporting stl of spine_link1
+mass[kg] 	 COM[cm] 			 component name
+COM: spine_link2
+----------------------------------------------------------------
+Mass of spine_link2: 0.023084
+COM of spine_link2: 0.000000 0.000000 13.998972
+----------------------------------------------------------------
+Body: spine_link2
+looking for cached spine_link2
+exporting stl of spine_link2
 Joint: EXPORT_elbow_left
 	parent: upper_arm_left
 	child: lower_arm_left
-	pos: -15.051663900487682	-1.3042230712669896	-1.5422181033231936
+	pos: -15.051663900487462	-1.3039730040602915	-1.6086388301349004
+Joint: EXPORT_sphere_axis0
+	parent: torso
+	child: sphere_link1
+	pos: 1.8118839761882555e-13	0.00025006720669218385	-0.06642072681172095
+Joint: EXPORT_sphere_axis1
+	parent: sphere_link1
+	child: sphere_link2
+	pos: 1.6697754290362354e-13	0.0002500672066912957	-0.06642072681174227
+Joint: EXPORT_sphere_axis2
+	parent: sphere_link2
+	child: upper_arm_left
+	pos: -8.95073755057556	-0.48405919887442295	-1.2755739421477301
+Joint: EXPORT_spine_v2_axis0
+	parent: spine_link2
+	child: spine_v2_sphere_link1
+	pos: -2.5535129566378585e-15	1.8010361579347083e-13	8.500000000000085
+Joint: EXPORT_spine_v2_axis2
+	parent: spine_v2_sphere_link2
+	child: torso
+	pos: 2.2546048077883077e-14	-8.175814182545408e-14	-5.746165571431703
+Joint: EXPORT_spine_v2_axis1
+	parent: spine_v2_sphere_link1
+	child: spine_v2_sphere_link2
+	pos: -2.5535129566378596e-15	1.8301910336855395e-13	8.500000000000089
+Joint: EXPORT_wrist_left
+	parent: lower_arm_left
+	child: hand_left
+	pos: -5.896817134384619	0.720460105233474	-0.32218165351137174
+Joint: EXPORT_spine_v1_axis0
+	parent: spine_link1
+	child: spine_v1_sphere_link1
+	pos: -2.5535129566378585e-15	1.5325652976227368e-13	8.50000000000008
+Joint: EXPORT_spine_v1_axis2
+	parent: spine_v1_sphere_link2
+	child: spine_link2
+	pos: -2.6645352591003757e-15	1.4970381608347312e-13	6.446146951730524
+Joint: EXPORT_spine_v1_axis1
+	parent: spine_v1_sphere_link1
+	child: spine_v1_sphere_link2
+	pos: -2.553512956637859e-15	1.5617201733735685e-13	8.500000000000083
+Joint: EXPORT_spine_v0_axis0
+	parent: base
+	child: spine_v0_sphere_link1
+	pos: -2.5535129566378585e-15	1.2640944373107662e-13	8.500000000000089
+Joint: EXPORT_spine_v0_axis2
+	parent: spine_v0_sphere_link2
+	child: spine_link1
+	pos: -2.6645352591003757e-15	1.2285673005227607e-13	6.446146951730533
+Joint: EXPORT_spine_v0_axis1
+	parent: spine_v0_sphere_link1
+	child: spine_v0_sphere_link2
+	pos: -2.5535129566378596e-15	1.2932493130615964e-13	8.500000000000082
