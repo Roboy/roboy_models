@@ -100,12 +100,9 @@ spine_v1_sphere_link1not found, copying bodies to new component
 exporting stl of spine_v1_sphere_link1
 mass[kg] 	 COM[cm] 			 component name
 COM: spine_v1_sphere_link2
-0.004604 	 0.017036 -0.011971 -0.411879 		 sphere_link2 (1) (1):1
-0.002302 	 0.009111 -0.000689 0.000000 		 Component340:1
-0.002302 	 0.009111 -0.000689 0.000000 		 Component340:1
 ----------------------------------------------------------------
 Mass of spine_v1_sphere_link2: 0.009209
-COM of spine_v1_sphere_link2: 3.828718 -1.449620 -44.727440
+COM of spine_v1_sphere_link2: -0.000000 0.000000 20.445119
 ----------------------------------------------------------------
 Body: spine_v1_sphere_link2
 looking for cached spine_v1_sphere_link2
@@ -133,14 +130,9 @@ spine_v2_sphere_link2not found, copying bodies to new component
 exporting stl of spine_v2_sphere_link2
 mass[kg] 	 COM[cm] 			 component name
 COM: spine_link1
-0.001625 	 0.006014 -0.004226 -0.144633 		 Component329:1
-0.016667 	 -0.000003 0.000228 -1.466281 		 Vertebra (1):1
-0.009756 	 0.036096 -0.025375 -0.872844 		 sphere_link0 (1) (1):1
-0.004792 	 -0.000000 -0.002063 -0.000001 		 Component336:1
-0.004792 	 -0.000000 -0.002063 -0.000001 		 Component336:1
 ----------------------------------------------------------------
 Mass of spine_link1: 0.037632
-COM of spine_link1: 1.118912 -0.890181 -66.001017
+COM of spine_link1: -0.000000 0.000000 18.598972
 ----------------------------------------------------------------
 Body: spine_link1
 looking for cached spine_link1
@@ -148,12 +140,9 @@ spine_link1not found, copying bodies to new component
 exporting stl of spine_link1
 mass[kg] 	 COM[cm] 			 component name
 COM: spine_link2
-0.016667 	 -0.000003 0.000228 -1.466281 		 Vertebra (1) (1):1
-0.004792 	 -0.000000 -0.002063 -0.000001 		 Component348:1
-0.001625 	 0.006014 -0.004226 -0.144633 		 Component341:1
 ----------------------------------------------------------------
 Mass of spine_link2: 0.023084
-COM of spine_link2: 0.260397 -0.262572 -69.783693
+COM of spine_link2: -0.000000 0.000000 22.498972
 ----------------------------------------------------------------
 Body: spine_link2
 looking for cached spine_link2
@@ -163,6 +152,18 @@ Joint: EXPORT_wrist_left
 	parent: lower_arm_left
 	child: hand_left
 	pos: -5.896817134384619	0.720460105233474	-0.32218165351137174
+Joint: EXPORT_spine_v0_axis0
+	parent: base
+	child: spine_v0_sphere_link1
+	pos: 0.0	0.0	0.0
+Joint: EXPORT_spine_v0_axis2
+	parent: spine_v0_sphere_link2
+	child: spine_link1
+	pos: -1.1102230246251605e-16	1.2285673005227607e-13	-2.0538530482695343
+Joint: EXPORT_spine_v0_axis1
+	parent: spine_v0_sphere_link1
+	child: spine_v0_sphere_link2
+	pos: -1.1832913578315177e-30	2.9154875750830205e-15	-7.105427357601002e-15
 Joint: EXPORT_elbow_left
 	parent: upper_arm_left
 	child: lower_arm_left
@@ -179,18 +180,6 @@ Joint: EXPORT_sphere_axis2
 	parent: sphere_link2
 	child: upper_arm_left
 	pos: -8.95073755057556	-0.48405919887442295	-1.2755739421477301
-Joint: EXPORT_spine_v0_axis0
-	parent: base
-	child: spine_v0_sphere_link1
-	pos: 0.0	0.0	0.0
-Joint: EXPORT_spine_v0_axis2
-	parent: spine_v0_sphere_link2
-	child: spine_link1
-	pos: -1.1189120381749327	0.8901810376599669	82.54613564448228
-Joint: EXPORT_spine_v0_axis1
-	parent: spine_v0_sphere_link1
-	child: spine_v0_sphere_link2
-	pos: -1.1832913578315177e-30	2.9154875750830205e-15	-7.105427357601002e-15
 Joint: EXPORT_spine_v1_axis0
 	parent: spine_link1
 	child: spine_v1_sphere_link1
@@ -198,11 +187,11 @@ Joint: EXPORT_spine_v1_axis0
 Joint: EXPORT_spine_v1_axis2
 	parent: spine_v1_sphere_link2
 	child: spine_link2
-	pos: -0.26039669337722976	0.2625720941719706	90.2288115682993
+	pos: -1.1102230246251644e-16	1.4970381608347312e-13	-2.0538530482695307
 Joint: EXPORT_spine_v1_axis1
 	parent: spine_v1_sphere_link1
 	child: spine_v1_sphere_link2
-	pos: -3.828718131867374	1.4496202783850851	65.17255923311224
+	pos: -3.944304526105059e-31	2.915487575083172e-15	3.552713678800501e-15
 Joint: EXPORT_spine_v2_axis0
 	parent: spine_link2
 	child: spine_v2_sphere_link1
