@@ -6,14 +6,14 @@
 			<pose frame="">0.38168743171845093 0.012531347306432074 0.5613694888271816 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.1</mass>
+				<mass>1</mass>
 				<inertia>
-					<ixx>0.1</ixx>
+					<ixx>0.001</ixx>
 					<ixy>0.0</ixy>
 					<ixz>0.0</ixz>
-					<iyy>0.1</iyy>
+					<iyy>0.001</iyy>
 					<iyz>0.0</iyz>
-					<izz>0.1</izz>
+					<izz>0.001</izz>
 				</inertia>
 			</inertial>
 			<collision name="upper_arm_left_collision">
@@ -38,14 +38,14 @@
 			<pose frame="">-2.5210583336983455e-16 2.5830904394012438e-15 0.3009128442572498 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.1</mass>
+				<mass>1</mass>
 				<inertia>
-					<ixx>0.1</ixx>
+					<ixx>0.001</ixx>
 					<ixy>0.0</ixy>
 					<ixz>0.0</ixz>
-					<iyy>0.1</iyy>
+					<iyy>0.001</iyy>
 					<iyz>0.0</iyz>
-					<izz>0.1</izz>
+					<izz>0.001</izz>
 				</inertia>
 			</inertial>
 			<collision name="torso_collision">
@@ -70,14 +70,14 @@
 			<pose frame="">0.0 0.0 0.0 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.1</mass>
+				<mass>1000</mass>
 				<inertia>
-					<ixx>0.1</ixx>
+					<ixx>0.001</ixx>
 					<ixy>0.0</ixy>
 					<ixz>0.0</ixz>
-					<iyy>0.1</iyy>
+					<iyy>0.001</iyy>
 					<iyz>0.0</iyz>
-					<izz>0.1</izz>
+					<izz>0.001</izz>
 				</inertia>
 			</inertial>
 			<collision name="base_collision">
@@ -102,14 +102,14 @@
 			<pose frame="">0.9409052109712956 0.030447147800822187 0.5442482629971966 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.1</mass>
+				<mass>1</mass>
 				<inertia>
-					<ixx>0.1</ixx>
+					<ixx>0.001</ixx>
 					<ixy>0.0</ixy>
 					<ixz>0.0</ixz>
-					<iyy>0.1</iyy>
+					<iyy>0.001</iyy>
 					<iyz>0.0</iyz>
-					<izz>0.1</izz>
+					<izz>0.001</izz>
 				</inertia>
 			</inertial>
 			<collision name="hand_left_collision">
@@ -134,14 +134,14 @@
 			<pose frame="">0.7720537499627952 0.03206567887183061 0.5430484315962018 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.1</mass>
+				<mass>1</mass>
 				<inertia>
-					<ixx>0.1</ixx>
+					<ixx>0.001</ixx>
 					<ixy>0.0</ixy>
 					<ixz>0.0</ixz>
-					<iyy>0.1</iyy>
+					<iyy>0.001</iyy>
 					<iyz>0.0</iyz>
-					<izz>0.1</izz>
+					<izz>0.001</izz>
 				</inertia>
 			</inertial>
 			<collision name="lower_arm_left_collision">
@@ -166,14 +166,14 @@
 			<pose frame="">0.2921800561556851 0.0076882557614745385 0.5492779566488885 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.1</mass>
+				<mass>1</mass>
 				<inertia>
-					<ixx>0.1</ixx>
+					<ixx>0.001</ixx>
 					<ixy>0.0</ixy>
 					<ixz>0.0</ixz>
-					<iyy>0.1</iyy>
+					<iyy>0.001</iyy>
 					<iyz>0.0</iyz>
-					<izz>0.1</izz>
+					<izz>0.001</izz>
 				</inertia>
 			</inertial>
 			<collision name="sphere_link1_collision">
@@ -198,14 +198,14 @@
 			<pose frame="">0.292180056155685 0.007688255761474526 0.5492779566488886 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.1</mass>
+				<mass>1</mass>
 				<inertia>
-					<ixx>0.1</ixx>
+					<ixx>0.001</ixx>
 					<ixy>0.0</ixy>
 					<ixz>0.0</ixz>
-					<iyy>0.1</iyy>
+					<iyy>0.001</iyy>
 					<iyz>0.0</iyz>
-					<izz>0.1</izz>
+					<izz>0.001</izz>
 				</inertia>
 			</inertial>
 			<collision name="sphere_link2_collision">
@@ -230,14 +230,14 @@
 			<pose frame="">-2.5535129566378586e-17 1.21968551632576e-15 0.16545118854293278 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.1</mass>
+				<mass>1</mass>
 				<inertia>
-					<ixx>0.1</ixx>
+					<ixx>0.001</ixx>
 					<ixy>0.0</ixy>
 					<ixz>0.0</ixz>
-					<iyy>0.1</iyy>
+					<iyy>0.001</iyy>
 					<iyz>0.0</iyz>
-					<izz>0.1</izz>
+					<izz>0.001</izz>
 				</inertia>
 			</inertial>
 			<collision name="spine_v0_sphere_link1_collision">
@@ -262,14 +262,14 @@
 			<pose frame="">-2.5535129566378586e-17 1.21968551632576e-15 0.16545118854293278 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.1</mass>
+				<mass>1</mass>
 				<inertia>
-					<ixx>0.1</ixx>
+					<ixx>0.001</ixx>
 					<ixy>0.0</ixy>
 					<ixz>0.0</ixz>
-					<iyy>0.1</iyy>
+					<iyy>0.001</iyy>
 					<iyz>0.0</iyz>
-					<izz>0.1</izz>
+					<izz>0.001</izz>
 				</inertia>
 			</inertial>
 			<collision name="spine_v0_sphere_link2_collision">
@@ -294,14 +294,14 @@
 			<pose frame="">-2.4424906541753444e-17 1.4876988529977098e-15 0.2044511885429327 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.1</mass>
+				<mass>1</mass>
 				<inertia>
-					<ixx>0.1</ixx>
+					<ixx>0.001</ixx>
 					<ixy>0.0</ixy>
 					<ixz>0.0</ixz>
-					<iyy>0.1</iyy>
+					<iyy>0.001</iyy>
 					<iyz>0.0</iyz>
-					<izz>0.1</izz>
+					<izz>0.001</izz>
 				</inertia>
 			</inertial>
 			<collision name="spine_v1_sphere_link1_collision">
@@ -326,14 +326,14 @@
 			<pose frame="">-2.5535129566378586e-17 1.4881563766377304e-15 0.2044511885429327 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.1</mass>
+				<mass>1</mass>
 				<inertia>
-					<ixx>0.1</ixx>
+					<ixx>0.001</ixx>
 					<ixy>0.0</ixy>
 					<ixz>0.0</ixz>
-					<iyy>0.1</iyy>
+					<iyy>0.001</iyy>
 					<iyz>0.0</iyz>
-					<izz>0.1</izz>
+					<izz>0.001</izz>
 				</inertia>
 			</inertial>
 			<collision name="spine_v1_sphere_link2_collision">
@@ -358,14 +358,14 @@
 			<pose frame="">-2.55351295663786e-17 1.7563728249569977e-15 0.24345118854293277 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.1</mass>
+				<mass>1</mass>
 				<inertia>
-					<ixx>0.1</ixx>
+					<ixx>0.001</ixx>
 					<ixy>0.0</ixy>
 					<ixz>0.0</ixz>
-					<iyy>0.1</iyy>
+					<iyy>0.001</iyy>
 					<iyz>0.0</iyz>
-					<izz>0.1</izz>
+					<izz>0.001</izz>
 				</inertia>
 			</inertial>
 			<collision name="spine_v2_sphere_link1_collision">
@@ -390,14 +390,14 @@
 			<pose frame="">-2.55351295663786e-17 1.7563728249569977e-15 0.24345118854293277 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.1</mass>
+				<mass>1</mass>
 				<inertia>
-					<ixx>0.1</ixx>
+					<ixx>0.001</ixx>
 					<ixy>0.0</ixy>
 					<ixz>0.0</ixz>
-					<iyy>0.1</iyy>
+					<iyy>0.001</iyy>
 					<iyz>0.0</iyz>
-					<izz>0.1</izz>
+					<izz>0.001</izz>
 				</inertia>
 			</inertial>
 			<collision name="spine_v2_sphere_link2_collision">
@@ -422,14 +422,14 @@
 			<pose frame="">-2.5535129566378598e-17 0.0 0.18598971902562814 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.1</mass>
+				<mass>1</mass>
 				<inertia>
-					<ixx>0.1</ixx>
+					<ixx>0.001</ixx>
 					<ixy>0.0</ixy>
 					<ixz>0.0</ixz>
-					<iyy>0.1</iyy>
+					<iyy>0.001</iyy>
 					<iyz>0.0</iyz>
-					<izz>0.1</izz>
+					<izz>0.001</izz>
 				</inertia>
 			</inertial>
 			<collision name="spine_link1_collision">
@@ -454,14 +454,14 @@
 			<pose frame="">-2.5535129566378592e-17 0.0 0.224989719025628 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.1</mass>
+				<mass>1</mass>
 				<inertia>
-					<ixx>0.1</ixx>
+					<ixx>0.001</ixx>
 					<ixy>0.0</ixy>
 					<ixz>0.0</ixz>
-					<iyy>0.1</iyy>
+					<iyy>0.001</iyy>
 					<iyz>0.0</iyz>
-					<izz>0.1</izz>
+					<izz>0.001</izz>
 				</inertia>
 			</inertial>
 			<collision name="spine_link2_collision">
@@ -540,8 +540,8 @@
 			<axis>
 				<xyz>-0.011188426489530806 -0.022909252225328334 -0.9996749398055218</xyz>
 				<limit>
-					<lower>-1.5707963267948966</lower>
-					<upper>0.0</upper>
+					<lower>0.0</lower>
+					<upper>1.5707963267948966</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
