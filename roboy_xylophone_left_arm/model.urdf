@@ -1,0 +1,178 @@
+<?xml version="1.0" ?>
+<robot name="roboy_xylophone_left_arm">
+  <joint name="joint_hip" type="revolute">
+    <parent link="base"/>
+    <child link="torso"/>
+    <origin rpy="0  0  0" xyz="0       0.00152  0.08323"/>
+    <axis xyz="0  0 -1"/>
+    <limit effort="0.0" lower="-0.261799387799" upper="0.261799387799" velocity="0.0"/>
+  </joint>
+  <joint name="wrist_left" type="revolute">
+    <parent link="lower_arm_left"/>
+    <child link="hand_left"/>
+    <origin rpy="0  0  0" xyz="0.2604   0.01862  0.01406"/>
+    <axis xyz="0.99807  0.04989 -0.03697"/>
+    <limit effort="0.0" lower="-1.57079632679" upper="1.57079632679" velocity="0.0"/>
+  </joint>
+  <joint name="elbow_left" type="revolute">
+    <parent link="upper_arm_left"/>
+    <child link="lower_arm_left"/>
+    <origin rpy="0  0  0" xyz="0.32935  0.01133 -0.02165"/>
+    <axis xyz="-0.01118 -0.0229  -0.99967"/>
+    <limit effort="0.0" lower="-1.57079632679" upper="0.0" velocity="0.0"/>
+  </joint>
+  <joint name="sphere_axis0" type="revolute">
+    <parent link="torso"/>
+    <child link="sphere_link1"/>
+    <origin rpy="0  0  0" xyz="0.29218  0.00616  0.46537"/>
+    <axis xyz="0.99863  0.05074 -0.01234"/>
+    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0"/>
+  </joint>
+  <joint name="sphere_axis1" type="revolute">
+    <parent link="sphere_link1"/>
+    <child link="sphere_link2"/>
+    <origin rpy="0  0  0" xyz="0  0  0"/>
+    <axis xyz="-0.05101  0.99844 -0.02231"/>
+    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0"/>
+  </joint>
+  <joint name="sphere_axis2" type="revolute">
+    <parent link="sphere_link2"/>
+    <child link="upper_arm_left"/>
+    <origin rpy="0  0  0" xyz="0  0  0"/>
+    <axis xyz="0.99863  0.05074 -0.01234"/>
+    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0"/>
+  </joint>
+  <link name="upper_arm_left">
+    <inertial>
+      <mass value="1.2824428697417236"/>
+      <origin rpy="0  0  0" xyz="0.18307  0.00945  0.00955"/>
+      <inertia ixx="0.4024486697593224" ixy="-0.010686402192530009" ixz="-0.012264295959232901" iyy="0.6959076882859703" iyz="-0.3402753322906723" izz="0.2979984162484978"/>
+    </inertial>
+    <collision name="upper_arm_left_collision">
+      <origin rpy="0  0  0" xyz="0.18307  0.00945  0.00955"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_xylophone_left_arm/meshes/CAD/upper_arm_left.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="upper_arm_left_visual">
+      <origin rpy="0  0  0" xyz="0.18307  0.00945  0.00955"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_xylophone_left_arm/meshes/CAD/upper_arm_left.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="torso">
+    <inertial>
+      <mass value="17.35475770563241"/>
+      <origin rpy="0  0  0" xyz="0.00858 -0.00968  0.31521"/>
+      <inertia ixx="3.1867053233126024" ixy="-0.0013339320204242078" ixz="0.06576212150919633" iyy="3.4213033758007674" iyz="-0.07512681864475856" izz="0.3313904450729579"/>
+    </inertial>
+    <collision name="torso_collision">
+      <origin rpy="0  0  0" xyz="0.00858 -0.00968  0.31521"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_xylophone_left_arm/meshes/CAD/torso.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="torso_visual">
+      <origin rpy="0  0  0" xyz="0.00858 -0.00968  0.31521"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_xylophone_left_arm/meshes/CAD/torso.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="base">
+    <inertial>
+      <mass value="1041.2293594077037"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="194.34233377142348" ixy="0.02954008126913422" ixz="-0.1448651839771188" iyy="194.34304191479657" iyz="0.12760282012592977" izz="386.9973235859431"/>
+    </inertial>
+    <collision name="base_collision">
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_xylophone_left_arm/meshes/CAD/base.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="base_visual">
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_xylophone_left_arm/meshes/CAD/base.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="hand_left">
+    <inertial>
+      <mass value="0.2621183506250116"/>
+      <origin rpy="0  0  0" xyz="0.13246 -0.11023  0.00297"/>
+      <inertia ixx="0.08263826825614953" ixy="0.02069544069060682" ixz="0.010310290089089642" iyy="0.34815034428368635" iyz="-0.14462880541745232" izz="0.27554009671382473"/>
+    </inertial>
+    <collision name="hand_left_collision">
+      <origin rpy="0  0  0" xyz="0.13246 -0.11023  0.00297"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_xylophone_left_arm/meshes/CAD/hand_left.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="hand_left_visual">
+      <origin rpy="0  0  0" xyz="0.13246 -0.11023  0.00297"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_xylophone_left_arm/meshes/CAD/hand_left.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="lower_arm_left">
+    <inertial>
+      <mass value="1.4832954265656815"/>
+      <origin rpy="0  0  0" xyz="0.13958  0.01286  0.01574"/>
+      <inertia ixx="0.4397367507514243" ixy="-0.036275904566478674" ixz="-0.025665712851064774" iyy="1.304192037567609" iyz="-0.612600917299232" izz="0.8688206829384404"/>
+    </inertial>
+    <collision name="lower_arm_left_collision">
+      <origin rpy="0  0  0" xyz="0.13958  0.01286  0.01574"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_xylophone_left_arm/meshes/CAD/lower_arm_left.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="lower_arm_left_visual">
+      <origin rpy="0  0  0" xyz="0.13958  0.01286  0.01574"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_xylophone_left_arm/meshes/CAD/lower_arm_left.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="sphere_link1">
+    <inertial>
+      <mass value="0.046755519327953375"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.014081079691620597" ixy="-0.00010506593379475995" ixz="-0.00019727774254638377" iyy="0.018069794508113985" iyz="-0.00749462944662583" izz="0.004000220151190864"/>
+    </inertial>
+    <collision name="sphere_link1_collision">
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_xylophone_left_arm/meshes/CAD/sphere_link1.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="sphere_link1_visual">
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_xylophone_left_arm/meshes/CAD/sphere_link1.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="sphere_link2">
+    <inertial>
+      <mass value="0.031340208481721615"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.00943723649341556" ixy="-7.042286174839997e-05" ixz="-0.00013222993537338276" iyy="0.0121108711445115" iyz="-0.005023647663244027" izz="0.002680040477109837"/>
+    </inertial>
+    <collision name="sphere_link2_collision">
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_xylophone_left_arm/meshes/CAD/sphere_link2.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="sphere_link2_visual">
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_xylophone_left_arm/meshes/CAD/sphere_link2.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>
