@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: roboy_models
+Description: Description of roboy_models
+Version: 0.0.0
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: 

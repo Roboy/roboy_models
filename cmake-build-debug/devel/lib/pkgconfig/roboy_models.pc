@@ -1,0 +1,8 @@
+prefix=/home/letrend/workspace/roboy_middleware/src/roboy_models/cmake-build-debug/devel
+
+Name: roboy_models
+Description: Description of roboy_models
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/letrend/workspace/roboy_middleware/src/roboy_models/cmake-build-debug/devel/lib 
+Requires: 

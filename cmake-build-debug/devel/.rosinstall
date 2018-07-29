@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/letrend/workspace/roboy_middleware/src/roboy_models/cmake-build-debug/devel/setup.sh
