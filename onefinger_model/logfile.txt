@@ -23,19 +23,19 @@ Body: middle_limb3
 looking for cached middle_limb3
 middle_limb3not found, copying bodies to new component
 exporting stl of middle_limb3
-Joint: EXPORT_joint0_middle
-	parent: middle_limb0
-	child: middle_limb1
-	pos: 3.153963346394506e-06	-0.18395634777707584	-2.546496671555751
-Joint: EXPORT_joint1_middle
-	parent: middle_limb1
-	child: middle_limb2
-	pos: 0.54998557311281	0.15967358909378426	-1.2586092886359381
-Joint: EXPORT_joint2_middle
-	parent: middle_limb2
-	child: middle_limb3
-	pos: 0.399997297776715	0.0831700794562728	-0.796540382111143
 Joint: EXPORT_palm_middle
 	parent: palm
 	child: middle_limb0
-	pos: -0.5000807853050716	-0.013610652552690061	0.07064719165271072
+	pos: 0.49991921327648864	-0.013610752891388689	-0.07064713213735807
+Joint: EXPORT_joint0_middle
+	parent: middle_limb0
+	child: middle_limb1
+	pos: -3.1551509786823335e-06	-0.18395634780915454	2.5464967539671957
+Joint: EXPORT_joint1_middle
+	parent: middle_limb1
+	child: middle_limb2
+	pos: -0.5499855730933155	0.15967365678485412	1.2586090424324325
+Joint: EXPORT_joint2_middle
+	parent: middle_limb2
+	child: middle_limb3
+	pos: -0.3999972977764673	0.0831701161577385	0.7965404430975482
