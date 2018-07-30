@@ -213,6 +213,7 @@
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
+		<!--
 		<plugin filename="libmusc_plugin.so" name="musc_plugin">
 			<myoMuscle name="motor10">
 				<link name="palm">
@@ -294,5 +295,6 @@
 				</link>
 			</myoMuscle>
 		</plugin>
+		-->
 	</model>
 </sdf>
