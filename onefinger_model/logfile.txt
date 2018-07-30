@@ -1,0 +1,36 @@
+mass[kg] 	 COM[cm] 			 component name
+Body: palm
+palmnot found, copying bodies to new component
+exporting stl of palm
+mass[kg] 	 COM[cm] 			 component name
+Body: middle_limb0
+middle_limb0not found, copying bodies to new component
+exporting stl of middle_limb0
+mass[kg] 	 COM[cm] 			 component name
+Body: middle_limb1
+middle_limb1not found, copying bodies to new component
+exporting stl of middle_limb1
+mass[kg] 	 COM[cm] 			 component name
+Body: middle_limb2
+middle_limb2not found, copying bodies to new component
+exporting stl of middle_limb2
+mass[kg] 	 COM[cm] 			 component name
+Body: middle_limb3
+middle_limb3not found, copying bodies to new component
+exporting stl of middle_limb3
+Joint: EXPORT_joint0_middle
+	parent: middle_limb0
+	child: middle_limb1
+	pos: 3.1545546924985346e-06	-0.18395635372107147	-2.5464966738891945
+Joint: EXPORT_joint1_middle
+	parent: middle_limb1
+	child: middle_limb2
+	pos: 0.5499855731041514	0.15967358918019575	-1.2586092886013347
+Joint: EXPORT_joint2_middle
+	parent: middle_limb2
+	child: middle_limb3
+	pos: 0.3999972977767122	0.08317007945627472	-0.7965403821111394
+Joint: EXPORT_palm_middle
+	parent: palm
+	child: middle_limb0
+	pos: -0.5000807853050769	-0.013610652552689805	0.07064719165269295
