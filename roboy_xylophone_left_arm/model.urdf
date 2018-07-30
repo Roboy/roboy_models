@@ -70,12 +70,12 @@
     <axis xyz="-0.40146  0.30484 -0.86365"/>
     <limit effort="0.0" lower="-1.2217304764" upper="0.349065850399" velocity="0.0"/>
   </joint>
-  <joint name="left_palm_little" type="fixed">
+  <joint name="left_palm_little" type="revolute">
     <parent link="palm"/>
     <child link="left_little_limb0"/>
     <origin rpy="0  0  0" xyz="0.0847   0.04933 -0.00472"/>
     <axis xyz="-0.54331  0.83946 -0.01034"/>
-    <limit effort="0.0" lower="0.0" upper="0.0" velocity="0.0"/>
+    <limit effort="0.0" lower="-1.2217304764" upper="0.349065850399" velocity="0.0"/>
   </joint>
   <joint name="left_palm_middle" type="revolute">
     <parent link="palm"/>
@@ -217,13 +217,13 @@
     <collision name="torso_collision">
       <origin rpy="0  0  0" xyz="0.00858 -0.00968  0.31521"/>
       <geometry>
-        <mesh filename="package://roboy_models/roboy_head/meshes/CAD/torso.stl OR roboy_models/roboy_xylophone_left_arm/meshes/CAD/torso.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://roboy_models/roboy_xylophone_left_arm/meshes/CAD/torso.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual name="torso_visual">
       <origin rpy="0  0  0" xyz="0.00858 -0.00968  0.31521"/>
       <geometry>
-        <mesh filename="package://roboy_models/roboy_head/meshes/CAD/torso.stl OR roboy_models/roboy_xylophone_left_arm/meshes/CAD/torso.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://roboy_models/roboy_xylophone_left_arm/meshes/CAD/torso.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
   </link>
@@ -236,13 +236,13 @@
     <collision name="base_collision">
       <origin rpy="0  0  0" xyz="-0.00499  0.00567  0.02453"/>
       <geometry>
-        <mesh filename="package://roboy_models/6DOF_arm/meshes/CAD/base.stl OR roboy_models/cable_robot_6dof/meshes/CAD/base.stl OR roboy_models/nst_arm/meshes/CAD/base.stl OR roboy_models/robot_arm_3dof/meshes/CAD/base.stl OR roboy_models/roboy_vr_booth/meshes/CAD/base.stl OR roboy_models/roboy_xylophone_left_arm/meshes/CAD/base.stl OR roboy_models/TestRobot/meshes/CAD/base.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://roboy_models/roboy_xylophone_left_arm/meshes/CAD/base.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual name="base_visual">
       <origin rpy="0  0  0" xyz="-0.00499  0.00567  0.02453"/>
       <geometry>
-        <mesh filename="package://roboy_models/6DOF_arm/meshes/CAD/base.stl OR roboy_models/cable_robot_6dof/meshes/CAD/base.stl OR roboy_models/nst_arm/meshes/CAD/base.stl OR roboy_models/robot_arm_3dof/meshes/CAD/base.stl OR roboy_models/roboy_vr_booth/meshes/CAD/base.stl OR roboy_models/roboy_xylophone_left_arm/meshes/CAD/base.stl OR roboy_models/TestRobot/meshes/CAD/base.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://roboy_models/roboy_xylophone_left_arm/meshes/CAD/base.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
   </link>
@@ -274,13 +274,13 @@
     <collision name="sphere_link1_collision">
       <origin rpy="0  0  0" xyz="0  0  0"/>
       <geometry>
-        <mesh filename="package://roboy_models/roboy_head/meshes/CAD/sphere_link1.stl OR roboy_models/roboy_xylophone_left_arm/meshes/CAD/sphere_link1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://roboy_models/roboy_xylophone_left_arm/meshes/CAD/sphere_link1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual name="sphere_link1_visual">
       <origin rpy="0  0  0" xyz="0  0  0"/>
       <geometry>
-        <mesh filename="package://roboy_models/roboy_head/meshes/CAD/sphere_link1.stl OR roboy_models/roboy_xylophone_left_arm/meshes/CAD/sphere_link1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://roboy_models/roboy_xylophone_left_arm/meshes/CAD/sphere_link1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
   </link>
@@ -312,13 +312,13 @@
     <collision name="palm_collision">
       <origin rpy="0  0  0" xyz="0.05108  0.0211  -0.00453"/>
       <geometry>
-        <mesh filename="package://roboy_models/roboy_hand_left/meshes/CAD/palm.stl OR roboy_models/roboy_xylophone_left_arm/meshes/CAD/palm.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://roboy_models/roboy_xylophone_left_arm/meshes/CAD/palm.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual name="palm_visual">
       <origin rpy="0  0  0" xyz="0.05108  0.0211  -0.00453"/>
       <geometry>
-        <mesh filename="package://roboy_models/roboy_hand_left/meshes/CAD/palm.stl OR roboy_models/roboy_xylophone_left_arm/meshes/CAD/palm.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://roboy_models/roboy_xylophone_left_arm/meshes/CAD/palm.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
   </link>
