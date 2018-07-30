@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sdf version="1.6">
-	<model name="OnefingerWCasprsdf">
+	<model name="onefiner_model">
 		<link name="palm">
 			<self_collide>false</self_collide>
 			<pose frame="">-0.0004955716943166135 0.005006540677194015 0.06136177594502402 0.0 -0.0 0.0</pose>
@@ -19,7 +19,7 @@
 			<collision name="palm_collision">
 				<geometry>
 					<mesh>
-						<uri>model://OnefingerWCasprsdf/meshes/CAD/palm.stl</uri>
+						<uri>model://onefiner_model/meshes/CAD/palm.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -27,7 +27,7 @@
 			<visual name="palm_visual">
 				<geometry>
 					<mesh>
-						<uri>model://OnefingerWCasprsdf/meshes/CAD/palm.stl</uri>
+						<uri>model://onefiner_model/meshes/CAD/palm.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -51,7 +51,7 @@
 			<collision name="middle_limb0_collision">
 				<geometry>
 					<mesh>
-						<uri>model://OnefingerWCasprsdf/meshes/CAD/middle_limb0.stl</uri>
+						<uri>model://onefiner_model/meshes/CAD/middle_limb0.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -59,7 +59,7 @@
 			<visual name="middle_limb0_visual">
 				<geometry>
 					<mesh>
-						<uri>model://OnefingerWCasprsdf/meshes/CAD/middle_limb0.stl</uri>
+						<uri>model://onefiner_model/meshes/CAD/middle_limb0.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -83,7 +83,7 @@
 			<collision name="middle_limb1_collision">
 				<geometry>
 					<mesh>
-						<uri>model://OnefingerWCasprsdf/meshes/CAD/middle_limb1.stl</uri>
+						<uri>model://onefiner_model/meshes/CAD/middle_limb1.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -91,7 +91,7 @@
 			<visual name="middle_limb1_visual">
 				<geometry>
 					<mesh>
-						<uri>model://OnefingerWCasprsdf/meshes/CAD/middle_limb1.stl</uri>
+						<uri>model://onefiner_model/meshes/CAD/middle_limb1.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -115,7 +115,7 @@
 			<collision name="middle_limb2_collision">
 				<geometry>
 					<mesh>
-						<uri>model://OnefingerWCasprsdf/meshes/CAD/middle_limb2.stl</uri>
+						<uri>model://onefiner_model/meshes/CAD/middle_limb2.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -123,7 +123,7 @@
 			<visual name="middle_limb2_visual">
 				<geometry>
 					<mesh>
-						<uri>model://OnefingerWCasprsdf/meshes/CAD/middle_limb2.stl</uri>
+						<uri>model://onefiner_model/meshes/CAD/middle_limb2.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -147,7 +147,7 @@
 			<collision name="middle_limb3_collision">
 				<geometry>
 					<mesh>
-						<uri>model://OnefingerWCasprsdf/meshes/CAD/middle_limb3.stl</uri>
+						<uri>model://onefiner_model/meshes/CAD/middle_limb3.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -155,7 +155,7 @@
 			<visual name="middle_limb3_visual">
 				<geometry>
 					<mesh>
-						<uri>model://OnefingerWCasprsdf/meshes/CAD/middle_limb3.stl</uri>
+						<uri>model://onefiner_model/meshes/CAD/middle_limb3.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
