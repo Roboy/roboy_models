@@ -1,0 +1,36 @@
+mass[kg] 	 COM[cm] 			 component name
+Body: torso
+torsonot found, copying bodies to new component
+exporting stl of torso
+mass[kg] 	 COM[cm] 			 component name
+Body: upper_arm_left
+upper_arm_leftnot found, copying bodies to new component
+exporting stl of upper_arm_left
+mass[kg] 	 COM[cm] 			 component name
+Body: lower_arm_left
+lower_arm_leftnot found, copying bodies to new component
+exporting stl of lower_arm_left
+mass[kg] 	 COM[cm] 			 component name
+Body: sphere_link1
+sphere_link1not found, copying bodies to new component
+exporting stl of sphere_link1
+mass[kg] 	 COM[cm] 			 component name
+Body: sphere_link2
+sphere_link2not found, copying bodies to new component
+exporting stl of sphere_link2
+Joint: EXPORT_elbow_left
+	parent: lower_arm_left
+	child: upper_arm_left
+	pos: 11.57367879315472	0.01582567141779556	-2.118717604581221
+Joint: EXPORT_sphere_axis0
+	parent: torso
+	child: sphere_link1
+	pos: 3.9283447250682e-07	-1.669784760338633e-05	-3.7661544851630424e-06
+Joint: EXPORT_sphere_axis1
+	parent: sphere_link1
+	child: sphere_link2
+	pos: -9.872906652219626e-07	1.392142950262798e-05	-2.591378780891773e-06
+Joint: EXPORT_sphere_axis2
+	parent: sphere_link2
+	child: upper_arm_left
+	pos: -17.354043101456057	-0.9370444164724265	-1.0328794101736989
