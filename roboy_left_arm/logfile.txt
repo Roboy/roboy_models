@@ -19,9 +19,9 @@ Body: sphere_link2
 sphere_link2not found, copying bodies to new component
 exporting stl of sphere_link2
 Joint: EXPORT_elbow_left
-	parent: lower_arm_left
-	child: upper_arm_left
-	pos: 11.57367879315472	0.01582567141779556	-2.118717604581221
+	parent: upper_arm_left
+	child: lower_arm_left
+	pos: -6.921329447687334	-0.9283175507041972	-1.8549647939352738
 Joint: EXPORT_sphere_axis0
 	parent: torso
 	child: sphere_link1
