@@ -1,0 +1,287 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+	<model name="onefinger">
+		<link name="palm">
+			<self_collide>false</self_collide>
+			<pose frame="">-6.664340119189506e-05 6.162819843918025e-05 0.0056437840567346974 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>15.519964907903075</mass>
+				<inertia>
+					<ixx>0.24262125582427416</ixx>
+					<ixy>-1.7978814907597018e-07</ixy>
+					<ixz>-1.758643879682634e-05</ixz>
+					<iyy>0.2426383188330765</iyy>
+					<iyz>1.7623163635523375e-05</iyz>
+					<izz>0.4816929735544059</izz>
+				</inertia>
+			</inertial>
+			<collision name="palm_collision">
+				<geometry>
+					<mesh>
+						<uri>model://onefinger/meshes/CAD/palm.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="palm_visual">
+				<geometry>
+					<mesh>
+						<uri>model://onefinger/meshes/CAD/palm.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="middle_limb0">
+			<self_collide>false</self_collide>
+			<pose frame="">-0.0005614072382198571 0.0001911940467719096 0.18754908808523774 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.0004269894659846259</mass>
+				<inertia>
+					<ixx>1.5024418590495028e-05</ixx>
+					<ixy>4.467576260292382e-11</ixy>
+					<ixz>-1.4967576697614157e-08</ixz>
+					<iyy>1.5027288983317431e-05</iyy>
+					<iyz>4.4958256796038474e-08</iyz>
+					<izz>7.584567912129686e-09</izz>
+				</inertia>
+			</inertial>
+			<collision name="middle_limb0_collision">
+				<geometry>
+					<mesh>
+						<uri>model://onefinger/meshes/CAD/middle_limb0.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="middle_limb0_visual">
+				<geometry>
+					<mesh>
+						<uri>model://onefinger/meshes/CAD/middle_limb0.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="middle_limb1">
+			<self_collide>false</self_collide>
+			<pose frame="">-0.0005622466361193446 -0.0007034251535573103 0.21222052674075353 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.003829477216665521</mass>
+				<inertia>
+					<ixx>0.0001734470724372432</ixx>
+					<ixy>-1.5140545386005193e-09</ixy>
+					<ixz>6.054526341483969e-07</ixz>
+					<iyy>0.00017344679488345691</iyy>
+					<iyz>4.5693231951306453e-07</iyz>
+					<izz>7.755117774694315e-08</izz>
+				</inertia>
+			</inertial>
+			<collision name="middle_limb1_collision">
+				<geometry>
+					<mesh>
+						<uri>model://onefinger/meshes/CAD/middle_limb1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="middle_limb1_visual">
+				<geometry>
+					<mesh>
+						<uri>model://onefinger/meshes/CAD/middle_limb1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="middle_limb2">
+			<self_collide>false</self_collide>
+			<pose frame="">-0.0005620708223228621 -0.0014746610724396692 0.2519666528877768 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.00162479160090613</mass>
+				<inertia>
+					<ixx>0.00010333221313319288</ixx>
+					<ixy>-1.3470348047916095e-09</ixy>
+					<ixz>6.164227970563374e-07</ixz>
+					<iyy>0.00010332834567878387</iyy>
+					<iyz>2.3011160178749415e-07</iyz>
+					<izz>2.395750385176394e-08</izz>
+				</inertia>
+			</inertial>
+			<collision name="middle_limb2_collision">
+				<geometry>
+					<mesh>
+						<uri>model://onefinger/meshes/CAD/middle_limb2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="middle_limb2_visual">
+				<geometry>
+					<mesh>
+						<uri>model://onefinger/meshes/CAD/middle_limb2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="middle_limb3">
+			<self_collide>false</self_collide>
+			<pose frame="">-0.0005621880690376905 -0.0022096259752100132 0.2790957138228765 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.0006943749017269073</mass>
+				<inertia>
+					<ixx>5.4121019021675476e-05</ixx>
+					<ixy>-8.626164948284511e-10</ixy>
+					<ixz>4.310030631920739e-07</ixz>
+					<iyy>5.411747094805615e-05</iyy>
+					<iyz>1.0895061373856633e-07</iyz>
+					<izz>8.446893842176285e-09</izz>
+				</inertia>
+			</inertial>
+			<collision name="middle_limb3_collision">
+				<geometry>
+					<mesh>
+						<uri>model://onefinger/meshes/CAD/middle_limb3.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="middle_limb3_visual">
+				<geometry>
+					<mesh>
+						<uri>model://onefinger/meshes/CAD/middle_limb3.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<joint name="palm_middle" type="revolute">
+			<parent>palm</parent>
+			<child>middle_limb0</child>
+			<pose frame="">-0.0050008078530508 -0.00013610652552688654 0.0007064719165269651 0 0 0</pose>
+			<axis>
+				<xyz>1.0000000000000084 -8.443806675403127e-16 -4.3021142204226157e-16</xyz>
+				<limit>
+					<lower>-1.2217304763960306</lower>
+					<upper>0.3490658503988659</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="joint0_middle" type="revolute">
+			<parent>middle_limb0</parent>
+			<child>middle_limb1</child>
+			<pose frame="">3.154484868962693e-08 -0.0018395635365509734 -0.025464966738988366 0 0 0</pose>
+			<axis>
+				<xyz>-9.577715762102746e-16 -0.8660254037844394 -0.5000000000000004</xyz>
+				<limit>
+					<lower>-0.6108652381980153</lower>
+					<upper>0.6108652381980153</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="joint1_middle" type="revolute">
+			<parent>middle_limb1</parent>
+			<child>middle_limb2</child>
+			<pose frame="">0.005499855731052255 0.0015967358917924335 -0.012586092886011785 0 0 0</pose>
+			<axis>
+				<xyz>-0.9999999999999953 9.399690255184255e-16 9.02056207507943e-16</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>1.9198621771937625</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="joint2_middle" type="revolute">
+			<parent>middle_limb2</parent>
+			<child>middle_limb3</child>
+			<pose frame="">0.003999972977767122 0.0008317007945627442 -0.007965403821111465 0 0 0</pose>
+			<axis>
+				<xyz>-0.9999999999999958 9.39969025518426e-16 8.743006318923143e-16</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>1.2217304763960306</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<plugin filename="libmusc_plugin.so" name="musc_plugin">
+			<myoMuscle name="motor10">
+				<link name="palm">
+					<viaPoint type="FIXPOINT">6.664340119163325e-05 -6.162819843951332e-05 0.10535621594326589</viaPoint>
+					<viaPoint type="FIXPOINT">-0.0018091419444456267 -0.003314563808937298 0.1619720379927335</viaPoint>
+					<viaPoint type="FIXPOINT">6.664340119162355e-05 -0.007231491000575027 0.17466849499714737</viaPoint>
+				</link>
+				<link name="middle_limb1">
+					<viaPoint type="FIXPOINT">6.224663611888441e-05 0.006524399982261683 -0.022277163911692634</viaPoint>
+					<viaPoint type="FIXPOINT">-0.0008036110435548371 0.005368917013418274 -0.012178862540556744</viaPoint>
+					<viaPoint type="FIXPOINT">6.224663611892251e-05 0.0022404785100462884 0.016899878059315476</viaPoint>
+				</link>
+				<link name="middle_limb3">
+					<viaPoint type="FIXPOINT">6.218806903731556e-05 0.004053221450473094 -0.005661658077470975</viaPoint>
+					<viaPoint type="FIXPOINT">6.218806903731438e-05 0.0026774511920078427 0.000854708927124861</viaPoint>
+				</link>
+			</myoMuscle>
+			<myoMuscle name="motor11">
+				<link name="palm">
+					<viaPoint type="FIXPOINT">6.664340119163325e-05 -6.162819843951332e-05 0.10535621594326589</viaPoint>
+					<viaPoint type="FIXPOINT">-0.0018091419444456267 -0.003314563808937298 0.1619720379927335</viaPoint>
+					<viaPoint type="FIXPOINT">6.664340119162355e-05 -0.007231491000575027 0.17466849499714737</viaPoint>
+				</link>
+				<link name="middle_limb1">
+					<viaPoint type="FIXPOINT">6.224663611888441e-05 0.006524399982261683 -0.022277163911692634</viaPoint>
+					<viaPoint type="FIXPOINT">-0.0008036110435548371 0.005368917013418274 -0.012178862540556744</viaPoint>
+					<viaPoint type="FIXPOINT">6.224663611892251e-05 0.0022404785100462884 0.016899878059315476</viaPoint>
+					<viaPoint type="FIXPOINT">6.224663611892883e-05 -0.004229587548335502 0.024169473259247773</viaPoint>
+				</link>
+				<link name="middle_limb2">
+					<viaPoint type="FIXPOINT">6.207082232246607e-05 -0.0034583516294531638 0.0032982221122244935</viaPoint>
+				</link>
+			</myoMuscle>
+			<myoMuscle name="motor12">
+				<link name="palm">
+					<viaPoint type="FIXPOINT">6.664340119163325e-05 -6.162819843951332e-05 0.10535621594326589</viaPoint>
+					<viaPoint type="FIXPOINT">-0.002224644446286377 0.0007041756590267907 0.1619720379927335</viaPoint>
+					<viaPoint type="FIXPOINT">0.002567692004391111 0.0017041756590267826 0.16892572603741776</viaPoint>
+				</link>
+				<link name="middle_limb1">
+					<viaPoint type="FIXPOINT">0.001055621208620051 -0.005344509081165966 -0.02027391635700834</viaPoint>
+					<viaPoint type="FIXPOINT">0.0010312452653581602 -0.0054766536458324775 -0.015155404443527623</viaPoint>
+					<viaPoint type="FIXPOINT">6.224663611889523e-05 -0.004229587548335466 -0.009205526740752283</viaPoint>
+				</link>
+			</myoMuscle>
+			<myoMuscle name="motor13">
+				<link name="palm">
+					<viaPoint type="FIXPOINT">6.664340119163325e-05 -6.162819843951332e-05 0.10535621594326591</viaPoint>
+					<viaPoint type="FIXPOINT">0.0025657233509518208 -0.005061628198439721 0.1619720379927335</viaPoint>
+					<viaPoint type="FIXPOINT">-0.004433356598808351 -0.007312474053151083 0.1770223501994788</viaPoint>
+				</link>
+				<link name="middle_limb1">
+					<viaPoint type="FIXPOINT">6.224663611894284e-05 -0.000490476975653907 -0.017716623226162617</viaPoint>
+					<viaPoint type="FIXPOINT">0.0055207059887732645 -0.0005078215438521911 -0.0146162110013589</viaPoint>
+					<viaPoint type="FIXPOINT">0.004672086580545279 0.0002704124516645422 -0.010205526740752298</viaPoint>
+				</link>
+			</myoMuscle>
+			<myoMuscle name="motor14">
+				<link name="palm">
+					<viaPoint type="FIXPOINT">6.664340119163325e-05 -6.162819843951332e-05 0.10535621594326589</viaPoint>
+					<viaPoint type="FIXPOINT">0.0025657233509518208 -0.005061628198439721 0.1619720379927335</viaPoint>
+					<viaPoint type="FIXPOINT">0.004566643401191683 -0.007312474053151089 0.17702235019947873</viaPoint>
+				</link>
+				<link name="middle_limb1">
+					<viaPoint type="FIXPOINT">6.224663611894284e-05 -0.000490476975653907 -0.017716623226162617</viaPoint>
+					<viaPoint type="FIXPOINT">-0.00539621271653548 -0.000507821543852179 -0.014616211001358863</viaPoint>
+					<viaPoint type="FIXPOINT">-0.004547593308307487 0.00027041245166455107 -0.010205526740752263</viaPoint>
+				</link>
+			</myoMuscle>
+		</plugin>
+	</model>
+</sdf>

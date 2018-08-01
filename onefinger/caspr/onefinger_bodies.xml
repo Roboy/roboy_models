@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE bodies_system SYSTEM "../../../templates/bodies.dtd">
+<?xml version="1.0" ?>
+<bodies_system>
+	<links display_range="-0.3 0.3 0.0 1.0 -0.3 0.3" view_angle="-37 32">
+		<link_rigid name="middle_limb3" num="1">
+			<joint axis="-0.9999999999999958 9.39969025518426e-16 8.743006318923143e-16" q_max="1.2217304763960306" q_min="0.0" type="R_xyx"/>
+			<physical>
+				<mass>0.0006943749017269019</mass>
+				<com_location>-0.00399997297776717 -0.0008317007945627413 0.007965403821111322</com_location>
+				<end_location>0 0 0</end_location>
+				<inertia ref="com">
+					<Ixx>0.5412101902167548</Ixx>
+					<Iyy>0.5411747094805615</Iyy>
+					<Izz>8.446893842176286e-05</Izz>
+					<Ixy>-8.62616494828451e-06</Ixy>
+					<Ixz>0.004310030631920739</Ixz>
+					<Iyz>0.0010895061373856632</Iyz>
+				</inertia>
+			</physical>
+			<parent>
+				<num>middle_limb2</num>
+				<location>0.00343778490872948 -0.001377925180647272 0.2711303100017652</location>
+			</parent>
+		</link_rigid>
+		<link_rigid name="middle_limb0" num="1">
+			<joint axis="1.0000000000000084 -8.443806675403127e-16 -4.3021142204226157e-16" q_max="0.3490658503988659" q_min="-1.2217304763960306" type="R_xyx"/>
+			<physical>
+				<mass>0.00042698946598462417</mass>
+				<com_location>0.005000807853050775 0.00013610652552687212 -0.0007064719165274624</com_location>
+				<end_location>0 0 0</end_location>
+				<inertia ref="com">
+					<Ixx>0.15024418590495028</Ixx>
+					<Iyy>0.1502728898331743</Iyy>
+					<Izz>7.584567912129685e-05</Izz>
+					<Ixy>4.4675762602923823e-07</Ixy>
+					<Ixz>-0.00014967576697614155</Ixz>
+					<Iyz>0.0004495825679603847</Iyz>
+				</inertia>
+			</physical>
+			<parent>
+				<num>palm</num>
+				<location>-0.005562215091270632 5.5087521245037465e-05 0.1882555600017652</location>
+			</parent>
+		</link_rigid>
+		<link_rigid name="middle_limb1" num="1">
+			<joint axis="-9.577715762102746e-16 -0.8660254037844394 -0.5000000000000004" q_max="0.6108652381980153" q_min="-0.6108652381980153" type="R_xyx"/>
+			<physical>
+				<mass>0.0038294772169591568</mass>
+				<com_location>-3.154484870579455e-08 0.00183956353655097 0.02546496673898858</com_location>
+				<end_location>0 0 0</end_location>
+				<inertia ref="com">
+					<Ixx>1.734470724372432</Ixx>
+					<Iyy>1.7344679488345691</Iyy>
+					<Izz>0.0007755117774694315</Izz>
+					<Ixy>-1.5140545386005193e-05</Ixy>
+					<Ixz>0.006054526341483969</Ixz>
+					<Iyz>0.004569323195130645</Iyz>
+				</inertia>
+			</physical>
+			<parent>
+				<num>middle_limb0</num>
+				<location>-0.0005622150912706387 -0.0025429886901082803 0.18675556000176496</location>
+			</parent>
+		</link_rigid>
+		<link_rigid name="middle_limb2" num="1">
+			<joint axis="-0.9999999999999953 9.399690255184255e-16 9.02056207507943e-16" q_max="1.9198621771937625" q_min="0.0" type="R_xyx"/>
+			<physical>
+				<mass>0.0016247916009059435</mass>
+				<com_location>-0.005499855731052255 -0.0015967358917924335 0.012586092886011712</com_location>
+				<end_location>0 0 0</end_location>
+				<inertia ref="com">
+					<Ixx>1.0333221313319287</Ixx>
+					<Iyy>1.0332834567878386</Iyy>
+					<Izz>0.0002395750385176394</Izz>
+					<Ixy>-1.3470348047916095e-05</Ixy>
+					<Ixz>0.006164227970563373</Ixz>
+					<Iyz>0.0023011160178749413</Iyz>
+				</inertia>
+			</physical>
+			<parent>
+				<num>middle_limb1</num>
+				<location>0.004937784908729393 0.00012207481935276433 0.23938056000176508</location>
+			</parent>
+		</link_rigid>
+	</links>
+	<operational_spaces default_operational_set="test">
+		<operational_set id="test">
+			<position marker_id="1" name="test1">
+				<link>2</link>
+				<offset>0.0 0.0 0.0</offset>
+				<axes active_axes="x"/>
+			</position>
+		</operational_set>
+	</operational_spaces>
+</bodies_system>
