@@ -1,22 +1,22 @@
-mass[kg] 	 COM[cm] 			 component name
 Body: torso
-torsonot found, copying bodies to new component
+torso not found, copying bodies to new component
+torso mass[kg] 1058.5261328242646 	 COM[cm] -5.551115123125783e-17 -3.3306690738754696e-16 0.0
 exporting stl of torso
-mass[kg] 	 COM[cm] 			 component name
 Body: upper_arm_left
-upper_arm_leftnot found, copying bodies to new component
+upper_arm_left not found, copying bodies to new component
+upper_arm_left mass[kg] 1.5850899141335761 	 COM[cm] 44.04105425860263 1.543763214258073 54.71921633032
 exporting stl of upper_arm_left
-mass[kg] 	 COM[cm] 			 component name
 Body: lower_arm_left
-lower_arm_leftnot found, copying bodies to new component
+lower_arm_left not found, copying bodies to new component
+lower_arm_left mass[kg] 0.2532515779248262 	 COM[cm] 65.05553288428345 2.6266666405711097 54.60083635209841
 exporting stl of lower_arm_left
-mass[kg] 	 COM[cm] 			 component name
 Body: sphere_link1
-sphere_link1not found, copying bodies to new component
+sphere_link1 not found, copying bodies to new component
+sphere_link1 mass[kg] 0.005539188914012314 	 COM[cm] 29.218005222734217 0.7690923412017494 54.861378704231605
 exporting stl of sphere_link1
-mass[kg] 	 COM[cm] 			 component name
 Body: sphere_link2
-sphere_link2not found, copying bodies to new component
+sphere_link2 not found, copying bodies to new component
+sphere_link2 mass[kg] 0.003712916418853626 	 COM[cm] 29.21800660285934 0.7690617219246415 54.8613775294559
 exporting stl of sphere_link2
 Joint: EXPORT_sphere_axis0
 	parent: torso
@@ -29,8 +29,8 @@ Joint: EXPORT_sphere_axis1
 Joint: EXPORT_sphere_axis2
 	parent: sphere_link2
 	child: upper_arm_left
-	pos: -14.823048637333102	-0.7746876824892877	0.14215861025041931
+	pos: -14.823048637333095	-0.7746876824892885	0.14215861025042642
 Joint: EXPORT_elbow_left
 	parent: upper_arm_left
 	child: lower_arm_left
-	pos: -6.92132944768732	-0.9283175507041967	-1.8549647939352667
+	pos: -6.921329447687334	-0.9283175507041967	-1.854964793935281
