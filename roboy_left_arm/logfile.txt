@@ -18,19 +18,19 @@ mass[kg] 	 COM[cm] 			 component name
 Body: sphere_link2
 sphere_link2not found, copying bodies to new component
 exporting stl of sphere_link2
-Joint: EXPORT_elbow_left
-	parent: upper_arm_left
-	child: lower_arm_left
-	pos: -6.921329447687334	-0.9283175507041972	-1.8549647939352738
 Joint: EXPORT_sphere_axis0
 	parent: torso
 	child: sphere_link1
-	pos: 3.9283447250682e-07	-1.669784760338633e-05	-3.7661544851630424e-06
+	pos: 3.9283447250682e-07	-1.669784760338633e-05	-3.766154478057615e-06
 Joint: EXPORT_sphere_axis1
 	parent: sphere_link1
 	child: sphere_link2
-	pos: -9.872906652219626e-07	1.392142950262798e-05	-2.591378780891773e-06
+	pos: -9.872906758801037e-07	1.3921429502405935e-05	-2.5913787879972006e-06
 Joint: EXPORT_sphere_axis2
 	parent: sphere_link2
 	child: upper_arm_left
-	pos: -17.354043101456057	-0.9370444164724265	-1.0328794101736989
+	pos: -14.823048637333102	-0.7746876824892877	0.14215861025041931
+Joint: EXPORT_elbow_left
+	parent: upper_arm_left
+	child: lower_arm_left
+	pos: -6.92132944768732	-0.9283175507041967	-1.8549647939352667
