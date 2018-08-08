@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE cables SYSTEM "../../../templates/cables.dtd">
+<?xml version="1.0" ?>
+<cables default_cable_set="WORKING">
+	<cable_set id="WORKING">
+		<cable_ideal attachment_reference="com" name="cable 0">
+			<properties>
+				<force_min>10</force_min>
+				<force_max>80</force_max>
+			</properties>
+			<attachments>
+				<attachment>
+					<link>palm</link>
+					<location>0.007499999999999861 -1.9206858326015208e-16 0.18551500000000054</location>
+				</attachment>
+				<attachment>
+					<link>middle_limb1</link>
+					<location>0.007386929163942422 0.005049022594406903 -0.007496223173670949</location>
+				</attachment>
+			</attachments>
+		</cable_ideal>
+		<cable_ideal attachment_reference="com" name="cable 1">
+			<properties>
+				<force_min>10</force_min>
+				<force_max>80</force_max>
+			</properties>
+			<attachments>
+				<attachment>
+					<link>palm</link>
+					<location>-0.007500000000000269 -1.8207657603852569e-16 0.18551500000000054</location>
+				</attachment>
+				<attachment>
+					<link>middle_limb1</link>
+					<location>-0.0073869291639423705 0.0035490225944069054 -0.007496223173670949</location>
+				</attachment>
+			</attachments>
+		</cable_ideal>
+		<cable_ideal attachment_reference="com" name="cable 2">
+			<properties>
+				<force_min>10</force_min>
+				<force_max>80</force_max>
+			</properties>
+			<attachments>
+				<attachment>
+					<link>palm</link>
+					<location>-2.8310687127941495e-16 -0.007587334321967794 0.18843864817764908</location>
+				</attachment>
+				<attachment>
+					<link>middle_limb1</link>
+					<location>0.0002660098853817722 -0.0023477017268024205 -0.009855083862376404</location>
+				</attachment>
+			</attachments>
+		</cable_ideal>
+		<cable_ideal attachment_reference="com" name="cable 3">
+			<properties>
+				<force_min>10</force_min>
+				<force_max>80</force_max>
+			</properties>
+			<attachments>
+				<attachment>
+					<link>palm</link>
+					<location>-2.631228568361621e-16 0.0012096529497737552 0.18043641521467035</location>
+				</attachment>
+				<attachment>
+					<link>middle_limb1</link>
+					<location>-0.0001422314334589375 0.01341500585662966 -0.012602047449825342</location>
+				</attachment>
+			</attachments>
+		</cable_ideal>
+		<cable_ideal attachment_reference="com" name="cable 4">
+			<properties>
+				<force_min>10</force_min>
+				<force_max>80</force_max>
+			</properties>
+			<attachments>
+				<attachment>
+					<link>middle_limb1</link>
+					<location>4.9960036108132046e-17 0.009658429163545095 0.030436147678904853</location>
+				</attachment>
+				<attachment>
+					<link>middle_limb2</link>
+					<location>-0.000251564721249299 0.009658429163545094 -0.009936022678904735</location>
+				</attachment>
+			</attachments>
+		</cable_ideal>
+		<cable_ideal attachment_reference="com" name="cable 5">
+			<properties>
+				<force_min>10</force_min>
+				<force_max>80</force_max>
+			</properties>
+			<attachments>
+				<attachment>
+					<link>middle_limb1</link>
+					<location>3.663735981263017e-17 4.579669976578771e-18 0.03637500000000003</location>
+				</attachment>
+				<attachment>
+					<link>middle_limb2</link>
+					<location>2.92821322744885e-17 3.58046925441613e-17 -0.015374874999999904</location>
+				</attachment>
+			</attachments>
+		</cable_ideal>
+		<cable_ideal attachment_reference="com" name="cable 6">
+			<properties>
+				<force_min>10</force_min>
+				<force_max>80</force_max>
+			</properties>
+			<attachments>
+				<attachment>
+					<link>middle_limb2</link>
+					<location>-0.0002499999999999512 0.008084481351006135 0.013014890368348518</location>
+				</attachment>
+				<attachment>
+					<link>middle_limb3</link>
+					<location>0.00014079235522007822 0.008000000000000033 -0.0070098425971609046</location>
+				</attachment>
+			</attachments>
+		</cable_ideal>
+		<cable_ideal attachment_reference="com" name="cable 7">
+			<properties>
+				<force_min>10</force_min>
+				<force_max>80</force_max>
+			</properties>
+			<attachments>
+				<attachment>
+					<link>middle_limb2</link>
+					<location>0.00025000000000004505 2.3037127760972e-17 0.011312803102276447</location>
+				</attachment>
+				<attachment>
+					<link>middle_limb3</link>
+					<location>0.0002500000000000857 3.649858193455202e-17 -0.009810672749999867</location>
+				</attachment>
+			</attachments>
+		</cable_ideal>
+	</cable_set>
+</cables>
