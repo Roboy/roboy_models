@@ -1,306 +1,308 @@
-mass[kg] 	 COM[cm] 			 component name
-COM: C_3
-----------------------------------------------------------------
-Mass of C_3: 0.092526
-COM of C_3: 95.900000 4.700000 30.698184
-----------------------------------------------------------------
 Body: C_3
-mass[kg] 	 COM[cm] 			 component name
-COM: A_1
-----------------------------------------------------------------
-Mass of A_1: 0.155041
-COM of A_1: 56.600000 4.700000 33.528768
-----------------------------------------------------------------
+C_3 not found, copying bodies to new component
+C_3 mass[kg] 0.04626293807017025 	 COM[cm] 45.44877769473896 -2.7488463586150242 3.6026076415145707
+exporting stl of C_3
 Body: A_1
-mass[kg] 	 COM[cm] 			 component name
-COM: A_2
-----------------------------------------------------------------
-Mass of A_2: 0.104353
-COM of A_2: 87.100000 4.700000 31.332004
-----------------------------------------------------------------
+A_1 not found, copying bodies to new component
+A_1 mass[kg] 0.0775205380701704 	 COM[cm] 6.149651719972713 -5.578498333630287 3.6015561960855904
+exporting stl of A_1
 Body: A_2
-mass[kg] 	 COM[cm] 			 component name
-COM: G_2
-----------------------------------------------------------------
-Mass of G_2: 0.112801
-COM of G_2: 82.800000 4.700000 31.641712
-----------------------------------------------------------------
+A_2 not found, copying bodies to new component
+A_2 mass[kg] 0.052176538070170274 	 COM[cm] 36.648995966651384 -3.3823948814316527 3.6023120958645345
+exporting stl of A_2
 Body: G_2
-mass[kg] 	 COM[cm] 			 component name
-COM: D_2
-----------------------------------------------------------------
-Mass of D_2: 0.133921
-COM of D_2: 69.800000 4.700000 32.578038
-----------------------------------------------------------------
+G_2 not found, copying bodies to new component
+G_2 mass[kg] 0.05640053807017018 	 COM[cm] 32.34912557779971 -3.691903091623005 3.6021389362943252
+exporting stl of G_2
 Body: D_2
-mass[kg] 	 COM[cm] 			 component name
-COM: H_1
-----------------------------------------------------------------
-Mass of H_1: 0.146593
-COM of H_1: 61.100000 4.700000 33.204655
-----------------------------------------------------------------
+D_2 not found, copying bodies to new component
+D_2 mass[kg] 0.0669605380701705 	 COM[cm] 19.34945821598606 -4.628071805747754 3.60180161571837
+exporting stl of D_2
 Body: H_1
-mass[kg] 	 COM[cm] 			 component name
-COM: C_2
-----------------------------------------------------------------
-Mass of C_2: 0.142369
-COM of C_2: 65.500000 4.700000 32.887745
-----------------------------------------------------------------
+H_1 not found, copying bodies to new component
+H_1 mass[kg] 0.07329653807017016 	 COM[cm] 10.649542005933199 -5.2543980478078485 3.6016458779783322
+exporting stl of H_1
 Body: C_2
-mass[kg] 	 COM[cm] 			 component name
-COM: F_0
-----------------------------------------------------------------
-Mass of F_0: 0.221780
-COM of F_0: 17.900000 4.700000 36.316138
-----------------------------------------------------------------
+C_2 not found, copying bodies to new component
+C_2 mass[kg] 0.07118453807017064 	 COM[cm] 15.0494933134312 -4.937679410556129 3.601694710131839
+exporting stl of C_2
 Body: F_0
-mass[kg] 	 COM[cm] 			 component name
-COM: H_0
-----------------------------------------------------------------
-Mass of H_0: 0.197281
-COM of H_0: 30.600000 4.700000 35.401420
-----------------------------------------------------------------
+F_0 not found, copying bodies to new component
+F_0 mass[kg] 0.11089013807017019 	 COM[cm] -32.55003203067164 -8.365491980126464 3.601087897986214
+exporting stl of F_0
 Body: H_0
-mass[kg] 	 COM[cm] 			 component name
-COM: G_0
-----------------------------------------------------------------
-Mass of G_0: 0.213332
-COM of G_0: 22.000000 4.700000 36.020835
-----------------------------------------------------------------
+H_0 not found, copying bodies to new component
+H_0 mass[kg] 0.09864053807016993 	 COM[cm] -19.850142124805135 -7.450890386704332 3.601222997768035
+exporting stl of H_0
 Body: G_0
-mass[kg] 	 COM[cm] 			 component name
-COM: F_sharp_1
-----------------------------------------------------------------
-Mass of F_sharp_1: 0.167713
-COM of F_sharp_1: 50.100000 7.700000 15.956186
-----------------------------------------------------------------
+G_0 not found, copying bodies to new component
+G_0 mass[kg] 0.10666613807017078 	 COM[cm] -28.450079492229577 -8.070296566929661 3.6011309789599597
+exporting stl of G_0
 Body: F_sharp_1
-mass[kg] 	 COM[cm] 			 component name
-COM: G_1
-----------------------------------------------------------------
-Mass of G_1: 0.164334
-COM of G_1: 52.400000 4.700000 33.831273
-----------------------------------------------------------------
+F_sharp_1 not found, copying bodies to new component
+F_sharp_1 mass[kg] 0.0838565380701703 	 COM[cm] -0.35009273967744653 11.99439255091977 6.601438613621244
+exporting stl of F_sharp_1
 Body: G_1
-mass[kg] 	 COM[cm] 			 component name
-COM: C_sharo_0
-0.119761 	 0.802392 0.790540 1.596241 		 C_sharp_0:1
-0.059880 	 0.400899 0.395270 1.223280 		 Component52:1
-0.059880 	 0.400899 0.395270 1.223280 		 Component52:1
-----------------------------------------------------------------
-Mass of C_sharo_0: 0.239521
-COM of C_sharo_0: 6.697489 6.601007 16.878686
-----------------------------------------------------------------
+G_1 not found, copying bodies to new component
+G_1 mass[kg] 0.08216693807017006 	 COM[cm] 1.9496504788058242 -5.880934615967254 3.6014681958550603
+exporting stl of G_1
 Body: C_sharo_0
-mass[kg] 	 COM[cm] 			 component name
-COM: C_sharp_1
-----------------------------------------------------------------
-Mass of C_sharp_1: 0.188833
-COM of C_sharp_1: 37.200000 7.700000 15.175184
-----------------------------------------------------------------
+C_sharo_0 not found, copying bodies to new component
+C_sharo_0 mass[kg] 0.11976053807017024 	 COM[cm] -43.75002983547113 14.622031176409282 6.601007319771957
+exporting stl of C_sharo_0
 Body: C_sharp_1
-mass[kg] 	 COM[cm] 			 component name
-COM: G_sharp_1
-----------------------------------------------------------------
-Mass of G_sharp_1: 0.159265
-COM of G_sharp_1: 54.400000 7.700000 16.216521
-----------------------------------------------------------------
+C_sharp_1 not found, copying bodies to new component
+C_sharp_1 mass[kg] 0.09441653807017003 	 COM[cm] -13.250133907726728 12.775506668331378 6.601277712150478
+exporting stl of C_sharp_1
 Body: G_sharp_1
-mass[kg] 	 COM[cm] 			 component name
-COM: E_2
-----------------------------------------------------------------
-Mass of E_2: 0.126318
-COM of E_2: 74.200000 4.700000 32.261127
-----------------------------------------------------------------
+G_sharp_1 not found, copying bodies to new component
+G_sharp_1 mass[kg] 0.07963253807016991 	 COM[cm] 3.9498639257648613 11.734075953071503 6.601514922930019
+exporting stl of G_sharp_1
 Body: E_2
-mass[kg] 	 COM[cm] 			 component name
-COM: E_1
-----------------------------------------------------------------
-Mass of E_1: 0.177006
-COM of E_1: 43.600000 4.700000 34.465094
-----------------------------------------------------------------
+E_2 not found, copying bodies to new component
+E_2 mass[kg] 0.06315893807017046 	 COM[cm] 23.749352133778146 -4.311186553743143 3.6019100567803046
+exporting stl of E_2
 Body: E_1
-mass[kg] 	 COM[cm] 			 component name
-COM: F_sharp_0
-----------------------------------------------------------------
-Mass of F_sharp_0: 0.213332
-COM of F_sharp_0: 19.800000 7.700000 14.121740
-----------------------------------------------------------------
+E_1 not found, copying bodies to new component
+E_1 mass[kg] 0.08850293807017057 	 COM[cm] -6.850247886257901 -6.514692540500432 3.6013630864751853
+exporting stl of E_1
 Body: F_sharp_0
-mass[kg] 	 COM[cm] 			 component name
-COM: D_sharp_0
-----------------------------------------------------------------
-Mass of D_sharp_0: 0.231073
-COM of D_sharp_0: 11.000000 7.700000 13.588963
-----------------------------------------------------------------
+F_sharp_0 not found, copying bodies to new component
+F_sharp_0 mass[kg] 0.10666613807016989 	 COM[cm] -30.650233303466038 13.828971878512887 6.601130978959967
+exporting stl of F_sharp_0
 Body: D_sharp_0
-mass[kg] 	 COM[cm] 			 component name
-COM: D_sharp_2
-----------------------------------------------------------------
-Mass of D_sharp_2: 0.129697
-COM of D_sharp_2: 72.000000 7.700000 17.282074
-----------------------------------------------------------------
+D_sharp_0 not found, copying bodies to new component
+D_sharp_0 mass[kg] 0.11553653807016973 	 COM[cm] -39.450237109720454 14.361683047737396 6.601044147244788
+exporting stl of D_sharp_0
 Body: D_sharp_2
-mass[kg] 	 COM[cm] 			 component name
-COM: F_2
-----------------------------------------------------------------
-Mass of F_2: 0.122094
-COM of F_2: 78.600000 4.700000 31.944217
-----------------------------------------------------------------
+D_sharp_2 not found, copying bodies to new component
+D_sharp_2 mass[kg] 0.06484853807017024 	 COM[cm] 21.550022682864846 10.66830711330826 6.601860291095038
+exporting stl of D_sharp_2
 Body: F_2
-mass[kg] 	 COM[cm] 			 component name
-COM: F_1
-----------------------------------------------------------------
-Mass of F_1: 0.168558
-COM of F_1: 48.200000 4.700000 34.133779
-----------------------------------------------------------------
+F_2 not found, copying bodies to new component
+F_2 mass[kg] 0.061046938070170295 	 COM[cm] 28.14921078905139 -3.9942375097897127 3.601976137734526
+exporting stl of F_2
 Body: F_1
-mass[kg] 	 COM[cm] 			 component name
-COM: D_0
-----------------------------------------------------------------
-Mass of D_0: 0.234452
-COM of D_0: 9.200000 4.700000 36.942756
-----------------------------------------------------------------
+F_1 not found, copying bodies to new component
+F_1 mass[kg] 0.08427893807017009 	 COM[cm] -2.2503625927337363 -6.183418013547204 3.6014314033928283
+exporting stl of F_1
 Body: D_0
-mass[kg] 	 COM[cm] 			 component name
-COM: D_sharp_1
-----------------------------------------------------------------
-Mass of D_sharp_1: 0.180385
-COM of D_sharp_1: 41.500000 7.700000 15.435518
-----------------------------------------------------------------
+D_0 not found, copying bodies to new component
+D_0 mass[kg] 0.11722613807017009 	 COM[cm] -41.249989944268215 -8.992105535550353 3.6010290977753203
+exporting stl of D_0
 Body: D_sharp_1
-mass[kg] 	 COM[cm] 			 component name
-COM: H_2
-----------------------------------------------------------------
-Mass of H_2: 0.095905
-COM of H_2: 91.400000 4.700000 31.022296
-----------------------------------------------------------------
+D_sharp_1 not found, copying bodies to new component
+D_sharp_1 mass[kg] 0.09019253807017001 	 COM[cm] -8.950183741044956 12.515057541342944 6.601337551425865
+exporting stl of D_sharp_1
 Body: H_2
-mass[kg] 	 COM[cm] 			 component name
-COM: A_sharp_0
-----------------------------------------------------------------
-Mass of A_sharp_0: 0.197281
-COM of A_sharp_0: 28.400000 7.700000 14.642408
-----------------------------------------------------------------
+H_2 not found, copying bodies to new component
+H_2 mass[kg] 0.04795253807017022 	 COM[cm] 40.948962772689605 -3.0728125467924396 3.6025157616833807
+exporting stl of H_2
 Body: A_sharp_0
-mass[kg] 	 COM[cm] 			 component name
-COM: C_1
-----------------------------------------------------------------
-Mass of C_1: 0.192212
-COM of C_1: 35.000000 4.700000 35.084509
-----------------------------------------------------------------
+A_sharp_0 not found, copying bodies to new component
+A_sharp_0 mass[kg] 0.0986405380701699 	 COM[cm] -22.050207310709716 13.308299544547916 6.6012229977680414
+exporting stl of A_sharp_0
 Body: C_1
-mass[kg] 	 COM[cm] 			 component name
-COM: D_1
-----------------------------------------------------------------
-Mass of D_1: 0.184609
-COM of D_1: 39.300000 4.700000 34.774802
-----------------------------------------------------------------
+C_1 not found, copying bodies to new component
+C_1 mass[kg] 0.09610613807017018 	 COM[cm] -15.450134655883733 -7.133918289094804 3.6012552492517123
+exporting stl of C_1
 Body: D_1
-mass[kg] 	 COM[cm] 			 component name
-COM: A_0
-----------------------------------------------------------------
-Mass of A_0: 0.205729
-COM of A_0: 26.300000 4.700000 35.711127
-----------------------------------------------------------------
+D_1 not found, copying bodies to new component
+D_1 mass[kg] 0.09230453807016997 	 COM[cm] -11.150208314780516 -6.824404740057665 3.6013069472034616
+exporting stl of D_1
 Body: A_0
-mass[kg] 	 COM[cm] 			 component name
-COM: A_sharp_1
-----------------------------------------------------------------
-Mass of A_sharp_1: 0.151662
-COM of A_sharp_1: 58.900000 7.700000 16.488963
-----------------------------------------------------------------
+A_0 not found, copying bodies to new component
+A_0 mass[kg] 0.10286453807017029 	 COM[cm] -24.15016436952702 -7.76063070021239 3.601172776937133
+exporting stl of A_0
 Body: A_sharp_1
-mass[kg] 	 COM[cm] 			 component name
-COM: C_0
-----------------------------------------------------------------
-Mass of C_0: 0.242900
-COM of C_0: 4.800000 4.700000 37.259666
-----------------------------------------------------------------
+A_sharp_1 not found, copying bodies to new component
+A_sharp_1 mass[kg] 0.07583093807017009 	 COM[cm] 8.450061954516023 11.461692493126806 6.601590869913629
+exporting stl of A_sharp_1
 Body: C_0
-mass[kg] 	 COM[cm] 			 component name
-COM: E_0
-----------------------------------------------------------------
-Mass of E_0: 0.226849
-COM of E_0: 13.400000 4.700000 36.640250
-----------------------------------------------------------------
+C_0 not found, copying bodies to new component
+C_0 mass[kg] 0.12145013807016977 	 COM[cm] -45.64999030629674 -9.308864361366515 3.6009933060580606
+exporting stl of C_0
 Body: E_0
-mass[kg] 	 COM[cm] 			 component name
-COM: C_sharp_2
-----------------------------------------------------------------
-Mass of C_sharp_2: 0.138990
-COM of C_sharp_2: 67.600000 7.700000 17.015685
-----------------------------------------------------------------
+E_0 not found, copying bodies to new component
+E_0 mass[kg] 0.11342453807017017 	 COM[cm] -37.050046901145656 -8.68963158384845 3.6010635895896077
+exporting stl of E_0
 Body: C_sharp_2
-mass[kg] 	 COM[cm] 			 component name
-COM: G_sharp_0
-----------------------------------------------------------------
-Mass of G_sharp_0: 0.205729
-COM of G_sharp_0: 24.100000 7.700000 14.382074
-----------------------------------------------------------------
+C_sharp_2 not found, copying bodies to new component
+C_sharp_2 mass[kg] 0.06949493807017026 	 COM[cm] 17.149961246230287 10.934822703914216 6.601735912877227
+exporting stl of C_sharp_2
 Body: G_sharp_0
-mass[kg] 	 COM[cm] 			 component name
-COM: G_sharp_2
-----------------------------------------------------------------
-Mass of G_sharp_2: 0.109422
-COM of G_sharp_2: 84.800000 7.700000 18.057022
-----------------------------------------------------------------
+G_sharp_0 not found, copying bodies to new component
+G_sharp_0 mass[kg] 0.10286453807016993 	 COM[cm] -26.350206586133112 13.568635052433617 6.60117277693714
+exporting stl of G_sharp_0
 Body: G_sharp_2
-mass[kg] 	 COM[cm] 			 component name
-COM: F_sharp_2
-----------------------------------------------------------------
-Mass of F_sharp_2: 0.117870
-COM of F_sharp_2: 80.600000 7.700000 17.802742
-----------------------------------------------------------------
+G_sharp_2 not found, copying bodies to new component
+G_sharp_2 mass[kg] 0.054710938070170245 	 COM[cm] 34.35013687624261 9.893352413049673 6.602204991582182
+exporting stl of G_sharp_2
 Body: F_sharp_2
-mass[kg] 	 COM[cm] 			 component name
-COM: A_sharp_2
-----------------------------------------------------------------
-Mass of A_sharp_2: 0.100974
-COM of A_sharp_2: 89.200000 7.700000 18.323410
-----------------------------------------------------------------
+F_sharp_2 not found, copying bodies to new component
+F_sharp_2 mass[kg] 0.058934938070170244 	 COM[cm] 30.150195067628133 10.147818074006471 6.6020469548598575
+exporting stl of F_sharp_2
 Body: A_sharp_2
-mass[kg] 	 COM[cm] 			 component name
-COM: Rahmen
-----------------------------------------------------------------
-Mass of Rahmen: 58.724913
-COM of Rahmen: 50.450000 0.000000 27.950641
-----------------------------------------------------------------
+A_sharp_2 not found, copying bodies to new component
+A_sharp_2 mass[kg] 0.05048693807017007 	 COM[cm] 38.75019079324469 9.627026869936918 6.602389472653905
+exporting stl of A_sharp_2
 Body: Rahmen
+Rahmen not found, copying bodies to new component
+Rahmen mass[kg] 33.580698785718496 	 COM[cm] 50.45 0.0 27.950640783566502
+exporting stl of Rahmen
+Body: stick_left
+stick_left not found, copying bodies to new component
+stick_left mass[kg] 0.27516373216407936 	 COM[cm] -51.50000000000079 -11.899359216433625 10.500000000000004
+exporting stl of stick_left
+Body: stick_right
+stick_right not found, copying bodies to new component
+stick_right mass[kg] 0.27516373216407947 	 COM[cm] 51.50000000041288 -2.4999999999999933 14.477647986100724
+exporting stl of stick_right
 Joint: EXPORT_C_0
+	parent: Rahmen
+	child: C_0
+	pos: 0.011973060583393647	-7.289830228967327	-0.10099330605806145
 Joint: EXPORT_D_0
+	parent: Rahmen
+	child: D_0
+	pos: -0.005872899261881059	-7.005919915543435	-0.10102909777532121
 Joint: EXPORT_E_0
+	parent: Rahmen
+	child: E_0
+	pos: 0.012519603642424215	-6.80328572742984	-0.1010635895896086
 Joint: EXPORT_F_0
+	parent: Rahmen
+	child: F_0
+	pos: -0.009779865223798367	-6.6223171913363075	-0.10108789798621443
 Joint: EXPORT_G_0
+	parent: Rahmen
+	child: G_0
+	pos: -0.0006094284099162905	-6.385101322024889	-0.10113097895996015
 Joint: EXPORT_A_0
+	parent: Rahmen
+	child: A_0
+	pos: 0.027023565685304618	-6.17600747758029	-0.10117277693713289
 Joint: EXPORT_H_0
+	parent: Rahmen
+	child: H_0
+	pos: -5.684762427193846e-05	-6.007942793965581	-0.10122299776803478
 Joint: EXPORT_G_1
+	parent: Rahmen
+	child: G_1
+	pos: 0.001709988909920357	-4.984100008893252	-0.10146819585505984
 Joint: EXPORT_A_1
+	parent: Rahmen
+	child: A_1
+	pos: -0.020910420269220964	-4.781428151414736	-0.10155619608558997
 Joint: EXPORT_H_1
+	parent: Rahmen
+	child: H_1
+	pos: -0.0021305905828796767	-4.586768726075283	-0.10164587797833136
 Joint: EXPORT_C_2
+	parent: Rahmen
+	child: C_2
+	pos: -0.00627592455136039	-4.330121366779629	-0.10169471013183795
 Joint: EXPORT_D_2
+	parent: Rahmen
+	child: D_2
+	pos: -0.01964742434756772	-4.120969260426162	-0.10180161571836921
 Joint: EXPORT_E_2
+	parent: Rahmen
+	child: E_2
+	pos: -0.010083797263789052	-3.932746372615247	-0.1019100567803033
 Joint: EXPORT_F_2
+	parent: Rahmen
+	child: F_2
+	pos: 0.013166663685272084	-3.758238848099552	-0.10197613773452474
 Joint: EXPORT_G_2
+	parent: Rahmen
+	child: G_2
+	pos: 0.004284278271029507	-3.5418135551043894	-0.10213893629432347
 Joint: EXPORT_A_2
+	parent: Rahmen
+	child: A_2
+	pos: 0.004658863524397816	-3.318910482787528	-0.10231209586453271
 Joint: EXPORT_H_2
+	parent: Rahmen
+	child: H_2
+	pos: -0.022366111101526087	-3.1233846776112504	-0.10251576168337895
 Joint: EXPORT_C_3
+	parent: Rahmen
+	child: C_3
+	pos: -0.003510917504165434	-2.901288011934044	-0.10260764151456847
 Joint: EXPORT_A_sharp_2
+	parent: Rahmen
+	child: A_sharp_2
+	pos: 0.0059070109542815885	-3.2233077081296546	-0.10238947265389431
 Joint: EXPORT_G_sharp_2
+	parent: Rahmen
+	child: G_sharp_2
+	pos: 0.004060397272844796	-3.393521885943567	-0.10220499158217144
 Joint: EXPORT_F_sharp_2
+	parent: Rahmen
+	child: F_sharp_2
+	pos: -0.024897867258303563	-3.626843046534608	-0.10204695485984683
 Joint: EXPORT_D_sharp_2
+	parent: Rahmen
+	child: D_sharp_2
+	pos: -0.00022116567883401217	-3.939852969180045	-0.10186029109502837
 Joint: EXPORT_C_sharp_2
+	parent: Rahmen
+	child: C_sharp_2
+	pos: 0.01057880713782211	-4.169171428736641	-0.10173591287721706
 Joint: EXPORT_A_sharp_1
+	parent: Rahmen
+	child: A_sharp_1
+	pos: -0.043561015354697474	-4.595880587351791	-0.10159086991361921
 Joint: EXPORT_G_sharp_1
+	parent: Rahmen
+	child: G_sharp_1
+	pos: 0.01751786532272126	-4.772109841922994	-0.10151492293000963
 Joint: EXPORT_F_sharp_1
+	parent: Rahmen
+	child: F_sharp_1
+	pos: -0.009464711039679885	-4.952297935293345	-0.10143861362123463
 Joint: EXPORT_G_sharp_0
+	parent: Rahmen
+	child: G_sharp_0
+	pos: -0.00842231943849825	-6.145239551809006	-0.10117277693713067
 Joint: EXPORT_F_sharp_0
+	parent: Rahmen
+	child: F_sharp_0
+	pos: -0.0015611220815365812	-6.3349651028886225	-0.10113097895995704
 Joint: EXPORT_D_sharp_0
+	parent: Rahmen
+	child: D_sharp_0
+	pos: -0.013844435777762953	-6.684086957114053	-0.10104414724477806
 Joint: EXPORT_C_sharp_0
+	parent: Rahmen
+	child: C_sharo_0
+	pos: -0.007217230003043085	-6.930312830785963	-0.10100731977194766
 Joint: EXPORT_A_sharp_0
+	parent: Rahmen
+	child: A_sharp_0
+	pos: -0.0011338198860251225	-5.95551531892295	-0.10122299776803168
 Joint: EXPORT_C_1
+	parent: Rahmen
+	child: C_1
+	pos: -0.017909914362430612	-5.8471098944523705	-0.10125524925171225
 Joint: EXPORT_D_1
+	parent: Rahmen
+	child: D_1
+	pos: -0.003939710014277509	-5.569605875595763	-0.10130694720346156
 Joint: EXPORT_E_1
+	parent: Rahmen
+	child: E_1
+	pos: -0.003655164431850544	-5.387861506683814	-0.10136308647518533
 Joint: EXPORT_F_1
+	parent: Rahmen
+	child: F_1
+	pos: 0.024342228461761817	-5.173073179782442	-0.10143140339282741
 Joint: EXPORT_C_sharp_1
+	parent: Rahmen
+	child: C_sharp_1
+	pos: -0.017164612918186606	-5.563944992705725	-0.10127771215046799
 Joint: EXPORT_D_sharp_1
+	parent: Rahmen
+	child: D_sharp_1
+	pos: 0.004295250375879078	-5.345862630717125	-0.10133755142585521
