@@ -21,7 +21,7 @@
     <axis xyz="-0.35355  0.86602 -0.35355"/>
     <limit effort="0.0" lower="-1.2217304764" upper="0.349065850399" velocity="0.0"/>
   </joint>
-  <joint name="palm_little" type="fixed">
+  <joint name="palm_little" type="revolute">
     <parent link="palm"/>
     <child link="little_limb0"/>
     <origin rpy="0  0  0" xyz="-0.02831  0.005    0.17419"/>
