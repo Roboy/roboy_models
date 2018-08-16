@@ -681,7 +681,8 @@
 				<xyz>0.9659258262890761 -8.361796429393943e-16 0.2588190451025218</xyz>
 				<limit>
 					<lower>-1.2217304763960306</lower>
-					<upper>0.3490658503988659</upper>
+					<!--<upper>0.3490658503988659</upper>-->
+					<upper>-0.10</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
