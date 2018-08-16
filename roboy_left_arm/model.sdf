@@ -216,8 +216,8 @@
 		<plugin filename="libmusc_plugin.so" name="musc_plugin">
 			<myoMuscle name="motor0">
 				<link name="torso">
-					<viaPoint type="FIXPOINT">0.23769028098804934 -0.01768902726543772 0.4294963043230658</viaPoint>
-					<viaPoint type="FIXPOINT">0.2719330451177384 -0.013737008525790953 0.5684072302890745</viaPoint>
+					<!--<viaPoint type="FIXPOINT">0.23769028098804934 -0.01768902726543772 0.4294963043230658</viaPoint>-->
+					<!--<viaPoint type="FIXPOINT">0.2719330451177384 -0.013737008525790953 0.5684072302890745</viaPoint>-->
 					<viaPoint type="FIXPOINT">0.28894109223784714 -0.010689615277494022 0.57625463538261</viaPoint>
 				</link>
 				<link name="upper_arm_left">
@@ -282,8 +282,8 @@
 			</myoMuscle>
 			<myoMuscle name="motor8">
 				<link name="torso">
-					<viaPoint type="FIXPOINT">0.23414595021784768 0.05384194818674601 0.42793870122694594</viaPoint>
-					<viaPoint type="FIXPOINT">0.26969226825276865 0.027710898774530066 0.5679688324384705</viaPoint>
+					<!--<viaPoint type="FIXPOINT">0.23414595021784768 0.05384194818674601 0.42793870122694594</viaPoint>-->
+					<!--<viaPoint type="FIXPOINT">0.26969226825276865 0.027710898774530066 0.5679688324384705</viaPoint>-->
 					<viaPoint type="FIXPOINT">0.2865401700456322 0.02607560577031752 0.576140812491758</viaPoint>
 				</link>
 				<link name="upper_arm_left">
