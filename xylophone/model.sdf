@@ -1186,6 +1186,7 @@
 			</visual>
 		</link>
 		<link name="Rahmen">
+			<kinematic>true</kinematic>
 			<self_collide>false</self_collide>
 			<pose frame="">0.5045000000000001 0.0 0.27950640783566505 0.0 -0.0 0.0</pose>
 			<inertial>
@@ -1762,6 +1763,6 @@
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
-		<!--<plugin filename="libmusc_plugin.so" name="musc_plugin"/>-->
+		<plugin filename="libHitDetection.so" name="HitDetection"/>
 	</model>
 </sdf>
