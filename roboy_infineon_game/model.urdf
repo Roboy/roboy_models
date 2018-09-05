@@ -1,0 +1,750 @@
+<?xml version="1.0" ?>
+<robot name="roboy_infineon_game">
+  <joint name="sphere_axis0" type="revolute">
+    <parent link="torso"/>
+    <child link="sphere_link1"/>
+    <origin rpy="0 0 0" xyz="0.29218 0.00768 0.24927"/>
+    <axis xyz="0.99863  0.05074 -0.01234"/>
+    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0"/>
+  </joint>
+  <joint name="sphere_axis1" type="revolute">
+    <parent link="sphere_link1"/>
+    <child link="sphere_link2"/>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <axis xyz="-0.05101  0.99844 -0.02231"/>
+    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0"/>
+  </joint>
+  <joint name="sphere_axis2" type="revolute">
+    <parent link="sphere_link2"/>
+    <child link="upper_arm_left"/>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <axis xyz="-0.01118 -0.0229  -0.99967"/>
+    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0"/>
+  </joint>
+  <joint name="hip_joint" type="revolute">
+    <parent link="base"/>
+    <child link="torso"/>
+    <origin rpy="0 0 0" xyz="0      0.00152 0.29933"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="0.0" lower="-1.0471975512" upper="1.0471975512" velocity="0.0"/>
+  </joint>
+  <joint name="elbow_left_rot1" type="revolute">
+    <parent link="elbow_left"/>
+    <child link="lower_arm_left"/>
+    <origin rpy="0 0 0" xyz="-0.01877  0.00257 -0.06612"/>
+    <axis xyz="-0.01118 -0.0229  -0.99967"/>
+    <limit effort="0.0" lower="-1.57079632679" upper="1.57079632679" velocity="0.0"/>
+  </joint>
+  <joint name="elbow_left_rot0" type="revolute">
+    <parent link="upper_arm_left"/>
+    <child link="elbow_left"/>
+    <origin rpy="0 0 0" xyz="0.01469 -0.01072 -0.28951"/>
+    <axis xyz="-0.99863 -0.05074  0.01234"/>
+    <limit effort="0.0" lower="0.0" upper="1.57079632679" velocity="0.0"/>
+  </joint>
+  <joint name="left_joint0_ring" type="revolute">
+    <parent link="left_ring_limb0"/>
+    <child link="left_ring_limb1"/>
+    <origin rpy="0 0 0" xyz="0.00228 0.00708 0.00313"/>
+    <axis xyz="0.8891  -0.06439  0.45314"/>
+    <limit effort="0.0" lower="-0.314159265359" upper="0.314159265359" velocity="0.0"/>
+  </joint>
+  <joint name="left_joint1_ring" type="revolute">
+    <parent link="left_ring_limb1"/>
+    <child link="left_ring_limb2"/>
+    <origin rpy="0 0 0" xyz="-0.00504  0.00685 -0.05229"/>
+    <axis xyz="-0.0506   0.97015  0.23715"/>
+    <limit effort="0.0" lower="0.0" upper="1.91986217719" velocity="0.0"/>
+  </joint>
+  <joint name="left_joint2_ring" type="revolute">
+    <parent link="left_ring_limb2"/>
+    <child link="left_ring_limb3"/>
+    <origin rpy="0 0 0" xyz="-0.00018  0.00899 -0.03052"/>
+    <axis xyz="-0.0506   0.97015  0.23715"/>
+    <limit effort="0.0" lower="0.0" upper="1.2217304764" velocity="0.0"/>
+  </joint>
+  <joint name="left_joint0_little" type="revolute">
+    <parent link="left_little_limb0"/>
+    <child link="left_little_limb1"/>
+    <origin rpy="0 0 0" xyz="0.00228 0.0059  0.00501"/>
+    <axis xyz="0.8526  -0.22396  0.47213"/>
+    <limit effort="0.0" lower="-0.314159265359" upper="0.314159265359" velocity="0.0"/>
+  </joint>
+  <joint name="left_joint1_little" type="revolute">
+    <parent link="left_little_limb1"/>
+    <child link="left_little_limb2"/>
+    <origin rpy="0 0 0" xyz="-0.00114  0.02045 -0.04885"/>
+    <axis xyz="-0.03578  0.87635  0.48032"/>
+    <limit effort="0.0" lower="0.0" upper="1.91986217719" velocity="0.0"/>
+  </joint>
+  <joint name="left_joint2_little" type="revolute">
+    <parent link="left_little_limb2"/>
+    <child link="left_little_limb3"/>
+    <origin rpy="0 0 0" xyz="0.00224  0.01662 -0.02704"/>
+    <axis xyz="-0.03578  0.87635  0.48032"/>
+    <limit effort="0.0" lower="0.0" upper="1.2217304764" velocity="0.0"/>
+  </joint>
+  <joint name="left_palm_ring" type="revolute">
+    <parent link="palm"/>
+    <child link="left_ring_limb0"/>
+    <origin rpy="0 0 0" xyz="-0.00541  0.02706 -0.10052"/>
+    <axis xyz="0.0506  -0.97015 -0.23715"/>
+    <limit effort="0.0" lower="-1.2217304764" upper="0.349065850399" velocity="0.0"/>
+  </joint>
+  <joint name="left_palm_index" type="revolute">
+    <parent link="palm"/>
+    <child link="left_index_limb0"/>
+    <origin rpy="0 0 0" xyz="-0.00284 -0.01188 -0.09578"/>
+    <axis xyz="0.06912 -0.95751  0.27999"/>
+    <limit effort="0.0" lower="-1.2217304764" upper="0.349065850399" velocity="0.0"/>
+  </joint>
+  <joint name="left_palm_thumb" type="revolute">
+    <parent link="palm"/>
+    <child link="left_thumb_limb0"/>
+    <origin rpy="0 0 0" xyz="-0.02788 -0.00743 -0.04579"/>
+    <axis xyz="-0.87306  0.30848  0.37761"/>
+    <limit effort="0.0" lower="-1.2217304764" upper="0.872664625997" velocity="0.0"/>
+  </joint>
+  <joint name="left_palm_little" type="fixed">
+    <parent link="palm"/>
+    <child link="left_little_limb0"/>
+    <origin rpy="0 0 0" xyz="-0.00591  0.04283 -0.08809"/>
+    <axis xyz="-0.03578  0.87635  0.48032"/>
+    <limit effort="0.0" lower="0.0" upper="0.0" velocity="0.0"/>
+  </joint>
+  <joint name="left_palm_middle" type="revolute">
+    <parent link="palm"/>
+    <child link="left_middle_limb0"/>
+    <origin rpy="0 0 0" xyz="-0.0051   0.02017 -0.10367"/>
+    <axis xyz="0.06197 -0.99783  0.02217"/>
+    <limit effort="0.0" lower="-1.2217304764" upper="0.349065850399" velocity="0.0"/>
+  </joint>
+  <joint name="left_wrist_0" type="revolute">
+    <parent link="lower_arm_left"/>
+    <child link="wrist_1"/>
+    <origin rpy="0 0 0" xyz="-0.01441 -0.00671 -0.26206"/>
+    <axis xyz="-0.99743 -0.06112  0.03722"/>
+    <limit effort="0.0" lower="-0.523598775598" upper="0.523598775598" velocity="0.0"/>
+  </joint>
+  <joint name="left_wrist_1" type="revolute">
+    <parent link="wrist_1"/>
+    <child link="palm"/>
+    <origin rpy="0 0 0" xyz="0.01155 -0.01682  0"/>
+    <axis xyz="-0.06197  0.99783 -0.02217"/>
+    <limit effort="0.0" lower="-0.523598775598" upper="0.523598775598" velocity="0.0"/>
+  </joint>
+  <joint name="left_joint0_thumb" type="revolute">
+    <parent link="left_thumb_limb0"/>
+    <child link="left_thumb_limb1"/>
+    <origin rpy="0 0 0" xyz="0.0061  -0.00503 -0.00164"/>
+    <axis xyz="-0.14859 -0.90592  0.39651"/>
+    <limit effort="0.0" lower="-0.314159265359" upper="0.314159265359" velocity="0.0"/>
+  </joint>
+  <joint name="left_joint1_thumb" type="revolute">
+    <parent link="left_thumb_limb1"/>
+    <child link="left_thumb_limb2"/>
+    <origin rpy="0 0 0" xyz="-0.02109  0.01479 -0.04629"/>
+    <axis xyz="0.87306 -0.30848 -0.37761"/>
+    <limit effort="0.0" lower="0.0" upper="1.91986217719" velocity="0.0"/>
+  </joint>
+  <joint name="left_joint2_thumb" type="revolute">
+    <parent link="left_thumb_limb2"/>
+    <child link="left_thumb_limb3"/>
+    <origin rpy="0 0 0" xyz="0.01536 0.02584 0.01043"/>
+    <axis xyz="0.87306 -0.30848 -0.37761"/>
+    <limit effort="0.0" lower="0.0" upper="1.2217304764" velocity="0.0"/>
+  </joint>
+  <joint name="left_joint0_index" type="revolute">
+    <parent link="left_index_limb0"/>
+    <child link="left_index_limb1"/>
+    <origin rpy="0 0 0" xyz="0.0021   0.00776 -0.00075"/>
+    <axis xyz="0.87306 0.19386 0.4474"/>
+    <limit effort="0.0" lower="-0.314159265359" upper="0.314159265359" velocity="0.0"/>
+  </joint>
+  <joint name="left_joint1_index" type="revolute">
+    <parent link="left_index_limb1"/>
+    <child link="left_index_limb2"/>
+    <origin rpy="0 0 0" xyz="-0.00325 -0.02026 -0.04884"/>
+    <axis xyz="-0.06912  0.95751 -0.27999"/>
+    <limit effort="0.0" lower="0.0" upper="1.91986217719" velocity="0.0"/>
+  </joint>
+  <joint name="left_joint2_index" type="revolute">
+    <parent link="left_index_limb2"/>
+    <child link="left_index_limb3"/>
+    <origin rpy="0 0 0" xyz="0.0008  -0.00742 -0.03093"/>
+    <axis xyz="-0.06912  0.95751 -0.27999"/>
+    <limit effort="0.0" lower="0.0" upper="1.2217304764" velocity="0.0"/>
+  </joint>
+  <joint name="left_joint0_middle" type="revolute">
+    <parent link="left_middle_limb0"/>
+    <child link="left_middle_limb1"/>
+    <origin rpy="0 0 0" xyz="0.00295 -0.00479  0.00151"/>
+    <axis xyz="0.88169 0.06514 0.46729"/>
+    <limit effort="0.0" lower="-0.610865238198" upper="0.610865238198" velocity="0.0"/>
+  </joint>
+  <joint name="left_joint1_middle" type="revolute">
+    <parent link="left_middle_limb1"/>
+    <child link="left_middle_limb2"/>
+    <origin rpy="0 0 0" xyz="-0.0042  -0.00693 -0.05235"/>
+    <axis xyz="-0.06197  0.99783 -0.02217"/>
+    <limit effort="0.0" lower="0.0" upper="1.91986217719" velocity="0.0"/>
+  </joint>
+  <joint name="left_joint2_middle" type="revolute">
+    <parent link="left_middle_limb2"/>
+    <child link="left_middle_limb3"/>
+    <origin rpy="0 0 0" xyz="0.00026  0.00081 -0.0318"/>
+    <axis xyz="-0.06197  0.99783 -0.02217"/>
+    <limit effort="0.0" lower="0.0" upper="1.2217304764" velocity="0.0"/>
+  </joint>
+  <link name="torso">
+    <inertial>
+      <mass value="10.669741143559774"/>
+      <origin rpy="0 0 0" xyz="0.01396 -0.0088   0.19078"/>
+      <inertia ixx="2.74575625822121" ixy="-0.0015603224731704848" ixz="0.0457047208198142" iyy="2.961319343671609" iyz="-0.0751268395941617" izz="0.30330145215630905"/>
+    </inertial>
+    <collision name="torso_collision">
+      <origin rpy="0 0 0" xyz="0.01396 -0.0088   0.19078"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/torso.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="torso_visual">
+      <origin rpy="0 0 0" xyz="0.01396 -0.0088   0.19078"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/torso.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="base">
+    <inertial>
+      <mass value="0.7172180506747103"/>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <inertia ixx="0.006624876652297313" ixy="2.017866674989003e-05" ixz="-3.5867184598878264e-05" iyy="0.01489658927922991" iyz="5.108025212803059e-06" izz="0.012885961714113868"/>
+    </inertial>
+    <collision name="base_collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/base.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="base_visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/base.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="lower_arm_left">
+    <inertial>
+      <mass value="1.415918682088171"/>
+      <origin rpy="0 0 0" xyz="-0.00158 -0.00276 -0.12014"/>
+      <inertia ixx="0.014505394331622908" ixy="0.000690899856067072" ixz="4.631045577183157e-05" iyy="0.13073063338309368" iyz="-0.02960552116422262" izz="0.11752728806612897"/>
+    </inertial>
+    <collision name="lower_arm_left_collision">
+      <origin rpy="0 0 0" xyz="-0.00158 -0.00276 -0.12014"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/lower_arm_left.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="lower_arm_left_visual">
+      <origin rpy="0 0 0" xyz="-0.00158 -0.00276 -0.12014"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/lower_arm_left.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="upper_arm_left">
+    <inertial>
+      <mass value="1.184100649860109"/>
+      <origin rpy="0 0 0" xyz="0.01072 -0.00312 -0.17318"/>
+      <inertia ixx="0.1732814375135424" ixy="-0.0021239733660797467" ixz="-0.002697059352357646" iyy="0.2806338357689619" iyz="-0.1344222016861965" izz="0.11110799105592173"/>
+    </inertial>
+    <collision name="upper_arm_left_collision">
+      <origin rpy="0 0 0" xyz="0.01072 -0.00312 -0.17318"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/upper_arm_left.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="upper_arm_left_visual">
+      <origin rpy="0 0 0" xyz="0.01072 -0.00312 -0.17318"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/upper_arm_left.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="elbow_left">
+    <inertial>
+      <mass value="0.15681537171222146"/>
+      <origin rpy="0 0 0" xyz="-0.01465  0.00368 -0.03741"/>
+      <inertia ixx="0.007826269795144709" ixy="-0.00010199785089877998" ixz="-7.215871025296127e-05" iyy="0.021237926147771084" iyz="-0.01014485694501724" izz="0.01351910020870572"/>
+    </inertial>
+    <collision name="elbow_left_collision">
+      <origin rpy="0 0 0" xyz="-0.01465  0.00368 -0.03741"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/elbow_left.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="elbow_left_visual">
+      <origin rpy="0 0 0" xyz="-0.01465  0.00368 -0.03741"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/elbow_left.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="sphere_link1">
+    <inertial>
+      <mass value="0.046755519327953354"/>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <inertia ixx="0.014082280743277947" ixy="-0.00012582855239671661" ixz="-0.00023626280923146897" iyy="0.018069794508113902" iyz="-0.0074946294466258015" izz="0.004001421202848276"/>
+    </inertial>
+    <collision name="sphere_link1_collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/sphere_link1.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="sphere_link1_visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/sphere_link1.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="sphere_link2">
+    <inertial>
+      <mass value="0.03134020848172157"/>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <inertia ixx="0.009438041528757955" ixy="-8.434003849461378e-05" ixz="-0.00015836161156868728" iyy="0.012110871144511353" iyz="-0.0050236476632439745" izz="0.002680845512452334"/>
+    </inertial>
+    <collision name="sphere_link2_collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/sphere_link2.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="sphere_link2_visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/sphere_link2.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="palm">
+    <inertial>
+      <mass value="0.051047603758736855"/>
+      <origin rpy="0 0 0" xyz="-0.005    0.01716 -0.05248"/>
+      <inertia ixx="0.0008128508139269703" ixy="7.688698905551259e-05" ixz="-3.06757581638257e-05" iyy="0.004803291499075109" iyz="0.001738911525195812" izz="0.004032070824570161"/>
+    </inertial>
+    <collision name="palm_collision">
+      <origin rpy="0 0 0" xyz="-0.005    0.01716 -0.05248"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/palm.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="palm_visual">
+      <origin rpy="0 0 0" xyz="-0.005    0.01716 -0.05248"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/palm.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="left_ring_limb0">
+    <inertial>
+      <mass value="0.0004269892790556763"/>
+      <origin rpy="0 0 0" xyz="-0.00047  0.0071   0.00247"/>
+      <inertia ixx="1.1995796494075826e-05" ixy="-1.3942082427261721e-06" ixz="8.337648582337912e-07" iyy="4.525557957806727e-05" iyz="1.9937734083408365e-05" izz="3.33864044033828e-05"/>
+    </inertial>
+    <collision name="left_ring_limb0_collision">
+      <origin rpy="0 0 0" xyz="-0.00047  0.0071   0.00247"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/left_ring_limb0.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="left_ring_limb0_visual">
+      <origin rpy="0 0 0" xyz="-0.00047  0.0071   0.00247"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/left_ring_limb0.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="left_ring_limb1">
+    <inertial>
+      <mass value="0.0038292415181081464"/>
+      <origin rpy="0 0 0" xyz="-0.00312  0.00586 -0.02465"/>
+      <inertia ixx="0.00014204196108538156" ixy="-1.8727927190320217e-05" ixz="1.3039495519327402e-05" iyy="0.0004388718005014952" iyz="0.00020418201271846416" izz="0.0002993599865983983"/>
+    </inertial>
+    <collision name="left_ring_limb1_collision">
+      <origin rpy="0 0 0" xyz="-0.00312  0.00586 -0.02465"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/left_ring_limb1.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="left_ring_limb1_visual">
+      <origin rpy="0 0 0" xyz="-0.00312  0.00586 -0.02465"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/left_ring_limb1.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="left_ring_limb2">
+    <inertial>
+      <mass value="0.0016247461735835877"/>
+      <origin rpy="0 0 0" xyz="0.00067  0.00838 -0.01097"/>
+      <inertia ixx="8.711001638298318e-05" ixy="-1.2143569291380432e-05" ixz="1.0079963665655896e-05" iyy="0.0002112674715528049" iyz="0.00010368302760921022" izz="0.00012654692297279352"/>
+    </inertial>
+    <collision name="left_ring_limb2_collision">
+      <origin rpy="0 0 0" xyz="0.00067  0.00838 -0.01097"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/left_ring_limb2.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="left_ring_limb2_visual">
+      <origin rpy="0 0 0" xyz="0.00067  0.00838 -0.01097"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/left_ring_limb2.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="left_ring_limb3">
+    <inertial>
+      <mass value="0.0006943752997715769"/>
+      <origin rpy="0 0 0" xyz="0.00022  0.0058  -0.00681"/>
+      <inertia ixx="4.634517534125081e-05" ixy="-6.411398672155147e-06" ixz="5.930944845860573e-06" iyy="9.889480904003903e-05" iyz="4.9281590378906825e-05" izz="5.409862769324958e-05"/>
+    </inertial>
+    <collision name="left_ring_limb3_collision">
+      <origin rpy="0 0 0" xyz="0.00022  0.0058  -0.00681"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/left_ring_limb3.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="left_ring_limb3_visual">
+      <origin rpy="0 0 0" xyz="0.00022  0.0058  -0.00681"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/left_ring_limb3.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="left_little_limb0">
+    <inertial>
+      <mass value="0.00042697827343766065"/>
+      <origin rpy="0 0 0" xyz="-0.00042  0.00623  0.00421"/>
+      <inertia ixx="1.0301200599623128e-05" ixy="-3.1665731297247118e-06" ixz="1.7357844283037661e-06" iyy="4.3210887736950554e-05" iyz="1.821716579189425e-05" izz="3.352260966981266e-05"/>
+    </inertial>
+    <collision name="left_little_limb0_collision">
+      <origin rpy="0 0 0" xyz="-0.00042  0.00623  0.00421"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/left_little_limb0.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="left_little_limb0_visual">
+      <origin rpy="0 0 0" xyz="-0.00042  0.00623  0.00421"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/left_little_limb0.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="left_little_limb1">
+    <inertial>
+      <mass value="0.0038292269659177206"/>
+      <origin rpy="0 0 0" xyz="-0.00119  0.01222 -0.02238"/>
+      <inertia ixx="0.0001233168334934678" ixy="-4.134717488655572e-05" ixz="2.610029140912052e-05" iyy="0.0004185523028700157" iyz="0.00018748467925286977" izz="0.0003070688904088536"/>
+    </inertial>
+    <collision name="left_little_limb1_collision">
+      <origin rpy="0 0 0" xyz="-0.00119  0.01222 -0.02238"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/left_little_limb1.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="left_little_limb1_visual">
+      <origin rpy="0 0 0" xyz="-0.00119  0.01222 -0.02238"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/left_little_limb1.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="left_little_limb2">
+    <inertial>
+      <mass value="0.0016247453782456628"/>
+      <origin rpy="0 0 0" xyz="0.00171  0.0109  -0.00832"/>
+      <inertia ixx="7.677684915321196e-05" ixy="-2.642795416841909e-05" ixz="1.9665647491066808e-05" iyy="0.00020072916630008803" iyz="9.599918562931255e-05" izz="0.00013483375806764086"/>
+    </inertial>
+    <collision name="left_little_limb2_collision">
+      <origin rpy="0 0 0" xyz="0.00171  0.0109  -0.00832"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/left_little_limb2.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="left_little_limb2_visual">
+      <origin rpy="0 0 0" xyz="0.00171  0.0109  -0.00832"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/left_little_limb2.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="left_little_limb3">
+    <inertial>
+      <mass value="0.0006943756819678437"/>
+      <origin rpy="0 0 0" xyz="0.00088  0.00735 -0.00502"/>
+      <inertia ixx="4.122592114699076e-05" ixy="-1.3923565409967327e-05" ixz="1.1452552647911483e-05" iyy="9.360188265740984e-05" iyz="4.590592087043834e-05" izz="5.9332581328315774e-05"/>
+    </inertial>
+    <collision name="left_little_limb3_collision">
+      <origin rpy="0 0 0" xyz="0.00088  0.00735 -0.00502"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/left_little_limb3.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="left_little_limb3_visual">
+      <origin rpy="0 0 0" xyz="0.00088  0.00735 -0.00502"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/left_little_limb3.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="left_thumb_limb0">
+    <inertial>
+      <mass value="0.00042709365626418863"/>
+      <origin rpy="0 0 0" xyz="0.00682 -0.00232 -0.00217"/>
+      <inertia ixx="6.301556748378702e-06" ixy="3.6392014930887174e-06" ixz="-1.6126353815577123e-06" iyy="3.5667605697931605e-05" iyz="1.3207765923283284e-05" izz="3.025930444325773e-05"/>
+    </inertial>
+    <collision name="left_thumb_limb0_collision">
+      <origin rpy="0 0 0" xyz="0.00682 -0.00232 -0.00217"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/left_thumb_limb0.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="left_thumb_limb0_visual">
+      <origin rpy="0 0 0" xyz="0.00682 -0.00232 -0.00217"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/left_thumb_limb0.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="left_thumb_limb1">
+    <inertial>
+      <mass value="0.003829462225903983"/>
+      <origin rpy="0 0 0" xyz="-0.00768  0.00684 -0.02336"/>
+      <inertia ixx="7.883281138307242e-05" ixy="2.7576700333966043e-05" ixz="-1.4914972115332835e-05" iyy="0.0003264078787700329" iyz="0.00013673166763034813" izz="0.000253745576213841"/>
+    </inertial>
+    <collision name="left_thumb_limb1_collision">
+      <origin rpy="0 0 0" xyz="-0.00768  0.00684 -0.02336"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/left_thumb_limb1.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="left_thumb_limb1_visual">
+      <origin rpy="0 0 0" xyz="-0.00768  0.00684 -0.02336"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/left_thumb_limb1.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="left_thumb_limb2">
+    <inertial>
+      <mass value="0.0016247934834448595"/>
+      <origin rpy="0 0 0" xyz="0.01018 0.00924 0.00143"/>
+      <inertia ixx="4.2653375434040654e-05" ixy="4.423004090749471e-06" ixz="-2.9046949032543404e-06" iyy="0.00014600795977662303" iyz="6.619782104089558e-05" izz="0.0001039832889412023"/>
+    </inertial>
+    <collision name="left_thumb_limb2_collision">
+      <origin rpy="0 0 0" xyz="0.01018 0.00924 0.00143"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/left_thumb_limb2.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="left_thumb_limb2_visual">
+      <origin rpy="0 0 0" xyz="0.01018 0.00924 0.00143"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/left_thumb_limb2.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="left_thumb_limb3">
+    <inertial>
+      <mass value="0.0006943751960180334"/>
+      <origin rpy="0 0 0" xyz="0.0064  -0.00206  0.0059"/>
+      <inertia ixx="1.4934728741583437e-05" ixy="-6.622929291857308e-07" ixz="3.7004491059979797e-07" iyy="6.336998831183905e-05" iyz="2.6856730509325203e-05" izz="4.8458464642465416e-05"/>
+    </inertial>
+    <collision name="left_thumb_limb3_collision">
+      <origin rpy="0 0 0" xyz="0.0064  -0.00206  0.0059"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/left_thumb_limb3.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="left_thumb_limb3_visual">
+      <origin rpy="0 0 0" xyz="0.0064  -0.00206  0.0059"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/left_thumb_limb3.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="left_index_limb0">
+    <inertial>
+      <mass value="0.00042704072295925356"/>
+      <origin rpy="0 0 0" xyz="-0.00064  0.00737 -0.00141"/>
+      <inertia ixx="1.2127697247384101e-05" ixy="3.2483168349438473e-06" ixz="-1.9163610481225552e-06" iyy="4.571438353705891e-05" iyz="2.0008142201569404e-05" izz="3.421886947684808e-05"/>
+    </inertial>
+    <collision name="left_index_limb0_collision">
+      <origin rpy="0 0 0" xyz="-0.00064  0.00737 -0.00141"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/left_index_limb0.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="left_index_limb0_visual">
+      <origin rpy="0 0 0" xyz="-0.00064  0.00737 -0.00141"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/left_index_limb0.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="left_index_limb1">
+    <inertial>
+      <mass value="0.0038291847043217466"/>
+      <origin rpy="0 0 0" xyz="-0.0023  -0.00729 -0.02436"/>
+      <inertia ixx="0.0001435943089250067" ixy="3.662982322449575e-05" ixz="-2.4900437540748172e-05" iyy="0.0004440423483373711" iyz="0.0002053101716812299" izz="0.00030946193611028946"/>
+    </inertial>
+    <collision name="left_index_limb1_collision">
+      <origin rpy="0 0 0" xyz="-0.0023  -0.00729 -0.02436"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/left_index_limb1.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="left_index_limb1_visual">
+      <origin rpy="0 0 0" xyz="-0.0023  -0.00729 -0.02436"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/left_index_limb1.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="left_index_limb2">
+    <inertial>
+      <mass value="0.0016247456622690813"/>
+      <origin rpy="0 0 0" xyz="0.00097  0.00181 -0.01367"/>
+      <inertia ixx="8.804106083826855e-05" ixy="2.0659773281428056e-05" ixz="-1.6740405589475937e-05" iyy="0.00021414122597403492" iyz="0.00010462288593294092" izz="0.0001327378354531168"/>
+    </inertial>
+    <collision name="left_index_limb2_collision">
+      <origin rpy="0 0 0" xyz="0.00097  0.00181 -0.01367"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/left_index_limb2.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="left_index_limb2_visual">
+      <origin rpy="0 0 0" xyz="0.00097  0.00181 -0.01367"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/left_index_limb2.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="left_index_limb3">
+    <inertial>
+      <mass value="0.0006943760025212337"/>
+      <origin rpy="0 0 0" xyz="0.0004   0.00163 -0.00879"/>
+      <inertia ixx="4.682225833635184e-05" ixy="1.0326971122917773e-05" ixz="-9.299950939522862e-06" iyy="0.00010029232063469183" iyz="4.9857318797262345e-05" izz="5.732809775122624e-05"/>
+    </inertial>
+    <collision name="left_index_limb3_collision">
+      <origin rpy="0 0 0" xyz="0.0004   0.00163 -0.00879"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/left_index_limb3.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="left_index_limb3_visual">
+      <origin rpy="0 0 0" xyz="0.0004   0.00163 -0.00879"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/left_index_limb3.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="left_middle_limb0">
+    <inertial>
+      <mass value="0.00042699178090184714"/>
+      <origin rpy="0 0 0" xyz="0.00019 -0.00497  0.00082"/>
+      <inertia ixx="1.265414239306335e-05" ixy="8.717562202038754e-07" ixz="-5.345084928848305e-07" iyy="4.618478461223701e-05" iyz="2.0581770687075767e-05" izz="3.3586078885544906e-05"/>
+    </inertial>
+    <collision name="left_middle_limb0_collision">
+      <origin rpy="0 0 0" xyz="0.00019 -0.00497  0.00082"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/left_middle_limb0.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="left_middle_limb0_visual">
+      <origin rpy="0 0 0" xyz="0.00019 -0.00497  0.00082"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/left_middle_limb0.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="left_middle_limb1">
+    <inertial>
+      <mass value="0.003829227297441476"/>
+      <origin rpy="0 0 0" xyz="-0.00274 -0.00073 -0.02537"/>
+      <inertia ixx="0.00014925287219283505" ixy="8.405593939792422e-06" ixz="-5.915260624416307e-06" iyy="0.0004499641188846365" iyz="0.00021107686359265334" izz="0.00030125649513290594"/>
+    </inertial>
+    <collision name="left_middle_limb1_collision">
+      <origin rpy="0 0 0" xyz="-0.00274 -0.00073 -0.02537"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/left_middle_limb1.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="left_middle_limb1_visual">
+      <origin rpy="0 0 0" xyz="-0.00274 -0.00073 -0.02537"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/left_middle_limb1.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="left_middle_limb2">
+    <inertial>
+      <mass value="0.0016247457191924336"/>
+      <origin rpy="0 0 0" xyz="0.0008   0.00527 -0.01275"/>
+      <inertia ixx="9.106852459326334e-05" ixy="3.9780029794796466e-06" ixz="-3.3646334952632955e-06" iyy="0.00021804247921988662" iyz="0.0001074156259224984" izz="0.0001272421246567922"/>
+    </inertial>
+    <collision name="left_middle_limb2_collision">
+      <origin rpy="0 0 0" xyz="0.0008   0.00527 -0.01275"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/left_middle_limb2.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="left_middle_limb2_visual">
+      <origin rpy="0 0 0" xyz="0.0008   0.00527 -0.01275"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/left_middle_limb2.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="left_middle_limb3">
+    <inertial>
+      <mass value="0.0006943750023357817"/>
+      <origin rpy="0 0 0" xyz="0.00029  0.00384 -0.00807"/>
+      <inertia ixx="4.829941666752053e-05" ixy="1.818472452032845e-06" ixz="-1.7150217660172497e-06" iyy="0.00010246491515288046" iyz="5.113106189146035e-05" izz="5.429193488051022e-05"/>
+    </inertial>
+    <collision name="left_middle_limb3_collision">
+      <origin rpy="0 0 0" xyz="0.00029  0.00384 -0.00807"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/left_middle_limb3.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="left_middle_limb3_visual">
+      <origin rpy="0 0 0" xyz="0.00029  0.00384 -0.00807"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/left_middle_limb3.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="wrist_1">
+    <inertial>
+      <mass value="0.012764273069100222"/>
+      <origin rpy="0 0 0" xyz="0.0099  0.00063 0.00106"/>
+      <inertia ixx="6.201230300288747e-05" ixy="1.8121189404034162e-05" ixz="-4.311587964659886e-06" iyy="0.0010890945215989043" iyz="0.0002463118029285041" izz="0.001032255519645794"/>
+    </inertial>
+    <collision name="wrist_1_collision">
+      <origin rpy="0 0 0" xyz="0.0099  0.00063 0.00106"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/wrist_1.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="wrist_1_visual">
+      <origin rpy="0 0 0" xyz="0.0099  0.00063 0.00106"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_infineon_game/meshes/CAD/wrist_1.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

@@ -35,6 +35,7 @@
 		</link>
 		<link name="base">
 			<self_collide>false</self_collide>
+			<kinematic>true</kinematic>
 			<pose frame="">0.0 0.0 0.0 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
