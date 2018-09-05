@@ -1,0 +1,28 @@
+Body: cup_0
+cup_0 not found, copying bodies to new component
+cup_0 mass[kg] 0.022211147933822784 	 COM[cm] -15.000000000000147 -3.068195934302715e-14 6.653589988882032
+exporting stl of cup_0
+Body: cup_1
+cup_1 not found, copying bodies to new component
+cup_1 mass[kg] 0.03323698496010363 	 COM[cm] 7.0804182258477465e-15 1.652097586031141e-14 7.7481360029234505
+exporting stl of cup_1
+Body: cup_2
+cup_2 not found, copying bodies to new component
+cup_2 mass[kg] 0.022211147933822707 	 COM[cm] 15.000000000000039 -1.3906211788566311e-14 6.6535899888820325
+exporting stl of cup_2
+Body: table
+table not found, copying bodies to new component
+table mass[kg] 2.9408924228298607 	 COM[cm] -0.004494129827511005 0.005628056351335279 0.24980566598438245
+exporting stl of table
+Joint: EXPORT_cup_1_slider
+	parent: table
+	child: cup_1
+	pos: -7.0804182258477465e-15	-1.652097586031141e-14	-7.2481360029234505
+Joint: EXPORT_cup_0_slider
+	parent: table
+	child: cup_0
+	pos: 15.000000000000147	3.068195934302715e-14	-6.153589988882032
+Joint: EXPORT_cup_2_slider
+	parent: table
+	child: cup_2
+	pos: -15.000000000000039	1.3906211788566311e-14	-6.1535899888820325
