@@ -1,0 +1,228 @@
+Body: torso
+torso not found, copying bodies to new component
+torso mass[kg] 10.669741143544986 	 COM[cm] 1.3960740127195614 -0.7280659934365181 49.011590816092884
+exporting stl of torso
+Body: base
+base not found, copying bodies to new component
+base mass[kg] 0.7172180506747103 	 COM[cm] -5.551115123125783e-17 -3.3306690738754696e-16 0.0
+exporting stl of base
+Body: lower_arm_left
+lower_arm_left not found, copying bodies to new component
+lower_arm_left mass[kg] 1.415918682088171 	 COM[cm] 28.651152991609038 -0.17064185975472354 7.283482186085156
+exporting stl of lower_arm_left
+Body: upper_arm_left
+upper_arm_left not found, copying bodies to new component
+upper_arm_left mass[kg] 1.1841006498602724 	 COM[cm] 30.29093157395435 0.6088927556435387 37.543061548138
+exporting stl of upper_arm_left
+Body: elbow_left
+elbow_left not found, copying bodies to new component
+elbow_left mass[kg] 0.15681537170998194 	 COM[cm] 29.221485350806855 0.21708566785532937 22.169086936823224
+exporting stl of elbow_left
+Body: sphere_link1
+sphere_link1 not found, copying bodies to new component
+sphere_link1 mass[kg] 0.04675551932795351 	 COM[cm] 29.21800522273415 0.9210766240973228 54.861378704231406
+exporting stl of sphere_link1
+Body: sphere_link2
+sphere_link2 not found, copying bodies to new component
+sphere_link2 mass[kg] 0.031340208481721324 	 COM[cm] 29.218006602859273 0.9210460048202269 54.86137752945566
+exporting stl of sphere_link2
+Body: palm
+palm not found, copying bodies to new component
+palm mass[kg] 0.051047603758090844 	 COM[cm] 28.023492357302683 -0.5320517275208256 -12.157641649473208
+exporting stl of palm
+Body: left_ring_limb0
+left_ring_limb0 not found, copying bodies to new component
+left_ring_limb0 mass[kg] 0.0004269892790556703 	 COM[cm] 27.93502630771739 1.1689104696925308 -16.7148443006829
+exporting stl of left_ring_limb0
+Body: left_ring_limb1
+left_ring_limb1 not found, copying bodies to new component
+left_ring_limb1 mass[kg] 0.0038292415175669903 	 COM[cm] 27.89939212120825 1.7532741050044431 -19.113255178864204
+exporting stl of left_ring_limb1
+Body: left_ring_limb2
+left_ring_limb2 not found, copying bodies to new component
+left_ring_limb2 mass[kg] 0.0016247461735836603 	 COM[cm] 27.775172244170633 2.690687336802727 -22.974484915915784
+exporting stl of left_ring_limb2
+Body: left_ring_limb3
+left_ring_limb3 not found, copying bodies to new component
+left_ring_limb3 mass[kg] 0.000694375299771581 	 COM[cm] 27.711181058230768 3.3317957189180487 -25.610752911451378
+exporting stl of left_ring_limb3
+Body: left_little_limb0
+left_little_limb0 not found, copying bodies to new component
+left_little_limb0 mass[kg] 0.0004269782734376592 	 COM[cm] 27.8905001561875 2.658985160418605 -15.297137289896986
+exporting stl of left_little_limb0
+Body: left_little_limb1
+left_little_limb1 not found, copying bodies to new component
+left_little_limb1 mass[kg] 0.0038292269641334734 	 COM[cm] 28.042008841913113 3.848045454292443 -17.455450106058866
+exporting stl of left_little_limb1
+Body: left_little_limb2
+left_little_limb2 not found, copying bodies to new component
+left_little_limb2 mass[kg] 0.0016247453782457831 	 COM[cm] 28.219164110812702 5.76238641594322 -20.934976450177746
+exporting stl of left_little_limb2
+Body: left_little_limb3
+left_little_limb3 not found, copying bodies to new component
+left_little_limb3 mass[kg] 0.0006943756819678487 	 COM[cm] 28.360912787838622 7.069428816828389 -23.309122000837753
+exporting stl of left_little_limb3
+Body: left_thumb_limb0
+left_thumb_limb0 not found, copying bodies to new component
+left_thumb_limb0 mass[kg] 0.00042709365626419145 	 COM[cm] 26.418344057914116 -3.2247381726922137 -11.705229354211792
+exporting stl of left_thumb_limb0
+Body: left_thumb_limb1
+left_thumb_limb1 not found, copying bodies to new component
+left_thumb_limb1 mass[kg] 0.0038294622271322722 	 COM[cm] 25.577064241772245 -2.8101933396585386 -13.988899127659963
+exporting stl of left_thumb_limb1
+Body: left_thumb_limb2
+left_thumb_limb2 not found, copying bodies to new component
+left_thumb_limb2 mass[kg] 0.0016247934834448603 	 COM[cm] 25.25476780329492 -1.0918649728179888 -16.137748001259506
+exporting stl of left_thumb_limb2
+Body: left_thumb_limb3
+left_thumb_limb3 not found, copying bodies to new component
+left_thumb_limb3 mass[kg] 0.0006943751960180374 	 COM[cm] 26.4125647589975 0.3615905024290491 -14.648268270144579
+exporting stl of left_thumb_limb3
+Body: left_index_limb0
+left_index_limb0 not found, copying bodies to new component
+left_index_limb0 mass[kg] 0.0004270407229592386 	 COM[cm] 28.175263781947123 -2.699504313787513 -16.628907335161735
+exporting stl of left_index_limb0
+Body: left_index_limb1
+left_index_limb1 not found, copying bodies to new component
+left_index_limb1 mass[kg] 0.003829184704516311 	 COM[cm] 28.21883128013926 -3.389470655415676 -18.99899762070911
+exporting stl of left_index_limb1
+Body: left_index_limb2
+left_index_limb2 not found, copying bodies to new component
+left_index_limb2 mass[kg] 0.001624745662268986 	 COM[cm] 28.222118976507176 -4.504984376125985 -22.8145858123634
+exporting stl of left_index_limb2
+Body: left_index_limb3
+left_index_limb3 not found, copying bodies to new component
+left_index_limb3 mass[kg] 0.0006943760025212326 	 COM[cm] 28.245162804092754 -5.26511131988796 -25.419714766612813
+exporting stl of left_index_limb3
+Body: left_middle_limb0
+left_middle_limb0 not found, copying bodies to new component
+left_middle_limb0 mass[kg] 0.00042699178090184985 	 COM[cm] 28.033385158451864 -0.7281323477208259 -17.194158559052042
+exporting stl of left_middle_limb0
+Body: left_middle_limb1
+left_middle_limb1 not found, copying bodies to new component
+left_middle_limb1 mass[kg] 0.0038292272974490725 	 COM[cm] 28.03433372578231 -0.7829968640328674 -19.66239168263305
+exporting stl of left_middle_limb1
+Body: left_middle_limb2
+left_middle_limb2 not found, copying bodies to new component
+left_middle_limb2 mass[kg] 0.0016247457191929404 	 COM[cm] 27.9690229743683 -0.8753586702140146 -23.636108055118363
+exporting stl of left_middle_limb2
+Body: left_middle_limb3
+left_middle_limb3 not found, copying bodies to new component
+left_middle_limb3 mass[kg] 0.0006943750023357862 	 COM[cm] 27.945241068018607 -0.9371256594331758 -26.349159879393383
+exporting stl of left_middle_limb3
+Body: wrist_1
+wrist_1 not found, copying bodies to new component
+wrist_1 mass[kg] 0.012764273069100307 	 COM[cm] 28.358296273882328 -0.5021270320737689 -6.802070993706273
+exporting stl of wrist_1
+Joint: EXPORT_sphere_axis0
+	parent: torso
+	child: sphere_link1
+	pos: 3.92834461848679e-07	-1.6697847606161886e-05	-3.766154499373897e-06
+Joint: EXPORT_sphere_axis1
+	parent: sphere_link1
+	child: sphere_link2
+	pos: -9.87290682985531e-07	1.3921429488861214e-05	-2.5913787453646364e-06
+Joint: EXPORT_sphere_axis2
+	parent: sphere_link2
+	child: upper_arm_left
+	pos: -1.0729259526849013	0.3121670590208173	17.318313392432287
+Joint: EXPORT_hip_joint
+	parent: base
+	child: torso
+	pos: -1.3960740127195608	0.8803003435389948	-19.07801154290494
+Joint: EXPORT_elbow_left_rot1
+	parent: elbow_left
+	child: lower_arm_left
+	pos: 0.15883800233881828	0.27619758351274615	12.014580167753117
+Joint: EXPORT_elbow_left_rot0
+	parent: upper_arm_left
+	child: elbow_left
+	pos: 1.4657053048373818	-0.36865574479161733	3.74101237643573
+Joint: EXPORT_left_joint0_ring
+	parent: left_ring_limb0
+	child: left_ring_limb1
+	pos: 0.31236088650235416	-0.5863510178059081	2.4652523365810666
+Joint: EXPORT_left_joint1_ring
+	parent: left_ring_limb1
+	child: left_ring_limb2
+	pos: -0.0677379184199296	-0.8387065996052583	1.097353028724708
+Joint: EXPORT_left_joint2_ring
+	parent: left_ring_limb2
+	child: left_ring_limb3
+	pos: -0.022403313413445147	-0.5800631207024658	0.6814800099545266
+Joint: EXPORT_left_joint0_little
+	parent: left_little_limb0
+	child: left_little_limb1
+	pos: 0.11963608682679805	-1.2220609358707382	2.2385602563242983
+Joint: EXPORT_left_joint1_little
+	parent: left_little_limb1
+	child: left_little_limb2
+	pos: -0.17154642844608503	-1.0908277098700596	0.832387478005348
+Joint: EXPORT_left_joint2_little
+	parent: left_little_limb2
+	child: left_little_limb3
+	pos: -0.08883950117407124	-0.7354960818672645	0.5025362608411825
+Joint: EXPORT_left_palm_ring
+	parent: palm
+	child: left_ring_limb0
+	pos: 0.047947296305558496	-0.7102827507707381	-0.24697003872204348
+Joint: EXPORT_left_palm_index
+	parent: palm
+	child: left_index_limb0
+	pos: 0.06414784881236812	-0.7372597735733728	0.14172925078355192
+Joint: EXPORT_left_palm_thumb
+	parent: palm
+	child: left_thumb_limb0
+	pos: -0.6829099149611402	0.2329204369364115	0.21701069823619257
+Joint: EXPORT_left_palm_little
+	parent: palm
+	child: left_little_limb0
+	pos: 0.042200168410406746	-0.6230811664412688	-0.4216383465517044
+Joint: EXPORT_left_palm_middle
+	parent: palm
+	child: left_middle_limb0
+	pos: -0.019935548262051128	0.49794486445133335	-0.0821727783598547
+Joint: EXPORT_left_wrist_0
+	parent: lower_arm_left
+	child: wrist_1
+	pos: -0.9900625387204975	-0.0638957634857148	-0.10673226779237055
+Joint: EXPORT_left_wrist_1
+	parent: wrist_1
+	child: palm
+	pos: 0.5005113772850329	-1.7159923719486738	5.248557604015119
+Joint: EXPORT_left_joint0_thumb
+	parent: left_thumb_limb0
+	child: left_thumb_limb1
+	pos: 0.7685901848852694	-0.6847645363648596	2.336420906949323
+Joint: EXPORT_left_joint1_thumb
+	parent: left_thumb_limb1
+	child: left_thumb_limb2
+	pos: -1.0186635003910958	-0.9239552622006608	-0.143918269145086
+Joint: EXPORT_left_joint2_thumb
+	parent: left_thumb_limb2
+	child: left_thumb_limb3
+	pos: -0.6404199700305533	0.20678425132423683	-0.5903341787196421
+Joint: EXPORT_left_joint0_index
+	parent: left_index_limb0
+	child: left_index_limb1
+	pos: 0.23065390762461035	0.7289973484045666	2.4360453653270007
+Joint: EXPORT_left_joint1_index
+	parent: left_index_limb1
+	child: left_index_limb2
+	pos: -0.09792991721479183	-0.1816402317270418	1.367339829122976
+Joint: EXPORT_left_joint2_index
+	parent: left_index_limb2
+	child: left_index_limb3
+	pos: -0.0405479771045556	-0.16358131984418822	0.879196570556573
+Joint: EXPORT_left_joint0_middle
+	parent: left_middle_limb0
+	child: left_middle_limb1
+	pos: 0.2746145929207806	0.0734385557049071	2.537335344311451
+Joint: EXPORT_left_joint1_middle
+	parent: left_middle_limb1
+	child: left_middle_limb2
+	pos: -0.08013766353052532	-0.5278261207698274	1.275608922048992
+Joint: EXPORT_left_joint2_middle
+	parent: left_middle_limb2
+	child: left_middle_limb3
+	pos: -0.029659531519655502	-0.3847594237041225	0.8077577425113347
