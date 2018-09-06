@@ -1,9 +1,9 @@
 <?xml version="1.0" ?>
 <sdf version="1.6">
 	<model name="cup_table">
-		<link name="cup_0">
+		<link name="cup_aruco_0">
 			<self_collide>false</self_collide>
-			<pose frame="">-0.15000000000000147 -3.0681959343027147e-16 0.06653589988882032 0.0 -0.0 0.0</pose>
+			<pose frame="">-0.15000000000000147 0 0.06653589988882032 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
 				<mass>0.022211147933822607</mass>
@@ -16,26 +16,26 @@
 					<izz>0.000532404975013305</izz>
 				</inertia>
 			</inertial>
-			<collision name="cup_0_collision">
+			<collision name="cup_aruco_0_collision">
 				<geometry>
 					<mesh>
-						<uri>model://cup_table/meshes/CAD/cup_0.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
+						<uri>model://cup_table/meshes/CAD/cup_aruco_0.dae</uri>
+						<scale>1 1 1</scale>
 					</mesh>
 				</geometry>
 			</collision>
-			<visual name="cup_0_visual">
+			<visual name="cup_aruco_0_visual">
 				<geometry>
 					<mesh>
-						<uri>model://cup_table/meshes/CAD/cup_0.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
+						<uri>model://cup_table/meshes/CAD/cup_aruco_0.dae</uri>
+						<scale>1 1 1</scale>
 					</mesh>
 				</geometry>
 			</visual>
 		</link>
-		<link name="cup_1">
+		<link name="cup_aruco_1">
 			<self_collide>false</self_collide>
-			<pose frame="">7.080418225847746e-17 1.652097586031141e-16 0.0774813600292345 0.0 -0.0 0.0</pose>
+			<pose frame="">0 0 0.06653589988882033 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
 				<mass>0.033236984960103674</mass>
@@ -48,26 +48,26 @@
 					<izz>4.442391904143872e-05</izz>
 				</inertia>
 			</inertial>
-			<collision name="cup_1_collision">
+			<collision name="cup_aruco_1_collision">
 				<geometry>
 					<mesh>
-						<uri>model://cup_table/meshes/CAD/cup_1.stl</uri>
+						<uri>model://cup_table/meshes/CAD/cup_aruco_1.dae</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
 			</collision>
-			<visual name="cup_1_visual">
+			<visual name="cup_aruco_1_visual">
 				<geometry>
 					<mesh>
-						<uri>model://cup_table/meshes/CAD/cup_1.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
+						<uri>model://cup_table/meshes/CAD/cup_aruco_1.dae</uri>
+						<scale>1 1 1</scale>
 					</mesh>
 				</geometry>
 			</visual>
 		</link>
-		<link name="cup_2">
+		<link name="cup_aruco_2">
 			<self_collide>false</self_collide>
-			<pose frame="">0.15000000000000038 -1.3906211788566313e-16 0.06653589988882033 0.0 -0.0 0.0</pose>
+			<pose frame="">0.15000000000000038 0 0.06653589988882033 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
 				<mass>0.022211147933822607</mass>
@@ -80,19 +80,19 @@
 					<izz>0.0005324049750132994</izz>
 				</inertia>
 			</inertial>
-			<collision name="cup_2_collision">
+			<collision name="cup_aruco_2_collision">
 				<geometry>
 					<mesh>
-						<uri>model://cup_table/meshes/CAD/cup_2.stl</uri>
+						<uri>model://cup_table/meshes/CAD/cup_aruco_2.dae</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
 			</collision>
-			<visual name="cup_2_visual">
+			<visual name="cup_aruco_2_visual">
 				<geometry>
 					<mesh>
-						<uri>model://cup_table/meshes/CAD/cup_2.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
+						<uri>model://cup_table/meshes/CAD/cup_aruco_2.dae</uri>
+						<scale>1 1 1</scale>
 					</mesh>
 				</geometry>
 			</visual>
@@ -115,19 +115,73 @@
 			<collision name="table_collision">
 				<geometry>
 					<mesh>
-						<uri>model://cup_table/meshes/CAD/table.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
+						<uri>model://cup_table/meshes/CAD/table.dae</uri>
+						<scale>1 1 1</scale>
 					</mesh>
 				</geometry>
 			</collision>
 			<visual name="table_visual">
 				<geometry>
 					<mesh>
-						<uri>model://cup_table/meshes/CAD/table.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
+						<uri>model://cup_table/meshes/CAD/table.dae</uri>
+						<scale>1 1 1</scale>
 					</mesh>
 				</geometry>
 			</visual>
+			<sensor type="multicamera" name="zed_camera">
+				<update_rate>30.0</update_rate>
+				<pose frame="">0 0 1 0 1.57 1.57</pose>
+				<camera name="left">
+					<horizontal_fov>0.8709216071359963</horizontal_fov>
+					<image>
+						<width>640</width>
+						<height>480</height>
+						<format>B8G8R8</format>
+					</image>
+					<clip>
+						<near>0.02</near>
+						<far>300</far>
+					</clip>
+					<noise>
+						<type>gaussian</type>
+						<mean>0.0</mean>
+						<stddev>0.007</stddev>
+					</noise>
+				</camera>
+				<camera name="right">
+					<pose>0 -0.07 0 0 0 0</pose>
+					<horizontal_fov>0.8709216071359963</horizontal_fov>
+					<image>
+						<width>640</width>
+						<height>480</height>
+						<format>B8G8R8</format>
+					</image>
+					<clip>
+						<near>0.02</near>
+						<far>300</far>
+					</clip>
+					<noise>
+						<type>gaussian</type>
+						<mean>0.0</mean>
+						<stddev>0.007</stddev>
+					</noise>
+				</camera>
+				<plugin name="stereo_camera_controller" filename="libgazebo_ros_multicamera.so">
+					<alwaysOn>true</alwaysOn>
+					<updateRate>30.0</updateRate>
+					<cameraName>zed/camera</cameraName>
+					<imageTopicName>image_raw</imageTopicName>
+					<cameraInfoTopicName>camera_info</cameraInfoTopicName>
+					<frameName>left_camera_optical_frame</frameName>
+					<!--<rightFrameName>right_camera_optical_frame</rightFrameName>-->
+					<hackBaseline>0.07</hackBaseline>
+					<distortionK1>0.0</distortionK1>
+					<distortionK2>0.0</distortionK2>
+					<distortionK3>0.0</distortionK3>
+					<distortionT1>0.0</distortionT1>
+					<distortionT2>0.0</distortionT2>
+				</plugin>
+			</sensor>
 		</link>
 		<joint name="cup_1_slider" type="prismatic">
 			<parent>table</parent>

@@ -1,39 +1,28 @@
-mass[kg] 	 COM[cm] 			 component name
-COM: torso
-----------------------------------------------------------------
-Mass of torso: 22.923035
-COM of torso: -0.000000 0.000000 0.000000
-----------------------------------------------------------------
-Body: torso
-looking for cached torso
-torsonot found, copying bodies to new component
-exporting stl of torso
-mass[kg] 	 COM[cm] 			 component name
-COM: head
-----------------------------------------------------------------
-Mass of head: 6.548957
-COM of head: -0.000000 0.000000 18.505291
-----------------------------------------------------------------
 Body: head
-looking for cached head
-headnot found, copying bodies to new component
+head not found, copying bodies to new component
+head mass[kg] 2.091602736572685 	 COM[cm] 4.334311652182551 -0.06579231032706306 32.988648983908874
 exporting stl of head
-mass[kg] 	 COM[cm] 			 component name
-COM: sphere_link1
-----------------------------------------------------------------
-Mass of sphere_link1: 0.093508
-COM of sphere_link1: -0.000000 0.000000 18.505291
-----------------------------------------------------------------
+Body: torso
+torso not found, copying bodies to new component
+torso mass[kg] 5.001617084376403 	 COM[cm] 0.0 0.0 0.0
+exporting stl of torso
 Body: sphere_link1
-looking for cached sphere_link1
-sphere_link1not found, copying bodies to new component
+sphere_link1 not found, copying bodies to new component
+sphere_link1 mass[kg] 0.02393810080236977 	 COM[cm] -2.509171502433927e-15 8.237691567918458e-14 18.105290871626693
 exporting stl of sphere_link1
+Body: shere_link2
+shere_link2 not found, copying bodies to new component
+shere_link2 mass[kg] 0.016046417259980808 	 COM[cm] -5.452626209452368e-15 -4.3737588107742815e-09 18.105290865270035
+exporting stl of shere_link2
 Joint: EXPORT_sphere_axis0
 	parent: torso
 	child: sphere_link1
-	pos: 0.0	0.0	0.0
+	pos: -3.0766231495488537e-16	-2.2875808568988227e-17	-7.105427357601002e-15
 Joint: EXPORT_sphere_axis2
-	ERROR writing joint, check your rigid EXPORT groups, the parent/child link must be part of a rigid Export group!Joint: EXPORT_sphere_axis1
-	parent: sphere_link1
+	parent: shere_link2
 	child: head
-	pos: 0.0	0.0	0.0
+	pos: -4.334311652182554	0.06579231032714541	-14.883358112282188
+Joint: EXPORT_sphere_axis1
+	parent: sphere_link1
+	child: shere_link2
+	pos: 2.6357923920635554e-15	4.373841164814152e-09	6.356650317229651e-09
