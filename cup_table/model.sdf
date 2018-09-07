@@ -2,7 +2,7 @@
 <sdf version="1.6">
 	<model name="cup_table">
 		<link name="cup_aruco_0">
-			<self_collide>false</self_collide>
+			<kinematic>false</kinematic>
 			<pose frame="">-0.15000000000000147 0 0.06653589988882032 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
@@ -34,7 +34,7 @@
 			</visual>
 		</link>
 		<link name="cup_aruco_1">
-			<self_collide>false</self_collide>
+			<kinematic>false</kinematic>
 			<pose frame="">0 0 0.06653589988882033 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
@@ -66,7 +66,7 @@
 			</visual>
 		</link>
 		<link name="cup_aruco_2">
-			<self_collide>false</self_collide>
+			<kinematic>false</kinematic>
 			<pose frame="">0.15000000000000038 0 0.06653589988882033 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
@@ -98,7 +98,7 @@
 			</visual>
 		</link>
 		<link name="table">
-			<self_collide>false</self_collide>
+			<kinematic>true</kinematic>
 			<pose frame="">-4.494129827511006e-05 5.628056351335279e-05 0.0024980566598438243 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
@@ -130,7 +130,7 @@
 			</visual>
 		</link>
 		<link name="head">
-			<kinemaitc>true</kinemaitc>
+			<kinematic>true</kinematic>
 			<pose frame="">0.0006470497602335966 0.04601890562464172 0.8803170317244866 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
@@ -162,7 +162,7 @@
 			</visual>
 		</link>
 		<link name="zed_camera_left_lense">
-			<self_collide>false</self_collide>
+			<kinematic>false</kinematic>
 			<pose frame="">0.05999964724565572 -0.08173913560527492 0.9528625747224352 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
@@ -231,7 +231,7 @@
 			</sensor>
 		</link>
 		<link name="zed_camera_right_lense">
-			<self_collide>false</self_collide>
+			<kinematic>false</kinematic>
 			<pose frame="">-0.06000035275434433 -0.08173913560527538 0.9528625747224347 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
