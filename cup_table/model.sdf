@@ -160,117 +160,15 @@
 					</mesh>
 				</geometry>
 			</visual>
-		</link>
-		<link name="zed_camera_left_lense">
-			<kinematic>false</kinematic>
-			<pose frame="">0.05999964724565572 -0.08173913560527492 0.9528625747224352 0.0 -0.0 0.0</pose>
-			<inertial>
-				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.0057554218552732985</mass>
-				<inertia>
-					<ixx>0.005224792510686209</ixx>
-					<ixy>2.3943361940981148e-05</ixy>
-					<ixz>0.0003792235752580479</ixz>
-					<iyy>0.005217664057780662</iyy>
-					<iyz>-0.00032814642300882987</iyz>
-					<izz>4.878008912156887e-05</izz>
-				</inertia>
-			</inertial>
-			<collision name="zed_camera_left_lense_collision">
-				<geometry>
-					<mesh>
-						<uri>model://roboy_infineon_game/meshes/CAD/zed_camera_left_lense.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
-					</mesh>
-				</geometry>
-			</collision>
-			<visual name="zed_camera_left_lense_visual">
-				<geometry>
-					<mesh>
-						<uri>model://roboy_infineon_game/meshes/CAD/zed_camera_left_lense.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
-					</mesh>
-				</geometry>
-			</visual>
-			<sensor type="camera" name="zed_camera_left">
-				<pose>0 0 0 0 0 -1.57</pose>
-				<update_rate>30.0</update_rate>
-				<camera name="left">
-					<pose>0 0 0 0 0 0</pose>
-					<horizontal_fov>0.8709216071359963</horizontal_fov>
-					<image>
-						<width>640</width>
-						<height>480</height>
-						<format>B8G8R8</format>
-					</image>
-					<clip>
-						<near>0.02</near>
-						<far>300</far>
-					</clip>
-					<noise>
-						<type>gaussian</type>
-						<mean>0.0</mean>
-						<stddev>0.007</stddev>
-					</noise>
-				</camera>
-				<plugin name="camera_controller" filename="libgazebo_ros_camera.so">
-					<alwaysOn>true</alwaysOn>
-					<updateRate>30.0</updateRate>
-					<cameraName>zed/camera/left</cameraName>
-					<imageTopicName>image_raw</imageTopicName>
-					<cameraInfoTopicName>camera_info</cameraInfoTopicName>
-					<frameName>left_camera_optical_frame</frameName>
-					<!--<rightFrameName>right_camera_optical_frame</rightFrameName>-->
-					<hackBaseline>0.07</hackBaseline>
-					<distortionK1>0.0</distortionK1>
-					<distortionK2>0.0</distortionK2>
-					<distortionK3>0.0</distortionK3>
-					<distortionT1>0.0</distortionT1>
-					<distortionT2>0.0</distortionT2>
-				</plugin>
-			</sensor>
-		</link>
-		<link name="zed_camera_right_lense">
-			<kinematic>false</kinematic>
-			<pose frame="">-0.06000035275434433 -0.08173913560527538 0.9528625747224347 0.0 -0.0 0.0</pose>
-			<inertial>
-				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.005755421855273129</mass>
-				<inertia>
-					<ixx>0.00522479251052088</ixx>
-					<ixy>-2.3942806253133923e-05</ixy>
-					<ixz>0.0003792235752696656</ixz>
-					<iyy>0.005217663109890817</iyy>
-					<iyz>0.00032813891497161525</iyz>
-					<izz>4.8779141402285844e-05</izz>
-				</inertia>
-			</inertial>
-			<collision name="zed_camera_right_lense_collision">
-				<geometry>
-					<mesh>
-						<uri>model://roboy_infineon_game/meshes/CAD/zed_camera_right_lense.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
-					</mesh>
-				</geometry>
-			</collision>
-			<visual name="zed_camera_right_lense_visual">
-				<geometry>
-					<mesh>
-						<uri>model://roboy_infineon_game/meshes/CAD/zed_camera_right_lense.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
-					</mesh>
-				</geometry>
-			</visual>
-			<sensor type="camera" name="zed_camera_right">
-				<pose>0 0 0 0 0 -1.57</pose>
+			<sensor type="multicamera" name="zed_camera">
 				<update_rate>30.0</update_rate>
 				<camera name="right">
-					<pose>0 0 0 0 0 0</pose>
+					<pose>0.059 -0.128 0.073 0 0 -1.57</pose>
 					<horizontal_fov>0.8709216071359963</horizontal_fov>
 					<image>
 						<width>640</width>
 						<height>480</height>
-						<format>B8G8R8</format>
+						<format>R8G8B8</format>
 					</image>
 					<clip>
 						<near>0.02</near>
@@ -282,13 +180,31 @@
 						<stddev>0.007</stddev>
 					</noise>
 				</camera>
-				<plugin name="camera_controller" filename="libgazebo_ros_camera.so">
+				<camera name="left">
+					<pose>-0.061 -0.128 0.073 0 0 -1.57</pose>
+					<horizontal_fov>0.8709216071359963</horizontal_fov>
+					<image>
+						<width>640</width>
+						<height>480</height>
+						<format>R8G8B8</format>
+					</image>
+					<clip>
+						<near>0.02</near>
+						<far>300</far>
+					</clip>
+					<noise>
+						<type>gaussian</type>
+						<mean>0.0</mean>
+						<stddev>0.007</stddev>
+					</noise>
+				</camera>
+				<plugin name="stereo_camera_controller" filename="libgazebo_ros_multicamera.so">
 					<alwaysOn>true</alwaysOn>
 					<updateRate>30.0</updateRate>
-					<cameraName>zed/camera/right</cameraName>
+					<cameraName>zed/camera</cameraName>
 					<imageTopicName>image_raw</imageTopicName>
 					<cameraInfoTopicName>camera_info</cameraInfoTopicName>
-					<frameName>right_camera_optical_frame</frameName>
+					<frameName>camera_optical_frame</frameName>
 					<!--<rightFrameName>right_camera_optical_frame</rightFrameName>-->
 					<hackBaseline>0.07</hackBaseline>
 					<distortionK1>0.0</distortionK1>
@@ -299,53 +215,6 @@
 				</plugin>
 			</sensor>
 		</link>
-		<link name="zed_camera">
-			<kinematic>false</kinematic>
-			<pose frame="">-3.51796944748628e-07 -0.05630729805909612 0.9474568704182059 0.0 -0.0 0.0</pose>
-			<inertial>
-				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
-				<mass>0.022599701570418795</mass>
-				<inertia>
-					<ixx>0.02045434663530613</ixx>
-					<ixy>2.378460037399561e-06</ixy>
-					<ixz>0.0013828999389516306</ixz>
-					<iyy>0.020420792652931386</iyy>
-					<iyz>-3.705848817489824e-05</iyz>
-					<izz>0.00015706019187231523</izz>
-				</inertia>
-			</inertial>
-			<collision name="zed_camera_collision">
-				<geometry>
-					<mesh>
-						<uri>model://roboy_infineon_game/meshes/CAD/zed_camera.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
-					</mesh>
-				</geometry>
-			</collision>
-			<visual name="zed_camera_visual">
-				<geometry>
-					<mesh>
-						<uri>model://roboy_infineon_game/meshes/CAD/zed_camera.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
-					</mesh>
-				</geometry>
-			</visual>
-		</link>
-		<joint name="zed_camera_mount" type="fixed">
-			<parent>head</parent>
-			<child>zed_camera</child>
-			<pose frame="">0.02150000000000037 -0.00029300170238104605 0.008241004058337609 0 0 0</pose>
-		</joint>
-		<joint name="zed_camera_right" type="fixed">
-			<parent>zed_camera</parent>
-			<child>zed_camera_right_lense</child>
-			<pose frame="">-1.9539925233402755e-16 0.02347554241761132 -0.004989880579626345 0 0 0</pose>
-		</joint>
-		<joint name="zed_camera_left" type="fixed">
-			<parent>zed_camera</parent>
-			<child>zed_camera_left_lense</child>
-			<pose frame="">-1.7810504170983066e-05 0.023475542389803428 -0.0049898807104521836 0 0 0</pose>
-		</joint>
 		<joint name="cup_1_slider" type="prismatic">
 			<parent>table</parent>
 			<child>cup_1</child>

@@ -5,7 +5,7 @@
     <child link="torso"/>
     <origin rpy="0  0  0" xyz="0       0.00152  0.29933"/>
     <axis xyz="0  0  1"/>
-    <limit effort="0.0" lower="-1.0471975512" upper="1.0471975512" velocity="0.0"/>
+    <limit effort="0.0" lower="-0.3" upper="0.3" velocity="0.0"/>
   </joint>
   <joint name="elbow_right_rot1" type="revolute">
     <parent link="elbow_right"/>
