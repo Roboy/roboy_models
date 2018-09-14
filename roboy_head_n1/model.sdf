@@ -168,6 +168,55 @@
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
-		<plugin filename="libmusc_plugin.so" name="musc_plugin"/>
+		<plugin filename="libmusc_plugin.so" name="musc_plugin">
+			<myoMuscle name="motor0">
+				<link name="torso">
+					<viaPoint type="FIXPOINT">-0.05362434781981157 -0.04956622464324417 0.014500002235265094</viaPoint>
+				</link>
+				<link name="head">
+					<viaPoint type="FIXPOINT">-0.034068873936272615 -0.01641667549206754 -0.13634471298723919</viaPoint>
+				</link>
+			</myoMuscle>
+			<myoMuscle name="motor1">
+				<link name="torso">
+					<viaPoint type="FIXPOINT">-0.053561239595308965 0.00037288666883744935 0.014500000268220667</viaPoint>
+				</link>
+				<link name="head">
+					<viaPoint type="FIXPOINT">0.0012864651230547709 0.06893866356725985 -0.13634471298723916</viaPoint>
+				</link>
+			</myoMuscle>
+			<myoMuscle name="motor2">
+				<link name="torso">
+					<viaPoint type="FIXPOINT">-0.053373084361845714 0.05030038121194639 0.014500002235265094</viaPoint>
+				</link>
+				<link name="head">
+					<viaPoint type="FIXPOINT">-0.0340688739362726 0.05429400262658723 -0.13634471298723916</viaPoint>
+				</link>
+			</myoMuscle>
+			<myoMuscle name="motor3">
+				<link name="torso">
+					<viaPoint type="FIXPOINT">0.053452924940756485 -0.04957126011666794 0.014500002235265094</viaPoint>
+				</link>
+				<link name="head">
+					<viaPoint type="FIXPOINT">0.03664180418238216 -0.01641667549206755 -0.13634471298723919</viaPoint>
+				</link>
+			</myoMuscle>
+			<myoMuscle name="motor4">
+				<link name="torso">
+					<viaPoint type="FIXPOINT">0.053597808185060596 0.0005987036998010048 0.01450000026822084</viaPoint>
+				</link>
+				<link name="head">
+					<viaPoint type="FIXPOINT">0.0012864651230547709 0.06893866356725985 -0.13634471298723916</viaPoint>
+				</link>
+			</myoMuscle>
+			<myoMuscle name="motor5">
+				<link name="torso">
+					<viaPoint type="FIXPOINT">0.05375838039270496 0.050137980422703524 0.014500002235265128</viaPoint>
+				</link>
+				<link name="head">
+					<viaPoint type="FIXPOINT">0.036641804182382165 0.05429400262658723 -0.13634471298723916</viaPoint>
+				</link>
+			</myoMuscle>
+		</plugin>
 	</model>
 </sdf>
