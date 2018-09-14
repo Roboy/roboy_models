@@ -1,28 +1,28 @@
 Body: torso
 torso not found, copying bodies to new component
-torso mass[kg] 2.8170542694004306 	 COM[cm] 0.0 0.0 1.800000000000008
+torso mass[kg] 2.817054269400429 	 COM[cm] 0.0 0.0 1.800000000000008
 exporting stl of torso
 Body: head
 head not found, copying bodies to new component
-head mass[kg] 3.384500832097508 	 COM[cm] -0.12864651230326135 -1.8938663567330998 22.084471298727358
+head mass[kg] 3.384500832101402 	 COM[cm] -0.12864651230547708 -1.8938663567259864 20.28447129872392
 exporting stl of head
 Body: sphere_link1
 sphere_link1 not found, copying bodies to new component
-sphere_link1 mass[kg] 0.011414575959381954 	 COM[cm] -5.604056462918166e-16 -1.234792101998918e-16 8.600000000000001
+sphere_link1 mass[kg] 0.011414575959381954 	 COM[cm] 1.424760117691059e-16 -3.799360313842824e-16 6.8
 exporting stl of sphere_link1
 Body: shere_link2
 shere_link2 not found, copying bodies to new component
-shere_link2 mass[kg] 0.007651528005590796 	 COM[cm] 1.140664646607983e-15 -3.417062336445765e-09 8.599999995033867
+shere_link2 mass[kg] 0.007651528005590793 	 COM[cm] 6.305537487460282e-16 -3.41706271902894e-09 6.799999995033868
 exporting stl of shere_link2
 Joint: EXPORT_sphere_axis0
 	parent: torso
 	child: sphere_link1
-	pos: 5.604056462918166e-16	1.234792101998918e-16	-1.7763568394002505e-15
+	pos: -1.424760117691059e-16	3.799360313842824e-16	0.0
 Joint: EXPORT_sphere_axis2
 	parent: shere_link2
 	child: head
-	pos: 0.12864651230326135	1.8938663567330998	-13.484471298727359
+	pos: 0.12864651230547708	1.8938663567259864	-13.484471298723918
 Joint: EXPORT_sphere_axis1
 	parent: sphere_link1
 	child: shere_link2
-	pos: -1.140664646607983e-15	3.417062336445765e-09	4.96613239420185e-09
+	pos: -6.305537487460282e-16	3.41706271902894e-09	4.96613150602343e-09
