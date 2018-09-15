@@ -1,0 +1,100 @@
+<?xml version="1.0" ?>
+<robot name="roboy_head_n1">
+  <joint name="sphere_axis0" type="revolute">
+    <parent link="torso"/>
+    <child link="sphere_link1"/>
+    <origin rpy="0  0  0" xyz="0     0     0.068"/>
+    <axis xyz="1  0  0"/>
+    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0"/>
+  </joint>
+  <joint name="sphere_axis2" type="revolute">
+    <parent link="shere_link2"/>
+    <child link="head"/>
+    <origin rpy="0  0  0" xyz="0  0  0"/>
+    <axis xyz="0  1 0"/>
+    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0"/>
+  </joint>
+  <joint name="sphere_axis1" type="revolute">
+    <parent link="sphere_link1"/>
+    <child link="shere_link2"/>
+    <origin rpy="0  0  0" xyz="0  0  0"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0"/>
+  </joint>
+  <link name="torso">
+    <inertial>
+      <mass value="2.8170542694004292"/>
+      <origin rpy="0  0  0" xyz="0       0       0.0"/>
+      <inertia ixx="0.006142814352611712" ixy="-0.00010265648627035882" ixz="-2.515735695153084e-06" iyy="0.02614570118606676" iyz="-1.3600833918447448e-06" izz="0.028747454538858446"/>
+    </inertial>
+    <collision name="torso_collision">
+      <origin rpy="0  0  0" xyz="0       0       0.01799"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_head_n1/meshes/CAD/torso.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="torso_visual">
+      <origin rpy="0  0  0" xyz="0       0       0.01799"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_head_n1/meshes/CAD/torso.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="head">
+    <inertial>
+      <mass value="3.38450083210138"/>
+      <origin rpy="0  0  0" xyz="-0.00128 -0.01893  0.13484"/>
+      <inertia ixx="0.1893722692036238" ixy="2.1730969141166563e-05" ixz="0.016151405112593605" iyy="0.1849097945370441" iyz="0.0014068181476150799" izz="0.030171420524010315"/>
+    </inertial>
+    <collision name="head_collision">
+      <origin rpy="0  0  0" xyz="-0.00128 -0.01893  0.13484"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_head_n1/meshes/CAD/head.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="head_visual">
+      <origin rpy="0  0  0" xyz="-0.00128 -0.01893  0.13484"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_head_n1/meshes/CAD/head.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="sphere_link1">
+    <inertial>
+      <mass value="0.011414575959381954"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="5.335072358550115e-05" ixy="-5.692061405548899e-23" ixz="3.6429192995512954e-21" iyy="5.335072358550115e-05" iyz="-2.5153490401663705e-21" izz="5.697243493189918e-07"/>
+    </inertial>
+    <collision name="sphere_link1_collision">
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_head_n1/meshes/CAD/sphere_link1.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="sphere_link1_visual">
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_head_n1/meshes/CAD/sphere_link1.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="shere_link2">
+    <inertial>
+      <mass value="0.007651528005590793"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="3.5638027451452136e-05" ixy="-5.692061405548899e-23" ixz="1.961748415622855e-14" iyy="3.563802745482622e-05" iyz="-2.2551405187698495e-21" izz="2.5736200669141986e-07"/>
+    </inertial>
+    <collision name="shere_link2_collision">
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_head_n1/meshes/CAD/shere_link2.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="shere_link2_visual">
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_head_n1/meshes/CAD/shere_link2.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>
