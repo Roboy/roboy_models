@@ -134,20 +134,7 @@
 			<child>sphere_link1</child>
 			<pose frame="">-3.0766231495488537e-18 -2.287580856898823e-19 -7.105427357601002e-17 0 0 0</pose>
 			<axis>
-				<xyz>1.0 -2.5453563575561573e-15 8.774893489604852e-30</xyz>
-				<limit>
-					<lower>-0.5235987755982988</lower>
-					<upper>0.5235987755982988</upper>
-				</limit>
-				<use_parent_model_frame>0</use_parent_model_frame>
-			</axis>
-		</joint>
-		<joint name="sphere_axis2" type="revolute">
-			<parent>shere_link2</parent>
-			<child>head</child>
-			<pose frame="">-0.043343116521825535 0.0006579231032714541 -0.14883358112282188 0 0 0</pose>
-			<axis>
-				<xyz>1.9135139082001972e-107 3.4474125650640863e-15 1.0</xyz>
+				<xyz>1 0 0</xyz>
 				<limit>
 					<lower>-0.5235987755982988</lower>
 					<upper>0.5235987755982988</upper>
@@ -160,7 +147,20 @@
 			<child>shere_link2</child>
 			<pose frame="">2.6357923920635553e-17 4.373841164814152e-11 6.356650317229651e-11 0 0 0</pose>
 			<axis>
-				<xyz>-2.5453563575561573e-15 -1.0 3.4474125650640863e-15</xyz>
+				<xyz>0 -1 0</xyz>
+				<limit>
+					<lower>-0.5235987755982988</lower>
+					<upper>0.5235987755982988</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="sphere_axis2" type="revolute">
+			<parent>shere_link2</parent>
+			<child>head</child>
+			<pose frame="">-0.043343116521825535 0.0006579231032714541 -0.14883358112282188 0 0 0</pose>
+			<axis>
+				<xyz>0 0 1.0</xyz>
 				<limit>
 					<lower>-0.5235987755982988</lower>
 					<upper>0.5235987755982988</upper>
