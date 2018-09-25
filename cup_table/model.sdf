@@ -201,7 +201,11 @@
 				<plugin name="stereo_camera_controller" filename="libgazebo_ros_multicamera.so">
 					<alwaysOn>true</alwaysOn>
 					<updateRate>30.0</updateRate>
+<<<<<<< HEAD
 					<cameraName>zed</cameraName>
+=======
+					<cameraName>zed/camera</cameraName>
+>>>>>>> a9893d52db7b0ee32cd1b61221d433000c6a8ca2
 					<imageTopicName>image_raw_color</imageTopicName>
 					<cameraInfoTopicName>camera_info</cameraInfoTopicName>
 					<frameName>camera_optical_frame</frameName>
