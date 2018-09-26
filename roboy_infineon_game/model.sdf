@@ -2475,8 +2475,8 @@
 			<axis>
 				<xyz>0 1 0</xyz>
 				<limit>
-					<lower>-0.5235987755982988</lower>
-					<upper>0.5235987755982988</upper>
+					<lower>-0.9</lower>
+					<upper>0.9</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
@@ -2488,8 +2488,8 @@
 			<axis>
 				<xyz>0 0 1</xyz>
 				<limit>
-					<lower>-0.5235987755982988</lower>
-					<upper>0.5235987755982988</upper>
+					<lower>-0.9</lower>
+					<upper>0.9</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
@@ -2501,8 +2501,8 @@
 			<axis>
 				<xyz>1 0 0</xyz>
 				<limit>
-					<lower>-0.5235987755982988</lower>
-					<upper>0.5235987755982988</upper>
+					<lower>-0.9</lower>
+					<upper>0.9</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
