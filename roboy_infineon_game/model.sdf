@@ -2475,8 +2475,8 @@
 			<axis>
 				<xyz>0 1 0</xyz>
 				<limit>
-					<lower>-0.9</lower>
-					<upper>0.9</upper>
+					<lower>-0.5235987755982988</lower>
+					<upper>0.5235987755982988</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
@@ -2488,8 +2488,8 @@
 			<axis>
 				<xyz>0 0 1</xyz>
 				<limit>
-					<lower>-0.9</lower>
-					<upper>0.9</upper>
+					<lower>-0.5235987755982988</lower>
+					<upper>0.5235987755982988</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
@@ -2501,8 +2501,8 @@
 			<axis>
 				<xyz>1 0 0</xyz>
 				<limit>
-					<lower>-0.9</lower>
-					<upper>0.9</upper>
+					<lower>-0.5235987755982988</lower>
+					<upper>0.5235987755982988</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
@@ -3070,9 +3070,9 @@
 					<viaPoint type="FIXPOINT">-0.035302512011732574 -0.008858166463814736 -0.023952520958289585</viaPoint>
 				</link>
 				<link name="lower_arm_right">
-                        <viaPoint type="FIXPOINT">-0.0207802768683014 -0.03304290395977767 0.1155887557442382</viaPoint>
-                    </link>
-                </myoMuscle>
-            </plugin>
+					<viaPoint type="FIXPOINT">-0.0207802768683014 -0.03304290395977767 0.1155887557442382</viaPoint>
+				</link>
+			</myoMuscle>
+		</plugin>
 	</model>
 </sdf>
