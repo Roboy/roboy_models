@@ -1,0 +1,4 @@
+Body: top
+top not found, copying bodies to new component
+top mass[kg] 1.4067236584726743 	 COM[cm] 0.16796311641331302 -0.461753616095665 25.506733506405325
+exporting stl of top
