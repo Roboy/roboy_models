@@ -1,4 +1,28 @@
+Body: base
+base not found, copying bodies to new component
+base mass[kg] 3.6472739252434687 	 COM[cm] -0.010653952220834031 -0.00527229319905334 7.647012112656972
+exporting stl of base
 Body: top
 top not found, copying bodies to new component
-top mass[kg] 1.4067236584726743 	 COM[cm] 0.16796311641331302 -0.461753616095665 25.506733506405325
+top mass[kg] 1.4067236584727045 	 COM[cm] 0.1680411491249952 -0.4587880466821993 25.804352126726073
 exporting stl of top
+Body: sphere_link1
+sphere_link1 not found, copying bodies to new component
+sphere_link1 mass[kg] 0.04675410329068067 	 COM[cm] -0.5861802918013167 -0.2881920628113032 20.086036465457276
+exporting stl of sphere_link1
+Body: shere_link2
+shere_link2 not found, copying bodies to new component
+shere_link2 mass[kg] 0.03134065931913173 	 COM[cm] -0.5861802917300201 -0.2881920630408528 20.086036465456758
+exporting stl of shere_link2
+Joint: EXPORT_sphere_axis0
+	parent: base
+	child: sphere_link1
+	pos: 3.8482872444234317e-10	-1.5770905137379998e-09	-4.629185923477053e-12
+Joint: EXPORT_sphere_axis2
+	parent: shere_link2
+	child: top
+	pos: -0.7542214405414814	0.17059598229380601	-5.718315661273422
+Joint: EXPORT_sphere_axis1
+	parent: sphere_link1
+	child: shere_link2
+	pos: 3.135312010016378e-10	-1.3475415783226197e-09	-4.1104897263721796e-12
