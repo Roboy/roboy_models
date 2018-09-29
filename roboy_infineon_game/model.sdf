@@ -3070,9 +3070,9 @@
 					<viaPoint type="FIXPOINT">-0.035302512011732574 -0.008858166463814736 -0.023952520958289585</viaPoint>
 				</link>
 				<link name="lower_arm_right">
-					<viaPoint type="FIXPOINT">-0.0207802768683014 -0.03304290395977767 0.1155887557442382</viaPoint>
-				</link>
-			</myoMuscle>
-		</plugin>
+                        <viaPoint type="FIXPOINT">-0.0207802768683014 -0.03304290395977767 0.1155887557442382</viaPoint>
+                    </link>
+                </myoMuscle>
+            </plugin>
 	</model>
 </sdf>
