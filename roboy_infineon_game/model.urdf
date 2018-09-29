@@ -161,7 +161,7 @@
     <axis xyz="-0.87306  0.30848  0.37761"/>
     <limit effort="0.0" lower="-1.2217304764" upper="0.872664625997" velocity="0.0"/>
   </joint>
-  <joint name="left_palm_little" type="fixed">
+  <joint name="left_palm_little" type="revolute">
     <parent link="palm"/>
     <child link="left_little_limb0"/>
     <origin rpy="0 0 0" xyz="-0.00591  0.04283 -0.08809"/>
@@ -210,7 +210,7 @@
     <axis xyz="-0.04003 -0.99894  0.02244"/>
     <limit effort="0.0" lower="0.0" upper="1.2217304764" velocity="0.0"/>
   </joint>
-  <joint name="zed_camera_mount" type="fixed">
+  <joint name="zed_camera_mount" type="revolute">
     <parent link="head"/>
     <child link="zed_camera"/>
     <origin rpy="0 0 0" xyz="0.0215  -0.1026   0.20755"/>
@@ -238,14 +238,14 @@
     <axis xyz="-0.0506   0.97015  0.23715"/>
     <limit effort="0.0" lower="0.0" upper="1.2217304764" velocity="0.0"/>
   </joint>
-  <joint name="zed_camera_right" type="fixed">
+  <joint name="zed_camera_right" type="revolute">
     <parent link="zed_camera"/>
     <child link="zed_camera_right_lense"/>
     <origin rpy="0 0 0" xyz="-0.0815  0     -0.008"/>
     <axis xyz="0 0 0"/>
     <limit effort="0" lower="0" upper="0" velocity="0"/>
   </joint>
-  <joint name="zed_camera_left" type="fixed">
+  <joint name="zed_camera_left" type="revolute">
     <parent link="zed_camera"/>
     <child link="zed_camera_left_lense"/>
     <origin rpy="0 0 0" xyz="0.03848  0      -0.008"/>
@@ -410,21 +410,21 @@
     <parent link="torso"/>
     <child link="sphere_right_link1"/>
     <origin rpy="0 0 0" xyz="-0.29218  0.00768  0.24927"/>
-    <axis xyz="0.05101  0.99844 -0.02231"/>
+    <axis xyz="0 1 0"/>
     <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0"/>
   </joint>
   <joint name="sphere_right_axis2" type="revolute">
     <parent link="sphere_right_link2"/>
     <child link="upper_arm_right"/>
     <origin rpy="0 0 0" xyz="0 0 0"/>
-    <axis xyz="0.01118 -0.0229  -0.99967"/>
+    <axis xyz="1 0 0"/>
     <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0"/>
   </joint>
   <joint name="sphere_right_axis1" type="revolute">
     <parent link="sphere_right_link1"/>
     <child link="sphere_right_link2"/>
     <origin rpy="0 0 0" xyz="0 0 0"/>
-    <axis xyz="-0.99863  0.05074 -0.01234"/>
+    <axis xyz="0 0 1"/>
     <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0"/>
   </joint>
   <link name="torso">

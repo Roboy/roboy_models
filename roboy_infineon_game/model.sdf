@@ -34,7 +34,7 @@
 			</visual>
 		</link>
 		<link name="base">
-			<self_collide>false</self_collide>
+			<kinematic>true</kinematic>
 			<pose frame="">0.0 0.0 0.0 0.0 -0.0 0.0</pose>
 			<inertial>
 				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
@@ -2720,7 +2720,7 @@
 			<child>sphere_right_link1</child>
 			<pose frame="">-8.958507585532516e-08 -1.6805291934596235e-07 -1.2962123818738291e-08 0 0 0</pose>
 			<axis>
-				<xyz>0.05101049431667335 0.998448888302569 -0.02231024242211098</xyz>
+				<xyz>0 1 0</xyz>
 				<limit>
 					<lower>-3.141592653589793</lower>
 					<upper>3.141592653589793</upper>
@@ -2733,7 +2733,7 @@
 			<child>upper_arm_right</child>
 			<pose frame="">0.010364674320050752 0.004967615846167491 0.15098225854698336 0 0 0</pose>
 			<axis>
-				<xyz>0.011188426489535868 -0.0229092522253335 -0.9996749398055187</xyz>
+				<xyz>1 0 0</xyz>
 				<limit>
 					<lower>-3.141592653589793</lower>
 					<upper>3.141592653589793</upper>
@@ -2746,7 +2746,7 @@
 			<child>sphere_right_link2</child>
 			<pose frame="">1.1628181670886307e-07 1.2732201988385762e-07 -1.033454232413078e-08 0 0 0</pose>
 			<axis>
-				<xyz>-0.9986354432836146 0.050744296328166724 -0.012339684270771775</xyz>
+				<xyz>0 0 1</xyz>
 				<limit>
 					<lower>-3.141592653589793</lower>
 					<upper>3.141592653589793</upper>
