@@ -1,10 +1,10 @@
 Body: base
 base not found, copying bodies to new component
-base mass[kg] 4.278723864564954 	 COM[cm] 0.0 0.0 0.0
+base mass[kg] 4.243174067060645 	 COM[cm] 0.0 0.0 0.0
 exporting stl of base
 Body: top
 top not found, copying bodies to new component
-top mass[kg] 1.4386868841340654 	 COM[cm] -0.08893012765514059 -0.20516196624920482 27.000000000000007
+top mass[kg] 1.438686884134065 	 COM[cm] -0.08893012765514059 -0.20516196624920482 27.000000000000007
 exporting stl of top
 Body: sphere_link1
 sphere_link1 not found, copying bodies to new component
