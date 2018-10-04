@@ -347,7 +347,7 @@
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
-		<joint name="finger0_joint1" type="revolute">
+		<joint name="finger2_joint1" type="revolute">
 			<parent>finger2_link0</parent>
 			<child>finger2_link1</child>
 			<pose frame="">0.005095291177030248 -0.008436518364837756 -0.00681082139506735 0 0 0</pose>
@@ -360,7 +360,7 @@
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
-		<joint name="finger0_joint2" type="revolute">
+		<joint name="finger2_joint2" type="revolute">
 			<parent>finger2_link1</parent>
 			<child>finger2_link2</child>
 			<pose frame="">0.004923478346462744 -0.009232070573392264 -0.005124561674758184 0 0 0</pose>

@@ -46,11 +46,11 @@ Joint: EXPORT_finger1_joint2
 	parent: finger1_link1
 	child: finger1_link2
 	pos: -1.0468606206713507	0.057452995036390675	-0.5080446007254658
-Joint: EXPORT_finger0_joint1
+Joint: EXPORT_finger2_joint1
 	parent: finger2_link0
 	child: finger2_link1
 	pos: 0.5095291177030248	-0.8436518364837755	-0.681082139506735
-Joint: EXPORT_finger0_joint2
+Joint: EXPORT_finger2_joint2
 	parent: finger2_link1
 	child: finger2_link2
 	pos: 0.4923478346462744	-0.9232070573392264	-0.5124561674758183
