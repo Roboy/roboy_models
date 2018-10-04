@@ -1,0 +1,256 @@
+<?xml version="1.0" ?>
+<robot name="roboy_stronger_hand">
+  <joint name="finger1_joint1" type="revolute">
+    <parent link="finger1_link0"/>
+    <child link="finger1_link1"/>
+    <origin rpy="0 0 0" xyz="-0.00112  0.01192  0.03288"/>
+    <axis xyz="0.99863 0.05233 0"/>
+    <limit effort="0.0" lower="0.0" upper="0.785398163397" velocity="0.0"/>
+  </joint>
+  <joint name="finger1_joint2" type="revolute">
+    <parent link="finger1_link1"/>
+    <child link="finger1_link2"/>
+    <origin rpy="0 0 0" xyz="-0.00112  0.01192  0.03288"/>
+    <axis xyz="0.99863 0.05233 0"/>
+    <limit effort="0.0" lower="-1.57079632679" upper="-0.785398163397" velocity="0.0"/>
+  </joint>
+  <joint name="finger2_joint1" type="revolute">
+    <parent link="finger2_link0"/>
+    <child link="finger2_link1"/>
+    <origin rpy="0 0 0" xyz="-0.01096 -0.00771  0.03233"/>
+    <axis xyz="-0.54463  0.83867  0"/>
+    <limit effort="0.0" lower="0.0" upper="0.785398163397" velocity="0.0"/>
+  </joint>
+  <joint name="finger2_joint2" type="revolute">
+    <parent link="finger2_link1"/>
+    <child link="finger2_link2"/>
+    <origin rpy="0 0 0" xyz="-0.01096 -0.00771  0.03233"/>
+    <axis xyz="-0.54463  0.83867  0"/>
+    <limit effort="0.0" lower="-1.57079632679" upper="-0.785398163397" velocity="0.0"/>
+  </joint>
+  <joint name="finger0_joint1" type="revolute">
+    <parent link="finger0_link0"/>
+    <child link="finger0_link1"/>
+    <origin rpy="0 0 0" xyz="0.01463 -0.00016  0.03245"/>
+    <axis xyz="-0.45399 -0.891    0"/>
+    <limit effort="0.0" lower="0.0" upper="0.785398163397" velocity="0.0"/>
+  </joint>
+  <joint name="finger0_joint2" type="revolute">
+    <parent link="finger0_link1"/>
+    <child link="finger0_link2"/>
+    <origin rpy="0 0 0" xyz="0.0119  -0.0055   0.03245"/>
+    <axis xyz="-0.45399 -0.891    0"/>
+    <limit effort="0.0" lower="-1.57079632679" upper="-0.785398163397" velocity="0.0"/>
+  </joint>
+  <joint name="finger0_joint0" type="revolute">
+    <parent link="base"/>
+    <child link="finger0_link0"/>
+    <origin rpy="0 0 0" xyz="0.05099 -0.02766  0.14443"/>
+    <axis xyz="0.45399 0.891   0"/>
+    <limit effort="0.0" lower="-1.57079632679" upper="-0.785398163397" velocity="0.0"/>
+  </joint>
+  <joint name="finger1_joint0" type="revolute">
+    <parent link="base"/>
+    <child link="finger1_link0"/>
+    <origin rpy="0 0 0" xyz="-0.00952  0.05758  0.14443"/>
+    <axis xyz="0.99863 0.05233 0"/>
+    <limit effort="0.0" lower="-0.349065850399" upper="0.392699081699" velocity="0.0"/>
+  </joint>
+  <joint name="finger2_joint0" type="revolute">
+    <parent link="base"/>
+    <child link="finger2_link0"/>
+    <origin rpy="0 0 0" xyz="-0.0451  -0.03704  0.14443"/>
+    <axis xyz="-0.54463  0.83867  0"/>
+    <limit effort="0.0" lower="-0.392699081699" upper="0.383972435439" velocity="0.0"/>
+  </joint>
+  <link name="base">
+    <inertial>
+      <mass value="0.6466508671788694"/>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <inertia ixx="0.004971781313833718" ixy="1.7792322143262627e-06" ixz="-6.123425922212316e-06" iyy="0.004993146170747278" iyz="1.006241844765893e-05" izz="0.0011876195101763675"/>
+    </inertial>
+    <collision name="base_collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_stronger_hand/meshes/CAD/base.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="base_visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_stronger_hand/meshes/CAD/base.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="finger0_link0">
+    <inertial>
+      <mass value="0.047029626236403846"/>
+      <origin rpy="0 0 0" xyz="-0.00211 -0.00329  0.00683"/>
+      <inertia ixx="0.0011299873405926724" ixy="7.093233555691829e-05" ixz="0.00021912337581530547" iyy="0.001197280622503536" iyz="-0.00034856049732259953" izz="0.00016184185945785834"/>
+    </inertial>
+    <collision name="finger0_link0_collision">
+      <origin rpy="0 0 0" xyz="-0.00211 -0.00329  0.00683"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_stronger_hand/meshes/CAD/finger0_link0.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="finger0_link0_visual">
+      <origin rpy="0 0 0" xyz="-0.00211 -0.00329  0.00683"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_stronger_hand/meshes/CAD/finger0_link0.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="finger0_link1">
+    <inertial>
+      <mass value="0.047183190182445406"/>
+      <origin rpy="0 0 0" xyz="-0.00481 -0.0086   0.0068"/>
+      <inertia ixx="0.0016635501461951016" ixy="0.00010427530095291587" ixz="0.00031460944563534117" iyy="0.0017754631036794365" iyz="-0.0005279468116495094" izz="0.0002415679061273644"/>
+    </inertial>
+    <collision name="finger0_link1_collision">
+      <origin rpy="0 0 0" xyz="-0.00481 -0.0086   0.0068"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_stronger_hand/meshes/CAD/finger0_link1.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="finger0_link1_visual">
+      <origin rpy="0 0 0" xyz="-0.00481 -0.0086   0.0068"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_stronger_hand/meshes/CAD/finger0_link1.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="finger0_link2">
+    <inertial>
+      <mass value="0.04421389063415177"/>
+      <origin rpy="0 0 0" xyz="-0.00557 -0.00885  0.00511"/>
+      <inertia ixx="0.002118709968991892" ixy="0.0001339994255281652" ixz="0.000399192463179922" iyy="0.0022682797257233276" iyz="-0.0006821941864510164" izz="0.00031118167418652985"/>
+    </inertial>
+    <collision name="finger0_link2_collision">
+      <origin rpy="0 0 0" xyz="-0.00557 -0.00885  0.00511"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_stronger_hand/meshes/CAD/finger0_link2.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="finger0_link2_visual">
+      <origin rpy="0 0 0" xyz="-0.00557 -0.00885  0.00511"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_stronger_hand/meshes/CAD/finger0_link2.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="finger1_link0">
+    <inertial>
+      <mass value="0.04718351532486051"/>
+      <origin rpy="0 0 0" xyz="0.00987 -0.0001   0.00679"/>
+      <inertia ixx="0.0012435008653234676" ixy="-8.427695409445265e-07" ixz="-0.0004100470163425384" iyy="0.0010881243275326427" iyz="-1.037768343462941e-06" izz="0.00016025447775655776"/>
+    </inertial>
+    <collision name="finger1_link0_collision">
+      <origin rpy="0 0 0" xyz="0.00987 -0.0001   0.00679"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_stronger_hand/meshes/CAD/finger1_link0.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="finger1_link0_visual">
+      <origin rpy="0 0 0" xyz="0.00987 -0.0001   0.00679"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_stronger_hand/meshes/CAD/finger1_link0.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="finger1_link1">
+    <inertial>
+      <mass value="0.047183325951929096"/>
+      <origin rpy="0 0 0" xyz="0.00986 -0.0001   0.00679"/>
+      <inertia ixx="0.001835297984482169" ixy="2.6572010980927252e-06" ixz="-0.0006029035604196037" iyy="0.0016084966653826006" iyz="8.211032557720427e-06" izz="0.00023172707423759053"/>
+    </inertial>
+    <collision name="finger1_link1_collision">
+      <origin rpy="0 0 0" xyz="0.00986 -0.0001   0.00679"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_stronger_hand/meshes/CAD/finger1_link1.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="finger1_link1_visual">
+      <origin rpy="0 0 0" xyz="0.00986 -0.0001   0.00679"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_stronger_hand/meshes/CAD/finger1_link1.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="finger1_link2">
+    <inertial>
+      <mass value="0.044212294698077054"/>
+      <origin rpy="0 0 0" xyz="0.01046 -0.00057  0.00508"/>
+      <inertia ixx="0.0023442069644887217" ixy="4.485030259637368e-06" ixz="-0.0007689799939363709" iyy="0.0020559499719011763" iyz="1.3135224763344747e-05" izz="0.0002926782437165849"/>
+    </inertial>
+    <collision name="finger1_link2_collision">
+      <origin rpy="0 0 0" xyz="0.01046 -0.00057  0.00508"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_stronger_hand/meshes/CAD/finger1_link2.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="finger1_link2_visual">
+      <origin rpy="0 0 0" xyz="0.01046 -0.00057  0.00508"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_stronger_hand/meshes/CAD/finger1_link2.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="finger2_link0">
+    <inertial>
+      <mass value="0.02439015308674264"/>
+      <origin rpy="0 0 0" xyz="-0.00418  0.00761  0.01318"/>
+      <inertia ixx="0.0006332225724217131" ixy="-3.522476778680743e-05" ixz="0.00011416585265821693" iyy="0.00067080404114436" iyz="0.00018920842143503678" izz="8.395367536596163e-05"/>
+    </inertial>
+    <collision name="finger2_link0_collision">
+      <origin rpy="0 0 0" xyz="-0.00418  0.00761  0.01318"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_stronger_hand/meshes/CAD/finger2_link0.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="finger2_link0_visual">
+      <origin rpy="0 0 0" xyz="-0.00418  0.00761  0.01318"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_stronger_hand/meshes/CAD/finger2_link0.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="finger2_link1">
+    <inertial>
+      <mass value="0.04718306036578207"/>
+      <origin rpy="0 0 0" xyz="-0.00509  0.00843  0.00681"/>
+      <inertia ixx="0.001661457588950999" ixy="-0.00010467722972368621" ixz="0.0003158900565980486" iyy="0.0017752059280042747" iyz="0.0005291880100374501" izz="0.00024313308032011203"/>
+    </inertial>
+    <collision name="finger2_link1_collision">
+      <origin rpy="0 0 0" xyz="-0.00509  0.00843  0.00681"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_stronger_hand/meshes/CAD/finger2_link1.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="finger2_link1_visual">
+      <origin rpy="0 0 0" xyz="-0.00509  0.00843  0.00681"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_stronger_hand/meshes/CAD/finger2_link1.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="finger2_link2">
+    <inertial>
+      <mass value="0.044212358453506656"/>
+      <origin rpy="0 0 0" xyz="-0.00492  0.00923  0.00512"/>
+      <inertia ixx="0.002118051944312003" ixy="-0.00013709720943342943" ixz="0.0004098259498920495" iyy="0.0022641494826582827" iyz="0.0006806223023702369" izz="0.000314975016828264"/>
+    </inertial>
+    <collision name="finger2_link2_collision">
+      <origin rpy="0 0 0" xyz="-0.00492  0.00923  0.00512"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_stronger_hand/meshes/CAD/finger2_link2.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual name="finger2_link2_visual">
+      <origin rpy="0 0 0" xyz="-0.00492  0.00923  0.00512"/>
+      <geometry>
+        <mesh filename="package://roboy_models/roboy_stronger_hand/meshes/CAD/finger2_link2.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>
