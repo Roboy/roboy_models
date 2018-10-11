@@ -2149,7 +2149,7 @@
 				<xyz>0 1 0</xyz>
 				<limit>
 					<lower>-1.57</lower>
-					<upper>0</upper>
+					<upper>1</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
@@ -2162,7 +2162,7 @@
 				<xyz>1 0 0</xyz>
 				<limit>
 					<lower>-1.57</lower>
-					<upper>0</upper>
+					<upper>1</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
