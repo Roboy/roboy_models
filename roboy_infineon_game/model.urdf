@@ -12,7 +12,7 @@
     <child link="torso"/>
     <origin rpy="0 0 0" xyz="0      0.00152 0.29933"/>
     <axis xyz="0 0 1"/>
-    <limit effort="0.0" lower="-1.0471975512" upper="1.0471975512" velocity="0.0"/>
+    <limit effort="0.0" lower="0.0" upper="0.0" velocity="0.0"/>
   </joint>
   <joint name="right_joint0_ring" type="revolute">
     <parent link="right_ring_limb0"/>
