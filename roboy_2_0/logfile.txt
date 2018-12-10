@@ -1,0 +1,143 @@
+mass[kg] 	 COM[cm] 			 component name
+COM: head
+----------------------------------------------------------------
+Mass of head: 35.252722
+COM of head: 1.700000 29.806976 -11.583891
+----------------------------------------------------------------
+Body: head
+mass[kg] 	 COM[cm] 			 component name
+COM: elbow_left
+----------------------------------------------------------------
+Mass of elbow_left: 1.403054
+COM of elbow_left: 27.951125 -32.183567 0.168829
+----------------------------------------------------------------
+Body: elbow_left
+mass[kg] 	 COM[cm] 			 component name
+COM: elbow_right
+----------------------------------------------------------------
+Mass of elbow_right: 1.386544
+COM of elbow_right: -29.130000 -30.892693 -0.001512
+----------------------------------------------------------------
+Body: elbow_right
+mass[kg] 	 COM[cm] 			 component name
+COM: upper_arm_left
+----------------------------------------------------------------
+Mass of upper_arm_left: 61.565347
+COM of upper_arm_left: 30.355309 -14.890279 0.403578
+----------------------------------------------------------------
+Body: upper_arm_left
+mass[kg] 	 COM[cm] 			 component name
+COM: upper_arm_right
+----------------------------------------------------------------
+Mass of upper_arm_right: 115.787516
+COM of upper_arm_right: -29.200000 -15.565872 -0.001512
+----------------------------------------------------------------
+Body: upper_arm_right
+mass[kg] 	 COM[cm] 			 component name
+COM: hand_left
+----------------------------------------------------------------
+Mass of hand_left: 2.640349
+COM of hand_left: 27.451125 -63.559169 1.328520
+----------------------------------------------------------------
+Body: hand_left
+mass[kg] 	 COM[cm] 			 component name
+COM: hand_right
+----------------------------------------------------------------
+Mass of hand_right: 1.083443
+COM of hand_right: -30.015605 -62.444838 0.847379
+----------------------------------------------------------------
+Body: hand_right
+mass[kg] 	 COM[cm] 			 component name
+COM: tricycle
+----------------------------------------------------------------
+Mass of tricycle: 42.642536
+COM of tricycle: 2.975855 -99.401787 0.584574
+----------------------------------------------------------------
+Body: tricycle
+mass[kg] 	 COM[cm] 			 component name
+COM: foot_left
+----------------------------------------------------------------
+Mass of foot_left: 1.088369
+COM of foot_left: 16.105855 -139.317721 3.359887
+----------------------------------------------------------------
+Body: foot_left
+mass[kg] 	 COM[cm] 			 component name
+COM: foot_right
+----------------------------------------------------------------
+Mass of foot_right: 1.203672
+COM of foot_right: -18.264145 -138.962065 -12.933695
+----------------------------------------------------------------
+Body: foot_right
+mass[kg] 	 COM[cm] 			 component name
+COM: pelvis
+----------------------------------------------------------------
+Mass of pelvis: 37.986488
+COM of pelvis: -1.110832 -58.277022 0.405823
+----------------------------------------------------------------
+Body: pelvis
+mass[kg] 	 COM[cm] 			 component name
+COM: thigh_left
+----------------------------------------------------------------
+Mass of thigh_left: 30.324218
+COM of thigh_left: 18.875855 -79.717721 3.062389
+----------------------------------------------------------------
+Body: thigh_left
+mass[kg] 	 COM[cm] 			 component name
+COM: thigh_right
+----------------------------------------------------------------
+Mass of thigh_right: 30.324218
+COM of thigh_right: -21.645372 -85.138678 -2.806952
+----------------------------------------------------------------
+Body: thigh_right
+mass[kg] 	 COM[cm] 			 component name
+COM: shin_left
+----------------------------------------------------------------
+Mass of shin_left: 5.113204
+COM of shin_left: 20.467083 -119.817354 0.728919
+----------------------------------------------------------------
+Body: shin_left
+mass[kg] 	 COM[cm] 			 component name
+COM: shin_right
+----------------------------------------------------------------
+Mass of shin_right: 5.340462
+COM of shin_right: -21.625372 -118.686040 -10.858318
+----------------------------------------------------------------
+Body: shin_right
+mass[kg] 	 COM[cm] 			 component name
+COM: torso
+----------------------------------------------------------------
+Mass of torso: 524.121773
+COM of torso: -0.829145 -9.243087 2.984256
+----------------------------------------------------------------
+Body: torso
+mass[kg] 	 COM[cm] 			 component name
+COM: forearm_left
+----------------------------------------------------------------
+Mass of forearm_left: 18.711050
+COM of forearm_left: 27.951125 -46.758568 0.168829
+----------------------------------------------------------------
+Body: forearm_left
+mass[kg] 	 COM[cm] 			 component name
+COM: forearm_right
+----------------------------------------------------------------
+Mass of forearm_right: 34.935834
+COM of forearm_right: -29.130000 -46.242693 -0.001512
+----------------------------------------------------------------
+Body: forearm_right
+Joint: EXPORT_joint_neck
+Joint: EXPORT_joint_elbow_1
+Joint: EXPORT_joint_hand_left
+Joint: EXPORT_joint_hand_right
+Joint: EXPORT_ankle_left
+Joint: EXPORT_joint_hip_left
+Joint: EXPORT_joint_hip_right
+Joint: EXPORT_joint_knee_right
+Joint: EXPORT_ankle_right
+Joint: EXPORT_joint_knee_left
+Joint: EXPORT_joint_shoulder_left
+Joint: EXPORT_joint_elbow_left_2
+Joint: EXPORT_joint_shoulder_right
+Joint: EXPORT_joint_elbow_right_2
+Joint: EXPORT_joint_elbow_right_1
+Joint: EXPORT_joint_spine
+Joint: EXPORT_joint_tricycle

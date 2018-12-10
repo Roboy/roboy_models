@@ -1,0 +1,167 @@
+mass[kg] 	 COM[cm] 			 component name
+COM: palm
+----------------------------------------------------------------
+Mass of palm: 15.519965
+COM of palm: -0.050000 0.500000 6.701500
+----------------------------------------------------------------
+Body: palm
+mass[kg] 	 COM[cm] 			 component name
+COM: ring_limb0
+----------------------------------------------------------------
+Mass of ring_limb0: 0.000427
+COM of ring_limb0: 1.847201 0.307164 -11.378949
+----------------------------------------------------------------
+Body: ring_limb0
+mass[kg] 	 COM[cm] 			 component name
+COM: ring_limb1
+----------------------------------------------------------------
+Mass of ring_limb1: 0.003829
+COM of ring_limb1: 2.221748 -0.468031 -12.776780
+----------------------------------------------------------------
+Body: ring_limb1
+mass[kg] 	 COM[cm] 			 component name
+COM: ring_limb2
+----------------------------------------------------------------
+Mass of ring_limb2: 0.001625
+COM of ring_limb2: 3.488093 -2.302067 -17.502843
+----------------------------------------------------------------
+Body: ring_limb2
+mass[kg] 	 COM[cm] 			 component name
+COM: ring_limb3
+----------------------------------------------------------------
+Mass of ring_limb3: 0.000694
+COM of ring_limb3: 4.112792 -3.180564 -19.834252
+----------------------------------------------------------------
+Body: ring_limb3
+mass[kg] 	 COM[cm] 			 component name
+COM: little_limb0
+----------------------------------------------------------------
+Mass of little_limb0: 0.000427
+COM of little_limb0: 3.284746 0.270187 -9.974450
+----------------------------------------------------------------
+Body: little_limb0
+mass[kg] 	 COM[cm] 			 component name
+COM: little_limb1
+----------------------------------------------------------------
+Mass of little_limb1: 0.003829
+COM of little_limb1: 4.064630 -0.241938 -11.325247
+----------------------------------------------------------------
+Body: little_limb1
+mass[kg] 	 COM[cm] 			 component name
+COM: little_limb2
+----------------------------------------------------------------
+Mass of little_limb2: 0.001625
+COM of little_limb2: 6.637434 -1.149248 -15.781475
+----------------------------------------------------------------
+Body: little_limb2
+mass[kg] 	 COM[cm] 			 component name
+COM: little_limb3
+----------------------------------------------------------------
+Mass of little_limb3: 0.000694
+COM of little_limb3: 7.902200 -1.595272 -17.972114
+----------------------------------------------------------------
+Body: little_limb3
+mass[kg] 	 COM[cm] 			 component name
+COM: thumb_limb0
+----------------------------------------------------------------
+Mass of thumb_limb0: 0.000427
+COM of thumb_limb0: -2.688341 2.483175 -6.517925
+----------------------------------------------------------------
+Body: thumb_limb0
+mass[kg] 	 COM[cm] 			 component name
+COM: thumb_limb1
+----------------------------------------------------------------
+Mass of thumb_limb1: 0.003829
+COM of thumb_limb1: -3.233854 3.669919 -7.525420
+----------------------------------------------------------------
+Body: thumb_limb1
+mass[kg] 	 COM[cm] 			 component name
+COM: thumb_limb2
+----------------------------------------------------------------
+Mass of thumb_limb2: 0.001625
+COM of thumb_limb2: -4.252419 7.212249 -11.228786
+----------------------------------------------------------------
+Body: thumb_limb2
+mass[kg] 	 COM[cm] 			 component name
+COM: thumb_limb3
+----------------------------------------------------------------
+Mass of thumb_limb3: 0.000694
+COM of thumb_limb3: -4.753136 8.953625 -13.049326
+----------------------------------------------------------------
+Body: thumb_limb3
+mass[kg] 	 COM[cm] 			 component name
+COM: index_limb0
+----------------------------------------------------------------
+Mass of index_limb0: 0.000427
+COM of index_limb0: -1.967858 0.240192 -11.456043
+----------------------------------------------------------------
+Body: index_limb0
+mass[kg] 	 COM[cm] 			 component name
+COM: index_limb1
+----------------------------------------------------------------
+Mass of index_limb1: 0.003829
+COM of index_limb1: -2.388439 0.006699 -13.025672
+----------------------------------------------------------------
+Body: index_limb1
+mass[kg] 	 COM[cm] 			 component name
+COM: index_limb2
+----------------------------------------------------------------
+Mass of index_limb2: 0.001625
+COM of index_limb2: -3.740765 0.006699 -18.072622
+----------------------------------------------------------------
+Body: index_limb2
+mass[kg] 	 COM[cm] 			 component name
+COM: index_limb3
+----------------------------------------------------------------
+Mass of index_limb3: 0.000694
+COM of index_limb3: -4.405556 0.006699 -20.553656
+----------------------------------------------------------------
+Body: index_limb3
+mass[kg] 	 COM[cm] 			 component name
+COM: middle_limb0
+----------------------------------------------------------------
+Mass of middle_limb0: 0.000427
+COM of middle_limb0: 0.000000 0.240192 -11.975000
+----------------------------------------------------------------
+Body: middle_limb0
+mass[kg] 	 COM[cm] 			 component name
+COM: middle_limb1
+----------------------------------------------------------------
+Mass of middle_limb1: 0.003829
+COM of middle_limb1: 0.000000 -0.043301 -13.600000
+----------------------------------------------------------------
+Body: middle_limb1
+mass[kg] 	 COM[cm] 			 component name
+COM: middle_limb2
+----------------------------------------------------------------
+Mass of middle_limb2: 0.001625
+COM of middle_limb2: 0.000000 -0.043301 -18.824987
+----------------------------------------------------------------
+Body: middle_limb2
+mass[kg] 	 COM[cm] 			 component name
+COM: middle_limb3
+----------------------------------------------------------------
+Mass of middle_limb3: 0.000694
+COM of middle_limb3: 0.000000 -0.043301 -21.393542
+----------------------------------------------------------------
+Body: middle_limb3
+Joint: EXPORT_joint0_ring
+Joint: EXPORT_joint1_ring
+Joint: EXPORT_joint2_ring
+Joint: EXPORT_joint0_index
+Joint: EXPORT_joint1_index
+Joint: EXPORT_joint2_index
+Joint: EXPORT_joint0_thumb
+Joint: EXPORT_joint1_thumb
+Joint: EXPORT_joint2_thumb
+Joint: EXPORT_joint0_little
+Joint: EXPORT_joint1_little
+Joint: EXPORT_joint2_little
+Joint: EXPORT_palm_ring
+Joint: EXPORT_palm_index
+Joint: EXPORT_palm_thumb
+Joint: EXPORT_palm_little
+Joint: EXPORT_palm_middle
+Joint: EXPORT_joint0_middle
+Joint: EXPORT_joint1_middle
+Joint: EXPORT_joint2_middle

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE bodies_system SYSTEM "../../../templates/bodies.dtd">
+<?xml version="1.0" ?>
+<bodies_system>
+	<links display_range="-0.3 0.3 0.0 1.0 -0.3 0.3" view_angle="-37 32"/>
+	<operational_spaces default_operational_set="test">
+		<operational_set id="test">
+			<position marker_id="1" name="test1">
+				<link>2</link>
+				<offset>0.0 0.0 0.0</offset>
+				<axes active_axes="x"/>
+			</position>
+		</operational_set>
+	</operational_spaces>
+</bodies_system>

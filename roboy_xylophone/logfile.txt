@@ -1,0 +1,52 @@
+Body: upper_arm_left
+upper_arm_left not found, copying bodies to new component
+upper_arm_left mass[kg] 1.2824428697419006 	 COM[cm] 47.525602631533786 1.866177172487551 55.81680840350534
+exporting stl of upper_arm_left
+Body: torso
+torso not found, copying bodies to new component
+torso mass[kg] 10.669741143544986 	 COM[cm] 1.3960740127195614 -0.7280659934365181 49.011590816092884
+exporting stl of torso
+Body: base
+base not found, copying bodies to new component
+base mass[kg] 1041.2828004268101 	 COM[cm] -5.551115123125783e-17 -3.3306690738754696e-16 0.0
+exporting stl of base
+Body: hand_left
+hand_left not found, copying bodies to new component
+hand_left mass[kg] 0.2621183509299656 	 COM[cm] 101.44054160915884 -7.106194455687917 54.40029417464192
+exporting stl of hand_left
+Body: lower_arm_left
+lower_arm_left not found, copying bodies to new component
+lower_arm_left mass[kg] 1.4832954265656817 	 COM[cm] 76.11244486335252 3.3409447609374103 54.27045280375026
+exporting stl of lower_arm_left
+Body: sphere_link1
+sphere_link1 not found, copying bodies to new component
+sphere_link1 mass[kg] 0.04675551932795351 	 COM[cm] 29.21800522273415 0.9210766240973228 54.861378704231406
+exporting stl of sphere_link1
+Body: sphere_link2
+sphere_link2 not found, copying bodies to new component
+sphere_link2 mass[kg] 0.0313402084817215 	 COM[cm] 29.218006602859255 0.9210460048202134 54.861377529455694
+exporting stl of sphere_link2
+Joint: EXPORT_elbow_left
+	parent: upper_arm_left
+	child: lower_arm_left
+	pos: -13.958733767560545	-1.286365594919065	-1.5742484742651754
+Joint: EXPORT_wrist_left
+	parent: lower_arm_left
+	child: hand_left
+	pos: -13.246837646413965	11.023353623899185	-0.29764952843380144
+Joint: EXPORT_hip_joint
+	parent: base
+	child: torso
+	pos: -1.3960740127195608	0.8803003435389948	-19.07801154290494
+Joint: EXPORT_sphere_axis0
+	parent: torso
+	child: sphere_link1
+	pos: 3.92834461848679e-07	-1.6697847606161886e-05	-3.766154499373897e-06
+Joint: EXPORT_sphere_axis1
+	parent: sphere_link1
+	child: sphere_link2
+	pos: -9.872906652219626e-07	1.3921429502405935e-05	-2.591378780891773e-06
+Joint: EXPORT_sphere_axis2
+	parent: sphere_link2
+	child: upper_arm_left
+	pos: -18.307597010264328	-0.9451173578231968	-0.955433462935126

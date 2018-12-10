@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<OpenSimDocument version="30000">
+<OpenSimDocument Version="30000">
 	<Model>
 		<ForceSet>
 			<objects>
@@ -23,7 +23,7 @@
 					</GeometryPath>
 					<max_isometric_force>1000.0</max_isometric_force>
 					<optimal_fiber_length>0.14108090847730637</optimal_fiber_length>
-					<tendon_slack_length>0.015675656497478485</tendon_slack_length>
+					<tendon_slack_length>15.944627465487377</tendon_slack_length>
 					<stiffness>100000</stiffness>
 					<dissipation>1</dissipation>
 				</Thelen2003Muscle>
@@ -47,7 +47,7 @@
 					</GeometryPath>
 					<max_isometric_force>1000.0</max_isometric_force>
 					<optimal_fiber_length>0.14108090847730637</optimal_fiber_length>
-					<tendon_slack_length>0.015675656497478485</tendon_slack_length>
+					<tendon_slack_length>15.410053722384149</tendon_slack_length>
 					<stiffness>100000</stiffness>
 					<dissipation>1</dissipation>
 				</Thelen2003Muscle>
@@ -71,7 +71,7 @@
 					</GeometryPath>
 					<max_isometric_force>1000.0</max_isometric_force>
 					<optimal_fiber_length>0.14108090847730637</optimal_fiber_length>
-					<tendon_slack_length>0.015675656497478485</tendon_slack_length>
+					<tendon_slack_length>12.175347208070939</tendon_slack_length>
 					<stiffness>100000</stiffness>
 					<dissipation>1</dissipation>
 				</Thelen2003Muscle>
@@ -95,11 +95,14 @@
 					</GeometryPath>
 					<max_isometric_force>1000.0</max_isometric_force>
 					<optimal_fiber_length>0.14108090847730637</optimal_fiber_length>
-					<tendon_slack_length>0.015675656497478485</tendon_slack_length>
+					<tendon_slack_length>14.746294845173963</tendon_slack_length>
 					<stiffness>100000</stiffness>
 					<dissipation>1</dissipation>
 				</Thelen2003Muscle>
 			</objects>
 		</ForceSet>
+		<BodySet name="">
+			<objects/>
+		</BodySet>
 	</Model>
 </OpenSimDocument>

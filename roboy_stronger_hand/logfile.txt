@@ -1,0 +1,76 @@
+Body: base
+base not found, copying bodies to new component
+base mass[kg] 0.6466508671788694 	 COM[cm] 9.571871823604562e-32 -1.3045120539345574e-15 0.0
+exporting stl of base
+Body: finger0_link0
+finger0_link0 not found, copying bodies to new component
+finger0_link0 mass[kg] 0.04702962623640384 	 COM[cm] 4.888175054338879 -3.0967618151687435 15.126444074441507
+exporting stl of finger0_link0
+Body: finger0_link1
+finger0_link1 not found, copying bodies to new component
+finger0_link1 mass[kg] 0.04718319018244517 	 COM[cm] 6.0820093392996695 -3.6433225667556077 18.369151837541132
+exporting stl of finger0_link1
+Body: finger0_link2
+finger0_link2 not found, copying bodies to new component
+finger0_link2 mass[kg] 0.044213890634151584 	 COM[cm] 7.196787864597158 -4.21953460746441 21.445174097902814
+exporting stl of finger0_link2
+Body: finger1_link0
+finger1_link0 not found, copying bodies to new component
+finger1_link0 mass[kg] 0.047183515324860856 	 COM[cm] 0.03430690572288467 5.747291081852664 15.12249097648939
+exporting stl of finger1_link0
+Body: finger1_link1
+finger1_link1 not found, copying bodies to new component
+finger1_link1 mass[kg] 0.04718332595192572 	 COM[cm] -0.0783079911090087 6.940775782116612 18.411208910290597
+exporting stl of finger1_link1
+Body: finger1_link2
+finger1_link2 not found, copying bodies to new component
+finger1_link2 mass[kg] 0.04421229469807711 	 COM[cm] -0.1309659808245194 8.086325425576009 21.529135508599385
+exporting stl of finger1_link2
+Body: finger2_link0
+finger2_link0 not found, copying bodies to new component
+finger2_link0 mass[kg] 0.024390153086744103 	 COM[cm] -4.9291066534781 -2.942750160364497 15.761266353570626
+exporting stl of finger2_link0
+Body: finger2_link1
+finger2_link1 not found, copying bodies to new component
+finger2_link1 mass[kg] 0.04718306036578687 	 COM[cm] -6.115979829262914 -3.631874131476089 18.357903065668783
+exporting stl of finger2_link1
+Body: finger2_link2
+finger2_link2 not found, copying bodies to new component
+finger2_link2 mass[kg] 0.04421235845350643 	 COM[cm] -7.194875254932709 -4.323737612636419 21.42285545742739
+exporting stl of finger2_link2
+Joint: EXPORT_finger1_joint1
+	parent: finger1_link0
+	child: finger1_link1
+	pos: -0.9869373042555877	0.010189478186875434	-0.6790421751673392
+Joint: EXPORT_finger1_joint2
+	parent: finger1_link1
+	child: finger1_link2
+	pos: -1.0468606206713507	0.057452995036390675	-0.5080446007254658
+Joint: EXPORT_finger2_joint1
+	parent: finger2_link0
+	child: finger2_link1
+	pos: 0.5095291177030248	-0.8436518364837755	-0.681082139506735
+Joint: EXPORT_finger2_joint2
+	parent: finger2_link1
+	child: finger2_link2
+	pos: 0.4923478346462744	-0.9232070573392264	-0.5124561674758183
+Joint: EXPORT_finger0_joint1
+	parent: finger0_link0
+	child: finger0_link1
+	pos: 0.48114929338762824	0.8603893331495103	-0.6807657841849064
+Joint: EXPORT_finger0_joint2
+	parent: finger0_link1
+	child: finger0_link2
+	pos: 0.5572895086585605	0.8859142791405636	-0.5116445535628067
+Joint: EXPORT_finger0_joint0
+	parent: base
+	child: finger0_link0
+	pos: 0.21167053793624024	0.3299117617673999	-0.6832015120690276
+Joint: EXPORT_finger1_joint0
+	parent: base
+	child: finger1_link0
+	pos: -0.9869708949562086	0.010861018141905099	-0.6792484141168007
+Joint: EXPORT_finger2_joint0
+	parent: base
+	child: finger2_link0
+	pos: 0.4187326506447562	-0.7613571055795676	-1.3180237911980655

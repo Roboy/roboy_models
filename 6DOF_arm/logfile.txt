@@ -1,0 +1,87 @@
+mass[kg] 	 COM[cm] 			 component name
+COM: base
+----------------------------------------------------------------
+Mass of base: 368.997729
+COM of base: 0.000000 0.000000 0.000000
+----------------------------------------------------------------
+Body: base
+basenot found, copying bodies to new component
+exporting stl of base
+mass[kg] 	 COM[cm] 			 component name
+COM: link0
+----------------------------------------------------------------
+Mass of link0: 1.198301
+COM of link0: 0.000000 0.000000 2.000000
+----------------------------------------------------------------
+Body: link0
+link0not found, copying bodies to new component
+exporting stl of link0
+mass[kg] 	 COM[cm] 			 component name
+COM: link1
+----------------------------------------------------------------
+Mass of link1: 1.198301
+COM of link1: 15.000000 0.000000 3.000000
+----------------------------------------------------------------
+Body: link1
+link1not found, copying bodies to new component
+exporting stl of link1
+mass[kg] 	 COM[cm] 			 component name
+COM: link2
+----------------------------------------------------------------
+Mass of link2: 1.198301
+COM of link2: 3.509333 -9.641814 4.000000
+----------------------------------------------------------------
+Body: link2
+link2not found, copying bodies to new component
+exporting stl of link2
+mass[kg] 	 COM[cm] 			 component name
+COM: link4
+----------------------------------------------------------------
+Mass of link4: 3.641159
+COM of link4: -4.944245 -3.547730 31.669417
+----------------------------------------------------------------
+Body: link4
+link4not found, copying bodies to new component
+exporting stl of link4
+mass[kg] 	 COM[cm] 			 component name
+COM: link5
+----------------------------------------------------------------
+Mass of link5: 3.641159
+COM of link5: -3.827005 -9.157592 43.195327
+----------------------------------------------------------------
+Body: link5
+link5not found, copying bodies to new component
+exporting stl of link5
+mass[kg] 	 COM[cm] 			 component name
+COM: link3
+----------------------------------------------------------------
+Mass of link3: 3.641159
+COM of link3: -10.979554 -5.759528 14.000000
+----------------------------------------------------------------
+Body: link3
+link3not found, copying bodies to new component
+exporting stl of link3
+Joint: EXPORT_joint0
+	parent: base
+	child: link0
+	pos: 0.0	0.0	-1.0
+Joint: EXPORT_joint1
+	parent: link0
+	child: link1
+	pos: 0.0	0.0	-1.0
+Joint: EXPORT_joint2
+	parent: link1
+	child: link2
+	pos: 0.0	0.0	-1.0
+Joint: EXPORT_joint5
+	parent: link4
+	child: link5
+	pos: 4.928376467721066	7.81028655376673	-3.8586316487703627
+Joint: EXPORT_joint3
+	parent: link2
+	child: link3
+	pos: 5.329070518200751e-15	-3.552713678800501e-15	-10.000000000000004
+Joint: EXPORT_joint4
+	parent: link3
+	child: link4
+	pos: -6.035309111975555	-2.2117986284998503	-7.660495596341164

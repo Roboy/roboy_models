@@ -15,14 +15,6 @@
 					<izz>0.3252572774699202</izz>
 				</inertia>
 			</inertial>
-			<collision name="base_collision">
-				<geometry>
-					<mesh>
-						<uri>model://nst_arm/meshes/CAD/base.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
-					</mesh>
-				</geometry>
-			</collision>
 			<visual name="base_visual">
 				<geometry>
 					<mesh>
@@ -46,14 +38,6 @@
 					<izz>0.26260638197276764</izz>
 				</inertia>
 			</inertial>
-			<collision name="lower_arm_collision">
-				<geometry>
-					<mesh>
-						<uri>model://nst_arm/meshes/CAD/lower_arm.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
-					</mesh>
-				</geometry>
-			</collision>
 			<visual name="lower_arm_visual">
 				<geometry>
 					<mesh>
@@ -77,14 +61,6 @@
 					<izz>0.32508696831663847</izz>
 				</inertia>
 			</inertial>
-			<collision name="upper_arm_collision">
-				<geometry>
-					<mesh>
-						<uri>model://nst_arm/meshes/CAD/upper_arm.stl</uri>
-						<scale>0.001 0.001 0.001</scale>
-					</mesh>
-				</geometry>
-			</collision>
 			<visual name="upper_arm_visual">
 				<geometry>
 					<mesh>
@@ -120,40 +96,6 @@
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
-		<plugin filename="libmyomuscle_plugin.so" name="myomuscle_plugin">
-			<myoMuscle name="motor0">
-				<link name="base">
-					<viaPoint type="FIXPOINT">0.005265138469598831 0.018854448267973025 0.031959978735720325</viaPoint>
-				</link>
-				<link name="lower_arm">
-					<viaPoint type="FIXPOINT">0.1327966152619598 0.10393357520001109 -0.14442203703761572</viaPoint>
-				</link>
-			</myoMuscle>
-			<myoMuscle name="motor1">
-				<link name="base">
-					<viaPoint type="FIXPOINT">0.004040153864104248 0.020004261966342286 -0.23106056291670726</viaPoint>
-				</link>
-				<link name="lower_arm">
-					<viaPoint type="FIXPOINT">0.1327966152619598 0.10393357520001109 -0.15342203703761573</viaPoint>
-				</link>
-			</myoMuscle>
-			<myoMuscle name="motor2">
-				<link name="lower_arm">
-					<viaPoint type="FIXPOINT">0.1302024472576578 0.3521967576715883 -0.12258737420410347</viaPoint>
-				</link>
-				<link name="upper_arm">
-					<viaPoint type="FIXPOINT">0.09471749440615554 0.1312151153068114 -0.1945633826317157</viaPoint>
-				</link>
-			</myoMuscle>
-			<myoMuscle name="motor3">
-				<link name="lower_arm">
-					<viaPoint type="FIXPOINT">0.13396687812014016 0.3271967576715897 -0.17837802021112786</viaPoint>
-				</link>
-				<link name="upper_arm">
-					<viaPoint type="FIXPOINT">0.09471749440615558 0.13121511530681132 -0.22702309889059472</viaPoint>
-				</link>
-			</myoMuscle>
-		</plugin>
 		<plugin filename="libgazebo_ros_muscle_interface.so" name="muscle_interface_plugin"/>
 		<muscles>model://nst_arm/muscles.osim</muscles>
 	</model>

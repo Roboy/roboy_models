@@ -1,0 +1,220 @@
+mass[kg] 	 COM[cm] 			 component name
+Body: upper_arm_left
+upper_arm_leftnot found, copying bodies to new component
+exporting stl of upper_arm_left
+mass[kg] 	 COM[cm] 			 component name
+Body: torso
+torsonot found, copying bodies to new component
+exporting stl of torso
+mass[kg] 	 COM[cm] 			 component name
+Body: base
+basenot found, copying bodies to new component
+exporting stl of base
+mass[kg] 	 COM[cm] 			 component name
+Body: lower_arm_left
+lower_arm_leftnot found, copying bodies to new component
+exporting stl of lower_arm_left
+mass[kg] 	 COM[cm] 			 component name
+Body: sphere_link1
+sphere_link1not found, copying bodies to new component
+exporting stl of sphere_link1
+mass[kg] 	 COM[cm] 			 component name
+Body: sphere_link2
+sphere_link2not found, copying bodies to new component
+exporting stl of sphere_link2
+mass[kg] 	 COM[cm] 			 component name
+Body: palm
+palmnot found, copying bodies to new component
+exporting stl of palm
+mass[kg] 	 COM[cm] 			 component name
+Body: left_ring_limb0
+left_ring_limb0not found, copying bodies to new component
+exporting stl of left_ring_limb0
+mass[kg] 	 COM[cm] 			 component name
+Body: left_ring_limb1
+left_ring_limb1not found, copying bodies to new component
+exporting stl of left_ring_limb1
+mass[kg] 	 COM[cm] 			 component name
+Body: left_ring_limb2
+left_ring_limb2not found, copying bodies to new component
+exporting stl of left_ring_limb2
+mass[kg] 	 COM[cm] 			 component name
+Body: left_ring_limb3
+left_ring_limb3not found, copying bodies to new component
+exporting stl of left_ring_limb3
+mass[kg] 	 COM[cm] 			 component name
+Body: left_little_limb0
+left_little_limb0not found, copying bodies to new component
+exporting stl of left_little_limb0
+mass[kg] 	 COM[cm] 			 component name
+Body: left_little_limb1
+left_little_limb1not found, copying bodies to new component
+exporting stl of left_little_limb1
+mass[kg] 	 COM[cm] 			 component name
+Body: left_little_limb2
+left_little_limb2not found, copying bodies to new component
+exporting stl of left_little_limb2
+mass[kg] 	 COM[cm] 			 component name
+Body: left_little_limb3
+left_little_limb3not found, copying bodies to new component
+exporting stl of left_little_limb3
+mass[kg] 	 COM[cm] 			 component name
+Body: left_thumb_limb0
+left_thumb_limb0not found, copying bodies to new component
+exporting stl of left_thumb_limb0
+mass[kg] 	 COM[cm] 			 component name
+Body: left_thumb_limb1
+left_thumb_limb1not found, copying bodies to new component
+exporting stl of left_thumb_limb1
+mass[kg] 	 COM[cm] 			 component name
+Body: left_thumb_limb2
+left_thumb_limb2not found, copying bodies to new component
+exporting stl of left_thumb_limb2
+mass[kg] 	 COM[cm] 			 component name
+Body: left_thumb_limb3
+left_thumb_limb3not found, copying bodies to new component
+exporting stl of left_thumb_limb3
+mass[kg] 	 COM[cm] 			 component name
+Body: left_index_limb0
+left_index_limb0not found, copying bodies to new component
+exporting stl of left_index_limb0
+mass[kg] 	 COM[cm] 			 component name
+Body: left_index_limb1
+left_index_limb1not found, copying bodies to new component
+exporting stl of left_index_limb1
+mass[kg] 	 COM[cm] 			 component name
+Body: left_index_limb2
+left_index_limb2not found, copying bodies to new component
+exporting stl of left_index_limb2
+mass[kg] 	 COM[cm] 			 component name
+Body: left_index_limb3
+left_index_limb3not found, copying bodies to new component
+exporting stl of left_index_limb3
+mass[kg] 	 COM[cm] 			 component name
+Body: left_middle_limb0
+left_middle_limb0not found, copying bodies to new component
+exporting stl of left_middle_limb0
+mass[kg] 	 COM[cm] 			 component name
+Body: left_middle_limb1
+left_middle_limb1not found, copying bodies to new component
+exporting stl of left_middle_limb1
+mass[kg] 	 COM[cm] 			 component name
+Body: left_middle_limb2
+left_middle_limb2not found, copying bodies to new component
+exporting stl of left_middle_limb2
+mass[kg] 	 COM[cm] 			 component name
+Body: left_middle_limb3
+left_middle_limb3not found, copying bodies to new component
+exporting stl of left_middle_limb3
+mass[kg] 	 COM[cm] 			 component name
+Body: wrist_1
+wrist_1not found, copying bodies to new component
+exporting stl of wrist_1
+Joint: EXPORT_sphere_axis0
+	parent: torso
+	child: sphere_link1
+	pos: 3.9283447250682e-07	-1.669784760338633e-05	-3.7661544851630424e-06
+Joint: EXPORT_sphere_axis1
+	parent: sphere_link1
+	child: sphere_link2
+	pos: -9.872906652219626e-07	1.392142950262798e-05	-2.591378780891773e-06
+Joint: EXPORT_sphere_axis2
+	parent: sphere_link2
+	child: upper_arm_left
+	pos: -18.30759701026465	-0.9451175058169585	-0.955433462935261
+Joint: EXPORT_joint_hip
+	parent: base
+	child: torso
+	pos: -0.8583084223350599	0.9686930156379774	-31.521144293297652
+Joint: EXPORT_left_joint0_ring
+	parent: left_ring_limb0
+	child: left_ring_limb1
+	pos: -2.414878655864385	-0.7741475806816922	0.2966067141780826
+Joint: EXPORT_left_joint1_ring
+	parent: left_ring_limb1
+	child: left_ring_limb2
+	pos: -1.033149614939063	-0.9145888621801976	-0.09126379629992698
+Joint: EXPORT_left_joint2_ring
+	parent: left_ring_limb2
+	child: left_ring_limb3
+	pos: -0.6372210742397186	-0.6275666569672342	-0.03872308663373758
+Joint: EXPORT_left_palm_ring
+	parent: palm
+	child: left_ring_limb0
+	pos: 0.29845098445355234	-0.6913568401120234	0.02739401592762647
+Joint: EXPORT_left_palm_index
+	parent: palm
+	child: left_index_limb0
+	pos: -0.08718289965813142	-0.7472054955967233	0.042997921963127794
+Joint: EXPORT_left_palm_thumb
+	parent: palm
+	child: left_thumb_limb0
+	pos: -0.24851965747528482	0.19544794017728173	-0.6839225286532766
+Joint: EXPORT_left_palm_little
+	parent: palm
+	child: left_little_limb0
+	pos: 0.4662125966214745	-0.5913945715452833	0.024123091023497523
+Joint: EXPORT_left_palm_middle
+	parent: palm
+	child: left_middle_limb0
+	pos: 0.045429625471399504	0.50299619493234	-0.005666473076459511
+Joint: EXPORT_left_wrist_0
+	parent: lower_arm_left
+	child: wrist_1
+	pos: 0.1089518641924343	-0.027492824546241135	-0.9919060928152632
+Joint: EXPORT_left_wrist_1
+	parent: wrist_1
+	child: palm
+	pos: -5.108157318899629	-2.109984352751114	0.45333444520762356
+Joint: EXPORT_elbow_left
+	parent: upper_arm_left
+	child: lower_arm_left
+	pos: -14.040782437443404	-1.2906136303689306	-1.5728471472726753
+Joint: EXPORT_left_joint0_little
+	parent: left_little_limb0
+	child: left_little_limb1
+	pos: -2.1427230484583646	-1.385752647978344	0.08558552284917198
+Joint: EXPORT_left_joint1_little
+	parent: left_little_limb1
+	child: left_little_limb2
+	pos: -0.7507021424269453	-1.1435391445259562	-0.20240614181194871
+Joint: EXPORT_left_joint2_little
+	parent: left_little_limb2
+	child: left_little_limb3
+	pos: -0.447547275820682	-0.7675022430986473	-0.10968746131286622
+Joint: EXPORT_left_joint0_thumb
+	parent: left_thumb_limb0
+	child: left_thumb_limb1
+	pos: -1.853763543391608	0.3113250102994336	1.7277637975535498
+Joint: EXPORT_left_joint1_thumb
+	parent: left_thumb_limb1
+	child: left_thumb_limb2
+	pos: -1.0934857400673224	0.6444661535780296	0.548695865098118
+Joint: EXPORT_left_joint2_thumb
+	parent: left_thumb_limb2
+	child: left_thumb_limb3
+	pos: -0.7285905993485216	0.41923226173764033	0.30788528559568107
+Joint: EXPORT_left_joint0_index
+	parent: left_index_limb0
+	child: left_index_limb1
+	pos: -2.4822926341660576	0.5416078004905867	0.2527165478963411
+Joint: EXPORT_left_joint1_index
+	parent: left_index_limb1
+	child: left_index_limb2
+	pos: -1.3506135865283682	-0.27848151630942564	-0.10242827084090322
+Joint: EXPORT_left_joint2_index
+	parent: left_index_limb2
+	child: left_index_limb3
+	pos: -0.8649569076581685	-0.2263466151646134	-0.04479437855649593
+Joint: EXPORT_left_joint0_middle
+	parent: left_middle_limb0
+	child: left_middle_limb1
+	pos: -2.5351911811128787	-0.1205994792384324	0.27786958893833713
+Joint: EXPORT_left_joint1_middle
+	parent: left_middle_limb1
+	child: left_middle_limb2
+	pos: -1.2337280981169272	-0.6173808785695067	-0.09463652735077943
+Joint: EXPORT_left_joint2_middle
+	parent: left_middle_limb2
+	child: left_middle_limb3
+	pos: -0.7774817918590031	-0.4419151198931415	-0.04030135235367993

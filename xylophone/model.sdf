@@ -1,0 +1,1768 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+	<model name="xylophone">
+		<link name="C_3">
+			<self_collide>false</self_collide>
+			<pose frame="">0.45448777694738957 -0.027488463586150244 0.03602607641514571 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.046262938070170255</mass>
+				<inertia>
+					<ixx>0.00014350861797053416</ixx>
+					<ixy>0.0005779909002568655</ixy>
+					<ixz>4.5810622566366254e-05</ixz>
+					<iyy>0.009623382878610719</iyy>
+					<iyz>-0.0007574855243569923</iyz>
+					<izz>0.009643073975087112</izz>
+				</inertia>
+			</inertial>
+			<collision name="C_3_collision">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/C_3.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="C_3_visual">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/C_3.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="A_1">
+			<self_collide>false</self_collide>
+			<pose frame="">0.06149651719972713 -0.05578498333630287 0.0360155619608559 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.07752053807017041</mass>
+				<inertia>
+					<ixx>0.0005637106499617699</ixx>
+					<ixy>0.00026595636558719233</ixy>
+					<ixz>0.0001557469170174067</ixz>
+					<iyy>0.00040595501694493254</iyy>
+					<iyz>-0.0001716965634829288</iyz>
+					<izz>0.0007623069998125596</izz>
+				</inertia>
+			</inertial>
+			<collision name="A_1_collision">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/A_1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="A_1_visual">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/A_1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="A_2">
+			<self_collide>false</self_collide>
+			<pose frame="">0.3664899596665138 -0.03382394881431653 0.03602312095864534 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.05217653807017028</mass>
+				<inertia>
+					<ixx>0.0001963569812425986</ixx>
+					<ixy>0.000646807485995429</ixy>
+					<ixz>6.357095834000371e-05</ixz>
+					<iyy>0.007084032289712486</iyy>
+					<iyz>-0.00068884366238625</iyz>
+					<izz>0.007140766667860942</izz>
+				</inertia>
+			</inertial>
+			<collision name="A_2_collision">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/A_2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="A_2_visual">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/A_2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="G_2">
+			<self_collide>false</self_collide>
+			<pose frame="">0.32349125577799714 -0.03691903091623005 0.03602138936294325 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.0564005380701702</mass>
+				<inertia>
+					<ixx>0.00023673750732044108</ixx>
+					<ixy>0.0006736102242703571</ixy>
+					<ixz>7.500282789721354e-05</ixz>
+					<iyy>0.005984210396933613</iyy>
+					<iyz>-0.0006572161322062213</iyz>
+					<izz>0.006070035957159913</izz>
+				</inertia>
+			</inertial>
+			<collision name="G_2_collision">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/G_2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="G_2_visual">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/G_2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="D_2">
+			<self_collide>false</self_collide>
+			<pose frame="">0.19349458215986062 -0.04628071805747754 0.036018016157183703 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.0669605380701705</mass>
+				<inertia>
+					<ixx>0.00037410228126468804</ixx>
+					<ixy>0.0005996545358997112</ixy>
+					<ixz>0.00011161645559815828</ixz>
+					<iyy>0.0026044491856748978</iyy>
+					<iyz>-0.00046666965765261153</iyz>
+					<izz>0.0027994161598454428</izz>
+				</inertia>
+			</inertial>
+			<collision name="D_2_collision">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/D_2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="D_2_visual">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/D_2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="H_1">
+			<self_collide>false</self_collide>
+			<pose frame="">0.10649542005933199 -0.052543980478078484 0.03601645877978332 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.07329653807017017</mass>
+				<inertia>
+					<ixx>0.00048538135747040593</ixx>
+					<ixy>0.0004101615293656462</ixy>
+					<ixz>0.0001387082041457808</ixz>
+					<iyy>0.0009379223650701782</iyy>
+					<iyz>-0.0002811373347203263</iyz>
+					<izz>0.0012272343994464419</izz>
+				</inertia>
+			</inertial>
+			<collision name="H_1_collision">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/H_1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="H_1_visual">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/H_1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="C_2">
+			<self_collide>false</self_collide>
+			<pose frame="">0.150494933134312 -0.04937679410556129 0.03601694710131839 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.07118453807017067</mass>
+				<inertia>
+					<ixx>0.0004382542098897835</ixx>
+					<ixy>0.000528986973650466</ixy>
+					<ixz>0.00012659221822118325</ixz>
+					<iyy>0.0017158151854811217</iyy>
+					<iyz>-0.0003858485657120155</iyz>
+					<izz>0.0019636447442767614</izz>
+				</inertia>
+			</inertial>
+			<collision name="C_2_collision">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/C_2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="C_2_visual">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/C_2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="F_0">
+			<self_collide>false</self_collide>
+			<pose frame="">-0.3255003203067164 -0.08365491980126465 0.03601087897986214 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.11089013807017029</mass>
+				<inertia>
+					<ixx>0.00156375516577235</ixx>
+					<ixy>-0.0030195018902751483</ixy>
+					<ixz>0.0003340551538263901</ixz>
+					<iyy>0.011910151380577003</iyy>
+					<iyz>0.001299804377420893</iyz>
+					<izz>0.013177362061655212</izz>
+				</inertia>
+			</inertial>
+			<collision name="F_0_collision">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/F_0.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="F_0_visual">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/F_0.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="H_0">
+			<self_collide>false</self_collide>
+			<pose frame="">-0.19850142124805137 -0.07450890386704333 0.036012229977680346 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.09864053807016995</mass>
+				<inertia>
+					<ixx>0.0011297880013564647</ixx>
+					<ixy>-0.0014588971209523287</ixy>
+					<ixz>0.0002646747647855426</ixz>
+					<iyy>0.0040301999809936335</iyy>
+					<iyz>0.0007051289555880382</iyz>
+					<izz>0.004896182595255956</izz>
+				</inertia>
+			</inertial>
+			<collision name="H_0_collision">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/H_0.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="H_0_visual">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/H_0.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="G_0">
+			<self_collide>false</self_collide>
+			<pose frame="">-0.2845007949222958 -0.08070296566929662 0.0360113097895996 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.10666613807017081</mass>
+				<inertia>
+					<ixx>0.0014065452163680647</ixx>
+					<ixy>-0.002449055109061058</ixy>
+					<ixz>0.0003099945539825456</ixz>
+					<iyy>0.008788782811672976</iyy>
+					<iyz>0.0010928203425676509</iyz>
+					<izz>0.009910072887346896</izz>
+				</inertia>
+			</inertial>
+			<collision name="G_0_collision">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/G_0.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="G_0_visual">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/G_0.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="F_sharp_1">
+			<self_collide>false</self_collide>
+			<pose frame="">-0.0035009273967744653 0.1199439255091977 0.06601438613621244 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.08385653807017031</mass>
+				<inertia>
+					<ixx>0.00185212410578797</ixx>
+					<ixy>3.521746415105739e-05</ixy>
+					<ixz>-0.0006639784437789112</ixz>
+					<iyy>0.00037969762628502636</iyy>
+					<iyz>1.9379748691711704e-05</iyz>
+					<izz>0.001494182271399933</izz>
+				</inertia>
+			</inertial>
+			<collision name="F_sharp_1_collision">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/F_sharp_1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="F_sharp_1_visual">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/F_sharp_1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="G_1">
+			<self_collide>false</self_collide>
+			<pose frame="">0.01949650478805824 -0.05880934615967254 0.03601468195855061 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.08216693807017009</mass>
+				<inertia>
+					<ixx>0.0006545444626561857</ixx>
+					<ixy>9.422558134410292e-05</ixy>
+					<ixz>0.0001740280740671962</ixz>
+					<iyy>0.0001507726236926445</iyy>
+					<iyz>-5.7696099045153296e-05</iyz>
+					<izz>0.0005855401408546882</izz>
+				</inertia>
+			</inertial>
+			<collision name="G_1_collision">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/G_1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="G_1_visual">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/G_1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="C_sharo_0">
+			<self_collide>false</self_collide>
+			<pose frame="">-0.4375002983547113 0.1462203117640928 0.06601007319771958 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.11976053807017031</mass>
+				<inertia>
+					<ixx>0.0038925305791229804</ixx>
+					<ixy>0.007661256356691602</ixy>
+					<ixz>-0.0011559301879227664</ixz>
+					<iyy>0.02346367010396685</iyy>
+					<iyz>0.003458615468209218</iyz>
+					<izz>0.026302869318416765</izz>
+				</inertia>
+			</inertial>
+			<collision name="C_sharo_0_collision">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/C_sharo_0.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="C_sharo_0_visual">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/C_sharo_0.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="C_sharp_1">
+			<self_collide>false</self_collide>
+			<pose frame="">-0.13250133907726727 0.12775506668331377 0.06601277712150477 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.09441653807017004</mass>
+				<inertia>
+					<ixx>0.002351261287373469</ixx>
+					<ixy>0.0015982653768845821</ixy>
+					<ixz>-0.000796258448287107</ixz>
+					<iyy>0.002083966338135435</iyy>
+					<iyz>0.00082584005552024</iyz>
+					<izz>0.003604737604835843</izz>
+				</inertia>
+			</inertial>
+			<collision name="C_sharp_1_collision">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/C_sharp_1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="C_sharp_1_visual">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/C_sharp_1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="G_sharp_1">
+			<self_collide>false</self_collide>
+			<pose frame="">0.03949863925764861 0.11734075953071503 0.0660151492293002 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.0796325380701699</mass>
+				<inertia>
+					<ixx>0.00168388148404294</ixx>
+					<ixy>-0.00036907737856113084</ixy>
+					<ixz>-0.0006168551738052698</ixz>
+					<iyy>0.0004838428261088353</iyy>
+					<iyz>-0.0002076431768642761</iyz>
+					<izz>0.001467225073478716</izz>
+				</inertia>
+			</inertial>
+			<collision name="G_sharp_1_collision">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/G_sharp_1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="G_sharp_1_visual">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/G_sharp_1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="E_2">
+			<self_collide>false</self_collide>
+			<pose frame="">0.23749352133778145 -0.04311186553743143 0.036019100567803046 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.06315893807017048</mass>
+				<inertia>
+					<ixx>0.00032032860410619333</ixx>
+					<ixy>0.0006466898188510383</ixy>
+					<ixz>9.807373484942315e-05</ixz>
+					<iyy>0.003654274866406667</iyy>
+					<iyz>-0.0005402831581871882</iyz>
+					<izz>0.0038056285730187164</izz>
+				</inertia>
+			</inertial>
+			<collision name="E_2_collision">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/E_2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="E_2_visual">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/E_2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="E_1">
+			<self_collide>false</self_collide>
+			<pose frame="">-0.06850247886257901 -0.06514692540500432 0.03601363086475185 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.08850293807017058</mass>
+				<inertia>
+					<ixx>0.0008193526243243245</ixx>
+					<ixy>-0.00039495163737030616</ixy>
+					<ixz>0.00020764231199439065</ixz>
+					<iyy>0.0005440576375199952</iyy>
+					<iyz>0.00021833746333284134</iyz>
+					<izz>0.0011266993003501767</izz>
+				</inertia>
+			</inertial>
+			<collision name="E_1_collision">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/E_1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="E_1_visual">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/E_1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="F_sharp_0">
+			<self_collide>false</self_collide>
+			<pose frame="">-0.3065023330346604 0.13828971878512886 0.06601130978959967 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.10666613807016981</mass>
+				<inertia>
+					<ixx>0.003078227372682137</ixx>
+					<ixy>0.004521179686787205</ixy>
+					<ixz>-0.0009737211703134111</ixz>
+					<iyy>0.010502230453686324</iyy>
+					<iyz>0.002158133991258258</iyz>
+					<izz>0.0126422611560954</izz>
+				</inertia>
+			</inertial>
+			<collision name="F_sharp_0_collision">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/F_sharp_0.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="F_sharp_0_visual">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/F_sharp_0.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="D_sharp_0">
+			<self_collide>false</self_collide>
+			<pose frame="">-0.39450237109720454 0.14361683047737395 0.06601044147244788 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.11553653807016968</mass>
+				<inertia>
+					<ixx>0.0036143236415149063</ixx>
+					<ixy>0.00654599463721406</ixy>
+					<ixz>-0.0010953106504324379</ixz>
+					<iyy>0.018502853877777732</iyy>
+					<iyz>0.0030087171922226655</iyz>
+					<izz>0.02110098637861958</izz>
+				</inertia>
+			</inertial>
+			<collision name="D_sharp_0_collision">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/D_sharp_0.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="D_sharp_0_visual">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/D_sharp_0.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="D_sharp_2">
+			<self_collide>false</self_collide>
+			<pose frame="">0.21550022682864847 0.10668307113308259 0.06601860291095038 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.06484853807017023</mass>
+				<inertia>
+					<ixx>0.0011515471198054802</ixx>
+					<ixy>-0.0014908831360279898</ixy>
+					<ixz>-0.00045673363302472104</ixz>
+					<iyy>0.0033044655699929907</iyy>
+					<iyz>-0.0009226016126176757</iyz>
+					<izz>0.0038855042371254075</izz>
+				</inertia>
+			</inertial>
+			<collision name="D_sharp_2_collision">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/D_sharp_2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="D_sharp_2_visual">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/D_sharp_2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="F_2">
+			<self_collide>false</self_collide>
+			<pose frame="">0.28149210789051393 -0.03994237509789713 0.036019761377345264 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.06104693807017031</mass>
+				<inertia>
+					<ixx>0.00028605421896397856</ixx>
+					<ixy>0.000686398073747341</ixy>
+					<ixz>8.782670453755313e-05</ixz>
+					<iyy>0.004926065586843015</iyy>
+					<iyz>-0.0006189748103290157</iyz>
+					<izz>0.0050487895803128496</izz>
+				</inertia>
+			</inertial>
+			<collision name="F_2_collision">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/F_2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="F_2_visual">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/F_2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="F_1">
+			<self_collide>false</self_collide>
+			<pose frame="">-0.022503625927337362 -0.06183418013547204 0.03601431403392828 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.08427893807017009</mass>
+				<inertia>
+					<ixx>0.0007159850359121407</ixx>
+					<ixy>-0.00011725959732705096</ixy>
+					<ixz>0.00018768066032254913</ixz>
+					<iyy>0.00016528966458542244</iyy>
+					<iyz>6.830225087653157e-05</iyz>
+					<izz>0.0006558530830034214</izz>
+				</inertia>
+			</inertial>
+			<collision name="F_1_collision">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/F_1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="F_1_visual">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/F_1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="D_0">
+			<self_collide>false</self_collide>
+			<pose frame="">-0.41249989944268217 -0.08992105535550353 0.036010290977753205 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.11722613807017015</mass>
+				<inertia>
+					<ixx>0.0018598905758930105</ixx>
+					<ixy>-0.004348201885210563</ixy>
+					<ixz>0.0003795880739571235</ixz>
+					<iyy>0.020117250266443582</iyy>
+					<iyz>0.0017413054249799736</iyz>
+					<izz>0.02166366234164245</izz>
+				</inertia>
+			</inertial>
+			<collision name="D_0_collision">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/D_0.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="D_0_visual">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/D_0.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="D_sharp_1">
+			<self_collide>false</self_collide>
+			<pose frame="">-0.08950183741044956 0.12515057541342944 0.06601337551425865 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.09019253807017003</mass>
+				<inertia>
+					<ixx>0.002153721443125704</ixx>
+					<ixy>0.0010102737508272117</ixy>
+					<ixz>-0.0007451361000366005</ixz>
+					<iyy>0.0011297617663655814</iyy>
+					<iyz>0.0005328852358795294</iyz>
+					<izz>0.002490133412818225</izz>
+				</inertia>
+			</inertial>
+			<collision name="D_sharp_1_collision">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/D_sharp_1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="D_sharp_1_visual">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/D_sharp_1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="H_2">
+			<self_collide>false</self_collide>
+			<pose frame="">0.40948962772689607 -0.030728125467924396 0.03602515761683381 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.047952538070170234</mass>
+				<inertia>
+					<ixx>0.00016136027028865857</ixx>
+					<ixy>0.000603399420722362</ixy>
+					<ixz>5.3079424705437056e-05</ixz>
+					<iyy>0.008110572356303606</iyy>
+					<iyz>-0.0007073954040874137</iyz>
+					<izz>0.00814359936749812</izz>
+				</inertia>
+			</inertial>
+			<collision name="H_2_collision">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/H_2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="H_2_visual">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/H_2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="A_sharp_0">
+			<self_collide>false</self_collide>
+			<pose frame="">-0.22050207310709716 0.13308299544547916 0.06601222997768041 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.09864053807016988</mass>
+				<inertia>
+					<ixx>0.0026311545152743563</ixx>
+					<ixy>0.0028946263293968947</ixy>
+					<ixz>-0.0008665671192462426</ixz>
+					<iyy>0.005241415188947639</iyy>
+					<iyz>0.0014357940250123214</iyz>
+					<izz>0.007004939459548935</izz>
+				</inertia>
+			</inertial>
+			<collision name="A_sharp_0_collision">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/A_sharp_0.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="A_sharp_0_visual">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/A_sharp_0.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="C_1">
+			<self_collide>false</self_collide>
+			<pose frame="">-0.15450134655883735 -0.07133918289094804 0.03601255249251712 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.09610613807017018</mass>
+				<inertia>
+					<ixx>0.0010341362889035497</ixx>
+					<ixy>-0.001059272077836459</ixy>
+					<ixz>0.00024690657511755246</ixz>
+					<iyy>0.002433918887099075</iyy>
+					<iyz>0.0005347326067323264</iyz>
+					<izz>0.0032110233953084816</izz>
+				</inertia>
+			</inertial>
+			<collision name="C_1_collision">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/C_1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="C_1_visual">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/C_1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="D_1">
+			<self_collide>false</self_collide>
+			<pose frame="">-0.11150208314780516 -0.06824404740057666 0.036013069472034615 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.09230453807016999</mass>
+				<inertia>
+					<ixx>0.0009223930941750333</ixx>
+					<ixy>-0.0007023662400896868</ixy>
+					<ixz>0.00022685344362365534</ixz>
+					<iyy>0.0012818714600652393</iyy>
+					<iyz>0.00037065069476459637</iyz>
+					<izz>0.0019573931831461315</izz>
+				</inertia>
+			</inertial>
+			<collision name="D_1_collision">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/D_1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="D_1_visual">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/D_1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="A_0">
+			<self_collide>false</self_collide>
+			<pose frame="">-0.2415016436952702 -0.0776063070021239 0.03601172776937133 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.10286453807017032</mass>
+				<inertia>
+					<ixx>0.0012676306127429283</ixx>
+					<ixy>-0.0019278850709250144</ixy>
+					<ixz>0.0002874784594844922</ixz>
+					<iyy>0.006148997813460238</iyy>
+					<iyz>0.000894600705057026</iyz>
+					<izz>0.007141533695109024</izz>
+				</inertia>
+			</inertial>
+			<collision name="A_0_collision">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/A_0.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="A_0_visual">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/A_0.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="A_sharp_1">
+			<self_collide>false</self_collide>
+			<pose frame="">0.08450061954516024 0.11461692493126807 0.06601590869913629 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.07583093807017009</mass>
+				<inertia>
+					<ixx>0.0015345929801101413</ixx>
+					<ixy>-0.0007344360291484083</ixy>
+					<ixz>-0.0005737777927615215</ixz>
+					<iyy>0.0008839059795422408</iyy>
+					<iyz>-0.00042301389885720256</iyz>
+					<izz>0.0017514259245793213</izz>
+				</inertia>
+			</inertial>
+			<collision name="A_sharp_1_collision">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/A_sharp_1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="A_sharp_1_visual">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/A_sharp_1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="C_0">
+			<self_collide>false</self_collide>
+			<pose frame="">-0.45649990306296745 -0.09308864361366516 0.036009933060580604 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.12145013807016966</mass>
+				<inertia>
+					<ixx>0.0020546219933388083</ixx>
+					<ixy>-0.005161020937150361</ixy>
+					<ixz>0.0004071161032131988</ixz>
+					<iyy>0.025485896387590367</iyy>
+					<iyz>0.0019964619244804945</iyz>
+					<izz>0.02721575053623504</izz>
+				</inertia>
+			</inertial>
+			<collision name="C_0_collision">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/C_0.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="C_0_visual">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/C_0.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="E_0">
+			<self_collide>false</self_collide>
+			<pose frame="">-0.37050046901145656 -0.0868963158384845 0.03601063589589608 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.11342453807017014</mass>
+				<inertia>
+					<ixx>0.0016923618165711688</ixx>
+					<ixy>-0.00365171534585143</ixy>
+					<ixz>0.0003549269613000413</ixz>
+					<iyy>0.015734828329686004</iyy>
+					<iyz>0.0015133050453721767</iyz>
+					<izz>0.01712387205516303</izz>
+				</inertia>
+			</inertial>
+			<collision name="E_0_collision">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/E_0.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="E_0_visual">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/E_0.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="C_sharp_2">
+			<self_collide>false</self_collide>
+			<pose frame="">0.1714996124623029 0.10934822703914217 0.06601735912877227 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.06949493807017026</mass>
+				<inertia>
+					<ixx>0.001294399947240706</ixx>
+					<ixy>-0.0013032507283659545</ixy>
+					<ixz>-0.0005016762547690393</ixz>
+					<iyy>0.0023578417862157326</iyy>
+					<iyz>-0.0007868184808275563</iyz>
+					<izz>0.0030408790343833757</izz>
+				</inertia>
+			</inertial>
+			<collision name="C_sharp_2_collision">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/C_sharp_2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="C_sharp_2_visual">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/C_sharp_2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="G_sharp_0">
+			<self_collide>false</self_collide>
+			<pose frame="">-0.2635020658613311 0.13568635052433617 0.0660117277693714 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.10286453807016993</mass>
+				<inertia>
+					<ixx>0.0028567939646909415</ixx>
+					<ixy>0.003677794982807276</ixy>
+					<ixz>-0.0009213459762137958</ixz>
+					<iyy>0.007606690745775626</iyy>
+					<iyz>0.0017892478107216804</iyz>
+					<izz>0.009558714241793508</izz>
+				</inertia>
+			</inertial>
+			<collision name="G_sharp_0_collision">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/G_sharp_0.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="G_sharp_0_visual">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/G_sharp_0.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="G_sharp_2">
+			<self_collide>false</self_collide>
+			<pose frame="">0.3435013687624261 0.09893352413049673 0.06602204991582182 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.05471093807017026</mass>
+				<inertia>
+					<ixx>0.0008532803724472097</ixx>
+					<ixy>-0.0018592885724027228</ixy>
+					<ixz>-0.00035736145979834837</ixz>
+					<iyy>0.006702638710335194</iyy>
+					<iyz>-0.001240770558802788</iyz>
+					<izz>0.007074547167709341</izz>
+				</inertia>
+			</inertial>
+			<collision name="G_sharp_2_collision">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/G_sharp_2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="G_sharp_2_visual">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/G_sharp_2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="F_sharp_2">
+			<self_collide>false</self_collide>
+			<pose frame="">0.3015019506762813 0.10147818074006472 0.06602046954859858 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.05893493807017026</mass>
+				<inertia>
+					<ixx>0.000962478038950855</ixx>
+					<ixy>-0.0018031680819314822</ixy>
+					<ixz>-0.0003948429870248285</ixz>
+					<iyy>0.005623573465308783</iyy>
+					<iyz>-0.00117311695146853</iyz>
+					<izz>0.006067539365186575</izz>
+				</inertia>
+			</inertial>
+			<collision name="F_sharp_2_collision">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/F_sharp_2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="F_sharp_2_visual">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/F_sharp_2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="A_sharp_2">
+			<self_collide>false</self_collide>
+			<pose frame="">0.38750190793244693 0.09627026869936918 0.06602389472653905 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.05048693807017006</mass>
+				<inertia>
+					<ixx>0.0007506366170855139</ixx>
+					<ixy>-0.0018834144276172631</ixy>
+					<ixz>-0.00032090257043215076</ixz>
+					<iyy>0.007809059373576973</iyy>
+					<iyz>-0.0012916766896714912</iyz>
+					<izz>0.008115464299589426</izz>
+				</inertia>
+			</inertial>
+			<collision name="A_sharp_2_collision">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/A_sharp_2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="A_sharp_2_visual">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/A_sharp_2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="Rahmen">
+			<kinematic>true</kinematic>
+			<self_collide>false</self_collide>
+			<pose frame="">0.5045000000000001 0.0 0.27950640783566505 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>33.58069878571849</mass>
+				<inertia>
+					<ixx>0.5473891311805985</ixx>
+					<ixy>0.09140111126502702</ixy>
+					<ixz>-0.06504575514743717</ixz>
+					<iyy>4.257722657247435</iyy>
+					<iyz>0.06384328800975023</iyz>
+					<izz>4.739784216742018</izz>
+				</inertia>
+			</inertial>
+			<collision name="Rahmen_collision">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/Rahmen.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="Rahmen_visual">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/Rahmen.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="stick_left">
+			<self_collide>false</self_collide>
+			<pose frame="">-0.5150000000000079 -0.11899359216433625 0.10500000000000004 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.27516373216407947</mass>
+				<inertia>
+					<ixx>0.012554468954128269</ixx>
+					<ixy>-0.016862501275493134</ixy>
+					<ixz>0.004740375876382783</ixz>
+					<iyy>0.08163859582774897</iyy>
+					<iyz>0.020516176811869014</iyz>
+					<izz>0.07694800838250626</izz>
+				</inertia>
+			</inertial>
+			<collision name="stick_left_collision">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/stick_left.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="stick_left_visual">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/stick_left.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="stick_right">
+			<self_collide>false</self_collide>
+			<pose frame="">0.5150000000041288 -0.024999999999999935 0.14477647986100725 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.27516373216407947</mass>
+				<inertia>
+					<ixx>0.008830272306803354</ixx>
+					<ixy>0.0035427330516409152</ixy>
+					<ixz>0.000995930913203309</ixz>
+					<iyy>0.08163859583008452</iyy>
+					<iyz>-0.020516176812108065</iyz>
+					<izz>0.07322381173751687</izz>
+				</inertia>
+			</inertial>
+			<collision name="stick_right_collision">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/stick_right.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="stick_right_visual">
+				<geometry>
+					<mesh>
+						<uri>model://xylophone/meshes/CAD/stick_right.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<joint name="C_0" type="prismatic">
+			<parent>Rahmen</parent>
+			<child>C_0</child>
+			<pose frame="">0.00011973060583393646 -0.07289830228967327 -0.0010099330605806145 0 0 0</pose>
+			<axis>
+				<xyz>-2.896640395373936e-31 -3.330669073875482e-16 1.0000000000000013</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.005</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="D_0" type="prismatic">
+			<parent>Rahmen</parent>
+			<child>D_0</child>
+			<pose frame="">-5.87289926188106e-05 -0.07005919915543435 -0.001010290977753212 0 0 0</pose>
+			<axis>
+				<xyz>-2.896640395373936e-31 -3.330669073875482e-16 1.0000000000000013</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.005</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="E_0" type="prismatic">
+			<parent>Rahmen</parent>
+			<child>E_0</child>
+			<pose frame="">0.00012519603642424215 -0.0680328572742984 -0.001010635895896086 0 0 0</pose>
+			<axis>
+				<xyz>-2.896640395373936e-31 -3.330669073875482e-16 1.0000000000000013</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.005</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="F_0" type="prismatic">
+			<parent>Rahmen</parent>
+			<child>F_0</child>
+			<pose frame="">-9.779865223798368e-05 -0.06622317191336308 -0.0010108789798621443 0 0 0</pose>
+			<axis>
+				<xyz>-2.896640395373936e-31 -3.330669073875482e-16 1.0000000000000013</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.0</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="G_0" type="prismatic">
+			<parent>Rahmen</parent>
+			<child>G_0</child>
+			<pose frame="">-6.094284099162906e-06 -0.06385101322024889 -0.0010113097895996016 0 0 0</pose>
+			<axis>
+				<xyz>-2.896640395373936e-31 -3.330669073875482e-16 1.0000000000000013</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.005</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="A_0" type="prismatic">
+			<parent>Rahmen</parent>
+			<child>A_0</child>
+			<pose frame="">0.0002702356568530462 -0.061760074775802906 -0.0010117277693713288 0 0 0</pose>
+			<axis>
+				<xyz>-2.896640395373936e-31 -3.330669073875482e-16 1.0000000000000013</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.005</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="H_0" type="prismatic">
+			<parent>Rahmen</parent>
+			<child>H_0</child>
+			<pose frame="">-5.684762427193846e-07 -0.060079427939655816 -0.0010122299776803478 0 0 0</pose>
+			<axis>
+				<xyz>-2.896640395373936e-31 -3.330669073875482e-16 1.0000000000000013</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.005</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="G_1" type="prismatic">
+			<parent>Rahmen</parent>
+			<child>G_1</child>
+			<pose frame="">1.709988909920357e-05 -0.049841000088932524 -0.0010146819585505984 0 0 0</pose>
+			<axis>
+				<xyz>-2.896640395373936e-31 -3.330669073875482e-16 1.0000000000000013</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.005</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="A_1" type="prismatic">
+			<parent>Rahmen</parent>
+			<child>A_1</child>
+			<pose frame="">-0.00020910420269220964 -0.04781428151414736 -0.0010155619608558997 0 0 0</pose>
+			<axis>
+				<xyz>-2.896640395373936e-31 -3.330669073875482e-16 1.0000000000000013</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.005</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="H_1" type="prismatic">
+			<parent>Rahmen</parent>
+			<child>H_1</child>
+			<pose frame="">-2.1305905828796767e-05 -0.045867687260752826 -0.0010164587797833135 0 0 0</pose>
+			<axis>
+				<xyz>-2.896640395373936e-31 -3.330669073875482e-16 1.0000000000000013</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.005</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="C_2" type="prismatic">
+			<parent>Rahmen</parent>
+			<child>C_2</child>
+			<pose frame="">-6.27592455136039e-05 -0.04330121366779629 -0.0010169471013183795 0 0 0</pose>
+			<axis>
+				<xyz>-2.896640395373936e-31 -3.330669073875482e-16 1.0000000000000013</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.005</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="D_2" type="prismatic">
+			<parent>Rahmen</parent>
+			<child>D_2</child>
+			<pose frame="">-0.0001964742434756772 -0.04120969260426162 -0.0010180161571836921 0 0 0</pose>
+			<axis>
+				<xyz>-2.896640395373936e-31 -3.330669073875482e-16 1.0000000000000013</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.005</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="E_2" type="prismatic">
+			<parent>Rahmen</parent>
+			<child>E_2</child>
+			<pose frame="">-0.00010083797263789051 -0.03932746372615247 -0.0010191005678030329 0 0 0</pose>
+			<axis>
+				<xyz>-2.896640395373936e-31 -3.330669073875482e-16 1.0000000000000013</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.005</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="F_2" type="prismatic">
+			<parent>Rahmen</parent>
+			<child>F_2</child>
+			<pose frame="">0.00013166663685272085 -0.03758238848099552 -0.0010197613773452474 0 0 0</pose>
+			<axis>
+				<xyz>-2.896640395373936e-31 -3.330669073875482e-16 1.0000000000000013</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.005</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="G_2" type="prismatic">
+			<parent>Rahmen</parent>
+			<child>G_2</child>
+			<pose frame="">4.284278271029507e-05 -0.035418135551043894 -0.0010213893629432346 0 0 0</pose>
+			<axis>
+				<xyz>-2.896640395373936e-31 -3.330669073875482e-16 1.0000000000000013</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.005</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="A_2" type="prismatic">
+			<parent>Rahmen</parent>
+			<child>A_2</child>
+			<pose frame="">4.658863524397816e-05 -0.03318910482787528 -0.0010231209586453272 0 0 0</pose>
+			<axis>
+				<xyz>-2.896640395373936e-31 -3.330669073875482e-16 1.0000000000000013</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.005</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="H_2" type="prismatic">
+			<parent>Rahmen</parent>
+			<child>H_2</child>
+			<pose frame="">-0.00022366111101526087 -0.031233846776112503 -0.0010251576168337894 0 0 0</pose>
+			<axis>
+				<xyz>-2.896640395373936e-31 -3.330669073875482e-16 1.0000000000000013</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.005</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="C_3" type="prismatic">
+			<parent>Rahmen</parent>
+			<child>C_3</child>
+			<pose frame="">-3.510917504165434e-05 -0.02901288011934044 -0.0010260764151456847 0 0 0</pose>
+			<axis>
+				<xyz>-2.896640395373936e-31 -3.330669073875482e-16 1.0000000000000013</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.005</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="A_sharp_2" type="prismatic">
+			<parent>Rahmen</parent>
+			<child>A_sharp_2</child>
+			<pose frame="">5.907010954281589e-05 -0.032233077081296545 -0.0010238947265389432 0 0 0</pose>
+			<axis>
+				<xyz>-3.0834253278416563e-31 -3.330669073875481e-16 1.0000000000000013</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.005</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="G_sharp_2" type="prismatic">
+			<parent>Rahmen</parent>
+			<child>G_sharp_2</child>
+			<pose frame="">4.060397272844796e-05 -0.03393521885943567 -0.0010220499158217144 0 0 0</pose>
+			<axis>
+				<xyz>-3.0834253278416563e-31 -3.330669073875481e-16 1.0000000000000013</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.005</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="F_sharp_2" type="prismatic">
+			<parent>Rahmen</parent>
+			<child>F_sharp_2</child>
+			<pose frame="">-0.0002489786725830356 -0.036268430465346085 -0.0010204695485984683 0 0 0</pose>
+			<axis>
+				<xyz>-3.0834253278416563e-31 -3.330669073875481e-16 1.0000000000000013</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.005</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="D_sharp_2" type="prismatic">
+			<parent>Rahmen</parent>
+			<child>D_sharp_2</child>
+			<pose frame="">-2.2116567883401217e-06 -0.03939852969180045 -0.0010186029109502837 0 0 0</pose>
+			<axis>
+				<xyz>-3.0834253278416563e-31 -3.330669073875481e-16 1.0000000000000013</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.005</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="C_sharp_2" type="prismatic">
+			<parent>Rahmen</parent>
+			<child>C_sharp_2</child>
+			<pose frame="">0.00010578807137822111 -0.04169171428736641 -0.0010173591287721707 0 0 0</pose>
+			<axis>
+				<xyz>-3.0834253278416563e-31 -3.330669073875481e-16 1.0000000000000013</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.005</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="A_sharp_1" type="prismatic">
+			<parent>Rahmen</parent>
+			<child>A_sharp_1</child>
+			<pose frame="">-0.00043561015354697473 -0.045958805873517916 -0.0010159086991361921 0 0 0</pose>
+			<axis>
+				<xyz>-3.0834253278416563e-31 -3.330669073875481e-16 1.0000000000000013</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.005</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="G_sharp_1" type="prismatic">
+			<parent>Rahmen</parent>
+			<child>G_sharp_1</child>
+			<pose frame="">0.0001751786532272126 -0.04772109841922994 -0.0010151492293000964 0 0 0</pose>
+			<axis>
+				<xyz>-3.0834253278416563e-31 -3.330669073875481e-16 1.0000000000000013</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.005</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="F_sharp_1" type="prismatic">
+			<parent>Rahmen</parent>
+			<child>F_sharp_1</child>
+			<pose frame="">-9.464711039679886e-05 -0.04952297935293345 -0.0010143861362123462 0 0 0</pose>
+			<axis>
+				<xyz>-3.0834253278416563e-31 -3.330669073875481e-16 1.0000000000000013</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.005</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="G_sharp_0" type="prismatic">
+			<parent>Rahmen</parent>
+			<child>G_sharp_0</child>
+			<pose frame="">-8.42231943849825e-05 -0.06145239551809006 -0.0010117277693713067 0 0 0</pose>
+			<axis>
+				<xyz>-3.0834253278416563e-31 -3.330669073875481e-16 1.0000000000000013</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.005</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="F_sharp_0" type="prismatic">
+			<parent>Rahmen</parent>
+			<child>F_sharp_0</child>
+			<pose frame="">-1.5611220815365813e-05 -0.06334965102888622 -0.0010113097895995704 0 0 0</pose>
+			<axis>
+				<xyz>-3.0834253278416563e-31 -3.330669073875481e-16 1.0000000000000013</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.005</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="D_sharp_0" type="prismatic">
+			<parent>Rahmen</parent>
+			<child>D_sharp_0</child>
+			<pose frame="">-0.00013844435777762954 -0.06684086957114053 -0.0010104414724477807 0 0 0</pose>
+			<axis>
+				<xyz>-3.0834253278416563e-31 -3.330669073875481e-16 1.0000000000000013</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.005</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="C_sharp_0" type="prismatic">
+			<parent>Rahmen</parent>
+			<child>C_sharo_0</child>
+			<pose frame="">-7.217230003043085e-05 -0.06930312830785963 -0.0010100731977194766 0 0 0</pose>
+			<axis>
+				<xyz>-3.0834253278416563e-31 -3.330669073875481e-16 1.0000000000000013</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.005</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="A_sharp_0" type="prismatic">
+			<parent>Rahmen</parent>
+			<child>A_sharp_0</child>
+			<pose frame="">-1.1338198860251226e-05 -0.05955515318922951 -0.0010122299776803168 0 0 0</pose>
+			<axis>
+				<xyz>-3.0834253278416563e-31 -3.330669073875481e-16 1.0000000000000013</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.005</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="C_1" type="prismatic">
+			<parent>Rahmen</parent>
+			<child>C_1</child>
+			<pose frame="">-0.00017909914362430613 -0.05847109894452371 -0.0010125524925171225 0 0 0</pose>
+			<axis>
+				<xyz>-2.896640395373936e-31 -3.330669073875482e-16 1.0000000000000013</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.005</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="D_1" type="prismatic">
+			<parent>Rahmen</parent>
+			<child>D_1</child>
+			<pose frame="">-3.939710014277509e-05 -0.05569605875595763 -0.0010130694720346157 0 0 0</pose>
+			<axis>
+				<xyz>-2.896640395373936e-31 -3.330669073875482e-16 1.0000000000000013</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.005</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="E_1" type="prismatic">
+			<parent>Rahmen</parent>
+			<child>E_1</child>
+			<pose frame="">-3.655164431850544e-05 -0.053878615066838144 -0.0010136308647518532 0 0 0</pose>
+			<axis>
+				<xyz>-2.896640395373936e-31 -3.330669073875482e-16 1.0000000000000013</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.005</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="F_1" type="prismatic">
+			<parent>Rahmen</parent>
+			<child>F_1</child>
+			<pose frame="">0.00024342228461761818 -0.05173073179782442 -0.0010143140339282741 0 0 0</pose>
+			<axis>
+				<xyz>-2.896640395373936e-31 -3.330669073875482e-16 1.0000000000000013</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.005</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="C_sharp_1" type="prismatic">
+			<parent>Rahmen</parent>
+			<child>C_sharp_1</child>
+			<pose frame="">-0.00017164612918186607 -0.05563944992705725 -0.0010127771215046799 0 0 0</pose>
+			<axis>
+				<xyz>-3.0834253278416563e-31 -3.330669073875481e-16 1.0000000000000013</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.005</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="D_sharp_1" type="prismatic">
+			<parent>Rahmen</parent>
+			<child>D_sharp_1</child>
+			<pose frame="">4.2952503758790783e-05 -0.05345862630717125 -0.0010133755142585521 0 0 0</pose>
+			<axis>
+				<xyz>-3.0834253278416563e-31 -3.330669073875481e-16 1.0000000000000013</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.005</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<plugin filename="libHitDetection.so" name="HitDetection"/>
+	</model>
+</sdf>

@@ -1,0 +1,52 @@
+mass[kg] 	 COM[cm] 			 component name
+COM: base
+----------------------------------------------------------------
+Mass of base: 31.011839
+COM of base: 0.000000 0.000000 0.000000
+----------------------------------------------------------------
+Body: base
+looking for cached base
+basenot found, copying bodies to new component
+exporting stl of base
+mass[kg] 	 COM[cm] 			 component name
+COM: link0
+----------------------------------------------------------------
+Mass of link0: 0.636489
+COM of link0: 5.500000 -0.000000 1.500000
+----------------------------------------------------------------
+Body: link0
+looking for cached link0
+link0not found, copying bodies to new component
+exporting stl of link0
+mass[kg] 	 COM[cm] 			 component name
+COM: link1
+----------------------------------------------------------------
+Mass of link1: 1.864820
+COM of link1: 11.172617 -0.000000 9.500000
+----------------------------------------------------------------
+Body: link1
+looking for cached link1
+link1not found, copying bodies to new component
+exporting stl of link1
+mass[kg] 	 COM[cm] 			 component name
+COM: link2
+----------------------------------------------------------------
+Mass of link2: 0.636489
+COM of link2: 5.500000 0.000000 14.984390
+----------------------------------------------------------------
+Body: link2
+looking for cached link2
+link2not found, copying bodies to new component
+exporting stl of link2
+Joint: EXPORT_joint2
+	parent: link1
+	child: link2
+	pos: 5.672617288138614	0.0	0.0
+Joint: EXPORT_joint0
+	parent: base
+	child: link0
+	pos: -5.5	1.019764304863026e-16	-0.5
+Joint: EXPORT_joint1
+	parent: link0
+	child: link1
+	pos: 0.0	0.0	-7.5
