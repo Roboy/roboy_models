@@ -1,0 +1,17 @@
+Body: base
+COM: base 23.971216602585308 -0.6119047666083844 -30.188293847157656
+exporting stl of base
+Body: lower_arm
+COM: lower_arm 23.714469248795982 26.71544486921548 -29.75627401118544
+exporting stl of lower_arm
+Body: upper_arm
+COM: upper_arm 23.772306114161413 60.46420482756059 -29.898749930157067
+exporting stl of upper_arm
+Joint: EXPORT_lower_joint
+	parent: lower_arm
+	child: base
+	pos: 25.75	4.0660660168649585	-30.200000000000003
+Joint: EXPORT_upper_joint
+	parent: lower_arm
+	child: upper_arm
+	pos: 24.119999999999944	46.68886315706825	-29.895431080373807

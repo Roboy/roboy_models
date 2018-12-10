@@ -1,0 +1,161 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+	<model name="musc-le">
+		<link name="base">
+			<self_collide>false</self_collide>
+			<pose frame="">0.0 0.0 0.0 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>4.110817491145617</mass>
+				<inertia>
+					<ixx>0.6384229692143341</ixx>
+					<ixy>0.0056304060147132845</ixy>
+					<ixz>-0.007247432807289583</ixz>
+					<iyy>0.9355691945779423</iyy>
+					<iyz>0.29722779118383613</iyz>
+					<izz>0.2983475104112495</izz>
+				</inertia>
+			</inertial>
+			<collision name="base_collision">
+				<geometry>
+					<mesh>
+						<uri>model://musc-le/meshes/CAD/base.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="base_visual">
+				<geometry>
+					<mesh>
+						<uri>model://musc-le/meshes/CAD/base.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="lower_arm">
+			<self_collide>false</self_collide>
+			<pose frame="">0.0 0.0 0.0 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>1.2901732110513306</mass>
+				<inertia>
+					<ixx>0.23450641221284446</ixx>
+					<ixy>-0.08153764938061582</ixy>
+					<ixz>0.10215789720735882</ixz>
+					<iyy>0.18719727166109879</iyy>
+					<iyz>0.09111528593147927</iyz>
+					<izz>0.19276277957793264</izz>
+				</inertia>
+			</inertial>
+			<collision name="lower_arm_collision">
+				<geometry>
+					<mesh>
+						<uri>model://musc-le/meshes/CAD/lower_arm.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="lower_arm_visual">
+				<geometry>
+					<mesh>
+						<uri>model://musc-le/meshes/CAD/lower_arm.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="upper_arm">
+			<self_collide>false</self_collide>
+			<pose frame="">0.0 0.0 0.0 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.7435346715582275</mass>
+				<inertia>
+					<ixx>0.34952317037878927</ixx>
+					<ixy>-0.10688751289004497</ixy>
+					<ixz>0.13441767658458398</ixz>
+					<iyy>0.10859018120265616</iyy>
+					<iyz>0.052847657617498066</iyz>
+					<izz>0.32508696831695105</izz>
+				</inertia>
+			</inertial>
+			<collision name="upper_arm_collision">
+				<geometry>
+					<mesh>
+						<uri>model://musc-le/meshes/CAD/upper_arm.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="upper_arm_visual">
+				<geometry>
+					<mesh>
+						<uri>model://musc-le/meshes/CAD/upper_arm.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<joint name="lower_joint" type="revolute">
+			<parent>lower_arm</parent>
+			<child>base</child>
+			<pose frame="">0.2575 0.04066066016864959 -0.30200000000000005 0 0 0</pose>
+			<axis>
+				<xyz>-1.0 8.88178419700125e-16 -2.38764662138316e-16</xyz>
+				<limit>
+					<lower>-1.0471975511965976</lower>
+					<upper>1.0471975511965976</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="upper_joint" type="revolute">
+			<parent>lower_arm</parent>
+			<child>upper_arm</child>
+			<pose frame="">0.24119999999999944 0.4668886315706825 -0.2989543108037381 0 0 0</pose>
+			<axis>
+				<xyz>1.0000000000000002 -9.575673587391975e-16 8.881784197001252e-16</xyz>
+				<limit>
+					<lower>-1.5707963267948966</lower>
+					<upper>1.5707963267948966</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<plugin filename="libmusc_plugin.so" name="musc_plugin">
+			<myoMuscle name="motor0">
+				<link name="base">
+					<viaPoint type="FIXPOINT">0.23714276917425314 0.01844528288015354 -0.16798947334569903</viaPoint>
+				</link>
+				<link name="lower_arm">
+					<viaPoint type="FIXPOINT">0.23871195257306102 0.11088746394825187 -0.297893650815676</viaPoint>
+				</link>
+			</myoMuscle>
+			<myoMuscle name="motor1">
+				<link name="base">
+					<viaPoint type="FIXPOINT">0.23591778456875856 0.019595096578522802 -0.43101001499812663</viaPoint>
+				</link>
+				<link name="lower_arm">
+					<viaPoint type="FIXPOINT">0.23871195257306102 0.11088746394825187 -0.306893650815676</viaPoint>
+				</link>
+			</myoMuscle>
+			<myoMuscle name="motor2">
+				<link name="lower_arm">
+					<viaPoint type="FIXPOINT">0.23611778456875904 0.3591506464198291 -0.2760589879821637</viaPoint>
+				</link>
+				<link name="upper_arm">
+					<viaPoint type="FIXPOINT">0.23970019557733968 0.4806687350960076 -0.2827244526742986</viaPoint>
+				</link>
+			</myoMuscle>
+			<myoMuscle name="motor3">
+				<link name="lower_arm">
+					<viaPoint type="FIXPOINT">0.2398822154312414 0.33415064641983044 -0.3318496339891881</viaPoint>
+				</link>
+				<link name="upper_arm">
+					<viaPoint type="FIXPOINT">0.2397001955773397 0.48066873509600755 -0.3151841689331776</viaPoint>
+				</link>
+			</myoMuscle>
+		</plugin>
+	</model>
+</sdf>
