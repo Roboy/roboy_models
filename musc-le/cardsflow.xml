@@ -2,34 +2,34 @@
 <cardsflow>
 	<myoMuscle name="motor0">
 		<link name="base">
-			<viaPoint type="FIXPOINT">0.23714276917425314 0.01844528288015354 -0.16798947334569903</viaPoint>
+			<viaPoint type="FIXPOINT">-0.0025693968515999544 0.024564330546237384 0.13389346512587755</viaPoint>
 		</link>
 		<link name="lower_arm">
-			<viaPoint type="FIXPOINT">0.23871195257306102 0.11088746394825187 -0.297893650815676</viaPoint>
+			<viaPoint type="FIXPOINT">0.0015672600851011965 -0.15626698474390296 -0.0003309107038215942</viaPoint>
 		</link>
 	</myoMuscle>
 	<myoMuscle name="motor1">
 		<link name="base">
-			<viaPoint type="FIXPOINT">0.23591778456875856 0.019595096578522802 -0.43101001499812663</viaPoint>
+			<viaPoint type="FIXPOINT">-0.003794381457094538 0.02571414424460665 -0.12912707652655006</viaPoint>
 		</link>
 		<link name="lower_arm">
-			<viaPoint type="FIXPOINT">0.23871195257306102 0.11088746394825187 -0.306893650815676</viaPoint>
+			<viaPoint type="FIXPOINT">0.0015672600851011965 -0.15626698474390296 -0.00933091070382158</viaPoint>
 		</link>
 	</myoMuscle>
 	<myoMuscle name="motor2">
 		<link name="lower_arm">
-			<viaPoint type="FIXPOINT">0.23611778456875904 0.3591506464198291 -0.2760589879821637</viaPoint>
+			<viaPoint type="FIXPOINT">-0.001026907919200788 0.09199619772767427 0.02150375212969067</viaPoint>
 		</link>
 		<link name="upper_arm">
-			<viaPoint type="FIXPOINT">0.23970019557733968 0.4806687350960076 -0.2827244526742986</viaPoint>
+			<viaPoint type="FIXPOINT">0.001977134435725532 -0.12397331317959832 0.016263046627272112</viaPoint>
 		</link>
 	</myoMuscle>
 	<myoMuscle name="motor3">
 		<link name="lower_arm">
-			<viaPoint type="FIXPOINT">0.2398822154312414 0.33415064641983044 -0.3318496339891881</viaPoint>
+			<viaPoint type="FIXPOINT">0.002737522943281583 0.06699619772767562 -0.03428689387733371</viaPoint>
 		</link>
 		<link name="upper_arm">
-			<viaPoint type="FIXPOINT">0.2397001955773397 0.48066873509600755 -0.3151841689331776</viaPoint>
+			<viaPoint type="FIXPOINT">0.0019771344357255674 -0.1239733131795984 -0.01619666963160693</viaPoint>
 		</link>
 	</myoMuscle>
 </cardsflow>
